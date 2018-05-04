@@ -33,6 +33,10 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
             this.label38 = new System.Windows.Forms.Label();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
@@ -54,11 +58,21 @@
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
@@ -75,6 +89,9 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -106,6 +123,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -126,8 +145,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.calcDetails = new System.Windows.Forms.Label();
-            this.calcNeutral = new System.Windows.Forms.GroupBox();
+            this.groupBox = new System.Windows.Forms.GroupBox();
+            this.calcAllElePict = new System.Windows.Forms.PictureBox();
+            this.calcSecPict = new System.Windows.Forms.PictureBox();
+            this.calcElePict = new System.Windows.Forms.PictureBox();
+            this.calcExhPict = new System.Windows.Forms.PictureBox();
+            this.calcKOPict = new System.Windows.Forms.PictureBox();
+            this.calcAllSecPict = new System.Windows.Forms.PictureBox();
             this.calcExhAll = new System.Windows.Forms.TextBox();
             this.label78 = new System.Windows.Forms.Label();
             this.calcKOAll = new System.Windows.Forms.TextBox();
@@ -153,7 +177,7 @@
             this.calcRawWeap = new System.Windows.Forms.TextBox();
             this.label68 = new System.Windows.Forms.Label();
             this.calcOutput = new System.Windows.Forms.Button();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.calcNeutral = new System.Windows.Forms.RadioButton();
             this.calcNegative = new System.Windows.Forms.RadioButton();
             this.calcPositive = new System.Windows.Forms.RadioButton();
             this.calcAverage = new System.Windows.Forms.RadioButton();
@@ -180,6 +204,7 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.paraAffinity = new System.Windows.Forms.TextBox();
             this.paraChaotic = new System.Windows.Forms.CheckBox();
+            this.paraElePict = new System.Windows.Forms.PictureBox();
             this.paraUpdate = new System.Windows.Forms.Button();
             this.paraMadAff = new System.Windows.Forms.CheckBox();
             this.paraStatusCrit = new System.Windows.Forms.CheckBox();
@@ -188,6 +213,7 @@
             this.paraFixed = new System.Windows.Forms.CheckBox();
             this.label57 = new System.Windows.Forms.Label();
             this.paraSecPower = new System.Windows.Forms.TextBox();
+            this.paraSecPict = new System.Windows.Forms.PictureBox();
             this.paraSecEle = new System.Windows.Forms.ComboBox();
             this.label56 = new System.Windows.Forms.Label();
             this.paraEleCrit = new System.Windows.Forms.ComboBox();
@@ -224,48 +250,15 @@
             this.ErrorPreventer = new System.Windows.Forms.ErrorProvider(this.components);
             this.label81 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.calcAllElePict = new System.Windows.Forms.PictureBox();
-            this.calcSecPict = new System.Windows.Forms.PictureBox();
-            this.calcElePict = new System.Windows.Forms.PictureBox();
-            this.calcExhPict = new System.Windows.Forms.PictureBox();
-            this.calcKOPict = new System.Windows.Forms.PictureBox();
-            this.calcAllSecPict = new System.Windows.Forms.PictureBox();
-            this.paraElePict = new System.Windows.Forms.PictureBox();
-            this.paraSecPict = new System.Windows.Forms.PictureBox();
+            this.calcDetails = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.calcNeutral.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -276,19 +269,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calcAllElePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcSecPict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcElePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcExhPict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcKOPict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcAllSecPict)).BeginInit();
+            this.groupBox6.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.paraElePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.paraSecPict)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -301,7 +301,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(892, 417);
+            this.tabControl1.Size = new System.Drawing.Size(892, 436);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -314,7 +314,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(884, 391);
+            this.tabPage1.Size = new System.Drawing.Size(884, 410);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Stats";
             // 
@@ -335,12 +335,44 @@
             this.groupBox4.Controls.Add(this.button8);
             this.groupBox4.Controls.Add(this.button7);
             this.groupBox4.Controls.Add(this.listBox1);
-            this.groupBox4.Location = new System.Drawing.Point(453, 222);
+            this.groupBox4.Location = new System.Drawing.Point(453, 224);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(424, 158);
+            this.groupBox4.Size = new System.Drawing.Size(424, 175);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Active Modifiers";
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Location = new System.Drawing.Point(233, 100);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox19.TabIndex = 31;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Location = new System.Drawing.Point(233, 74);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox18.TabIndex = 30;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Location = new System.Drawing.Point(233, 46);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox17.TabIndex = 29;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Location = new System.Drawing.Point(233, 20);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox16.TabIndex = 28;
+            this.pictureBox16.TabStop = false;
             // 
             // comboBox10
             // 
@@ -412,7 +444,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(133, 129);
+            this.button8.Location = new System.Drawing.Point(133, 137);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(120, 23);
             this.button8.TabIndex = 2;
@@ -421,7 +453,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(6, 129);
+            this.button7.Location = new System.Drawing.Point(6, 137);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(121, 23);
             this.button7.TabIndex = 1;
@@ -433,7 +465,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(259, 7);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(165, 147);
+            this.listBox1.Size = new System.Drawing.Size(165, 160);
             this.listBox1.TabIndex = 0;
             // 
             // groupBox3
@@ -564,6 +596,46 @@
             this.label31.Size = new System.Drawing.Size(405, 2);
             this.label31.TabIndex = 24;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(396, 121);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox8.TabIndex = 38;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(396, 96);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox9.TabIndex = 37;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Location = new System.Drawing.Point(396, 69);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox10.TabIndex = 36;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Location = new System.Drawing.Point(396, 43);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox11.TabIndex = 35;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Location = new System.Drawing.Point(396, 17);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox12.TabIndex = 34;
+            this.pictureBox12.TabStop = false;
+            // 
             // textBox17
             // 
             this.textBox17.Location = new System.Drawing.Point(315, 17);
@@ -608,6 +680,46 @@
             this.textBox21.TabIndex = 29;
             this.textBox21.Text = "0";
             this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(180, 121);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox7.TabIndex = 28;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(180, 96);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox6.TabIndex = 27;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(180, 69);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox5.TabIndex = 26;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(180, 43);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox4.TabIndex = 25;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(180, 17);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.TabIndex = 24;
+            this.pictureBox3.TabStop = false;
             // 
             // textBox16
             // 
@@ -771,24 +883,48 @@
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Location = new System.Drawing.Point(6, 196);
+            this.groupBox2.Location = new System.Drawing.Point(6, 198);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(440, 184);
+            this.groupBox2.Size = new System.Drawing.Size(440, 201);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Move Stats";
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Location = new System.Drawing.Point(409, 14);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox13.TabIndex = 32;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Location = new System.Drawing.Point(409, 65);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox23.TabIndex = 31;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Location = new System.Drawing.Point(409, 39);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox22.TabIndex = 30;
+            this.pictureBox22.TabStop = false;
             // 
             // label20
             // 
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label20.Location = new System.Drawing.Point(236, 9);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(2, 171);
+            this.label20.Size = new System.Drawing.Size(2, 189);
             this.label20.TabIndex = 24;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(121, 137);
+            this.button4.Location = new System.Drawing.Point(121, 146);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(105, 23);
             this.button4.TabIndex = 20;
@@ -797,7 +933,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(11, 137);
+            this.button3.Location = new System.Drawing.Point(11, 146);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 23);
             this.button3.TabIndex = 19;
@@ -1111,6 +1247,22 @@
             this.comboBox5.Size = new System.Drawing.Size(100, 21);
             this.comboBox5.TabIndex = 21;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(206, 70);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(409, 70);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
             // comboBox4
             // 
             this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -1325,68 +1477,116 @@
             // 
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Controls.Add(this.calcDetails);
-            this.tabPage2.Controls.Add(this.calcNeutral);
+            this.tabPage2.Controls.Add(this.groupBox);
             this.tabPage2.Controls.Add(this.groupBox6);
             this.tabPage2.Controls.Add(this.groupBox5);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(884, 391);
+            this.tabPage2.Size = new System.Drawing.Size(884, 410);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Calculation";
             // 
-            // calcDetails
+            // groupBox
             // 
-            this.calcDetails.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.calcDetails.Location = new System.Drawing.Point(7, 349);
-            this.calcDetails.Name = "calcDetails";
-            this.calcDetails.Size = new System.Drawing.Size(867, 39);
-            this.calcDetails.TabIndex = 3;
+            this.groupBox.Controls.Add(this.calcAllElePict);
+            this.groupBox.Controls.Add(this.calcSecPict);
+            this.groupBox.Controls.Add(this.calcElePict);
+            this.groupBox.Controls.Add(this.calcExhPict);
+            this.groupBox.Controls.Add(this.calcKOPict);
+            this.groupBox.Controls.Add(this.calcAllSecPict);
+            this.groupBox.Controls.Add(this.calcExhAll);
+            this.groupBox.Controls.Add(this.label78);
+            this.groupBox.Controls.Add(this.calcKOAll);
+            this.groupBox.Controls.Add(this.label79);
+            this.groupBox.Controls.Add(this.calcSecAll);
+            this.groupBox.Controls.Add(this.label77);
+            this.groupBox.Controls.Add(this.calcEleAll);
+            this.groupBox.Controls.Add(this.label75);
+            this.groupBox.Controls.Add(this.calcRawAll);
+            this.groupBox.Controls.Add(this.label76);
+            this.groupBox.Controls.Add(this.calcBounce);
+            this.groupBox.Controls.Add(this.label74);
+            this.groupBox.Controls.Add(this.calcFinal);
+            this.groupBox.Controls.Add(this.label73);
+            this.groupBox.Controls.Add(this.calcAll);
+            this.groupBox.Controls.Add(this.label72);
+            this.groupBox.Controls.Add(this.calcSecOut);
+            this.groupBox.Controls.Add(this.label70);
+            this.groupBox.Controls.Add(this.calcEleOut);
+            this.groupBox.Controls.Add(this.label71);
+            this.groupBox.Controls.Add(this.calcRawOut);
+            this.groupBox.Controls.Add(this.label69);
+            this.groupBox.Controls.Add(this.calcRawWeap);
+            this.groupBox.Controls.Add(this.label68);
+            this.groupBox.Controls.Add(this.calcOutput);
+            this.groupBox.Controls.Add(this.calcNeutral);
+            this.groupBox.Controls.Add(this.calcNegative);
+            this.groupBox.Controls.Add(this.calcPositive);
+            this.groupBox.Controls.Add(this.calcAverage);
+            this.groupBox.Controls.Add(this.label67);
+            this.groupBox.Location = new System.Drawing.Point(7, 207);
+            this.groupBox.Name = "groupBox";
+            this.groupBox.Size = new System.Drawing.Size(867, 135);
+            this.groupBox.TabIndex = 2;
+            this.groupBox.TabStop = false;
+            this.groupBox.Text = "Calculate";
             // 
-            // calcNeutral
+            // calcAllElePict
             // 
-            this.calcNeutral.Controls.Add(this.calcAllElePict);
-            this.calcNeutral.Controls.Add(this.calcSecPict);
-            this.calcNeutral.Controls.Add(this.calcElePict);
-            this.calcNeutral.Controls.Add(this.calcExhPict);
-            this.calcNeutral.Controls.Add(this.calcKOPict);
-            this.calcNeutral.Controls.Add(this.calcAllSecPict);
-            this.calcNeutral.Controls.Add(this.calcExhAll);
-            this.calcNeutral.Controls.Add(this.label78);
-            this.calcNeutral.Controls.Add(this.calcKOAll);
-            this.calcNeutral.Controls.Add(this.label79);
-            this.calcNeutral.Controls.Add(this.calcSecAll);
-            this.calcNeutral.Controls.Add(this.label77);
-            this.calcNeutral.Controls.Add(this.calcEleAll);
-            this.calcNeutral.Controls.Add(this.label75);
-            this.calcNeutral.Controls.Add(this.calcRawAll);
-            this.calcNeutral.Controls.Add(this.label76);
-            this.calcNeutral.Controls.Add(this.calcBounce);
-            this.calcNeutral.Controls.Add(this.label74);
-            this.calcNeutral.Controls.Add(this.calcFinal);
-            this.calcNeutral.Controls.Add(this.label73);
-            this.calcNeutral.Controls.Add(this.calcAll);
-            this.calcNeutral.Controls.Add(this.label72);
-            this.calcNeutral.Controls.Add(this.calcSecOut);
-            this.calcNeutral.Controls.Add(this.label70);
-            this.calcNeutral.Controls.Add(this.calcEleOut);
-            this.calcNeutral.Controls.Add(this.label71);
-            this.calcNeutral.Controls.Add(this.calcRawOut);
-            this.calcNeutral.Controls.Add(this.label69);
-            this.calcNeutral.Controls.Add(this.calcRawWeap);
-            this.calcNeutral.Controls.Add(this.label68);
-            this.calcNeutral.Controls.Add(this.calcOutput);
-            this.calcNeutral.Controls.Add(this.radioButton4);
-            this.calcNeutral.Controls.Add(this.calcNegative);
-            this.calcNeutral.Controls.Add(this.calcPositive);
-            this.calcNeutral.Controls.Add(this.calcAverage);
-            this.calcNeutral.Controls.Add(this.label67);
-            this.calcNeutral.Location = new System.Drawing.Point(7, 207);
-            this.calcNeutral.Name = "calcNeutral";
-            this.calcNeutral.Size = new System.Drawing.Size(867, 135);
-            this.calcNeutral.TabIndex = 2;
-            this.calcNeutral.TabStop = false;
-            this.calcNeutral.Text = "Calculate";
+            this.calcAllElePict.Location = new System.Drawing.Point(690, 64);
+            this.calcAllElePict.Name = "calcAllElePict";
+            this.calcAllElePict.Size = new System.Drawing.Size(20, 20);
+            this.calcAllElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.calcAllElePict.TabIndex = 56;
+            this.calcAllElePict.TabStop = false;
+            // 
+            // calcSecPict
+            // 
+            this.calcSecPict.Location = new System.Drawing.Point(335, 105);
+            this.calcSecPict.Name = "calcSecPict";
+            this.calcSecPict.Size = new System.Drawing.Size(20, 20);
+            this.calcSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.calcSecPict.TabIndex = 55;
+            this.calcSecPict.TabStop = false;
+            // 
+            // calcElePict
+            // 
+            this.calcElePict.Location = new System.Drawing.Point(335, 64);
+            this.calcElePict.Name = "calcElePict";
+            this.calcElePict.Size = new System.Drawing.Size(20, 20);
+            this.calcElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.calcElePict.TabIndex = 54;
+            this.calcElePict.TabStop = false;
+            // 
+            // calcExhPict
+            // 
+            this.calcExhPict.Image = global::MHXXDamageCalc.Properties.Resources.Exhaust;
+            this.calcExhPict.Location = new System.Drawing.Point(825, 104);
+            this.calcExhPict.Name = "calcExhPict";
+            this.calcExhPict.Size = new System.Drawing.Size(20, 20);
+            this.calcExhPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.calcExhPict.TabIndex = 53;
+            this.calcExhPict.TabStop = false;
+            // 
+            // calcKOPict
+            // 
+            this.calcKOPict.Image = global::MHXXDamageCalc.Properties.Resources.KO;
+            this.calcKOPict.Location = new System.Drawing.Point(826, 65);
+            this.calcKOPict.Name = "calcKOPict";
+            this.calcKOPict.Size = new System.Drawing.Size(20, 20);
+            this.calcKOPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.calcKOPict.TabIndex = 52;
+            this.calcKOPict.TabStop = false;
+            // 
+            // calcAllSecPict
+            // 
+            this.calcAllSecPict.Location = new System.Drawing.Point(690, 105);
+            this.calcAllSecPict.Name = "calcAllSecPict";
+            this.calcAllSecPict.Size = new System.Drawing.Size(20, 20);
+            this.calcAllSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.calcAllSecPict.TabIndex = 51;
+            this.calcAllSecPict.TabStop = false;
             // 
             // calcExhAll
             // 
@@ -1531,6 +1731,7 @@
             this.calcAll.TabIndex = 26;
             this.calcAll.Text = "Calculate All";
             this.calcAll.UseVisualStyleBackColor = true;
+            this.calcAll.Click += new System.EventHandler(this.calcAll_Click);
             // 
             // label72
             // 
@@ -1626,16 +1827,16 @@
             this.calcOutput.UseVisualStyleBackColor = true;
             this.calcOutput.Click += new System.EventHandler(this.calcOutput_Click);
             // 
-            // radioButton4
+            // calcNeutral
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(9, 106);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(59, 17);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Neutral";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.calcNeutral.AutoSize = true;
+            this.calcNeutral.Location = new System.Drawing.Point(9, 106);
+            this.calcNeutral.Name = "calcNeutral";
+            this.calcNeutral.Size = new System.Drawing.Size(59, 17);
+            this.calcNeutral.TabIndex = 4;
+            this.calcNeutral.TabStop = true;
+            this.calcNeutral.Text = "Neutral";
+            this.calcNeutral.UseVisualStyleBackColor = true;
             // 
             // calcNegative
             // 
@@ -1769,16 +1970,17 @@
             // paraMonStatus
             // 
             this.paraMonStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.paraMonStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paraMonStatus.FormattingEnabled = true;
             this.paraMonStatus.Items.AddRange(new object[] {
             "Normal",
-            "Pitfall Trapped",
-            "Sleeping (Bomb)",
-            "Sleeping (Else)",
-            "Paralyzed"});
+            "Pitfall Trapped  (1.1x)",
+            "Sleeping (Bomb) (3x)",
+            "Sleeping (Else) (2x)",
+            "Paralyzed (1.1x)"});
             this.paraMonStatus.Location = new System.Drawing.Point(9, 121);
             this.paraMonStatus.Name = "paraMonStatus";
-            this.paraMonStatus.Size = new System.Drawing.Size(100, 21);
+            this.paraMonStatus.Size = new System.Drawing.Size(100, 20);
             this.paraMonStatus.TabIndex = 21;
             // 
             // label63
@@ -1963,6 +2165,15 @@
             this.paraChaotic.UseVisualStyleBackColor = true;
             this.paraChaotic.CheckedChanged += new System.EventHandler(this.paraChaotic_CheckedChanged);
             // 
+            // paraElePict
+            // 
+            this.paraElePict.Location = new System.Drawing.Point(310, 75);
+            this.paraElePict.Name = "paraElePict";
+            this.paraElePict.Size = new System.Drawing.Size(20, 20);
+            this.paraElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.paraElePict.TabIndex = 51;
+            this.paraElePict.TabStop = false;
+            // 
             // paraUpdate
             // 
             this.paraUpdate.Location = new System.Drawing.Point(6, 20);
@@ -2021,6 +2232,7 @@
             this.paraFixed.TabIndex = 45;
             this.paraFixed.Text = "Fixed Damage?";
             this.paraFixed.UseVisualStyleBackColor = true;
+            this.paraFixed.CheckedChanged += new System.EventHandler(this.paraFixed_CheckedChanged);
             // 
             // label57
             // 
@@ -2041,6 +2253,15 @@
             this.paraSecPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.paraSecPower.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraSecPower.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // paraSecPict
+            // 
+            this.paraSecPict.Location = new System.Drawing.Point(522, 164);
+            this.paraSecPict.Name = "paraSecPict";
+            this.paraSecPict.Size = new System.Drawing.Size(20, 20);
+            this.paraSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.paraSecPict.TabIndex = 42;
+            this.paraSecPict.TabStop = false;
             // 
             // paraSecEle
             // 
@@ -2075,16 +2296,17 @@
             // paraEleCrit
             // 
             this.paraEleCrit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.paraEleCrit.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paraEleCrit.FormattingEnabled = true;
             this.paraEleCrit.Items.AddRange(new object[] {
             "No",
-            "SnS/DB/Bow",
-            "LBG/HBG",
-            "Other",
-            "GS"});
+            "SnS/DB/Bow (1.35x)",
+            "LBG/HBG (1.3x)",
+            "Other (1.25x)",
+            "GS (1.2x)"});
             this.paraEleCrit.Location = new System.Drawing.Point(124, 121);
             this.paraEleCrit.Name = "paraEleCrit";
-            this.paraEleCrit.Size = new System.Drawing.Size(100, 21);
+            this.paraEleCrit.Size = new System.Drawing.Size(100, 20);
             this.paraEleCrit.TabIndex = 13;
             // 
             // label55
@@ -2208,7 +2430,7 @@
             this.paraHitCount.Name = "paraHitCount";
             this.paraHitCount.Size = new System.Drawing.Size(100, 20);
             this.paraHitCount.TabIndex = 12;
-            this.paraHitCount.Text = "0";
+            this.paraHitCount.Text = "1";
             this.paraHitCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.paraHitCount.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraHitCount.Validated += new System.EventHandler(this.GenericField_Validated);
@@ -2418,7 +2640,7 @@
             // label81
             // 
             this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(16, 436);
+            this.label81.Location = new System.Drawing.Point(16, 451);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(171, 13);
             this.label81.TabIndex = 1;
@@ -2427,248 +2649,33 @@
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(347, 436);
+            this.label52.Location = new System.Drawing.Point(347, 451);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(553, 13);
             this.label52.TabIndex = 2;
             this.label52.Text = "NOTE: If you are using this calculator for World purposes. there is no guarantee " +
     "that this will return accurate values. ";
             // 
-            // pictureBox19
+            // calcDetails
             // 
-            this.pictureBox19.Location = new System.Drawing.Point(233, 100);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox19.TabIndex = 31;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Location = new System.Drawing.Point(233, 74);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox18.TabIndex = 30;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Location = new System.Drawing.Point(233, 46);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox17.TabIndex = 29;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Location = new System.Drawing.Point(233, 20);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox16.TabIndex = 28;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(396, 121);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox8.TabIndex = 38;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(396, 96);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox9.TabIndex = 37;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(396, 69);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox10.TabIndex = 36;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(396, 43);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox11.TabIndex = 35;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Location = new System.Drawing.Point(396, 17);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox12.TabIndex = 34;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(180, 121);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox7.TabIndex = 28;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(180, 96);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox6.TabIndex = 27;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(180, 69);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox5.TabIndex = 26;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(180, 43);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox4.TabIndex = 25;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(180, 17);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.TabIndex = 24;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Location = new System.Drawing.Point(409, 14);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox13.TabIndex = 32;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Location = new System.Drawing.Point(409, 65);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox23.TabIndex = 31;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Location = new System.Drawing.Point(409, 39);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox22.TabIndex = 30;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(206, 70);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(409, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            // 
-            // calcAllElePict
-            // 
-            this.calcAllElePict.Location = new System.Drawing.Point(690, 64);
-            this.calcAllElePict.Name = "calcAllElePict";
-            this.calcAllElePict.Size = new System.Drawing.Size(20, 20);
-            this.calcAllElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.calcAllElePict.TabIndex = 56;
-            this.calcAllElePict.TabStop = false;
-            // 
-            // calcSecPict
-            // 
-            this.calcSecPict.Location = new System.Drawing.Point(335, 105);
-            this.calcSecPict.Name = "calcSecPict";
-            this.calcSecPict.Size = new System.Drawing.Size(20, 20);
-            this.calcSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.calcSecPict.TabIndex = 55;
-            this.calcSecPict.TabStop = false;
-            // 
-            // calcElePict
-            // 
-            this.calcElePict.Location = new System.Drawing.Point(335, 64);
-            this.calcElePict.Name = "calcElePict";
-            this.calcElePict.Size = new System.Drawing.Size(20, 20);
-            this.calcElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.calcElePict.TabIndex = 54;
-            this.calcElePict.TabStop = false;
-            // 
-            // calcExhPict
-            // 
-            this.calcExhPict.Image = global::MHXXDamageCalc.Properties.Resources.Exhaust;
-            this.calcExhPict.Location = new System.Drawing.Point(825, 104);
-            this.calcExhPict.Name = "calcExhPict";
-            this.calcExhPict.Size = new System.Drawing.Size(20, 20);
-            this.calcExhPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.calcExhPict.TabIndex = 53;
-            this.calcExhPict.TabStop = false;
-            // 
-            // calcKOPict
-            // 
-            this.calcKOPict.Image = global::MHXXDamageCalc.Properties.Resources.KO;
-            this.calcKOPict.Location = new System.Drawing.Point(826, 65);
-            this.calcKOPict.Name = "calcKOPict";
-            this.calcKOPict.Size = new System.Drawing.Size(20, 20);
-            this.calcKOPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.calcKOPict.TabIndex = 52;
-            this.calcKOPict.TabStop = false;
-            // 
-            // calcAllSecPict
-            // 
-            this.calcAllSecPict.Location = new System.Drawing.Point(690, 105);
-            this.calcAllSecPict.Name = "calcAllSecPict";
-            this.calcAllSecPict.Size = new System.Drawing.Size(20, 20);
-            this.calcAllSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.calcAllSecPict.TabIndex = 51;
-            this.calcAllSecPict.TabStop = false;
-            // 
-            // paraElePict
-            // 
-            this.paraElePict.Location = new System.Drawing.Point(310, 75);
-            this.paraElePict.Name = "paraElePict";
-            this.paraElePict.Size = new System.Drawing.Size(20, 20);
-            this.paraElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.paraElePict.TabIndex = 51;
-            this.paraElePict.TabStop = false;
-            // 
-            // paraSecPict
-            // 
-            this.paraSecPict.Location = new System.Drawing.Point(522, 164);
-            this.paraSecPict.Name = "paraSecPict";
-            this.paraSecPict.Size = new System.Drawing.Size(20, 20);
-            this.paraSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.paraSecPict.TabIndex = 42;
-            this.paraSecPict.TabStop = false;
+            this.calcDetails.BackColor = System.Drawing.SystemColors.Control;
+            this.calcDetails.Location = new System.Drawing.Point(6, 349);
+            this.calcDetails.Name = "calcDetails";
+            this.calcDetails.ReadOnly = true;
+            this.calcDetails.Size = new System.Drawing.Size(868, 55);
+            this.calcDetails.TabIndex = 3;
+            this.calcDetails.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(908, 455);
+            this.ClientSize = new System.Drawing.Size(908, 470);
             this.Controls.Add(this.label52);
             this.Controls.Add(this.label81);
             this.Controls.Add(this.tabControl1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "(Yet Another) MHXX/MHGen Damage Calculator";
@@ -2676,24 +2683,12 @@
             this.tabPage1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.calcNeutral.ResumeLayout(false);
-            this.calcNeutral.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -2704,19 +2699,31 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.groupBox.ResumeLayout(false);
+            this.groupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calcAllElePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcSecPict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcElePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcExhPict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcKOPict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcAllSecPict)).EndInit();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.paraElePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.paraSecPict)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2897,7 +2904,7 @@
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.TextBox paraHealth;
         private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.GroupBox calcNeutral;
+        private System.Windows.Forms.GroupBox groupBox;
         private System.Windows.Forms.PictureBox calcExhPict;
         private System.Windows.Forms.PictureBox calcKOPict;
         private System.Windows.Forms.PictureBox calcAllSecPict;
@@ -2926,12 +2933,11 @@
         private System.Windows.Forms.TextBox calcRawWeap;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Button calcOutput;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton calcNeutral;
         private System.Windows.Forms.RadioButton calcNegative;
         private System.Windows.Forms.RadioButton calcPositive;
         private System.Windows.Forms.RadioButton calcAverage;
         private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label calcDetails;
         private System.Windows.Forms.PictureBox calcSecPict;
         private System.Windows.Forms.PictureBox calcElePict;
         private System.Windows.Forms.PictureBox paraElePict;
@@ -2945,6 +2951,7 @@
         private System.Windows.Forms.CheckBox paraChaotic;
         private System.Windows.Forms.PictureBox calcAllElePict;
         private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.RichTextBox calcDetails;
     }
 }
 
