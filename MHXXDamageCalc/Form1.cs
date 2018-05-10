@@ -15,6 +15,7 @@ namespace MHXXDamageCalc
         Dictionary<string, string> str2Pict = new Dictionary<string, string>(); //Stores conversion of strings to relative paths.
         Dictionary<string, Tuple<double, double>> sharpnessMods = new Dictionary<string, Tuple<double, double>>(); //Stores conversion of sharpness to sharpness modifiers.
         //The first number in the Tuple is the raw sharpness modifier, the second is the elemental sharpness modifier.
+        string[] originalSharpness = new string[] { "(No Sharpness)", "Purple *", "White", "Blue", "Green", "Yellow", "Orange", "Red" };
 
         public Form1()
         {
@@ -43,10 +44,16 @@ namespace MHXXDamageCalc
             sharpnessMods.Add("Yellow", new Tuple<double, double>(1.00, 0.75));
             sharpnessMods.Add("Orange", new Tuple<double, double>(0.75, 0.50));
             sharpnessMods.Add("Red", new Tuple<double, double>(0.50, 0.25));
+
+
         }
 
         public void setSelected()
         {
+            weapEle.SelectedIndex = 0;
+            weapSharpness.SelectedIndex = 0;
+            weapSec.SelectedIndex = 0;
+
             paraAltType.SelectedIndex = 0;
             paraSharp.SelectedIndex = 0;
             paraEleCrit.SelectedIndex = 0;
@@ -196,7 +203,7 @@ namespace MHXXDamageCalc
                 paraEleHit.Text = "0";
                 paraEleHit.Enabled = false;
 
-                paraEleSharp.Text = "1";
+                paraEleSharp.Text = "1.0";
                 paraEleSharp.Enabled = false;
 
                 paraEleCrit.SelectedIndex = 0;
@@ -307,7 +314,7 @@ namespace MHXXDamageCalc
                 paraSharp.SelectedIndex = 0;
                 paraSharp.Enabled = false;
 
-                paraRawSharp.Text = "1";
+                paraRawSharp.Text = "1.0";
                 paraRawSharp.Enabled = false;
 
                 paraChaotic.Checked = false;
@@ -315,6 +322,12 @@ namespace MHXXDamageCalc
 
                 paraAffinity.Text = "0";
                 paraAffinity.Enabled = false;
+
+                paraPosAff.Text = "0";
+                paraPosAff.Enabled = false;
+
+                paraNegAff.Text = "0";
+                paraNegAff.Enabled = false;
 
                 paraEleCrit.SelectedIndex = 0;
                 paraEleCrit.Enabled = false;
@@ -339,6 +352,8 @@ namespace MHXXDamageCalc
                 paraRawSharp.Enabled = true;
                 paraChaotic.Enabled = true;
                 paraAffinity.Enabled = true;
+                paraPosAff.Enabled = true;
+                paraNegAff.Enabled = true;
                 paraEleCrit.Enabled = true;
                 paraHitzone.Enabled = true;
                 if (paraAltType.SelectedIndex >= 1 && paraAltType.SelectedIndex <= 5)
@@ -367,10 +382,10 @@ namespace MHXXDamageCalc
             calcDetails.ResetText();
             Tuple<double, double, double, double> calcOutput = CalculateDamage();
 
-            calcRawWeap.Text = calcOutput.Item1.ToString("N4");
-            calcRawOut.Text = (calcOutput.Item2 * int.Parse(paraHitCount.Text)).ToString("N4");
-            calcEleOut.Text = (calcOutput.Item3 * int.Parse(paraHitCount.Text)).ToString("N4");
-            calcSecOut.Text = (calcOutput.Item4 * int.Parse(paraHitCount.Text)).ToString("N4");
+            calcRawWeap.Text = calcOutput.Item1.ToString("N2");
+            calcRawOut.Text = (calcOutput.Item2 * int.Parse(paraHitCount.Text)).ToString("N2");
+            calcEleOut.Text = (calcOutput.Item3 * int.Parse(paraHitCount.Text)).ToString("N2");
+            calcSecOut.Text = (calcOutput.Item4 * int.Parse(paraHitCount.Text)).ToString("N2");
 
             EffectiveRawCalc(calcOutput);
         }
@@ -380,44 +395,44 @@ namespace MHXXDamageCalc
             calcDetails.ResetText();
             Tuple<double, double, double, double> calcOutput = CalculateDamage();
 
-            calcRawWeap.Text = calcOutput.Item1.ToString("N4");
-            calcRawOut.Text = (calcOutput.Item2 * int.Parse(paraHitCount.Text)).ToString("N4");
-            calcEleOut.Text = (calcOutput.Item3 * int.Parse(paraHitCount.Text)).ToString("N4");
-            calcSecOut.Text = (calcOutput.Item4 * int.Parse(paraHitCount.Text)).ToString("N4");
+            calcRawWeap.Text = calcOutput.Item1.ToString("N2");
+            calcRawOut.Text = (calcOutput.Item2 * int.Parse(paraHitCount.Text)).ToString("N2");
+            calcEleOut.Text = (calcOutput.Item3 * int.Parse(paraHitCount.Text)).ToString("N2");
+            calcSecOut.Text = (calcOutput.Item4 * int.Parse(paraHitCount.Text)).ToString("N2");
 
             EffectiveRawCalc(calcOutput);
 
             Tuple<double, bool, double, double, double, double, double> allTuple = CalculateAllDamage(calcOutput);
-            calcFinal.Text = allTuple.Item1.ToString("N4");
+            calcFinal.Text = allTuple.Item1.ToString();
 
             if(allTuple.Item2)
             {
-                calcBounce.Text = "Yes";
+                calcBounce.Text = "No";
             }
             else
             {
-                calcBounce.Text = "No";
+                calcBounce.Text = "Yes";
             }
 
-            calcRawAll.Text = allTuple.Item3.ToString("N4"); //But with use of the outputted tuple from the moreDamage function.
+            calcRawAll.Text = allTuple.Item3.ToString("N2"); //But with use of the outputted tuple from the moreDamage function.
 
-            calcEleAll.Text = allTuple.Item4.ToString("N4");
-            calcSecAll.Text = allTuple.Item5.ToString("N4");
+            calcEleAll.Text = allTuple.Item4.ToString("N2");
+            calcSecAll.Text = allTuple.Item5.ToString("N2");
 
-            calcKOAll.Text = allTuple.Item6.ToString("N4");
-            calcExhAll.Text = allTuple.Item7.ToString("N4");
+            calcKOAll.Text = allTuple.Item6.ToString("N2");
+            calcExhAll.Text = allTuple.Item7.ToString("N2");
             HealthCalc(allTuple); //Estimate how many hits it would take to kill the monster.
         }
 
         private void EffectiveRawCalc(Tuple<double, double, double, double> calcOutput)
         {
             int hitCount = int.Parse(paraHitCount.Text);
-            string rawWeap = calcOutput.Item1.ToString("N4");
-            string rawOut = (calcOutput.Item2 * hitCount).ToString("N4");
-            string eleOut = calcOutput.Item3.ToString("N4");
-            string eleCombo = (calcOutput.Item3 * hitCount).ToString("N4");
-            string secOut = calcOutput.Item4.ToString("N4");
-            string secCombo = (calcOutput.Item4 * hitCount).ToString("N4");
+            string rawWeap = calcOutput.Item1.ToString("N2");
+            string rawOut = (calcOutput.Item2 * hitCount).ToString("N2");
+            string eleOut = calcOutput.Item3.ToString("N2");
+            string eleCombo = (calcOutput.Item3 * hitCount).ToString("N2");
+            string secOut = calcOutput.Item4.ToString("N2");
+            string secCombo = (calcOutput.Item4 * hitCount).ToString("N2");
 
             if (calcOutput.Item3 == 0)
             {
@@ -462,13 +477,13 @@ namespace MHXXDamageCalc
             double highHealth = Math.Ceiling(health * 1.025);
 
             string minHits = Math.Ceiling(lowHealth / finalDamage).ToString();
-            string minDamage = (finalDamage / lowHealth).ToString("N4");
+            string minDamage = (finalDamage / lowHealth * 100).ToString("N2");
             string avgHits = Math.Ceiling(health / finalDamage).ToString();
-            string avgDamage = (finalDamage / health).ToString("N4");
+            string avgDamage = (finalDamage / health * 100).ToString("N2");
             string maxHits = Math.Ceiling(highHealth / finalDamage).ToString();
-            string maxDamage = (finalDamage / highHealth).ToString("N4");
+            string maxDamage = (finalDamage / highHealth * 100).ToString("N2");
 
-            string[] formatArray = new string[] { paraHitCount.Text, finalDamage.ToString("N4"), avgHits, avgDamage, health.ToString(), minHits, minDamage, maxHits, maxDamage };
+            string[] formatArray = new string[] { paraHitCount.Text, finalDamage.ToString("N2"), avgHits, avgDamage, health.ToString(), minHits, minDamage, maxHits, maxDamage };
             string formatString = String.Format("With {0} hit(s) that deals {1} damage total, it will, on average, take {2} of these attacks ({3}%) to kill a monster with {4} health. At minimum health, it will take {5} attacks ({6}%), and at maximum health, it will take {7} attacks ({8}%).", formatArray);
             calcDetails.AppendText(formatString);
         }
@@ -715,6 +730,28 @@ namespace MHXXDamageCalc
             return false;
         }
 
-        
+        private void weapEle_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(weapEle.SelectedIndex == 0)
+            {
+                weapEleDamage.Text = "0";
+                weapEleDamage.Enabled = false;
+
+                weapElePict.Image = null;
+                return;
+            }
+
+            weapEleDamage.Enabled = true;
+            weapElePict.Load(str2Pict[weapEle.Text]);
+        }
+
+        private void weapSharpness_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            weapSharpOne.SelectedItem = weapSharpness.SelectedItem;
+            weapSharpTwo.SelectedItem = weapSharpness.SelectedItem;
+
+            weapSharpOne.Items.Clear();
+            
+        }
     }
 }

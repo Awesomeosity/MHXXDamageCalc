@@ -89,24 +89,24 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.moveTypePict = new System.Windows.Forms.PictureBox();
+            this.moveExhPict = new System.Windows.Forms.PictureBox();
+            this.moveKOPict = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.moveType = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.moveExhaust = new System.Windows.Forms.TextBox();
+            this.moveKO = new System.Windows.Forms.TextBox();
+            this.moveSharpMod = new System.Windows.Forms.TextBox();
+            this.moveElement = new System.Windows.Forms.TextBox();
+            this.moveHitCount = new System.Windows.Forms.TextBox();
+            this.moveMV = new System.Windows.Forms.TextBox();
+            this.moveAvg = new System.Windows.Forms.TextBox();
+            this.moveDraw = new System.Windows.Forms.CheckBox();
+            this.moveAerial = new System.Windows.Forms.CheckBox();
+            this.moveMinds = new System.Windows.Forms.CheckBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -115,36 +115,38 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.weapAffinity = new System.Windows.Forms.TextBox();
+            this.weapChaotic = new System.Windows.Forms.CheckBox();
+            this.weapNegAff = new System.Windows.Forms.TextBox();
+            this.weapNegative = new System.Windows.Forms.Label();
+            this.weapPositive = new System.Windows.Forms.Label();
+            this.weapOverride = new System.Windows.Forms.CheckBox();
+            this.weapDatabase = new System.Windows.Forms.Button();
+            this.weapReset = new System.Windows.Forms.Button();
+            this.weapSharpTwo = new System.Windows.Forms.ComboBox();
+            this.weapElePict = new System.Windows.Forms.PictureBox();
+            this.weapSecPict = new System.Windows.Forms.PictureBox();
+            this.weapSec = new System.Windows.Forms.ComboBox();
+            this.weapEle = new System.Windows.Forms.ComboBox();
+            this.weapSecDamage = new System.Windows.Forms.TextBox();
+            this.weapSharpOne = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.weapSharpness = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.weapPosAff = new System.Windows.Forms.TextBox();
+            this.weapEleDamage = new System.Windows.Forms.TextBox();
+            this.weapRaw = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.calcDetails = new System.Windows.Forms.RichTextBox();
             this.groupBox = new System.Windows.Forms.GroupBox();
             this.calcAllElePict = new System.Windows.Forms.PictureBox();
             this.calcSecPict = new System.Windows.Forms.PictureBox();
@@ -248,9 +250,7 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.ErrorPreventer = new System.Windows.Forms.ErrorProvider(this.components);
-            this.label81 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.calcDetails = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -270,12 +270,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveTypePict)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveExhPict)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveKOPict)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weapSecPict)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calcAllElePict)).BeginInit();
@@ -347,6 +347,7 @@
             this.pictureBox19.Location = new System.Drawing.Point(233, 100);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox19.TabIndex = 31;
             this.pictureBox19.TabStop = false;
             // 
@@ -355,6 +356,7 @@
             this.pictureBox18.Location = new System.Drawing.Point(233, 74);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox18.TabIndex = 30;
             this.pictureBox18.TabStop = false;
             // 
@@ -363,6 +365,7 @@
             this.pictureBox17.Location = new System.Drawing.Point(233, 46);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox17.TabIndex = 29;
             this.pictureBox17.TabStop = false;
             // 
@@ -371,6 +374,7 @@
             this.pictureBox16.Location = new System.Drawing.Point(233, 20);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox16.TabIndex = 28;
             this.pictureBox16.TabStop = false;
             // 
@@ -601,6 +605,7 @@
             this.pictureBox8.Location = new System.Drawing.Point(396, 121);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 38;
             this.pictureBox8.TabStop = false;
             // 
@@ -609,6 +614,7 @@
             this.pictureBox9.Location = new System.Drawing.Point(396, 96);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 37;
             this.pictureBox9.TabStop = false;
             // 
@@ -617,6 +623,7 @@
             this.pictureBox10.Location = new System.Drawing.Point(396, 69);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 36;
             this.pictureBox10.TabStop = false;
             // 
@@ -625,6 +632,7 @@
             this.pictureBox11.Location = new System.Drawing.Point(396, 43);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 35;
             this.pictureBox11.TabStop = false;
             // 
@@ -633,6 +641,7 @@
             this.pictureBox12.Location = new System.Drawing.Point(396, 17);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 34;
             this.pictureBox12.TabStop = false;
             // 
@@ -686,6 +695,7 @@
             this.pictureBox7.Location = new System.Drawing.Point(180, 121);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 28;
             this.pictureBox7.TabStop = false;
             // 
@@ -694,6 +704,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(180, 96);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 27;
             this.pictureBox6.TabStop = false;
             // 
@@ -702,6 +713,7 @@
             this.pictureBox5.Location = new System.Drawing.Point(180, 69);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 26;
             this.pictureBox5.TabStop = false;
             // 
@@ -710,6 +722,7 @@
             this.pictureBox4.Location = new System.Drawing.Point(180, 43);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 25;
             this.pictureBox4.TabStop = false;
             // 
@@ -718,6 +731,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(180, 17);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 24;
             this.pictureBox3.TabStop = false;
             // 
@@ -858,24 +872,24 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.pictureBox13);
-            this.groupBox2.Controls.Add(this.pictureBox23);
-            this.groupBox2.Controls.Add(this.pictureBox22);
+            this.groupBox2.Controls.Add(this.moveTypePict);
+            this.groupBox2.Controls.Add(this.moveExhPict);
+            this.groupBox2.Controls.Add(this.moveKOPict);
             this.groupBox2.Controls.Add(this.label20);
             this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.comboBox6);
+            this.groupBox2.Controls.Add(this.moveType);
             this.groupBox2.Controls.Add(this.label19);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox9);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.checkBox3);
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.moveExhaust);
+            this.groupBox2.Controls.Add(this.moveKO);
+            this.groupBox2.Controls.Add(this.moveSharpMod);
+            this.groupBox2.Controls.Add(this.moveElement);
+            this.groupBox2.Controls.Add(this.moveHitCount);
+            this.groupBox2.Controls.Add(this.moveMV);
+            this.groupBox2.Controls.Add(this.moveAvg);
+            this.groupBox2.Controls.Add(this.moveDraw);
+            this.groupBox2.Controls.Add(this.moveAerial);
+            this.groupBox2.Controls.Add(this.moveMinds);
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Controls.Add(this.label16);
@@ -890,29 +904,34 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Move Stats";
             // 
-            // pictureBox13
+            // moveTypePict
             // 
-            this.pictureBox13.Location = new System.Drawing.Point(409, 14);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox13.TabIndex = 32;
-            this.pictureBox13.TabStop = false;
+            this.moveTypePict.Location = new System.Drawing.Point(409, 14);
+            this.moveTypePict.Name = "moveTypePict";
+            this.moveTypePict.Size = new System.Drawing.Size(20, 20);
+            this.moveTypePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.moveTypePict.TabIndex = 32;
+            this.moveTypePict.TabStop = false;
             // 
-            // pictureBox23
+            // moveExhPict
             // 
-            this.pictureBox23.Location = new System.Drawing.Point(409, 65);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox23.TabIndex = 31;
-            this.pictureBox23.TabStop = false;
+            this.moveExhPict.Image = global::MHXXDamageCalc.Properties.Resources.Exhaust;
+            this.moveExhPict.Location = new System.Drawing.Point(409, 65);
+            this.moveExhPict.Name = "moveExhPict";
+            this.moveExhPict.Size = new System.Drawing.Size(20, 20);
+            this.moveExhPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.moveExhPict.TabIndex = 31;
+            this.moveExhPict.TabStop = false;
             // 
-            // pictureBox22
+            // moveKOPict
             // 
-            this.pictureBox22.Location = new System.Drawing.Point(409, 39);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox22.TabIndex = 30;
-            this.pictureBox22.TabStop = false;
+            this.moveKOPict.Image = global::MHXXDamageCalc.Properties.Resources.KO;
+            this.moveKOPict.Location = new System.Drawing.Point(409, 39);
+            this.moveKOPict.Name = "moveKOPict";
+            this.moveKOPict.Size = new System.Drawing.Size(20, 20);
+            this.moveKOPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.moveKOPict.TabIndex = 30;
+            this.moveKOPict.TabStop = false;
             // 
             // label20
             // 
@@ -940,20 +959,20 @@
             this.button3.Text = "Reset Section";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // comboBox6
+            // moveType
             // 
-            this.comboBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.moveType.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.moveType.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.moveType.FormattingEnabled = true;
+            this.moveType.Items.AddRange(new object[] {
             "Cut",
             "Impact",
             "Shot",
             "Fixed"});
-            this.comboBox6.Location = new System.Drawing.Point(329, 13);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(75, 21);
-            this.comboBox6.TabIndex = 18;
+            this.moveType.Location = new System.Drawing.Point(329, 13);
+            this.moveType.Name = "moveType";
+            this.moveType.Size = new System.Drawing.Size(75, 21);
+            this.moveType.TabIndex = 18;
             // 
             // label19
             // 
@@ -964,98 +983,112 @@
             this.label19.TabIndex = 17;
             this.label19.Text = "Damage Type:";
             // 
-            // textBox11
+            // moveExhaust
             // 
-            this.textBox11.Location = new System.Drawing.Point(329, 65);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(75, 20);
-            this.textBox11.TabIndex = 16;
-            this.textBox11.Text = "0";
-            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveExhaust.Location = new System.Drawing.Point(329, 65);
+            this.moveExhaust.Name = "moveExhaust";
+            this.moveExhaust.Size = new System.Drawing.Size(75, 20);
+            this.moveExhaust.TabIndex = 16;
+            this.moveExhaust.Text = "0";
+            this.moveExhaust.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveExhaust.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveExhaust.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox10
+            // moveKO
             // 
-            this.textBox10.Location = new System.Drawing.Point(329, 39);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(75, 20);
-            this.textBox10.TabIndex = 15;
-            this.textBox10.Text = "0";
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveKO.Location = new System.Drawing.Point(329, 39);
+            this.moveKO.Name = "moveKO";
+            this.moveKO.Size = new System.Drawing.Size(75, 20);
+            this.moveKO.TabIndex = 15;
+            this.moveKO.Text = "0";
+            this.moveKO.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveKO.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveKO.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox9
+            // moveSharpMod
             // 
-            this.textBox9.Location = new System.Drawing.Point(126, 91);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 14;
-            this.textBox9.Text = "1.0";
-            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveSharpMod.Location = new System.Drawing.Point(126, 91);
+            this.moveSharpMod.Name = "moveSharpMod";
+            this.moveSharpMod.Size = new System.Drawing.Size(100, 20);
+            this.moveSharpMod.TabIndex = 14;
+            this.moveSharpMod.Text = "1.0";
+            this.moveSharpMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveSharpMod.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveSharpMod.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox8
+            // moveElement
             // 
-            this.textBox8.Location = new System.Drawing.Point(329, 91);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 13;
-            this.textBox8.Text = "1.0";
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveElement.Location = new System.Drawing.Point(329, 91);
+            this.moveElement.Name = "moveElement";
+            this.moveElement.Size = new System.Drawing.Size(100, 20);
+            this.moveElement.TabIndex = 13;
+            this.moveElement.Text = "1.0";
+            this.moveElement.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveElement.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveElement.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox7
+            // moveHitCount
             // 
-            this.textBox7.Location = new System.Drawing.Point(126, 39);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 12;
-            this.textBox7.Text = "0";
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveHitCount.Location = new System.Drawing.Point(126, 39);
+            this.moveHitCount.Name = "moveHitCount";
+            this.moveHitCount.Size = new System.Drawing.Size(100, 20);
+            this.moveHitCount.TabIndex = 12;
+            this.moveHitCount.Text = "0";
+            this.moveHitCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveHitCount.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveHitCount.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox6
+            // moveMV
             // 
-            this.textBox6.Location = new System.Drawing.Point(126, 13);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 11;
-            this.textBox6.Text = "0";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveMV.Location = new System.Drawing.Point(126, 13);
+            this.moveMV.Name = "moveMV";
+            this.moveMV.Size = new System.Drawing.Size(100, 20);
+            this.moveMV.TabIndex = 11;
+            this.moveMV.Text = "0";
+            this.moveMV.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveMV.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveMV.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox1
+            // moveAvg
             // 
-            this.textBox1.Location = new System.Drawing.Point(126, 65);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.Text = "0";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveAvg.Location = new System.Drawing.Point(126, 65);
+            this.moveAvg.Name = "moveAvg";
+            this.moveAvg.Size = new System.Drawing.Size(100, 20);
+            this.moveAvg.TabIndex = 10;
+            this.moveAvg.Text = "0";
+            this.moveAvg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveAvg.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveAvg.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // checkBox3
+            // moveDraw
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(244, 164);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(91, 17);
-            this.checkBox3.TabIndex = 9;
-            this.checkBox3.Text = "Draw Attack?";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.moveDraw.AutoSize = true;
+            this.moveDraw.Location = new System.Drawing.Point(244, 164);
+            this.moveDraw.Name = "moveDraw";
+            this.moveDraw.Size = new System.Drawing.Size(91, 17);
+            this.moveDraw.TabIndex = 9;
+            this.moveDraw.Text = "Draw Attack?";
+            this.moveDraw.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // moveAerial
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(244, 141);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(119, 17);
-            this.checkBox2.TabIndex = 8;
-            this.checkBox2.Text = "Aerial-Type Attack?";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.moveAerial.AutoSize = true;
+            this.moveAerial.Location = new System.Drawing.Point(244, 141);
+            this.moveAerial.Name = "moveAerial";
+            this.moveAerial.Size = new System.Drawing.Size(119, 17);
+            this.moveAerial.TabIndex = 8;
+            this.moveAerial.Text = "Aerial-Type Attack?";
+            this.moveAerial.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // moveMinds
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(244, 118);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(120, 17);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "Natural Mind\'s Eye?";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.moveMinds.AutoSize = true;
+            this.moveMinds.Location = new System.Drawing.Point(244, 118);
+            this.moveMinds.Name = "moveMinds";
+            this.moveMinds.Size = new System.Drawing.Size(120, 17);
+            this.moveMinds.TabIndex = 7;
+            this.moveMinds.Text = "Natural Mind\'s Eye?";
+            this.moveMinds.UseVisualStyleBackColor = true;
             // 
             // label18
             // 
@@ -1123,30 +1156,31 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.textBox34);
-            this.groupBox1.Controls.Add(this.label51);
-            this.groupBox1.Controls.Add(this.label50);
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.comboBox5);
-            this.groupBox1.Controls.Add(this.pictureBox2);
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.comboBox4);
-            this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.weapAffinity);
+            this.groupBox1.Controls.Add(this.weapChaotic);
+            this.groupBox1.Controls.Add(this.weapNegAff);
+            this.groupBox1.Controls.Add(this.weapNegative);
+            this.groupBox1.Controls.Add(this.weapPositive);
+            this.groupBox1.Controls.Add(this.weapOverride);
+            this.groupBox1.Controls.Add(this.weapDatabase);
+            this.groupBox1.Controls.Add(this.weapReset);
+            this.groupBox1.Controls.Add(this.weapSharpTwo);
+            this.groupBox1.Controls.Add(this.weapElePict);
+            this.groupBox1.Controls.Add(this.weapSecPict);
+            this.groupBox1.Controls.Add(this.weapSec);
+            this.groupBox1.Controls.Add(this.weapEle);
+            this.groupBox1.Controls.Add(this.weapSecDamage);
+            this.groupBox1.Controls.Add(this.weapSharpOne);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.weapSharpness);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.weapPosAff);
+            this.groupBox1.Controls.Add(this.weapEleDamage);
+            this.groupBox1.Controls.Add(this.weapRaw);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -1159,127 +1193,158 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Weapon Base Stats";
             // 
-            // checkBox5
+            // weapAffinity
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(244, 19);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(138, 17);
-            this.checkBox5.TabIndex = 33;
-            this.checkBox5.Text = "Chaotic Gore Weapon?";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.weapAffinity.Location = new System.Drawing.Point(126, 96);
+            this.weapAffinity.Name = "weapAffinity";
+            this.weapAffinity.Size = new System.Drawing.Size(75, 20);
+            this.weapAffinity.TabIndex = 34;
+            this.weapAffinity.Text = "0";
+            this.weapAffinity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapAffinity.Validating += new System.ComponentModel.CancelEventHandler(this.AffinityField_Validating);
+            this.weapAffinity.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox34
+            // weapChaotic
             // 
-            this.textBox34.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox34.Location = new System.Drawing.Point(172, 96);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(29, 20);
-            this.textBox34.TabIndex = 32;
-            this.textBox34.Text = "0";
-            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapChaotic.AutoSize = true;
+            this.weapChaotic.Location = new System.Drawing.Point(244, 19);
+            this.weapChaotic.Name = "weapChaotic";
+            this.weapChaotic.Size = new System.Drawing.Size(145, 17);
+            this.weapChaotic.TabIndex = 33;
+            this.weapChaotic.Text = "Chaotic Gore Weapon? *";
+            this.weapChaotic.UseVisualStyleBackColor = true;
             // 
-            // label51
+            // weapNegAff
             // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(158, 98);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(12, 16);
-            this.label51.TabIndex = 31;
-            this.label51.Text = "-";
+            this.weapNegAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.weapNegAff.Location = new System.Drawing.Point(172, 96);
+            this.weapNegAff.Name = "weapNegAff";
+            this.weapNegAff.Size = new System.Drawing.Size(29, 20);
+            this.weapNegAff.TabIndex = 32;
+            this.weapNegAff.Text = "0";
+            this.weapNegAff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapNegAff.Visible = false;
+            this.weapNegAff.Validating += new System.ComponentModel.CancelEventHandler(this.PositiveAffinityField_Validating);
+            this.weapNegAff.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // label50
+            // weapNegative
             // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(111, 98);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(15, 16);
-            this.label50.TabIndex = 30;
-            this.label50.Text = "+";
+            this.weapNegative.AutoSize = true;
+            this.weapNegative.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weapNegative.Location = new System.Drawing.Point(158, 98);
+            this.weapNegative.Name = "weapNegative";
+            this.weapNegative.Size = new System.Drawing.Size(12, 16);
+            this.weapNegative.TabIndex = 31;
+            this.weapNegative.Text = "-";
+            this.weapNegative.Visible = false;
             // 
-            // checkBox4
+            // weapPositive
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(245, 98);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(140, 17);
-            this.checkBox4.TabIndex = 24;
-            this.checkBox4.Text = "Override Base Element?";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.weapPositive.AutoSize = true;
+            this.weapPositive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weapPositive.Location = new System.Drawing.Point(111, 98);
+            this.weapPositive.Name = "weapPositive";
+            this.weapPositive.Size = new System.Drawing.Size(15, 16);
+            this.weapPositive.TabIndex = 30;
+            this.weapPositive.Text = "+";
+            this.weapPositive.Visible = false;
             // 
-            // button2
+            // weapOverride
             // 
-            this.button2.Location = new System.Drawing.Point(121, 149);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 23);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "Weapon Database";
-            this.button2.UseVisualStyleBackColor = true;
+            this.weapOverride.AutoSize = true;
+            this.weapOverride.Location = new System.Drawing.Point(245, 98);
+            this.weapOverride.Name = "weapOverride";
+            this.weapOverride.Size = new System.Drawing.Size(140, 17);
+            this.weapOverride.TabIndex = 24;
+            this.weapOverride.Text = "Override Base Element?";
+            this.weapOverride.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // weapDatabase
             // 
-            this.button1.Location = new System.Drawing.Point(10, 149);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Reset Section";
-            this.button1.UseVisualStyleBackColor = true;
+            this.weapDatabase.Location = new System.Drawing.Point(121, 149);
+            this.weapDatabase.Name = "weapDatabase";
+            this.weapDatabase.Size = new System.Drawing.Size(105, 23);
+            this.weapDatabase.TabIndex = 23;
+            this.weapDatabase.Text = "Weapon Database";
+            this.weapDatabase.UseVisualStyleBackColor = true;
             // 
-            // comboBox5
+            // weapReset
             // 
-            this.comboBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.weapReset.Location = new System.Drawing.Point(10, 149);
+            this.weapReset.Name = "weapReset";
+            this.weapReset.Size = new System.Drawing.Size(106, 23);
+            this.weapReset.TabIndex = 22;
+            this.weapReset.Text = "Reset Section";
+            this.weapReset.UseVisualStyleBackColor = true;
+            // 
+            // weapSharpTwo
+            // 
+            this.weapSharpTwo.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.weapSharpTwo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.weapSharpTwo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.weapSharpTwo.FormattingEnabled = true;
+            this.weapSharpTwo.Items.AddRange(new object[] {
             "(No Sharpness)",
-            "Purple *",
+            "Purple",
             "White",
             "Blue",
             "Green",
             "Yellow",
             "Orange",
             "Red"});
-            this.comboBox5.Location = new System.Drawing.Point(329, 149);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(100, 21);
-            this.comboBox5.TabIndex = 21;
+            this.weapSharpTwo.Location = new System.Drawing.Point(329, 149);
+            this.weapSharpTwo.Name = "weapSharpTwo";
+            this.weapSharpTwo.Size = new System.Drawing.Size(100, 21);
+            this.weapSharpTwo.TabIndex = 21;
             // 
-            // pictureBox2
+            // weapElePict
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(206, 70);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
+            this.weapElePict.Location = new System.Drawing.Point(206, 70);
+            this.weapElePict.Name = "weapElePict";
+            this.weapElePict.Size = new System.Drawing.Size(20, 20);
+            this.weapElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.weapElePict.TabIndex = 20;
+            this.weapElePict.TabStop = false;
             // 
-            // pictureBox1
+            // weapSecPict
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(409, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
+            this.weapSecPict.Location = new System.Drawing.Point(409, 70);
+            this.weapSecPict.Name = "weapSecPict";
+            this.weapSecPict.Size = new System.Drawing.Size(20, 20);
+            this.weapSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.weapSecPict.TabIndex = 19;
+            this.weapSecPict.TabStop = false;
             // 
-            // comboBox4
+            // weapSec
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(329, 43);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(100, 21);
-            this.comboBox4.TabIndex = 18;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.weapSec.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.weapSec.FormattingEnabled = true;
+            this.weapSec.Items.AddRange(new object[] {
             "(None)",
+            "DB - Fire",
+            "DB - Water",
+            "DB - Thunder",
+            "DB - Ice",
+            "DB - Para",
+            "DB - Poison",
+            "DB - Blast",
+            "SA - Dragon",
+            "SA - Poison",
+            "SA - Para",
+            "SA - Exhaust"});
+            this.weapSec.Location = new System.Drawing.Point(329, 43);
+            this.weapSec.Name = "weapSec";
+            this.weapSec.Size = new System.Drawing.Size(100, 21);
+            this.weapSec.TabIndex = 18;
+            // 
+            // weapEle
+            // 
+            this.weapEle.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.weapEle.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.weapEle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.weapEle.FormattingEnabled = true;
+            this.weapEle.Items.AddRange(new object[] {
+            "(No Element)",
             "Fire",
             "Water",
             "Thunder",
@@ -1289,39 +1354,42 @@
             "Para",
             "Sleep",
             "Blast"});
-            this.comboBox3.Location = new System.Drawing.Point(126, 43);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(100, 21);
-            this.comboBox3.TabIndex = 17;
+            this.weapEle.Location = new System.Drawing.Point(126, 43);
+            this.weapEle.Name = "weapEle";
+            this.weapEle.Size = new System.Drawing.Size(100, 21);
+            this.weapEle.TabIndex = 17;
+            this.weapEle.SelectedIndexChanged += new System.EventHandler(this.weapEle_SelectedIndexChanged);
             // 
-            // textBox5
+            // weapSecDamage
             // 
-            this.textBox5.Location = new System.Drawing.Point(329, 70);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(75, 20);
-            this.textBox5.TabIndex = 16;
-            this.textBox5.Text = "0";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapSecDamage.Location = new System.Drawing.Point(329, 70);
+            this.weapSecDamage.Name = "weapSecDamage";
+            this.weapSecDamage.Size = new System.Drawing.Size(75, 20);
+            this.weapSecDamage.TabIndex = 16;
+            this.weapSecDamage.Text = "0";
+            this.weapSecDamage.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapSecDamage.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.weapSecDamage.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // comboBox2
+            // weapSharpOne
             // 
-            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.weapSharpOne.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.weapSharpOne.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.weapSharpOne.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.weapSharpOne.FormattingEnabled = true;
+            this.weapSharpOne.Items.AddRange(new object[] {
             "(No Sharpness)",
-            "Purple *",
+            "Purple",
             "White",
             "Blue",
             "Green",
             "Yellow",
             "Orange",
             "Red"});
-            this.comboBox2.Location = new System.Drawing.Point(329, 122);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 15;
+            this.weapSharpOne.Location = new System.Drawing.Point(329, 122);
+            this.weapSharpOne.Name = "weapSharpOne";
+            this.weapSharpOne.Size = new System.Drawing.Size(100, 21);
+            this.weapSharpOne.TabIndex = 15;
             // 
             // label11
             // 
@@ -1367,26 +1435,27 @@
             this.label7.Size = new System.Drawing.Size(2, 171);
             this.label7.TabIndex = 1;
             // 
-            // comboBox1
+            // weapSharpness
             // 
-            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.weapSharpness.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.weapSharpness.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.weapSharpness.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.weapSharpness.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.weapSharpness.FormattingEnabled = true;
+            this.weapSharpness.Items.AddRange(new object[] {
             "(No Sharpness)",
-            "Purple *",
+            "Purple",
             "White",
             "Blue",
             "Green",
             "Yellow",
             "Orange",
             "Red"});
-            this.comboBox1.Location = new System.Drawing.Point(126, 122);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 10;
+            this.weapSharpness.Location = new System.Drawing.Point(126, 122);
+            this.weapSharpness.Name = "weapSharpness";
+            this.weapSharpness.Size = new System.Drawing.Size(100, 21);
+            this.weapSharpness.TabIndex = 10;
+            this.weapSharpness.SelectedIndexChanged += new System.EventHandler(this.weapSharpness_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -1398,35 +1467,42 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "%";
             // 
-            // textBox4
+            // weapPosAff
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox4.Location = new System.Drawing.Point(126, 96);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(29, 20);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "0";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapPosAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.weapPosAff.Location = new System.Drawing.Point(126, 96);
+            this.weapPosAff.Name = "weapPosAff";
+            this.weapPosAff.Size = new System.Drawing.Size(29, 20);
+            this.weapPosAff.TabIndex = 8;
+            this.weapPosAff.Text = "0";
+            this.weapPosAff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapPosAff.Visible = false;
+            this.weapPosAff.Validating += new System.ComponentModel.CancelEventHandler(this.PositiveAffinityField_Validating);
+            this.weapPosAff.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox3
+            // weapEleDamage
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox3.Location = new System.Drawing.Point(126, 70);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(75, 20);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.Text = "0";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapEleDamage.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.weapEleDamage.Location = new System.Drawing.Point(126, 70);
+            this.weapEleDamage.Name = "weapEleDamage";
+            this.weapEleDamage.Size = new System.Drawing.Size(75, 20);
+            this.weapEleDamage.TabIndex = 7;
+            this.weapEleDamage.Text = "0";
+            this.weapEleDamage.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapEleDamage.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.weapEleDamage.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
-            // textBox2
+            // weapRaw
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox2.Location = new System.Drawing.Point(126, 17);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "0";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapRaw.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.weapRaw.Location = new System.Drawing.Point(126, 17);
+            this.weapRaw.Name = "weapRaw";
+            this.weapRaw.Size = new System.Drawing.Size(100, 20);
+            this.weapRaw.TabIndex = 6;
+            this.weapRaw.Text = "0";
+            this.weapRaw.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.weapRaw.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.weapRaw.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label5
             // 
@@ -1486,6 +1562,16 @@
             this.tabPage2.Size = new System.Drawing.Size(884, 410);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Calculation";
+            // 
+            // calcDetails
+            // 
+            this.calcDetails.BackColor = System.Drawing.SystemColors.Control;
+            this.calcDetails.Location = new System.Drawing.Point(6, 349);
+            this.calcDetails.Name = "calcDetails";
+            this.calcDetails.ReadOnly = true;
+            this.calcDetails.Size = new System.Drawing.Size(868, 55);
+            this.calcDetails.TabIndex = 3;
+            this.calcDetails.Text = "";
             // 
             // groupBox
             // 
@@ -2159,9 +2245,9 @@
             this.paraChaotic.AutoSize = true;
             this.paraChaotic.Location = new System.Drawing.Point(239, 166);
             this.paraChaotic.Name = "paraChaotic";
-            this.paraChaotic.Size = new System.Drawing.Size(72, 17);
+            this.paraChaotic.Size = new System.Drawing.Size(68, 17);
             this.paraChaotic.TabIndex = 52;
-            this.paraChaotic.Text = "Chaotic?*";
+            this.paraChaotic.Text = "Chaotic?";
             this.paraChaotic.UseVisualStyleBackColor = true;
             this.paraChaotic.CheckedChanged += new System.EventHandler(this.paraChaotic_CheckedChanged);
             // 
@@ -2581,7 +2667,7 @@
             this.paraSharp.FormattingEnabled = true;
             this.paraSharp.Items.AddRange(new object[] {
             "(No Sharpness)",
-            "Purple *",
+            "Purple",
             "White",
             "Blue",
             "Green",
@@ -2609,7 +2695,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(884, 391);
+            this.tabPage3.Size = new System.Drawing.Size(884, 410);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Status";
             // 
@@ -2619,7 +2705,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(884, 391);
+            this.tabPage4.Size = new System.Drawing.Size(884, 410);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Combo";
             // 
@@ -2629,22 +2715,13 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(884, 391);
+            this.tabPage5.Size = new System.Drawing.Size(884, 410);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Glossary";
             // 
             // ErrorPreventer
             // 
             this.ErrorPreventer.ContainerControl = this;
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(16, 451);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(171, 13);
-            this.label81.TabIndex = 1;
-            this.label81.Text = "* - Denotes XX-Exclusive Content. ";
             // 
             // label52
             // 
@@ -2656,16 +2733,6 @@
             this.label52.Text = "NOTE: If you are using this calculator for World purposes. there is no guarantee " +
     "that this will return accurate values. ";
             // 
-            // calcDetails
-            // 
-            this.calcDetails.BackColor = System.Drawing.SystemColors.Control;
-            this.calcDetails.Location = new System.Drawing.Point(6, 349);
-            this.calcDetails.Name = "calcDetails";
-            this.calcDetails.ReadOnly = true;
-            this.calcDetails.Size = new System.Drawing.Size(868, 55);
-            this.calcDetails.TabIndex = 3;
-            this.calcDetails.Text = "";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2673,12 +2740,11 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(908, 470);
             this.Controls.Add(this.label52);
-            this.Controls.Add(this.label81);
             this.Controls.Add(this.tabControl1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "(Yet Another) MHXX/MHGen Damage Calculator";
+            this.Text = "(Yet Another) MHGenU Damage Calculator";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
@@ -2701,13 +2767,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveTypePict)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveExhPict)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveKOPict)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weapSecPict)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox.ResumeLayout(false);
             this.groupBox.PerformLayout();
@@ -2740,35 +2806,35 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox weapRaw;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox weapSharpness;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox weapPosAff;
+        private System.Windows.Forms.TextBox weapEleDamage;
+        private System.Windows.Forms.ComboBox weapSharpTwo;
+        private System.Windows.Forms.PictureBox weapElePict;
+        private System.Windows.Forms.PictureBox weapSecPict;
+        private System.Windows.Forms.ComboBox weapSec;
+        private System.Windows.Forms.ComboBox weapEle;
+        private System.Windows.Forms.TextBox weapSecDamage;
+        private System.Windows.Forms.ComboBox weapSharpOne;
+        private System.Windows.Forms.Button weapDatabase;
+        private System.Windows.Forms.Button weapReset;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox moveKO;
+        private System.Windows.Forms.TextBox moveSharpMod;
+        private System.Windows.Forms.TextBox moveElement;
+        private System.Windows.Forms.TextBox moveHitCount;
+        private System.Windows.Forms.TextBox moveMV;
+        private System.Windows.Forms.TextBox moveAvg;
+        private System.Windows.Forms.CheckBox moveDraw;
+        private System.Windows.Forms.CheckBox moveAerial;
+        private System.Windows.Forms.CheckBox moveMinds;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
@@ -2779,9 +2845,9 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox moveType;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox moveExhaust;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
@@ -2834,7 +2900,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox weapOverride;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.TextBox paraRaw;
         private System.Windows.Forms.Label label40;
@@ -2846,8 +2912,8 @@
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox moveExhPict;
+        private System.Windows.Forms.PictureBox moveKOPict;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.TextBox paraAvgMV;
         private System.Windows.Forms.Label label45;
@@ -2863,10 +2929,10 @@
         private System.Windows.Forms.TextBox paraHitCount;
         private System.Windows.Forms.ComboBox paraAltType;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.CheckBox weapChaotic;
+        private System.Windows.Forms.TextBox weapNegAff;
+        private System.Windows.Forms.Label weapNegative;
+        private System.Windows.Forms.Label weapPositive;
         private System.Windows.Forms.TextBox paraNegAff;
         private System.Windows.Forms.Label paraNega;
         private System.Windows.Forms.Label paraPositive;
@@ -2941,17 +3007,17 @@
         private System.Windows.Forms.PictureBox calcSecPict;
         private System.Windows.Forms.PictureBox calcElePict;
         private System.Windows.Forms.PictureBox paraElePict;
-        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox moveTypePict;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.ErrorProvider ErrorPreventer;
-        private System.Windows.Forms.Label label81;
         private System.Windows.Forms.TextBox paraAffinity;
         private System.Windows.Forms.CheckBox paraChaotic;
         private System.Windows.Forms.PictureBox calcAllElePict;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.RichTextBox calcDetails;
+        private System.Windows.Forms.TextBox weapAffinity;
     }
 }
 
