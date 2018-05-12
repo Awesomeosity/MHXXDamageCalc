@@ -33,27 +33,23 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.modMisc = new System.Windows.Forms.ComboBox();
             this.label38 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.modFood = new System.Windows.Forms.ComboBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.modWeapon = new System.Windows.Forms.ComboBox();
             this.label36 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.modArmor = new System.Windows.Forms.ComboBox();
             this.label35 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.monReset = new System.Windows.Forms.Button();
+            this.monExhaustMod = new System.Windows.Forms.TextBox();
+            this.monQuest = new System.Windows.Forms.TextBox();
+            this.monHealth = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -63,21 +59,21 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.monFire = new System.Windows.Forms.TextBox();
+            this.monWater = new System.Windows.Forms.TextBox();
+            this.monThunder = new System.Windows.Forms.TextBox();
+            this.monIce = new System.Windows.Forms.TextBox();
+            this.monDragon = new System.Windows.Forms.TextBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.monCut = new System.Windows.Forms.TextBox();
+            this.monImpact = new System.Windows.Forms.TextBox();
+            this.monShot = new System.Windows.Forms.TextBox();
+            this.monKO = new System.Windows.Forms.TextBox();
+            this.monExhaust = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -94,7 +90,7 @@
             this.moveKOPict = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.moveReset = new System.Windows.Forms.Button();
             this.moveType = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.moveExhaust = new System.Windows.Forms.TextBox();
@@ -251,13 +247,13 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.ErrorPreventer = new System.Windows.Forms.ErrorProvider(this.components);
             this.label52 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -320,17 +316,17 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.pictureBox19);
-            this.groupBox4.Controls.Add(this.pictureBox18);
-            this.groupBox4.Controls.Add(this.pictureBox17);
-            this.groupBox4.Controls.Add(this.pictureBox16);
-            this.groupBox4.Controls.Add(this.comboBox10);
+            this.groupBox4.Controls.Add(this.button5);
+            this.groupBox4.Controls.Add(this.button3);
+            this.groupBox4.Controls.Add(this.button2);
+            this.groupBox4.Controls.Add(this.button1);
+            this.groupBox4.Controls.Add(this.modMisc);
             this.groupBox4.Controls.Add(this.label38);
-            this.groupBox4.Controls.Add(this.comboBox9);
+            this.groupBox4.Controls.Add(this.modFood);
             this.groupBox4.Controls.Add(this.label37);
-            this.groupBox4.Controls.Add(this.comboBox8);
+            this.groupBox4.Controls.Add(this.modWeapon);
             this.groupBox4.Controls.Add(this.label36);
-            this.groupBox4.Controls.Add(this.comboBox7);
+            this.groupBox4.Controls.Add(this.modArmor);
             this.groupBox4.Controls.Add(this.label35);
             this.groupBox4.Controls.Add(this.button8);
             this.groupBox4.Controls.Add(this.button7);
@@ -342,109 +338,93 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Active Modifiers";
             // 
-            // pictureBox19
+            // modMisc
             // 
-            this.pictureBox19.Location = new System.Drawing.Point(233, 100);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 31;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Location = new System.Drawing.Point(233, 74);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 30;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Location = new System.Drawing.Point(233, 46);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 29;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Location = new System.Drawing.Point(233, 20);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 28;
-            this.pictureBox16.TabStop = false;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(92, 100);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(135, 21);
-            this.comboBox10.TabIndex = 8;
+            this.modMisc.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.modMisc.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.modMisc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.modMisc.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modMisc.FormattingEnabled = true;
+            this.modMisc.Location = new System.Drawing.Point(66, 100);
+            this.modMisc.Name = "modMisc";
+            this.modMisc.Size = new System.Drawing.Size(137, 20);
+            this.modMisc.Sorted = true;
+            this.modMisc.TabIndex = 8;
             // 
             // label38
             // 
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(6, 103);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(62, 13);
+            this.label38.Size = new System.Drawing.Size(35, 13);
             this.label38.TabIndex = 7;
-            this.label38.Text = "Misc. Skills:";
+            this.label38.Text = "Misc.:";
             // 
-            // comboBox9
+            // modFood
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(92, 46);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(135, 21);
-            this.comboBox9.TabIndex = 6;
+            this.modFood.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.modFood.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.modFood.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.modFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modFood.FormattingEnabled = true;
+            this.modFood.Location = new System.Drawing.Point(66, 46);
+            this.modFood.Name = "modFood";
+            this.modFood.Size = new System.Drawing.Size(137, 20);
+            this.modFood.Sorted = true;
+            this.modFood.TabIndex = 6;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
             this.label37.Location = new System.Drawing.Point(6, 49);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(61, 13);
+            this.label37.Size = new System.Drawing.Size(34, 13);
             this.label37.TabIndex = 5;
-            this.label37.Text = "Food Skills:";
+            this.label37.Text = "Food:";
             // 
-            // comboBox8
+            // modWeapon
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(92, 73);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(135, 21);
-            this.comboBox8.TabIndex = 6;
+            this.modWeapon.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.modWeapon.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.modWeapon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.modWeapon.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modWeapon.FormattingEnabled = true;
+            this.modWeapon.Location = new System.Drawing.Point(66, 73);
+            this.modWeapon.Name = "modWeapon";
+            this.modWeapon.Size = new System.Drawing.Size(137, 20);
+            this.modWeapon.Sorted = true;
+            this.modWeapon.TabIndex = 6;
             // 
             // label36
             // 
             this.label36.AutoSize = true;
             this.label36.Location = new System.Drawing.Point(6, 76);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(80, 13);
+            this.label36.Size = new System.Drawing.Size(51, 13);
             this.label36.TabIndex = 5;
-            this.label36.Text = "Weapon Mods:";
+            this.label36.Text = "Weapon:";
             // 
-            // comboBox7
+            // modArmor
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(92, 19);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(135, 21);
-            this.comboBox7.TabIndex = 4;
+            this.modArmor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.modArmor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.modArmor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.modArmor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modArmor.FormattingEnabled = true;
+            this.modArmor.Location = new System.Drawing.Point(66, 19);
+            this.modArmor.Name = "modArmor";
+            this.modArmor.Size = new System.Drawing.Size(137, 20);
+            this.modArmor.Sorted = true;
+            this.modArmor.TabIndex = 4;
             // 
             // label35
             // 
             this.label35.AutoSize = true;
             this.label35.Location = new System.Drawing.Point(6, 22);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(64, 13);
+            this.label35.Size = new System.Drawing.Size(37, 13);
             this.label35.TabIndex = 3;
-            this.label35.Text = "Armor Skills:";
+            this.label35.Text = "Armor:";
             // 
             // button8
             // 
@@ -475,10 +455,10 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.button5);
-            this.groupBox3.Controls.Add(this.textBox24);
-            this.groupBox3.Controls.Add(this.textBox23);
-            this.groupBox3.Controls.Add(this.textBox22);
+            this.groupBox3.Controls.Add(this.monReset);
+            this.groupBox3.Controls.Add(this.monExhaustMod);
+            this.groupBox3.Controls.Add(this.monQuest);
+            this.groupBox3.Controls.Add(this.monHealth);
             this.groupBox3.Controls.Add(this.label34);
             this.groupBox3.Controls.Add(this.label33);
             this.groupBox3.Controls.Add(this.label32);
@@ -488,21 +468,21 @@
             this.groupBox3.Controls.Add(this.pictureBox10);
             this.groupBox3.Controls.Add(this.pictureBox11);
             this.groupBox3.Controls.Add(this.pictureBox12);
-            this.groupBox3.Controls.Add(this.textBox17);
-            this.groupBox3.Controls.Add(this.textBox18);
-            this.groupBox3.Controls.Add(this.textBox19);
-            this.groupBox3.Controls.Add(this.textBox20);
-            this.groupBox3.Controls.Add(this.textBox21);
+            this.groupBox3.Controls.Add(this.monFire);
+            this.groupBox3.Controls.Add(this.monWater);
+            this.groupBox3.Controls.Add(this.monThunder);
+            this.groupBox3.Controls.Add(this.monIce);
+            this.groupBox3.Controls.Add(this.monDragon);
             this.groupBox3.Controls.Add(this.pictureBox7);
             this.groupBox3.Controls.Add(this.pictureBox6);
             this.groupBox3.Controls.Add(this.pictureBox5);
             this.groupBox3.Controls.Add(this.pictureBox4);
             this.groupBox3.Controls.Add(this.pictureBox3);
-            this.groupBox3.Controls.Add(this.textBox16);
-            this.groupBox3.Controls.Add(this.textBox15);
-            this.groupBox3.Controls.Add(this.textBox14);
-            this.groupBox3.Controls.Add(this.textBox13);
-            this.groupBox3.Controls.Add(this.textBox12);
+            this.groupBox3.Controls.Add(this.monCut);
+            this.groupBox3.Controls.Add(this.monImpact);
+            this.groupBox3.Controls.Add(this.monShot);
+            this.groupBox3.Controls.Add(this.monKO);
+            this.groupBox3.Controls.Add(this.monExhaust);
             this.groupBox3.Controls.Add(this.label30);
             this.groupBox3.Controls.Add(this.label29);
             this.groupBox3.Controls.Add(this.label28);
@@ -529,41 +509,42 @@
             this.button6.Text = "Monster Database";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // monReset
             // 
-            this.button5.Location = new System.Drawing.Point(102, 180);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(102, 23);
-            this.button5.TabIndex = 45;
-            this.button5.Text = "Reset Section";
-            this.button5.UseVisualStyleBackColor = true;
+            this.monReset.Location = new System.Drawing.Point(102, 180);
+            this.monReset.Name = "monReset";
+            this.monReset.Size = new System.Drawing.Size(102, 23);
+            this.monReset.TabIndex = 45;
+            this.monReset.Text = "Reset Section";
+            this.monReset.UseVisualStyleBackColor = true;
+            this.monReset.Click += new System.EventHandler(this.monReset_Click);
             // 
-            // textBox24
+            // monExhaustMod
             // 
-            this.textBox24.Location = new System.Drawing.Point(371, 154);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(48, 20);
-            this.textBox24.TabIndex = 44;
-            this.textBox24.Text = "1.0";
-            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monExhaustMod.Location = new System.Drawing.Point(371, 154);
+            this.monExhaustMod.Name = "monExhaustMod";
+            this.monExhaustMod.Size = new System.Drawing.Size(48, 20);
+            this.monExhaustMod.TabIndex = 44;
+            this.monExhaustMod.Text = "1.0";
+            this.monExhaustMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox23
+            // monQuest
             // 
-            this.textBox23.Location = new System.Drawing.Point(224, 154);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(48, 20);
-            this.textBox23.TabIndex = 43;
-            this.textBox23.Text = "1.0";
-            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monQuest.Location = new System.Drawing.Point(224, 154);
+            this.monQuest.Name = "monQuest";
+            this.monQuest.Size = new System.Drawing.Size(48, 20);
+            this.monQuest.TabIndex = 43;
+            this.monQuest.Text = "1.0";
+            this.monQuest.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox22
+            // monHealth
             // 
-            this.textBox22.Location = new System.Drawing.Point(54, 154);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(84, 20);
-            this.textBox22.TabIndex = 42;
-            this.textBox22.Text = "0";
-            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monHealth.Location = new System.Drawing.Point(54, 154);
+            this.monHealth.Name = "monHealth";
+            this.monHealth.Size = new System.Drawing.Size(84, 20);
+            this.monHealth.TabIndex = 42;
+            this.monHealth.Text = "0";
+            this.monHealth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label34
             // 
@@ -602,6 +583,7 @@
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::MHXXDamageCalc.Properties.Resources.Dragon;
             this.pictureBox8.Location = new System.Drawing.Point(396, 121);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(20, 20);
@@ -611,6 +593,7 @@
             // 
             // pictureBox9
             // 
+            this.pictureBox9.Image = global::MHXXDamageCalc.Properties.Resources.Ice;
             this.pictureBox9.Location = new System.Drawing.Point(396, 96);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(20, 20);
@@ -620,6 +603,7 @@
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::MHXXDamageCalc.Properties.Resources.Thunder;
             this.pictureBox10.Location = new System.Drawing.Point(396, 69);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(20, 20);
@@ -629,6 +613,7 @@
             // 
             // pictureBox11
             // 
+            this.pictureBox11.Image = global::MHXXDamageCalc.Properties.Resources.Water;
             this.pictureBox11.Location = new System.Drawing.Point(396, 43);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(20, 20);
@@ -638,6 +623,7 @@
             // 
             // pictureBox12
             // 
+            this.pictureBox12.Image = global::MHXXDamageCalc.Properties.Resources.Fire;
             this.pictureBox12.Location = new System.Drawing.Point(396, 17);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(20, 20);
@@ -645,53 +631,54 @@
             this.pictureBox12.TabIndex = 34;
             this.pictureBox12.TabStop = false;
             // 
-            // textBox17
+            // monFire
             // 
-            this.textBox17.Location = new System.Drawing.Point(315, 17);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(75, 20);
-            this.textBox17.TabIndex = 33;
-            this.textBox17.Text = "0";
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monFire.Location = new System.Drawing.Point(315, 17);
+            this.monFire.Name = "monFire";
+            this.monFire.Size = new System.Drawing.Size(75, 20);
+            this.monFire.TabIndex = 33;
+            this.monFire.Text = "0";
+            this.monFire.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox18
+            // monWater
             // 
-            this.textBox18.Location = new System.Drawing.Point(315, 43);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(75, 20);
-            this.textBox18.TabIndex = 32;
-            this.textBox18.Text = "0";
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monWater.Location = new System.Drawing.Point(315, 43);
+            this.monWater.Name = "monWater";
+            this.monWater.Size = new System.Drawing.Size(75, 20);
+            this.monWater.TabIndex = 32;
+            this.monWater.Text = "0";
+            this.monWater.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox19
+            // monThunder
             // 
-            this.textBox19.Location = new System.Drawing.Point(315, 69);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(75, 20);
-            this.textBox19.TabIndex = 31;
-            this.textBox19.Text = "0";
-            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monThunder.Location = new System.Drawing.Point(315, 69);
+            this.monThunder.Name = "monThunder";
+            this.monThunder.Size = new System.Drawing.Size(75, 20);
+            this.monThunder.TabIndex = 31;
+            this.monThunder.Text = "0";
+            this.monThunder.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox20
+            // monIce
             // 
-            this.textBox20.Location = new System.Drawing.Point(315, 95);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(75, 20);
-            this.textBox20.TabIndex = 30;
-            this.textBox20.Text = "0";
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monIce.Location = new System.Drawing.Point(315, 95);
+            this.monIce.Name = "monIce";
+            this.monIce.Size = new System.Drawing.Size(75, 20);
+            this.monIce.TabIndex = 30;
+            this.monIce.Text = "0";
+            this.monIce.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox21
+            // monDragon
             // 
-            this.textBox21.Location = new System.Drawing.Point(315, 121);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(75, 20);
-            this.textBox21.TabIndex = 29;
-            this.textBox21.Text = "0";
-            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monDragon.Location = new System.Drawing.Point(315, 121);
+            this.monDragon.Name = "monDragon";
+            this.monDragon.Size = new System.Drawing.Size(75, 20);
+            this.monDragon.TabIndex = 29;
+            this.monDragon.Text = "0";
+            this.monDragon.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Image = global::MHXXDamageCalc.Properties.Resources.Exhaust;
             this.pictureBox7.Location = new System.Drawing.Point(180, 121);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(20, 20);
@@ -701,6 +688,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::MHXXDamageCalc.Properties.Resources.KO;
             this.pictureBox6.Location = new System.Drawing.Point(180, 96);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(20, 20);
@@ -710,6 +698,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::MHXXDamageCalc.Properties.Resources.Shot;
             this.pictureBox5.Location = new System.Drawing.Point(180, 69);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(20, 20);
@@ -719,6 +708,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::MHXXDamageCalc.Properties.Resources.Impact;
             this.pictureBox4.Location = new System.Drawing.Point(180, 43);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(20, 20);
@@ -728,6 +718,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::MHXXDamageCalc.Properties.Resources.Cut;
             this.pictureBox3.Location = new System.Drawing.Point(180, 17);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(20, 20);
@@ -735,50 +726,50 @@
             this.pictureBox3.TabIndex = 24;
             this.pictureBox3.TabStop = false;
             // 
-            // textBox16
+            // monCut
             // 
-            this.textBox16.Location = new System.Drawing.Point(99, 17);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(75, 20);
-            this.textBox16.TabIndex = 14;
-            this.textBox16.Text = "0";
-            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monCut.Location = new System.Drawing.Point(99, 17);
+            this.monCut.Name = "monCut";
+            this.monCut.Size = new System.Drawing.Size(75, 20);
+            this.monCut.TabIndex = 14;
+            this.monCut.Text = "0";
+            this.monCut.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox15
+            // monImpact
             // 
-            this.textBox15.Location = new System.Drawing.Point(99, 43);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(75, 20);
-            this.textBox15.TabIndex = 13;
-            this.textBox15.Text = "0";
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monImpact.Location = new System.Drawing.Point(99, 43);
+            this.monImpact.Name = "monImpact";
+            this.monImpact.Size = new System.Drawing.Size(75, 20);
+            this.monImpact.TabIndex = 13;
+            this.monImpact.Text = "0";
+            this.monImpact.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox14
+            // monShot
             // 
-            this.textBox14.Location = new System.Drawing.Point(99, 69);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(75, 20);
-            this.textBox14.TabIndex = 12;
-            this.textBox14.Text = "0";
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monShot.Location = new System.Drawing.Point(99, 69);
+            this.monShot.Name = "monShot";
+            this.monShot.Size = new System.Drawing.Size(75, 20);
+            this.monShot.TabIndex = 12;
+            this.monShot.Text = "0";
+            this.monShot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox13
+            // monKO
             // 
-            this.textBox13.Location = new System.Drawing.Point(99, 95);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(75, 20);
-            this.textBox13.TabIndex = 11;
-            this.textBox13.Text = "0";
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monKO.Location = new System.Drawing.Point(99, 95);
+            this.monKO.Name = "monKO";
+            this.monKO.Size = new System.Drawing.Size(75, 20);
+            this.monKO.TabIndex = 11;
+            this.monKO.Text = "0";
+            this.monKO.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox12
+            // monExhaust
             // 
-            this.textBox12.Location = new System.Drawing.Point(99, 121);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(75, 20);
-            this.textBox12.TabIndex = 10;
-            this.textBox12.Text = "0";
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monExhaust.Location = new System.Drawing.Point(99, 121);
+            this.monExhaust.Name = "monExhaust";
+            this.monExhaust.Size = new System.Drawing.Size(75, 20);
+            this.monExhaust.TabIndex = 10;
+            this.monExhaust.Text = "0";
+            this.monExhaust.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label30
             // 
@@ -877,7 +868,7 @@
             this.groupBox2.Controls.Add(this.moveKOPict);
             this.groupBox2.Controls.Add(this.label20);
             this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.moveReset);
             this.groupBox2.Controls.Add(this.moveType);
             this.groupBox2.Controls.Add(this.label19);
             this.groupBox2.Controls.Add(this.moveExhaust);
@@ -950,19 +941,21 @@
             this.button4.Text = "Move Database";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // moveReset
             // 
-            this.button3.Location = new System.Drawing.Point(11, 146);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 23);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "Reset Section";
-            this.button3.UseVisualStyleBackColor = true;
+            this.moveReset.Location = new System.Drawing.Point(11, 146);
+            this.moveReset.Name = "moveReset";
+            this.moveReset.Size = new System.Drawing.Size(105, 23);
+            this.moveReset.TabIndex = 19;
+            this.moveReset.Text = "Reset Section";
+            this.moveReset.UseVisualStyleBackColor = true;
+            this.moveReset.Click += new System.EventHandler(this.moveReset_Click);
             // 
             // moveType
             // 
             this.moveType.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.moveType.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.moveType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.moveType.FormattingEnabled = true;
             this.moveType.Items.AddRange(new object[] {
             "Cut",
@@ -973,6 +966,7 @@
             this.moveType.Name = "moveType";
             this.moveType.Size = new System.Drawing.Size(75, 21);
             this.moveType.TabIndex = 18;
+            this.moveType.SelectedIndexChanged += new System.EventHandler(this.moveType_SelectedIndexChanged);
             // 
             // label19
             // 
@@ -1209,10 +1203,11 @@
             this.weapChaotic.AutoSize = true;
             this.weapChaotic.Location = new System.Drawing.Point(244, 19);
             this.weapChaotic.Name = "weapChaotic";
-            this.weapChaotic.Size = new System.Drawing.Size(145, 17);
+            this.weapChaotic.Size = new System.Drawing.Size(138, 17);
             this.weapChaotic.TabIndex = 33;
-            this.weapChaotic.Text = "Chaotic Gore Weapon? *";
+            this.weapChaotic.Text = "Chaotic Gore Weapon?";
             this.weapChaotic.UseVisualStyleBackColor = true;
+            this.weapChaotic.CheckedChanged += new System.EventHandler(this.weapChaotic_CheckedChanged);
             // 
             // weapNegAff
             // 
@@ -1258,10 +1253,11 @@
             this.weapOverride.TabIndex = 24;
             this.weapOverride.Text = "Override Base Element?";
             this.weapOverride.UseVisualStyleBackColor = true;
+            this.weapOverride.CheckedChanged += new System.EventHandler(this.weapOverride_CheckedChanged);
             // 
             // weapDatabase
             // 
-            this.weapDatabase.Location = new System.Drawing.Point(121, 149);
+            this.weapDatabase.Location = new System.Drawing.Point(122, 149);
             this.weapDatabase.Name = "weapDatabase";
             this.weapDatabase.Size = new System.Drawing.Size(105, 23);
             this.weapDatabase.TabIndex = 23;
@@ -1276,6 +1272,7 @@
             this.weapReset.TabIndex = 22;
             this.weapReset.Text = "Reset Section";
             this.weapReset.UseVisualStyleBackColor = true;
+            this.weapReset.Click += new System.EventHandler(this.weapReset_Click);
             // 
             // weapSharpTwo
             // 
@@ -1336,6 +1333,7 @@
             this.weapSec.Name = "weapSec";
             this.weapSec.Size = new System.Drawing.Size(100, 21);
             this.weapSec.TabIndex = 18;
+            this.weapSec.SelectedIndexChanged += new System.EventHandler(this.weapSec_SelectedIndexChanged);
             // 
             // weapEle
             // 
@@ -1390,6 +1388,7 @@
             this.weapSharpOne.Name = "weapSharpOne";
             this.weapSharpOne.Size = new System.Drawing.Size(100, 21);
             this.weapSharpOne.TabIndex = 15;
+            this.weapSharpOne.SelectedIndexChanged += new System.EventHandler(this.weapSharpOne_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -2274,9 +2273,9 @@
             this.paraMadAff.AutoSize = true;
             this.paraMadAff.Location = new System.Drawing.Point(6, 171);
             this.paraMadAff.Name = "paraMadAff";
-            this.paraMadAff.Size = new System.Drawing.Size(94, 17);
+            this.paraMadAff.Size = new System.Drawing.Size(81, 17);
             this.paraMadAff.TabIndex = 49;
-            this.paraMadAff.Text = "Mad Affinity? *";
+            this.paraMadAff.Text = "Rueful Crit?";
             this.paraMadAff.UseVisualStyleBackColor = true;
             // 
             // paraStatusCrit
@@ -2733,6 +2732,42 @@
             this.label52.Text = "NOTE: If you are using this calculator for World purposes. there is no guarantee " +
     "that this will return accurate values. ";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(209, 17);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(43, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(209, 44);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(43, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Add";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(209, 71);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(43, 23);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Add";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(209, 98);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(43, 23);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "Add";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2749,10 +2784,6 @@
             this.tabPage1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -2844,7 +2875,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button moveReset;
         private System.Windows.Forms.ComboBox moveType;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox moveExhaust;
@@ -2854,21 +2885,21 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox monFire;
+        private System.Windows.Forms.TextBox monWater;
+        private System.Windows.Forms.TextBox monThunder;
+        private System.Windows.Forms.TextBox monIce;
+        private System.Windows.Forms.TextBox monDragon;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox monCut;
+        private System.Windows.Forms.TextBox monImpact;
+        private System.Windows.Forms.TextBox monShot;
+        private System.Windows.Forms.TextBox monKO;
+        private System.Windows.Forms.TextBox monExhaust;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label28;
@@ -2879,23 +2910,23 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox monExhaustMod;
+        private System.Windows.Forms.TextBox monQuest;
+        private System.Windows.Forms.TextBox monHealth;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.Button monReset;
+        private System.Windows.Forms.ComboBox modMisc;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox modFood;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox modWeapon;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox modArmor;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
@@ -2908,10 +2939,6 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.TextBox paraRawSharp;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox moveExhPict;
         private System.Windows.Forms.PictureBox moveKOPict;
         private System.Windows.Forms.Label label46;
@@ -3018,6 +3045,10 @@
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.RichTextBox calcDetails;
         private System.Windows.Forms.TextBox weapAffinity;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
