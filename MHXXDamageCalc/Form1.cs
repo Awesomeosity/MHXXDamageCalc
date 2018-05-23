@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
 
 namespace MHXXDamageCalc
 {
@@ -21,6 +22,8 @@ namespace MHXXDamageCalc
         Dictionary<string, Func<int, bool>> armorModifiers = new Dictionary<string, Func<int, bool>>();
         Dictionary<string, Func<int, bool>> foodModifiers = new Dictionary<string, Func<int, bool>>();
         Dictionary<string, Func<int, bool>> weaponModifiers = new Dictionary<string, Func<int, bool>>();
+        Dictionary<string, Func<int, bool>> miscModifiers = new Dictionary<string, Func<int, bool>>();
+        Dictionary<string, string> secondElements = new Dictionary<string, string>(); 
 
         public Form1()
         {
@@ -52,8 +55,22 @@ namespace MHXXDamageCalc
             sharpnessMods.Add("Orange", new Tuple<double, double>(0.75, 0.50));
             sharpnessMods.Add("Red", new Tuple<double, double>(0.50, 0.25));
 
+            secondElements.Add("(None)", "(No Element)");
+            secondElements.Add("DB - Fire", "Fire");
+            secondElements.Add("DB - Water", "Water");
+            secondElements.Add("DB - Thunder", "Thunder");
+            secondElements.Add("DB - Ice", "Ice");
+            secondElements.Add("DB - Para", "Para");
+            secondElements.Add("DB - Poison", "Poison");
+            secondElements.Add("DB - Blast", "Blast");
+            secondElements.Add("SA - Dragon", "Dragon");
+            secondElements.Add("SA - Poison", "Poison");
+            secondElements.Add("SA - Para", "Para");
+            secondElements.Add("SA - Exhaust", "Exhaust");
+
             armorModifiers.Add("Elementality", x => Amplify(1));
-            armorModifiers.Add("Frosty Protection", x => AntiDaora(1));
+            armorModifiers.Add("Frosty Protection (Cold Area)", x => AntiDaora(1));
+            armorModifiers.Add("Frosty Protection (Cool Drink)", x => AntiDaora(2));
             armorModifiers.Add("Metallic Protection", x => AntiTeostra(1));
             armorModifiers.Add("Art. Novice (Fixed Weaps.)", x => Artillery(1));
             armorModifiers.Add("Art. Novice (Exp. Ammo)", x => Artillery(2));
@@ -70,8 +87,8 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Attack Down (M)", x => Attack(5));
             armorModifiers.Add("Attack Down (L)", x => Attack(6));
 
-            armorModifiers.Add("Bloodlust Soul", x => Bloodbath(1));
-            armorModifiers.Add("True B.lust Soul", x => TrueBloodbath(1));
+            armorModifiers.Add("Bloodbath Soul", x => Bloodbath(1));
+            armorModifiers.Add("True B.bath Soul", x => TrueBloodbath(1));
             armorModifiers.Add("Boltreaver Soul", x => Boltreaver(1));
             armorModifiers.Add("True B.reaver Soul", x => TrueBoltreaver(1));
             armorModifiers.Add("Bludgeoner (GU)", x => Blunt(1));
@@ -258,15 +275,109 @@ namespace MHXXDamageCalc
             }
 
             weaponModifiers.Add("Lo Sharp. Mod.", x => LSM(1));
-            weaponModifiers.Add("GS - Center of Blade", x => GS(1));
-            weaponModifiers.Add("GS - Lion's Maw I", x => GS(2));
-            weaponModifiers.Add("GS - Lion's Maw II", x => GS(3));
-            weaponModifiers.Add("GS - Lion's Maw III", x => GS(4));
+            weaponModifiers.Add("GS Center of Blade", x => GS(1));
+            weaponModifiers.Add("GS Lion's Maw I", x => GS(2));
+            weaponModifiers.Add("GS Lion's Maw II", x => GS(3));
+            weaponModifiers.Add("GS Lion's Maw III", x => GS(4));
+            weaponModifiers.Add("LS Center of Blade", x => LS(1));
+            weaponModifiers.Add("LS Spirit Gauge Active", x => LS(2));
+            weaponModifiers.Add("LS White Gauge", x => LS(3));
+            weaponModifiers.Add("LS Yellow Gauge", x => LS(4));
+            weaponModifiers.Add("LS Red Gauge", x => LS(5));
+            weaponModifiers.Add("LS Blue Gauge", x => LS(6));
+            weaponModifiers.Add("LS Sacri. Blade I", x => LS(7));
+            weaponModifiers.Add("LS Sacri. Blade II", x => LS(8));
+            weaponModifiers.Add("LS Sacri. Blade III", x => LS(9));
+            weaponModifiers.Add("SnS Aff. Oil (+ C. Oil III)",x => SnS(1));
+            weaponModifiers.Add("SnS Aff. Oil + C. Oil I/II", x => SnS(2));
+            weaponModifiers.Add("SnS Stamina Oil", x => SnS(3));
+            weaponModifiers.Add("SnS Stam. Oil + C. Oil I/II", x => SnS(4));
+            weaponModifiers.Add("SnS Stam. Oil + C. Oil III", x => SnS(5));
+            weaponModifiers.Add("SnS Mind's Eye Oil", x => SnS(6));
+            weaponModifiers.Add("SnS Chaos Oil I/II", x => SnS(7));
+            weaponModifiers.Add("SnS Chaos Oil III", x => SnS(8));
+            weaponModifiers.Add("HH Attack Up (S) Song", x => HH(1));
+            weaponModifiers.Add("HH Attack Up (S) Encore", x => HH(2));
+            weaponModifiers.Add("HH Attack Up (L) Song", x => HH(3));
+            weaponModifiers.Add("HH Attack Up (L) Encore", x => HH(4));
+            weaponModifiers.Add("HH Ele. Attack Boost Song", x => HH(5));
+            weaponModifiers.Add("HH Ele. Atk. Boost Encore", x => HH(6));
+            weaponModifiers.Add("HH Abnormal Boost Song", x => HH(7));
+            weaponModifiers.Add("HH Abnormal Encore", x => HH(8));
+            weaponModifiers.Add("HH Affinity Up Song", x => HH(9));
+            weaponModifiers.Add("HH Affinity Up Encore", x => HH(10));
+            weaponModifiers.Add("HH Self-Improvement Enc.", x => HH(11));
+            weaponModifiers.Add("Lance E. Guard (Yellow)", x => Lance(1));
+            weaponModifiers.Add("Lance E. Guard (Orange)", x => Lance(2));
+            weaponModifiers.Add("Lance Enraged Guard (Red)", x => Lance(3));
+            weaponModifiers.Add("Lance Impact/Cut Zones", x => Lance(4));
+            weaponModifiers.Add("GL Dragon Breath", x => Gunlance(1));
+            weaponModifiers.Add("GL Orange Heat", x => Gunlance(2));
+            weaponModifiers.Add("GL Red Heat", x => Gunlance(3));
+            weaponModifiers.Add("SA Power Phial", x => SA(1));
+            weaponModifiers.Add("SA Element Phial", x => SA(2));
+            weaponModifiers.Add("SA Energy Charge II", x => SA(3));
+            weaponModifiers.Add("SA Energy Charge III", x => SA(4));
+            weaponModifiers.Add("SA Demon Riot I 'Pwr'", x => SA(5));
+            weaponModifiers.Add("SA Demon Riot II 'Pwr'", x => SA(6));
+            weaponModifiers.Add("SA Demon Riot III 'Pwr'", x => SA(7));
+            weaponModifiers.Add("SA Demon Riot I 'Ele/Sta'", x => SA(8));
+            weaponModifiers.Add("SA Demon Riot II 'Ele/Sta'", x => SA(9));
+            weaponModifiers.Add("SA Demon Riot III 'Ele/Sta'", x => SA(10));
+            weaponModifiers.Add("CB Red Shield (Other Styles)", x => CB(1));
+            weaponModifiers.Add("CB Red Shield (Striker)", x => CB(2));
+            weaponModifiers.Add("IG Red Extract (Balanced)", x => IG(1));
+            weaponModifiers.Add("IG White Extract (Balanced)", x => IG(2));
+            weaponModifiers.Add("IG Red/White Extract", x => IG(3));
+            weaponModifiers.Add("IG Triple Up", x => IG(4));
+            weaponModifiers.Add("IG White (Speed)", x => IG(5));
+            weaponModifiers.Add("Gunner Normal Distance", x => Gunner(1));
+            weaponModifiers.Add("Gunner Critical Distance", x => Gunner(2));
+            weaponModifiers.Add("Gunner Long Range", x => Gunner(3));
+            weaponModifiers.Add("Gunner Ex. Long Range", x => Gunner(4));
+            weaponModifiers.Add("Gun. C. D. + H. Polish/Demon S", x => Gunner(5));
+            weaponModifiers.Add("LBG Raw Multiplier", x => LBG(1));
+            weaponModifiers.Add("LBG Long Barrel Attach.", x => LBG(2));
+            weaponModifiers.Add("LBG Power Reload", x => LBG(3));
+            weaponModifiers.Add("HBG Raw Multiplier", x => HBG(1));
+            weaponModifiers.Add("HBG Power Barrel Attach.", x => HBG(2));
+            weaponModifiers.Add("HBG Power Reload", x => HBG(3));
+            weaponModifiers.Add("HBG Valor Reload", x => HBG(4));
+            weaponModifiers.Add("Bow Charge Lv1", x => Bow(1));
+            weaponModifiers.Add("Bow Charge Lv2", x => Bow(2));
+            weaponModifiers.Add("Bow Charge Lv3 + Pois.", x => Bow(3));
+            weaponModifiers.Add("Bow Charge Lv3 + Other", x => Bow(4));
+            weaponModifiers.Add("Bow Charge Lv4 + Pois.", x => Bow(5));
+            weaponModifiers.Add("Bow Charge Lv4 + Other", x => Bow(6));
+            weaponModifiers.Add("Bow Valor Power Shot", x => Bow(7));
+            weaponModifiers.Add("Bow Power C. Lv1", x => Bow(8));
+            weaponModifiers.Add("Bow Power C. Lv2", x => Bow(9));
+            weaponModifiers.Add("Bow Elem. C. Lv1", x => Bow(10));
+            weaponModifiers.Add("Bow Elem. C. Lv2", x => Bow(11));
+            weaponModifiers.Add("Bow Coating Boost 'Pwr'", x => Bow(12));
+            weaponModifiers.Add("Bow Coating Boost 'Ele'", x => Bow(13));
+            weaponModifiers.Add("Bow Coating Boost 'C.Range'", x => Bow(14));
+            weaponModifiers.Add("Bow Coating Boost 'Sta'", x => Bow(15));
+
+            foreach (KeyValuePair<string, Func<int, bool>> pair in weaponModifiers)
+            {
+                modWeapon.Items.Add(pair.Key);
+            }
+
+            miscModifiers.Add("Frenzy Affinity Boost", x => Frenzy(1));
+            miscModifiers.Add("Frenzy (+Antivirus)", x => Frenzy(2));
+
+            foreach (KeyValuePair<string, Func<int, bool>> pair in miscModifiers)
+            {
+                modMisc.Items.Add(pair.Key);
+            }
         }
 
         public void setSelected()
         {
             moveType.SelectedIndex = 0;
+
+            monStatus.SelectedIndex = 0;
 
             weapEle.SelectedIndex = 0;
             weapSharpness.SelectedIndex = 0;
@@ -637,8 +748,8 @@ namespace MHXXDamageCalc
             calcEleAll.Text = allTuple.Item4.ToString("N2");
             calcSecAll.Text = allTuple.Item5.ToString("N2");
 
-            calcKOAll.Text = allTuple.Item6.ToString("N2");
-            calcExhAll.Text = allTuple.Item7.ToString("N2");
+            calcKOAll.Text = allTuple.Item6.ToString();
+            calcExhAll.Text = allTuple.Item7.ToString();
             HealthCalc(allTuple); //Estimate how many hits it would take to kill the monster.
         }
 
@@ -701,7 +812,7 @@ namespace MHXXDamageCalc
             string maxHits = Math.Ceiling(highHealth / finalDamage).ToString();
             string maxDamage = (finalDamage / highHealth * 100).ToString("N2");
 
-            string[] formatArray = new string[] { paraHitCount.Text, finalDamage.ToString("N2"), avgHits, avgDamage, health.ToString(), minHits, minDamage, maxHits, maxDamage };
+            string[] formatArray = new string[] { paraHitCount.Text, finalDamage.ToString(), avgHits, avgDamage, health.ToString(), minHits, minDamage, maxHits, maxDamage };
             string formatString = String.Format("With {0} hit(s) that deals {1} damage total, it will, on average, take {2} of these attacks ({3}%) to kill a monster with {4} health. At minimum health, it will take {5} attacks ({6}%), and at maximum health, it will take {7} attacks ({8}%).", formatArray);
             calcDetails.AppendText(formatString);
         }
@@ -834,7 +945,7 @@ namespace MHXXDamageCalc
 
             else if (isStatus(altType))
             {
-                eleTotal = element * elementSharp * (1 + subAffinity.Item1 * statusCrit);
+                eleTotal = element * (1 + subAffinity.Item1 * statusCrit);
             }
 
             else
@@ -849,7 +960,7 @@ namespace MHXXDamageCalc
 
             else if (isStatus(secType))
             {
-                secTotal = secElement * elementSharp * (1 + subAffinity.Item1 * statusCrit);
+                secTotal = secElement * (1 + subAffinity.Item1 * statusCrit);
             }
 
             else
@@ -879,13 +990,20 @@ namespace MHXXDamageCalc
             double ExhDamage = ExhDam * ExhaustZone;
             bool BounceBool = false;
 
+            double bounceTolerance = 0.25;
+
+            if(paraGRank.Checked)
+            {
+                bounceTolerance = 0.27;
+            }
+
             rawDamage *= monsterStatus[paraMonStatus.SelectedIndex];
 
             if (!paraFixed.Checked)
             {
                 rawDamage *= rawZone * questMod;
 
-                if ((rawZone * double.Parse(paraRawSharp.Text)) > 0.25 || paraMinds.Checked)
+                if ((rawZone * double.Parse(paraRawSharp.Text)) > bounceTolerance || paraMinds.Checked)
                 {
                     BounceBool = true;
                 }
@@ -925,9 +1043,12 @@ namespace MHXXDamageCalc
 
             KODamage = Math.Floor(KODamage);
             KODamage *= hitCount;
+            KODamage = Math.Floor(KODamage);
+
 
             ExhDamage = Math.Floor(ExhDamage);
             ExhDamage *= hitCount;
+            ExhDamage = Math.Floor(ExhDamage);
 
             return new Tuple<double, bool, double, double, double, double, double>(totaldamage, BounceBool, rawDamage, eleDamage, secDamage, KODamage, ExhDamage);
         }
@@ -995,6 +1116,7 @@ namespace MHXXDamageCalc
 
             if (weapSharpness.SelectedIndex == 0)
             {
+                weapSharpTwo.Items.Remove("Purple");
                 weapSharpTwo.Items.Add(originalSharpness[0]);
             }
             weapSharpTwo.SelectedItem = weapSharpOne.SelectedItem;
@@ -1048,66 +1170,81 @@ namespace MHXXDamageCalc
                 weapSecPict.Image = null;
                 weapSecDamage.Text = "0";
                 weapSecDamage.Enabled = false;
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
                 return;
             }
             else if (weapSec.SelectedIndex == 1)
             {
                 weapSecPict.Load(str2Pict["Fire"]);
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
             }
 
             else if (weapSec.SelectedIndex == 2)
             {
                 weapSecPict.Load(str2Pict["Water"]);
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
             }
 
             else if (weapSec.SelectedIndex == 3)
             {
                 weapSecPict.Load(str2Pict["Thunder"]);
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
             }
 
             else if (weapSec.SelectedIndex == 4)
             {
                 weapSecPict.Load(str2Pict["Ice"]);
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
             }
 
             else if (weapSec.SelectedIndex == 5)
             {
                 weapSecPict.Load(str2Pict["Para"]);
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
             }
 
             else if (weapSec.SelectedIndex == 6)
             {
                 weapSecPict.Load(str2Pict["Poison"]);
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
             }
 
             else if (weapSec.SelectedIndex == 7)
             {
                 weapSecPict.Load(str2Pict["Blast"]);
+                weapOverride.Checked = false;
+                weapOverride.Enabled = false;
             }
 
             else if (weapSec.SelectedIndex == 8)
             {
                 weapSecPict.Load(str2Pict["Dragon"]);
+                weapOverride.Enabled = true;
             }
 
             else if (weapSec.SelectedIndex == 9)
             {
                 weapSecPict.Load(str2Pict["Poison"]);
+                weapOverride.Enabled = true;
             }
 
             else if (weapSec.SelectedIndex == 10)
             {
                 weapSecPict.Load(str2Pict["Para"]);
+                weapOverride.Enabled = true;
             }
 
             else if (weapSec.SelectedIndex == 11)
             {
                 weapSecPict.Load(str2Pict["Exhaust"]);
-            }
-
-            else if(weapSec.SelectedIndex == 12)
-            {
-                weapSecPict.Load(str2Pict["Exhaust"]);
+                weapOverride.Enabled = true;
             }
 
             weapSecDamage.Enabled = true;
@@ -1143,6 +1280,8 @@ namespace MHXXDamageCalc
             monHealth.Text = "0";
             monQuest.Text = "1.0";
             monExhaustMod.Text = "1.0";
+
+            monStatus.SelectedIndex = 0;
         }
 
         private void moveReset_Click(object sender, EventArgs e)
@@ -1345,6 +1484,11 @@ namespace MHXXDamageCalc
 
             stats.UpdateSharpness((string)weapSharpOne.SelectedItem);
 
+            if (stats.sharpness == "(No Sharpness)" && stats.hitCount > 1 && stats.damageType == "Shot")
+            {
+                stats.hitCount++;
+            }
+
             return true;
         }
 
@@ -1353,6 +1497,11 @@ namespace MHXXDamageCalc
             stats.criticalBoost = true; //Crit Boost portion
 
             stats.UpdateSharpness((string)weapSharpOne.SelectedItem);
+
+            if (stats.sharpness == "(No Sharpness)" && stats.hitCount > 1 && stats.damageType == "Shot")
+            {
+                stats.hitCount++;
+            }
 
             return true;
         }
@@ -1461,7 +1610,7 @@ namespace MHXXDamageCalc
                 stats.positiveAffinity += 25;
             }
 
-            else if (skillVal == 1)
+            else if (skillVal == 2)
             {
                 stats.positiveAffinity += 30;
             }
@@ -1527,12 +1676,12 @@ namespace MHXXDamageCalc
 
             else if (skillVal == 1) //Cold Areas
             {
-                stats.rawMod += 15;
+                stats.addRaw += 15;
             }
 
             else if (skillVal == 2) //Cool Drinks
             {
-                stats.rawMod += 5;
+                stats.addRaw += 5;
             }
 
             return true;
@@ -1562,22 +1711,22 @@ namespace MHXXDamageCalc
 
             else if (skillVal == 1)
             {
-                stats.eleCrit = "SnS/DB/Bow";
+                stats.eleCrit = 1;
             }
 
             else if (skillVal == 2)
             {
-                stats.eleCrit = "LBG/HBG";
+                stats.eleCrit = 2;
             }
 
             else if (skillVal == 3)
             {
-                stats.eleCrit = "Other";
+                stats.eleCrit = 3;
             }
 
             else if (skillVal == 4)
             {
-                stats.eleCrit = "GS";
+                stats.eleCrit = 4;
             }
 
             return true;
@@ -1798,7 +1947,7 @@ namespace MHXXDamageCalc
 
             else if (skillVal == 1) //Adrenaline +2 effects
             {
-                stats.rawMod *= 1.35;
+                stats.rawMod *= 1.3;
             }
 
             //Artillery Expert
@@ -1850,7 +1999,7 @@ namespace MHXXDamageCalc
                 stats.rawMod *= 1.2;
             }
 
-            else if (stats.sharpness == "(No Sharpness)")
+            else if (stats.sharpness == "(No Sharpness)" && stats.damageType == "Shot")
             {
                 stats.rawMod *= 1.1;
             }
@@ -1875,7 +2024,7 @@ namespace MHXXDamageCalc
                 stats.rawMod *= 1.2;
             }
 
-            else if (stats.sharpness == "(No Sharpness)")
+            else if (stats.sharpness == "(No Sharpness)" && stats.damageType == "Shot")
             {
                 stats.rawMod *= 1.1;
             }
@@ -2099,7 +2248,10 @@ namespace MHXXDamageCalc
 
         public bool HeavyUp(int skillVal)
         {
-            stats.rawMod *= 1.1;
+            if (stats.sharpness == "(No Sharpness)" && stats.damageType == "Shot")
+            {
+                stats.rawMod *= 1.1;
+            }
             return true;
         }
 
@@ -2238,7 +2390,7 @@ namespace MHXXDamageCalc
 
         public bool NormalUp(int skillVal)
         {
-            if (stats.sharpness == "(No Sharpness)")
+            if (stats.sharpness == "(No Sharpness)" && stats.damageType == "Shot")
             {
                 stats.rawMod *= 1.1;
             }
@@ -2248,7 +2400,7 @@ namespace MHXXDamageCalc
 
         public bool PelletUp(int skillVal)
         {
-            if (stats.sharpness != "(No Sharpness)")
+            if (stats.sharpness != "(No Sharpness)" || stats.damageType != "Shot")
             {
                 return true;
             }
@@ -2273,12 +2425,10 @@ namespace MHXXDamageCalc
 
         public bool PierceUp(int skillVal)
         {
-            if (stats.sharpness != "(No Sharpness)")
+            if (stats.sharpness == "(No Sharpness)" && stats.damageType == "Shot")
             {
-                return true;
+                stats.rawMod *= 1.1;
             }
-
-            stats.rawMod *= 1.1;
             return true;
         }
 
@@ -2334,7 +2484,7 @@ namespace MHXXDamageCalc
 
         public bool RapidFire(int skillVal)
         {
-            if (stats.sharpness == "(No Sharpness)" && stats.hitCount > 1)
+            if (stats.sharpness == "(No Sharpness)" && stats.hitCount > 1 && stats.damageType == "Shot")
             {
                 stats.hitCount++;
             }
@@ -2372,7 +2522,7 @@ namespace MHXXDamageCalc
 
         public bool ScaledSword(int skillVal)
         {
-            if (stats.sharpness == "(No Sharpness)")
+            if (stats.sharpness == "(No Sharpness)" && stats.damageType == "Shot")
             {
                 stats.rawMod *= 1.5;
             }
@@ -2834,14 +2984,7 @@ namespace MHXXDamageCalc
                 stats.exhaustPower += 5;
             }
 
-            else if (skillVal == 8) //Chaos Oil II
-            {
-                stats.positiveAffinity += 15;
-                stats.KOPower += 4;
-                stats.exhaustPower += 5;
-            }
-
-            else if (skillVal == 9) //Chaos Oil III
+            else if (skillVal == 8) //Chaos Oil III
             {
                 stats.positiveAffinity += 30;
                 stats.KOPower += 7;
@@ -3484,7 +3627,454 @@ namespace MHXXDamageCalc
 
             return true;
         }
+
 #endif
+
+        private void modArmorButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modArmor.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+            ListViewItem item = new ListViewItem(modArmor.Text)
+            {
+                Group = modList.Groups[0]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modFoodButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modFood.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+
+            ListViewItem item = new ListViewItem(modFood.Text)
+            {
+                Group = modList.Groups[1]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modWeaponButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modWeapon.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+            ListViewItem item = new ListViewItem(modWeapon.Text)
+            {
+                Group = modList.Groups[2]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modMiscButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modMisc.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+            ListViewItem item = new ListViewItem(modMisc.Text)
+            {
+                Group = modList.Groups[3]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modAllButton_Click(object sender, EventArgs e)
+        {
+            modList.Items.Clear();
+            foreach(ListViewGroup group in modList.Groups)
+            {
+                group.Items.Clear();
+            }
+        }
+
+        private void modSelectedButton_Click(object sender, EventArgs e)
+        {
+            if (modList.SelectedItems.Count != 0)
+            {
+                foreach (ListViewItem item in modList.SelectedItems)
+                {
+                    item.Group.Items.Remove(item);
+                    modList.Items.Remove(item);
+                }
+            }
+
+        }
+
+        private void paraUpdate_Click(object sender, EventArgs e)
+        {
+            ImportSetUp();
+            ImportModifiers();
+            Export();
+        }
+
+        private void ImportSetUp()
+        {
+            stats = new ImportedStats
+            {
+                sharpness = (string)weapSharpness.SelectedItem,
+                totalAttackPower = double.Parse(weapRaw.Text),
+            };
+
+            if(weapChaotic.Checked)
+            {
+                stats.positiveAffinity = double.Parse(weapPosAff.Text);
+                stats.negativeAffinity = double.Parse(weapNegAff.Text);
+                stats.chaotic = true;
+            }
+            else
+            {
+                stats.chaotic = false;
+                double affinity = double.Parse(weapAffinity.Text);
+                if(affinity > 0)
+                {
+                    stats.positiveAffinity = affinity;
+                    stats.negativeAffinity = 0;
+                }
+                else
+                {
+                    stats.positiveAffinity = 0;
+                    stats.negativeAffinity = affinity;
+                }
+            }
+            
+            stats.rawSharpMod = sharpnessMods[stats.sharpness].Item1;
+            stats.eleSharpMod = sharpnessMods[stats.sharpness].Item2;
+
+            if (weapOverride.Checked) //Overwrites the default element if checked.
+            {
+                stats.altDamageType = secondElements[weapSec.Text];
+                stats.eleAttackPower = double.Parse(weapSecDamage.Text);
+                stats.secElement = "(No Element)";
+                stats.secPower = 0;
+            }
+            else
+            {
+                stats.altDamageType = weapEle.Text;
+                stats.eleAttackPower = double.Parse(weapEleDamage.Text);
+                stats.secElement = secondElements[weapSec.Text];
+                stats.secPower = double.Parse(weapSecDamage.Text);
+            }
+
+            stats.avgMV = double.Parse(moveAvg.Text);
+            stats.hitCount = int.Parse(moveHitCount.Text);
+            stats.KOPower = double.Parse(moveKO.Text);
+            stats.exhaustPower = double.Parse(moveExhaust.Text);
+            stats.mindsEye = moveMinds.Checked;
+            stats.damageType = moveType.Text;
+
+            
+
+            stats.health = double.Parse(monHealth.Text);
+
+            if (stats.damageType == "Cut")
+            {
+                stats.hitzone = double.Parse(monCut.Text);
+            }
+            else if (stats.damageType == "Impact")
+            {
+                stats.hitzone = double.Parse(monImpact.Text);
+            }
+            else if (stats.damageType == "Shot")
+            {
+                stats.hitzone = double.Parse(monShot.Text);
+            }
+            else if (stats.damageType == "Fixed")
+            {
+                stats.hitzone = 0;
+            }
+
+            if (stats.altDamageType == "Fire")
+            {
+                stats.eleHitzone = double.Parse(monFire.Text);
+            }
+            else if (stats.altDamageType == "Water")
+            {
+                stats.eleHitzone = double.Parse(monWater.Text);
+            }
+            else if (stats.altDamageType == "Thunder")
+            {
+                stats.eleHitzone = double.Parse(monThunder.Text);
+            }
+            else if (stats.altDamageType == "Ice")
+            {
+                stats.eleHitzone = double.Parse(monIce.Text);
+            }
+            else if (stats.altDamageType == "Dragon")
+            {
+                stats.eleHitzone = double.Parse(monDragon.Text);
+            }
+            else
+            {
+                stats.eleHitzone = 0;
+            }
+
+            if (stats.secElement == "Fire")
+            {
+                stats.secHitzone = double.Parse(monFire.Text);
+            }
+            else if (stats.secElement == "Water")
+            {
+                stats.secHitzone = double.Parse(monWater.Text);
+            }
+            else if (stats.secElement == "Thunder")
+            {
+                stats.secHitzone = double.Parse(monThunder.Text);
+            }
+            else if (stats.secElement == "Ice")
+            {
+                stats.secHitzone = double.Parse(monIce.Text);
+            }
+            else if (stats.secElement == "Dragon")
+            {
+                stats.secHitzone = double.Parse(monDragon.Text);
+            }
+            else
+            {
+                stats.secHitzone = 0;
+            }
+
+            stats.questMod = double.Parse(monQuest.Text);
+            stats.exhaustMod = double.Parse(monExhaustMod.Text);
+            stats.KOHitzone = double.Parse(monKO.Text);
+            stats.exhaustHitzone = double.Parse(monExhaust.Text);
+            stats.health = double.Parse(monHealth.Text);
+
+            stats.monsterStatus = monStatus.Text;
+
+            stats.GRank = monGRank.Checked;
+        }
+
+        private void ImportModifiers()
+        {
+            foreach (ListViewItem item in modList.Groups[0].Items)
+            {
+                armorModifiers[item.Text](0);
+            }
+            foreach (ListViewItem item in modList.Groups[1].Items)
+            {
+                foodModifiers[item.Text](0);
+            }
+            foreach (ListViewItem item in modList.Groups[2].Items)
+            {
+                weaponModifiers[item.Text](0);
+            }
+            foreach (ListViewItem item in modList.Groups[3].Items)
+            {
+                miscModifiers[item.Text](0);
+            }
+
+            if (stats.damageType == "Fixed")
+            {
+                if (stats.expMod > 1.3 && !stats.CB)
+                {
+                    stats.expMod = 1.3;
+                }
+                else if (stats.CB && stats.expMod > 1.4)
+                {
+                    stats.expMod = 1.4;
+                }
+                stats.totalAttackPower = 100;
+                stats.totalAttackPower *= stats.expMod;
+            }
+
+            else
+            {
+                stats.totalAttackPower += stats.addRaw;
+                stats.totalAttackPower *= stats.rawMod;
+            }
+
+            if (isElement(stats.altDamageType))
+            {
+                stats.eleAttackPower *= stats.eleMod;
+                if(stats.eleAttackPower != 0)
+                {
+                    stats.eleAttackPower += stats.addElement;
+                }
+                
+            }
+
+            else if (isStatus(stats.altDamageType) || stats.altDamageType == "Blast")
+            {
+                stats.eleAttackPower *= stats.staMod;
+                if (stats.eleAttackPower != 0)
+                {
+                    stats.eleAttackPower += stats.addStatus;
+                }
+            }
+
+            if (isElement(stats.secElement))
+            {
+                stats.secPower *= stats.secMod;
+                if (stats.secPower != 0)
+                {
+                    stats.secPower += stats.addSecElement;
+                }
+            }
+
+            else if (isStatus(stats.altDamageType) || stats.altDamageType == "Blast")
+            {
+                stats.secPower *= stats.staSecMod;
+                if (stats.secPower != 0)
+                {
+                    stats.secPower += stats.addSecStatus;
+                }
+            }
+
+            if (stats.positiveAffinity > 100)
+            {
+                stats.positiveAffinity = 100;
+            }
+
+            if (stats.negativeAffinity > 100)
+            {
+                stats.negativeAffinity = 100;
+            }
+
+            if(stats.negativeAffinity + stats.positiveAffinity > 100)
+            {
+                stats.positiveAffinity -= stats.negativeAffinity;
+            }
+
+            stats.KOPower *= stats.KOMod;
+            stats.exhaustPower *= stats.ExhMod;
+
+            stats.rawSharpMod *= double.Parse(moveSharpMod.Text);
+            stats.eleSharpMod *= double.Parse(moveElement.Text);
+        }
+
+        private void Export()
+        {
+            paraFixed.Checked = (stats.damageType == "Fixed");
+            paraCritBoost.Checked = stats.criticalBoost;
+            paraMinds.Checked = stats.mindsEye;
+            paraStatusCrit.Checked = stats.statusCrit;
+            paraMadAff.Checked = stats.ruefulCrit;
+            paraSharp.SelectedItem = stats.sharpness;
+            paraRaw.Text = stats.totalAttackPower.ToString();
+            paraRawSharp.Text = stats.rawSharpMod.ToString();
+            paraKO.Text = stats.KOPower.ToString();
+            paraAltType.SelectedItem = stats.altDamageType;
+            paraElePower.Text = stats.eleAttackPower.ToString();
+            paraEleSharp.Text = stats.eleSharpMod.ToString();
+            paraExh.Text = stats.exhaustPower.ToString();
+            paraEleCrit.SelectedIndex = stats.eleCrit;
+            
+            if(stats.chaotic)
+            {
+                paraChaotic.Checked = true;
+                paraPosAff.Text = stats.positiveAffinity.ToString();
+                paraNegAff.Text = stats.negativeAffinity.ToString();
+            }
+            else
+            {
+                paraChaotic.Checked = false;
+                double affinity = stats.positiveAffinity - stats.negativeAffinity;
+                if(affinity > 0)
+                {
+                    paraAffinity.Text = affinity.ToString();
+                }
+                else
+                {
+                    paraAffinity.Text = (affinity * -1).ToString();
+                }
+            }
+
+            paraAvgMV.Text = stats.avgMV.ToString();
+            paraHitCount.Text = stats.hitCount.ToString();
+            paraSecEle.SelectedItem = stats.secElement;
+            paraSecPower.Text = stats.secPower.ToString();
+
+            paraHitzone.Text = stats.hitzone.ToString();
+            paraKOZone.Text = stats.KOHitzone.ToString();
+            paraExhZone.Text = stats.exhaustHitzone.ToString();
+            paraEleHit.Text = stats.eleHitzone.ToString();
+            paraSecZone.Text = stats.secHitzone.ToString();
+            paraMonStatus.SelectedItem = stats.monsterStatus;
+            paraHealth.Text = stats.health.ToString();
+            paraQuestMod.Text = stats.questMod.ToString();
+            paraExhMod.Text = stats.exhaustMod.ToString();
+
+            paraGRank.Checked = stats.GRank;
+        }
+
+        private void weapDatabase_Click(object sender, EventArgs e)
+        {
+            //PLACEHOLDER
+            weapRaw.Text = "200";
+            weapEle.SelectedItem = "Fire";
+            weapEleDamage.Text = "10";
+            weapAffinity.Text = "20";
+            weapSharpness.SelectedItem = "Purple";
+            moveMV.Text = "20";
+            moveHitCount.Text = "2";
+            moveAvg.Text = "10";
+            moveSharpMod.Text = "1.2";
+            moveKO.Text = "6";
+            moveExhaust.Text = "10";
+            moveElement.Text = "1.1";
+            monCut.Text = "20";
+            monImpact.Text = "10";
+            monShot.Text = "30";
+            monKO.Text = "100";
+            monExhaust.Text = "40";
+            monFire.Text = "10";
+            monWater.Text = "15";
+            monThunder.Text = "20";
+            monIce.Text = "25";
+            monDragon.Text = "30";
+            monHealth.Text = "400";
+            monQuest.Text = "0.8";
+            monExhaustMod.Text = "0.9";
+        }
+
+        private void weapSharpTwo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void moveHitCount_TextChanged(object sender, EventArgs e)
+        {
+            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
+            if(double.Parse(moveMV.Text) != newTotal)
+            {
+                moveMV.Text = newTotal.ToString();
+            }
+        }
+
+        private void moveMV_TextChanged(object sender, EventArgs e)
+        {
+            double newAvg = double.Parse(moveMV.Text) / double.Parse(moveHitCount.Text);
+            if(double.Parse(moveAvg.Text) != newAvg)
+            {
+                moveAvg.Text = newAvg.ToString();
+            }
+        }
+
+        private void moveAvg_TextChanged(object sender, EventArgs e)
+        {
+            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
+            if (double.Parse(moveMV.Text) != newTotal)
+            {
+                moveMV.Text = newTotal.ToString();
+            }
+        }
     }
     /// <summary>
     /// Stores the relevant variables from the database portion of the application to
@@ -3503,18 +4093,13 @@ namespace MHXXDamageCalc
         public double eleSharpMod;
         public double avgMV;
         public int hitCount;
-        public double totalMV;
         public double KOPower;
         public double exhaustPower;
-        public bool criticalBoost;
-        public bool mindsEye;
-        public string damageType;
-        public string eleCrit;
-        public bool statusCrit;
 
         public string secElement;
         public double secPower;
 
+        public string damageType;
         public double hitzone;
         public double eleHitzone;
         public double secHitzone;
@@ -3522,34 +4107,42 @@ namespace MHXXDamageCalc
         public double KOHitzone;
         public double exhaustHitzone;
         public double exhaustMod;
-
-        public double rawMod; //Stores the multiplier of the raw damage.
-        public double eleMod; //Stores the elemental multiplier. Has a cap of 1.2x, surpassed when used Demon Riot on an Element Phial SA.
-        public double secMod; //Stores the elemental multiplier for the second element. Has same restrictions as above.
-        public double expMod; //Stores the explosive multiplier. Has a cap of 1.3x, 1.4x when considering Impact Phial CB.
-        public double staMod; //Stores the status multiplier. Has a cap of 1.25x, surpassed when using Demon Riot on a Status Phial SA.
-        public double staSecMod;
-        public double KOMod;
-        public double ExhMod;
-
-        public bool CB; //Shows whether or not the explosive multiplier should be increased because Impact Phials are being used. 
-        public bool DemonRiot; //Shows whether or not Demon Riot is being used.
-        public bool chaotic; //Shows whether or not a Chaotic Gore weapon is being used.
-        public bool ruefulCrit;
-
-        public int addRaw; //Stores the additive portion of raw
-        public int addElement; //Stores the additive portion of element after Atk +1 or +2
-        public int addSecElement; //Stores the additive portion of element after Atk +1 or +2
-        public int addStatus; //Stores the additive portion of status after Atk +1 or +2
-        public int addSecStatus; //Stores the addition portion of status after Atk+1 or +2
-
         public double health; //Stores the monster's health.
+
+        public double rawMod = 1; //Stores the multiplier of the raw damage.
+        public double eleMod = 1; //Stores the elemental multiplier. Has a cap of 1.2x, surpassed when used Demon Riot on an Element Phial SA.
+        public double secMod = 1; //Stores the elemental multiplier for the second element. Has same restrictions as above.
+        public double expMod = 1; //Stores the explosive multiplier. Has a cap of 1.3x, 1.4x when considering Impact Phial CB.
+        public double staMod = 1; //Stores the status multiplier. Has a cap of 1.25x, surpassed when using Demon Riot on a Status Phial SA.
+        public double staSecMod = 1;
+        public double KOMod = 1;
+        public double ExhMod = 1;
+
+        public bool chaotic; //Shows whether or not a Chaotic Gore weapon is being used.
+        public bool CB = false; //Shows whether or not the explosive multiplier should be increased because Impact Phials are being used. 
+        public bool DemonRiot = false; //Shows whether or not Demon Riot is being used.
+        public bool ruefulCrit = false;
+
+        public int addRaw = 0; //Stores the additive portion of raw
+        public int addElement = 0; //Stores the additive portion of element after Atk +1 or +2
+        public int addSecElement = 0; //Stores the additive portion of element after Atk +1 or +2
+        public int addStatus = 0; //Stores the additive portion of status after Atk +1 or +2
+        public int addSecStatus = 0; //Stores the addition portion of status after Atk+1 or +2
+        public bool criticalBoost = false;
+        public bool mindsEye;
+        public int eleCrit = 0;
+        public bool statusCrit = false;
+
+        public string monsterStatus;
+        public bool GRank;
+
 
         public Dictionary<string, Tuple<double, double>> sharpnessValues = new Dictionary<string, Tuple<double, double>>();
 
         public ImportedStats()
         {
             sharpnessValues.Add("(No Sharpness)", new Tuple<double, double>(1.00, 1.00));
+            sharpnessValues.Add("Purple", new Tuple<double, double>(1.39, 1.20));
             sharpnessValues.Add("White", new Tuple<double, double>(1.32, 1.12));
             sharpnessValues.Add("Blue", new Tuple<double, double>(1.20, 1.06));
             sharpnessValues.Add("Green", new Tuple<double, double>(1.05, 1.0));

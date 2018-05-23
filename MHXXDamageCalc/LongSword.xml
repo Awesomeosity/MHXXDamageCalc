@@ -1,0 +1,2791 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<genericWeapon>
+  <family name="Petrified Saber">
+    <weapName name="Petrified Saber Lv. 1">
+      <attack>60</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Petrified Saber Lv. 2">
+      <attack>80</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Petrified Saber Lv. 3">
+      <attack>90</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Petrified Saber Lv. 4">
+      <attack>100</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Petrified Saber Lv. 5">
+      <attack>110</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Petrified Saber Lv. 6">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Petrified Saber Lv. 7">
+      <attack>170</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Scholarly Saber Lv. 8">
+      <attack>210</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Scholarly Saber Lv. 9">
+      <attack>240</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Scholarly Saber Lv. 10">
+      <attack>290</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Sophos Saber Lv. 11">
+      <attack>320</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Diapason">
+    <weapName name="Diapason Lv. 1">
+      <attack>120</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Diapason Lv. 2">
+      <attack>130</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Diapason Lv. 3">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Diapason Lv. 4">
+      <attack>180</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Crimsonfork Lv. 5">
+      <attack>240</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Crimsonfork Lv. 6">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Crimsonfork Lv. 7">
+      <attack>340</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Crimsonfork Zenith Lv. 8">
+      <attack>360</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Obsidian Saber">
+    <weapName name="Obsidian Saber Lv. 1">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Obsidian Saber Lv. 2">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Obsidian Saber Lv. 3">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Obsidian Saber Lv. 4">
+      <attack>180</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Obsidian Saber Lv. 5">
+      <attack>200</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Lustrous Kalimia Lv. 6">
+      <attack>220</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Lustrous Kalimia Lv. 7">
+      <attack>280</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Ether Kalimia Lv. 8">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Guardian Sword">
+    <weapName name="Guardian Sword Lv. 1">
+      <attack>90</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Guardian Sword Lv. 2">
+      <attack>110</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>5</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Guardian Sword Lv. 3">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Guardian Sword Lv. 4">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Sword Lv. 5">
+      <attack>210</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Sword Lv. 6">
+      <attack>240</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Paladin Sword Lv. 7">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>15</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Aqua Guardian">
+    <weapName name="Aqua Guardian Lv. 1">
+      <attack>170</attack>
+      <element>Water</element>
+      <eleValue>26</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Aqua Guardian Lv. 2">
+      <attack>180</attack>
+      <element>Water</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Atlantica Lv. 3">
+      <attack>190</attack>
+      <element>Water</element>
+      <eleValue>30</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Atlantica Lv. 4">
+      <attack>270</attack>
+      <element>Water</element>
+      <eleValue>32</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Alto Mare Lv. 5">
+      <attack>300</attack>
+      <element>Water</element>
+      <eleValue>34</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Giant Makaera">
+    <weapName name="Giant Makaera Lv. 1">
+      <attack>160</attack>
+      <element>Fire</element>
+      <eleValue>20</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Giant Makaera Lv. 2">
+      <attack>180</attack>
+      <element>Fire</element>
+      <eleValue>22</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Titan Makaera Lv. 3">
+      <attack>210</attack>
+      <element>Fire</element>
+      <eleValue>23</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Titan Makaera Lv. 4">
+      <attack>260</attack>
+      <element>Fire</element>
+      <eleValue>25</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Titan Makaera Lv. 5">
+      <attack>300</attack>
+      <element>Fire</element>
+      <eleValue>26</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Basarios Makal Lv. 6">
+      <attack>330</attack>
+      <element>Fire</element>
+      <eleValue>27</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Chainslaughter">
+    <weapName name="Chainslaughter Lv. 1">
+      <attack>150</attack>
+      <element>Thunder</element>
+      <eleValue>8</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Chainslaughter Lv. 2">
+      <attack>180</attack>
+      <element>Thunder</element>
+      <eleValue>10</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Chainslaughter Lv. 3">
+      <attack>200</attack>
+      <element>Thunder</element>
+      <eleValue>12</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Rumbalarum Lv. 4">
+      <attack>230</attack>
+      <element>Thunder</element>
+      <eleValue>14</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Rumbalarum Lv. 5">
+      <attack>280</attack>
+      <element>Thunder</element>
+      <eleValue>16</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Swordsawcer Lv. 6">
+      <attack>340</attack>
+      <element>Thunder</element>
+      <eleValue>18</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Ivory Rabbit">
+    <weapName name="Ivory Rabbit Lv. 1">
+      <attack>110</attack>
+      <element>Ice</element>
+      <eleValue>20</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Ivory Rabbit Lv. 2">
+      <attack>120</attack>
+      <element>Ice</element>
+      <eleValue>22</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Ivory Rabbit Lv. 3">
+      <attack>130</attack>
+      <element>Ice</element>
+      <eleValue>24</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Ivory Rabbit Lv. 4">
+      <attack>150</attack>
+      <element>Ice</element>
+      <eleValue>26</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Ivory Rabbit Lv. 5">
+      <attack>170</attack>
+      <element>Ice</element>
+      <eleValue>28</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Iced Rabbit Lv. 6">
+      <attack>220</attack>
+      <element>Ice</element>
+      <eleValue>32</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Iced Rabbit Lv. 7">
+      <attack>250</attack>
+      <element>Ice</element>
+      <eleValue>34</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Iced Rabbit Lv. 8">
+      <attack>310</attack>
+      <element>Ice</element>
+      <eleValue>36</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Artic Rabbit Lv. 9">
+      <attack>340</attack>
+      <element>Ice</element>
+      <eleValue>38</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Mirage Finsword">
+    <weapName name="Mirage Finsword Lv. 1">
+      <attack>130</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Mirage Finsword Lv. 2">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Mirage Finsword Lv. 3">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>15</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Phantom Mirage Lv. 4">
+      <attack>190</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>15</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Phantom Mirage Lv. 5">
+      <attack>290</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>15</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Esphasm Lv. 6">
+      <attack>320</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>20</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Iron Katana">
+    <weapName name="Iron Katana Lv. 1">
+      <attack>70</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Iron Katana Lv. 2">
+      <attack>80</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Iron Katana Lv. 3">
+      <attack>100</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Iron Katana Lv. 4">
+      <attack>110</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Iron Katana Lv. 5">
+      <attack>120</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Iron Katana Lv. 6">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Iron Katana Lv. 7">
+      <attack>180</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Iron Gospel Lv. 8">
+      <attack>230</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Iron Gospel Lv. 9">
+      <attack>260</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Iron Gospel Lv. 10">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Iron Baptism Lv. 11">
+      <attack>360</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Hidden Saber">
+    <weapName name="Hidden Saber Lv. 1">
+      <attack>100</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>40</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Hidden Saber Lv. 2">
+      <attack>120</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>40</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Hidden Saber Lv. 3">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>40</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Hidden Saber Lv. 4">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>40</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Deepest Night Lv. 5">
+      <attack>180</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>40</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Deepest Night Lv. 6">
+      <attack>230</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>40</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Deepest Night Lv. 7">
+      <attack>260</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>45</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Avidya Saber Lv. 8">
+      <attack>290</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>45</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Eager Cleaver">
+    <weapName name="Eager Cleaver Lv. 1">
+      <attack>80</attack>
+      <element>Thunder</element>
+      <eleValue>25</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Eager Cleaver Lv. 2">
+      <attack>90</attack>
+      <element>Thunder</element>
+      <eleValue>30</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Eager Cleaver Lv. 3">
+      <attack>120</attack>
+      <element>Thunder</element>
+      <eleValue>35</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Eager Cleaver Lv. 4">
+      <attack>130</attack>
+      <element>Thunder</element>
+      <eleValue>40</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Eager Cleaver Lv. 5">
+      <attack>150</attack>
+      <element>Thunder</element>
+      <eleValue>45</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Devil Slicer Lv. 6">
+      <attack>190</attack>
+      <element>Thunder</element>
+      <eleValue>50</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Devil Slicer Lv. 7">
+      <attack>220</attack>
+      <element>Thunder</element>
+      <eleValue>52</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Devil Slicer Lv. 8">
+      <attack>250</attack>
+      <element>Thunder</element>
+      <eleValue>54</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Demon Slicer Lv. 9">
+      <attack>300</attack>
+      <element>Thunder</element>
+      <eleValue>56</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Wailing Ghost">
+    <weapName name="Wailing Ghost Lv. 1">
+      <attack>170</attack>
+      <element>Thunder</element>
+      <eleValue>18</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wailing Ghost Lv. 2">
+      <attack>180</attack>
+      <element>Thunder</element>
+      <eleValue>20</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Grand Wailing Ghost Lv. 3">
+      <attack>200</attack>
+      <element>Thunder</element>
+      <eleValue>23</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Grand Wailing Ghost Lv. 4">
+      <attack>290</attack>
+      <element>Thunder</element>
+      <eleValue>25</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wrathful Beheader Lv. 5">
+      <attack>320</attack>
+      <element>Thunder</element>
+      <eleValue>27</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Imperial Saber">
+    <weapName name="Imperial Saber Lv. 1">
+      <attack>120</attack>
+      <element>Blast</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Saber Lv. 2">
+      <attack>130</attack>
+      <element>Blast</element>
+      <eleValue>30</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Saber Lv. 3">
+      <attack>140</attack>
+      <element>Blast</element>
+      <eleValue>32</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Saber Lv. 4">
+      <attack>150</attack>
+      <element>Blast</element>
+      <eleValue>35</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Shimmer Lv. 5">
+      <attack>160</attack>
+      <element>Blast</element>
+      <eleValue>39</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Shimmer Lv. 6">
+      <attack>270</attack>
+      <element>Blast</element>
+      <eleValue>40</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Imperial Phantasm Lv. 7">
+      <attack>290</attack>
+      <element>Blast</element>
+      <eleValue>42</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Thunderclap">
+    <weapName name="Thunderclap Lv. 1">
+      <attack>120</attack>
+      <element>Thunder</element>
+      <eleValue>10</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Thunderclap Lv. 2">
+      <attack>130</attack>
+      <element>Thunder</element>
+      <eleValue>11</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Thunderclap Lv. 3">
+      <attack>150</attack>
+      <element>Thunder</element>
+      <eleValue>12</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Thunderclap Lv. 4">
+      <attack>160</attack>
+      <element>Thunder</element>
+      <eleValue>13</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Heaven's Thunder Lv. 5">
+      <attack>180</attack>
+      <element>Thunder</element>
+      <eleValue>14</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Heaven's Thunder Lv. 6">
+      <attack>260</attack>
+      <element>Thunder</element>
+      <eleValue>15</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Heaven's Thunder Lv. 7">
+      <attack>280</attack>
+      <element>Thunder</element>
+      <eleValue>16</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Heaven's Judgement Lv. 8">
+      <attack>300</attack>
+      <element>Thunder</element>
+      <eleValue>17</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Rimeblossom">
+    <weapName name="Rimeblossom Lv. 1">
+      <attack>90</attack>
+      <element>Ice</element>
+      <eleValue>15</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Rimeblossom Lv. 2">
+      <attack>130</attack>
+      <element>Ice</element>
+      <eleValue>18</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Rimeblossom Lv. 3">
+      <attack>140</attack>
+      <element>Ice</element>
+      <eleValue>22</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Heaven's Thunder Lv. 4">
+      <attack>160</attack>
+      <element>Ice</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Rime &amp; Treason Lv. 5">
+      <attack>210</attack>
+      <element>Ice</element>
+      <eleValue>32</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Rime &amp; Treason Lv. 6">
+      <attack>240</attack>
+      <element>Ice</element>
+      <eleValue>34</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Rimeffloresce Lv. 7">
+      <attack>330</attack>
+      <element>Ice</element>
+      <eleValue>36</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Yuki Ichimonji">
+    <weapName name="Yuki Ichimonji Lv. 1">
+      <attack>140</attack>
+      <element>Ice</element>
+      <eleValue>38</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Yuki Ichimonji Lv. 2">
+      <attack>150</attack>
+      <element>Ice</element>
+      <eleValue>40</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Silver Ichimonji Lv. 3">
+      <attack>170</attack>
+      <element>Ice</element>
+      <eleValue>44</eleValue>
+      <affinity>15</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Silver Ichimonji Lv. 4">
+      <attack>230</attack>
+      <element>Ice</element>
+      <eleValue>346</eleValue>
+      <affinity>15</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Illusion Ichimonji Lv. 5">
+      <attack>290</attack>
+      <element>Ice</element>
+      <eleValue>48</eleValue>
+      <affinity>15</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Aikuchi">
+    <weapName name="Aikuchi Lv. 1">
+      <attack>120</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Aikuchi Lv. 2">
+      <attack>130</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Aikuchi Lv. 3">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Aikuchi Lv. 4">
+      <attack>170</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Aikuchi Lv. 5">
+      <attack>200</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Unbranded Aikuchi Lv. 6">
+      <attack>240</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Unbranded Aikuchi Lv. 7">
+      <attack>260</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Lieutenant's Aikuchi Lv. 8">
+      <attack>350</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Toad Abetter">
+    <weapName name="Toad Abetter Lv. 1">
+      <attack>200</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Toad Abetter Lv. 2">
+      <attack>220</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Accomplished Abetter Lv. 3">
+      <attack>240</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Accomplished Abetter Lv. 4">
+      <attack>300</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-20</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Accomplished Abetter Lv. 5">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-25</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Peerless Abetter Lv. 6">
+      <attack>360</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-25</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Plume Sword">
+    <weapName name="Plume Sword Lv. 1">
+      <attack>70</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Plume Sword Lv. 2">
+      <attack>80</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Plume Sword Lv. 3">
+      <attack>100</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Plume Sword Lv. 4">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Plume Sword Lv. 5">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Plume Sword Lv. 6">
+      <attack>190</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Plumage Sword Lv. 7">
+      <attack>210</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Plumage Sword Lv. 8">
+      <attack>240</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Plumage Sword Lv. 9">
+      <attack>300</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Plume Bandit Lv. 10">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Rogue Boss">
+    <weapName name="Rogue Boss Lv. 1">
+      <attack>250</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Gangster Boss Lv. 2">
+      <attack>280</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Boss of Bosses Lv. 3">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Liquid Fire Blade">
+    <weapName name="Liquid Fire Blade Lv. 1">
+      <attack>180</attack>
+      <element>Fire</element>
+      <eleValue>10</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Liquid Fire Blade Lv. 2">
+      <attack>200</attack>
+      <element>Fire</element>
+      <eleValue>12</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Divine Fire Blade Lv. 3">
+      <attack>230</attack>
+      <element>Fire</element>
+      <eleValue>15</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Divine Fire Blade Lv. 4">
+      <attack>280</attack>
+      <element>Fire</element>
+      <eleValue>18</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Deific Fire Blade Lv. 5">
+      <attack>340</attack>
+      <element>Fire</element>
+      <eleValue>22</eleValue>
+      <affinity>-10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Khanga Edge">
+    <weapName name="Khanga Edge Lv. 1">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Khanga Edge Lv. 2">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Khanga Edge Lv. 3">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Khanga Edge Lv. 4">
+      <attack>180</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Khanga Brink Lv. 5">
+      <attack>190</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Khanga Brink Lv. 6">
+      <attack>270</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Khanga Rebellion Lv. 7">
+      <attack>310</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Seditious Edge">
+    <weapName name="Seditious Edge Lv. 1">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>20</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Seditious Edge Lv. 2">
+      <attack>170</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>20</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Zealous Sedition Lv. 3">
+      <attack>180</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>20</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Zealous Sedition Lv. 4">
+      <attack>250</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>20</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Zealous Sedition Lv. 5">
+      <attack>270</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>20</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Zealous Rebellion Lv. 6">
+      <attack>290</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>20</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Serrated Jaw">
+    <weapName name="Serrated Jaw Lv. 1">
+      <attack>80</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Jaw Lv. 2">
+      <attack>100</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Jaw Lv. 3">
+      <attack>110</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Jaw Lv. 4">
+      <attack>130</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Jaw Lv. 5">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Jaw Lv. 6">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Jaw Lv. 7">
+      <attack>190</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Maw Lv. 8">
+      <attack>220</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Maw Lv. 9">
+      <attack>250</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Maw Lv. 10">
+      <attack>310</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Serrated Maxilla Lv. 11">
+      <attack>340</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Dancing Flames">
+    <weapName name="Dancing Flames Lv. 1">
+      <attack>160</attack>
+      <element>Fire</element>
+      <eleValue>30</eleValue>
+      <affinity>25</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Dancing Flames Lv. 2">
+      <attack>170</attack>
+      <element>Fire</element>
+      <eleValue>32</eleValue>
+      <affinity>25</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Dancing Flames Lv. 3">
+      <attack>180</attack>
+      <element>Fire</element>
+      <eleValue>35</eleValue>
+      <affinity>25</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Dancing Hellfire Lv. 4">
+      <attack>260</attack>
+      <element>Fire</element>
+      <eleValue>37</eleValue>
+      <affinity>25</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Dancing Hellfire Lv. 5">
+      <attack>270</attack>
+      <element>Fire</element>
+      <eleValue>38</eleValue>
+      <affinity>25</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Dancing Inferno Lv. 6">
+      <attack>290</attack>
+      <element>Fire</element>
+      <eleValue>40</eleValue>
+      <affinity>25</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Rusty Claymore">
+    <weapName name="Rusty Claymore Lv. 1">
+      <attack>120</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Rusty Claymore Lv. 2">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Rusty Claymore Lv. 3">
+      <attack>170</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Gaelic Flame Lv. 4">
+      <attack>200</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Gaelic Flame Lv. 5">
+      <attack>270</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Gaelic Flame Lv. 6">
+      <attack>300</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Last Ecdysys Lv. 7">
+      <attack>320</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>15</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Canine Katana">
+    <weapName name="Canine Katana Lv. 1">
+      <attack>150</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Canine Katana Lv. 2">
+      <attack>170</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Canine Katana Lv. 3">
+      <attack>190</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Gnash Katana Lv. 4">
+      <attack>220</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Gnash Katana Lv. 5">
+      <attack>240</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Rend Katana Lv. 6">
+      <attack>330</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Busting Edge">
+    <weapName name="Busting Edge Lv. 1">
+      <attack>150</attack>
+      <element>Ice</element>
+      <eleValue>33</eleValue>
+      <affinity>20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Bustizan Edge Lv. 2">
+      <attack>180</attack>
+      <element>Ice</element>
+      <eleValue>35</eleValue>
+      <affinity>25</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Bustizan Edge Lv. 3">
+      <attack>250</attack>
+      <element>Ice</element>
+      <eleValue>37</eleValue>
+      <affinity>30</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Bustizan Edge Lv. 4">
+      <attack>270</attack>
+      <element>Ice</element>
+      <eleValue>38</eleValue>
+      <affinity>30</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Jalidefal Lv. 5">
+      <attack>290</attack>
+      <element>Ice</element>
+      <eleValue>40</eleValue>
+      <affinity>30</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Bone Katana 'Wolf'">
+    <weapName name="Bone Katana 'Wolf' Lv. 1">
+      <attack>90</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Yellow</sharpness>
+      <sharpOne>Yellow</sharpOne>
+      <sharpTwo>Yellow</sharpTwo>
+    </weapName>
+    <weapName name="Bone Katana 'Wolf' Lv. 2">
+      <attack>100</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Bone Katana 'Wolf' Lv. 3">
+      <attack>110</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Bone Katana 'Wolf' Lv. 4">
+      <attack>120</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Bone Katana 'Wolf' Lv. 5">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Bone Katana 'Wolf' Lv. 6">
+      <attack>170</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Bone Katana 'Dragon' Lv. 7">
+      <attack>230</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Bone Katana 'Dragon' Lv. 8">
+      <attack>290</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Supreme Bone Katana Lv. 9">
+      <attack>350</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Usurper's Boltslicer">
+    <weapName name="Usurper's Boltslicer Lv. 1">
+      <attack>120</attack>
+      <element>Thunder</element>
+      <eleValue>20</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Usurper's Boltslicer Lv. 2">
+      <attack>130</attack>
+      <element>Thunder</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Usurper's Boltslicer Lv. 3">
+      <attack>160</attack>
+      <element>Thunder</element>
+      <eleValue>30</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Despot's Boltbreaker Lv. 4">
+      <attack>200</attack>
+      <element>Thunder</element>
+      <eleValue>34</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Despot's Boltbreaker Lv. 5">
+      <attack>280</attack>
+      <element>Thunder</element>
+      <eleValue>35</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Oppressor's Law Lv. 6">
+      <attack>320</attack>
+      <element>Thunder</element>
+      <eleValue>36</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Despot Nitorus">
+    <weapName name="Despot Nitorus Lv. 1">
+      <attack>270</attack>
+      <element>Thunder</element>
+      <eleValue>47</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Oppressor Nitorus Lv. 2">
+      <attack>280</attack>
+      <element>Thunder</element>
+      <eleValue>49</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Orcus Nitorus Lv. 3">
+      <attack>290</attack>
+      <element>Thunder</element>
+      <eleValue>51</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Tigrine Edge">
+    <weapName name="Tigrine Edge Lv. 1">
+      <attack>140</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Tigrine Edge Lv. 2">
+      <attack>170</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Tigrine Edge Lv. 3">
+      <attack>200</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Tigrine Need Lv. 4">
+      <attack>220</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-15</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Tigrine Need Lv. 5">
+      <attack>280</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-15</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Tigrine Need Lv. 6">
+      <attack>320</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-15</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Tigrine Gluttony Lv. 7">
+      <attack>340</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>-15</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Dios Katana">
+    <weapName name="Dios Katana Lv. 1">
+      <attack>130</attack>
+      <element>Blast</element>
+      <eleValue>15</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Dios Katana Lv. 2">
+      <attack>140</attack>
+      <element>Blast</element>
+      <eleValue>16</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Dios Katana Lv. 3">
+      <attack>160</attack>
+      <element>Blast</element>
+      <eleValue>17</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Dios Katana Lv. 4">
+      <attack>180</attack>
+      <element>Blast</element>
+      <eleValue>18</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Grenade Blade Lv. 5">
+      <attack>210</attack>
+      <element>Blast</element>
+      <eleValue>19</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Grenade Blade Lv. 6">
+      <attack>300</attack>
+      <element>Blast</element>
+      <eleValue>20</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Grenade Blade X Lv. 7">
+      <attack>340</attack>
+      <element>Blast</element>
+      <eleValue>21</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Demolition Katana">
+    <weapName name="Demolition Katana Lv. 1">
+      <attack>150</attack>
+      <element>Blast</element>
+      <eleValue>24</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Demolition Katana Lv. 2">
+      <attack>160</attack>
+      <element>Blast</element>
+      <eleValue>26</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Pyro Demolisher Lv. 3">
+      <attack>180</attack>
+      <element>Blast</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Pyro Demolisher Lv. 4">
+      <attack>270</attack>
+      <element>Blast</element>
+      <eleValue>30</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Pyro Demolisher Lv. 5">
+      <attack>290</attack>
+      <element>Blast</element>
+      <eleValue>31</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Pyro Demolisher Lv. 6">
+      <attack>320</attack>
+      <element>Blast</element>
+      <eleValue>32</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Lightbreak Edge">
+    <weapName name="Lightbreak Edge Lv. 1">
+      <attack>260</attack>
+      <element>Blast</element>
+      <eleValue>36</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Lightbreak Irapto Lv. 2">
+      <attack>280</attack>
+      <element>Blast</element>
+      <eleValue>38</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Lightbreak Jabrak Lv. 3">
+      <attack>300</attack>
+      <element>Blast</element>
+      <eleValue>40</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Wyvern Blade 'Verde'">
+    <weapName name="Wyvern Blade 'Verde' Lv. 1">
+      <attack>100</attack>
+      <element>Poison</element>
+      <eleValue>25</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Verde' Lv. 2">
+      <attack>110</attack>
+      <element>Poison</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Verde' Lv. 3">
+      <attack>150</attack>
+      <element>Poison</element>
+      <eleValue>32</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Verde' Lv. 4">
+      <attack>170</attack>
+      <element>Poison</element>
+      <eleValue>36</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Holly' Lv. 5">
+      <attack>180</attack>
+      <element>Poison</element>
+      <eleValue>40</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Holly' Lv. 6">
+      <attack>230</attack>
+      <element>Poison</element>
+      <eleValue>42</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Holly' Lv. 7">
+      <attack>260</attack>
+      <element>Poison</element>
+      <eleValue>44</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Jade' Lv. 8">
+      <attack>290</attack>
+      <element>Poison</element>
+      <eleValue>48</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Wyvern Blade 'Flame'">
+    <weapName name="Wyvern Blade 'Flame' Lv. 1">
+      <attack>170</attack>
+      <element>Fire</element>
+      <eleValue>36</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Flame' Lv. 2">
+      <attack>180</attack>
+      <element>Fire</element>
+      <eleValue>38</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Flare' Lv. 3">
+      <attack>190</attack>
+      <element>Fire</element>
+      <eleValue>40</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Flare' Lv. 4">
+      <attack>250</attack>
+      <element>Fire</element>
+      <eleValue>42</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Flare' Lv. 5">
+      <attack>270</attack>
+      <element>Fire</element>
+      <eleValue>43</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Blaze' Lv. 6">
+      <attack>300</attack>
+      <element>Fire</element>
+      <eleValue>44</eleValue>
+      <affinity>10</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Wyvern Blade 'Blood'">
+    <weapName name="Wyvern Blade 'Blood' Lv. 1">
+      <attack>120</attack>
+      <element>Fire</element>
+      <eleValue>22</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Blood' Lv. 2">
+      <attack>140</attack>
+      <element>Fire</element>
+      <eleValue>24</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Blood' Lv. 3">
+      <attack>160</attack>
+      <element>Fire</element>
+      <eleValue>26</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Blood' Lv. 4">
+      <attack>190</attack>
+      <element>Fire</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Maple' Lv. 5">
+      <attack>220</attack>
+      <element>Fire</element>
+      <eleValue>30</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Maple' Lv. 6">
+      <attack>310</attack>
+      <element>Fire</element>
+      <eleValue>32</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Vermilion' Lv. 7">
+      <attack>340</attack>
+      <element>Fire</element>
+      <eleValue>34</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Wyvern Blade 'Pale'">
+    <weapName name="Wyvern Blade 'Pale' Lv. 1">
+      <attack>180</attack>
+      <element>Fire</element>
+      <eleValue>22</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Pale' Lv. 2">
+      <attack>190</attack>
+      <element>Fire</element>
+      <eleValue>24</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Bloom' Lv. 3">
+      <attack>200</attack>
+      <element>Fire</element>
+      <eleValue>26</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Bloom' Lv. 4">
+      <attack>300</attack>
+      <element>Fire</element>
+      <eleValue>27</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Wyvern Blade 'Argent' Lv. 5">
+      <attack>320</attack>
+      <element>Fire</element>
+      <eleValue>28</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Coiled Nail">
+    <weapName name="Coiled Nail Lv. 1">
+      <attack>80</attack>
+      <element>Para</element>
+      <eleValue>10</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Green</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Nail Lv. 2">
+      <attack>90</attack>
+      <element>Para</element>
+      <eleValue>12</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Nail Lv. 3">
+      <attack>110</attack>
+      <element>Para</element>
+      <eleValue>13</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Nail Lv. 4">
+      <attack>140</attack>
+      <element>Para</element>
+      <eleValue>14</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Pulse Nail Lv. 5">
+      <attack>170</attack>
+      <element>Para</element>
+      <eleValue>15</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Pulse Nail Lv. 6">
+      <attack>230</attack>
+      <element>Para</element>
+      <eleValue>16</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Rack Nail Lv. 7">
+      <attack>300</attack>
+      <element>Para</element>
+      <eleValue>17</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Coiled Saber">
+    <weapName name="Coiled Saber Lv. 1">
+      <attack>100</attack>
+      <element>Para</element>
+      <eleValue>22</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Saber Lv. 2">
+      <attack>110</attack>
+      <element>Para</element>
+      <eleValue>23</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Coiled Saber Lv. 3">
+      <attack>120</attack>
+      <element>Para</element>
+      <eleValue>25</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Paracoiled Saber Lv. 4">
+      <attack>200</attack>
+      <element>Para</element>
+      <eleValue>30</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Paracoiled Edge Lv. 5">
+      <attack>260</attack>
+      <element>Para</element>
+      <eleValue>34</eleValue>
+      <affinity>0</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Black Katana Mk.I">
+    <weapName name="Black Katana Mk.I Lv. 1">
+      <attack>70</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Green</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.I Lv. 2">
+      <attack>90</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>0</affinity>
+      <sharpness>Green</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.I Lv. 3">
+      <attack>100</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>5</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.I Lv. 4">
+      <attack>130</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>5</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.I Lv. 5">
+      <attack>160</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>5</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.II Lv. 6">
+      <attack>190</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>5</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.II Lv. 7">
+      <attack>220</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>10</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.II Lv. 8">
+      <attack>260</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>15</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Black Katana Mk.III Lv. 9">
+      <attack>280</attack>
+      <element>(No Element)</element>
+      <eleValue>0</eleValue>
+      <affinity>15</affinity>
+      <sharpness>Purple</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+  <family name="Blood Cry">
+    <weapName name="Blood Cry Lv. 1">
+      <attack>120</attack>
+      <element>Sleep</element>
+      <eleValue>14</eleValue>
+      <affinity>20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>Blue</sharpTwo>
+    </weapName>
+    <weapName name="Blood Cry Lv. 2">
+      <attack>130</attack>
+      <element>Sleep</element>
+      <eleValue>18</eleValue>
+      <affinity>20</affinity>
+      <sharpness>Blue</sharpness>
+      <sharpOne>Blue</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Blood Scream Lv. 3">
+      <attack>150</attack>
+      <element>Sleep</element>
+      <eleValue>20</eleValue>
+      <affinity>25</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Blood Scream Lv. 4">
+      <attack>180</attack>
+      <element>Sleep</element>
+      <eleValue>22</eleValue>
+      <affinity>30</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>White</sharpTwo>
+    </weapName>
+    <weapName name="Blood Scream Lv. 5">
+      <attack>200</attack>
+      <element>Sleep</element>
+      <eleValue>24</eleValue>
+      <affinity>35</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>White</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+    <weapName name="Blood Nerges Lv. 6">
+      <attack>240</attack>
+      <element>Sleep</element>
+      <eleValue>27</eleValue>
+      <affinity>40</affinity>
+      <sharpness>White</sharpness>
+      <sharpOne>Purple</sharpOne>
+      <sharpTwo>Purple</sharpTwo>
+    </weapName>
+  </family>
+</genericWeapon>

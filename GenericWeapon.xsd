@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="genericWeapon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="family">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="weapName">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="attack" type="xs:int" />
+                    <xs:element name="element" type="xs:string" />
+                    <xs:element name="eleValue" type="xs:int" />
+                    <xs:element name="affinity" type="xs:string" />
+                    <xs:element name="sharpness" type="xs:string" />
+                    <xs:element name="sharpOne" type="xs:string" />
+                    <xs:element name="sharpTwo" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
