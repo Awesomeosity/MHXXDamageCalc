@@ -296,6 +296,7 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("SnS Mind's Eye Oil", x => SnS(6));
             weaponModifiers.Add("SnS Chaos Oil I/II", x => SnS(7));
             weaponModifiers.Add("SnS Chaos Oil III", x => SnS(8));
+            weaponModifiers.Add("Hammer Provoke III Active", x => Hammer(1));
             weaponModifiers.Add("HH Attack Up (S) Song", x => HH(1));
             weaponModifiers.Add("HH Attack Up (S) Encore", x => HH(2));
             weaponModifiers.Add("HH Attack Up (L) Song", x => HH(3));
@@ -314,6 +315,20 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("GL Dragon Breath", x => Gunlance(1));
             weaponModifiers.Add("GL Orange Heat", x => Gunlance(2));
             weaponModifiers.Add("GL Red Heat", x => Gunlance(3));
+            weaponModifiers.Add("GL Valor Rapid Shells #2", x => Gunlance(4));
+            weaponModifiers.Add("GL Valor Rapid Shells #3", x => Gunlance(5));
+            weaponModifiers.Add("GL Valor Rapid Shells #4", x => Gunlance(6));
+            weaponModifiers.Add("GL Valor Rapid Shells #5", x => Gunlance(7));
+            weaponModifiers.Add("GL Valor Full Burst (1 Loaded)", x => Gunlance(8));
+            weaponModifiers.Add("GL Valor Full Burst (2 Loaded)", x => Gunlance(9));
+            weaponModifiers.Add("GL Valor Full Burst (3 Loaded)", x => Gunlance(10));
+            weaponModifiers.Add("GL Valor Full Burst (4 Loaded)", x => Gunlance(11));
+            weaponModifiers.Add("GL Valor Full Burst (5 Loaded)", x => Gunlance(12));
+            weaponModifiers.Add("GL Valor Full Burst (6 Loaded)", x => Gunlance(13));
+            weaponModifiers.Add("GL Dragon Breath", x => Gunlance(14));
+            weaponModifiers.Add("GL Anti-Air Flares I", x => Gunlance(15));
+            weaponModifiers.Add("GL Anti-Air Flares II", x => Gunlance(16));
+            weaponModifiers.Add("GL Anti-Air Flares III", x => Gunlance(17));
             weaponModifiers.Add("SA Power Phial", x => SA(1));
             weaponModifiers.Add("SA Element Phial", x => SA(2));
             weaponModifiers.Add("SA Energy Charge II", x => SA(3));
@@ -376,6 +391,7 @@ namespace MHXXDamageCalc
         public void setSelected()
         {
             moveType.SelectedIndex = 0;
+            moveInherit.SelectedIndex = 0;
 
             monStatus.SelectedIndex = 0;
 
@@ -2998,6 +3014,12 @@ namespace MHXXDamageCalc
             return true;
         }
 
+        public bool Hammer(int skillVal)
+        {
+            stats.addRaw += 15;
+            return true;
+        }
+
         public bool HH(int skillVal)
         {
             if (skillVal == 1) //Attack Up (S) Song
@@ -3093,6 +3115,66 @@ namespace MHXXDamageCalc
             else if (skillVal == 3) //Red Heat
             {
                 stats.rawMod *= 1.2;
+            }
+            else if(skillVal == 4) //Valor Rapid Shell #2
+            {
+                stats.expMod *= 1.2;
+            }
+            else if (skillVal == 5) //Valor Rapid Shell #3
+            {
+                stats.expMod *= 1.5;
+            }
+            else if (skillVal == 6) //Valor Rapid Shell #4
+            {
+                stats.expMod *= 2;
+            }
+            else if (skillVal == 7) //Valor Rapid Shell #5
+            {
+                stats.expMod *= 2.6;
+            }
+            else if (skillVal == 8) //Valor Full Burst (1 loaded)
+            {
+                stats.expMod *= 0.8;
+            }
+            else if (skillVal == 9) //Valor Full Burst (2 loaded)
+            {
+                stats.expMod *= 0.9;
+            }
+            else if (skillVal == 10) //Valor Full Burst (3 loaded)
+            {
+                stats.expMod *= 1;
+            }
+            else if (skillVal == 11) //Valor Full Burst (4 loaded)
+            {
+                stats.expMod *= 1.4;
+            }
+            else if (skillVal == 12) //Valor Full Burst (5 loaded)
+            {
+                stats.expMod *= 1.5;
+            }
+            else if (skillVal == 13) //Valor Full Burst (6 loaded)
+            {
+                stats.expMod *= 1.6;
+            }
+            else if (skillVal == 14) //Dragon Breath
+            {
+                if(stats.damageType == "Fixed" && stats.altDamageType == "Fire")
+                {
+                    stats.avgMV += 10;
+                    stats.addElement += 10;
+                }
+            }
+            else if (skillVal == 15) //Anti-Air Flares I
+            {
+                stats.expMod *= 1;
+            }
+            else if (skillVal == 16) //Anti-Air Flares II
+            {
+                stats.expMod *= 1.05;
+            }
+            else if (skillVal == 17) //Anti-Air Flares III
+            {
+                stats.expMod *= 1.1;
             }
             else
             {
@@ -3764,6 +3846,13 @@ namespace MHXXDamageCalc
                 stats.secElement = "(No Element)";
                 stats.secPower = 0;
             }
+            else if(moveInherit.SelectedIndex != 0) //If the move has an inherant elemental value:
+            {
+                stats.altDamageType = moveInherit.Text;
+                stats.eleAttackPower = double.Parse(moveInheritValue.Text);
+                stats.secElement = "(No Element)";
+                stats.secPower = 0;
+            }
             else
             {
                 stats.altDamageType = weapEle.Text;
@@ -3882,13 +3971,17 @@ namespace MHXXDamageCalc
 
             if (stats.damageType == "Fixed")
             {
-                if (stats.expMod > 1.3 && !stats.CB)
+                if (stats.expMod > 1.3 && !stats.CB && !stats.GL)
                 {
                     stats.expMod = 1.3;
                 }
                 else if (stats.CB && stats.expMod > 1.4)
                 {
                     stats.expMod = 1.4;
+                }
+                else if(stats.GL)
+                {
+
                 }
                 stats.totalAttackPower = 100;
                 stats.totalAttackPower *= stats.expMod;
@@ -4044,11 +4137,6 @@ namespace MHXXDamageCalc
             monExhaustMod.Text = "0.9";
         }
 
-        private void weapSharpTwo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void moveHitCount_TextChanged(object sender, EventArgs e)
         {
             double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
@@ -4074,6 +4162,21 @@ namespace MHXXDamageCalc
             {
                 moveMV.Text = newTotal.ToString();
             }
+        }
+
+        private void moveInherit_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (moveInherit.SelectedIndex == 0)
+            {
+                moveInheritValue.Text = "0";
+                moveInheritValue.Enabled = false;
+
+                moveInheritPict.Image = null;
+                return;
+            }
+
+            moveInheritValue.Enabled = true;
+            moveInheritPict.Load(str2Pict[moveInherit.Text]);
         }
     }
     /// <summary>
@@ -4120,6 +4223,7 @@ namespace MHXXDamageCalc
 
         public bool chaotic; //Shows whether or not a Chaotic Gore weapon is being used.
         public bool CB = false; //Shows whether or not the explosive multiplier should be increased because Impact Phials are being used. 
+        public bool GL = false; //Shows whether or not the explosive multiplier should be unlimited because GL is being used
         public bool DemonRiot = false; //Shows whether or not Demon Riot is being used.
         public bool ruefulCrit = false;
 
@@ -4150,7 +4254,6 @@ namespace MHXXDamageCalc
             sharpnessValues.Add("Orange", new Tuple<double, double>(0.75, 0.50));
             sharpnessValues.Add("Red", new Tuple<double, double>(0.50, 0.25));
         }
-
 
         public void UpdateSharpness(string newSharpness)
         {

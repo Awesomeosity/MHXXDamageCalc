@@ -96,6 +96,11 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.moveInheritPict = new System.Windows.Forms.PictureBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.moveInheritValue = new System.Windows.Forms.TextBox();
+            this.moveInherit = new System.Windows.Forms.ComboBox();
+            this.label51 = new System.Windows.Forms.Label();
             this.moveTypePict = new System.Windows.Forms.PictureBox();
             this.moveExhPict = new System.Windows.Forms.PictureBox();
             this.moveKOPict = new System.Windows.Forms.PictureBox();
@@ -274,6 +279,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.moveInheritPict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveTypePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveExhPict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveKOPict)).BeginInit();
@@ -965,6 +971,11 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.moveInheritPict);
+            this.groupBox2.Controls.Add(this.label53);
+            this.groupBox2.Controls.Add(this.moveInheritValue);
+            this.groupBox2.Controls.Add(this.moveInherit);
+            this.groupBox2.Controls.Add(this.label51);
             this.groupBox2.Controls.Add(this.moveTypePict);
             this.groupBox2.Controls.Add(this.moveExhPict);
             this.groupBox2.Controls.Add(this.moveKOPict);
@@ -996,6 +1007,68 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Move Stats";
+            // 
+            // moveInheritPict
+            // 
+            this.moveInheritPict.Location = new System.Drawing.Point(409, 144);
+            this.moveInheritPict.Name = "moveInheritPict";
+            this.moveInheritPict.Size = new System.Drawing.Size(20, 20);
+            this.moveInheritPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.moveInheritPict.TabIndex = 36;
+            this.moveInheritPict.TabStop = false;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(241, 147);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(78, 13);
+            this.label53.TabIndex = 36;
+            this.label53.Text = "Element Value:";
+            // 
+            // moveInheritValue
+            // 
+            this.moveInheritValue.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.moveInheritValue.Location = new System.Drawing.Point(329, 144);
+            this.moveInheritValue.Name = "moveInheritValue";
+            this.moveInheritValue.Size = new System.Drawing.Size(75, 20);
+            this.moveInheritValue.TabIndex = 35;
+            this.moveInheritValue.Text = "0";
+            this.moveInheritValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.moveInheritValue.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.moveInheritValue.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // moveInherit
+            // 
+            this.moveInherit.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.moveInherit.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.moveInherit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.moveInherit.FormattingEnabled = true;
+            this.moveInherit.Items.AddRange(new object[] {
+            "(No Element)",
+            "Fire",
+            "Water",
+            "Thunder",
+            "Ice",
+            "Dragon",
+            "Poison",
+            "Para",
+            "Sleep",
+            "Blast"});
+            this.moveInherit.Location = new System.Drawing.Point(329, 117);
+            this.moveInherit.Name = "moveInherit";
+            this.moveInherit.Size = new System.Drawing.Size(100, 21);
+            this.moveInherit.TabIndex = 35;
+            this.moveInherit.SelectedIndexChanged += new System.EventHandler(this.moveInherit_SelectedIndexChanged);
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(241, 120);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(78, 13);
+            this.label51.TabIndex = 33;
+            this.label51.Text = "Move Element:";
             // 
             // moveTypePict
             // 
@@ -1036,7 +1109,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(121, 146);
+            this.button4.Location = new System.Drawing.Point(122, 172);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(105, 23);
             this.button4.TabIndex = 20;
@@ -1045,7 +1118,7 @@
             // 
             // moveReset
             // 
-            this.moveReset.Location = new System.Drawing.Point(11, 146);
+            this.moveReset.Location = new System.Drawing.Point(11, 172);
             this.moveReset.Name = "moveReset";
             this.moveReset.Size = new System.Drawing.Size(105, 23);
             this.moveReset.TabIndex = 19;
@@ -1162,7 +1235,7 @@
             // moveDraw
             // 
             this.moveDraw.AutoSize = true;
-            this.moveDraw.Location = new System.Drawing.Point(244, 164);
+            this.moveDraw.Location = new System.Drawing.Point(10, 152);
             this.moveDraw.Name = "moveDraw";
             this.moveDraw.Size = new System.Drawing.Size(91, 17);
             this.moveDraw.TabIndex = 9;
@@ -1172,7 +1245,7 @@
             // moveAerial
             // 
             this.moveAerial.AutoSize = true;
-            this.moveAerial.Location = new System.Drawing.Point(244, 141);
+            this.moveAerial.Location = new System.Drawing.Point(10, 135);
             this.moveAerial.Name = "moveAerial";
             this.moveAerial.Size = new System.Drawing.Size(119, 17);
             this.moveAerial.TabIndex = 8;
@@ -1182,7 +1255,7 @@
             // moveMinds
             // 
             this.moveMinds.AutoSize = true;
-            this.moveMinds.Location = new System.Drawing.Point(244, 118);
+            this.moveMinds.Location = new System.Drawing.Point(10, 118);
             this.moveMinds.Name = "moveMinds";
             this.moveMinds.Size = new System.Drawing.Size(120, 17);
             this.moveMinds.TabIndex = 7;
@@ -1194,18 +1267,18 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(241, 68);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(81, 13);
+            this.label18.Size = new System.Drawing.Size(82, 13);
             this.label18.TabIndex = 6;
-            this.label18.Text = "Exhaust Power:";
+            this.label18.Text = "Exh. Power/Hit:";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(241, 42);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(58, 13);
+            this.label17.Size = new System.Drawing.Size(76, 13);
             this.label17.TabIndex = 5;
-            this.label17.Text = "KO Power:";
+            this.label17.Text = "KO Power/Hit:";
             // 
             // label16
             // 
@@ -1399,7 +1472,6 @@
             this.weapSharpTwo.Name = "weapSharpTwo";
             this.weapSharpTwo.Size = new System.Drawing.Size(100, 21);
             this.weapSharpTwo.TabIndex = 21;
-            this.weapSharpTwo.SelectedIndexChanged += new System.EventHandler(this.weapSharpTwo_SelectedIndexChanged);
             // 
             // weapElePict
             // 
@@ -2350,7 +2422,7 @@
             // 
             this.paraAffinity.Location = new System.Drawing.Point(230, 121);
             this.paraAffinity.Name = "paraAffinity";
-            this.paraAffinity.Size = new System.Drawing.Size(75, 20);
+            this.paraAffinity.Size = new System.Drawing.Size(84, 20);
             this.paraAffinity.TabIndex = 53;
             this.paraAffinity.Text = "0";
             this.paraAffinity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -2881,6 +2953,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.moveInheritPict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveTypePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveExhPict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveKOPict)).EndInit();
@@ -3136,6 +3209,11 @@
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.CheckBox paraGRank;
         private System.Windows.Forms.CheckBox monGRank;
+        private System.Windows.Forms.PictureBox moveInheritPict;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.TextBox moveInheritValue;
+        private System.Windows.Forms.ComboBox moveInherit;
+        private System.Windows.Forms.Label label51;
     }
 }
 
