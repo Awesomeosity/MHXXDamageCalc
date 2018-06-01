@@ -23,7 +23,7 @@ namespace MHXXDamageCalc
         Dictionary<string, Func<int, bool>> foodModifiers = new Dictionary<string, Func<int, bool>>();
         Dictionary<string, Func<int, bool>> weaponModifiers = new Dictionary<string, Func<int, bool>>();
         Dictionary<string, Func<int, bool>> miscModifiers = new Dictionary<string, Func<int, bool>>();
-        Dictionary<string, string> secondElements = new Dictionary<string, string>(); 
+        Dictionary<string, string> secondElements = new Dictionary<string, string>();
 
         public Form1()
         {
@@ -288,7 +288,7 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("LS Sacri. Blade I", x => LS(7));
             weaponModifiers.Add("LS Sacri. Blade II", x => LS(8));
             weaponModifiers.Add("LS Sacri. Blade III", x => LS(9));
-            weaponModifiers.Add("SnS Aff. Oil (+ C. Oil III)",x => SnS(1));
+            weaponModifiers.Add("SnS Aff. Oil (+ C. Oil III)", x => SnS(1));
             weaponModifiers.Add("SnS Aff. Oil + C. Oil I/II", x => SnS(2));
             weaponModifiers.Add("SnS Stamina Oil", x => SnS(3));
             weaponModifiers.Add("SnS Stam. Oil + C. Oil I/II", x => SnS(4));
@@ -325,7 +325,6 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("GL Valor Full Burst (4 Loaded)", x => Gunlance(11));
             weaponModifiers.Add("GL Valor Full Burst (5 Loaded)", x => Gunlance(12));
             weaponModifiers.Add("GL Valor Full Burst (6 Loaded)", x => Gunlance(13));
-            weaponModifiers.Add("GL Dragon Breath", x => Gunlance(14));
             weaponModifiers.Add("GL Anti-Air Flares I", x => Gunlance(15));
             weaponModifiers.Add("GL Anti-Air Flares II", x => Gunlance(16));
             weaponModifiers.Add("GL Anti-Air Flares III", x => Gunlance(17));
@@ -1008,7 +1007,7 @@ namespace MHXXDamageCalc
 
             double bounceTolerance = 0.25;
 
-            if(paraGRank.Checked)
+            if (paraGRank.Checked)
             {
                 bounceTolerance = 0.27;
             }
@@ -1653,7 +1652,7 @@ namespace MHXXDamageCalc
 
             else if (skillVal == 3) //Wyvern's Breath
             {
-                if(stats.damageType == "Fixed")
+                if (stats.damageType == "Fixed")
                 {
                     stats.eleMod *= 1.2;
                     stats.expMod *= 1.2;
@@ -2815,7 +2814,7 @@ namespace MHXXDamageCalc
 
         public bool Vault(int skillVal)
         {
-            if(moveAerial.Checked)
+            if (moveAerial.Checked)
             {
                 stats.rawMod *= 1.1;
             }
@@ -3105,8 +3104,11 @@ namespace MHXXDamageCalc
         {
             if (skillVal == 1) //Dragon Breath
             {
-                stats.avgMV += 10;
-                stats.secPower += 10;
+                if (stats.damageType == "Fixed" && stats.altDamageType == "Fire")
+                {
+                    stats.avgMV += 10;
+                    stats.addElement += 10;
+                }
             }
             else if (skillVal == 2) //Orange Heat
             {
@@ -3116,7 +3118,7 @@ namespace MHXXDamageCalc
             {
                 stats.rawMod *= 1.2;
             }
-            else if(skillVal == 4) //Valor Rapid Shell #2
+            else if (skillVal == 4) //Valor Rapid Shell #2
             {
                 stats.expMod *= 1.2;
             }
@@ -3158,11 +3160,7 @@ namespace MHXXDamageCalc
             }
             else if (skillVal == 14) //Dragon Breath
             {
-                if(stats.damageType == "Fixed" && stats.altDamageType == "Fire")
-                {
-                    stats.avgMV += 10;
-                    stats.addElement += 10;
-                }
+                
             }
             else if (skillVal == 15) //Anti-Air Flares I
             {
@@ -3317,7 +3315,7 @@ namespace MHXXDamageCalc
             {
                 stats.rawMod *= 0.5;
             }
-            else if(skillVal == 5) //Critical Distance + Heavy Grinder (1.75x) OR Demon S
+            else if (skillVal == 5) //Critical Distance + Heavy Grinder (1.75x) OR Demon S
             {
                 stats.rawMod *= 1.75;
             }
@@ -3363,7 +3361,7 @@ namespace MHXXDamageCalc
             {
                 stats.rawMod *= 1.06;
             }
-            else if(skillVal == 5) //Valor Reload
+            else if (skillVal == 5) //Valor Reload
             {
                 stats.rawMod *= 1.05;
             }
@@ -3376,49 +3374,49 @@ namespace MHXXDamageCalc
 
         public bool Bow(int skillVal)
         {
-            if(skillVal == 1) //Charge 1
+            if (skillVal == 1) //Charge 1
             {
                 stats.rawMod *= 0.4;
                 stats.eleMod *= 0.7;
                 stats.staMod *= 0.5;
             }
 
-            else if(skillVal == 2) //Charge 2
+            else if (skillVal == 2) //Charge 2
             {
                 stats.rawMod *= 1.0;
                 stats.eleMod *= 0.85;
                 stats.staMod *= 1.0;
             }
-            
-            else if(skillVal == 3) //Charge 3 + Poison
+
+            else if (skillVal == 3) //Charge 3 + Poison
             {
                 stats.rawMod *= 1.5;
                 stats.eleMod *= 1.0;
                 stats.staMod *= 1.5;
             }
 
-            else if(skillVal == 4) //Charge 3 + Para
+            else if (skillVal == 4) //Charge 3 + Para
             {
                 stats.rawMod *= 1.5;
                 stats.eleMod *= 1.0;
                 stats.staMod *= 1.3;
             }
 
-            else if(skillVal == 5) //Charge 4 + Poison
+            else if (skillVal == 5) //Charge 4 + Poison
             {
                 stats.rawMod *= 1.7;
                 stats.eleMod *= 1.125;
                 stats.staMod *= 1.5;
             }
 
-            else if(skillVal == 6) //Charge 4 + Para
+            else if (skillVal == 6) //Charge 4 + Para
             {
                 stats.rawMod *= 1.7;
                 stats.eleMod *= 1.125;
                 stats.staMod *= 1.3;
             }
 
-            else if(skillVal == 7) //Valor Power Shot
+            else if (skillVal == 7) //Valor Power Shot
             {
                 stats.rawMod *= 1.3;
             }
@@ -3501,7 +3499,7 @@ namespace MHXXDamageCalc
             stats.addRaw += 3;
             return true;
         }
-        
+
         public bool FBulldozer()
         {
             if (weapSharpness.Text != "(No Sharpness)")
@@ -3510,82 +3508,82 @@ namespace MHXXDamageCalc
             }
             return true;
         }
-        
+
         public bool FHeroics()
         {
             stats.rawMod *= 1.35;
             return true;
         }
-        
+
         public bool FPyro()
         {
             if (stats.altDamageType == "Blast")
             {
                 stats.staMod *= 1.1;
             }
-            if(stats.secElement == "Blast")
+            if (stats.secElement == "Blast")
             {
                 stats.staSecMod *= 1.1;
             }
 
             return true;
         }
-        
+
         public bool FSharpshooter()
         {
-            if(stats.sharpness == "(No Sharpness)")
+            if (stats.sharpness == "(No Sharpness)")
             {
                 stats.rawMod *= 1.1;
             }
             return true;
         }
-        
+
         public bool FSlugger()
         {
             stats.KOPower *= 1.1;
             return true;
         }
-        
+
         public bool FSpecialist()
         {
             if (isStatus(stats.altDamageType))
             {
                 stats.staMod *= 1.125;
             }
-            if(isStatus(stats.secElement))
+            if (isStatus(stats.secElement))
             {
                 stats.staSecMod *= 1.125;
             }
             return true;
         }
-        
+
         public bool FTemper()
         {
-            if(stats.sharpness == "(No Sharpness)")
+            if (stats.sharpness == "(No Sharpness)")
             {
                 stats.rawMod *= 1.05;
             }
             return true;
         }
-        
+
         public bool CoolCat()
         {
             stats.addRaw += 15;
             return true;
         }
-        
+
         public bool Powercharm()
         {
             stats.addRaw += 6;
             return true;
         }
-        
+
         public bool PowerTalon()
         {
             stats.addRaw += 9;
             return true;
         }
-        
+
         public bool DemonDrug(int skillVal)
         {
             if (skillVal == 1) //Standard Demondrug
@@ -3602,7 +3600,7 @@ namespace MHXXDamageCalc
             }
             return true;
         }
-        
+
         public bool AUMeal(int skillVal)
         {
             if (skillVal == 1) //AuS
@@ -3623,7 +3621,7 @@ namespace MHXXDamageCalc
             }
             return true;
         }
-        
+
         public bool MightSeed(int skillVal)
         {
             if (skillVal == 1) //Seed
@@ -3640,13 +3638,13 @@ namespace MHXXDamageCalc
             }
             return true;
         }
-        
+
         public bool Nitroshroom()
         {
             stats.addRaw += 10;
             return true;
         }
-        
+
         public bool Demon(int skillVal)
         {
             if (skillVal == 1) //Horn
@@ -3681,9 +3679,9 @@ namespace MHXXDamageCalc
 #if true
         public bool Frenzy(int skillVal)
         {
-            if(skillVal == 1) //No Antivirus
+            if (skillVal == 1) //No Antivirus
             {
-                if(stats.chaotic)
+                if (stats.chaotic)
                 {
                     stats.chaotic = false;
                     stats.positiveAffinity += stats.negativeAffinity + 15;
@@ -3780,7 +3778,7 @@ namespace MHXXDamageCalc
         private void modAllButton_Click(object sender, EventArgs e)
         {
             modList.Items.Clear();
-            foreach(ListViewGroup group in modList.Groups)
+            foreach (ListViewGroup group in modList.Groups)
             {
                 group.Items.Clear();
             }
@@ -3814,7 +3812,7 @@ namespace MHXXDamageCalc
                 totalAttackPower = double.Parse(weapRaw.Text),
             };
 
-            if(weapChaotic.Checked)
+            if (weapChaotic.Checked)
             {
                 stats.positiveAffinity = double.Parse(weapPosAff.Text);
                 stats.negativeAffinity = double.Parse(weapNegAff.Text);
@@ -3824,7 +3822,7 @@ namespace MHXXDamageCalc
             {
                 stats.chaotic = false;
                 double affinity = double.Parse(weapAffinity.Text);
-                if(affinity > 0)
+                if (affinity > 0)
                 {
                     stats.positiveAffinity = affinity;
                     stats.negativeAffinity = 0;
@@ -3835,7 +3833,7 @@ namespace MHXXDamageCalc
                     stats.negativeAffinity = affinity;
                 }
             }
-            
+
             stats.rawSharpMod = sharpnessMods[stats.sharpness].Item1;
             stats.eleSharpMod = sharpnessMods[stats.sharpness].Item2;
 
@@ -3846,7 +3844,7 @@ namespace MHXXDamageCalc
                 stats.secElement = "(No Element)";
                 stats.secPower = 0;
             }
-            else if(moveInherit.SelectedIndex != 0) //If the move has an inherant elemental value:
+            else if (moveInherit.SelectedIndex != 0) //If the move has an inherant elemental value:
             {
                 stats.altDamageType = moveInherit.Text;
                 stats.eleAttackPower = double.Parse(moveInheritValue.Text);
@@ -3868,7 +3866,7 @@ namespace MHXXDamageCalc
             stats.mindsEye = moveMinds.Checked;
             stats.damageType = moveType.Text;
 
-            
+
 
             stats.health = double.Parse(monHealth.Text);
 
@@ -3979,7 +3977,7 @@ namespace MHXXDamageCalc
                 {
                     stats.expMod = 1.4;
                 }
-                else if(stats.GL)
+                else if (stats.GL)
                 {
 
                 }
@@ -3996,11 +3994,11 @@ namespace MHXXDamageCalc
             if (isElement(stats.altDamageType))
             {
                 stats.eleAttackPower *= stats.eleMod;
-                if(stats.eleAttackPower != 0)
+                if (stats.eleAttackPower != 0)
                 {
                     stats.eleAttackPower += stats.addElement;
                 }
-                
+
             }
 
             else if (isStatus(stats.altDamageType) || stats.altDamageType == "Blast")
@@ -4040,7 +4038,7 @@ namespace MHXXDamageCalc
                 stats.negativeAffinity = 100;
             }
 
-            if(stats.negativeAffinity + stats.positiveAffinity > 100)
+            if (stats.negativeAffinity + stats.positiveAffinity > 100)
             {
                 stats.positiveAffinity -= stats.negativeAffinity;
             }
@@ -4068,8 +4066,8 @@ namespace MHXXDamageCalc
             paraEleSharp.Text = stats.eleSharpMod.ToString();
             paraExh.Text = stats.exhaustPower.ToString();
             paraEleCrit.SelectedIndex = stats.eleCrit;
-            
-            if(stats.chaotic)
+
+            if (stats.chaotic)
             {
                 paraChaotic.Checked = true;
                 paraPosAff.Text = stats.positiveAffinity.ToString();
@@ -4079,7 +4077,7 @@ namespace MHXXDamageCalc
             {
                 paraChaotic.Checked = false;
                 double affinity = stats.positiveAffinity - stats.negativeAffinity;
-                if(affinity > 0)
+                if (affinity > 0)
                 {
                     paraAffinity.Text = affinity.ToString();
                 }
@@ -4107,40 +4105,10 @@ namespace MHXXDamageCalc
             paraGRank.Checked = stats.GRank;
         }
 
-        private void weapDatabase_Click(object sender, EventArgs e)
-        {
-            //PLACEHOLDER
-            weapRaw.Text = "200";
-            weapEle.SelectedItem = "Fire";
-            weapEleDamage.Text = "10";
-            weapAffinity.Text = "20";
-            weapSharpness.SelectedItem = "Purple";
-            moveMV.Text = "20";
-            moveHitCount.Text = "2";
-            moveAvg.Text = "10";
-            moveSharpMod.Text = "1.2";
-            moveKO.Text = "6";
-            moveExhaust.Text = "10";
-            moveElement.Text = "1.1";
-            monCut.Text = "20";
-            monImpact.Text = "10";
-            monShot.Text = "30";
-            monKO.Text = "100";
-            monExhaust.Text = "40";
-            monFire.Text = "10";
-            monWater.Text = "15";
-            monThunder.Text = "20";
-            monIce.Text = "25";
-            monDragon.Text = "30";
-            monHealth.Text = "400";
-            monQuest.Text = "0.8";
-            monExhaustMod.Text = "0.9";
-        }
-
         private void moveHitCount_TextChanged(object sender, EventArgs e)
         {
             double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
-            if(double.Parse(moveMV.Text) != newTotal)
+            if (double.Parse(moveMV.Text) != newTotal)
             {
                 moveMV.Text = newTotal.ToString();
             }
@@ -4149,7 +4117,7 @@ namespace MHXXDamageCalc
         private void moveMV_TextChanged(object sender, EventArgs e)
         {
             double newAvg = double.Parse(moveMV.Text) / double.Parse(moveHitCount.Text);
-            if(double.Parse(moveAvg.Text) != newAvg)
+            if (double.Parse(moveAvg.Text) != newAvg)
             {
                 moveAvg.Text = newAvg.ToString();
             }
