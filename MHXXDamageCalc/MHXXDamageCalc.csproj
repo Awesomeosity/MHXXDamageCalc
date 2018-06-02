@@ -72,7 +72,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -81,6 +81,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\MHGU Weapons - GS.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -137,6 +138,23 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Images\LongSword.png" />
+    <None Include="bin\Debug\Images\SwordAndShield.png" />
+    <None Include="bin\Debug\Images\DualBlades.png" />
+    <None Include="bin\Debug\Images\Hammer.png" />
+    <None Include="bin\Debug\Images\HuntingHorn.png" />
+    <None Include="bin\Debug\Images\Lance.png" />
+    <None Include="bin\Debug\Images\Gunlance.png" />
+    <None Include="bin\Debug\Images\SwitchAxe.png" />
+    <None Include="bin\Debug\Images\ChargeBlade.png" />
+    <None Include="bin\Debug\Images\InsectGlaive.png" />
+    <None Include="bin\Debug\Images\LightBowgun.png" />
+    <None Include="bin\Debug\Images\HeavyBowgun.png" />
+    <None Include="bin\Debug\Images\Bow.png" />
+    <None Include="bin\Debug\Images\Poison.png" />
+    <None Include="bin\Debug\Images\Para.png" />
+    <None Include="bin\Debug\Images\Sleep.png" />
+    <None Include="bin\Debug\Images\Blast.png" />
     <Content Include="GreatSword.xml">
       <SubType>Designer</SubType>
     </Content>
