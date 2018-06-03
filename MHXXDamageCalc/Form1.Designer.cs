@@ -52,6 +52,9 @@
             this.weapLS = new System.Windows.Forms.RadioButton();
             this.weapGS = new System.Windows.Forms.RadioButton();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.label81 = new System.Windows.Forms.Label();
+            this.weapSearch = new System.Windows.Forms.TextBox();
+            this.weapFinalUpgrade = new System.Windows.Forms.CheckBox();
             this.weapNoEle = new System.Windows.Forms.CheckBox();
             this.weapBlast = new System.Windows.Forms.CheckBox();
             this.weapSleep = new System.Windows.Forms.CheckBox();
@@ -576,6 +579,9 @@
             // 
             // groupBox12
             // 
+            this.groupBox12.Controls.Add(this.label81);
+            this.groupBox12.Controls.Add(this.weapSearch);
+            this.groupBox12.Controls.Add(this.weapFinalUpgrade);
             this.groupBox12.Controls.Add(this.weapNoEle);
             this.groupBox12.Controls.Add(this.weapBlast);
             this.groupBox12.Controls.Add(this.weapSleep);
@@ -587,19 +593,48 @@
             this.groupBox12.Controls.Add(this.weapWater);
             this.groupBox12.Controls.Add(this.weapFire);
             this.groupBox12.Controls.Add(this.weapFilter);
-            this.groupBox12.Location = new System.Drawing.Point(290, 7);
+            this.groupBox12.Location = new System.Drawing.Point(259, 7);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(332, 82);
+            this.groupBox12.Size = new System.Drawing.Size(363, 82);
             this.groupBox12.TabIndex = 26;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Filter";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Location = new System.Drawing.Point(6, 20);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(44, 13);
+            this.label81.TabIndex = 39;
+            this.label81.Text = "Search:";
+            // 
+            // weapSearch
+            // 
+            this.weapSearch.Location = new System.Drawing.Point(56, 17);
+            this.weapSearch.Name = "weapSearch";
+            this.weapSearch.Size = new System.Drawing.Size(104, 20);
+            this.weapSearch.TabIndex = 38;
+            this.weapSearch.TextChanged += new System.EventHandler(this.weapSearch_TextChanged);
+            // 
+            // weapFinalUpgrade
+            // 
+            this.weapFinalUpgrade.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapFinalUpgrade.AutoSize = true;
+            this.weapFinalUpgrade.Location = new System.Drawing.Point(185, 15);
+            this.weapFinalUpgrade.Name = "weapFinalUpgrade";
+            this.weapFinalUpgrade.Size = new System.Drawing.Size(88, 23);
+            this.weapFinalUpgrade.TabIndex = 37;
+            this.weapFinalUpgrade.Text = "Final Upgrades";
+            this.weapFinalUpgrade.UseVisualStyleBackColor = true;
+            this.weapFinalUpgrade.CheckedChanged += new System.EventHandler(this.weapFinalUpgrade_CheckedChanged);
             // 
             // weapNoEle
             // 
             this.weapNoEle.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapNoEle.AutoSize = true;
             this.weapNoEle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapNoEle.Location = new System.Drawing.Point(79, 17);
+            this.weapNoEle.Location = new System.Drawing.Point(279, 15);
             this.weapNoEle.Name = "weapNoEle";
             this.weapNoEle.Size = new System.Drawing.Size(78, 23);
             this.weapNoEle.TabIndex = 36;
@@ -612,7 +647,7 @@
             this.weapBlast.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapBlast.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Blast;
             this.weapBlast.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapBlast.Location = new System.Drawing.Point(295, 45);
+            this.weapBlast.Location = new System.Drawing.Point(327, 44);
             this.weapBlast.Name = "weapBlast";
             this.weapBlast.Size = new System.Drawing.Size(30, 30);
             this.weapBlast.TabIndex = 35;
@@ -623,7 +658,7 @@
             this.weapSleep.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapSleep.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Sleep;
             this.weapSleep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapSleep.Location = new System.Drawing.Point(259, 45);
+            this.weapSleep.Location = new System.Drawing.Point(291, 44);
             this.weapSleep.Name = "weapSleep";
             this.weapSleep.Size = new System.Drawing.Size(30, 30);
             this.weapSleep.TabIndex = 34;
@@ -634,7 +669,7 @@
             this.weapPara.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapPara.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Para;
             this.weapPara.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapPara.Location = new System.Drawing.Point(223, 45);
+            this.weapPara.Location = new System.Drawing.Point(255, 44);
             this.weapPara.Name = "weapPara";
             this.weapPara.Size = new System.Drawing.Size(30, 30);
             this.weapPara.TabIndex = 33;
@@ -645,7 +680,7 @@
             this.weapPoi.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapPoi.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Poison;
             this.weapPoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapPoi.Location = new System.Drawing.Point(187, 45);
+            this.weapPoi.Location = new System.Drawing.Point(219, 44);
             this.weapPoi.Name = "weapPoi";
             this.weapPoi.Size = new System.Drawing.Size(30, 30);
             this.weapPoi.TabIndex = 32;
@@ -656,7 +691,7 @@
             this.weapDra.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapDra.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Dragon;
             this.weapDra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapDra.Location = new System.Drawing.Point(151, 45);
+            this.weapDra.Location = new System.Drawing.Point(183, 44);
             this.weapDra.Name = "weapDra";
             this.weapDra.Size = new System.Drawing.Size(30, 30);
             this.weapDra.TabIndex = 31;
@@ -667,7 +702,7 @@
             this.weapIce.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapIce.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Ice;
             this.weapIce.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapIce.Location = new System.Drawing.Point(115, 45);
+            this.weapIce.Location = new System.Drawing.Point(147, 44);
             this.weapIce.Name = "weapIce";
             this.weapIce.Size = new System.Drawing.Size(30, 30);
             this.weapIce.TabIndex = 30;
@@ -678,7 +713,7 @@
             this.weapThunder.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapThunder.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Thunder;
             this.weapThunder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapThunder.Location = new System.Drawing.Point(79, 45);
+            this.weapThunder.Location = new System.Drawing.Point(111, 44);
             this.weapThunder.Name = "weapThunder";
             this.weapThunder.Size = new System.Drawing.Size(30, 30);
             this.weapThunder.TabIndex = 29;
@@ -689,7 +724,7 @@
             this.weapWater.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapWater.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Water;
             this.weapWater.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapWater.Location = new System.Drawing.Point(43, 45);
+            this.weapWater.Location = new System.Drawing.Point(75, 44);
             this.weapWater.Name = "weapWater";
             this.weapWater.Size = new System.Drawing.Size(30, 30);
             this.weapWater.TabIndex = 28;
@@ -700,7 +735,7 @@
             this.weapFire.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapFire.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Fire;
             this.weapFire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapFire.Location = new System.Drawing.Point(7, 45);
+            this.weapFire.Location = new System.Drawing.Point(39, 44);
             this.weapFire.Name = "weapFire";
             this.weapFire.Size = new System.Drawing.Size(30, 30);
             this.weapFire.TabIndex = 27;
@@ -709,17 +744,18 @@
             // weapFilter
             // 
             this.weapFilter.AutoSize = true;
-            this.weapFilter.Location = new System.Drawing.Point(6, 21);
+            this.weapFilter.Location = new System.Drawing.Point(18, 53);
             this.weapFilter.Name = "weapFilter";
-            this.weapFilter.Size = new System.Drawing.Size(65, 17);
+            this.weapFilter.Size = new System.Drawing.Size(15, 14);
             this.weapFilter.TabIndex = 26;
-            this.weapFilter.Text = "Enabled";
             this.weapFilter.UseVisualStyleBackColor = true;
+            this.weapFilter.CheckedChanged += new System.EventHandler(this.weapFilter_CheckedChanged);
             // 
             // weaponDetails
             // 
             this.weaponDetails.FullRowSelect = true;
             this.weaponDetails.GridLines = true;
+            this.weaponDetails.HideSelection = false;
             this.weaponDetails.Location = new System.Drawing.Point(187, 92);
             this.weaponDetails.MultiSelect = false;
             this.weaponDetails.Name = "weaponDetails";
@@ -727,6 +763,7 @@
             this.weaponDetails.TabIndex = 15;
             this.weaponDetails.UseCompatibleStateImageBehavior = false;
             this.weaponDetails.View = System.Windows.Forms.View.Details;
+            this.weaponDetails.SelectedIndexChanged += new System.EventHandler(this.weaponDetails_SelectedIndexChanged);
             // 
             // weaponTree
             // 
@@ -734,6 +771,7 @@
             this.weaponTree.Name = "weaponTree";
             this.weaponTree.Size = new System.Drawing.Size(174, 299);
             this.weaponTree.TabIndex = 14;
+            this.weaponTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.weaponTree_AfterSelect);
             // 
             // groupBox1
             // 
@@ -809,6 +847,7 @@
             this.weapChaotic.TabIndex = 33;
             this.weapChaotic.Text = "Chaotic Gore Weapon?";
             this.weapChaotic.UseVisualStyleBackColor = true;
+            this.weapChaotic.CheckedChanged += new System.EventHandler(this.weapChaotic_CheckedChanged);
             // 
             // weapNegAff
             // 
@@ -852,6 +891,7 @@
             this.weapOverride.TabIndex = 24;
             this.weapOverride.Text = "Override Base Element?";
             this.weapOverride.UseVisualStyleBackColor = true;
+            this.weapOverride.CheckedChanged += new System.EventHandler(this.weapOverride_CheckedChanged);
             // 
             // weapReset
             // 
@@ -905,7 +945,7 @@
             this.weapSec.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.weapSec.FormattingEnabled = true;
             this.weapSec.Items.AddRange(new object[] {
-            "(None)",
+            "(No Element)",
             "DB - Fire",
             "DB - Water",
             "DB - Thunder",
@@ -921,6 +961,7 @@
             this.weapSec.Name = "weapSec";
             this.weapSec.Size = new System.Drawing.Size(100, 21);
             this.weapSec.TabIndex = 18;
+            this.weapSec.SelectedIndexChanged += new System.EventHandler(this.weapSec_SelectedIndexChanged);
             // 
             // weapEle
             // 
@@ -943,6 +984,7 @@
             this.weapEle.Name = "weapEle";
             this.weapEle.Size = new System.Drawing.Size(100, 21);
             this.weapEle.TabIndex = 17;
+            this.weapEle.SelectedIndexChanged += new System.EventHandler(this.weapEle_SelectedIndexChanged);
             // 
             // weapSecDamage
             // 
@@ -972,6 +1014,7 @@
             this.weapSharpOne.Name = "weapSharpOne";
             this.weapSharpOne.Size = new System.Drawing.Size(100, 21);
             this.weapSharpOne.TabIndex = 15;
+            this.weapSharpOne.SelectedIndexChanged += new System.EventHandler(this.weapSharpOne_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -1029,6 +1072,7 @@
             this.weapSharpness.Name = "weapSharpness";
             this.weapSharpness.Size = new System.Drawing.Size(100, 21);
             this.weapSharpness.TabIndex = 10;
+            this.weapSharpness.SelectedIndexChanged += new System.EventHandler(this.weapSharpness_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -3653,6 +3697,9 @@
         private System.Windows.Forms.CheckBox weapThunder;
         private System.Windows.Forms.CheckBox weapWater;
         private System.Windows.Forms.CheckBox weapFire;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.TextBox weapSearch;
+        private System.Windows.Forms.CheckBox weapFinalUpgrade;
     }
 }
 

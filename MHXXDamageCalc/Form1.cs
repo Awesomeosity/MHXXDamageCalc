@@ -25,8 +25,12 @@ namespace MHXXDamageCalc
         Dictionary<string, Func<int, bool>> weaponModifiers = new Dictionary<string, Func<int, bool>>();
         Dictionary<string, Func<int, bool>> miscModifiers = new Dictionary<string, Func<int, bool>>();
         Dictionary<string, string> secondElements = new Dictionary<string, string>();
+
         List<string> currWeaponListing = new List<string>();
-        Dictionary<string, List<weapon>> currWeapon = new Dictionary<string, List<weapon>>();
+        Dictionary<string, List<weapon>> fam2Weap = new Dictionary<string, List<weapon>>();
+        Dictionary<string, weapon> name2Weap = new Dictionary<string, weapon>();
+
+        List<string> filteredFamilies = new List<string>();
 
         public Form1()
         {
@@ -3163,7 +3167,7 @@ namespace MHXXDamageCalc
             }
             else if (skillVal == 14) //Dragon Breath
             {
-                
+
             }
             else if (skillVal == 15) //Anti-Air Flares I
             {
@@ -4150,512 +4154,89 @@ namespace MHXXDamageCalc
             moveInheritPict.Load(str2Pict[moveInherit.Text]);
         }
 
-        private void weapGS_CheckedChanged(object sender, EventArgs e)
+        private void ResetWeaponDetails()
         {
-            if(weapGS.Checked)
+            weapFinalUpgrade.Checked = false;
+            string path = null;
+
+            fam2Weap.Clear();
+            currWeaponListing.Clear();
+            name2Weap.Clear();
+            filteredFamilies.Clear();
+            weaponTree.BeginUpdate();
+            //Read the appropriate .csv file...
+            weaponTree.Nodes.Clear();
+            string input;
+            string[] inputs;
+            char[] splitter = new char[] { ',' };
+            char[] affinitySplit = new char[] { '/' };
+            string[] levelSplit = new string[] { " Lv. " };
+            List<weapon> newWeaponLevels = new List<weapon>();
+            string famName = null;
+            int expectedLevel = 1;
+            int currCount = 0;
+
+            if (weapGS.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the GS .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/GS.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if(input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while(sr.Peek() >= 0)
-                    {
-                        if(nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if(famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if(currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach(string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach(weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach(string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach(weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-                    
-                }
+                path = "./Weapons/GS.csv";
             }
-        }
 
-        private void weapLS_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapLS.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the LS .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/LS.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/LS.csv";
             }
-        }
 
-        private void weapSnS_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapSnS.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the SnS .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/SnS.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/SnS.csv";
             }
-        }
 
-        private void waepDB_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapDB.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the DB .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
                 using (StreamReader sr = new StreamReader("./Weapons/DB.csv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,elementTwo,eleValueTwo,affinity,sharpness,sharpOne,sharpTwo")
+                    if (input != "ID,name,raw,element,eleValue,elementTwo,eleValueTwo,affinity,sharpness,sharpOne,sharpTwo")
                     {
                         return;
                     }
 
                     while (sr.Peek() >= 0)
                     {
-                        if (nameChanges == 2)
+                        inputs = (sr.ReadLine()).Split(splitter);
+                        string[] name = inputs[1].Split(levelSplit, StringSplitOptions.None);
+
+                        if (name[1] != expectedLevel.ToString())
                         {
-                            currWeapon.Add(famName, newWeaponLevels);
+                            fam2Weap.Add(famName, newWeaponLevels);
                             currWeaponListing.Add(famName);
                             newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
+                            famName = name[0];
+                            expectedLevel = 1;
                         }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
+                        expectedLevel++;
 
                         if (famName == null)
                         {
                             famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
                         }
 
-                        string[] affinities = inputs[6].Split(affinitySplit);
+                        string[] affinities = inputs[7].Split(affinitySplit);
                         weapon newWeap = new weapon
                         {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            elementTwo = inputs[4],
-                            eleValueTwo = int.Parse(inputs[5]),
-                            displayAffinity = inputs[6],
-                            sharpness = inputs[7],
-                            sharpnessOne = inputs[8],
-                            sharpnessTwo = inputs[9]
+                            ID = int.Parse(inputs[0]),
+                            name = inputs[1],
+                            raw = int.Parse(inputs[2]),
+                            element = inputs[3],
+                            eleValue = int.Parse(inputs[4]),
+                            elementTwo = inputs[5],
+                            eleValueTwo = int.Parse(inputs[6]),
+                            displayAffinity = inputs[7],
+                            sharpness = inputs[8],
+                            sharpnessOne = inputs[9],
+                            sharpnessTwo = inputs[10]
                         };
 
                         if (affinities.Length == 2)
@@ -4679,20 +4260,23 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
+                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    currWeapon.Add(famName, newWeaponLevels);
+                    fam2Weap.Add(famName, newWeaponLevels);
                     currWeaponListing.Add(famName);
                 }
 
                 //Populate the TreeView
-                int currCount = 0;
+                
                 foreach (string weaponFamily in currWeaponListing)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
+                        TreeNode newNode = new TreeNode(weap.name);
+                        newNode.Name = weap.name;
+                        weaponTree.Nodes[currCount].Nodes.Add(newNode);
                     }
                     currCount++;
                 }
@@ -4702,6 +4286,7 @@ namespace MHXXDamageCalc
                 //Populate the ListView
                 weaponDetails.Items.Clear();
                 weaponDetails.Columns.Clear();
+                weaponDetails.Columns.Add("ID", 30);
                 weaponDetails.Columns.Add("Name", 150);
                 weaponDetails.Columns.Add("Raw", 50);
                 weaponDetails.Columns.Add("Element Type", 100);
@@ -4715,10 +4300,11 @@ namespace MHXXDamageCalc
 
                 foreach (string weaponFamily in currWeaponListing)
                 {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        ListViewItem newItem = new ListViewItem(weap.name);
+                        ListViewItem newItem = new ListViewItem(weap.ID.ToString());
+                        newItem.SubItems.Add(weap.name);
                         newItem.SubItems.Add(weap.raw.ToString());
                         newItem.SubItems.Add(weap.element);
                         newItem.SubItems.Add(weap.eleValue.ToString());
@@ -4729,664 +4315,84 @@ namespace MHXXDamageCalc
                         newItem.SubItems.Add(weap.sharpnessOne);
                         newItem.SubItems.Add(weap.sharpnessTwo);
 
+                        newItem.Name = weap.name;
+
                         weaponDetails.Items.Add(newItem);
+
                     }
 
-                }
-            }
-        }
+                    
 
-        private void weapHam_CheckedChanged(object sender, EventArgs e)
-        {
+                }
+                return;
+            }
+
             if (weapHam.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the Hammer .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/Hammer.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/Hammer.csv";
             }
-        }
 
-        private void weapHH_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapHH.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the HH .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/HH.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/HH.csv";
             }
-        }
 
-        private void weapLan_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapLan.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the Lance .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/Lance.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/Lance.csv";
             }
-        }
 
-        private void weapGL_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapGL.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the GL .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/GL.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/GL.csv";
             }
-        }
 
-        private void weapSA_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapSA.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the SA .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
                 using (StreamReader sr = new StreamReader("./Weapons/SA.csv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,elementTwo,eleValueTwo,affinity,sharpness,sharpOne,sharpTwo")
+                    if (input != "ID,name,raw,element,eleValue,elementTwo,eleValueTwo,affinity,sharpness,sharpOne,sharpTwo")
                     {
                         return;
                     }
 
                     while (sr.Peek() >= 0)
                     {
-                        if (nameChanges == 2)
+                        inputs = (sr.ReadLine()).Split(splitter);
+                        string[] name = inputs[1].Split(levelSplit, StringSplitOptions.None);
+
+                        if (name[1] != expectedLevel.ToString())
                         {
-                            currWeapon.Add(famName, newWeaponLevels);
+                            fam2Weap.Add(famName, newWeaponLevels);
                             currWeaponListing.Add(famName);
                             newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
+                            famName = name[0];
+                            expectedLevel = 1;
                         }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
+                        expectedLevel++;
 
                         if (famName == null)
                         {
                             famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
                         }
 
-                        string[] affinities = inputs[6].Split(affinitySplit);
+                        string[] affinities = inputs[7].Split(affinitySplit);
                         weapon newWeap = new weapon
                         {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            elementTwo = inputs[4],
-                            eleValueTwo = int.Parse(inputs[5]),
-                            displayAffinity = inputs[6],
-                            sharpness = inputs[7],
-                            sharpnessOne = inputs[8],
-                            sharpnessTwo = inputs[9]
+                            ID = int.Parse(inputs[0]),
+                            name = inputs[1],
+                            raw = int.Parse(inputs[2]),
+                            element = inputs[3],
+                            eleValue = int.Parse(inputs[4]),
+                            elementTwo = inputs[5],
+                            eleValueTwo = int.Parse(inputs[6]),
+                            displayAffinity = inputs[7],
+                            sharpness = inputs[8],
+                            sharpnessOne = inputs[9],
+                            sharpnessTwo = inputs[10]
                         };
 
                         if (affinities.Length == 2)
@@ -5410,20 +4416,22 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
+                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    currWeapon.Add(famName, newWeaponLevels);
+                    fam2Weap.Add(famName, newWeaponLevels);
                     currWeaponListing.Add(famName);
                 }
 
                 //Populate the TreeView
-                int currCount = 0;
                 foreach (string weaponFamily in currWeaponListing)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
+                        TreeNode newNode = new TreeNode(weap.name);
+                        newNode.Name = weap.name;
+                        weaponTree.Nodes[currCount].Nodes.Add(newNode);
                     }
                     currCount++;
                 }
@@ -5433,6 +4441,7 @@ namespace MHXXDamageCalc
                 //Populate the ListView
                 weaponDetails.Items.Clear();
                 weaponDetails.Columns.Clear();
+                weaponDetails.Columns.Add("ID", 30);
                 weaponDetails.Columns.Add("Name", 150);
                 weaponDetails.Columns.Add("Raw", 50);
                 weaponDetails.Columns.Add("Element Type", 100);
@@ -5446,10 +4455,11 @@ namespace MHXXDamageCalc
 
                 foreach (string weaponFamily in currWeaponListing)
                 {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        ListViewItem newItem = new ListViewItem(weap.name);
+                        ListViewItem newItem = new ListViewItem(weap.ID.ToString());
+                        newItem.SubItems.Add(weap.name);
                         newItem.SubItems.Add(weap.raw.ToString());
                         newItem.SubItems.Add(weap.element);
                         newItem.SubItems.Add(weap.eleValue.ToString());
@@ -5460,367 +4470,65 @@ namespace MHXXDamageCalc
                         newItem.SubItems.Add(weap.sharpnessOne);
                         newItem.SubItems.Add(weap.sharpnessTwo);
 
+                        newItem.Name = weap.name;
+
                         weaponDetails.Items.Add(newItem);
                     }
 
+                    
                 }
+                return;
             }
-        }
 
-        private void weapCB_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapCB.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the CB .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/CB.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/CB.csv";
             }
-        }
 
-        private void weapIG_CheckedChanged(object sender, EventArgs e)
-        {
-            if (weapIG.Checked)
+            if(weapIG.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the IG .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
-                using (StreamReader sr = new StreamReader("./Weapons/IG.csv"))
-                {
-                    //Verify
-                    input = sr.ReadLine();
-                    inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
-                    {
-                        return;
-                    }
-
-                    while (sr.Peek() >= 0)
-                    {
-                        if (nameChanges == 2)
-                        {
-                            currWeapon.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
-                            newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
-                        }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
-                        }
-
-                        string[] affinities = inputs[4].Split(affinitySplit);
-                        weapon newWeap = new weapon
-                        {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4],
-                            sharpness = inputs[5],
-                            sharpnessOne = inputs[6],
-                            sharpnessTwo = inputs[7]
-                        };
-
-                        if (affinities.Length == 2)
-                        {
-                            newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
-                            newWeap.positiveAffinity = int.Parse(affinities[1]);
-                        }
-                        else
-                        {
-                            int newAff = int.Parse(affinities[0]);
-                            if (newAff >= 0)
-                            {
-                                newWeap.positiveAffinity = newAff;
-                                newWeap.negativeAffinity = 0;
-                            }
-                            else
-                            {
-                                newWeap.positiveAffinity = 0;
-                                newWeap.negativeAffinity = newAff * -1;
-                            }
-                        }
-
-                        newWeaponLevels.Add(newWeap);
-                    }
-                    currWeapon.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
-                }
-
-                //Populate the TreeView
-                int currCount = 0;
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
-                    }
-                    currCount++;
-                }
-
-                weaponTree.EndUpdate();
-
-                //Populate the ListView
-                weaponDetails.Items.Clear();
-                weaponDetails.Columns.Clear();
-                weaponDetails.Columns.Add("Name", 150);
-                weaponDetails.Columns.Add("Raw", 50);
-                weaponDetails.Columns.Add("Element Type", 100);
-                weaponDetails.Columns.Add("Value", 50);
-                weaponDetails.Columns.Add("Affinity", 50);
-                weaponDetails.Columns.Add("Sharpness", 80);
-                weaponDetails.Columns.Add("Sharpness + 1", 80);
-                weaponDetails.Columns.Add("Sharpness + 2", 80);
-
-                foreach (string weaponFamily in currWeaponListing)
-                {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
-                    foreach (weapon weap in currFamily)
-                    {
-                        ListViewItem newItem = new ListViewItem(weap.name);
-                        newItem.SubItems.Add(weap.raw.ToString());
-                        newItem.SubItems.Add(weap.element);
-                        newItem.SubItems.Add(weap.eleValue.ToString());
-                        newItem.SubItems.Add(weap.displayAffinity);
-                        newItem.SubItems.Add(weap.sharpness);
-                        newItem.SubItems.Add(weap.sharpnessOne);
-                        newItem.SubItems.Add(weap.sharpnessTwo);
-
-                        weaponDetails.Items.Add(newItem);
-                    }
-
-                }
+                path = "./Weapons/IG.csv";
             }
-        }
 
-        private void weapLBG_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapLBG.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the LBG .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
                 using (StreamReader sr = new StreamReader("./Weapons/LBG.csv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "name,raw,affinity")
+                    if (input != "ID,name,raw,affinity")
                     {
                         return;
                     }
 
                     while (sr.Peek() >= 0)
                     {
-                        if (nameChanges == 2)
+                        inputs = (sr.ReadLine()).Split(splitter);
+                        string[] name = inputs[1].Split(levelSplit, StringSplitOptions.None);
+
+                        if (name[1] != expectedLevel.ToString())
                         {
-                            currWeapon.Add(famName, newWeaponLevels);
+                            fam2Weap.Add(famName, newWeaponLevels);
                             currWeaponListing.Add(famName);
                             newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
+                            famName = name[0];
+                            expectedLevel = 1;
                         }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
+                        expectedLevel++;
 
                         if (famName == null)
                         {
                             famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
                         }
 
-                        string[] affinities = inputs[2].Split(affinitySplit);
+                        string[] affinities = inputs[3].Split(affinitySplit);
                         weapon newWeap = new weapon
                         {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            displayAffinity = inputs[2]
+                            ID = int.Parse(inputs[0]),
+                            name = inputs[1],
+                            raw = int.Parse(inputs[2]),
+                            displayAffinity = inputs[3]
                         };
 
                         if (affinities.Length == 2)
@@ -5844,20 +4552,22 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
+                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    currWeapon.Add(famName, newWeaponLevels);
+                    fam2Weap.Add(famName, newWeaponLevels);
                     currWeaponListing.Add(famName);
                 }
 
                 //Populate the TreeView
-                int currCount = 0;
                 foreach (string weaponFamily in currWeaponListing)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
+                        TreeNode newNode = new TreeNode(weap.name);
+                        newNode.Name = weap.name;
+                        weaponTree.Nodes[currCount].Nodes.Add(newNode);
                     }
                     currCount++;
                 }
@@ -5867,90 +4577,70 @@ namespace MHXXDamageCalc
                 //Populate the ListView
                 weaponDetails.Items.Clear();
                 weaponDetails.Columns.Clear();
+                weaponDetails.Columns.Add("ID", 30);
                 weaponDetails.Columns.Add("Name", 150);
                 weaponDetails.Columns.Add("Raw", 50);
                 weaponDetails.Columns.Add("Affinity", 50);
 
                 foreach (string weaponFamily in currWeaponListing)
                 {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        ListViewItem newItem = new ListViewItem(weap.name);
+                        ListViewItem newItem = new ListViewItem(weap.ID.ToString());
+                        newItem.SubItems.Add(weap.name);
                         newItem.SubItems.Add(weap.raw.ToString());
                         newItem.SubItems.Add(weap.displayAffinity);
+
+                        newItem.Name = weap.name;
 
                         weaponDetails.Items.Add(newItem);
                     }
 
+                    
                 }
+                return;
             }
-        }
 
-        private void weapHBG_CheckedChanged(object sender, EventArgs e)
-        {
             if (weapHBG.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the HBG .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
                 using (StreamReader sr = new StreamReader("./Weapons/HBG.csv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "name,raw,affinity")
+                    if (input != "ID,name,raw,affinity")
                     {
                         return;
                     }
 
                     while (sr.Peek() >= 0)
                     {
-                        if (nameChanges == 2)
+                        inputs = (sr.ReadLine()).Split(splitter);
+                        string[] name = inputs[1].Split(levelSplit, StringSplitOptions.None);
+
+                        if (name[1] != expectedLevel.ToString())
                         {
-                            currWeapon.Add(famName, newWeaponLevels);
+                            fam2Weap.Add(famName, newWeaponLevels);
                             currWeaponListing.Add(famName);
                             newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
+                            famName = name[0];
+                            expectedLevel = 1;
                         }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
+                        expectedLevel++;
 
                         if (famName == null)
                         {
                             famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
                         }
 
-                        string[] affinities = inputs[2].Split(affinitySplit);
+                        string[] affinities = inputs[3].Split(affinitySplit);
                         weapon newWeap = new weapon
                         {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            displayAffinity = inputs[2],
+                            ID = int.Parse(inputs[0]),
+                            name = inputs[1],
+                            raw = int.Parse(inputs[2]),
+                            displayAffinity = inputs[3],
                         };
 
                         if (affinities.Length == 2)
@@ -5974,20 +4664,22 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
+                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    currWeapon.Add(famName, newWeaponLevels);
+                    fam2Weap.Add(famName, newWeaponLevels);
                     currWeaponListing.Add(famName);
                 }
 
                 //Populate the TreeView
-                int currCount = 0;
                 foreach (string weaponFamily in currWeaponListing)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
+                        TreeNode newNode = new TreeNode(weap.name);
+                        newNode.Name = weap.name;
+                        weaponTree.Nodes[currCount].Nodes.Add(newNode);
                     }
                     currCount++;
                 }
@@ -5997,92 +4689,73 @@ namespace MHXXDamageCalc
                 //Populate the ListView
                 weaponDetails.Items.Clear();
                 weaponDetails.Columns.Clear();
+                weaponDetails.Columns.Add("ID", 30);
                 weaponDetails.Columns.Add("Name", 150);
                 weaponDetails.Columns.Add("Raw", 50);
                 weaponDetails.Columns.Add("Affinity", 50);
 
                 foreach (string weaponFamily in currWeaponListing)
                 {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        ListViewItem newItem = new ListViewItem(weap.name);
+                        ListViewItem newItem = new ListViewItem(weap.ID.ToString());
+                        newItem.SubItems.Add(weap.name);
                         newItem.SubItems.Add(weap.raw.ToString());
                         newItem.SubItems.Add(weap.displayAffinity);
+
+                        newItem.Name = weap.name;
 
                         weaponDetails.Items.Add(newItem);
                     }
 
-                }
-            }
-        }
+                    
 
-        private void weapBow_CheckedChanged(object sender, EventArgs e)
-        {
+                }
+                return;
+            }
+
             if (weapBow.Checked)
             {
-                currWeapon.Clear();
-                currWeaponListing.Clear();
-                weaponTree.BeginUpdate();
-                //Read the Bow .csv file...
-                weaponTree.Nodes.Clear();
-                string input;
-                string[] inputs;
-                char[] splitter = new char[] { ',' };
-                char[] affinitySplit = new char[] { '/' };
-                string[] levelSplit = new string[] { " Lv. " };
-                int nameChanges = 0;
-                List<weapon> newWeaponLevels = new List<weapon>();
-                string famName = null;
-                string currName = null;
-
                 using (StreamReader sr = new StreamReader("./Weapons/Bow.csv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "name,raw,element,eleValue,affinity")
+                    if (input != "ID,name,raw,element,eleValue,affinity")
                     {
                         return;
                     }
 
                     while (sr.Peek() >= 0)
                     {
-                        if (nameChanges == 2)
+                        inputs = (sr.ReadLine()).Split(splitter);
+                        string[] name = inputs[1].Split(levelSplit, StringSplitOptions.None);
+
+                        if (name[1] != expectedLevel.ToString())
                         {
-                            currWeapon.Add(famName, newWeaponLevels);
+                            fam2Weap.Add(famName, newWeaponLevels);
                             currWeaponListing.Add(famName);
                             newWeaponLevels = new List<weapon>();
-                            famName = null;
-                            currName = null;
-                            nameChanges = 0;
+                            famName = name[0];
+                            expectedLevel = 1;
                         }
-
-                        inputs = (sr.ReadLine()).Split(splitter);
-                        string[] name = inputs[0].Split(levelSplit, StringSplitOptions.None);
+                        expectedLevel++;
 
                         if (famName == null)
                         {
                             famName = name[0];
-                            currName = name[0];
-                        }
-                        else
-                        {
-                            if (currName != name[0])
-                            {
-                                currName = name[0];
-                                nameChanges++;
-                            }
                         }
 
-                        string[] affinities = inputs[4].Split(affinitySplit);
+                        string[] affinities = inputs[5].Split(affinitySplit);
                         weapon newWeap = new weapon
                         {
-                            name = inputs[0],
-                            raw = int.Parse(inputs[1]),
-                            element = inputs[2],
-                            eleValue = int.Parse(inputs[3]),
-                            displayAffinity = inputs[4]
+                            ID = int.Parse(inputs[0]),
+                            name = inputs[1],
+                            raw = int.Parse(inputs[2]),
+                            element = inputs[3],
+                            eleValue = int.Parse(inputs[4]),
+                            displayAffinity = inputs[5]
                         };
 
                         if (affinities.Length == 2)
@@ -6106,20 +4779,22 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
+                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    currWeapon.Add(famName, newWeaponLevels);
+                    fam2Weap.Add(famName, newWeaponLevels);
                     currWeaponListing.Add(famName);
                 }
 
                 //Populate the TreeView
-                int currCount = 0;
                 foreach (string weaponFamily in currWeaponListing)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        weaponTree.Nodes[currCount].Nodes.Add(weap.name);
+                        TreeNode newNode = new TreeNode(weap.name);
+                        newNode.Name = weap.name;
+                        weaponTree.Nodes[currCount].Nodes.Add(newNode);
                     }
                     currCount++;
                 }
@@ -6129,6 +4804,7 @@ namespace MHXXDamageCalc
                 //Populate the ListView
                 weaponDetails.Items.Clear();
                 weaponDetails.Columns.Clear();
+                weaponDetails.Columns.Add("ID", 30);
                 weaponDetails.Columns.Add("Name", 150);
                 weaponDetails.Columns.Add("Raw", 50);
                 weaponDetails.Columns.Add("Element Type", 100);
@@ -6137,37 +4813,470 @@ namespace MHXXDamageCalc
 
                 foreach (string weaponFamily in currWeaponListing)
                 {
-                    List<weapon> currFamily = currWeapon[weaponFamily];
+                    List<weapon> currFamily = fam2Weap[weaponFamily];
                     foreach (weapon weap in currFamily)
                     {
-                        ListViewItem newItem = new ListViewItem(weap.name);
+                        ListViewItem newItem = new ListViewItem(weap.ID.ToString());
+                        newItem.SubItems.Add(weap.name);
                         newItem.SubItems.Add(weap.raw.ToString());
                         newItem.SubItems.Add(weap.element);
                         newItem.SubItems.Add(weap.eleValue.ToString());
                         newItem.SubItems.Add(weap.displayAffinity);
 
+                        newItem.Name = weap.name;
+
                         weaponDetails.Items.Add(newItem);
                     }
 
+                    
+                }
+                return;
+            }
+
+            using (StreamReader sr = new StreamReader(path))
+            {
+                //Verify
+                input = sr.ReadLine();
+                inputs = input.Split(splitter);
+                if (input != "ID,name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
+                {
+                    return;
+                }
+
+                while (sr.Peek() >= 0)
+                {
+
+                    inputs = (sr.ReadLine()).Split(splitter);
+                    string[] name = inputs[1].Split(levelSplit, StringSplitOptions.None);
+
+                    if (name[1] != expectedLevel.ToString())
+                    {
+                        fam2Weap.Add(famName, newWeaponLevels);
+                        currWeaponListing.Add(famName);
+                        newWeaponLevels = new List<weapon>();
+                        famName = name[0];
+                        expectedLevel = 1;
+                    }
+                    expectedLevel++;
+
+                    if (famName == null)
+                    {
+                        famName = name[0];
+                    }
+
+                    string[] affinities = inputs[5].Split(affinitySplit);
+                    weapon newWeap = new weapon
+                    {
+                        ID = int.Parse(inputs[0]),
+                        name = inputs[1],
+                        raw = int.Parse(inputs[2]),
+                        element = inputs[3],
+                        eleValue = int.Parse(inputs[4]),
+                        displayAffinity = inputs[5],
+                        sharpness = inputs[6],
+                        sharpnessOne = inputs[7],
+                        sharpnessTwo = inputs[8]
+                    };
+
+                    if (affinities.Length == 2)
+                    {
+                        newWeap.negativeAffinity = int.Parse(affinities[0]) * -1;
+                        newWeap.positiveAffinity = int.Parse(affinities[1]);
+                    }
+                    else
+                    {
+                        int newAff = int.Parse(affinities[0]);
+                        if (newAff >= 0)
+                        {
+                            newWeap.positiveAffinity = newAff;
+                            newWeap.negativeAffinity = 0;
+                        }
+                        else
+                        {
+                            newWeap.positiveAffinity = 0;
+                            newWeap.negativeAffinity = newAff * -1;
+                        }
+                    }
+
+                    newWeaponLevels.Add(newWeap);
+                    name2Weap.Add(newWeap.name, newWeap);
+                }
+                fam2Weap.Add(famName, newWeaponLevels);
+                currWeaponListing.Add(famName);
+            }
+
+            //Populate the TreeView
+            currCount = 0;
+            foreach (string weaponFamily in currWeaponListing)
+            {
+                weaponTree.Nodes.Add(weaponFamily);
+                List<weapon> currFamily = fam2Weap[weaponFamily];
+                foreach (weapon weap in currFamily)
+                {
+                    TreeNode newNode = new TreeNode(weap.name);
+                    newNode.Name = weap.name;
+                    weaponTree.Nodes[currCount].Nodes.Add(newNode);
+                }
+                currCount++;
+            }
+
+            weaponTree.EndUpdate();
+
+            //Populate the ListView
+            weaponDetails.Items.Clear();
+            weaponDetails.Columns.Clear();
+            weaponDetails.Columns.Add("ID", 30);
+            weaponDetails.Columns.Add("Name", 150);
+            weaponDetails.Columns.Add("Raw", 50);
+            weaponDetails.Columns.Add("Element Type", 100);
+            weaponDetails.Columns.Add("Value", 50);
+            weaponDetails.Columns.Add("Affinity", 50);
+            weaponDetails.Columns.Add("Sharpness", 80);
+            weaponDetails.Columns.Add("Sharpness + 1", 80);
+            weaponDetails.Columns.Add("Sharpness + 2", 80);
+
+            foreach (string weaponFamily in currWeaponListing)
+            {
+                List<weapon> currFamily = fam2Weap[weaponFamily];
+                foreach (weapon weap in currFamily)
+                {
+                    ListViewItem newItem = new ListViewItem(weap.ID.ToString());
+                    newItem.SubItems.Add(weap.name);
+                    newItem.SubItems.Add(currCount.ToString());
+                    newItem.SubItems.Add(weap.raw.ToString());
+                    newItem.SubItems.Add(weap.element);
+                    newItem.SubItems.Add(weap.eleValue.ToString());
+                    newItem.SubItems.Add(weap.displayAffinity);
+                    newItem.SubItems.Add(weap.sharpness);
+                    newItem.SubItems.Add(weap.sharpnessOne);
+                    newItem.SubItems.Add(weap.sharpnessTwo);
+
+                    newItem.Name = weap.name;
+
+                    weaponDetails.Items.Add(newItem);
+                }
+
+                
+            }
+        }
+
+        private void weapGS_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapLS_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapSnS_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void waepDB_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapHam_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapHH_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapLan_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapGL_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapSA_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapCB_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapIG_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapLBG_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapHBG_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapBow_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weaponDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(weaponDetails.SelectedItems.Count == 1)
+            {
+                weapon selWeap = name2Weap[weaponDetails.SelectedItems[0].SubItems[0].Name];
+                weapRaw.Text = selWeap.raw.ToString();
+                weapEle.SelectedItem = selWeap.element;
+                weapEleDamage.Text = selWeap.eleValue.ToString();
+                weapSec.SelectedItem = selWeap.elementTwo;
+                weapSecDamage.Text = selWeap.eleValueTwo.ToString();
+                if (selWeap.positiveAffinity != 0 && selWeap.negativeAffinity != 0)
+                {
+                    weapChaotic.Checked = true;
+                    weapPosAff.Text = selWeap.positiveAffinity.ToString();
+                    weapNegAff.Text = selWeap.negativeAffinity.ToString();
+                }
+                else
+                {
+                    weapChaotic.Checked = false;
+                    if (selWeap.positiveAffinity != 0)
+                    {
+                        weapAffinity.Text = selWeap.positiveAffinity.ToString();
+                    }
+                    else if (selWeap.negativeAffinity != 0)
+                    {
+                        weapAffinity.Text = (-1 * selWeap.negativeAffinity).ToString();
+                    }
+                    else
+                    {
+                        weapAffinity.Text = "0";
+                    }
+                }
+
+                weapSharpness.SelectedItem = selWeap.sharpness;
+                weapSharpOne.SelectedItem = selWeap.sharpnessOne;
+                weapSharpTwo.SelectedItem = selWeap.sharpnessTwo;
+
+                TreeNode[] nodes = weaponTree.Nodes.Find(selWeap.name, true);
+                if(weaponTree.SelectedNode != null)
+                {
+                    if (weaponTree.SelectedNode.Name == nodes[0].Name)
+                    {
+                        return;
+                    }
+                }
+                
+                weaponTree.CollapseAll();
+                nodes[0].Parent.Expand();
+            }
+            
+        }
+
+        private void weaponTree_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            
+            if(weaponTree.SelectedNode.Nodes.Count == 0)
+            {
+                if(weaponDetails.SelectedItems.Count == 1)
+                {
+                    if (weaponDetails.SelectedItems[0].Name != weaponTree.SelectedNode.Name)
+                    {
+                        weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
+                        weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
+                    }
+                }
+                else
+                {
+                    weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
+                    weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
                 }
             }
+        }
+
+        private void weapFilter_CheckedChanged(object sender, EventArgs e)
+        {
+            if(weapFilter.Checked)
+            {
+                weapFire.Enabled = true;
+                weapWater.Enabled = true;
+                weapThunder.Enabled = true;
+                weapIce.Enabled = true;
+                weapDra.Enabled = true;
+                weapPoi.Enabled = true;
+                weapPara.Enabled = true;
+                weapSleep.Enabled = true;
+                weapBlast.Enabled = true;
+                weapNoEle.Enabled = true;
+            }
+
+            else
+            {
+                weapFire.Checked = false;
+                weapFire.Enabled = false;
+                weapWater.Checked = false;
+                weapWater.Enabled = false;
+                weapThunder.Checked = false;
+                weapThunder.Enabled = false;
+                weapIce.Checked = false;
+                weapIce.Enabled = false;
+                weapDra.Checked = false;
+                weapDra.Enabled = false;
+                weapPoi.Checked = false;
+                weapPoi.Enabled = false;
+                weapPara.Checked = false;
+                weapPara.Enabled = false;
+                weapSleep.Checked = false;
+                weapSleep.Enabled = false;
+                weapBlast.Checked = false;
+                weapBlast.Enabled = false;
+                weapNoEle.Checked = false;
+                weapNoEle.Enabled = false;
+            }
+        }
+
+        private void weapSearch_TextChanged(object sender, EventArgs e)
+        {
+            searchWeapons();
+        }
+
+        private void filterWeapons()
+        {
+            //Populate the Filter List with items, depending on the chosen items in the filters.
+            weaponDetails.Items.Clear();
+            List<string> filters = new List<string>();
+            if(weapFire.Checked)
+            {
+                filters.Add("Fire");
+            }
+            if(weapWater.Checked)
+            {
+                filters.Add("Water");
+            }
+            if(weapThunder.Checked)
+            {
+                filters.Add("Thunder");
+            }
+            if(weapIce.Checked)
+            {
+                filters.Add("Ice");
+            }
+            if(weapDra.Checked)
+            {
+                filters.Add("Dragon");
+            }
+            if(weapPoi.Checked)
+            {
+                filters.Add("Poison");
+            }
+            if(weapPara.Checked)
+            {
+                filters.Add("Para");
+            }
+            if(weapSleep.Checked)
+            {
+                filters.Add("Sleep");
+            }
+            if(weapBlast.Checked)
+            {
+                filters.Add("Blast");
+            }
+            if(weapNoEle.Checked)
+            {
+                filters.Add("(No Element)");
+            }
+
+            //Go through every family, checking their element. If they fit the filter, then we add them to the filtered view.
+            foreach(string family in currWeaponListing)
+            {
+                List<weapon> weapons = fam2Weap[family];
+                //if(weapons[0])
+            }
+            
+            List<weapon> tempStorage = new List<weapon>();
+            if(weapFinalUpgrade.Checked) //Order of precedence: Elemental Filters -> Final Upgrade -> Name Search
+            {
+                foreach(string family in currWeaponListing)
+                {
+                    List<weapon> weapons = fam2Weap[family];
+                    weapon finalWeapon = weapons[weapons.Count - 1];
+                    tempStorage.Add(finalWeapon);
+                }
+            }
+            else
+            {
+                foreach (string family in currWeaponListing)
+                {
+                    List<weapon> weapons = fam2Weap[family];
+                    foreach(weapon weap in weapons)
+                    {
+                        tempStorage.Add(weap);
+                    }
+                }
+            }
+
+            searchWeapons();
+
+
+            
+            //ListViewItem newItem = new ListViewItem(finalWeapon.ID.ToString());
+            //newItem.SubItems.Add(finalWeapon.name);
+            //newItem.SubItems.Add(finalWeapon.raw.ToString());
+
+            //if (!weapLBG.Checked && !weapHBG.Checked)
+            //{
+            //    newItem.SubItems.Add(finalWeapon.element);
+            //    newItem.SubItems.Add(finalWeapon.eleValue.ToString());
+            //    if (weapDB.Checked || weapSA.Checked)
+            //    {
+            //        newItem.SubItems.Add(finalWeapon.elementTwo);
+            //        newItem.SubItems.Add(finalWeapon.eleValueTwo.ToString());
+            //    }
+            //}
+
+            //newItem.SubItems.Add(finalWeapon.displayAffinity);
+
+            //if (!weapLBG.Checked && !weapHBG.Checked && !weapBow.Checked)
+            //{
+            //    newItem.SubItems.Add(finalWeapon.sharpness);
+            //    newItem.SubItems.Add(finalWeapon.sharpnessOne);
+            //    newItem.SubItems.Add(finalWeapon.sharpnessTwo);
+            //}
+
+            //newItem.Name = finalWeapon.name;
+            //weaponDetails.Items.Add(newItem);
+        }
+
+        private void weapFinalUpgrade_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
         }
     }
 
     internal class weapon
     {
+        public int ID;
         public string name;
         public int raw;
-        public string element;
-        public int eleValue;
-        public string elementTwo;
-        public int eleValueTwo;
+        public string element = "(No Element)";
+        public int eleValue = 0;
+        public string elementTwo = "(No Element)";
+        public int eleValueTwo = 0;
         public string displayAffinity;
         public int positiveAffinity;
         public int negativeAffinity;
-        public string sharpness;
-        public string sharpnessOne;
-        public string sharpnessTwo;
+        public string sharpness = "(No Sharpness)";
+        public string sharpnessOne = "(No Sharpness)";
+        public string sharpnessTwo = "(No Sharpness)";
     }
 
     /// <summary>
