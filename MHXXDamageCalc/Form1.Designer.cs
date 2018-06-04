@@ -641,6 +641,7 @@
             this.weapNoEle.Text = "(No Element)";
             this.weapNoEle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.weapNoEle.UseVisualStyleBackColor = true;
+            this.weapNoEle.CheckedChanged += new System.EventHandler(this.weapNoEle_CheckedChanged);
             // 
             // weapBlast
             // 
@@ -652,6 +653,7 @@
             this.weapBlast.Size = new System.Drawing.Size(30, 30);
             this.weapBlast.TabIndex = 35;
             this.weapBlast.UseVisualStyleBackColor = true;
+            this.weapBlast.CheckedChanged += new System.EventHandler(this.weapBlast_CheckedChanged);
             // 
             // weapSleep
             // 
@@ -663,6 +665,7 @@
             this.weapSleep.Size = new System.Drawing.Size(30, 30);
             this.weapSleep.TabIndex = 34;
             this.weapSleep.UseVisualStyleBackColor = true;
+            this.weapSleep.CheckedChanged += new System.EventHandler(this.weapSleep_CheckedChanged);
             // 
             // weapPara
             // 
@@ -674,6 +677,7 @@
             this.weapPara.Size = new System.Drawing.Size(30, 30);
             this.weapPara.TabIndex = 33;
             this.weapPara.UseVisualStyleBackColor = true;
+            this.weapPara.CheckedChanged += new System.EventHandler(this.weapPara_CheckedChanged);
             // 
             // weapPoi
             // 
@@ -685,6 +689,7 @@
             this.weapPoi.Size = new System.Drawing.Size(30, 30);
             this.weapPoi.TabIndex = 32;
             this.weapPoi.UseVisualStyleBackColor = true;
+            this.weapPoi.CheckedChanged += new System.EventHandler(this.weapPoi_CheckedChanged);
             // 
             // weapDra
             // 
@@ -696,6 +701,7 @@
             this.weapDra.Size = new System.Drawing.Size(30, 30);
             this.weapDra.TabIndex = 31;
             this.weapDra.UseVisualStyleBackColor = true;
+            this.weapDra.CheckedChanged += new System.EventHandler(this.weapDra_CheckedChanged);
             // 
             // weapIce
             // 
@@ -707,6 +713,7 @@
             this.weapIce.Size = new System.Drawing.Size(30, 30);
             this.weapIce.TabIndex = 30;
             this.weapIce.UseVisualStyleBackColor = true;
+            this.weapIce.CheckedChanged += new System.EventHandler(this.weapIce_CheckedChanged);
             // 
             // weapThunder
             // 
@@ -718,6 +725,7 @@
             this.weapThunder.Size = new System.Drawing.Size(30, 30);
             this.weapThunder.TabIndex = 29;
             this.weapThunder.UseVisualStyleBackColor = true;
+            this.weapThunder.CheckedChanged += new System.EventHandler(this.weapThunder_CheckedChanged);
             // 
             // weapWater
             // 
@@ -729,6 +737,7 @@
             this.weapWater.Size = new System.Drawing.Size(30, 30);
             this.weapWater.TabIndex = 28;
             this.weapWater.UseVisualStyleBackColor = true;
+            this.weapWater.CheckedChanged += new System.EventHandler(this.weapWater_CheckedChanged);
             // 
             // weapFire
             // 
@@ -740,6 +749,7 @@
             this.weapFire.Size = new System.Drawing.Size(30, 30);
             this.weapFire.TabIndex = 27;
             this.weapFire.UseVisualStyleBackColor = true;
+            this.weapFire.CheckedChanged += new System.EventHandler(this.weapFire_CheckedChanged);
             // 
             // weapFilter
             // 
@@ -763,6 +773,7 @@
             this.weaponDetails.TabIndex = 15;
             this.weaponDetails.UseCompatibleStateImageBehavior = false;
             this.weaponDetails.View = System.Windows.Forms.View.Details;
+            this.weaponDetails.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.weaponDetails_ColumnClick);
             this.weaponDetails.SelectedIndexChanged += new System.EventHandler(this.weaponDetails_SelectedIndexChanged);
             // 
             // weaponTree
