@@ -26,11 +26,8 @@ namespace MHXXDamageCalc
         Dictionary<string, Func<int, bool>> miscModifiers = new Dictionary<string, Func<int, bool>>();
         Dictionary<string, string> secondElements = new Dictionary<string, string>();
 
-        List<string> currWeaponListing = new List<string>();
-        Dictionary<string, List<weapon>> fam2Weap = new Dictionary<string, List<weapon>>();
-        Dictionary<string, weapon> name2Weap = new Dictionary<string, weapon>();
-
-        List<string> filteredFamilies = new List<string>();
+        weaponStorage currentWeapons = new weaponStorage();
+        List<string> filteredWeapons = new List<string>();
 
         public Form1()
         {
@@ -4159,10 +4156,9 @@ namespace MHXXDamageCalc
             weapFinalUpgrade.Checked = false;
             string path = null;
 
-            fam2Weap.Clear();
-            currWeaponListing.Clear();
-            name2Weap.Clear();
-            filteredFamilies.Clear();
+            currentWeapons.Clear();
+            filteredWeapons.Clear();
+
             weaponTree.BeginUpdate();
             //Read the appropriate .csv file...
             weaponTree.Nodes.Clear();
@@ -4172,7 +4168,6 @@ namespace MHXXDamageCalc
             char[] affinitySplit = new char[] { '/' };
             string[] levelSplit = new string[] { " Lv. " };
             List<weapon> newWeaponLevels = new List<weapon>();
-            string famName = null;
             int expectedLevel = 1;
             int currCount = 0;
 
@@ -4210,18 +4205,11 @@ namespace MHXXDamageCalc
 
                         if (name[1] != expectedLevel.ToString())
                         {
-                            fam2Weap.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
+                            currentWeapons.addFamily(newWeaponLevels);
                             newWeaponLevels = new List<weapon>();
-                            famName = name[0];
                             expectedLevel = 1;
                         }
                         expectedLevel++;
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                        }
 
                         string[] affinities = inputs[7].Split(affinitySplit);
                         weapon newWeap = new weapon
@@ -4260,18 +4248,16 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
-                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    fam2Weap.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
+                    currentWeapons.addFamily(newWeaponLevels);
                 }
 
                 //Populate the TreeView
                 
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         TreeNode newNode = new TreeNode(weap.name);
@@ -4298,9 +4284,9 @@ namespace MHXXDamageCalc
                 weaponDetails.Columns.Add("Sharpness + 1", 80);
                 weaponDetails.Columns.Add("Sharpness + 2", 80);
 
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         ListViewItem newItem = new ListViewItem(weap.ID.ToString());
@@ -4366,18 +4352,11 @@ namespace MHXXDamageCalc
 
                         if (name[1] != expectedLevel.ToString())
                         {
-                            fam2Weap.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
+                            currentWeapons.addFamily(newWeaponLevels);
                             newWeaponLevels = new List<weapon>();
-                            famName = name[0];
                             expectedLevel = 1;
                         }
                         expectedLevel++;
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                        }
 
                         string[] affinities = inputs[7].Split(affinitySplit);
                         weapon newWeap = new weapon
@@ -4416,17 +4395,15 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
-                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    fam2Weap.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
+                    currentWeapons.addFamily(newWeaponLevels);
                 }
 
                 //Populate the TreeView
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         TreeNode newNode = new TreeNode(weap.name);
@@ -4453,9 +4430,9 @@ namespace MHXXDamageCalc
                 weaponDetails.Columns.Add("Sharpness + 1", 80);
                 weaponDetails.Columns.Add("Sharpness + 2", 80);
 
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         ListViewItem newItem = new ListViewItem(weap.ID.ToString());
@@ -4509,18 +4486,11 @@ namespace MHXXDamageCalc
 
                         if (name[1] != expectedLevel.ToString())
                         {
-                            fam2Weap.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
+                            currentWeapons.addFamily(newWeaponLevels);
                             newWeaponLevels = new List<weapon>();
-                            famName = name[0];
                             expectedLevel = 1;
                         }
                         expectedLevel++;
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                        }
 
                         string[] affinities = inputs[3].Split(affinitySplit);
                         weapon newWeap = new weapon
@@ -4552,17 +4522,15 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
-                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    fam2Weap.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
+                    currentWeapons.addFamily(newWeaponLevels);
                 }
 
                 //Populate the TreeView
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         TreeNode newNode = new TreeNode(weap.name);
@@ -4582,9 +4550,9 @@ namespace MHXXDamageCalc
                 weaponDetails.Columns.Add("Raw", 50);
                 weaponDetails.Columns.Add("Affinity", 50);
 
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         ListViewItem newItem = new ListViewItem(weap.ID.ToString());
@@ -4621,18 +4589,11 @@ namespace MHXXDamageCalc
 
                         if (name[1] != expectedLevel.ToString())
                         {
-                            fam2Weap.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
+                            currentWeapons.addFamily(newWeaponLevels);
                             newWeaponLevels = new List<weapon>();
-                            famName = name[0];
                             expectedLevel = 1;
                         }
                         expectedLevel++;
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                        }
 
                         string[] affinities = inputs[3].Split(affinitySplit);
                         weapon newWeap = new weapon
@@ -4664,17 +4625,15 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
-                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    fam2Weap.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
+                    currentWeapons.addFamily(newWeaponLevels);
                 }
 
                 //Populate the TreeView
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         TreeNode newNode = new TreeNode(weap.name);
@@ -4694,9 +4653,9 @@ namespace MHXXDamageCalc
                 weaponDetails.Columns.Add("Raw", 50);
                 weaponDetails.Columns.Add("Affinity", 50);
 
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         ListViewItem newItem = new ListViewItem(weap.ID.ToString());
@@ -4734,18 +4693,11 @@ namespace MHXXDamageCalc
 
                         if (name[1] != expectedLevel.ToString())
                         {
-                            fam2Weap.Add(famName, newWeaponLevels);
-                            currWeaponListing.Add(famName);
+                            currentWeapons.addFamily(newWeaponLevels);
                             newWeaponLevels = new List<weapon>();
-                            famName = name[0];
                             expectedLevel = 1;
                         }
                         expectedLevel++;
-
-                        if (famName == null)
-                        {
-                            famName = name[0];
-                        }
 
                         string[] affinities = inputs[5].Split(affinitySplit);
                         weapon newWeap = new weapon
@@ -4779,17 +4731,15 @@ namespace MHXXDamageCalc
                         }
 
                         newWeaponLevels.Add(newWeap);
-                        name2Weap.Add(newWeap.name, newWeap);
                     }
-                    fam2Weap.Add(famName, newWeaponLevels);
-                    currWeaponListing.Add(famName);
+                    currentWeapons.addFamily(newWeaponLevels);
                 }
 
                 //Populate the TreeView
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
                     weaponTree.Nodes.Add(weaponFamily);
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         TreeNode newNode = new TreeNode(weap.name);
@@ -4811,9 +4761,9 @@ namespace MHXXDamageCalc
                 weaponDetails.Columns.Add("Value", 50);
                 weaponDetails.Columns.Add("Affinity", 50);
 
-                foreach (string weaponFamily in currWeaponListing)
+                foreach (string weaponFamily in currentWeapons.families)
                 {
-                    List<weapon> currFamily = fam2Weap[weaponFamily];
+                    List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                     foreach (weapon weap in currFamily)
                     {
                         ListViewItem newItem = new ListViewItem(weap.ID.ToString());
@@ -4851,18 +4801,11 @@ namespace MHXXDamageCalc
 
                     if (name[1] != expectedLevel.ToString())
                     {
-                        fam2Weap.Add(famName, newWeaponLevels);
-                        currWeaponListing.Add(famName);
+                        currentWeapons.addFamily(newWeaponLevels);
                         newWeaponLevels = new List<weapon>();
-                        famName = name[0];
                         expectedLevel = 1;
                     }
                     expectedLevel++;
-
-                    if (famName == null)
-                    {
-                        famName = name[0];
-                    }
 
                     string[] affinities = inputs[5].Split(affinitySplit);
                     weapon newWeap = new weapon
@@ -4899,18 +4842,16 @@ namespace MHXXDamageCalc
                     }
 
                     newWeaponLevels.Add(newWeap);
-                    name2Weap.Add(newWeap.name, newWeap);
                 }
-                fam2Weap.Add(famName, newWeaponLevels);
-                currWeaponListing.Add(famName);
+                currentWeapons.addFamily(newWeaponLevels);
             }
 
             //Populate the TreeView
             currCount = 0;
-            foreach (string weaponFamily in currWeaponListing)
+            foreach (string weaponFamily in currentWeapons.families)
             {
                 weaponTree.Nodes.Add(weaponFamily);
-                List<weapon> currFamily = fam2Weap[weaponFamily];
+                List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                 foreach (weapon weap in currFamily)
                 {
                     TreeNode newNode = new TreeNode(weap.name);
@@ -4935,9 +4876,9 @@ namespace MHXXDamageCalc
             weaponDetails.Columns.Add("Sharpness + 1", 80);
             weaponDetails.Columns.Add("Sharpness + 2", 80);
 
-            foreach (string weaponFamily in currWeaponListing)
+            foreach (string weaponFamily in currentWeapons.families)
             {
-                List<weapon> currFamily = fam2Weap[weaponFamily];
+                List<weapon> currFamily = currentWeapons.getFamily(weaponFamily);
                 foreach (weapon weap in currFamily)
                 {
                     ListViewItem newItem = new ListViewItem(weap.ID.ToString());
@@ -5034,7 +4975,7 @@ namespace MHXXDamageCalc
         {
             if(weaponDetails.SelectedItems.Count == 1)
             {
-                weapon selWeap = name2Weap[weaponDetails.SelectedItems[0].SubItems[0].Name];
+                weapon selWeap = currentWeapons.weaponDetails[weaponDetails.SelectedItems[0].SubItems[0].Name];
                 weapRaw.Text = selWeap.raw.ToString();
                 weapEle.SelectedItem = selWeap.element;
                 weapEleDamage.Text = selWeap.eleValue.ToString();
@@ -5149,116 +5090,195 @@ namespace MHXXDamageCalc
             searchWeapons();
         }
 
+        private void searchWeapons()
+        {
+            throw new NotImplementedException();
+        }
+
         private void filterWeapons()
         {
-            //Populate the Filter List with items, depending on the chosen items in the filters.
-            weaponDetails.Items.Clear();
-            List<string> filters = new List<string>();
-            if(weapFire.Checked)
-            {
-                filters.Add("Fire");
-            }
-            if(weapWater.Checked)
-            {
-                filters.Add("Water");
-            }
-            if(weapThunder.Checked)
-            {
-                filters.Add("Thunder");
-            }
-            if(weapIce.Checked)
-            {
-                filters.Add("Ice");
-            }
-            if(weapDra.Checked)
-            {
-                filters.Add("Dragon");
-            }
-            if(weapPoi.Checked)
-            {
-                filters.Add("Poison");
-            }
-            if(weapPara.Checked)
-            {
-                filters.Add("Para");
-            }
-            if(weapSleep.Checked)
-            {
-                filters.Add("Sleep");
-            }
-            if(weapBlast.Checked)
-            {
-                filters.Add("Blast");
-            }
-            if(weapNoEle.Checked)
-            {
-                filters.Add("(No Element)");
-            }
+            throw new NotImplementedException();
+        //    //Populate the Filter List with items, depending on the chosen items in the filters.
+        //    weaponDetails.Items.Clear();
+        //    List<string> filters = new List<string>();
+        //    if(weapFire.Checked)
+        //    {
+        //        filters.Add("Fire");
+        //    }
+        //    if(weapWater.Checked)
+        //    {
+        //        filters.Add("Water");
+        //    }
+        //    if(weapThunder.Checked)
+        //    {
+        //        filters.Add("Thunder");
+        //    }
+        //    if(weapIce.Checked)
+        //    {
+        //        filters.Add("Ice");
+        //    }
+        //    if(weapDra.Checked)
+        //    {
+        //        filters.Add("Dragon");
+        //    }
+        //    if(weapPoi.Checked)
+        //    {
+        //        filters.Add("Poison");
+        //    }
+        //    if(weapPara.Checked)
+        //    {
+        //        filters.Add("Para");
+        //    }
+        //    if(weapSleep.Checked)
+        //    {
+        //        filters.Add("Sleep");
+        //    }
+        //    if(weapBlast.Checked)
+        //    {
+        //        filters.Add("Blast");
+        //    }
+        //    if(weapNoEle.Checked)
+        //    {
+        //        filters.Add("(No Element)");
+        //    }
 
-            //Go through every family, checking their element. If they fit the filter, then we add them to the filtered view.
-            foreach(string family in currWeaponListing)
-            {
-                List<weapon> weapons = fam2Weap[family];
-                //if(weapons[0])
-            }
+        //    if(filters.Count == 0)
+        //    {
+                
+        //    }
+
+        //    //Go through every family, checking their element. If they fit the filter, then we add them to the filtered view.
+        //    foreach(string family in currWeaponListing)
+        //    {
+        //        //List<weapon> weapons = fam2Weap[family];
+                
+        //    }
             
-            List<weapon> tempStorage = new List<weapon>();
-            if(weapFinalUpgrade.Checked) //Order of precedence: Elemental Filters -> Final Upgrade -> Name Search
-            {
-                foreach(string family in currWeaponListing)
-                {
-                    List<weapon> weapons = fam2Weap[family];
-                    weapon finalWeapon = weapons[weapons.Count - 1];
-                    tempStorage.Add(finalWeapon);
-                }
-            }
-            else
-            {
-                foreach (string family in currWeaponListing)
-                {
-                    List<weapon> weapons = fam2Weap[family];
-                    foreach(weapon weap in weapons)
-                    {
-                        tempStorage.Add(weap);
-                    }
-                }
-            }
+        //    List<weapon> tempStorage = new List<weapon>();
+        //    if(weapFinalUpgrade.Checked) //Order of precedence: Elemental Filters -> Final Upgrade -> Name Search
+        //    {
+        //        foreach(string family in currWeaponListing)
+        //        {
+        //            //List<weapon> weapons = fam2Weap[family];
+        //            weapon finalWeapon = weapons[weapons.Count - 1];
+        //            tempStorage.Add(finalWeapon);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        foreach (string family in currWeaponListing)
+        //        {
+        //            List<weapon> weapons = fam2Weap[family];
+        //            foreach(weapon weap in weapons)
+        //            {
+        //                tempStorage.Add(weap);
+        //            }
+        //        }
+        //    }
 
-            searchWeapons();
+        //    searchWeapons();
 
 
             
-            //ListViewItem newItem = new ListViewItem(finalWeapon.ID.ToString());
-            //newItem.SubItems.Add(finalWeapon.name);
-            //newItem.SubItems.Add(finalWeapon.raw.ToString());
+        //    //ListViewItem newItem = new ListViewItem(finalWeapon.ID.ToString());
+        //    //newItem.SubItems.Add(finalWeapon.name);
+        //    //newItem.SubItems.Add(finalWeapon.raw.ToString());
 
-            //if (!weapLBG.Checked && !weapHBG.Checked)
-            //{
-            //    newItem.SubItems.Add(finalWeapon.element);
-            //    newItem.SubItems.Add(finalWeapon.eleValue.ToString());
-            //    if (weapDB.Checked || weapSA.Checked)
-            //    {
-            //        newItem.SubItems.Add(finalWeapon.elementTwo);
-            //        newItem.SubItems.Add(finalWeapon.eleValueTwo.ToString());
-            //    }
-            //}
+        //    //if (!weapLBG.Checked && !weapHBG.Checked)
+        //    //{
+        //    //    newItem.SubItems.Add(finalWeapon.element);
+        //    //    newItem.SubItems.Add(finalWeapon.eleValue.ToString());
+        //    //    if (weapDB.Checked || weapSA.Checked)
+        //    //    {
+        //    //        newItem.SubItems.Add(finalWeapon.elementTwo);
+        //    //        newItem.SubItems.Add(finalWeapon.eleValueTwo.ToString());
+        //    //    }
+        //    //}
 
-            //newItem.SubItems.Add(finalWeapon.displayAffinity);
+        //    //newItem.SubItems.Add(finalWeapon.displayAffinity);
 
-            //if (!weapLBG.Checked && !weapHBG.Checked && !weapBow.Checked)
-            //{
-            //    newItem.SubItems.Add(finalWeapon.sharpness);
-            //    newItem.SubItems.Add(finalWeapon.sharpnessOne);
-            //    newItem.SubItems.Add(finalWeapon.sharpnessTwo);
-            //}
+        //    //if (!weapLBG.Checked && !weapHBG.Checked && !weapBow.Checked)
+        //    //{
+        //    //    newItem.SubItems.Add(finalWeapon.sharpness);
+        //    //    newItem.SubItems.Add(finalWeapon.sharpnessOne);
+        //    //    newItem.SubItems.Add(finalWeapon.sharpnessTwo);
+        //    //}
 
-            //newItem.Name = finalWeapon.name;
-            //weaponDetails.Items.Add(newItem);
+        //    //newItem.Name = finalWeapon.name;
+        //    //weaponDetails.Items.Add(newItem);
         }
 
         private void weapFinalUpgrade_CheckedChanged(object sender, EventArgs e)
         {
             filterWeapons();
+        }
+    }
+
+    internal class weaponStorage
+    {
+        public List<string> families = new List<string>();
+        public List<string> weapons = new List<string>();
+        public Dictionary<string, List<string>> familyWeapons = new Dictionary<string, List<string>>();
+        public Dictionary<string, weapon> weaponDetails = new Dictionary<string, weapon>();
+
+        public void addFamily(List<weapon> family)
+        {
+            List<string> newWeapons = new List<string>();
+            string[] firstName = family[0].name.Split(new string[] { " Lv. " }, StringSplitOptions.None);
+            string familyName = firstName[0];
+
+            families.Add(familyName);
+            
+            foreach(weapon newWeap in family)
+            {
+                weapons.Add(newWeap.name);
+                newWeapons.Add(newWeap.name);
+                weaponDetails.Add(newWeap.name, newWeap);
+            }
+            familyWeapons.Add(familyName, newWeapons);
+        }
+
+        public List<weapon> getWeapons() //gets all the details of the weapons in the order they were added, that is, by ID
+        {
+            List<weapon> allWeapons = new List<weapon>();
+            foreach(string allWeaps in weapons)
+            {
+                allWeapons.Add(weaponDetails[allWeaps]);
+            }
+            return allWeapons;
+        }
+
+        public List<weapon> getFamily(string name) //gets a single family's details.
+        {
+            List<string> family = familyWeapons[name];
+            List<weapon> weapons = new List<weapon>();
+            foreach(string familyWeapon in family)
+            {
+                weapons.Add(weaponDetails[familyWeapon]);
+            }
+
+            return weapons;
+        }
+
+        public List<weapon> getFinal(List<string> family) //gets the details of the final upgrades
+        {
+            List<weapon> finals = new List<weapon>();
+            foreach(string str in family)
+            {
+                int last = familyWeapons[str].Count;
+                string lastWeap = familyWeapons[str][last - 1];
+                finals.Add(weaponDetails[lastWeap]);
+            }
+
+            return finals;
+        }
+
+        public void Clear() //resets everything, for use in switching weapon classes
+        {
+            families.Clear();
+            weapons.Clear();
+            familyWeapons.Clear();
+            weaponDetails.Clear();
         }
     }
 
