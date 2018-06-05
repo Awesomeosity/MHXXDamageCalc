@@ -1356,6 +1356,411 @@ namespace MHXXDamageCalc
             }
         }
 
+        private void modArmorButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modArmor.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+            ListViewItem item = new ListViewItem(modArmor.Text)
+            {
+                Group = modList.Groups[0]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modFoodButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modFood.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+
+            ListViewItem item = new ListViewItem(modFood.Text)
+            {
+                Group = modList.Groups[1]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modWeaponButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modWeapon.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+            ListViewItem item = new ListViewItem(modWeapon.Text)
+            {
+                Group = modList.Groups[2]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modMiscButton_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem listItem in modList.Items)
+            {
+                if (modMisc.Text == listItem.Text)
+                {
+                    return;
+                }
+            }
+            ListViewItem item = new ListViewItem(modMisc.Text)
+            {
+                Group = modList.Groups[3]
+            };
+            modList.Items.Add(item);
+        }
+
+        private void modAllButton_Click(object sender, EventArgs e)
+        {
+            modList.Items.Clear();
+            foreach (ListViewGroup group in modList.Groups)
+            {
+                group.Items.Clear();
+            }
+        }
+
+        private void modSelectedButton_Click(object sender, EventArgs e)
+        {
+            if (modList.SelectedItems.Count != 0)
+            {
+                foreach (ListViewItem item in modList.SelectedItems)
+                {
+                    item.Group.Items.Remove(item);
+                    modList.Items.Remove(item);
+                }
+            }
+
+        }
+
+        private void paraUpdate_Click(object sender, EventArgs e)
+        {
+            ImportSetUp();
+            ImportModifiers();
+            Export();
+        }
+
+        private void moveHitCount_TextChanged(object sender, EventArgs e)
+        {
+            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
+            if (double.Parse(moveMV.Text) != newTotal)
+            {
+                moveMV.Text = newTotal.ToString();
+            }
+        }
+
+        private void moveMV_TextChanged(object sender, EventArgs e)
+        {
+            double newAvg = double.Parse(moveMV.Text) / double.Parse(moveHitCount.Text);
+            if (double.Parse(moveAvg.Text) != newAvg)
+            {
+                moveAvg.Text = newAvg.ToString();
+            }
+        }
+
+        private void moveAvg_TextChanged(object sender, EventArgs e)
+        {
+            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
+            if (double.Parse(moveMV.Text) != newTotal)
+            {
+                moveMV.Text = newTotal.ToString();
+            }
+        }
+
+        private void moveInherit_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (moveInherit.SelectedIndex == 0)
+            {
+                moveInheritValue.Text = "0";
+                moveInheritValue.Enabled = false;
+
+                moveInheritPict.Image = null;
+                return;
+            }
+
+            moveInheritValue.Enabled = true;
+            moveInheritPict.Load(str2Pict[moveInherit.Text]);
+        }
+
+        private void weapGS_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapLS_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapSnS_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void waepDB_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapHam_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapHH_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapLan_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapGL_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapSA_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapCB_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapIG_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapLBG_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapHBG_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weapBow_CheckedChanged(object sender, EventArgs e)
+        {
+            ResetWeaponDetails();
+        }
+
+        private void weaponDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (weaponDetails.SelectedItems.Count == 1)
+            {
+                weapon selWeap = currentWeapons.weaponDetails[weaponDetails.SelectedItems[0].SubItems[0].Name];
+                weapRaw.Text = selWeap.raw.ToString();
+                weapEle.SelectedItem = selWeap.element;
+                weapEleDamage.Text = selWeap.eleValue.ToString();
+                weapSec.SelectedItem = selWeap.elementTwo;
+                weapSecDamage.Text = selWeap.eleValueTwo.ToString();
+                if (selWeap.positiveAffinity != 0 && selWeap.negativeAffinity != 0)
+                {
+                    weapChaotic.Checked = true;
+                    weapPosAff.Text = selWeap.positiveAffinity.ToString();
+                    weapNegAff.Text = selWeap.negativeAffinity.ToString();
+                }
+                else
+                {
+                    weapChaotic.Checked = false;
+                    if (selWeap.positiveAffinity != 0)
+                    {
+                        weapAffinity.Text = selWeap.positiveAffinity.ToString();
+                    }
+                    else if (selWeap.negativeAffinity != 0)
+                    {
+                        weapAffinity.Text = (-1 * selWeap.negativeAffinity).ToString();
+                    }
+                    else
+                    {
+                        weapAffinity.Text = "0";
+                    }
+                }
+
+                weapSharpness.SelectedItem = selWeap.sharpness;
+                weapSharpOne.SelectedItem = selWeap.sharpnessOne;
+                weapSharpTwo.SelectedItem = selWeap.sharpnessTwo;
+
+                TreeNode[] nodes = weaponTree.Nodes.Find(selWeap.name, true);
+                if (weaponTree.SelectedNode != null)
+                {
+                    if (weaponTree.SelectedNode.Name == nodes[0].Name)
+                    {
+                        return;
+                    }
+                }
+
+                weaponTree.CollapseAll();
+                nodes[0].Parent.Expand();
+            }
+
+        }
+
+        private void weaponTree_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+            if (weaponTree.SelectedNode.Nodes.Count == 0)
+            {
+                if (weaponDetails.SelectedItems.Count == 1)
+                {
+                    if (weaponDetails.SelectedItems[0].Name != weaponTree.SelectedNode.Name)
+                    {
+                        weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
+                        weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
+                    }
+                }
+                else
+                {
+                    weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
+                    weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
+                }
+            }
+        }
+
+        private void weapFilter_CheckedChanged(object sender, EventArgs e)
+        {
+            if (weapFilter.Checked)
+            {
+                weapFire.Enabled = true;
+                weapWater.Enabled = true;
+                weapThunder.Enabled = true;
+                weapIce.Enabled = true;
+                weapDra.Enabled = true;
+                weapPoi.Enabled = true;
+                weapPara.Enabled = true;
+                weapSleep.Enabled = true;
+                weapBlast.Enabled = true;
+                weapNoEle.Enabled = true;
+            }
+
+            else
+            {
+                weapFire.Checked = false;
+                weapFire.Enabled = false;
+                weapWater.Checked = false;
+                weapWater.Enabled = false;
+                weapThunder.Checked = false;
+                weapThunder.Enabled = false;
+                weapIce.Checked = false;
+                weapIce.Enabled = false;
+                weapDra.Checked = false;
+                weapDra.Enabled = false;
+                weapPoi.Checked = false;
+                weapPoi.Enabled = false;
+                weapPara.Checked = false;
+                weapPara.Enabled = false;
+                weapSleep.Checked = false;
+                weapSleep.Enabled = false;
+                weapBlast.Checked = false;
+                weapBlast.Enabled = false;
+                weapNoEle.Checked = false;
+                weapNoEle.Enabled = false;
+            }
+        }
+
+        private void weapSearch_TextChanged(object sender, EventArgs e)
+        {
+            searchWeapons();
+        }
+
+        private void weapFinalUpgrade_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapNoEle_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapSleep_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapPara_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapPoi_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapDra_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapIce_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapThunder_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapWater_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapFire_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weapBlast_CheckedChanged(object sender, EventArgs e)
+        {
+            filterWeapons();
+        }
+
+        private void weaponDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == weaponColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (weaponColumnSorter.Order == SortOrder.Ascending)
+                {
+                    weaponColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    weaponColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                weaponColumnSorter.SortColumn = e.Column;
+                weaponColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.weaponDetails.Sort();
+        }
 
 #if true
         //Skills
@@ -3727,100 +4132,6 @@ namespace MHXXDamageCalc
 
 #endif
 
-        private void modArmorButton_Click(object sender, EventArgs e)
-        {
-            foreach (ListViewItem listItem in modList.Items)
-            {
-                if (modArmor.Text == listItem.Text)
-                {
-                    return;
-                }
-            }
-            ListViewItem item = new ListViewItem(modArmor.Text)
-            {
-                Group = modList.Groups[0]
-            };
-            modList.Items.Add(item);
-        }
-
-        private void modFoodButton_Click(object sender, EventArgs e)
-        {
-            foreach (ListViewItem listItem in modList.Items)
-            {
-                if (modFood.Text == listItem.Text)
-                {
-                    return;
-                }
-            }
-
-            ListViewItem item = new ListViewItem(modFood.Text)
-            {
-                Group = modList.Groups[1]
-            };
-            modList.Items.Add(item);
-        }
-
-        private void modWeaponButton_Click(object sender, EventArgs e)
-        {
-            foreach (ListViewItem listItem in modList.Items)
-            {
-                if (modWeapon.Text == listItem.Text)
-                {
-                    return;
-                }
-            }
-            ListViewItem item = new ListViewItem(modWeapon.Text)
-            {
-                Group = modList.Groups[2]
-            };
-            modList.Items.Add(item);
-        }
-
-        private void modMiscButton_Click(object sender, EventArgs e)
-        {
-            foreach (ListViewItem listItem in modList.Items)
-            {
-                if (modMisc.Text == listItem.Text)
-                {
-                    return;
-                }
-            }
-            ListViewItem item = new ListViewItem(modMisc.Text)
-            {
-                Group = modList.Groups[3]
-            };
-            modList.Items.Add(item);
-        }
-
-        private void modAllButton_Click(object sender, EventArgs e)
-        {
-            modList.Items.Clear();
-            foreach (ListViewGroup group in modList.Groups)
-            {
-                group.Items.Clear();
-            }
-        }
-
-        private void modSelectedButton_Click(object sender, EventArgs e)
-        {
-            if (modList.SelectedItems.Count != 0)
-            {
-                foreach (ListViewItem item in modList.SelectedItems)
-                {
-                    item.Group.Items.Remove(item);
-                    modList.Items.Remove(item);
-                }
-            }
-
-        }
-
-        private void paraUpdate_Click(object sender, EventArgs e)
-        {
-            ImportSetUp();
-            ImportModifiers();
-            Export();
-        }
-
         private void ImportSetUp()
         {
             stats = new ImportedStats
@@ -4120,48 +4431,6 @@ namespace MHXXDamageCalc
             paraExhMod.Text = stats.exhaustMod.ToString();
 
             paraGRank.Checked = stats.GRank;
-        }
-
-        private void moveHitCount_TextChanged(object sender, EventArgs e)
-        {
-            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
-            if (double.Parse(moveMV.Text) != newTotal)
-            {
-                moveMV.Text = newTotal.ToString();
-            }
-        }
-
-        private void moveMV_TextChanged(object sender, EventArgs e)
-        {
-            double newAvg = double.Parse(moveMV.Text) / double.Parse(moveHitCount.Text);
-            if (double.Parse(moveAvg.Text) != newAvg)
-            {
-                moveAvg.Text = newAvg.ToString();
-            }
-        }
-
-        private void moveAvg_TextChanged(object sender, EventArgs e)
-        {
-            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
-            if (double.Parse(moveMV.Text) != newTotal)
-            {
-                moveMV.Text = newTotal.ToString();
-            }
-        }
-
-        private void moveInherit_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (moveInherit.SelectedIndex == 0)
-            {
-                moveInheritValue.Text = "0";
-                moveInheritValue.Enabled = false;
-
-                moveInheritPict.Image = null;
-                return;
-            }
-
-            moveInheritValue.Enabled = true;
-            moveInheritPict.Load(str2Pict[moveInherit.Text]);
         }
 
         private void ResetWeaponDetails()
@@ -4827,200 +5096,6 @@ namespace MHXXDamageCalc
             }
         }
 
-        private void weapGS_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapLS_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapSnS_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void waepDB_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapHam_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapHH_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapLan_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapGL_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapSA_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapCB_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapIG_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapLBG_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapHBG_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weapBow_CheckedChanged(object sender, EventArgs e)
-        {
-            ResetWeaponDetails();
-        }
-
-        private void weaponDetails_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (weaponDetails.SelectedItems.Count == 1)
-            {
-                weapon selWeap = currentWeapons.weaponDetails[weaponDetails.SelectedItems[0].SubItems[0].Name];
-                weapRaw.Text = selWeap.raw.ToString();
-                weapEle.SelectedItem = selWeap.element;
-                weapEleDamage.Text = selWeap.eleValue.ToString();
-                weapSec.SelectedItem = selWeap.elementTwo;
-                weapSecDamage.Text = selWeap.eleValueTwo.ToString();
-                if (selWeap.positiveAffinity != 0 && selWeap.negativeAffinity != 0)
-                {
-                    weapChaotic.Checked = true;
-                    weapPosAff.Text = selWeap.positiveAffinity.ToString();
-                    weapNegAff.Text = selWeap.negativeAffinity.ToString();
-                }
-                else
-                {
-                    weapChaotic.Checked = false;
-                    if (selWeap.positiveAffinity != 0)
-                    {
-                        weapAffinity.Text = selWeap.positiveAffinity.ToString();
-                    }
-                    else if (selWeap.negativeAffinity != 0)
-                    {
-                        weapAffinity.Text = (-1 * selWeap.negativeAffinity).ToString();
-                    }
-                    else
-                    {
-                        weapAffinity.Text = "0";
-                    }
-                }
-
-                weapSharpness.SelectedItem = selWeap.sharpness;
-                weapSharpOne.SelectedItem = selWeap.sharpnessOne;
-                weapSharpTwo.SelectedItem = selWeap.sharpnessTwo;
-
-                TreeNode[] nodes = weaponTree.Nodes.Find(selWeap.name, true);
-                if (weaponTree.SelectedNode != null)
-                {
-                    if (weaponTree.SelectedNode.Name == nodes[0].Name)
-                    {
-                        return;
-                    }
-                }
-
-                weaponTree.CollapseAll();
-                nodes[0].Parent.Expand();
-            }
-
-        }
-
-        private void weaponTree_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-
-            if (weaponTree.SelectedNode.Nodes.Count == 0)
-            {
-                if (weaponDetails.SelectedItems.Count == 1)
-                {
-                    if (weaponDetails.SelectedItems[0].Name != weaponTree.SelectedNode.Name)
-                    {
-                        weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
-                        weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
-                    }
-                }
-                else
-                {
-                    weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
-                    weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
-                }
-            }
-        }
-
-        private void weapFilter_CheckedChanged(object sender, EventArgs e)
-        {
-            if (weapFilter.Checked)
-            {
-                weapFire.Enabled = true;
-                weapWater.Enabled = true;
-                weapThunder.Enabled = true;
-                weapIce.Enabled = true;
-                weapDra.Enabled = true;
-                weapPoi.Enabled = true;
-                weapPara.Enabled = true;
-                weapSleep.Enabled = true;
-                weapBlast.Enabled = true;
-                weapNoEle.Enabled = true;
-            }
-
-            else
-            {
-                weapFire.Checked = false;
-                weapFire.Enabled = false;
-                weapWater.Checked = false;
-                weapWater.Enabled = false;
-                weapThunder.Checked = false;
-                weapThunder.Enabled = false;
-                weapIce.Checked = false;
-                weapIce.Enabled = false;
-                weapDra.Checked = false;
-                weapDra.Enabled = false;
-                weapPoi.Checked = false;
-                weapPoi.Enabled = false;
-                weapPara.Checked = false;
-                weapPara.Enabled = false;
-                weapSleep.Checked = false;
-                weapSleep.Enabled = false;
-                weapBlast.Checked = false;
-                weapBlast.Enabled = false;
-                weapNoEle.Checked = false;
-                weapNoEle.Enabled = false;
-            }
-        }
-
-        private void weapSearch_TextChanged(object sender, EventArgs e)
-        {
-            searchWeapons();
-        }
-
-        private void weapFinalUpgrade_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
         private void filterWeapons()
         {
             //Populate the Filter List with items, depending on the chosen items in the filters.
@@ -5194,82 +5269,6 @@ namespace MHXXDamageCalc
             }
 
             return;
-        }
-
-        private void weapNoEle_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapSleep_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapPara_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapPoi_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapDra_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapIce_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapThunder_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapWater_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapFire_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weapBlast_CheckedChanged(object sender, EventArgs e)
-        {
-            filterWeapons();
-        }
-
-        private void weaponDetails_ColumnClick(object sender, ColumnClickEventArgs e)
-        {
-            // Determine if clicked column is already the column that is being sorted.
-            if (e.Column == weaponColumnSorter.SortColumn)
-            {
-                // Reverse the current sort direction for this column.
-                if (weaponColumnSorter.Order == SortOrder.Ascending)
-                {
-                    weaponColumnSorter.Order = SortOrder.Descending;
-                }
-                else
-                {
-                    weaponColumnSorter.Order = SortOrder.Ascending;
-                }
-            }
-            else
-            {
-                // Set the column number that is to be sorted; default to ascending.
-                weaponColumnSorter.SortColumn = e.Column;
-                weaponColumnSorter.Order = SortOrder.Ascending;
-            }
-
-            // Perform the sort with these new sort options.
-            this.weaponDetails.Sort();
         }
     }
 

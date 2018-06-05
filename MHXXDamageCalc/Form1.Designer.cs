@@ -101,6 +101,34 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.moveDetails = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.moveShot = new System.Windows.Forms.RadioButton();
+            this.moveBow = new System.Windows.Forms.RadioButton();
+            this.moveHBG = new System.Windows.Forms.RadioButton();
+            this.moveLBG = new System.Windows.Forms.RadioButton();
+            this.moveIG = new System.Windows.Forms.RadioButton();
+            this.moveCB = new System.Windows.Forms.RadioButton();
+            this.moveSA = new System.Windows.Forms.RadioButton();
+            this.moveGL = new System.Windows.Forms.RadioButton();
+            this.moveLance = new System.Windows.Forms.RadioButton();
+            this.moveHH = new System.Windows.Forms.RadioButton();
+            this.moveHammer = new System.Windows.Forms.RadioButton();
+            this.moveDB = new System.Windows.Forms.RadioButton();
+            this.moveSnS = new System.Windows.Forms.RadioButton();
+            this.moveLS = new System.Windows.Forms.RadioButton();
+            this.moveGS = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label80 = new System.Windows.Forms.Label();
             this.moveInheritPict = new System.Windows.Forms.PictureBox();
@@ -308,6 +336,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.weapSecPict)).BeginInit();
             this.tabPage7.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.moveInheritPict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveTypePict)).BeginInit();
@@ -1185,12 +1214,290 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.moveDetails);
+            this.groupBox9.Controls.Add(this.moveShot);
+            this.groupBox9.Controls.Add(this.moveBow);
+            this.groupBox9.Controls.Add(this.moveHBG);
+            this.groupBox9.Controls.Add(this.moveLBG);
+            this.groupBox9.Controls.Add(this.moveIG);
+            this.groupBox9.Controls.Add(this.moveCB);
+            this.groupBox9.Controls.Add(this.moveSA);
+            this.groupBox9.Controls.Add(this.moveGL);
+            this.groupBox9.Controls.Add(this.moveLance);
+            this.groupBox9.Controls.Add(this.moveHH);
+            this.groupBox9.Controls.Add(this.moveHammer);
+            this.groupBox9.Controls.Add(this.moveDB);
+            this.groupBox9.Controls.Add(this.moveSnS);
+            this.groupBox9.Controls.Add(this.moveLS);
+            this.groupBox9.Controls.Add(this.moveGS);
             this.groupBox9.Location = new System.Drawing.Point(249, 7);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(629, 397);
             this.groupBox9.TabIndex = 3;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Move Search";
+            // 
+            // moveDetails
+            // 
+            this.moveDetails.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader9,
+            this.columnHeader10,
+            this.columnHeader11,
+            this.columnHeader12});
+            this.moveDetails.FullRowSelect = true;
+            this.moveDetails.GridLines = true;
+            this.moveDetails.HideSelection = false;
+            this.moveDetails.Location = new System.Drawing.Point(6, 55);
+            this.moveDetails.MultiSelect = false;
+            this.moveDetails.Name = "moveDetails";
+            this.moveDetails.Size = new System.Drawing.Size(617, 336);
+            this.moveDetails.TabIndex = 56;
+            this.moveDetails.UseCompatibleStateImageBehavior = false;
+            this.moveDetails.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "ID";
+            this.columnHeader1.Width = 30;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Name";
+            this.columnHeader2.Width = 250;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Combo";
+            this.columnHeader3.Width = 100;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Sharpness Mod";
+            this.columnHeader4.Width = 90;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Element Mod";
+            this.columnHeader5.Width = 80;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Hit Count";
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Damage Type";
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "KO";
+            this.columnHeader8.Width = 30;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Exhaust";
+            this.columnHeader9.Width = 50;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Mind\'s Eye";
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Aerial";
+            // 
+            // columnHeader12
+            // 
+            this.columnHeader12.Text = "Inherant Element";
+            this.columnHeader12.Width = 100;
+            // 
+            // moveShot
+            // 
+            this.moveShot.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveShot.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Shot;
+            this.moveShot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveShot.Location = new System.Drawing.Point(445, 19);
+            this.moveShot.Name = "moveShot";
+            this.moveShot.Size = new System.Drawing.Size(30, 30);
+            this.moveShot.TabIndex = 55;
+            this.moveShot.TabStop = true;
+            this.moveShot.UseVisualStyleBackColor = true;
+            // 
+            // moveBow
+            // 
+            this.moveBow.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveBow.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Bow;
+            this.moveBow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveBow.Location = new System.Drawing.Point(553, 19);
+            this.moveBow.Name = "moveBow";
+            this.moveBow.Size = new System.Drawing.Size(30, 30);
+            this.moveBow.TabIndex = 54;
+            this.moveBow.TabStop = true;
+            this.moveBow.UseVisualStyleBackColor = true;
+            // 
+            // moveHBG
+            // 
+            this.moveHBG.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveHBG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.HeavyBowgun;
+            this.moveHBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveHBG.Location = new System.Drawing.Point(517, 19);
+            this.moveHBG.Name = "moveHBG";
+            this.moveHBG.Size = new System.Drawing.Size(30, 30);
+            this.moveHBG.TabIndex = 53;
+            this.moveHBG.TabStop = true;
+            this.moveHBG.UseVisualStyleBackColor = true;
+            // 
+            // moveLBG
+            // 
+            this.moveLBG.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveLBG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.LightBowgun;
+            this.moveLBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveLBG.Location = new System.Drawing.Point(481, 19);
+            this.moveLBG.Name = "moveLBG";
+            this.moveLBG.Size = new System.Drawing.Size(30, 30);
+            this.moveLBG.TabIndex = 52;
+            this.moveLBG.TabStop = true;
+            this.moveLBG.UseVisualStyleBackColor = true;
+            // 
+            // moveIG
+            // 
+            this.moveIG.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveIG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.InsectGlaive;
+            this.moveIG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveIG.Location = new System.Drawing.Point(409, 19);
+            this.moveIG.Name = "moveIG";
+            this.moveIG.Size = new System.Drawing.Size(30, 30);
+            this.moveIG.TabIndex = 51;
+            this.moveIG.TabStop = true;
+            this.moveIG.UseVisualStyleBackColor = true;
+            // 
+            // moveCB
+            // 
+            this.moveCB.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveCB.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.ChargeBlade;
+            this.moveCB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveCB.Location = new System.Drawing.Point(373, 19);
+            this.moveCB.Name = "moveCB";
+            this.moveCB.Size = new System.Drawing.Size(30, 30);
+            this.moveCB.TabIndex = 50;
+            this.moveCB.TabStop = true;
+            this.moveCB.UseVisualStyleBackColor = true;
+            // 
+            // moveSA
+            // 
+            this.moveSA.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveSA.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.SwitchAxe;
+            this.moveSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveSA.Location = new System.Drawing.Point(337, 19);
+            this.moveSA.Name = "moveSA";
+            this.moveSA.Size = new System.Drawing.Size(30, 30);
+            this.moveSA.TabIndex = 49;
+            this.moveSA.TabStop = true;
+            this.moveSA.UseVisualStyleBackColor = true;
+            // 
+            // moveGL
+            // 
+            this.moveGL.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveGL.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Gunlance;
+            this.moveGL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveGL.Location = new System.Drawing.Point(301, 19);
+            this.moveGL.Name = "moveGL";
+            this.moveGL.Size = new System.Drawing.Size(30, 30);
+            this.moveGL.TabIndex = 48;
+            this.moveGL.TabStop = true;
+            this.moveGL.UseVisualStyleBackColor = true;
+            // 
+            // moveLance
+            // 
+            this.moveLance.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveLance.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Lance;
+            this.moveLance.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveLance.Location = new System.Drawing.Point(265, 19);
+            this.moveLance.Name = "moveLance";
+            this.moveLance.Size = new System.Drawing.Size(30, 30);
+            this.moveLance.TabIndex = 47;
+            this.moveLance.TabStop = true;
+            this.moveLance.UseVisualStyleBackColor = true;
+            // 
+            // moveHH
+            // 
+            this.moveHH.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveHH.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.HuntingHorn;
+            this.moveHH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveHH.Location = new System.Drawing.Point(229, 19);
+            this.moveHH.Name = "moveHH";
+            this.moveHH.Size = new System.Drawing.Size(30, 30);
+            this.moveHH.TabIndex = 46;
+            this.moveHH.TabStop = true;
+            this.moveHH.UseVisualStyleBackColor = true;
+            // 
+            // moveHammer
+            // 
+            this.moveHammer.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveHammer.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Hammer;
+            this.moveHammer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveHammer.Location = new System.Drawing.Point(193, 19);
+            this.moveHammer.Name = "moveHammer";
+            this.moveHammer.Size = new System.Drawing.Size(30, 30);
+            this.moveHammer.TabIndex = 45;
+            this.moveHammer.TabStop = true;
+            this.moveHammer.UseVisualStyleBackColor = true;
+            // 
+            // moveDB
+            // 
+            this.moveDB.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveDB.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.DualBlades;
+            this.moveDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveDB.Location = new System.Drawing.Point(157, 19);
+            this.moveDB.Name = "moveDB";
+            this.moveDB.Size = new System.Drawing.Size(30, 30);
+            this.moveDB.TabIndex = 44;
+            this.moveDB.TabStop = true;
+            this.moveDB.UseVisualStyleBackColor = true;
+            // 
+            // moveSnS
+            // 
+            this.moveSnS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveSnS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.SwordAndShield;
+            this.moveSnS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveSnS.Location = new System.Drawing.Point(121, 19);
+            this.moveSnS.Name = "moveSnS";
+            this.moveSnS.Size = new System.Drawing.Size(30, 30);
+            this.moveSnS.TabIndex = 43;
+            this.moveSnS.TabStop = true;
+            this.moveSnS.UseVisualStyleBackColor = true;
+            // 
+            // moveLS
+            // 
+            this.moveLS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveLS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.LongSword;
+            this.moveLS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveLS.Location = new System.Drawing.Point(85, 19);
+            this.moveLS.Name = "moveLS";
+            this.moveLS.Size = new System.Drawing.Size(30, 30);
+            this.moveLS.TabIndex = 42;
+            this.moveLS.TabStop = true;
+            this.moveLS.UseVisualStyleBackColor = true;
+            // 
+            // moveGS
+            // 
+            this.moveGS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.moveGS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Cut;
+            this.moveGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.moveGS.Location = new System.Drawing.Point(49, 19);
+            this.moveGS.Name = "moveGS";
+            this.moveGS.Size = new System.Drawing.Size(30, 30);
+            this.moveGS.TabIndex = 41;
+            this.moveGS.TabStop = true;
+            this.moveGS.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -3400,6 +3707,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.weapSecPict)).EndInit();
             this.tabPage7.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.moveInheritPict)).EndInit();
@@ -3711,6 +4019,34 @@
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.TextBox weapSearch;
         private System.Windows.Forms.CheckBox weapFinalUpgrade;
+        private System.Windows.Forms.ListView moveDetails;
+        private System.Windows.Forms.RadioButton moveShot;
+        private System.Windows.Forms.RadioButton moveBow;
+        private System.Windows.Forms.RadioButton moveHBG;
+        private System.Windows.Forms.RadioButton moveLBG;
+        private System.Windows.Forms.RadioButton moveIG;
+        private System.Windows.Forms.RadioButton moveCB;
+        private System.Windows.Forms.RadioButton moveSA;
+        private System.Windows.Forms.RadioButton moveGL;
+        private System.Windows.Forms.RadioButton moveLance;
+        private System.Windows.Forms.RadioButton moveHH;
+        private System.Windows.Forms.RadioButton moveHammer;
+        private System.Windows.Forms.RadioButton moveDB;
+        private System.Windows.Forms.RadioButton moveSnS;
+        private System.Windows.Forms.RadioButton moveLS;
+        private System.Windows.Forms.RadioButton moveGS;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.ColumnHeader columnHeader11;
+        private System.Windows.Forms.ColumnHeader columnHeader12;
     }
 }
 
