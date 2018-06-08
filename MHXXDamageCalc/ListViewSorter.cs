@@ -57,29 +57,29 @@ public class ListViewColumnSorter : IComparer
 
         if (int.TryParse(listviewX.SubItems[ColumnToSort].Text, out int result))
         {
-            int leftVal;
-            int rightVal;
+            float leftVal;
+            float rightVal;
             if (listviewX.SubItems[ColumnToSort].Text.Contains("/"))
             {
                 string[] affinity = listviewX.SubItems[ColumnToSort].Text.Split(new string[] { "/" }, System.StringSplitOptions.None);
-                leftVal = int.Parse(affinity[0]);
+                leftVal = float.Parse(affinity[0]);
             }
             else
             {
-                leftVal = int.Parse(listviewX.SubItems[ColumnToSort].Text);
+                leftVal = float.Parse(listviewX.SubItems[ColumnToSort].Text);
             }
             
             if(listviewY.SubItems[ColumnToSort].Text.Contains("/"))
             {
                 string[] affinity = listviewY.SubItems[ColumnToSort].Text.Split(new string[] { "/" }, System.StringSplitOptions.None);
-                rightVal = int.Parse(affinity[0]);
+                rightVal = float.Parse(affinity[0]);
             }
             else
             {
-                rightVal = int.Parse(listviewY.SubItems[ColumnToSort].Text);
+                rightVal = float.Parse(listviewY.SubItems[ColumnToSort].Text);
             }
             
-            compareResult = rightVal - leftVal;
+            compareResult = (int)rightVal - (int)leftVal;
         }
         else if (sharpnesses.Contains(listviewX.SubItems[ColumnToSort].Text))
         {
@@ -115,11 +115,19 @@ public class ListViewColumnSorter : IComparer
         // Calculate correct return value based on object comparison
         if (OrderOfSort == SortOrder.Ascending)
         {
+            if(ColumnToSort == 0)
+            {
+                return -compareResult;
+            }
             // Ascending sort is selected, return normal result of compare operation
             return compareResult;
         }
         else if (OrderOfSort == SortOrder.Descending)
         {
+            if (ColumnToSort == 0)
+            {
+                return compareResult;
+            }
             // Descending sort is selected, return negative result of compare operation
             return (-compareResult);
         }

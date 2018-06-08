@@ -29,12 +29,24 @@ namespace MHXXDamageCalc
         weaponStorage currentWeapons = new weaponStorage();
         List<string> filteredWeapons = new List<string>();
         ListViewColumnSorter weaponColumnSorter;
+        ListViewColumnSorter moveColumnSorter;
+        ListViewColumnSorter monsterColumnSorter;
+        ListViewColumnSorter hitzoneColumnSorter;
+        ListViewColumnSorter questColumnSorter;
 
         public Form1()
         {
             InitializeComponent();
             weaponColumnSorter = new ListViewColumnSorter();
             weaponDetails.ListViewItemSorter = weaponColumnSorter;
+            moveColumnSorter = new ListViewColumnSorter();
+            moveDetails.ListViewItemSorter = moveColumnSorter;
+            monsterColumnSorter = new ListViewColumnSorter();
+            monsterList.ListViewItemSorter = monsterColumnSorter;
+            hitzoneColumnSorter = new ListViewColumnSorter();
+            hitzoneDetails.ListViewItemSorter = hitzoneColumnSorter;
+            questColumnSorter = new ListViewColumnSorter();
+            questDetails.ListViewItemSorter = questColumnSorter;
             setUp();
             setSelected();
         }
@@ -62,7 +74,7 @@ namespace MHXXDamageCalc
             sharpnessMods.Add("Orange", new Tuple<double, double>(0.75, 0.50));
             sharpnessMods.Add("Red", new Tuple<double, double>(0.50, 0.25));
 
-            secondElements.Add("(None)", "(No Element)");
+            secondElements.Add("(No Element)", "(No Element)");
             secondElements.Add("DB - Fire", "Fire");
             secondElements.Add("DB - Water", "Water");
             secondElements.Add("DB - Thunder", "Thunder");
@@ -391,6 +403,22 @@ namespace MHXXDamageCalc
             foreach (KeyValuePair<string, Func<int, bool>> pair in miscModifiers)
             {
                 modMisc.Items.Add(pair.Key);
+            }
+
+            using (StreamReader sr = new StreamReader("./Monsters/MonID.csv"))
+            {
+                if(sr.ReadLine() != "ID,name")
+                {
+                    return;
+                }
+
+                while(sr.Peek() >= 0)
+                {
+                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    ListViewItem newItem = new ListViewItem(inputs[0]);
+                    newItem.SubItems.Add(inputs[1]);
+                    monsterList.Items.Add(newItem);
+                }
             }
         }
 
@@ -744,9 +772,14 @@ namespace MHXXDamageCalc
             Tuple<double, double, double, double> calcOutput = CalculateDamage();
 
             calcRawWeap.Text = calcOutput.Item1.ToString("N2");
-            calcRawOut.Text = (calcOutput.Item2 * int.Parse(paraHitCount.Text)).ToString("N2");
-            calcEleOut.Text = (calcOutput.Item3 * int.Parse(paraHitCount.Text)).ToString("N2");
-            calcSecOut.Text = (calcOutput.Item4 * int.Parse(paraHitCount.Text)).ToString("N2");
+            int hitCount;
+            if((hitCount = int.Parse(paraHitCount.Text)) == 0)
+            {
+                hitCount = 1;
+            }
+            calcRawOut.Text = (calcOutput.Item2 * hitCount).ToString("N2");
+            calcEleOut.Text = (calcOutput.Item3 * hitCount).ToString("N2");
+            calcSecOut.Text = (calcOutput.Item4 * hitCount).ToString("N2");
 
             EffectiveRawCalc(calcOutput);
         }
@@ -756,10 +789,16 @@ namespace MHXXDamageCalc
             calcDetails.ResetText();
             Tuple<double, double, double, double> calcOutput = CalculateDamage();
 
+            int hitCount;
+            if ((hitCount = int.Parse(paraHitCount.Text)) == 0)
+            {
+                hitCount = 1;
+            }
+
             calcRawWeap.Text = calcOutput.Item1.ToString("N2");
-            calcRawOut.Text = (calcOutput.Item2 * int.Parse(paraHitCount.Text)).ToString("N2");
-            calcEleOut.Text = (calcOutput.Item3 * int.Parse(paraHitCount.Text)).ToString("N2");
-            calcSecOut.Text = (calcOutput.Item4 * int.Parse(paraHitCount.Text)).ToString("N2");
+            calcRawOut.Text = (calcOutput.Item2 * hitCount).ToString("N2");
+            calcEleOut.Text = (calcOutput.Item3 * hitCount).ToString("N2");
+            calcSecOut.Text = (calcOutput.Item4 * hitCount).ToString("N2");
 
             EffectiveRawCalc(calcOutput);
 
@@ -788,6 +827,10 @@ namespace MHXXDamageCalc
         private void EffectiveRawCalc(Tuple<double, double, double, double> calcOutput)
         {
             int hitCount = int.Parse(paraHitCount.Text);
+            if(hitCount == 0)
+            {
+                hitCount = 1;
+            }
             string rawWeap = calcOutput.Item1.ToString("N2");
             string rawOut = (calcOutput.Item2 * hitCount).ToString("N2");
             string eleOut = calcOutput.Item3.ToString("N2");
@@ -1320,7 +1363,6 @@ namespace MHXXDamageCalc
         {
             moveMV.Text = "0";
             moveHitCount.Text = "0";
-            moveAvg.Text = "0";
             moveSharpMod.Text = "1.0";
 
             moveType.SelectedIndex = 0;
@@ -1432,15 +1474,17 @@ namespace MHXXDamageCalc
 
         private void modSelectedButton_Click(object sender, EventArgs e)
         {
-            if (modList.SelectedItems.Count != 0)
+            List<ListViewItem> selectedList = new List<ListViewItem>();
+            foreach (ListViewItem item in modList.SelectedItems)
             {
-                foreach (ListViewItem item in modList.SelectedItems)
-                {
-                    item.Group.Items.Remove(item);
-                    modList.Items.Remove(item);
-                }
+                selectedList.Add(item);
             }
 
+            foreach (ListViewItem item in selectedList)
+            {
+                item.Group.Items.Remove(item);
+                modList.Items.Remove(item);
+            }
         }
 
         private void paraUpdate_Click(object sender, EventArgs e)
@@ -1448,33 +1492,6 @@ namespace MHXXDamageCalc
             ImportSetUp();
             ImportModifiers();
             Export();
-        }
-
-        private void moveHitCount_TextChanged(object sender, EventArgs e)
-        {
-            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
-            if (double.Parse(moveMV.Text) != newTotal)
-            {
-                moveMV.Text = newTotal.ToString();
-            }
-        }
-
-        private void moveMV_TextChanged(object sender, EventArgs e)
-        {
-            double newAvg = double.Parse(moveMV.Text) / double.Parse(moveHitCount.Text);
-            if (double.Parse(moveAvg.Text) != newAvg)
-            {
-                moveAvg.Text = newAvg.ToString();
-            }
-        }
-
-        private void moveAvg_TextChanged(object sender, EventArgs e)
-        {
-            double newTotal = double.Parse(moveAvg.Text) * double.Parse(moveHitCount.Text);
-            if (double.Parse(moveMV.Text) != newTotal)
-            {
-                moveMV.Text = newTotal.ToString();
-            }
         }
 
         private void moveInherit_SelectedIndexChanged(object sender, EventArgs e)
@@ -1566,40 +1583,9 @@ namespace MHXXDamageCalc
         {
             if (weaponDetails.SelectedItems.Count == 1)
             {
-                weapon selWeap = currentWeapons.weaponDetails[weaponDetails.SelectedItems[0].SubItems[0].Name];
-                weapRaw.Text = selWeap.raw.ToString();
-                weapEle.SelectedItem = selWeap.element;
-                weapEleDamage.Text = selWeap.eleValue.ToString();
-                weapSec.SelectedItem = selWeap.elementTwo;
-                weapSecDamage.Text = selWeap.eleValueTwo.ToString();
-                if (selWeap.positiveAffinity != 0 && selWeap.negativeAffinity != 0)
-                {
-                    weapChaotic.Checked = true;
-                    weapPosAff.Text = selWeap.positiveAffinity.ToString();
-                    weapNegAff.Text = selWeap.negativeAffinity.ToString();
-                }
-                else
-                {
-                    weapChaotic.Checked = false;
-                    if (selWeap.positiveAffinity != 0)
-                    {
-                        weapAffinity.Text = selWeap.positiveAffinity.ToString();
-                    }
-                    else if (selWeap.negativeAffinity != 0)
-                    {
-                        weapAffinity.Text = (-1 * selWeap.negativeAffinity).ToString();
-                    }
-                    else
-                    {
-                        weapAffinity.Text = "0";
-                    }
-                }
+                fillWeapon(weaponDetails.SelectedItems[0].SubItems[0].Name);
 
-                weapSharpness.SelectedItem = selWeap.sharpness;
-                weapSharpOne.SelectedItem = selWeap.sharpnessOne;
-                weapSharpTwo.SelectedItem = selWeap.sharpnessTwo;
-
-                TreeNode[] nodes = weaponTree.Nodes.Find(selWeap.name, true);
+                TreeNode[] nodes = weaponTree.Nodes.Find(weaponDetails.SelectedItems[0].SubItems[0].Name, true);
                 if (weaponTree.SelectedNode != null)
                 {
                     if (weaponTree.SelectedNode.Name == nodes[0].Name)
@@ -1621,7 +1607,7 @@ namespace MHXXDamageCalc
             {
                 if (weaponDetails.SelectedItems.Count == 1)
                 {
-                    if (weaponDetails.SelectedItems[0].Name != weaponTree.SelectedNode.Name)
+                    if (weaponDetails.SelectedItems[0].Name != weaponTree.SelectedNode.Name && weaponDetails.Items.ContainsKey(weaponTree.SelectedNode.Name))
                     {
                         weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
                         weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
@@ -1632,6 +1618,8 @@ namespace MHXXDamageCalc
                     weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
                     weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
                 }
+
+                fillWeapon(weaponTree.SelectedNode.Name);
             }
         }
 
@@ -1760,6 +1748,81 @@ namespace MHXXDamageCalc
 
             // Perform the sort with these new sort options.
             this.weaponDetails.Sort();
+        }
+
+        private void moveGS_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveLS_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveSnS_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveDB_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveHammer_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveHH_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveLance_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveGL_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveSA_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveCB_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveIG_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveShot_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveLBG_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveHBG_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
+        }
+
+        private void moveBow_CheckedChanged(object sender, EventArgs e)
+        {
+            changeMoveList();
         }
 
 #if true
@@ -4187,14 +4250,22 @@ namespace MHXXDamageCalc
                 stats.secPower = double.Parse(weapSecDamage.Text);
             }
 
-            stats.avgMV = double.Parse(moveAvg.Text);
             stats.hitCount = int.Parse(moveHitCount.Text);
-            stats.KOPower = double.Parse(moveKO.Text);
-            stats.exhaustPower = double.Parse(moveExhaust.Text);
+            if (stats.hitCount == 0)
+            {
+                stats.avgMV = 0;
+                stats.KOPower = 0;
+                stats.exhaustPower = 0;
+            }
+            else
+            {
+                stats.avgMV = double.Parse(moveMV.Text) / stats.hitCount;
+                stats.KOPower = double.Parse(moveKO.Text) / stats.hitCount;
+                stats.exhaustPower = double.Parse(moveExhaust.Text) / stats.hitCount;
+            }
+
             stats.mindsEye = moveMinds.Checked;
             stats.damageType = moveType.Text;
-
-
 
             stats.health = double.Parse(monHealth.Text);
 
@@ -4443,7 +4514,6 @@ namespace MHXXDamageCalc
             weapFilter.Checked = false;
             weapSearch.Text = "";
 
-            weaponColumnSorter.Order = SortOrder.Descending;
             weaponColumnSorter.SortColumn = 0;
 
             weaponTree.BeginUpdate();
@@ -5105,16 +5175,16 @@ namespace MHXXDamageCalc
                 weapPoi.Checked, weapPara.Checked, weapSleep.Checked, weapBlast.Checked, weapNoEle.Checked };
 
             bool allFalse = true;
-            foreach(bool filter in filters)
+            foreach (bool filter in filters)
             {
-                if(filter)
+                if (filter)
                 {
                     allFalse = false;
                     break;
                 }
             }
-            
-            if(allFalse)
+
+            if (allFalse)
             {
                 tempFiltered = currentWeapons.families;
             }
@@ -5123,7 +5193,7 @@ namespace MHXXDamageCalc
                 tempFiltered = currentWeapons.filterWeapons(filters);
             }
 
-            if(weapFinalUpgrade.Checked)
+            if (weapFinalUpgrade.Checked)
             {
                 filteredWeapons = currentWeapons.getFinal(tempFiltered);
             }
@@ -5140,19 +5210,19 @@ namespace MHXXDamageCalc
             weaponDetails.Items.Clear();
             List<string> finalWeapons = new List<string>();
 
-            if(filteredWeapons.Count == 0)
+            if (filteredWeapons.Count == 0)
             {
                 filteredWeapons = currentWeapons.weapons;
             }
 
             string searchString = weapSearch.Text.Trim();
-            if(weapSearch.Text != "")
+            if (weapSearch.Text != "")
             {
-                foreach(string weapon in filteredWeapons)
+                foreach (string weapon in filteredWeapons)
                 {
-                    if(weapon.Contains(weapSearch.Text))
+                    if (weapon.Contains(weapSearch.Text))
                     {
-                        finalWeapons.Add(weapon); 
+                        finalWeapons.Add(weapon);
                     }
                 }
             }
@@ -5167,7 +5237,7 @@ namespace MHXXDamageCalc
 
         private void addWeapons(List<weapon> weapons)
         {
-            if(weapDB.Checked)
+            if (weapDB.Checked)
             {
                 foreach (weapon weap in weapons)
                 {
@@ -5191,7 +5261,7 @@ namespace MHXXDamageCalc
                 return;
             }
 
-            if(weapSA.Checked)
+            if (weapSA.Checked)
             {
                 foreach (weapon weap in weapons)
                 {
@@ -5215,7 +5285,7 @@ namespace MHXXDamageCalc
                 return;
             }
 
-            if(weapLBG.Checked || weapHBG.Checked)
+            if (weapLBG.Checked || weapHBG.Checked)
             {
                 foreach (weapon weap in weapons)
                 {
@@ -5232,7 +5302,7 @@ namespace MHXXDamageCalc
                 return;
             }
 
-            if(weapBow.Checked)
+            if (weapBow.Checked)
             {
                 foreach (weapon weap in weapons)
                 {
@@ -5269,6 +5339,668 @@ namespace MHXXDamageCalc
             }
 
             return;
+        }
+
+        private void changeMoveList()
+        {
+            moveColumnSorter.SortColumn = 0;
+            moveDetails.Items.Clear();
+            string path;
+            if (moveGS.Checked)
+            {
+                path = "./Moves/GS.csv";
+            }
+            else if (moveLS.Checked)
+            {
+                path = "./Moves/LS.csv";
+            }
+            else if (moveSnS.Checked)
+            {
+                path = "./Moves/SnS.csv";
+            }
+            else if (moveDB.Checked)
+            {
+                path = "./Moves/DB.csv";
+            }
+            else if (moveHammer.Checked)
+            {
+                path = "./Moves/Hammer.csv";
+            }
+            else if (moveHH.Checked)
+            {
+                path = "./Moves/HH.csv";
+            }
+            else if (moveLance.Checked)
+            {
+                path = "./Moves/Lance.csv";
+            }
+            else if (moveGL.Checked)
+            {
+                path = "./Moves/GL.csv";
+            }
+            else if (moveSA.Checked)
+            {
+                path = "./Moves/SA.csv";
+            }
+            else if (moveCB.Checked)
+            {
+                path = "./Moves/CB.csv";
+            }
+            else if (moveIG.Checked)
+            {
+                path = "./Moves/IG.csv";
+            }
+            else if (moveShot.Checked)
+            {
+                path = "./Moves/Shots.csv";
+            }
+            else if (moveLBG.Checked)
+            {
+                path = "./Moves/LBG.csv";
+            }
+            else if (moveHBG.Checked)
+            {
+                path = "./Moves/HBG.csv";
+            }
+            else if (moveBow.Checked)
+            {
+                path = "./Moves/Bow.csv";
+            }
+            else
+            {
+                path = null;
+            }
+
+            using (StreamReader sr = new StreamReader(path))
+            {
+                //Verify
+                string input = sr.ReadLine();
+                string[] inputs = input.Split(new char[] { ',' });
+                if (input != "ID,name,combo,MV,hitCount,damageType,sharpnessMod,elementMod,KO,exhaust,moveElement,mindsEye,aerial,miscNotes")
+                {
+                    return;
+                }
+
+                while (sr.Peek() >= 0)
+                {
+                    inputs = (sr.ReadLine()).Split(new char[] { ',' });
+
+                    string[] extraElement = inputs[12].Split(new char[] { ' ' });
+                    ListViewItem newItem = new ListViewItem(inputs[0]);
+                    newItem.SubItems.Add(inputs[1]);
+                    newItem.SubItems.Add(inputs[2]);
+                    newItem.SubItems.Add(inputs[3]);
+                    newItem.SubItems.Add(inputs[4]);
+                    newItem.SubItems.Add(inputs[5]);
+                    newItem.SubItems.Add(inputs[6]);
+                    newItem.SubItems.Add(inputs[7]);
+                    newItem.SubItems.Add(inputs[8]);
+                    newItem.SubItems.Add(inputs[9]);
+                    newItem.SubItems.Add(inputs[10]);
+                    newItem.SubItems.Add(inputs[11]);
+                    newItem.SubItems.Add(inputs[12]);
+
+                    moveDetails.Items.Add(newItem);
+                }
+            }
+        }
+
+        private void fillWeapon(string name)
+        {
+            weapon selWeap = currentWeapons.weaponDetails[name];
+            weapRaw.Text = selWeap.raw.ToString();
+            weapEle.SelectedItem = selWeap.element;
+            weapEleDamage.Text = selWeap.eleValue.ToString();
+            weapSec.SelectedItem = selWeap.elementTwo;
+            weapSecDamage.Text = selWeap.eleValueTwo.ToString();
+            if (selWeap.positiveAffinity != 0 && selWeap.negativeAffinity != 0)
+            {
+                weapChaotic.Checked = true;
+                weapPosAff.Text = selWeap.positiveAffinity.ToString();
+                weapNegAff.Text = selWeap.negativeAffinity.ToString();
+            }
+            else
+            {
+                weapChaotic.Checked = false;
+                if (selWeap.positiveAffinity != 0)
+                {
+                    weapAffinity.Text = selWeap.positiveAffinity.ToString();
+                }
+                else if (selWeap.negativeAffinity != 0)
+                {
+                    weapAffinity.Text = (-1 * selWeap.negativeAffinity).ToString();
+                }
+                else
+                {
+                    weapAffinity.Text = "0";
+                }
+            }
+
+            weapSharpness.SelectedItem = selWeap.sharpness;
+            weapSharpOne.SelectedItem = selWeap.sharpnessOne;
+            weapSharpTwo.SelectedItem = selWeap.sharpnessTwo;
+        }
+
+        private void moveDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (moveDetails.SelectedItems.Count == 1)
+            {
+                fillMove(moveDetails.SelectedItems[0]);
+            }
+        }
+
+        private void fillMove(ListViewItem selectedMove)
+        {
+            if (selectedMove.SubItems[3].Text == "*")
+            {
+                specialMoves(selectedMove.SubItems[1].Text);
+            }
+            else
+            {
+                moveMV.Text = selectedMove.SubItems[3].Text;
+                string[] inherantElements = selectedMove.SubItems[10].Text.Split(new char[] { ' ' });
+                if (inherantElements.Length == 2)
+                {
+                    moveInherit.SelectedItem = inherantElements[0];
+                    moveInheritValue.Text = inherantElements[1];
+                }
+                else
+                {
+                    moveInherit.SelectedIndex = 0;
+                    moveInheritValue.Text = "0";
+                }
+            }
+
+            moveHitCount.Text = selectedMove.SubItems[4].Text;
+            moveType.SelectedItem = selectedMove.SubItems[5].Text;
+            moveSharpMod.Text = selectedMove.SubItems[6].Text;
+            moveElement.Text = selectedMove.SubItems[7].Text;
+            moveKO.Text = selectedMove.SubItems[8].Text;
+            moveExhaust.Text = selectedMove.SubItems[9].Text;
+
+            moveMinds.Checked = (selectedMove.SubItems[11].Text == "Yes");
+            moveAerial.Checked = (selectedMove.SubItems[12].Text == "Yes");
+        }
+
+        private void specialMoves(string text)
+        {
+            if (text == "Sonic Smash I (Finisher)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (30 * (1 + (weaponRaw * 1.6 / 100))).ToString();
+            }
+            else if (text == "Sonic Smash II (Finisher)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (35 * (1 + (weaponRaw * 1.6 / 100))).ToString();
+            }
+            else if (text == "Sonic Smash III (Finisher)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (38 * (1 + (weaponRaw * 1.6 / 100))).ToString();
+            }
+            else if (text == "Dragon Blast I")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                double totalDamage = 0;
+                totalDamage += 48 * (1 + (weaponRaw * 0.7 / 100));
+                totalDamage += 3 * (10 * (1 + (weaponRaw * 0.2 / 100)));
+                moveMV.Text = totalDamage.ToString();
+            }
+            else if (text == "Dragon Blast II")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                double totalDamage = 0;
+                totalDamage += 49 * (1 + (weaponRaw * 0.7 / 100));
+                totalDamage += 6 * (10 * (1 + (weaponRaw * 0.2 / 100)));
+                moveMV.Text = totalDamage.ToString();
+            }
+            else if (text == "Dragon Blast III")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                double totalDamage = 0;
+                totalDamage += 49 * (1 + (weaponRaw * 0.7 / 100));
+                totalDamage += 9 * (10 * (1 + (weaponRaw * 0.2 / 100)));
+                moveMV.Text = totalDamage.ToString();
+            }
+            else if (text == "Dragon Blast I (Opener)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (48 * (1 + (weaponRaw * 0.7 / 100))).ToString();
+            }
+            else if (text == "Dragon Blast II (Opener)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (49 * (1 + (weaponRaw * 0.7 / 100))).ToString();
+            }
+            else if (text == "Dragon Blast III (Opener)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (49 * (1 + (weaponRaw * 0.7 / 100))).ToString();
+            }
+            else if (text == "Dragon Blast (Following Hits)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (10 * (1 + (weaponRaw * 0.2 / 100))).ToString();
+            }
+            else if (text == "Impact Phial Explosion")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (weaponRaw * 0.05).ToString();
+            }
+            else if (text == "Mini Impact Explosion")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (weaponRaw * 0.025).ToString();
+            }
+            else if (text == "Super Impact Explosion")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (weaponRaw * 0.1).ToString();
+            }
+            else if (text == "Super Nova I (Center)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (40 + 40 * ((weaponRaw * 0.75) / 100)).ToString();
+            }
+            else if (text == "Super Nova I (Edge)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (36 + 36 * ((weaponRaw * 0.75) / 100)).ToString();
+            }
+            else if (text == "Super Nova II (Center)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (40 + 40 * ((weaponRaw * 1.5) / 100)).ToString();
+            }
+            else if (text == "Super Nova II (Edge)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (15 + 15 * ((weaponRaw * 1.5) / 100)).ToString();
+            }
+            else if (text == "Super Nova III (Center)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (45 + 45 * ((weaponRaw * 2) / 100)).ToString();
+            }
+            else if (text == "Super Nova III (Edge)")
+            {
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveMV.Text = (5 + 5 * ((weaponRaw * 2) / 100)).ToString();
+            }
+
+            moveInherit.SelectedIndex = 0;
+
+            if (text == "Element Lv 1")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.42).ToString();
+            }
+            else if (text == "Dragon Lv 1")
+            {
+                moveMV.Text = "5";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (5 * weaponRaw * 0.38).ToString();
+            }
+            else if (text == "Dragon Lv 1 (Individual Hits)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.38).ToString();
+            }
+            else if (text == "Element Lv 2")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.55).ToString();
+            }
+            else if (text == "Dragon Lv 2")
+            {
+                moveMV.Text = "5";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (5 * weaponRaw * 0.45).ToString();
+            }
+            else if (text == "Dragon Lv 2 (Individual Hit)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
+            }
+            else if (text == "P. Element Lv 1")
+            {
+                moveMV.Text = "6";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (3 * weaponRaw * 0.19).ToString();
+            }
+            else if (text == "P. Element Lv 1 (Individual Hit)")
+            {
+                moveMV.Text = "2";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.19).ToString();
+            }
+            else if (text == "P. Element Lv 2")
+            {
+                moveMV.Text = "15";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (5 * weaponRaw * 0.21).ToString();
+            }
+            else if (text == "P. Element Lv 2 (Individual Hit)")
+            {
+                moveMV.Text = "3";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.21).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x3)")
+            {
+                moveMV.Text = "21";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (3 * weaponRaw * 0.42).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x3 1 Hit)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.42).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x4)")
+            {
+                moveMV.Text = "28";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (4 * weaponRaw * 0.42).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x4 1 Hit)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.42).ToString();
+            }
+            else if (text == "RF Dragon Lv 1")
+            {
+                moveMV.Text = "10";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (10 * weaponRaw * 0.38).ToString();
+            }
+            else if (text == "RF Dragon Lv 1 (1 Hit)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.38).ToString();
+            }
+            else if (text == "RF Element Lv 2")
+            {
+                moveMV.Text = "21";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (3 * weaponRaw * 0.55).ToString();
+            }
+            else if (text == "RF Element Lv 2 (1 Hit)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.55).ToString();
+            }
+            else if (text == "RF Dragon Lv 2")
+            {
+                moveMV.Text = "10";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (10 * weaponRaw * 0.45).ToString();
+            }
+            else if (text == "RF Dragon Lv 2 (1 Hit)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
+            }
+            else if (text == "RF P.Element Lv 1")
+            {
+                moveMV.Text = "18";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (9 * weaponRaw * 0.19).ToString();
+            }
+            else if (text == "RF P.Element Lv 1 (1 Hit)")
+            {
+                moveMV.Text = "2";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.19).ToString();
+            }
+            else if (text == "RF P.Element Lv 2")
+            {
+                moveMV.Text = "45";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (15 * weaponRaw * 0.21).ToString();
+            }
+            else if (text == "RF P.Element Lv 2 (1 Hit)")
+            {
+                moveMV.Text = "3";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.21).ToString();
+            }
+        }
+
+        private void moveDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            if (e.Column == 2)
+            {
+                return;
+            }
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == moveColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (moveColumnSorter.Order == SortOrder.Ascending)
+                {
+                    moveColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    moveColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                moveColumnSorter.SortColumn = e.Column;
+                moveColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.moveDetails.Sort();
+        }
+
+        private void monsterList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            questColumnSorter.SortColumn = 0;
+            hitzoneColumnSorter.SortColumn = 0;
+            if(monsterList.SelectedItems.Count == 0)
+            {
+                return;
+            }
+            string monster = monsterList.SelectedItems[0].SubItems[1].Text;
+            hitzoneDetails.Items.Clear();
+            //Access the respective file for monster hitzones and quests, add their entries to the list views.
+            using (StreamReader sr = new StreamReader("./Monsters/" + monster + ".csv"))
+            {
+                if(sr.ReadLine() != "ID,part,cut,impact,shot,fire,water,thunder,ice,dragon,KO,exhaust")
+                {
+                    return;
+                }
+                while(sr.Peek() >= 0)
+                {
+                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    ListViewItem newItem = new ListViewItem(inputs[0]);
+                    newItem.SubItems.Add(inputs[1]);
+                    newItem.SubItems.Add(inputs[2]);
+                    newItem.SubItems.Add(inputs[3]);
+                    newItem.SubItems.Add(inputs[4]);
+                    newItem.SubItems.Add(inputs[5]);
+                    newItem.SubItems.Add(inputs[6]);
+                    newItem.SubItems.Add(inputs[7]);
+                    newItem.SubItems.Add(inputs[8]);
+                    newItem.SubItems.Add(inputs[9]);
+                    newItem.SubItems.Add(inputs[10]);
+                    newItem.SubItems.Add(inputs[11]);
+
+                    hitzoneDetails.Items.Add(newItem);
+                }
+            }
+
+            questDetails.Items.Clear();
+            using (StreamReader sr = new StreamReader("./Quests/" + monster + ".csv"))
+            {
+                if (sr.ReadLine() != "ID,name,health,defense,KO,exhaust,GRank")
+                {
+                    return;
+                }
+                while (sr.Peek() >= 0)
+                {
+                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    ListViewItem newItem = new ListViewItem(inputs[0]);
+                    newItem.SubItems.Add(inputs[1]);
+                    newItem.SubItems.Add(inputs[2]);
+                    newItem.SubItems.Add(inputs[3]);
+                    newItem.SubItems.Add(inputs[4]);
+                    newItem.SubItems.Add(inputs[5]);
+                    newItem.SubItems.Add(inputs[6]);
+
+                    questDetails.Items.Add(newItem);
+                }
+            }
+        }
+
+        private void hitzoneDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (hitzoneDetails.SelectedItems.Count == 0)
+            {
+                return;
+            }
+            ListViewItem hitzone = hitzoneDetails.SelectedItems[0];
+            monCut.Text = hitzone.SubItems[2].Text;
+            monImpact.Text = hitzone.SubItems[3].Text;
+            monShot.Text = hitzone.SubItems[4].Text;
+            monFire.Text = hitzone.SubItems[5].Text;
+            monWater.Text = hitzone.SubItems[6].Text;
+            monThunder.Text = hitzone.SubItems[7].Text;
+            monIce.Text = hitzone.SubItems[8].Text;
+            monDragon.Text = hitzone.SubItems[9].Text;
+            monKO.Text = hitzone.SubItems[10].Text;
+            monExhaust.Text = hitzone.SubItems[11].Text;
+
+        }
+
+        private void questDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (questDetails.SelectedItems.Count == 0)
+            {
+                return;
+            }
+
+            ListViewItem quest = questDetails.SelectedItems[0];
+            monHealth.Text = quest.SubItems[2].Text;
+            monQuest.Text = quest.SubItems[3].Text;
+            monExhaust.Text = quest.SubItems[5].Text;
+            monGRank.Checked = (quest.SubItems[6].Text != "");
+        }
+
+        private void monsterList_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == monsterColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (monsterColumnSorter.Order == SortOrder.Ascending)
+                {
+                    monsterColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    monsterColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                monsterColumnSorter.SortColumn = e.Column;
+                monsterColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.monsterList.Sort();
+        }
+
+        private void hitzoneDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == hitzoneColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (hitzoneColumnSorter.Order == SortOrder.Ascending)
+                {
+                    hitzoneColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    hitzoneColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                hitzoneColumnSorter.SortColumn = e.Column;
+                hitzoneColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.hitzoneDetails.Sort();
+        }
+
+        private void questDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == questColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (questColumnSorter.Order == SortOrder.Ascending)
+                {
+                    questColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    questColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                questColumnSorter.SortColumn = e.Column;
+                questColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.questDetails.Sort();
         }
     }
 
@@ -5350,9 +6082,9 @@ namespace MHXXDamageCalc
         public List<string> getFamilies(List<string> familyNames)
         {
             List<string> weapons = new List<string>();
-            foreach(string familyName in familyNames)
+            foreach (string familyName in familyNames)
             {
-                foreach(string weaponName in familyWeapons[familyName])
+                foreach (string weaponName in familyWeapons[familyName])
                 {
                     weapons.Add(weaponName);
                 }
@@ -5391,29 +6123,29 @@ namespace MHXXDamageCalc
         public List<string> filterWeapons(bool[] filter)
         {
             List<string> filtered = new List<string>();
-            foreach(string familyName in families)
+            foreach (string familyName in families)
             {
                 weapon familyWeapon = weaponDetails[familyWeapons[familyName][0]];
                 string familyElement = familyWeapon.element;
                 string familySecond = familyWeapon.elementTwo;
 
-                if(filter[0])
+                if (filter[0])
                 {
-                    if(familyElement == "Fire" || familySecond == "DB - Fire")
+                    if (familyElement == "Fire" || familySecond == "DB - Fire")
                     {
                         filtered.Add(familyName);
                     }
                 }
 
-                if(filter[1])
+                if (filter[1])
                 {
-                    if(familyElement == "Water" || familySecond == "DB - Water")
+                    if (familyElement == "Water" || familySecond == "DB - Water")
                     {
                         filtered.Add(familyName);
                     }
                 }
 
-                if(filter[2])
+                if (filter[2])
                 {
                     if (familyElement == "Thunder" || familySecond == "DB - Thunder")
                     {
@@ -5421,7 +6153,7 @@ namespace MHXXDamageCalc
                     }
                 }
 
-                if(filter[3])
+                if (filter[3])
                 {
                     if (familyElement == "Ice" || familySecond == "DB - Ice")
                     {
@@ -5429,7 +6161,7 @@ namespace MHXXDamageCalc
                     }
                 }
 
-                if(filter[4])
+                if (filter[4])
                 {
                     if (familyElement == "Dragon" || familySecond == "DB - Dragon")
                     {
@@ -5437,7 +6169,7 @@ namespace MHXXDamageCalc
                     }
                 }
 
-                if(filter[5])
+                if (filter[5])
                 {
                     if (familyElement == "Poison" || familySecond == "DB - Poison")
                     {
