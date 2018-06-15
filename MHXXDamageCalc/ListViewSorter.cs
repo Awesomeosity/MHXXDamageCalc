@@ -55,7 +55,7 @@ public class ListViewColumnSorter : IComparer
         listviewX = (ListViewItem)x;
         listviewY = (ListViewItem)y;
 
-        if (int.TryParse(listviewX.SubItems[ColumnToSort].Text, out int result))
+        if (int.TryParse(listviewX.SubItems[ColumnToSort].Text, out int result) && int.TryParse(listviewY.SubItems[ColumnToSort].Text, out result))
         {
             float leftVal;
             float rightVal;

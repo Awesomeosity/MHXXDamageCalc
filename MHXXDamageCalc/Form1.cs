@@ -399,6 +399,7 @@ namespace MHXXDamageCalc
 
             miscModifiers.Add("Frenzy Affinity Boost", x => Frenzy(1));
             miscModifiers.Add("Frenzy (+Antivirus)", x => Frenzy(2));
+            miscModifiers.Add("Red Bubble Boost", x => Mizu(1));
 
             foreach (KeyValuePair<string, Func<int, bool>> pair in miscModifiers)
             {
@@ -822,328 +823,6 @@ namespace MHXXDamageCalc
             calcKOAll.Text = allTuple.Item6.ToString();
             calcExhAll.Text = allTuple.Item7.ToString();
             HealthCalc(allTuple); //Estimate how many hits it would take to kill the monster.
-        }
-
-        private void EffectiveRawCalc(Tuple<double, double, double, double> calcOutput)
-        {
-            int hitCount = int.Parse(paraHitCount.Text);
-            if(hitCount == 0)
-            {
-                hitCount = 1;
-            }
-            string rawWeap = calcOutput.Item1.ToString("N2");
-            string rawOut = (calcOutput.Item2 * hitCount).ToString("N2");
-            string eleOut = calcOutput.Item3.ToString("N2");
-            string eleCombo = (calcOutput.Item3 * hitCount).ToString("N2");
-            string secOut = calcOutput.Item4.ToString("N2");
-            string secCombo = (calcOutput.Item4 * hitCount).ToString("N2");
-
-            if (calcOutput.Item3 == 0)
-            {
-                string[] formatArray = new string[] { rawWeap, rawOut, paraHitCount.Text };
-                calcDetails.Text = String.Format("This weapon deals {0} damage. After MV, this weapon deals {1} damage over {2} hit(s).\n", formatArray);
-            }
-
-            else if (calcOutput.Item4 == 0)
-            {
-                string[] formatArray = new string[] { rawWeap, eleOut, (string)paraAltType.SelectedItem, rawOut, eleCombo, paraHitCount.Text };
-                calcDetails.Text = String.Format("This weapon deals {0}/{1} {2} damage. After MV, this weapon deals {3}/{4} damage over {5} hit(s).\n", formatArray);
-            }
-
-            else
-            {
-                string[] formatArray = new string[] { rawWeap, eleOut, (string)paraAltType.SelectedItem, secOut, (string)paraSecEle.SelectedItem, rawOut, eleCombo, secCombo, paraHitCount.Text };
-                calcDetails.Text = String.Format("This weapon deals {0}/{1} {2} damage and an additional {3} {4} damage. After MV, this weapon deals {5}/{6}/{7} damage over {8} hit(s).\n", formatArray);
-            }
-        }
-
-        /// <summary>
-        /// Calculates the amount of health that the monster can have, and applies the variance.
-        /// Furthermore, lists how many hits it would take to slay the monster.
-        /// </summary>
-        private void HealthCalc(Tuple<double, bool, double, double, double, double, double> allTuple)
-        {
-            double finalDamage = allTuple.Item1;
-            if (finalDamage == 0)
-            {
-                calcDetails.AppendText("No damage was dealt in this situation.");
-                return;
-            }
-
-            double health = double.Parse(paraHealth.Text);
-            if (health == 0)
-            {
-                calcDetails.AppendText("It is impossible to determine how many hits the monster can take before dying, as the health listed is 0.");
-                return;
-            }
-
-            double lowHealth = Math.Ceiling(health * 0.975);
-            double highHealth = Math.Ceiling(health * 1.025);
-
-            string minHits = Math.Ceiling(lowHealth / finalDamage).ToString();
-            string minDamage = (finalDamage / lowHealth * 100).ToString("N2");
-            string avgHits = Math.Ceiling(health / finalDamage).ToString();
-            string avgDamage = (finalDamage / health * 100).ToString("N2");
-            string maxHits = Math.Ceiling(highHealth / finalDamage).ToString();
-            string maxDamage = (finalDamage / highHealth * 100).ToString("N2");
-
-            string[] formatArray = new string[] { paraHitCount.Text, finalDamage.ToString(), avgHits, avgDamage, health.ToString(), minHits, minDamage, maxHits, maxDamage };
-            string formatString = String.Format("With {0} hit(s) that deals {1} damage total, it will, on average, take {2} of these attacks ({3}%) to kill a monster with {4} health. At minimum health, it will take {5} attacks ({6}%), and at maximum health, it will take {7} attacks ({8}%).", formatArray);
-            calcDetails.AppendText(formatString);
-        }
-
-        private Tuple<double, double, double, double> CalculateDamage()
-        {
-            //Collecting parameter info
-            double raw = double.Parse(paraRaw.Text);
-            double rawSharp = double.Parse(paraRawSharp.Text);
-
-            string altType = paraAltType.Text;
-            double element = double.Parse(paraElePower.Text);
-            double elementSharp = double.Parse(paraEleSharp.Text);
-
-            Tuple<double, double> affinity;
-            if (!paraChaotic.Checked)
-            {
-                double incAffinity = double.Parse(paraAffinity.Text);
-                if (incAffinity >= 0)
-                {
-                    affinity = new Tuple<double, double>(incAffinity * 0.01, 0);
-                }
-                else
-                {
-                    affinity = new Tuple<double, double>(0, incAffinity * -0.01);
-                }
-            }
-            else
-            {
-                affinity = new Tuple<double, double>(double.Parse(paraPosAff.Text) * 0.01, double.Parse(paraNegAff.Text) * 0.01);
-            }
-
-            string secType = paraSecEle.Text;
-            double secElement = double.Parse(paraSecPower.Text);
-
-            double motionValue = double.Parse(paraAvgMV.Text) * 0.01;
-            int hitCount = int.Parse(paraHitCount.Text);
-
-            double KO = double.Parse(paraKO.Text);
-            double exhaust = double.Parse(paraExh.Text);
-
-            bool fixedType = paraFixed.Checked;
-            //bool critBoost = paraCritBoost.Checked;
-            bool mindsEye = paraMinds.Checked;
-            //bool statusCrit = paraStatusCrit.Checked;
-            bool madAffinity = paraMadAff.Checked;
-
-            double critBoost = 0.25;
-            double statusCrit = 0;
-            double eleCrit = 0;
-
-            double rawWeap = 0;
-            double rawTotal = 0;
-            double eleTotal = 0;
-            double secTotal = 0;
-
-            if (secElement != 0)
-            {
-                element /= 2;
-                secElement /= 2;
-            }
-
-            Tuple<double, double> subAffinity = affinity;
-
-            if (fixedType)
-            {
-                return new Tuple<double, double, double, double>(motionValue * raw, motionValue * raw, element, secElement);
-            }
-
-            if (calcNeutral.Checked)
-            {
-                subAffinity = new Tuple<double, double>(0, 0);
-            }
-
-            if (calcPositive.Checked)
-            {
-                subAffinity = new Tuple<double, double>(1, 0);
-            }
-
-            if (calcNegative.Checked)
-            {
-                subAffinity = new Tuple<double, double>(0, 1);
-            }
-
-            if (calcAverage.Checked || calcPositive.Checked)
-            {
-                if (paraCritBoost.Checked)
-                {
-                    critBoost = 0.40;
-                }
-
-                if (paraStatusCrit.Checked)
-                {
-                    statusCrit = 0.2;
-                }
-
-                if (paraEleCrit.SelectedIndex == 1)
-                {
-                    eleCrit = 0.35;
-                }
-
-                if (paraEleCrit.SelectedIndex == 2)
-                {
-                    eleCrit = 0.3;
-                }
-
-                if (paraEleCrit.SelectedIndex == 3)
-                {
-                    eleCrit = 0.25;
-                }
-
-                if (paraEleCrit.SelectedIndex == 4)
-                {
-                    eleCrit = 0.2;
-                }
-            }
-
-            if (madAffinity)
-            {
-                subAffinity = new Tuple<double, double>(subAffinity.Item1 + subAffinity.Item2 * 0.25, subAffinity.Item2 - subAffinity.Item2 * 0.25);
-            }
-
-            rawWeap = raw * (1 + subAffinity.Item1 * critBoost) * (1 - subAffinity.Item2 * 0.25) * rawSharp;
-            rawTotal = rawWeap * motionValue;
-
-            if (isElement(altType))
-            {
-                eleTotal = element * elementSharp * (1 + subAffinity.Item1 * eleCrit);
-            }
-
-            else if (isStatus(altType))
-            {
-                eleTotal = element * (1 + subAffinity.Item1 * statusCrit);
-            }
-
-            else
-            {
-                eleTotal = element * elementSharp;
-            }
-
-            if (isElement(secType))
-            {
-                secTotal = secElement * elementSharp * (1 + subAffinity.Item1 * eleCrit);
-            }
-
-            else if (isStatus(secType))
-            {
-                secTotal = secElement * (1 + subAffinity.Item1 * statusCrit);
-            }
-
-            else
-            {
-                secTotal = secElement * elementSharp;
-            }
-
-            return new Tuple<double, double, double, double>(rawWeap, rawTotal, eleTotal, secTotal);
-        }
-
-        private Tuple<double, bool, double, double, double, double, double> CalculateAllDamage(Tuple<double, double, double, double> calcOutput)
-        {
-            double rawZone = double.Parse(paraHitzone.Text) * 0.01;
-            double eleZone = double.Parse(paraEleHit.Text) * 0.01;
-            double secZone = double.Parse(paraSecZone.Text) * 0.01;
-            double hitCount = double.Parse(paraHitCount.Text);
-            double KODam = double.Parse(paraKO.Text);
-            double ExhDam = double.Parse(paraExh.Text);
-            double KOZone = double.Parse(paraKOZone.Text) * 0.01;
-            double ExhaustZone = double.Parse(paraExhZone.Text) * 0.01;
-            double questMod = double.Parse(paraQuestMod.Text);
-
-            double rawDamage = calcOutput.Item2;
-
-            double totaldamage = 0;
-            double KODamage = KODam * KOZone;
-            double ExhDamage = ExhDam * ExhaustZone;
-            bool BounceBool = false;
-
-            double bounceTolerance = 0.25;
-
-            if (paraGRank.Checked)
-            {
-                bounceTolerance = 0.27;
-            }
-
-            rawDamage *= monsterStatus[paraMonStatus.SelectedIndex];
-
-            if (!paraFixed.Checked)
-            {
-                rawDamage *= rawZone * questMod;
-
-                if ((rawZone * double.Parse(paraRawSharp.Text)) > bounceTolerance || paraMinds.Checked)
-                {
-                    BounceBool = true;
-                }
-                else
-                {
-                    BounceBool = false;
-                }
-            }
-
-            else
-            {
-                rawDamage *= questMod;
-            }
-
-            totaldamage += rawDamage;
-
-            string element = paraAltType.Text;
-            double eleDamage = calcOutput.Item3;
-
-            if (isElement(element))
-            {
-                eleDamage *= eleZone * questMod;
-                totaldamage += eleDamage;
-            }
-
-            string second = paraSecEle.Text;
-            double secDamage = calcOutput.Item4;
-
-            if (isElement(second))
-            {
-                secDamage *= eleZone * questMod;
-                totaldamage += secDamage;
-            }
-
-            totaldamage = Math.Floor(totaldamage);
-            totaldamage *= hitCount;
-
-            KODamage = Math.Floor(KODamage);
-            KODamage *= hitCount;
-            KODamage = Math.Floor(KODamage);
-
-
-            ExhDamage = Math.Floor(ExhDamage);
-            ExhDamage *= hitCount;
-            ExhDamage = Math.Floor(ExhDamage);
-
-            return new Tuple<double, bool, double, double, double, double, double>(totaldamage, BounceBool, rawDamage, eleDamage, secDamage, KODamage, ExhDamage);
-        }
-
-        private bool isElement(string element)
-        {
-            if (element == "Fire" || element == "Water" || element == "Thunder" || element == "Ice" || element == "Dragon")
-            {
-                return true;
-            }
-            return false;
-        }
-
-        private bool isStatus(string element)
-        {
-            if (element == "Poison" || element == "Para" || element == "Sleep")
-            {
-                return true;
-            }
-            return false;
         }
 
         private void weapEle_SelectedIndexChanged(object sender, EventArgs e)
@@ -1823,6 +1502,216 @@ namespace MHXXDamageCalc
         private void moveBow_CheckedChanged(object sender, EventArgs e)
         {
             changeMoveList();
+        }
+
+        private void moveDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            if (e.Column == 2)
+            {
+                return;
+            }
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == moveColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (moveColumnSorter.Order == SortOrder.Ascending)
+                {
+                    moveColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    moveColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                moveColumnSorter.SortColumn = e.Column;
+                moveColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.moveDetails.Sort();
+        }
+
+        private void monsterList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            questColumnSorter.SortColumn = 0;
+            hitzoneColumnSorter.SortColumn = 0;
+            if (monsterList.SelectedItems.Count == 0)
+            {
+                return;
+            }
+            string monster = monsterList.SelectedItems[0].SubItems[1].Text;
+            hitzoneDetails.Items.Clear();
+            //Access the respective file for monster hitzones and quests, add their entries to the list views.
+            using (StreamReader sr = new StreamReader("./Monsters/" + monster + ".csv"))
+            {
+                if (sr.ReadLine() != "ID,part,cut,impact,shot,fire,water,thunder,ice,dragon,KO,exhaust")
+                {
+                    return;
+                }
+                while (sr.Peek() >= 0)
+                {
+                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    ListViewItem newItem = new ListViewItem(inputs[0]);
+                    newItem.SubItems.Add(inputs[1]);
+                    newItem.SubItems.Add(inputs[2]);
+                    newItem.SubItems.Add(inputs[3]);
+                    newItem.SubItems.Add(inputs[4]);
+                    newItem.SubItems.Add(inputs[5]);
+                    newItem.SubItems.Add(inputs[6]);
+                    newItem.SubItems.Add(inputs[7]);
+                    newItem.SubItems.Add(inputs[8]);
+                    newItem.SubItems.Add(inputs[9]);
+                    newItem.SubItems.Add(inputs[10]);
+                    newItem.SubItems.Add(inputs[11]);
+
+                    hitzoneDetails.Items.Add(newItem);
+                }
+            }
+
+            questDetails.Items.Clear();
+            using (StreamReader sr = new StreamReader("./Quests/" + monster + ".csv"))
+            {
+                if (sr.ReadLine() != "ID,name,health,defense,KO,exhaust,GRank")
+                {
+                    return;
+                }
+                while (sr.Peek() >= 0)
+                {
+                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    ListViewItem newItem = new ListViewItem(inputs[0]);
+                    newItem.SubItems.Add(inputs[1]);
+                    newItem.SubItems.Add(inputs[2]);
+                    newItem.SubItems.Add(inputs[3]);
+                    newItem.SubItems.Add(inputs[4]);
+                    newItem.SubItems.Add(inputs[5]);
+                    newItem.SubItems.Add(inputs[6]);
+
+                    questDetails.Items.Add(newItem);
+                }
+            }
+        }
+
+        private void hitzoneDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (hitzoneDetails.SelectedItems.Count == 0)
+            {
+                return;
+            }
+            ListViewItem hitzone = hitzoneDetails.SelectedItems[0];
+            monCut.Text = hitzone.SubItems[2].Text;
+            monImpact.Text = hitzone.SubItems[3].Text;
+            monShot.Text = hitzone.SubItems[4].Text;
+            monFire.Text = hitzone.SubItems[5].Text;
+            monWater.Text = hitzone.SubItems[6].Text;
+            monThunder.Text = hitzone.SubItems[7].Text;
+            monIce.Text = hitzone.SubItems[8].Text;
+            monDragon.Text = hitzone.SubItems[9].Text;
+            monKO.Text = hitzone.SubItems[10].Text;
+            monExhaust.Text = hitzone.SubItems[11].Text;
+
+        }
+
+        private void questDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (questDetails.SelectedItems.Count == 0)
+            {
+                return;
+            }
+
+            ListViewItem quest = questDetails.SelectedItems[0];
+            monHealth.Text = quest.SubItems[2].Text;
+            monQuest.Text = quest.SubItems[3].Text;
+            monExhaustMod.Text = quest.SubItems[5].Text;
+            monGRank.Checked = (quest.SubItems[6].Text != "");
+        }
+
+        private void monsterList_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == monsterColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (monsterColumnSorter.Order == SortOrder.Ascending)
+                {
+                    monsterColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    monsterColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                monsterColumnSorter.SortColumn = e.Column;
+                monsterColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.monsterList.Sort();
+        }
+
+        private void hitzoneDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == hitzoneColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (hitzoneColumnSorter.Order == SortOrder.Ascending)
+                {
+                    hitzoneColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    hitzoneColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                hitzoneColumnSorter.SortColumn = e.Column;
+                hitzoneColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.hitzoneDetails.Sort();
+        }
+
+        private void questDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == questColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (questColumnSorter.Order == SortOrder.Ascending)
+                {
+                    questColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    questColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                questColumnSorter.SortColumn = e.Column;
+                questColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.questDetails.Sort();
+        }
+
+        private void moveDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (moveDetails.SelectedItems.Count == 1)
+            {
+                fillMove(moveDetails.SelectedItems[0]);
+            }
         }
 
 #if true
@@ -4193,7 +4082,335 @@ namespace MHXXDamageCalc
             return true;
         }
 
+        public bool Mizu(int skillVal)
+        {
+            stats.addRaw += 10;
+            return true;
+        }
+
 #endif
+
+        private void EffectiveRawCalc(Tuple<double, double, double, double> calcOutput)
+        {
+            int hitCount = int.Parse(paraHitCount.Text);
+            if (hitCount == 0)
+            {
+                hitCount = 1;
+            }
+            string rawWeap = calcOutput.Item1.ToString("N2");
+            string rawOut = (calcOutput.Item2 * hitCount).ToString("N2");
+            string eleOut = calcOutput.Item3.ToString("N2");
+            string eleCombo = (calcOutput.Item3 * hitCount).ToString("N2");
+            string secOut = calcOutput.Item4.ToString("N2");
+            string secCombo = (calcOutput.Item4 * hitCount).ToString("N2");
+
+            if (calcOutput.Item3 == 0)
+            {
+                string[] formatArray = new string[] { rawWeap, rawOut, paraHitCount.Text };
+                calcDetails.Text = String.Format("This weapon deals {0} damage. After MV, this weapon deals {1} damage over {2} hit(s).\n", formatArray);
+            }
+
+            else if (calcOutput.Item4 == 0)
+            {
+                string[] formatArray = new string[] { rawWeap, eleOut, (string)paraAltType.SelectedItem, rawOut, eleCombo, paraHitCount.Text };
+                calcDetails.Text = String.Format("This weapon deals {0}/{1} {2} damage. After MV, this weapon deals {3}/{4} damage over {5} hit(s).\n", formatArray);
+            }
+
+            else
+            {
+                string[] formatArray = new string[] { rawWeap, eleOut, (string)paraAltType.SelectedItem, secOut, (string)paraSecEle.SelectedItem, rawOut, eleCombo, secCombo, paraHitCount.Text };
+                calcDetails.Text = String.Format("This weapon deals {0}/{1} {2} damage and an additional {3} {4} damage. After MV, this weapon deals {5}/{6}/{7} damage over {8} hit(s).\n", formatArray);
+            }
+        }
+
+        /// <summary>
+        /// Calculates the amount of health that the monster can have, and applies the variance.
+        /// Furthermore, lists how many hits it would take to slay the monster.
+        /// </summary>
+        private void HealthCalc(Tuple<double, bool, double, double, double, double, double> allTuple)
+        {
+            double finalDamage = allTuple.Item1;
+            if (finalDamage == 0)
+            {
+                calcDetails.AppendText("No damage was dealt in this situation.");
+                return;
+            }
+
+            double health = double.Parse(paraHealth.Text);
+            if (health == 0)
+            {
+                calcDetails.AppendText("It is impossible to determine how many hits the monster can take before dying, as the health listed is 0.");
+                return;
+            }
+
+            double lowHealth = Math.Ceiling(health * 0.975);
+            double highHealth = Math.Ceiling(health * 1.025);
+
+            string minHits = Math.Ceiling(lowHealth / finalDamage).ToString();
+            string minDamage = (finalDamage / lowHealth * 100).ToString("N2");
+            string avgHits = Math.Ceiling(health / finalDamage).ToString();
+            string avgDamage = (finalDamage / health * 100).ToString("N2");
+            string maxHits = Math.Ceiling(highHealth / finalDamage).ToString();
+            string maxDamage = (finalDamage / highHealth * 100).ToString("N2");
+
+            string[] formatArray = new string[] { paraHitCount.Text, finalDamage.ToString(), avgHits, avgDamage, health.ToString(), minHits, minDamage, maxHits, maxDamage };
+            string formatString = String.Format("With {0} hit(s) that deals {1} damage total, it will, on average, take {2} of these attacks ({3}%) to kill a monster with {4} health. At minimum health, it will take {5} attacks ({6}%), and at maximum health, it will take {7} attacks ({8}%).", formatArray);
+            calcDetails.AppendText(formatString);
+        }
+
+        private Tuple<double, double, double, double> CalculateDamage()
+        {
+            //Collecting parameter info
+            double raw = double.Parse(paraRaw.Text);
+            double rawSharp = double.Parse(paraRawSharp.Text);
+
+            string altType = paraAltType.Text;
+            double element = double.Parse(paraElePower.Text);
+            double elementSharp = double.Parse(paraEleSharp.Text);
+
+            Tuple<double, double, double> affinity;
+            if (!paraChaotic.Checked)
+            {
+                double incAffinity = double.Parse(paraAffinity.Text);
+                if (incAffinity >= 0)
+                {
+                    affinity = new Tuple<double, double, double>(incAffinity * 0.01, 0, 0);
+                }
+                else
+                {
+                    affinity = new Tuple<double, double, double>(0, incAffinity * -0.01, 0);
+                }
+            }
+            else
+            {
+                affinity = new Tuple<double, double, double>(double.Parse(paraPosAff.Text) * 0.01, double.Parse(paraNegAff.Text) * 0.01, 0);
+            }
+
+            string secType = paraSecEle.Text;
+            double secElement = double.Parse(paraSecPower.Text);
+
+            double motionValue = double.Parse(paraAvgMV.Text) * 0.01;
+            int hitCount = int.Parse(paraHitCount.Text);
+
+            double KO = double.Parse(paraKO.Text);
+            double exhaust = double.Parse(paraExh.Text);
+
+            bool fixedType = paraFixed.Checked;
+            //bool critBoost = paraCritBoost.Checked;
+            bool mindsEye = paraMinds.Checked;
+            //bool statusCrit = paraStatusCrit.Checked;
+            bool madAffinity = paraMadAff.Checked;
+
+            double critBoost = 0.25;
+            double statusCrit = 0;
+            double eleCrit = 0;
+
+            double rawWeap = 0;
+            double rawTotal = 0;
+            double eleTotal = 0;
+            double secTotal = 0;
+
+            if (secElement != 0)
+            {
+                element /= 2;
+                secElement /= 2;
+            }
+
+            Tuple<double, double, double> subAffinity = affinity;
+
+            if (fixedType)
+            {
+                return new Tuple<double, double, double, double>(motionValue * raw, motionValue * raw, element, secElement);
+            }
+
+            if (calcNeutral.Checked)
+            {
+                subAffinity = new Tuple<double, double, double>(0, 0, 0);
+            }
+
+            if (calcPositive.Checked)
+            {
+                subAffinity = new Tuple<double, double, double>(1, 0, 0);
+            }
+
+            if (calcNegative.Checked)
+            {
+                subAffinity = new Tuple<double, double, double>(0, 1, 0);
+            }
+
+            if (calcAverage.Checked || calcPositive.Checked)
+            {
+                if (paraCritBoost.Checked)
+                {
+                    critBoost = 0.40;
+                }
+
+                if (paraStatusCrit.Checked)
+                {
+                    statusCrit = 0.2;
+                }
+
+                if (paraEleCrit.SelectedIndex == 1)
+                {
+                    eleCrit = 0.35;
+                }
+
+                if (paraEleCrit.SelectedIndex == 2)
+                {
+                    eleCrit = 0.3;
+                }
+
+                if (paraEleCrit.SelectedIndex == 3)
+                {
+                    eleCrit = 0.25;
+                }
+
+                if (paraEleCrit.SelectedIndex == 4)
+                {
+                    eleCrit = 0.2;
+                }
+            }
+
+            if (madAffinity)
+            {
+                subAffinity = new Tuple<double, double, double>(subAffinity.Item1, subAffinity.Item2 - subAffinity.Item2 * 0.25, subAffinity.Item2 * 0.25);
+            }
+
+            rawWeap = raw * (1 + subAffinity.Item1 * critBoost) * (1 - subAffinity.Item2 * 0.25) * (1 + subAffinity.Item3 * 1) * rawSharp;
+            rawTotal = rawWeap * motionValue;
+
+            if (isElement(altType))
+            {
+                eleTotal = element * elementSharp * (1 + subAffinity.Item1 * eleCrit);
+            }
+
+            else if (isStatus(altType))
+            {
+                eleTotal = element * (1 + subAffinity.Item1 * statusCrit);
+            }
+
+            else
+            {
+                eleTotal = element * elementSharp;
+            }
+
+            if (isElement(secType))
+            {
+                secTotal = secElement * elementSharp * (1 + subAffinity.Item1 * eleCrit);
+            }
+
+            else if (isStatus(secType))
+            {
+                secTotal = secElement * (1 + subAffinity.Item1 * statusCrit);
+            }
+
+            else
+            {
+                secTotal = secElement * elementSharp;
+            }
+
+            return new Tuple<double, double, double, double>(rawWeap, rawTotal, eleTotal, secTotal);
+        }
+
+        private Tuple<double, bool, double, double, double, double, double> CalculateAllDamage(Tuple<double, double, double, double> calcOutput)
+        {
+            double rawZone = double.Parse(paraHitzone.Text) * 0.01;
+            double eleZone = double.Parse(paraEleHit.Text) * 0.01;
+            double secZone = double.Parse(paraSecZone.Text) * 0.01;
+            double hitCount = double.Parse(paraHitCount.Text);
+            double KODam = double.Parse(paraKO.Text);
+            double ExhDam = double.Parse(paraExh.Text);
+            double KOZone = double.Parse(paraKOZone.Text) * 0.01;
+            double ExhaustZone = double.Parse(paraExhZone.Text) * 0.01;
+            double questMod = double.Parse(paraQuestMod.Text);
+
+            double rawDamage = calcOutput.Item2;
+
+            double totaldamage = 0;
+            double KODamage = KODam * KOZone;
+            double ExhDamage = ExhDam * ExhaustZone;
+            bool BounceBool = false;
+
+            double bounceTolerance = 0.25;
+
+            if (paraGRank.Checked)
+            {
+                bounceTolerance = 0.27;
+            }
+
+            rawDamage *= monsterStatus[paraMonStatus.SelectedIndex];
+
+            if (!paraFixed.Checked)
+            {
+                rawDamage *= rawZone * questMod;
+
+                if ((rawZone * double.Parse(paraRawSharp.Text)) > bounceTolerance || paraMinds.Checked)
+                {
+                    BounceBool = true;
+                }
+                else
+                {
+                    BounceBool = false;
+                }
+            }
+
+            else
+            {
+                rawDamage *= questMod;
+            }
+
+            totaldamage += rawDamage;
+
+            string element = paraAltType.Text;
+            double eleDamage = calcOutput.Item3;
+
+            if (isElement(element))
+            {
+                eleDamage *= eleZone * questMod;
+                totaldamage += eleDamage;
+            }
+
+            string second = paraSecEle.Text;
+            double secDamage = calcOutput.Item4;
+
+            if (isElement(second))
+            {
+                secDamage *= eleZone * questMod;
+                totaldamage += secDamage;
+            }
+
+            totaldamage = Math.Floor(totaldamage);
+            totaldamage *= hitCount;
+
+            KODamage = Math.Floor(KODamage);
+            KODamage *= hitCount;
+            KODamage = Math.Floor(KODamage);
+
+
+            ExhDamage = Math.Floor(ExhDamage);
+            ExhDamage *= hitCount;
+            ExhDamage = Math.Floor(ExhDamage);
+
+            return new Tuple<double, bool, double, double, double, double, double>(totaldamage, BounceBool, rawDamage, eleDamage, secDamage, KODamage, ExhDamage);
+        }
+
+        private bool isElement(string element)
+        {
+            if (element == "Fire" || element == "Water" || element == "Thunder" || element == "Ice" || element == "Dragon")
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private bool isStatus(string element)
+        {
+            if (element == "Poison" || element == "Para" || element == "Sleep")
+            {
+                return true;
+            }
+            return false;
+        }
 
         private void ImportSetUp()
         {
@@ -4206,7 +4423,7 @@ namespace MHXXDamageCalc
             if (weapChaotic.Checked)
             {
                 stats.positiveAffinity = double.Parse(weapPosAff.Text);
-                stats.negativeAffinity = double.Parse(weapNegAff.Text);
+                stats.negativeAffinity = -1 * double.Parse(weapNegAff.Text);
                 stats.chaotic = true;
             }
             else
@@ -4221,7 +4438,7 @@ namespace MHXXDamageCalc
                 else
                 {
                     stats.positiveAffinity = 0;
-                    stats.negativeAffinity = affinity;
+                    stats.negativeAffinity = -1 * affinity;
                 }
             }
 
@@ -4430,14 +4647,16 @@ namespace MHXXDamageCalc
             if (stats.positiveAffinity > 100)
             {
                 stats.positiveAffinity = 100;
+                stats.negativeAffinity = 0;
             }
 
             if (stats.negativeAffinity > 100)
             {
                 stats.negativeAffinity = 100;
+                stats.positiveAffinity = 0;
             }
 
-            if (stats.negativeAffinity + stats.positiveAffinity > 100)
+            if (-1 * (stats.negativeAffinity) + stats.positiveAffinity > 100)
             {
                 stats.positiveAffinity -= stats.negativeAffinity;
             }
@@ -4515,6 +4734,7 @@ namespace MHXXDamageCalc
             weapSearch.Text = "";
 
             weaponColumnSorter.SortColumn = 0;
+            weaponColumnSorter.Order = SortOrder.Ascending;
 
             weaponTree.BeginUpdate();
             //Read the appropriate .csv file...
@@ -5344,6 +5564,7 @@ namespace MHXXDamageCalc
         private void changeMoveList()
         {
             moveColumnSorter.SortColumn = 0;
+            moveColumnSorter.Order = SortOrder.Ascending;
             moveDetails.Items.Clear();
             string path;
             if (moveGS.Checked)
@@ -5479,14 +5700,6 @@ namespace MHXXDamageCalc
             weapSharpness.SelectedItem = selWeap.sharpness;
             weapSharpOne.SelectedItem = selWeap.sharpnessOne;
             weapSharpTwo.SelectedItem = selWeap.sharpnessTwo;
-        }
-
-        private void moveDetails_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (moveDetails.SelectedItems.Count == 1)
-            {
-                fillMove(moveDetails.SelectedItems[0]);
-            }
         }
 
         private void fillMove(ListViewItem selectedMove)
@@ -5801,206 +6014,12 @@ namespace MHXXDamageCalc
             }
         }
 
-        private void moveDetails_ColumnClick(object sender, ColumnClickEventArgs e)
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            if (e.Column == 2)
+            if(modGlossary.SelectedNode.Tag != null)
             {
-                return;
+                modDetails.Text = ((string)modGlossary.SelectedNode.Tag).Replace("\\n", Environment.NewLine);
             }
-            // Determine if clicked column is already the column that is being sorted.
-            if (e.Column == moveColumnSorter.SortColumn)
-            {
-                // Reverse the current sort direction for this column.
-                if (moveColumnSorter.Order == SortOrder.Ascending)
-                {
-                    moveColumnSorter.Order = SortOrder.Descending;
-                }
-                else
-                {
-                    moveColumnSorter.Order = SortOrder.Ascending;
-                }
-            }
-            else
-            {
-                // Set the column number that is to be sorted; default to ascending.
-                moveColumnSorter.SortColumn = e.Column;
-                moveColumnSorter.Order = SortOrder.Ascending;
-            }
-
-            // Perform the sort with these new sort options.
-            this.moveDetails.Sort();
-        }
-
-        private void monsterList_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            questColumnSorter.SortColumn = 0;
-            hitzoneColumnSorter.SortColumn = 0;
-            if(monsterList.SelectedItems.Count == 0)
-            {
-                return;
-            }
-            string monster = monsterList.SelectedItems[0].SubItems[1].Text;
-            hitzoneDetails.Items.Clear();
-            //Access the respective file for monster hitzones and quests, add their entries to the list views.
-            using (StreamReader sr = new StreamReader("./Monsters/" + monster + ".csv"))
-            {
-                if(sr.ReadLine() != "ID,part,cut,impact,shot,fire,water,thunder,ice,dragon,KO,exhaust")
-                {
-                    return;
-                }
-                while(sr.Peek() >= 0)
-                {
-                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
-                    ListViewItem newItem = new ListViewItem(inputs[0]);
-                    newItem.SubItems.Add(inputs[1]);
-                    newItem.SubItems.Add(inputs[2]);
-                    newItem.SubItems.Add(inputs[3]);
-                    newItem.SubItems.Add(inputs[4]);
-                    newItem.SubItems.Add(inputs[5]);
-                    newItem.SubItems.Add(inputs[6]);
-                    newItem.SubItems.Add(inputs[7]);
-                    newItem.SubItems.Add(inputs[8]);
-                    newItem.SubItems.Add(inputs[9]);
-                    newItem.SubItems.Add(inputs[10]);
-                    newItem.SubItems.Add(inputs[11]);
-
-                    hitzoneDetails.Items.Add(newItem);
-                }
-            }
-
-            questDetails.Items.Clear();
-            using (StreamReader sr = new StreamReader("./Quests/" + monster + ".csv"))
-            {
-                if (sr.ReadLine() != "ID,name,health,defense,KO,exhaust,GRank")
-                {
-                    return;
-                }
-                while (sr.Peek() >= 0)
-                {
-                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
-                    ListViewItem newItem = new ListViewItem(inputs[0]);
-                    newItem.SubItems.Add(inputs[1]);
-                    newItem.SubItems.Add(inputs[2]);
-                    newItem.SubItems.Add(inputs[3]);
-                    newItem.SubItems.Add(inputs[4]);
-                    newItem.SubItems.Add(inputs[5]);
-                    newItem.SubItems.Add(inputs[6]);
-
-                    questDetails.Items.Add(newItem);
-                }
-            }
-        }
-
-        private void hitzoneDetails_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (hitzoneDetails.SelectedItems.Count == 0)
-            {
-                return;
-            }
-            ListViewItem hitzone = hitzoneDetails.SelectedItems[0];
-            monCut.Text = hitzone.SubItems[2].Text;
-            monImpact.Text = hitzone.SubItems[3].Text;
-            monShot.Text = hitzone.SubItems[4].Text;
-            monFire.Text = hitzone.SubItems[5].Text;
-            monWater.Text = hitzone.SubItems[6].Text;
-            monThunder.Text = hitzone.SubItems[7].Text;
-            monIce.Text = hitzone.SubItems[8].Text;
-            monDragon.Text = hitzone.SubItems[9].Text;
-            monKO.Text = hitzone.SubItems[10].Text;
-            monExhaust.Text = hitzone.SubItems[11].Text;
-
-        }
-
-        private void questDetails_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (questDetails.SelectedItems.Count == 0)
-            {
-                return;
-            }
-
-            ListViewItem quest = questDetails.SelectedItems[0];
-            monHealth.Text = quest.SubItems[2].Text;
-            monQuest.Text = quest.SubItems[3].Text;
-            monExhaust.Text = quest.SubItems[5].Text;
-            monGRank.Checked = (quest.SubItems[6].Text != "");
-        }
-
-        private void monsterList_ColumnClick(object sender, ColumnClickEventArgs e)
-        {
-            // Determine if clicked column is already the column that is being sorted.
-            if (e.Column == monsterColumnSorter.SortColumn)
-            {
-                // Reverse the current sort direction for this column.
-                if (monsterColumnSorter.Order == SortOrder.Ascending)
-                {
-                    monsterColumnSorter.Order = SortOrder.Descending;
-                }
-                else
-                {
-                    monsterColumnSorter.Order = SortOrder.Ascending;
-                }
-            }
-            else
-            {
-                // Set the column number that is to be sorted; default to ascending.
-                monsterColumnSorter.SortColumn = e.Column;
-                monsterColumnSorter.Order = SortOrder.Ascending;
-            }
-
-            // Perform the sort with these new sort options.
-            this.monsterList.Sort();
-        }
-
-        private void hitzoneDetails_ColumnClick(object sender, ColumnClickEventArgs e)
-        {
-            // Determine if clicked column is already the column that is being sorted.
-            if (e.Column == hitzoneColumnSorter.SortColumn)
-            {
-                // Reverse the current sort direction for this column.
-                if (hitzoneColumnSorter.Order == SortOrder.Ascending)
-                {
-                    hitzoneColumnSorter.Order = SortOrder.Descending;
-                }
-                else
-                {
-                    hitzoneColumnSorter.Order = SortOrder.Ascending;
-                }
-            }
-            else
-            {
-                // Set the column number that is to be sorted; default to ascending.
-                hitzoneColumnSorter.SortColumn = e.Column;
-                hitzoneColumnSorter.Order = SortOrder.Ascending;
-            }
-
-            // Perform the sort with these new sort options.
-            this.hitzoneDetails.Sort();
-        }
-
-        private void questDetails_ColumnClick(object sender, ColumnClickEventArgs e)
-        {
-            // Determine if clicked column is already the column that is being sorted.
-            if (e.Column == questColumnSorter.SortColumn)
-            {
-                // Reverse the current sort direction for this column.
-                if (questColumnSorter.Order == SortOrder.Ascending)
-                {
-                    questColumnSorter.Order = SortOrder.Descending;
-                }
-                else
-                {
-                    questColumnSorter.Order = SortOrder.Ascending;
-                }
-            }
-            else
-            {
-                // Set the column number that is to be sorted; default to ascending.
-                questColumnSorter.SortColumn = e.Column;
-                questColumnSorter.Order = SortOrder.Ascending;
-            }
-
-            // Perform the sort with these new sort options.
-            this.questDetails.Sort();
         }
     }
 
