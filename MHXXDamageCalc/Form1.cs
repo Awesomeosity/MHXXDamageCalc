@@ -347,6 +347,11 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("GL Anti-Air Flares I", x => Gunlance(15));
             weaponModifiers.Add("GL Anti-Air Flares II", x => Gunlance(16));
             weaponModifiers.Add("GL Anti-Air Flares III", x => Gunlance(17));
+            weaponModifiers.Add("GL Normal/Long Charged Shot", x => Gunlance(18));
+            weaponModifiers.Add("GL Wide Charged Shot", x => Gunlance(19));
+            weaponModifiers.Add("GL Long Wyvernsfire", x => Gunlance(20));
+            weaponModifiers.Add("GL Normal Full Burst", x => Gunlance(21));
+            weaponModifiers.Add("GL Wide Full Burst", x => Gunlance(22));
             weaponModifiers.Add("SA Power Phial", x => SA(1));
             weaponModifiers.Add("SA Element Phial", x => SA(2));
             weaponModifiers.Add("SA Energy Charge II", x => SA(3));
@@ -387,6 +392,7 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("Bow Power C. Lv2", x => Bow(9));
             weaponModifiers.Add("Bow Elem. C. Lv1", x => Bow(10));
             weaponModifiers.Add("Bow Elem. C. Lv2", x => Bow(11));
+            weaponModifiers.Add("Bow Exhaust C.", x => Bow(16));
             weaponModifiers.Add("Bow Coating Boost 'Pwr'", x => Bow(12));
             weaponModifiers.Add("Bow Coating Boost 'Ele'", x => Bow(13));
             weaponModifiers.Add("Bow Coating Boost 'C.Range'", x => Bow(14));
@@ -408,17 +414,20 @@ namespace MHXXDamageCalc
 
             using (StreamReader sr = new StreamReader("./Monsters/MonID.csv"))
             {
-                if(sr.ReadLine() != "ID,name")
+                if (sr.ReadLine() != "ID,name")
                 {
                     return;
                 }
 
-                while(sr.Peek() >= 0)
+                while (sr.Peek() >= 0)
                 {
                     string[] inputs = sr.ReadLine().Split(new char[] { ',' });
                     ListViewItem newItem = new ListViewItem(inputs[0]);
                     newItem.SubItems.Add(inputs[1]);
+                    ListViewItem otherItem = new ListViewItem(inputs[0]);
+                    otherItem.SubItems.Add(inputs[1]);
                     monsterList.Items.Add(newItem);
+                    staMonsterList.Items.Add(otherItem);
                 }
             }
         }
@@ -451,6 +460,8 @@ namespace MHXXDamageCalc
             paraMonStatus.SelectedIndex = 0;
 
             calcAverage.Select();
+
+            staType.SelectedIndex = 0;
         }
 
         //EVENT FUNCTIONS
@@ -774,7 +785,7 @@ namespace MHXXDamageCalc
 
             calcRawWeap.Text = calcOutput.Item1.ToString("N2");
             int hitCount;
-            if((hitCount = int.Parse(paraHitCount.Text)) == 0)
+            if ((hitCount = int.Parse(paraHitCount.Text)) == 0)
             {
                 hitCount = 1;
             }
@@ -1624,6 +1635,7 @@ namespace MHXXDamageCalc
             ListViewItem quest = questDetails.SelectedItems[0];
             monHealth.Text = quest.SubItems[2].Text;
             monQuest.Text = quest.SubItems[3].Text;
+            monKOMod.Text = quest.SubItems[4].Text;
             monExhaustMod.Text = quest.SubItems[5].Text;
             monGRank.Checked = (quest.SubItems[6].Text != "");
         }
@@ -1712,6 +1724,180 @@ namespace MHXXDamageCalc
             {
                 fillMove(moveDetails.SelectedItems[0]);
             }
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            if (modGlossary.SelectedNode.Tag != null)
+            {
+                modDetails.Text = ((string)modGlossary.SelectedNode.Tag).Replace("\\n", Environment.NewLine);
+            }
+        }
+
+        private void staCritCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            if (staCritCheck.Checked)
+            {
+                staAffinity.Enabled = true;
+            }
+            else
+            {
+                staAffinity.Text = "0";
+                staAffinity.Enabled = false;
+            }
+        }
+
+        private void staType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (staType.SelectedIndex == 0)
+            {
+                staPictOne.Image = null;
+            }
+            if (staType.SelectedIndex == 1)
+            {
+                staPictOne.Load(str2Pict["Poison"]);
+
+                if (staMonsterList.SelectedItems.Count == 1)
+                {
+                    staStatusTable.Items[0].Selected = true;
+                }
+            }
+            if (staType.SelectedIndex == 2)
+            {
+                staPictOne.Load(str2Pict["Para"]);
+
+                if (staMonsterList.SelectedItems.Count == 1)
+                {
+                    staStatusTable.Items[1].Selected = true;
+                }
+            }
+            if (staType.SelectedIndex == 3)
+            {
+                staPictOne.Load(str2Pict["Sleep"]);
+
+                if (staMonsterList.SelectedItems.Count == 1)
+                {
+                    staStatusTable.Items[2].Selected = true;
+                }
+            }
+            if (staType.SelectedIndex == 4)
+            {
+                staPictOne.Load(str2Pict["Blast"]);
+
+                if (staMonsterList.SelectedItems.Count == 1)
+                {
+                    staStatusTable.Items[3].Selected = true;
+                }
+            }
+            if (staType.SelectedIndex == 5)
+            {
+                staKOZone.Enabled = true;
+                staKOMod.Enabled = true;
+                staExhZone.Text = "0";
+                staExhZone.Enabled = false;
+                staExhMod.Text = "1.0";
+                staExhMod.Enabled = false;
+
+
+                staPictOne.Load(str2Pict["KO"]);
+
+                if (staMonsterList.SelectedItems.Count == 1)
+                {
+                    staStatusTable.Items[4].Selected = true;
+                }
+            }
+            if (staType.SelectedIndex == 6)
+            {
+                staExhZone.Enabled = true;
+                staExhMod.Enabled = true;
+                staKOZone.Text = "0";
+                staKOZone.Enabled = false;
+                staKOMod.Text = "1.0";
+                staKOMod.Enabled = false;
+
+                staPictOne.Load(str2Pict["Exhaust"]);
+
+                if (staMonsterList.SelectedItems.Count == 1)
+                {
+                    staStatusTable.Items[5].Selected = true;
+                }
+            }
+
+
+            if (staType.SelectedIndex < 5)
+            {
+                staKOZone.Text = "0";
+                staKOZone.Enabled = false;
+
+                staExhZone.Text = "0";
+                staExhZone.Enabled = false;
+
+                staKOMod.Text = "1.0";
+                staKOMod.Enabled = false;
+
+                staExhMod.Text = "1.0";
+                staExhMod.Enabled = false;
+            }
+        }
+
+        private void staMonsterList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (staMonsterList.SelectedItems.Count == 0)
+            {
+                return;
+            }
+            string monster = staMonsterList.SelectedItems[0].SubItems[1].Text;
+            staStatusTable.Items.Clear();
+            //Access the respective file for monster hitzones and quests, add their entries to the list views.
+            using (StreamReader sr = new StreamReader("./Statuses/" + monster + ".csv"))
+            {
+                if (sr.ReadLine() != "status,init,inc,max")
+                {
+                    return;
+                }
+                while (sr.Peek() >= 0)
+                {
+                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    ListViewItem newItem = new ListViewItem(inputs[0]);
+                    newItem.SubItems.Add(inputs[1]);
+                    newItem.SubItems.Add(inputs[2]);
+                    newItem.SubItems.Add(inputs[3]);
+
+                    staStatusTable.Items.Add(newItem);
+                }
+            }
+        }
+
+        private void staStatusTable_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (staStatusTable.SelectedItems.Count == 1)
+            {
+                staInit.Text = staStatusTable.SelectedItems[0].SubItems[1].Text;
+                staInc.Text = staStatusTable.SelectedItems[0].SubItems[2].Text;
+                staMax.Text = staStatusTable.SelectedItems[0].SubItems[3].Text;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CalculateStatus();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            staCritCheck.Checked = false;
+            staHitCount.Text = "0";
+            staType.SelectedIndex = 0;
+            staInit.Text = "0";
+            staInc.Text = "0";
+            staMax.Text = "0";
+        }
+
+        private void staUpdate_Click(object sender, EventArgs e)
+        {
+            ImportSetUp();
+            ImportModifiers();
+            ExportStatus();
         }
 
 #if true
@@ -3548,6 +3734,26 @@ namespace MHXXDamageCalc
             {
                 stats.expMod *= 1.1;
             }
+            else if(skillVal == 18) //Normal/Long Charged Shot
+            {
+                stats.expMod *= 1.2;
+            }
+            else if(skillVal == 19) //Wide Charged Shot
+            {
+                stats.expMod *= 1.45;
+            }
+            else if(skillVal == 20) //Long Wyvernsfire
+            {
+                stats.expMod *= 1.2;
+            }
+            else if(skillVal == 21) //Normal Full Burst
+            {
+                stats.expMod *= 1.1;
+            }
+            else if(skillVal == 22) //Wide Full Burst
+            {
+                stats.expMod *= 0.85;
+            }
             else
             {
                 return false;
@@ -3826,6 +4032,11 @@ namespace MHXXDamageCalc
             else if (skillVal == 15) //Coating Boost 'Sta'
             {
                 stats.staMod *= 1.20;
+            }
+            else if(skillVal == 16)
+            {
+                stats.KOPower += 4;
+                stats.exhaustPower += 8;
             }
 
             else
@@ -4701,7 +4912,7 @@ namespace MHXXDamageCalc
                 }
                 else
                 {
-                    paraAffinity.Text = (affinity * -1).ToString();
+                    paraAffinity.Text = affinity.ToString();
                 }
             }
 
@@ -4718,7 +4929,6 @@ namespace MHXXDamageCalc
             paraMonStatus.SelectedItem = stats.monsterStatus;
             paraHealth.Text = stats.health.ToString();
             paraQuestMod.Text = stats.questMod.ToString();
-            paraExhMod.Text = stats.exhaustMod.ToString();
 
             paraGRank.Checked = stats.GRank;
         }
@@ -5856,7 +6066,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "5";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 5;
-                moveInheritValue.Text = (5 * weaponRaw * 0.38).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.38).ToString();
             }
             else if (text == "Dragon Lv 1 (Individual Hits)")
             {
@@ -5877,7 +6087,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "5";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 5;
-                moveInheritValue.Text = (5 * weaponRaw * 0.45).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
             }
             else if (text == "Dragon Lv 2 (Individual Hit)")
             {
@@ -5891,7 +6101,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "6";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 1;
-                moveInheritValue.Text = (3 * weaponRaw * 0.19).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.19).ToString();
             }
             else if (text == "P. Element Lv 1 (Individual Hit)")
             {
@@ -5905,7 +6115,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "15";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 1;
-                moveInheritValue.Text = (5 * weaponRaw * 0.21).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.21).ToString();
             }
             else if (text == "P. Element Lv 2 (Individual Hit)")
             {
@@ -5919,7 +6129,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "21";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 1;
-                moveInheritValue.Text = (3 * weaponRaw * 0.42).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.42).ToString();
             }
             else if (text == "RF Element Lv 1 (x3 1 Hit)")
             {
@@ -5933,7 +6143,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "28";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 1;
-                moveInheritValue.Text = (4 * weaponRaw * 0.42).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.42).ToString();
             }
             else if (text == "RF Element Lv 1 (x4 1 Hit)")
             {
@@ -5947,7 +6157,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "10";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 5;
-                moveInheritValue.Text = (10 * weaponRaw * 0.38).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.38).ToString();
             }
             else if (text == "RF Dragon Lv 1 (1 Hit)")
             {
@@ -5961,7 +6171,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "21";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 1;
-                moveInheritValue.Text = (3 * weaponRaw * 0.55).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.55).ToString();
             }
             else if (text == "RF Element Lv 2 (1 Hit)")
             {
@@ -5975,7 +6185,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "10";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 5;
-                moveInheritValue.Text = (10 * weaponRaw * 0.45).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
             }
             else if (text == "RF Dragon Lv 2 (1 Hit)")
             {
@@ -5989,7 +6199,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "18";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 1;
-                moveInheritValue.Text = (9 * weaponRaw * 0.19).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.19).ToString();
             }
             else if (text == "RF P.Element Lv 1 (1 Hit)")
             {
@@ -6003,7 +6213,7 @@ namespace MHXXDamageCalc
                 moveMV.Text = "45";
                 double weaponRaw = double.Parse(weapRaw.Text);
                 moveInherit.SelectedIndex = 1;
-                moveInheritValue.Text = (15 * weaponRaw * 0.21).ToString();
+                moveInheritValue.Text = (weaponRaw * 0.21).ToString();
             }
             else if (text == "RF P.Element Lv 2 (1 Hit)")
             {
@@ -6012,14 +6222,288 @@ namespace MHXXDamageCalc
                 moveInherit.SelectedIndex = 1;
                 moveInheritValue.Text = (weaponRaw * 0.21).ToString();
             }
+
+            else if (text == "Element Lv 1 (Gen)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
+            }
+            else if (text == "Dragon Lv 1 (Gen)")
+            {
+                moveMV.Text = "5";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.40).ToString();
+            }
+            else if (text == "Dragon Lv 1 (Individual Gen)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.40).ToString();
+            }
+            else if (text == "Element Lv 2 (Gen)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.58).ToString();
+            }
+            else if (text == "Dragon Lv 2 (Gen)")
+            {
+                moveMV.Text = "5";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.48).ToString();
+            }
+            else if (text == "Dragon Lv 2 (Individual Gen)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.48).ToString();
+            }
+            else if (text == "P. Element Lv 1 (Gen)")
+            {
+                moveMV.Text = "6";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.20).ToString();
+            }
+            else if (text == "P. Element Lv 1 (Individual Gen)")
+            {
+                moveMV.Text = "2";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.20).ToString();
+            }
+            else if (text == "P. Element Lv 2 (Gen)")
+            {
+                moveMV.Text = "15";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.23).ToString();
+            }
+            else if (text == "P. Element Lv 2 (Individual Gen)")
+            {
+                moveMV.Text = "3";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.23).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x3 Gen)")
+            {
+                moveMV.Text = "21";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x3 1 Hit Gen)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x4 Gen)")
+            {
+                moveMV.Text = "28";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
+            }
+            else if (text == "RF Element Lv 1 (x4 1 Hit Gen)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.45).ToString();
+            }
+            else if (text == "RF Dragon Lv 1 (Gen)")
+            {
+                moveMV.Text = "10";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.40).ToString();
+            }
+            else if (text == "RF Dragon Lv 1 (1 Hit Gen)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.40).ToString();
+            }
+            else if (text == "RF Element Lv 2 (Gen)")
+            {
+                moveMV.Text = "21";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.58).ToString();
+            }
+            else if (text == "RF Element Lv 2 (1 Hit Gen)")
+            {
+                moveMV.Text = "7";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.58).ToString();
+            }
+            else if (text == "RF Dragon Lv 2 (Gen)")
+            {
+                moveMV.Text = "10";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.48).ToString();
+            }
+            else if (text == "RF Dragon Lv 2 (1 Hit Gen)")
+            {
+                moveMV.Text = "1";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 5;
+                moveInheritValue.Text = (weaponRaw * 0.48).ToString();
+            }
+            else if (text == "RF P.Element Lv 1 (Gen)")
+            {
+                moveMV.Text = "18";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.20).ToString();
+            }
+            else if (text == "RF P.Element Lv 1 (1 Hit Gen)")
+            {
+                moveMV.Text = "2";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.20).ToString();
+            }
+            else if (text == "RF P.Element Lv 2 (Gen)")
+            {
+                moveMV.Text = "45";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.23).ToString();
+            }
+            else if (text == "RF P.Element Lv 2 (1 Hit Gen)")
+            {
+                moveMV.Text = "3";
+                double weaponRaw = double.Parse(weapRaw.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponRaw * 0.23).ToString();
+            }
         }
 
-        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        private void CalculateStatus()
         {
-            if(modGlossary.SelectedNode.Tag != null)
+            int hitCount = int.Parse(staHitCount.Text);
+            if (hitCount == 0)
             {
-                modDetails.Text = ((string)modGlossary.SelectedNode.Tag).Replace("\\n", Environment.NewLine);
+                hitCount = 1;
             }
+            int status = int.Parse(staPower.Text);
+            if(status == 0)
+            {
+                staPrint.Text = "Status damage dealt is 0.";
+                return;
+            }
+            double initThreshold = int.Parse(staInit.Text);
+            double incThreshold = int.Parse(staInc.Text);
+            double maxThreshold = int.Parse(staMax.Text);
+            double statusPerHit;
+            double statusTotal;
+            int hitsToInitThreshold;
+            int hitsToIncThreshold;
+            int hitsToMaxThreshold;
+
+            string statusType = staType.Text;
+            if (statusType == "KO")
+            {
+                double KOZone = double.Parse(staKOZone.Text) / 100;
+                statusPerHit = Math.Floor(status * KOZone);
+                statusTotal = statusPerHit * hitCount;
+
+                initThreshold *= double.Parse(staKOMod.Text);
+                incThreshold *= double.Parse(staKOMod.Text);
+                maxThreshold *= double.Parse(staKOMod.Text);
+            }
+            else if (statusType == "Exhaust")
+            {
+                double exhZone = double.Parse(staExhZone.Text) / 100;
+                statusPerHit = Math.Floor(status * exhZone);
+                statusTotal = statusPerHit * hitCount;
+
+                initThreshold *= double.Parse(staExhMod.Text);
+                incThreshold *= double.Parse(staExhMod.Text);
+                maxThreshold *= double.Parse(staExhMod.Text);
+            }
+            else
+            {
+                double affinity = double.Parse(staAffinity.Text) / 100;
+                statusPerHit = Math.Floor(status * (1 + affinity * 0.2));
+                statusTotal = statusPerHit * hitCount;
+            }
+
+            hitsToInitThreshold = (int)Math.Ceiling(initThreshold / statusTotal);
+            hitsToIncThreshold = (int)Math.Ceiling(incThreshold / statusTotal);
+            hitsToMaxThreshold = (int)Math.Ceiling(maxThreshold / statusTotal);
+
+            statusPrintOut(statusPerHit, statusTotal, hitsToInitThreshold, hitsToIncThreshold, hitsToMaxThreshold);
+        }
+
+        private void statusPrintOut(double statusPerHit, double statusTotal, int hitsToInitThreshold, int hitsToIncThreshold, int hitsToMaxThreshold)
+        {
+            staPrint.Clear();
+            if (statusPerHit == 0)
+            {
+                staPrint.AppendText("No status damage was dealt in this situation.");
+                return;
+            }
+
+            string[] formatArray = new string[] { statusPerHit.ToString(), statusTotal.ToString() };
+            string formatString = String.Format("This attack will deal {1} status damage ({0} per hit)." + Environment.NewLine, formatArray);
+            staPrint.AppendText(formatString);
+
+            if(hitsToIncThreshold == 0 && hitsToInitThreshold == 0 && hitsToMaxThreshold == 0)
+            {
+                staPrint.AppendText("This monster cannot be affected by this status.");
+                return;
+            }
+
+            formatArray = new string[] { hitsToInitThreshold.ToString(), hitsToIncThreshold.ToString(), hitsToMaxThreshold.ToString() };
+            formatString = String.Format("It will take {0} attacks(s) to get to the initial threshold, taking {1} more attacks(s) each time the threshold is increased. It will take {2} attacks(s) to reach the threshold at maximum.", formatArray);
+            staPrint.AppendText(formatString);
+        }
+
+        private void ExportStatus()
+        {
+            if(stats.statusCrit)
+            {
+                staCritCheck.Checked = true;
+                staAffinity.Text = stats.positiveAffinity.ToString();
+            }
+            else
+            {
+                staCritCheck.Checked = false;
+                staAffinity.Text = "0";
+            }
+            staHitCount.Text = stats.hitCount.ToString();
+            
+            if(isStatus(stats.altDamageType))
+            {
+                staType.SelectedItem = stats.altDamageType;
+                staPower.Text = stats.eleAttackPower.ToString();
+            }
+            else
+            {
+                staType.SelectedIndex = 0;
+                staPower.Text = "0";
+            }
+
+            staKOZone.Text = stats.KOHitzone.ToString();
+            staExhZone.Text = stats.exhaustHitzone.ToString();
+
+            staKOMod.Text = stats.KOMod.ToString();
+            staExhMod.Text = stats.ExhMod.ToString();
         }
     }
 

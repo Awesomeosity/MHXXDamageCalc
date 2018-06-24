@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Adrenaline +2");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Airborne");
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Artillery");
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Attack");
             System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("A", new System.Windows.Forms.TreeNode[] {
             treeNode1,
@@ -506,6 +506,7 @@
             this.columnHeader25 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader26 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.monKOMod = new System.Windows.Forms.TextBox();
             this.monGRank = new System.Windows.Forms.CheckBox();
             this.monStatus = new System.Windows.Forms.ComboBox();
             this.label50 = new System.Windows.Forms.Label();
@@ -549,6 +550,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.modDetails = new System.Windows.Forms.RichTextBox();
             this.modGlossary = new System.Windows.Forms.TreeView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.modList = new System.Windows.Forms.ListView();
@@ -609,8 +611,6 @@
             this.paraGRank = new System.Windows.Forms.CheckBox();
             this.paraQuestMod = new System.Windows.Forms.TextBox();
             this.label66 = new System.Windows.Forms.Label();
-            this.paraExhMod = new System.Windows.Forms.TextBox();
-            this.label65 = new System.Windows.Forms.Label();
             this.paraHealth = new System.Windows.Forms.TextBox();
             this.label64 = new System.Windows.Forms.Label();
             this.paraMonStatus = new System.Windows.Forms.ComboBox();
@@ -669,10 +669,53 @@
             this.paraSharp = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.staReset = new System.Windows.Forms.Button();
+            this.staHitCount = new System.Windows.Forms.TextBox();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.staMax = new System.Windows.Forms.TextBox();
+            this.label92 = new System.Windows.Forms.Label();
+            this.staInc = new System.Windows.Forms.TextBox();
+            this.label91 = new System.Windows.Forms.Label();
+            this.staInit = new System.Windows.Forms.TextBox();
+            this.label90 = new System.Windows.Forms.Label();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.staExhMod = new System.Windows.Forms.TextBox();
+            this.label89 = new System.Windows.Forms.Label();
+            this.staKOMod = new System.Windows.Forms.TextBox();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.staPrint = new System.Windows.Forms.RichTextBox();
+            this.staCalc = new System.Windows.Forms.Button();
+            this.staUpdate = new System.Windows.Forms.Button();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.staExhZone = new System.Windows.Forms.TextBox();
+            this.label85 = new System.Windows.Forms.Label();
+            this.staKOZone = new System.Windows.Forms.TextBox();
+            this.label86 = new System.Windows.Forms.Label();
+            this.staPictOne = new System.Windows.Forms.PictureBox();
+            this.staPower = new System.Windows.Forms.TextBox();
+            this.label82 = new System.Windows.Forms.Label();
+            this.staType = new System.Windows.Forms.ComboBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.staAffinity = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.staCritCheck = new System.Windows.Forms.CheckBox();
+            this.staStatusTable = new System.Windows.Forms.ListView();
+            this.columnHeader38 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader39 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader40 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader41 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.staMonsterList = new System.Windows.Forms.ListView();
+            this.columnHeader34 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader35 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.ErrorPreventer = new System.Windows.Forms.ErrorProvider(this.components);
             this.label52 = new System.Windows.Forms.Label();
-            this.modDetails = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -715,6 +758,13 @@
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.paraElePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.paraSecPict)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.staPictOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -774,7 +824,7 @@
             // weapBow
             // 
             this.weapBow.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapBow.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Bow;
+            this.weapBow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapBow.BackgroundImage")));
             this.weapBow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapBow.Location = new System.Drawing.Point(223, 55);
             this.weapBow.Name = "weapBow";
@@ -787,7 +837,7 @@
             // weapHBG
             // 
             this.weapHBG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapHBG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.HeavyBowgun;
+            this.weapHBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHBG.BackgroundImage")));
             this.weapHBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapHBG.Location = new System.Drawing.Point(187, 55);
             this.weapHBG.Name = "weapHBG";
@@ -800,7 +850,7 @@
             // weapLBG
             // 
             this.weapLBG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapLBG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.LightBowgun;
+            this.weapLBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLBG.BackgroundImage")));
             this.weapLBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapLBG.Location = new System.Drawing.Point(151, 55);
             this.weapLBG.Name = "weapLBG";
@@ -813,7 +863,7 @@
             // weapIG
             // 
             this.weapIG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapIG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.InsectGlaive;
+            this.weapIG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapIG.BackgroundImage")));
             this.weapIG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapIG.Location = new System.Drawing.Point(115, 55);
             this.weapIG.Name = "weapIG";
@@ -826,7 +876,7 @@
             // weapCB
             // 
             this.weapCB.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapCB.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.ChargeBlade;
+            this.weapCB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapCB.BackgroundImage")));
             this.weapCB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapCB.Location = new System.Drawing.Point(79, 55);
             this.weapCB.Name = "weapCB";
@@ -839,7 +889,7 @@
             // weapSA
             // 
             this.weapSA.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapSA.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.SwitchAxe;
+            this.weapSA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSA.BackgroundImage")));
             this.weapSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapSA.Location = new System.Drawing.Point(43, 55);
             this.weapSA.Name = "weapSA";
@@ -852,7 +902,7 @@
             // weapGL
             // 
             this.weapGL.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapGL.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Gunlance;
+            this.weapGL.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapGL.BackgroundImage")));
             this.weapGL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapGL.Location = new System.Drawing.Point(7, 55);
             this.weapGL.Name = "weapGL";
@@ -865,7 +915,7 @@
             // weapLan
             // 
             this.weapLan.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapLan.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Lance;
+            this.weapLan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLan.BackgroundImage")));
             this.weapLan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapLan.Location = new System.Drawing.Point(223, 19);
             this.weapLan.Name = "weapLan";
@@ -878,7 +928,7 @@
             // weapHH
             // 
             this.weapHH.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapHH.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.HuntingHorn;
+            this.weapHH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHH.BackgroundImage")));
             this.weapHH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapHH.Location = new System.Drawing.Point(187, 19);
             this.weapHH.Name = "weapHH";
@@ -891,7 +941,7 @@
             // weapHam
             // 
             this.weapHam.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapHam.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Hammer;
+            this.weapHam.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHam.BackgroundImage")));
             this.weapHam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapHam.Location = new System.Drawing.Point(151, 19);
             this.weapHam.Name = "weapHam";
@@ -904,7 +954,7 @@
             // weapDB
             // 
             this.weapDB.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapDB.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.DualBlades;
+            this.weapDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapDB.BackgroundImage")));
             this.weapDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapDB.Location = new System.Drawing.Point(115, 19);
             this.weapDB.Name = "weapDB";
@@ -917,7 +967,7 @@
             // weapSnS
             // 
             this.weapSnS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapSnS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.SwordAndShield;
+            this.weapSnS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSnS.BackgroundImage")));
             this.weapSnS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapSnS.Location = new System.Drawing.Point(79, 19);
             this.weapSnS.Name = "weapSnS";
@@ -930,7 +980,7 @@
             // weapLS
             // 
             this.weapLS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapLS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.LongSword;
+            this.weapLS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLS.BackgroundImage")));
             this.weapLS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapLS.Location = new System.Drawing.Point(43, 19);
             this.weapLS.Name = "weapLS";
@@ -943,7 +993,7 @@
             // weapGS
             // 
             this.weapGS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapGS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Cut;
+            this.weapGS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapGS.BackgroundImage")));
             this.weapGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapGS.Location = new System.Drawing.Point(7, 19);
             this.weapGS.Name = "weapGS";
@@ -1022,7 +1072,7 @@
             // weapBlast
             // 
             this.weapBlast.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapBlast.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Blast;
+            this.weapBlast.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapBlast.BackgroundImage")));
             this.weapBlast.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapBlast.Location = new System.Drawing.Point(327, 44);
             this.weapBlast.Name = "weapBlast";
@@ -1034,7 +1084,7 @@
             // weapSleep
             // 
             this.weapSleep.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapSleep.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Sleep;
+            this.weapSleep.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSleep.BackgroundImage")));
             this.weapSleep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapSleep.Location = new System.Drawing.Point(291, 44);
             this.weapSleep.Name = "weapSleep";
@@ -1046,7 +1096,7 @@
             // weapPara
             // 
             this.weapPara.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapPara.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Para;
+            this.weapPara.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapPara.BackgroundImage")));
             this.weapPara.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapPara.Location = new System.Drawing.Point(255, 44);
             this.weapPara.Name = "weapPara";
@@ -1058,7 +1108,7 @@
             // weapPoi
             // 
             this.weapPoi.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapPoi.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Poison;
+            this.weapPoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapPoi.BackgroundImage")));
             this.weapPoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapPoi.Location = new System.Drawing.Point(219, 44);
             this.weapPoi.Name = "weapPoi";
@@ -1070,7 +1120,7 @@
             // weapDra
             // 
             this.weapDra.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapDra.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Dragon;
+            this.weapDra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapDra.BackgroundImage")));
             this.weapDra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapDra.Location = new System.Drawing.Point(183, 44);
             this.weapDra.Name = "weapDra";
@@ -1082,7 +1132,7 @@
             // weapIce
             // 
             this.weapIce.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapIce.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Ice;
+            this.weapIce.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapIce.BackgroundImage")));
             this.weapIce.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapIce.Location = new System.Drawing.Point(147, 44);
             this.weapIce.Name = "weapIce";
@@ -1094,7 +1144,7 @@
             // weapThunder
             // 
             this.weapThunder.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapThunder.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Thunder;
+            this.weapThunder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapThunder.BackgroundImage")));
             this.weapThunder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapThunder.Location = new System.Drawing.Point(111, 44);
             this.weapThunder.Name = "weapThunder";
@@ -1106,7 +1156,7 @@
             // weapWater
             // 
             this.weapWater.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapWater.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Water;
+            this.weapWater.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapWater.BackgroundImage")));
             this.weapWater.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapWater.Location = new System.Drawing.Point(75, 44);
             this.weapWater.Name = "weapWater";
@@ -1118,7 +1168,7 @@
             // weapFire
             // 
             this.weapFire.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapFire.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Fire;
+            this.weapFire.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapFire.BackgroundImage")));
             this.weapFire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.weapFire.Location = new System.Drawing.Point(39, 44);
             this.weapFire.Name = "weapFire";
@@ -1676,7 +1726,7 @@
             // moveShot
             // 
             this.moveShot.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveShot.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Shot;
+            this.moveShot.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveShot.BackgroundImage")));
             this.moveShot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveShot.Location = new System.Drawing.Point(445, 19);
             this.moveShot.Name = "moveShot";
@@ -1689,7 +1739,7 @@
             // moveBow
             // 
             this.moveBow.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveBow.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Bow;
+            this.moveBow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveBow.BackgroundImage")));
             this.moveBow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveBow.Location = new System.Drawing.Point(553, 19);
             this.moveBow.Name = "moveBow";
@@ -1702,7 +1752,7 @@
             // moveHBG
             // 
             this.moveHBG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveHBG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.HeavyBowgun;
+            this.moveHBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveHBG.BackgroundImage")));
             this.moveHBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveHBG.Location = new System.Drawing.Point(517, 19);
             this.moveHBG.Name = "moveHBG";
@@ -1715,7 +1765,7 @@
             // moveLBG
             // 
             this.moveLBG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveLBG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.LightBowgun;
+            this.moveLBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveLBG.BackgroundImage")));
             this.moveLBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveLBG.Location = new System.Drawing.Point(481, 19);
             this.moveLBG.Name = "moveLBG";
@@ -1728,7 +1778,7 @@
             // moveIG
             // 
             this.moveIG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveIG.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.InsectGlaive;
+            this.moveIG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveIG.BackgroundImage")));
             this.moveIG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveIG.Location = new System.Drawing.Point(409, 19);
             this.moveIG.Name = "moveIG";
@@ -1741,7 +1791,7 @@
             // moveCB
             // 
             this.moveCB.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveCB.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.ChargeBlade;
+            this.moveCB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveCB.BackgroundImage")));
             this.moveCB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveCB.Location = new System.Drawing.Point(373, 19);
             this.moveCB.Name = "moveCB";
@@ -1754,7 +1804,7 @@
             // moveSA
             // 
             this.moveSA.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveSA.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.SwitchAxe;
+            this.moveSA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveSA.BackgroundImage")));
             this.moveSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveSA.Location = new System.Drawing.Point(337, 19);
             this.moveSA.Name = "moveSA";
@@ -1767,7 +1817,7 @@
             // moveGL
             // 
             this.moveGL.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveGL.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Gunlance;
+            this.moveGL.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveGL.BackgroundImage")));
             this.moveGL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveGL.Location = new System.Drawing.Point(301, 19);
             this.moveGL.Name = "moveGL";
@@ -1780,7 +1830,7 @@
             // moveLance
             // 
             this.moveLance.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveLance.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Lance;
+            this.moveLance.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveLance.BackgroundImage")));
             this.moveLance.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveLance.Location = new System.Drawing.Point(265, 19);
             this.moveLance.Name = "moveLance";
@@ -1793,7 +1843,7 @@
             // moveHH
             // 
             this.moveHH.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveHH.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.HuntingHorn;
+            this.moveHH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveHH.BackgroundImage")));
             this.moveHH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveHH.Location = new System.Drawing.Point(229, 19);
             this.moveHH.Name = "moveHH";
@@ -1806,7 +1856,7 @@
             // moveHammer
             // 
             this.moveHammer.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveHammer.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Hammer;
+            this.moveHammer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveHammer.BackgroundImage")));
             this.moveHammer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveHammer.Location = new System.Drawing.Point(193, 19);
             this.moveHammer.Name = "moveHammer";
@@ -1819,7 +1869,7 @@
             // moveDB
             // 
             this.moveDB.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveDB.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.DualBlades;
+            this.moveDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveDB.BackgroundImage")));
             this.moveDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveDB.Location = new System.Drawing.Point(157, 19);
             this.moveDB.Name = "moveDB";
@@ -1832,7 +1882,7 @@
             // moveSnS
             // 
             this.moveSnS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveSnS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.SwordAndShield;
+            this.moveSnS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveSnS.BackgroundImage")));
             this.moveSnS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveSnS.Location = new System.Drawing.Point(121, 19);
             this.moveSnS.Name = "moveSnS";
@@ -1845,7 +1895,7 @@
             // moveLS
             // 
             this.moveLS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveLS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.LongSword;
+            this.moveLS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveLS.BackgroundImage")));
             this.moveLS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveLS.Location = new System.Drawing.Point(85, 19);
             this.moveLS.Name = "moveLS";
@@ -1858,7 +1908,7 @@
             // moveGS
             // 
             this.moveGS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.moveGS.BackgroundImage = global::MHXXDamageCalc.Properties.Resources.Cut;
+            this.moveGS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveGS.BackgroundImage")));
             this.moveGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveGS.Location = new System.Drawing.Point(49, 19);
             this.moveGS.Name = "moveGS";
@@ -1914,7 +1964,7 @@
             // 
             // moveInheritPict
             // 
-            this.moveInheritPict.Location = new System.Drawing.Point(206, 249);
+            this.moveInheritPict.Location = new System.Drawing.Point(206, 268);
             this.moveInheritPict.Name = "moveInheritPict";
             this.moveInheritPict.Size = new System.Drawing.Size(20, 20);
             this.moveInheritPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1924,7 +1974,7 @@
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(7, 252);
+            this.label53.Location = new System.Drawing.Point(7, 271);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(78, 13);
             this.label53.TabIndex = 36;
@@ -1933,7 +1983,7 @@
             // moveInheritValue
             // 
             this.moveInheritValue.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.moveInheritValue.Location = new System.Drawing.Point(126, 249);
+            this.moveInheritValue.Location = new System.Drawing.Point(126, 268);
             this.moveInheritValue.Name = "moveInheritValue";
             this.moveInheritValue.Size = new System.Drawing.Size(75, 20);
             this.moveInheritValue.TabIndex = 35;
@@ -1957,7 +2007,7 @@
             "Para",
             "Sleep",
             "Blast"});
-            this.moveInherit.Location = new System.Drawing.Point(126, 222);
+            this.moveInherit.Location = new System.Drawing.Point(126, 241);
             this.moveInherit.Name = "moveInherit";
             this.moveInherit.Size = new System.Drawing.Size(100, 21);
             this.moveInherit.TabIndex = 35;
@@ -1966,7 +2016,7 @@
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(7, 225);
+            this.label51.Location = new System.Drawing.Point(7, 244);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(78, 13);
             this.label51.TabIndex = 33;
@@ -1983,7 +2033,7 @@
             // 
             // moveExhPict
             // 
-            this.moveExhPict.Image = global::MHXXDamageCalc.Properties.Resources.Exhaust;
+            this.moveExhPict.Image = ((System.Drawing.Image)(resources.GetObject("moveExhPict.Image")));
             this.moveExhPict.Location = new System.Drawing.Point(206, 196);
             this.moveExhPict.Name = "moveExhPict";
             this.moveExhPict.Size = new System.Drawing.Size(20, 20);
@@ -1993,7 +2043,7 @@
             // 
             // moveKOPict
             // 
-            this.moveKOPict.Image = global::MHXXDamageCalc.Properties.Resources.KO;
+            this.moveKOPict.Image = ((System.Drawing.Image)(resources.GetObject("moveKOPict.Image")));
             this.moveKOPict.Location = new System.Drawing.Point(206, 170);
             this.moveKOPict.Name = "moveKOPict";
             this.moveKOPict.Size = new System.Drawing.Size(20, 20);
@@ -2212,7 +2262,7 @@
             // columnHeader15
             // 
             this.columnHeader15.Text = "Monster";
-            this.columnHeader15.Width = 190;
+            this.columnHeader15.Width = 170;
             // 
             // groupBox10
             // 
@@ -2373,6 +2423,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.monKOMod);
             this.groupBox3.Controls.Add(this.monGRank);
             this.groupBox3.Controls.Add(this.monStatus);
             this.groupBox3.Controls.Add(this.label50);
@@ -2421,6 +2472,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Monster Stats";
             // 
+            // monKOMod
+            // 
+            this.monKOMod.Location = new System.Drawing.Point(523, 68);
+            this.monKOMod.Name = "monKOMod";
+            this.monKOMod.Size = new System.Drawing.Size(48, 20);
+            this.monKOMod.TabIndex = 50;
+            this.monKOMod.Text = "1.0";
+            this.monKOMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // monGRank
             // 
             this.monGRank.AutoSize = true;
@@ -2467,9 +2527,9 @@
             // 
             // monExhaustMod
             // 
-            this.monExhaustMod.Location = new System.Drawing.Point(523, 68);
+            this.monExhaustMod.Location = new System.Drawing.Point(576, 68);
             this.monExhaustMod.Name = "monExhaustMod";
-            this.monExhaustMod.Size = new System.Drawing.Size(101, 20);
+            this.monExhaustMod.Size = new System.Drawing.Size(48, 20);
             this.monExhaustMod.TabIndex = 44;
             this.monExhaustMod.Text = "1.0";
             this.monExhaustMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -2497,9 +2557,9 @@
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(429, 71);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(72, 13);
+            this.label34.Size = new System.Drawing.Size(92, 13);
             this.label34.TabIndex = 41;
-            this.label34.Text = "Exhaust Mod:";
+            this.label34.Text = "KO/Exhaust Mod:";
             // 
             // label33
             // 
@@ -2529,7 +2589,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::MHXXDamageCalc.Properties.Resources.Dragon;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(383, 120);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(20, 20);
@@ -2539,7 +2599,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::MHXXDamageCalc.Properties.Resources.Ice;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(383, 94);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(20, 20);
@@ -2549,7 +2609,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::MHXXDamageCalc.Properties.Resources.Thunder;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(383, 68);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(20, 20);
@@ -2559,7 +2619,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = global::MHXXDamageCalc.Properties.Resources.Water;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
             this.pictureBox11.Location = new System.Drawing.Point(383, 42);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(20, 20);
@@ -2569,7 +2629,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::MHXXDamageCalc.Properties.Resources.Fire;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.Location = new System.Drawing.Point(383, 16);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(20, 20);
@@ -2624,7 +2684,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::MHXXDamageCalc.Properties.Resources.Exhaust;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(182, 120);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(20, 20);
@@ -2634,7 +2694,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::MHXXDamageCalc.Properties.Resources.KO;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(182, 94);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(20, 20);
@@ -2644,7 +2704,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::MHXXDamageCalc.Properties.Resources.Shot;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(182, 68);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(20, 20);
@@ -2654,7 +2714,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::MHXXDamageCalc.Properties.Resources.Impact;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(182, 42);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(20, 20);
@@ -2664,7 +2724,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::MHXXDamageCalc.Properties.Resources.Cut;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(182, 15);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(20, 20);
@@ -2829,6 +2889,16 @@
             this.groupBox7.TabIndex = 5;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Glossary";
+            // 
+            // modDetails
+            // 
+            this.modDetails.BackColor = System.Drawing.SystemColors.Control;
+            this.modDetails.Location = new System.Drawing.Point(195, 19);
+            this.modDetails.Name = "modDetails";
+            this.modDetails.ReadOnly = true;
+            this.modDetails.Size = new System.Drawing.Size(368, 373);
+            this.modDetails.TabIndex = 2;
+            this.modDetails.Text = "";
             // 
             // modGlossary
             // 
@@ -3671,7 +3741,7 @@
             // 
             // calcExhPict
             // 
-            this.calcExhPict.Image = global::MHXXDamageCalc.Properties.Resources.Exhaust;
+            this.calcExhPict.Image = ((System.Drawing.Image)(resources.GetObject("calcExhPict.Image")));
             this.calcExhPict.Location = new System.Drawing.Point(825, 104);
             this.calcExhPict.Name = "calcExhPict";
             this.calcExhPict.Size = new System.Drawing.Size(20, 20);
@@ -3681,7 +3751,7 @@
             // 
             // calcKOPict
             // 
-            this.calcKOPict.Image = global::MHXXDamageCalc.Properties.Resources.KO;
+            this.calcKOPict.Image = ((System.Drawing.Image)(resources.GetObject("calcKOPict.Image")));
             this.calcKOPict.Location = new System.Drawing.Point(826, 65);
             this.calcKOPict.Name = "calcKOPict";
             this.calcKOPict.Size = new System.Drawing.Size(20, 20);
@@ -3995,8 +4065,6 @@
             this.groupBox6.Controls.Add(this.paraGRank);
             this.groupBox6.Controls.Add(this.paraQuestMod);
             this.groupBox6.Controls.Add(this.label66);
-            this.groupBox6.Controls.Add(this.paraExhMod);
-            this.groupBox6.Controls.Add(this.label65);
             this.groupBox6.Controls.Add(this.paraHealth);
             this.groupBox6.Controls.Add(this.label64);
             this.groupBox6.Controls.Add(this.paraMonStatus);
@@ -4047,26 +4115,6 @@
             this.label66.Size = new System.Drawing.Size(62, 13);
             this.label66.TabIndex = 65;
             this.label66.Text = "Quest Mod:";
-            // 
-            // paraExhMod
-            // 
-            this.paraExhMod.Location = new System.Drawing.Point(221, 164);
-            this.paraExhMod.Name = "paraExhMod";
-            this.paraExhMod.Size = new System.Drawing.Size(100, 20);
-            this.paraExhMod.TabIndex = 24;
-            this.paraExhMod.Text = "1.0";
-            this.paraExhMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.paraExhMod.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
-            this.paraExhMod.Validated += new System.EventHandler(this.GenericField_Validated);
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(218, 148);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(72, 13);
-            this.label65.TabIndex = 63;
-            this.label65.Text = "Exhaust Mod:";
             // 
             // paraHealth
             // 
@@ -4728,12 +4776,480 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.groupBox11);
+            this.tabPage3.Controls.Add(this.staMonsterList);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(884, 410);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Status";
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.staReset);
+            this.groupBox11.Controls.Add(this.staHitCount);
+            this.groupBox11.Controls.Add(this.label83);
+            this.groupBox11.Controls.Add(this.label94);
+            this.groupBox11.Controls.Add(this.label93);
+            this.groupBox11.Controls.Add(this.staMax);
+            this.groupBox11.Controls.Add(this.label92);
+            this.groupBox11.Controls.Add(this.staInc);
+            this.groupBox11.Controls.Add(this.label91);
+            this.groupBox11.Controls.Add(this.staInit);
+            this.groupBox11.Controls.Add(this.label90);
+            this.groupBox11.Controls.Add(this.pictureBox15);
+            this.groupBox11.Controls.Add(this.pictureBox16);
+            this.groupBox11.Controls.Add(this.staExhMod);
+            this.groupBox11.Controls.Add(this.label89);
+            this.groupBox11.Controls.Add(this.staKOMod);
+            this.groupBox11.Controls.Add(this.label88);
+            this.groupBox11.Controls.Add(this.label87);
+            this.groupBox11.Controls.Add(this.staPrint);
+            this.groupBox11.Controls.Add(this.staCalc);
+            this.groupBox11.Controls.Add(this.staUpdate);
+            this.groupBox11.Controls.Add(this.pictureBox13);
+            this.groupBox11.Controls.Add(this.pictureBox14);
+            this.groupBox11.Controls.Add(this.staExhZone);
+            this.groupBox11.Controls.Add(this.label85);
+            this.groupBox11.Controls.Add(this.staKOZone);
+            this.groupBox11.Controls.Add(this.label86);
+            this.groupBox11.Controls.Add(this.staPictOne);
+            this.groupBox11.Controls.Add(this.staPower);
+            this.groupBox11.Controls.Add(this.label82);
+            this.groupBox11.Controls.Add(this.staType);
+            this.groupBox11.Controls.Add(this.label65);
+            this.groupBox11.Controls.Add(this.staAffinity);
+            this.groupBox11.Controls.Add(this.label13);
+            this.groupBox11.Controls.Add(this.staCritCheck);
+            this.groupBox11.Controls.Add(this.staStatusTable);
+            this.groupBox11.Location = new System.Drawing.Point(240, 7);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(638, 397);
+            this.groupBox11.TabIndex = 20;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Status";
+            // 
+            // staReset
+            // 
+            this.staReset.Location = new System.Drawing.Point(7, 64);
+            this.staReset.Name = "staReset";
+            this.staReset.Size = new System.Drawing.Size(106, 39);
+            this.staReset.TabIndex = 65;
+            this.staReset.Text = "Reset Section";
+            this.staReset.UseVisualStyleBackColor = true;
+            this.staReset.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // staHitCount
+            // 
+            this.staHitCount.Location = new System.Drawing.Point(204, 38);
+            this.staHitCount.Name = "staHitCount";
+            this.staHitCount.Size = new System.Drawing.Size(100, 20);
+            this.staHitCount.TabIndex = 64;
+            this.staHitCount.Text = "0";
+            this.staHitCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staHitCount.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
+            this.staHitCount.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(201, 22);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(54, 13);
+            this.label83.TabIndex = 63;
+            this.label83.Text = "Hit Count:";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(289, 80);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(15, 13);
+            this.label94.TabIndex = 62;
+            this.label94.Text = "%";
+            // 
+            // label93
+            // 
+            this.label93.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label93.Location = new System.Drawing.Point(7, 108);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(629, 2);
+            this.label93.TabIndex = 61;
+            // 
+            // staMax
+            // 
+            this.staMax.Location = new System.Drawing.Point(313, 227);
+            this.staMax.Name = "staMax";
+            this.staMax.Size = new System.Drawing.Size(100, 20);
+            this.staMax.TabIndex = 57;
+            this.staMax.Text = "0";
+            this.staMax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staMax.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
+            this.staMax.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(310, 211);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(104, 13);
+            this.label92.TabIndex = 56;
+            this.label92.Text = "Maximum Threshold:";
+            // 
+            // staInc
+            // 
+            this.staInc.Location = new System.Drawing.Point(313, 185);
+            this.staInc.Name = "staInc";
+            this.staInc.Size = new System.Drawing.Size(100, 20);
+            this.staInc.TabIndex = 55;
+            this.staInc.Text = "0";
+            this.staInc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staInc.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
+            this.staInc.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(310, 169);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(109, 13);
+            this.label91.TabIndex = 54;
+            this.label91.Text = "Increasing Threshold:";
+            // 
+            // staInit
+            // 
+            this.staInit.Location = new System.Drawing.Point(313, 140);
+            this.staInit.Name = "staInit";
+            this.staInit.Size = new System.Drawing.Size(100, 20);
+            this.staInit.TabIndex = 53;
+            this.staInit.Text = "0";
+            this.staInit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staInit.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
+            this.staInit.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Location = new System.Drawing.Point(310, 124);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(84, 13);
+            this.label90.TabIndex = 52;
+            this.label90.Text = "Initial Threshold:";
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(610, 184);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 51;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
+            this.pictureBox16.Location = new System.Drawing.Point(610, 142);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 50;
+            this.pictureBox16.TabStop = false;
+            // 
+            // staExhMod
+            // 
+            this.staExhMod.Location = new System.Drawing.Point(504, 184);
+            this.staExhMod.Name = "staExhMod";
+            this.staExhMod.Size = new System.Drawing.Size(100, 20);
+            this.staExhMod.TabIndex = 49;
+            this.staExhMod.Text = "1.0";
+            this.staExhMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staExhMod.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.staExhMod.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(501, 168);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(72, 13);
+            this.label89.TabIndex = 48;
+            this.label89.Text = "Exhaust Mod:";
+            // 
+            // staKOMod
+            // 
+            this.staKOMod.Location = new System.Drawing.Point(504, 140);
+            this.staKOMod.Name = "staKOMod";
+            this.staKOMod.Size = new System.Drawing.Size(100, 20);
+            this.staKOMod.TabIndex = 47;
+            this.staKOMod.Text = "1.0";
+            this.staKOMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staKOMod.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.staKOMod.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(501, 123);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(49, 13);
+            this.label88.TabIndex = 46;
+            this.label88.Text = "KO Mod:";
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(6, 331);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(627, 52);
+            this.label87.TabIndex = 45;
+            this.label87.Text = resources.GetString("label87.Text");
+            // 
+            // staPrint
+            // 
+            this.staPrint.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.staPrint.Location = new System.Drawing.Point(6, 260);
+            this.staPrint.Name = "staPrint";
+            this.staPrint.ReadOnly = true;
+            this.staPrint.Size = new System.Drawing.Size(623, 68);
+            this.staPrint.TabIndex = 44;
+            this.staPrint.Text = "";
+            // 
+            // staCalc
+            // 
+            this.staCalc.Location = new System.Drawing.Point(504, 210);
+            this.staCalc.Name = "staCalc";
+            this.staCalc.Size = new System.Drawing.Size(125, 37);
+            this.staCalc.TabIndex = 43;
+            this.staCalc.Text = "Calculate";
+            this.staCalc.UseVisualStyleBackColor = true;
+            this.staCalc.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // staUpdate
+            // 
+            this.staUpdate.Location = new System.Drawing.Point(6, 19);
+            this.staUpdate.Name = "staUpdate";
+            this.staUpdate.Size = new System.Drawing.Size(107, 39);
+            this.staUpdate.TabIndex = 42;
+            this.staUpdate.Text = "Update Parameters";
+            this.staUpdate.UseVisualStyleBackColor = true;
+            this.staUpdate.Click += new System.EventHandler(this.staUpdate_Click);
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(610, 76);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 41;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(610, 34);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 40;
+            this.pictureBox14.TabStop = false;
+            // 
+            // staExhZone
+            // 
+            this.staExhZone.Location = new System.Drawing.Point(504, 77);
+            this.staExhZone.Name = "staExhZone";
+            this.staExhZone.Size = new System.Drawing.Size(100, 20);
+            this.staExhZone.TabIndex = 39;
+            this.staExhZone.Text = "0";
+            this.staExhZone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staExhZone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
+            this.staExhZone.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(501, 60);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(87, 13);
+            this.label85.TabIndex = 38;
+            this.label85.Text = "Exhaust Hitzone:";
+            // 
+            // staKOZone
+            // 
+            this.staKOZone.Location = new System.Drawing.Point(504, 34);
+            this.staKOZone.Name = "staKOZone";
+            this.staKOZone.Size = new System.Drawing.Size(100, 20);
+            this.staKOZone.TabIndex = 37;
+            this.staKOZone.Text = "0";
+            this.staKOZone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staKOZone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
+            this.staKOZone.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(501, 18);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(64, 13);
+            this.label86.TabIndex = 36;
+            this.label86.Text = "KO Hitzone:";
+            // 
+            // staPictOne
+            // 
+            this.staPictOne.Location = new System.Drawing.Point(420, 77);
+            this.staPictOne.Name = "staPictOne";
+            this.staPictOne.Size = new System.Drawing.Size(20, 20);
+            this.staPictOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.staPictOne.TabIndex = 34;
+            this.staPictOne.TabStop = false;
+            // 
+            // staPower
+            // 
+            this.staPower.Location = new System.Drawing.Point(313, 77);
+            this.staPower.Name = "staPower";
+            this.staPower.Size = new System.Drawing.Size(100, 20);
+            this.staPower.TabIndex = 29;
+            this.staPower.Text = "0";
+            this.staPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staPower.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
+            this.staPower.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(310, 61);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(96, 13);
+            this.label82.TabIndex = 28;
+            this.label82.Text = "Sta. Attack Power:";
+            // 
+            // staType
+            // 
+            this.staType.Cursor = System.Windows.Forms.Cursors.Default;
+            this.staType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.staType.FormattingEnabled = true;
+            this.staType.Items.AddRange(new object[] {
+            "(No Status)",
+            "Poison",
+            "Para",
+            "Sleep",
+            "Blast",
+            "KO",
+            "Exhaust"});
+            this.staType.Location = new System.Drawing.Point(313, 33);
+            this.staType.Name = "staType";
+            this.staType.Size = new System.Drawing.Size(100, 21);
+            this.staType.TabIndex = 27;
+            this.staType.SelectedIndexChanged += new System.EventHandler(this.staType_SelectedIndexChanged);
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(310, 17);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(67, 13);
+            this.label65.TabIndex = 26;
+            this.label65.Text = "Status Type:";
+            // 
+            // staAffinity
+            // 
+            this.staAffinity.Enabled = false;
+            this.staAffinity.Location = new System.Drawing.Point(204, 77);
+            this.staAffinity.Name = "staAffinity";
+            this.staAffinity.Size = new System.Drawing.Size(80, 20);
+            this.staAffinity.TabIndex = 25;
+            this.staAffinity.Text = "0";
+            this.staAffinity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.staAffinity.Validating += new System.ComponentModel.CancelEventHandler(this.PositiveAffinityField_Validating);
+            this.staAffinity.Validated += new System.EventHandler(this.GenericField_Validated);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(202, 61);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(41, 13);
+            this.label13.TabIndex = 24;
+            this.label13.Text = "Affinity:";
+            // 
+            // staCritCheck
+            // 
+            this.staCritCheck.AutoSize = true;
+            this.staCritCheck.Location = new System.Drawing.Point(118, 79);
+            this.staCritCheck.Name = "staCritCheck";
+            this.staCritCheck.Size = new System.Drawing.Size(80, 17);
+            this.staCritCheck.TabIndex = 23;
+            this.staCritCheck.Text = "Status Crit?";
+            this.staCritCheck.UseVisualStyleBackColor = true;
+            this.staCritCheck.CheckedChanged += new System.EventHandler(this.staCritCheck_CheckedChanged);
+            // 
+            // staStatusTable
+            // 
+            this.staStatusTable.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader38,
+            this.columnHeader39,
+            this.columnHeader40,
+            this.columnHeader41});
+            this.staStatusTable.FullRowSelect = true;
+            this.staStatusTable.GridLines = true;
+            this.staStatusTable.HideSelection = false;
+            this.staStatusTable.Location = new System.Drawing.Point(6, 117);
+            this.staStatusTable.MultiSelect = false;
+            this.staStatusTable.Name = "staStatusTable";
+            this.staStatusTable.Size = new System.Drawing.Size(298, 130);
+            this.staStatusTable.TabIndex = 21;
+            this.staStatusTable.UseCompatibleStateImageBehavior = false;
+            this.staStatusTable.View = System.Windows.Forms.View.Details;
+            this.staStatusTable.SelectedIndexChanged += new System.EventHandler(this.staStatusTable_SelectedIndexChanged);
+            // 
+            // columnHeader38
+            // 
+            this.columnHeader38.Text = "Status";
+            this.columnHeader38.Width = 70;
+            // 
+            // columnHeader39
+            // 
+            this.columnHeader39.Text = "Initial";
+            this.columnHeader39.Width = 70;
+            // 
+            // columnHeader40
+            // 
+            this.columnHeader40.Text = "Increase";
+            this.columnHeader40.Width = 70;
+            // 
+            // columnHeader41
+            // 
+            this.columnHeader41.Text = "Maximum";
+            this.columnHeader41.Width = 70;
+            // 
+            // staMonsterList
+            // 
+            this.staMonsterList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader34,
+            this.columnHeader35});
+            this.staMonsterList.FullRowSelect = true;
+            this.staMonsterList.GridLines = true;
+            this.staMonsterList.HideSelection = false;
+            this.staMonsterList.Location = new System.Drawing.Point(6, 6);
+            this.staMonsterList.MultiSelect = false;
+            this.staMonsterList.Name = "staMonsterList";
+            this.staMonsterList.Size = new System.Drawing.Size(227, 398);
+            this.staMonsterList.TabIndex = 19;
+            this.staMonsterList.UseCompatibleStateImageBehavior = false;
+            this.staMonsterList.View = System.Windows.Forms.View.Details;
+            this.staMonsterList.SelectedIndexChanged += new System.EventHandler(this.staMonsterList_SelectedIndexChanged);
+            // 
+            // columnHeader34
+            // 
+            this.columnHeader34.Text = "ID";
+            this.columnHeader34.Width = 30;
+            // 
+            // columnHeader35
+            // 
+            this.columnHeader35.Text = "Monster";
+            this.columnHeader35.Width = 170;
             // 
             // tabPage4
             // 
@@ -4752,23 +5268,12 @@
             // label52
             // 
             this.label52.AutoSize = true;
+            this.label52.Enabled = false;
             this.label52.Location = new System.Drawing.Point(347, 455);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(553, 26);
+            this.label52.Size = new System.Drawing.Size(553, 104);
             this.label52.TabIndex = 2;
-            this.label52.Text = "NOTE: If you are using this calculator for World purposes, there is no guarantee " +
-    "that this will return accurate values. \r\nAlso ur game is bad and u should feel b" +
-    "ad lol";
-            // 
-            // modDetails
-            // 
-            this.modDetails.BackColor = System.Drawing.SystemColors.Control;
-            this.modDetails.Location = new System.Drawing.Point(195, 19);
-            this.modDetails.Name = "modDetails";
-            this.modDetails.ReadOnly = true;
-            this.modDetails.Size = new System.Drawing.Size(368, 373);
-            this.modDetails.TabIndex = 2;
-            this.modDetails.Text = "";
+            this.label52.Text = resources.GetString("label52.Text");
             // 
             // Form1
             // 
@@ -4779,6 +5284,7 @@
             this.Controls.Add(this.label52);
             this.Controls.Add(this.tabControl1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "(Yet Another) MHGU Damage Calculator Alpha Vers.";
@@ -4832,6 +5338,14 @@
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.paraElePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.paraSecPict)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.staPictOne)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -4897,8 +5411,6 @@
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.TextBox paraQuestMod;
         private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.TextBox paraExhMod;
-        private System.Windows.Forms.Label label65;
         private System.Windows.Forms.TextBox paraHealth;
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.GroupBox groupBox;
@@ -5158,6 +5670,51 @@
         private System.Windows.Forms.ColumnHeader columnHeader26;
         private System.Windows.Forms.TreeView modGlossary;
         private System.Windows.Forms.RichTextBox modDetails;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.ListView staStatusTable;
+        private System.Windows.Forms.ColumnHeader columnHeader38;
+        private System.Windows.Forms.ColumnHeader columnHeader39;
+        private System.Windows.Forms.ColumnHeader columnHeader40;
+        private System.Windows.Forms.ColumnHeader columnHeader41;
+        private System.Windows.Forms.ListView staMonsterList;
+        private System.Windows.Forms.ColumnHeader columnHeader34;
+        private System.Windows.Forms.ColumnHeader columnHeader35;
+        private System.Windows.Forms.TextBox staPower;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.ComboBox staType;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.TextBox staAffinity;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.CheckBox staCritCheck;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.RichTextBox staPrint;
+        private System.Windows.Forms.Button staCalc;
+        private System.Windows.Forms.Button staUpdate;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.TextBox staExhZone;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.TextBox staKOZone;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.PictureBox staPictOne;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.TextBox staMax;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.TextBox staInc;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.TextBox staInit;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.TextBox staExhMod;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.TextBox staKOMod;
+        private System.Windows.Forms.TextBox staHitCount;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Button staReset;
+        private System.Windows.Forms.TextBox monKOMod;
     }
 }
 

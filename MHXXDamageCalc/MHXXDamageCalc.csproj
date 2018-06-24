@@ -158,10 +158,6 @@
     <None Include="bin\Debug\Images\Para.png" />
     <None Include="bin\Debug\Images\Sleep.png" />
     <None Include="bin\Debug\Images\Blast.png" />
-    <Content Include="GreatSword.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="LongSword.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
