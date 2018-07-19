@@ -28,6 +28,9 @@ namespace MHXXDamageCalc
 
         weaponStorage currentWeapons = new weaponStorage();
         List<string> filteredWeapons = new List<string>();
+        List<ListViewItem> allMonsters = new List<ListViewItem>();
+        List<ListViewItem> staMonsters = new List<ListViewItem>();
+
         ListViewColumnSorter weaponColumnSorter;
         ListViewColumnSorter moveColumnSorter;
         ListViewColumnSorter monsterColumnSorter;
@@ -426,8 +429,11 @@ namespace MHXXDamageCalc
                     newItem.SubItems.Add(inputs[1]);
                     ListViewItem otherItem = new ListViewItem(inputs[0]);
                     otherItem.SubItems.Add(inputs[1]);
+                    allMonsters.Add(newItem);
+                    staMonsters.Add(otherItem);
                     monsterList.Items.Add(newItem);
                     staMonsterList.Items.Add(otherItem);
+
                 }
             }
         }
@@ -1305,8 +1311,11 @@ namespace MHXXDamageCalc
                 }
                 else
                 {
-                    weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
-                    weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
+                    if(weaponDetails.Items.ContainsKey(weaponTree.SelectedNode.Name))
+                    {
+                        weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
+                        weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
+                    }
                 }
 
                 fillWeapon(weaponTree.SelectedNode.Name);
@@ -4542,6 +4551,9 @@ namespace MHXXDamageCalc
             double ExhDamage = ExhDam * ExhaustZone;
             bool BounceBool = false;
 
+            double eleDamage = 0;
+            double secDamage = 0;
+
             double bounceTolerance = 0.25;
 
             if (paraGRank.Checked)
@@ -4551,9 +4563,23 @@ namespace MHXXDamageCalc
 
             rawDamage *= monsterStatus[paraMonStatus.SelectedIndex];
 
+            //Quest modifier applies before hitzone consideration. Rounded down.
+            rawDamage *= questMod;
+            rawDamage = Math.Floor(rawDamage);
+            string element = paraAltType.Text;
+            string second = paraSecEle.Text;
+            if(isElement(element))
+            {
+                eleDamage = Math.Floor(calcOutput.Item3 * questMod);
+            }
+            if (isElement(second))
+            {
+                secDamage = Math.Floor(calcOutput.Item4 * questMod);
+            }
+
             if (!paraFixed.Checked)
             {
-                rawDamage *= rawZone * questMod;
+                rawDamage *= rawZone;
 
                 if ((rawZone * double.Parse(paraRawSharp.Text)) > bounceTolerance || paraMinds.Checked)
                 {
@@ -4572,26 +4598,24 @@ namespace MHXXDamageCalc
 
             totaldamage += rawDamage;
 
-            string element = paraAltType.Text;
-            double eleDamage = calcOutput.Item3;
-
             if (isElement(element))
             {
-                eleDamage *= eleZone * questMod;
+                eleDamage *= eleZone;
                 totaldamage += eleDamage;
             }
 
-            string second = paraSecEle.Text;
-            double secDamage = calcOutput.Item4;
+            secDamage = calcOutput.Item4;
 
             if (isElement(second))
             {
-                secDamage *= eleZone * questMod;
+                secDamage *= eleZone;
                 totaldamage += secDamage;
             }
 
             totaldamage = Math.Floor(totaldamage);
+            
             totaldamage *= hitCount;
+
 
             KODamage = Math.Floor(KODamage);
             KODamage *= hitCount;
@@ -6488,7 +6512,7 @@ namespace MHXXDamageCalc
             }
             staHitCount.Text = stats.hitCount.ToString();
             
-            if(isStatus(stats.altDamageType))
+            if(isStatus(stats.altDamageType) || stats.altDamageType == "Blast")
             {
                 staType.SelectedItem = stats.altDamageType;
                 staPower.Text = stats.eleAttackPower.ToString();
@@ -6504,6 +6528,58 @@ namespace MHXXDamageCalc
 
             staKOMod.Text = stats.KOMod.ToString();
             staExhMod.Text = stats.ExhMod.ToString();
+        }
+
+        private void monsterSearch_TextChanged(object sender, EventArgs e)
+        {
+            if(staMonSearch.Text != monsterSearch.Text)
+            {
+                staMonSearch.Text = monsterSearch.Text;
+            }
+            monsterList.Items.Clear();
+            if (monsterSearch.Text != "")
+            {
+                foreach(ListViewItem item in allMonsters)
+                {
+                    if((item.SubItems[1].Text).Contains(monsterSearch.Text) || (item.SubItems[1].Text.ToLower()).Contains(monsterSearch.Text))
+                    {
+                        monsterList.Items.Add(item);
+                    }
+                }
+            }
+            else
+            {
+                foreach(ListViewItem item in allMonsters)
+                {
+                    monsterList.Items.Add(item);
+                }
+            }
+        }
+
+        private void staMonSearch_TextChanged(object sender, EventArgs e)
+        {
+            if (staMonSearch.Text != monsterSearch.Text)
+            {
+                monsterSearch.Text = staMonSearch.Text;
+            }
+            staMonsterList.Items.Clear();
+            if (staMonSearch.Text != "")
+            {
+                foreach (ListViewItem item in staMonsters)
+                {
+                    if ((item.SubItems[1].Text).Contains(staMonSearch.Text) || (item.SubItems[1].Text.ToLower()).Contains(staMonSearch.Text))
+                    {
+                        staMonsterList.Items.Add(item);
+                    }
+                }
+            }
+            else
+            {
+                foreach (ListViewItem item in staMonsters)
+                {
+                    staMonsterList.Items.Add(item);
+                }
+            }
         }
     }
 

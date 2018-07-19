@@ -480,6 +480,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.monsterSearch = new System.Windows.Forms.TextBox();
+            this.label84 = new System.Windows.Forms.Label();
             this.monsterList = new System.Windows.Forms.ListView();
             this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -669,6 +671,8 @@
             this.paraSharp = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.staMonSearch = new System.Windows.Forms.TextBox();
+            this.label95 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.staReset = new System.Windows.Forms.Button();
             this.staHitCount = new System.Windows.Forms.TextBox();
@@ -713,9 +717,10 @@
             this.staMonsterList = new System.Windows.Forms.ListView();
             this.columnHeader34 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader35 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.ErrorPreventer = new System.Windows.Forms.ErrorProvider(this.components);
             this.label52 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -765,6 +770,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.staPictOne)).BeginInit();
+            this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -776,7 +782,7 @@
             this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -2226,6 +2232,8 @@
             // tabPage9
             // 
             this.tabPage9.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage9.Controls.Add(this.monsterSearch);
+            this.tabPage9.Controls.Add(this.label84);
             this.tabPage9.Controls.Add(this.monsterList);
             this.tabPage9.Controls.Add(this.groupBox10);
             this.tabPage9.Controls.Add(this.groupBox3);
@@ -2236,6 +2244,23 @@
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Monster";
             // 
+            // monsterSearch
+            // 
+            this.monsterSearch.Location = new System.Drawing.Point(56, 9);
+            this.monsterSearch.Name = "monsterSearch";
+            this.monsterSearch.Size = new System.Drawing.Size(177, 20);
+            this.monsterSearch.TabIndex = 20;
+            this.monsterSearch.TextChanged += new System.EventHandler(this.monsterSearch_TextChanged);
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Location = new System.Drawing.Point(6, 12);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(44, 13);
+            this.label84.TabIndex = 19;
+            this.label84.Text = "Search:";
+            // 
             // monsterList
             // 
             this.monsterList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -2244,10 +2269,10 @@
             this.monsterList.FullRowSelect = true;
             this.monsterList.GridLines = true;
             this.monsterList.HideSelection = false;
-            this.monsterList.Location = new System.Drawing.Point(6, 6);
+            this.monsterList.Location = new System.Drawing.Point(6, 35);
             this.monsterList.MultiSelect = false;
             this.monsterList.Name = "monsterList";
-            this.monsterList.Size = new System.Drawing.Size(227, 398);
+            this.monsterList.Size = new System.Drawing.Size(227, 369);
             this.monsterList.TabIndex = 18;
             this.monsterList.UseCompatibleStateImageBehavior = false;
             this.monsterList.View = System.Windows.Forms.View.Details;
@@ -4776,6 +4801,8 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.staMonSearch);
+            this.tabPage3.Controls.Add(this.label95);
             this.tabPage3.Controls.Add(this.groupBox11);
             this.tabPage3.Controls.Add(this.staMonsterList);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
@@ -4784,6 +4811,23 @@
             this.tabPage3.Size = new System.Drawing.Size(884, 410);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Status";
+            // 
+            // staMonSearch
+            // 
+            this.staMonSearch.Location = new System.Drawing.Point(56, 9);
+            this.staMonSearch.Name = "staMonSearch";
+            this.staMonSearch.Size = new System.Drawing.Size(177, 20);
+            this.staMonSearch.TabIndex = 22;
+            this.staMonSearch.TextChanged += new System.EventHandler(this.staMonSearch_TextChanged);
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(6, 12);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(44, 13);
+            this.label95.TabIndex = 21;
+            this.label95.Text = "Search:";
             // 
             // groupBox11
             // 
@@ -5232,10 +5276,10 @@
             this.staMonsterList.FullRowSelect = true;
             this.staMonsterList.GridLines = true;
             this.staMonsterList.HideSelection = false;
-            this.staMonsterList.Location = new System.Drawing.Point(6, 6);
+            this.staMonsterList.Location = new System.Drawing.Point(6, 35);
             this.staMonsterList.MultiSelect = false;
             this.staMonsterList.Name = "staMonsterList";
-            this.staMonsterList.Size = new System.Drawing.Size(227, 398);
+            this.staMonsterList.Size = new System.Drawing.Size(227, 369);
             this.staMonsterList.TabIndex = 19;
             this.staMonsterList.UseCompatibleStateImageBehavior = false;
             this.staMonsterList.View = System.Windows.Forms.View.Details;
@@ -5251,15 +5295,16 @@
             this.columnHeader35.Text = "Monster";
             this.columnHeader35.Width = 170;
             // 
-            // tabPage4
+            // tabPage1
             // 
-            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(884, 410);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Combo";
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.Controls.Add(this.listView1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(884, 410);
+            this.tabPage1.TabIndex = 9;
+            this.tabPage1.Text = "History";
             // 
             // ErrorPreventer
             // 
@@ -5274,6 +5319,14 @@
             this.label52.Size = new System.Drawing.Size(553, 104);
             this.label52.TabIndex = 2;
             this.label52.Text = resources.GetString("label52.Text");
+            // 
+            // listView1
+            // 
+            this.listView1.Location = new System.Drawing.Point(7, 4);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(263, 400);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // Form1
             // 
@@ -5306,6 +5359,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.moveExhPict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moveKOPict)).EndInit();
             this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -5339,6 +5393,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.paraElePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.paraSecPict)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
@@ -5346,6 +5401,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.staPictOne)).EndInit();
+            this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ErrorPreventer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -5451,7 +5507,6 @@
         private System.Windows.Forms.PictureBox calcElePict;
         private System.Windows.Forms.PictureBox paraElePict;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.ErrorProvider ErrorPreventer;
         private System.Windows.Forms.TextBox paraAffinity;
         private System.Windows.Forms.CheckBox paraChaotic;
@@ -5715,6 +5770,12 @@
         private System.Windows.Forms.Label label83;
         private System.Windows.Forms.Button staReset;
         private System.Windows.Forms.TextBox monKOMod;
+        private System.Windows.Forms.TextBox monsterSearch;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.TextBox staMonSearch;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 
