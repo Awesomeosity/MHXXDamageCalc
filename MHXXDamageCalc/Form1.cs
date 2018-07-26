@@ -1311,7 +1311,7 @@ namespace MHXXDamageCalc
                 }
                 else
                 {
-                    if(weaponDetails.Items.ContainsKey(weaponTree.SelectedNode.Name))
+                    if (weaponDetails.Items.ContainsKey(weaponTree.SelectedNode.Name))
                     {
                         weaponDetails.Items[weaponTree.SelectedNode.Name].Selected = true;
                         weaponDetails.TopItem = weaponDetails.Items[weaponTree.SelectedNode.Text];
@@ -1558,10 +1558,21 @@ namespace MHXXDamageCalc
         {
             questColumnSorter.SortColumn = 0;
             hitzoneColumnSorter.SortColumn = 0;
+
             if (monsterList.SelectedItems.Count == 0)
             {
                 return;
             }
+
+            if(staMonsterList.SelectedIndices.Count == 0)
+            {
+                staMonsterList.Items[monsterList.SelectedIndices[0]].Selected = true;
+            }
+            else if (monsterList.SelectedIndices[0] != staMonsterList.SelectedIndices[0])
+            {
+                staMonsterList.Items[monsterList.SelectedIndices[0]].Selected = true;
+            }
+
             string monster = monsterList.SelectedItems[0].SubItems[1].Text;
             hitzoneDetails.Items.Clear();
             //Access the respective file for monster hitzones and quests, add their entries to the list views.
@@ -1855,6 +1866,16 @@ namespace MHXXDamageCalc
             {
                 return;
             }
+
+            if (monsterList.SelectedIndices.Count == 0)
+            {
+                monsterList.Items[staMonsterList.SelectedIndices[0]].Selected = true;
+            }
+            else if (monsterList.SelectedIndices[0] != staMonsterList.SelectedIndices[0])
+            {
+                monsterList.Items[staMonsterList.SelectedIndices[0]].Selected = true;
+            }
+
             string monster = staMonsterList.SelectedItems[0].SubItems[1].Text;
             staStatusTable.Items.Clear();
             //Access the respective file for monster hitzones and quests, add their entries to the list views.
@@ -3743,23 +3764,23 @@ namespace MHXXDamageCalc
             {
                 stats.expMod *= 1.1;
             }
-            else if(skillVal == 18) //Normal/Long Charged Shot
+            else if (skillVal == 18) //Normal/Long Charged Shot
             {
                 stats.expMod *= 1.2;
             }
-            else if(skillVal == 19) //Wide Charged Shot
+            else if (skillVal == 19) //Wide Charged Shot
             {
                 stats.expMod *= 1.45;
             }
-            else if(skillVal == 20) //Long Wyvernsfire
+            else if (skillVal == 20) //Long Wyvernsfire
             {
                 stats.expMod *= 1.2;
             }
-            else if(skillVal == 21) //Normal Full Burst
+            else if (skillVal == 21) //Normal Full Burst
             {
                 stats.expMod *= 1.1;
             }
-            else if(skillVal == 22) //Wide Full Burst
+            else if (skillVal == 22) //Wide Full Burst
             {
                 stats.expMod *= 0.85;
             }
@@ -4042,7 +4063,7 @@ namespace MHXXDamageCalc
             {
                 stats.staMod *= 1.20;
             }
-            else if(skillVal == 16)
+            else if (skillVal == 16)
             {
                 stats.KOPower += 4;
                 stats.exhaustPower += 8;
@@ -4568,7 +4589,7 @@ namespace MHXXDamageCalc
             rawDamage = Math.Floor(rawDamage);
             string element = paraAltType.Text;
             string second = paraSecEle.Text;
-            if(isElement(element))
+            if (isElement(element))
             {
                 eleDamage = Math.Floor(calcOutput.Item3 * questMod);
             }
@@ -4613,7 +4634,7 @@ namespace MHXXDamageCalc
             }
 
             totaldamage = Math.Floor(totaldamage);
-            
+
             totaldamage *= hitCount;
 
 
@@ -4790,6 +4811,7 @@ namespace MHXXDamageCalc
 
             stats.questMod = double.Parse(monQuest.Text);
             stats.exhaustMod = double.Parse(monExhaustMod.Text);
+            stats.KOQuestMod = double.Parse(monKOMod.Text);
             stats.KOHitzone = double.Parse(monKO.Text);
             stats.exhaustHitzone = double.Parse(monExhaust.Text);
             stats.health = double.Parse(monHealth.Text);
@@ -4953,6 +4975,8 @@ namespace MHXXDamageCalc
             paraMonStatus.SelectedItem = stats.monsterStatus;
             paraHealth.Text = stats.health.ToString();
             paraQuestMod.Text = stats.questMod.ToString();
+            paraKOQuest.Text = stats.KOQuestMod.ToString();
+            paraExhQuest.Text = stats.exhaustMod.ToString();
 
             paraGRank.Checked = stats.GRank;
         }
@@ -6425,7 +6449,7 @@ namespace MHXXDamageCalc
                 hitCount = 1;
             }
             int status = int.Parse(staPower.Text);
-            if(status == 0)
+            if (status == 0)
             {
                 staPrint.Text = "Status damage dealt is 0.";
                 return;
@@ -6487,7 +6511,7 @@ namespace MHXXDamageCalc
             string formatString = String.Format("This attack will deal {1} status damage ({0} per hit)." + Environment.NewLine, formatArray);
             staPrint.AppendText(formatString);
 
-            if(hitsToIncThreshold == 0 && hitsToInitThreshold == 0 && hitsToMaxThreshold == 0)
+            if (hitsToIncThreshold == 0 && hitsToInitThreshold == 0 && hitsToMaxThreshold == 0)
             {
                 staPrint.AppendText("This monster cannot be affected by this status.");
                 return;
@@ -6500,7 +6524,7 @@ namespace MHXXDamageCalc
 
         private void ExportStatus()
         {
-            if(stats.statusCrit)
+            if (stats.statusCrit)
             {
                 staCritCheck.Checked = true;
                 staAffinity.Text = stats.positiveAffinity.ToString();
@@ -6511,8 +6535,8 @@ namespace MHXXDamageCalc
                 staAffinity.Text = "0";
             }
             staHitCount.Text = stats.hitCount.ToString();
-            
-            if(isStatus(stats.altDamageType) || stats.altDamageType == "Blast")
+
+            if (isStatus(stats.altDamageType) || stats.altDamageType == "Blast")
             {
                 staType.SelectedItem = stats.altDamageType;
                 staPower.Text = stats.eleAttackPower.ToString();
@@ -6526,22 +6550,22 @@ namespace MHXXDamageCalc
             staKOZone.Text = stats.KOHitzone.ToString();
             staExhZone.Text = stats.exhaustHitzone.ToString();
 
-            staKOMod.Text = stats.KOMod.ToString();
-            staExhMod.Text = stats.ExhMod.ToString();
+            staKOMod.Text = stats.KOQuestMod.ToString();
+            staExhMod.Text = stats.exhaustMod.ToString();
         }
 
         private void monsterSearch_TextChanged(object sender, EventArgs e)
         {
-            if(staMonSearch.Text != monsterSearch.Text)
+            if (staMonSearch.Text != monsterSearch.Text)
             {
                 staMonSearch.Text = monsterSearch.Text;
             }
             monsterList.Items.Clear();
             if (monsterSearch.Text != "")
             {
-                foreach(ListViewItem item in allMonsters)
+                foreach (ListViewItem item in allMonsters)
                 {
-                    if((item.SubItems[1].Text).Contains(monsterSearch.Text) || (item.SubItems[1].Text.ToLower()).Contains(monsterSearch.Text))
+                    if ((item.SubItems[1].Text).Contains(monsterSearch.Text) || (item.SubItems[1].Text.ToLower()).Contains(monsterSearch.Text))
                     {
                         monsterList.Items.Add(item);
                     }
@@ -6549,7 +6573,7 @@ namespace MHXXDamageCalc
             }
             else
             {
-                foreach(ListViewItem item in allMonsters)
+                foreach (ListViewItem item in allMonsters)
                 {
                     monsterList.Items.Add(item);
                 }
@@ -6581,7 +6605,186 @@ namespace MHXXDamageCalc
                 }
             }
         }
+
+        private void addDamageHistory(int mode)
+        {
+            ListViewItem damageHistoryEntry = new ListViewItem();
+
+            damageHistoryEntry.Tag = formatDamageHistory(mode);
+            damageHistory.Items.Insert(0, damageHistoryEntry);
+            while (damageHistory.Items.Count > 25)
+            {
+                damageHistory.Items.RemoveAt(25);
+            }
+        }
+
+        private void addStatusHistory()
+        {
+            ListViewItem statusHistoryEntry = new ListViewItem();
+
+            statusHistoryEntry.Tag = formatStatusHistory();
+            statusHistory.Items.Insert(0, statusHistoryEntry);
+            while (statusHistory.Items.Count > 25)
+            {
+                statusHistory.Items.RemoveAt(25);
+            }
+        }
+
+        private string formatDamageHistory(int mode)
+        {
+            if (mode == 1)
+            {
+                string[] formatArray = grabParameters(mode);
+                string formatString = String.Format("", formatArray);
+                return formatString;
+            }
+            else if (mode == 2)
+            {
+                string[] formatArray = grabParameters(mode);
+                string formatString = String.Format("", formatArray);
+                return formatString;
+            }
+            else
+            {
+                throw new Exception();
+            }
+        }
+
+        private string formatStatusHistory()
+        {
+            throw new NotImplementedException();
+        }
+
+        private string[] grabParameters(int mode)
+        {
+            throw new Exception();
+            if (mode == 1 || mode == 2)
+            {
+                List<string> parameters = new List<string>();
+                if (calcAverage.Checked)
+                {
+                    parameters.Add("Average");
+                }
+                else if (calcPositive.Checked)
+                {
+                    parameters.Add("Positive");
+                }
+                else if (calcNegative.Checked)
+                {
+                    parameters.Add("Negative");
+                }
+                else if (calcNeutral.Checked)
+                {
+                    parameters.Add("Neutral");
+                }
+
+                if (paraFixed.Checked)
+                {
+                    parameters.Add("Yes");
+                }
+                else
+                {
+                    parameters.Add("No");
+                }
+
+                if (paraCritBoost.Checked)
+                {
+                    parameters.Add("Yes");
+                }
+                else
+                {
+                    parameters.Add("No");
+                }
+
+                if (paraMinds.Checked)
+                {
+                    parameters.Add("Yes");
+                }
+                else
+                {
+                    parameters.Add("No");
+                }
+
+                if (paraStatusCrit.Checked)
+                {
+                    parameters.Add("Yes");
+                }
+                else
+                {
+                    parameters.Add("No");
+                }
+
+                if (paraMadAff.Checked)
+                {
+                    parameters.Add("Yes");
+                }
+                else
+                {
+                    parameters.Add("No");
+                }
+
+                parameters.Add(paraRaw.Text);
+                parameters.Add(paraRawSharp.Text);
+                parameters.Add((string)paraAltType.SelectedItem);
+                parameters.Add(paraElePower.Text);
+                parameters.Add(paraEleSharp.Text);
+                parameters.Add((string)paraEleCrit.SelectedItem);
+
+                parameters.Add((string)paraSecEle.SelectedItem);
+                parameters.Add(paraSecPower.Text);
+
+                if (paraChaotic.Checked)
+                {
+                    parameters.Add(paraNegAff.Text);
+                    parameters.Add(paraPosAff.Text);
+                }
+                else
+                {
+                    if (int.Parse(paraAffinity.Text) > 0)
+                    {
+                        parameters.Add("0");
+                        parameters.Add(paraAffinity.Text);
+                    }
+                    else
+                    {
+                        parameters.Add(paraAffinity.Text);
+                        parameters.Add("0");
+                    }
+                }
+
+                parameters.Add(paraHitCount.Text);
+                parameters.Add(paraAvgMV.Text);
+                parameters.Add(paraKO.Text);
+                parameters.Add(paraExh.Text);
+
+                if (mode == 2)
+                {
+                    parameters.Add(paraHitzone.Text);
+                    parameters.Add(paraEleHit.Text);
+                    parameters.Add(paraSecZone.Text);
+                    parameters.Add(paraMonStatus.Text);
+                    if (paraGRank.Checked)
+                    {
+                        parameters.Add("Yes");
+                    }
+                    else
+                    {
+                        parameters.Add("No");
+                    }
+
+                    parameters.Add(paraHealth.Text);
+                    parameters.Add(paraQuestMod.Text);
+                    parameters.Add(paraKOZone.Text);
+                    parameters.Add(paraExhZone.Text);
+                }
+            }
+            else if (mode == 3)
+            {
+
+            }
+        }
     }
+
 
     internal class weaponStorage
     {
@@ -6851,6 +7054,7 @@ namespace MHXXDamageCalc
         public double secHitzone;
         public double questMod;
         public double KOHitzone;
+        public double KOQuestMod;
         public double exhaustHitzone;
         public double exhaustMod;
         public double health; //Stores the monster's health.
