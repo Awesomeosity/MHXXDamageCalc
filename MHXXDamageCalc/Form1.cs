@@ -807,11 +807,7 @@ namespace MHXXDamageCalc
             calcDetails.ResetText();
             Tuple<double, double, double, double> calcOutput = CalculateDamage();
 
-            int hitCount;
-            if ((hitCount = int.Parse(paraHitCount.Text)) == 0)
-            {
-                hitCount = 1;
-            }
+            int hitCount = int.Parse(paraHitCount.Text);
 
             calcRawWeap.Text = calcOutput.Item1.ToString("N2");
             calcRawOut.Text = (calcOutput.Item2 * hitCount).ToString("N2");
@@ -4589,13 +4585,23 @@ namespace MHXXDamageCalc
             rawDamage = Math.Floor(rawDamage);
             string element = paraAltType.Text;
             string second = paraSecEle.Text;
+
             if (isElement(element))
             {
                 eleDamage = Math.Floor(calcOutput.Item3 * questMod);
             }
+            else
+            {
+                eleDamage = Math.Floor(calcOutput.Item3);
+            }
+
             if (isElement(second))
             {
                 secDamage = Math.Floor(calcOutput.Item4 * questMod);
+            }
+            else
+            {
+                secDamage = Math.Floor(calcOutput.Item4);
             }
 
             if (!paraFixed.Checked)
@@ -4612,31 +4618,23 @@ namespace MHXXDamageCalc
                 }
             }
 
-            else
-            {
-                rawDamage *= questMod;
-            }
-
             totaldamage += rawDamage;
 
             if (isElement(element))
             {
                 eleDamage *= eleZone;
+                eleDamage = Math.Floor(eleDamage);
                 totaldamage += eleDamage;
             }
-
-            secDamage = calcOutput.Item4;
 
             if (isElement(second))
             {
                 secDamage *= eleZone;
+                secDamage = Math.Floor(secDamage);
                 totaldamage += secDamage;
             }
 
-            totaldamage = Math.Floor(totaldamage);
-
-            totaldamage *= hitCount;
-
+            totaldamage = Math.Floor(totaldamage) * hitCount;
 
             KODamage = Math.Floor(KODamage);
             KODamage *= hitCount;
@@ -4975,8 +4973,6 @@ namespace MHXXDamageCalc
             paraMonStatus.SelectedItem = stats.monsterStatus;
             paraHealth.Text = stats.health.ToString();
             paraQuestMod.Text = stats.questMod.ToString();
-            paraKOQuest.Text = stats.KOQuestMod.ToString();
-            paraExhQuest.Text = stats.exhaustMod.ToString();
 
             paraGRank.Checked = stats.GRank;
         }
@@ -5698,7 +5694,7 @@ namespace MHXXDamageCalc
             {
                 foreach (string weapon in filteredWeapons)
                 {
-                    if (weapon.Contains(weapSearch.Text))
+                    if (weapon.Contains(weapSearch.Text) || (weapon.ToLower()).Contains(weapSearch.Text))
                     {
                         finalWeapons.Add(weapon);
                     }
@@ -6652,15 +6648,17 @@ namespace MHXXDamageCalc
 
         private string formatStatusHistory()
         {
-            throw new NotImplementedException();
+            string[] formatArray = grabParameters(3);
+            string formatString = String.Format("", formatArray);
+            return formatString;
         }
 
         private string[] grabParameters(int mode)
         {
-            throw new Exception();
+            List<string> parameters = new List<string>();
             if (mode == 1 || mode == 2)
             {
-                List<string> parameters = new List<string>();
+                
                 if (calcAverage.Checked)
                 {
                     parameters.Add("Average");
@@ -6762,6 +6760,11 @@ namespace MHXXDamageCalc
                     parameters.Add(paraHitzone.Text);
                     parameters.Add(paraEleHit.Text);
                     parameters.Add(paraSecZone.Text);
+                    parameters.Add(paraKOZone.Text);
+                    parameters.Add(paraExhZone.Text);
+                    parameters.Add(paraQuestMod.Text);
+
+                    parameters.Add(paraHealth.Text);
                     parameters.Add(paraMonStatus.Text);
                     if (paraGRank.Checked)
                     {
@@ -6771,17 +6774,56 @@ namespace MHXXDamageCalc
                     {
                         parameters.Add("No");
                     }
-
-                    parameters.Add(paraHealth.Text);
-                    parameters.Add(paraQuestMod.Text);
-                    parameters.Add(paraKOZone.Text);
-                    parameters.Add(paraExhZone.Text);
                 }
+
+                parameters.Add(calcRawWeap.Text);
+                parameters.Add(calcRawOut.Text);
+                parameters.Add(calcEleOut.Text);
+                parameters.Add(calcSecOut.Text);
+
+                if(mode == 2)
+                {
+                    parameters.Add(calcFinal.Text);
+                    parameters.Add(calcBounce.Text);
+                    parameters.Add(calcRawAll.Text);
+                    parameters.Add(calcEleAll.Text);
+                    parameters.Add(calcSecAll.Text);
+                    parameters.Add(calcKOAll.Text);
+                    parameters.Add(calcExhAll.Text);
+                }
+
+                parameters.Add(calcDetails.Text);
+
+                return parameters.ToArray();
             }
             else if (mode == 3)
             {
+                if (staCritCheck.Checked)
+                {
+                    parameters.Add("Yes");
+                }
+                else
+                {
+                    parameters.Add("No");
+                }
 
+                parameters.Add(staAffinity.Text);
+                parameters.Add(staHitCount.Text);
+                parameters.Add(staType.Text);
+                parameters.Add(staPower.Text);
+                parameters.Add(staKOZone.Text);
+                parameters.Add(staExhZone.Text);
+                parameters.Add(staInit.Text);
+                parameters.Add(staInc.Text);
+                parameters.Add(staMax.Text);
+                parameters.Add(staKOMod.Text);
+                parameters.Add(staExhMod.Text);
+                parameters.Add(staPrint.Text);
+
+                return parameters.ToArray();
             }
+
+            throw new Exception();
         }
     }
 
