@@ -800,6 +800,7 @@ namespace MHXXDamageCalc
             calcSecOut.Text = (calcOutput.Item4 * hitCount).ToString("N2");
 
             EffectiveRawCalc(calcOutput);
+            addDamageHistory(1);
         }
 
         private void calcAll_Click(object sender, EventArgs e)
@@ -836,6 +837,7 @@ namespace MHXXDamageCalc
             calcKOAll.Text = allTuple.Item6.ToString();
             calcExhAll.Text = allTuple.Item7.ToString();
             HealthCalc(allTuple); //Estimate how many hits it would take to kill the monster.
+            addDamageHistory(2);
         }
 
         private void weapEle_SelectedIndexChanged(object sender, EventArgs e)
@@ -1907,6 +1909,7 @@ namespace MHXXDamageCalc
         private void button2_Click(object sender, EventArgs e)
         {
             CalculateStatus();
+            addStatusHistory();
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -6604,10 +6607,16 @@ namespace MHXXDamageCalc
 
         private void addDamageHistory(int mode)
         {
-            ListViewItem damageHistoryEntry = new ListViewItem();
+            int index = 0;
+            ListViewItem damageHistoryEntry = new ListViewItem("0");
 
             damageHistoryEntry.Tag = formatDamageHistory(mode);
             damageHistory.Items.Insert(0, damageHistoryEntry);
+            foreach(ListViewItem item in damageHistory.Items)
+            {
+                item.Text = index.ToString();
+                index++;
+            }
             while (damageHistory.Items.Count > 25)
             {
                 damageHistory.Items.RemoveAt(25);
@@ -6616,10 +6625,16 @@ namespace MHXXDamageCalc
 
         private void addStatusHistory()
         {
-            ListViewItem statusHistoryEntry = new ListViewItem();
+            int index = 0;
+            ListViewItem statusHistoryEntry = new ListViewItem("0");
 
             statusHistoryEntry.Tag = formatStatusHistory();
             statusHistory.Items.Insert(0, statusHistoryEntry);
+            foreach (ListViewItem item in statusHistory.Items)
+            {
+                item.Text = index.ToString();
+                index++;
+            }
             while (statusHistory.Items.Count > 25)
             {
                 statusHistory.Items.RemoveAt(25);
@@ -6631,13 +6646,33 @@ namespace MHXXDamageCalc
             if (mode == 1)
             {
                 string[] formatArray = grabParameters(mode);
-                string formatString = String.Format("", formatArray);
+                string formatString = String.Format("{24}\\n\\nCalculation type: {0}\\n\\nFixed Damage? {1}" +
+                    "\\nCritical Boost? {2}\\nMind’s Eye? {3}\\nStatus Crit? {4}\\nRueful Crit? {5}" +
+                    "\\n\\nWeapon Raw: {6}\\nSharpness Modifier (Raw): {7}\\nAlternate Damage: {8} {9}" +
+                    "\\nSharpness Modifier (Element Only): {10}\\nElemental Crit? {11}\\nDB Second Damage: {12} {13}" +
+                    "\\nAffinity: -{14}/{15}%\\nHit Count: {16}\\nAverage Motion Value/Hit: {17}\\nKO/Hit: {18}" +
+                    "\\nExhaust/Hit {19}\\n\\nEffective Weapon Raw: {20}\\nEffective Raw Damage: {21}" +
+                    "\\nEffective Alternate Damage: {22}\\nEffective Secondary Damage: {23}", formatArray);
                 return formatString;
             }
             else if (mode == 2)
             {
                 string[] formatArray = grabParameters(mode);
-                string formatString = String.Format("", formatArray);
+                string formatString = String.Format("{40}\\n\\nCalculation type: {0}\\n\\nFixed Damage? {1}" +
+                    "\\nCritical Boost? {2}\\nMind’s Eye? {3}\\nStatus Crit? {4}\\nRueful Crit? {5}" +
+                    "\\n\\nWeapon Raw: {6}\\nSharpness Modifier (Raw): {7}\\nAlternate Damage: {8} {9}" +
+                    "\\nSharpness Modifier (Element Only): {10}\\nElemental Crit? {11}" +
+                    "\\nDB Second Damage: {12} {13}\\nAffinity: -{14}/{15}%\\nHit Count: {16}" +
+                    "\\nAverage Motion Value/Hit: {17}\\nKO/Hit: {18}\\nExhaust/Hit {19}" +
+                    "\\n\\nHitzone Value: {20}\\nElemental Hitzone Value: {21}" +
+                    "\\nSecondary Element Hitzone Value: {22}\\nKO Hitzone Value: {23}" +
+                    "\\nExhaust Hitzone Value: {24}\\nQuest Defense Modifier: {25}\\nMonster Health: {26}" +
+                    "\\nMonster Status: {27}\\nG-Rank? {28}\\n\\nEffective Weapon Raw: {29}" +
+                    "\\nEffective Raw Damage: {30}\\nEffective Alternate Damage: {31}" +
+                    "\\nEffective Secondary Damage: {32}\\n\\nFinal Damage Dealt: {33}\\nBounce? {34}" +
+                    "\\nRaw Damage/Hit: {35}\\nAlternate Damage/Hit: {36}\\nSecondary Damage/Hit: {37}" +
+                    "\\nKO Damage/Hit: {38}\\nExhaust Damage/Hit: {39}", formatArray);
+
                 return formatString;
             }
             else
@@ -6649,7 +6684,11 @@ namespace MHXXDamageCalc
         private string formatStatusHistory()
         {
             string[] formatArray = grabParameters(3);
-            string formatString = String.Format("", formatArray);
+            string formatString = String.Format("{12}\\n\\nStatus Crit? {0}\\nAffinity: {1} (Only positive Affinity applies to Status Crit)" +
+                "\\n\\nHit Count: {2}\\nStatus Type: {3} {4}\\n\\nKO Hitzone: {5}" +
+                "\\nExhaust Hitzone: {6}\\nInitial Threshold: {7}\\nIncrease Threshold: {8}" +
+                "\\nMaximum Threshold: {9}\\nKO Quest Modifier: {10}" +
+                "\\nExhaust Quest Modifier: {11} (Note: Hyper Monsters can’t be Exhausted)", formatArray);
             return formatString;
         }
 
@@ -6824,6 +6863,22 @@ namespace MHXXDamageCalc
             }
 
             throw new Exception();
+        }
+
+        private void damageHistory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(damageHistory.SelectedItems.Count != 0)
+            {
+                historyDetails.Text = ((string)damageHistory.SelectedItems[0].Tag).Replace("\\n", Environment.NewLine);
+            }
+        }
+
+        private void statusHistory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (statusHistory.SelectedItems.Count != 0)
+            {
+                historyDetails.Text = ((string)statusHistory.SelectedItems[0].Tag).Replace("\\n", Environment.NewLine);
+            }
         }
     }
 

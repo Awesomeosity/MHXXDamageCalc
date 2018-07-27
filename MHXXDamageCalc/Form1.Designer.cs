@@ -723,7 +723,9 @@
             this.label97 = new System.Windows.Forms.Label();
             this.label96 = new System.Windows.Forms.Label();
             this.statusHistory = new System.Windows.Forms.ListView();
+            this.columnHeader37 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.damageHistory = new System.Windows.Forms.ListView();
+            this.columnHeader36 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ErrorPreventer = new System.Windows.Forms.ErrorProvider(this.components);
             this.label52 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
@@ -5357,6 +5359,8 @@
             // 
             // statusHistory
             // 
+            this.statusHistory.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader37});
             this.statusHistory.GridLines = true;
             this.statusHistory.Location = new System.Drawing.Point(6, 228);
             this.statusHistory.Name = "statusHistory";
@@ -5364,9 +5368,17 @@
             this.statusHistory.TabIndex = 1;
             this.statusHistory.UseCompatibleStateImageBehavior = false;
             this.statusHistory.View = System.Windows.Forms.View.Details;
+            this.statusHistory.SelectedIndexChanged += new System.EventHandler(this.statusHistory_SelectedIndexChanged);
+            // 
+            // columnHeader37
+            // 
+            this.columnHeader37.Text = "Entry";
+            this.columnHeader37.Width = 255;
             // 
             // damageHistory
             // 
+            this.damageHistory.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader36});
             this.damageHistory.GridLines = true;
             this.damageHistory.Location = new System.Drawing.Point(6, 23);
             this.damageHistory.Name = "damageHistory";
@@ -5374,6 +5386,12 @@
             this.damageHistory.TabIndex = 0;
             this.damageHistory.UseCompatibleStateImageBehavior = false;
             this.damageHistory.View = System.Windows.Forms.View.Details;
+            this.damageHistory.SelectedIndexChanged += new System.EventHandler(this.damageHistory_SelectedIndexChanged);
+            // 
+            // columnHeader36
+            // 
+            this.columnHeader36.Text = "Entry";
+            this.columnHeader36.Width = 255;
             // 
             // ErrorPreventer
             // 
@@ -5844,6 +5862,8 @@
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.ListView statusHistory;
         private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.ColumnHeader columnHeader36;
+        private System.Windows.Forms.ColumnHeader columnHeader37;
     }
 }
 
