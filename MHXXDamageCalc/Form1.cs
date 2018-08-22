@@ -37,6 +37,19 @@ namespace MHXXDamageCalc
         ListViewColumnSorter hitzoneColumnSorter;
         ListViewColumnSorter questColumnSorter;
 
+        string[] quips = new string[] { "Try saying Soulseer Soul 10 times fast.'", "Elderfrost makes some good snowcones.'", "Also try Ping's Dex!'", "Also try Athena's Armor Set Search!'", "If you squint really hard, you can see damage values.'",
+        "Is Boltreaver the Monado?'", "Lavasioth got a few trophies for his fabulous dance moves.'", "Tigrex is really hungry, like all the time.'",
+        "Akantor could be in Mario Kart with how well he drifts.'", "You need to stop bullying Ukanlos. He's just trying to chill.'", "NEOPTERON GEAR SOLID: Tactical Hunting Action'",
+        "If Rustrazor figures out how to triple-wield, we're all screwed.'", "PWAAAAAAAAAH'", "Nightcloak is a nerd. He actually carries around a D20.'",
+        "I still prefer calling Bloodbath Diablos 'Bloodlust Diablos'.'", "Generations Unite > Generations Ultimate. Fite me.'", "Do Hellblade eat spicy Doritoes?'",
+        "Redhelm? You mean... Super Bear?'", "Welcome... TO THE ELECTRO-DROME!'", "What's a 'World'? ...Can I eat it?'", "Is Silverwind an edgelord?'", "DK! DREADKING-KONG'", "It's all fun and games until a Savage Jho invades.'",
+        "Hypers: Twice the Health, Half the Fun'", "Bet you didn't Ceadeus coming.'", "The Last Jhodi: The Hunger Awakens'", "Dedicated to Cha-Cha, best companion.'", "Hunter-tar, Master of all 4 Generations.'",
+        "Now finally out of Beta!'", "Are *you* the monster in 'Monster Hunter'?'", "I'M GONNA PUNCH THIS HUNTER SO HARD HE EXPLODES'", "Definitely *not* dedicated to Kayamba.'",
+        "4U Best Game! ...Wait'", "Is that Soulseer as the icon or just a Mizutsune?'", "Jaggia? Never even met her!'", "Teostra needs to get his paws out of the Doritos.'",
+        "Na Na na na Na Na na na Nargacuga!'", "Honts?'", "MH3U: 7.8/10 Too Much Water.'", "Chameleos is just the cutest Elder Dragon.'", "Mizumi desu~'", "Yukari here. >_<'", "Yes? It's Ashlynn here.'", "Made by Awesomeosity!'", "Mmm? What business do you have with me, Fiore?'"};
+
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -56,6 +69,9 @@ namespace MHXXDamageCalc
 
         public void setUp()
         {
+            Random rng = new Random();
+            this.Text += quips[rng.Next(quips.Length)];
+
             str2Pict.Add("Fire", "./Images/Fire.png");
             str2Pict.Add("Water", "./Images/Water.png");
             str2Pict.Add("Thunder", "./Images/Thunder.png");
@@ -110,11 +126,11 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Attack Down (L)", x => Attack(6));
 
             armorModifiers.Add("Bloodbath Soul", x => Bloodbath(1));
-            armorModifiers.Add("True B.bath Soul", x => TrueBloodbath(1));
+            armorModifiers.Add("True Bloodbath Soul", x => TrueBloodbath(1));
             armorModifiers.Add("Boltreaver Soul", x => Boltreaver(1));
-            armorModifiers.Add("True B.reaver Soul", x => TrueBoltreaver(1));
+            armorModifiers.Add("True Boltreaver Soul", x => TrueBoltreaver(1));
             armorModifiers.Add("Bludgeoner (GU)", x => Blunt(1));
-            armorModifiers.Add("Bludgoner (Gen)", x => Blunt(2));
+            armorModifiers.Add("Bludgeoner (Gen)", x => Blunt(2));
             armorModifiers.Add("Bombardier (Blast)", x => BombBoost(1));
             armorModifiers.Add("Bombardier (Bomb)", x => BombBoost(2));
             armorModifiers.Add("Heavy Hitter", x => Brawn(1));
@@ -124,19 +140,19 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Repeat Offender (>=5 hits)", x => ChainCrit(2));
             armorModifiers.Add("Trump Card (Other HAs)", x => Chance(1));
             armorModifiers.Add("Trump Card (Lion's Maw)", x => Chance(2));
-            armorModifiers.Add("Trump Card (W. Breath)", x => Chance(3));
-            armorModifiers.Add("Trump Card (D. Riot 'Pwr')", x => Chance(4));
-            armorModifiers.Add("Trump Card (D. Riot 'Sta')", x => Chance(5));
-            armorModifiers.Add("Trump Card (D. Riot 'Ele')", x => Chance(6));
-            armorModifiers.Add("Trump Card (S. Blade)", x => Chance(7));
+            armorModifiers.Add("Trump Card (Wyvern's Breath)", x => Chance(3));
+            armorModifiers.Add("Trump Card (Demon Riot 'Pwr')", x => Chance(4));
+            armorModifiers.Add("Trump Card (Demon Riot 'Sta')", x => Chance(5));
+            armorModifiers.Add("Trump Card (Demon Riot 'Ele')", x => Chance(6));
+            armorModifiers.Add("Trump Card (Devouring Demon)", x => Chance(7));
             armorModifiers.Add("Polar Hunter (Cold Area)", x => ColdBlooded(1));
             armorModifiers.Add("Polar Hunter (Cool Drink)", x => ColdBlooded(2));
             armorModifiers.Add("Resuscitate", x => Crisis(1));
             armorModifiers.Add("Critical Draw", x => CritDraw(1));
-            armorModifiers.Add("Ele. Crit (SnS/DB/Bow)", x => CritElement(1));
-            armorModifiers.Add("Ele. Crit (LBG/HBG)", x => CritElement(2));
-            armorModifiers.Add("Ele. Crit (Other)", x => CritElement(3));
-            armorModifiers.Add("Ele. Crit (GS)", x => CritElement(4));
+            armorModifiers.Add("Elemental Crit (SnS/DB/Bow)", x => CritElement(1));
+            armorModifiers.Add("Elemental Crit (LBG/HBG)", x => CritElement(2));
+            armorModifiers.Add("Elemental Crit (Other)", x => CritElement(3));
+            armorModifiers.Add("Elemental Crit (GS)", x => CritElement(4));
             armorModifiers.Add("Status Crit", x => CritStatus(1));
             armorModifiers.Add("Critical Boost", x => CriticalUp(1));
 
@@ -144,12 +160,12 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Pro D. Fencer (One Cart)", x => DFencing(2));
             armorModifiers.Add("Pro D. Fencer (Two Carts)", x => DFencing(3));
             armorModifiers.Add("Deadeye Soul", x => Deadeye(1));
-            armorModifiers.Add("True D.eye S. (0 Cs, Not)", x => TrueDeadeye(1));
-            armorModifiers.Add("True D.eye S. (0 Cs, Rage)", x => TrueDeadeye(2));
-            armorModifiers.Add("True D.eye S. (1 Cs, Not)", x => TrueDeadeye(3));
-            armorModifiers.Add("True D.eye S. (1 Cs, Rage)", x => TrueDeadeye(4));
-            armorModifiers.Add("True D.eye S. (2 Cs, Not)", x => TrueDeadeye(5));
-            armorModifiers.Add("True D.eye S. (2 Cs, Rage)", x => TrueDeadeye(6));
+            armorModifiers.Add("True D.eye S. (0 Carts)", x => TrueDeadeye(1));
+            armorModifiers.Add("True D.eye S. (0 Carts, Enraged)", x => TrueDeadeye(2));
+            armorModifiers.Add("True D.eye S. (1 Carts)", x => TrueDeadeye(3));
+            armorModifiers.Add("True D.eye S. (1 Carts, Enraged)", x => TrueDeadeye(4));
+            armorModifiers.Add("True D.eye S. (2 Carts)", x => TrueDeadeye(5));
+            armorModifiers.Add("True D.eye S. (2 Carts, Enraged)", x => TrueDeadeye(6));
             armorModifiers.Add("Dragon Atk +1", x => DragonAtk(1));
             armorModifiers.Add("Dragon Atk +2", x => DragonAtk(2));
             armorModifiers.Add("Dragon Atk Down", x => DragonAtk(3));
@@ -159,11 +175,11 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Dreadqueen Soul", x => Dreadqueen(1));
             armorModifiers.Add("True Dreadqueen Soul", x => TrueDreadqueen(1));
             armorModifiers.Add("Drilltusk Soul", x => Drilltusk(1));
-            armorModifiers.Add("True D.t. S. (Adren +2)", x => TrueDrilltusk(1));
-            armorModifiers.Add("True D.t. S. (Fixed Weaps.)", x => TrueDrilltusk(2));
-            armorModifiers.Add("True D.t. S. (Exp. Shots)", x => TrueDrilltusk(3));
-            armorModifiers.Add("True D.t. S. (Impact Phial)", x => TrueDrilltusk(4));
-            armorModifiers.Add("True D.t. S. (GL Shots)", x => TrueDrilltusk(5));
+            armorModifiers.Add("True D.tusk S. (Adren +2)", x => TrueDrilltusk(1));
+            armorModifiers.Add("True D.tusk S. (Fixed Weaps.)", x => TrueDrilltusk(2));
+            armorModifiers.Add("True D.tusk S. (Exp. Shots)", x => TrueDrilltusk(3));
+            armorModifiers.Add("True D.tusk S. (Impact Phial)", x => TrueDrilltusk(4));
+            armorModifiers.Add("True D.tusk S. (GL Shots)", x => TrueDrilltusk(5));
 
             armorModifiers.Add("Honed Blade", x => Edgemaster(1));
             armorModifiers.Add("Elderfrost Soul", x => Elderfrost(1));
@@ -192,8 +208,8 @@ namespace MHXXDamageCalc
             armorModifiers.Add("TrueShot Up", x => Haphazard(1));
             armorModifiers.Add("Heavy/Heavy Up", x => HeavyUp(1));
             armorModifiers.Add("Hellblade Soul", x => Hellblade(1));
-            armorModifiers.Add("True H.blade Soul (Blast)", x => TrueHellblade(1));
-            armorModifiers.Add("True H.blade Soul (Bomb)", x => TrueHellblade(2));
+            armorModifiers.Add("True Hellblade Soul (Blast)", x => TrueHellblade(1));
+            armorModifiers.Add("True Hellblade Soul (Bomb)", x => TrueHellblade(2));
             armorModifiers.Add("Tropic Hunter ", x => HotBlooded(1));
             armorModifiers.Add("Soul of the Hunter's Pub", x => HuntersPub(1));
 
@@ -219,13 +235,13 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Sheath Control", x => Readiness(1));
             armorModifiers.Add("Bonus Shot", x => RapidFire(1));
             armorModifiers.Add("Redhelm Soul", x => Redhelm(1));
-            armorModifiers.Add("True R.helm Soul", x => TrueRedhelm(1));
+            armorModifiers.Add("True Redhelm Soul", x => TrueRedhelm(1));
             armorModifiers.Add("Rueful Crit", x => ReverseCrit(1));
-            armorModifiers.Add("True R.razor Soul", x => TrueRustrazor(1));
+            armorModifiers.Add("True Rustrazor Soul", x => TrueRustrazor(1));
 
             armorModifiers.Add("Shining Blade", x => ScaledSword(1));
             armorModifiers.Add("Silverwind Soul", x => Silverwind(1));
-            armorModifiers.Add("True S.wind Soul", x => TrueSilverwind(1));
+            armorModifiers.Add("True Silverwind Soul", x => TrueSilverwind(1));
             armorModifiers.Add("Challenger +1", x => Spirit(1));
             armorModifiers.Add("Challenger +2", x => Spirit(2));
             armorModifiers.Add("Stamina Thief", x => StamDrain(1));
@@ -238,8 +254,8 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Silver Bullet (Pierce/Pierce)", x => SteadyHand(4));
             armorModifiers.Add("Soulseer Soul (No Enrage)", x => Soulseer(1));
             armorModifiers.Add("Soulseer Soul (Rage)", x => Soulseer(2));
-            armorModifiers.Add("True S.seer Soul (Not)", x => TrueSoulseer(1));
-            armorModifiers.Add("True S.seer Soul (Rage)", x => TrueSoulseer(2));
+            armorModifiers.Add("True Soulseer Soul", x => TrueSoulseer(1));
+            armorModifiers.Add("True Soulseer Soul (Enraged)", x => TrueSoulseer(2));
             armorModifiers.Add("Fortify (1st Cart)", x => Survivor(1));
             armorModifiers.Add("Fortify (2nd Cart)", x => Survivor(2));
 
@@ -248,7 +264,7 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Thunder Atk +2", x => ThunderAtk(2));
             armorModifiers.Add("Thunder Atk Down", x => ThunderAtk(3));
             armorModifiers.Add("Thunderlord Soul", x => Thunderlord(1));
-            armorModifiers.Add("True T.lord Soul", x => TrueThunderlord(1));
+            armorModifiers.Add("True Thunderlord Soul", x => TrueThunderlord(1));
 
             armorModifiers.Add("Peak Performance", x => Unscathed(1));
 
@@ -307,9 +323,9 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("LS Yellow Gauge", x => LS(4));
             weaponModifiers.Add("LS Red Gauge", x => LS(5));
             weaponModifiers.Add("LS Blue Gauge", x => LS(6));
-            weaponModifiers.Add("LS Sacri. Blade I", x => LS(7));
-            weaponModifiers.Add("LS Sacri. Blade II", x => LS(8));
-            weaponModifiers.Add("LS Sacri. Blade III", x => LS(9));
+            weaponModifiers.Add("LS Devouring Demon I", x => LS(7));
+            weaponModifiers.Add("LS Devouring Demon II", x => LS(8));
+            weaponModifiers.Add("LS Devouring Demon III", x => LS(9));
             weaponModifiers.Add("SnS Aff. Oil (+ C. Oil III)", x => SnS(1));
             weaponModifiers.Add("SnS Aff. Oil + C. Oil I/II", x => SnS(2));
             weaponModifiers.Add("SnS Stamina Oil", x => SnS(3));
@@ -384,6 +400,7 @@ namespace MHXXDamageCalc
             weaponModifiers.Add("HBG Power Barrel Attach.", x => HBG(2));
             weaponModifiers.Add("HBG Power Reload", x => HBG(3));
             weaponModifiers.Add("HBG Valor Reload", x => HBG(4));
+            weaponModifiers.Add("HBG Gunpowder Infusion", x => HBG(5));
             weaponModifiers.Add("Bow Charge Lv1", x => Bow(1));
             weaponModifiers.Add("Bow Charge Lv2", x => Bow(2));
             weaponModifiers.Add("Bow Charge Lv3 + Pois.", x => Bow(3));
@@ -582,6 +599,7 @@ namespace MHXXDamageCalc
         {
             if (paraChaotic.Checked)
             {
+                paraAffinity.Text = "0";
                 paraAffinity.Visible = false;
 
                 paraPositive.Visible = true;
@@ -593,6 +611,8 @@ namespace MHXXDamageCalc
             {
                 paraAffinity.Visible = true;
 
+                paraPosAff.Text = "0";
+                paraNegAff.Text = "0";
                 paraPositive.Visible = false;
                 paraPosAff.Visible = false;
                 paraNega.Visible = false;
@@ -812,13 +832,21 @@ namespace MHXXDamageCalc
 
             calcRawWeap.Text = calcOutput.Item1.ToString("N2");
             calcRawOut.Text = (calcOutput.Item2 * hitCount).ToString("N2");
-            calcEleOut.Text = (calcOutput.Item3 * hitCount).ToString("N2");
-            calcSecOut.Text = (calcOutput.Item4 * hitCount).ToString("N2");
+            calcEleOut.Text = (calcOutput.Item3).ToString("N2");
+            calcSecOut.Text = (calcOutput.Item4).ToString("N2");
 
             EffectiveRawCalc(calcOutput);
 
             Tuple<double, bool, double, double, double, double, double> allTuple = CalculateAllDamage(calcOutput);
             calcFinal.Text = allTuple.Item1.ToString();
+            if(hitCount == 0)
+            {
+                calcPerHit.Text = "0";
+            }
+            else
+            {
+                calcPerHit.Text = (allTuple.Item1 / hitCount).ToString();
+            }
 
             if (allTuple.Item2)
             {
@@ -1094,6 +1122,10 @@ namespace MHXXDamageCalc
 
         private void modArmorButton_Click(object sender, EventArgs e)
         {
+            if(modArmor.Text == "")
+            {
+                return;
+            }
             foreach (ListViewItem listItem in modList.Items)
             {
                 if (modArmor.Text == listItem.Text)
@@ -1110,6 +1142,10 @@ namespace MHXXDamageCalc
 
         private void modFoodButton_Click(object sender, EventArgs e)
         {
+            if (modFood.Text == "")
+            {
+                return;
+            }
             foreach (ListViewItem listItem in modList.Items)
             {
                 if (modFood.Text == listItem.Text)
@@ -1127,6 +1163,10 @@ namespace MHXXDamageCalc
 
         private void modWeaponButton_Click(object sender, EventArgs e)
         {
+            if (modWeapon.Text == "")
+            {
+                return;
+            }
             foreach (ListViewItem listItem in modList.Items)
             {
                 if (modWeapon.Text == listItem.Text)
@@ -1206,71 +1246,85 @@ namespace MHXXDamageCalc
         private void weapGS_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveGS.Checked = true;
         }
 
         private void weapLS_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveLS.Checked = true;
         }
 
         private void weapSnS_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveSnS.Checked = true;
         }
 
         private void waepDB_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveDB.Checked = true;
         }
 
         private void weapHam_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveHammer.Checked = true;
         }
 
         private void weapHH_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveHH.Checked = true;
         }
 
         private void weapLan_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveLance.Checked = true;
         }
 
         private void weapGL_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveGL.Checked = true;
         }
 
         private void weapSA_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveSA.Checked = true;
         }
 
         private void weapCB_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveCB.Checked = true;
         }
 
         private void weapIG_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveIG.Checked = true;
         }
 
         private void weapLBG_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveShot.Checked = true;
         }
 
         private void weapHBG_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveShot.Checked = true;
         }
 
         private void weapBow_CheckedChanged(object sender, EventArgs e)
         {
             ResetWeaponDetails();
+            moveBow.Checked = true;
         }
 
         private void weaponDetails_SelectedIndexChanged(object sender, EventArgs e)
@@ -1364,6 +1418,10 @@ namespace MHXXDamageCalc
         private void weapSearch_TextChanged(object sender, EventArgs e)
         {
             searchWeapons();
+            if(weaponDetails.Items.Count > 0)
+            {
+                weaponDetails.Items[0].Selected = true;
+            }
         }
 
         private void weapFinalUpgrade_CheckedChanged(object sender, EventArgs e)
@@ -3665,7 +3723,7 @@ namespace MHXXDamageCalc
         {
             if (skillVal == 1) //Enraged Guard (Yellow)
             {
-                stats.rawMod *= 1.1;
+                stats.rawMod *= 1.3;
             }
             else if (skillVal == 2) //Enraged Guard (Orange)
             {
@@ -3673,7 +3731,7 @@ namespace MHXXDamageCalc
             }
             else if (skillVal == 3) //Enraged Guard (Red)
             {
-                stats.rawMod *= 1.3;
+                stats.rawMod *= 1.1;
             }
             else if (skillVal == 4) //Impact/Cut Hitzone
             {
@@ -3970,9 +4028,13 @@ namespace MHXXDamageCalc
             {
                 stats.rawMod *= 1.06;
             }
-            else if (skillVal == 5) //Valor Reload
+            else if (skillVal == 4) //Valor Reload
             {
                 stats.rawMod *= 1.05;
+            }
+            else if (skillVal == 5) //Gunpowder Infusion
+            {
+                stats.rawMod *= 1.15;
             }
             else
             {
@@ -4298,7 +4360,8 @@ namespace MHXXDamageCalc
                 if (stats.chaotic)
                 {
                     stats.chaotic = false;
-                    stats.positiveAffinity += stats.negativeAffinity + 15;
+                    stats.positiveAffinity += double.Parse(weapNegAff.Text) + 15;
+                    stats.negativeAffinity = stats.negativeAffinity - double.Parse(weapNegAff.Text);
                 }
                 else
                 {
@@ -4311,7 +4374,8 @@ namespace MHXXDamageCalc
                 if (stats.chaotic)
                 {
                     stats.chaotic = false;
-                    stats.positiveAffinity += stats.negativeAffinity + 30;
+                    stats.positiveAffinity += double.Parse(weapNegAff.Text) + 30;
+                    stats.negativeAffinity = stats.negativeAffinity - double.Parse(weapNegAff.Text);
                 }
                 else
                 {
@@ -4549,6 +4613,11 @@ namespace MHXXDamageCalc
                 secTotal = secElement * elementSharp;
             }
 
+            if(hitCount == 0)
+            {
+                rawTotal = 0;
+            }
+
             return new Tuple<double, double, double, double>(rawWeap, rawTotal, eleTotal, secTotal);
         }
 
@@ -4626,18 +4695,22 @@ namespace MHXXDamageCalc
             if (isElement(element))
             {
                 eleDamage *= eleZone;
-                eleDamage = Math.Floor(eleDamage);
                 totaldamage += eleDamage;
             }
 
             if (isElement(second))
             {
-                secDamage *= eleZone;
-                secDamage = Math.Floor(secDamage);
+                secDamage *= secZone;
                 totaldamage += secDamage;
             }
 
             totaldamage = Math.Floor(totaldamage) * hitCount;
+            
+            if(hitCount == 0)
+            {
+                eleDamage = 0;
+                secDamage = 0;
+            }
 
             KODamage = Math.Floor(KODamage);
             KODamage *= hitCount;
@@ -4680,7 +4753,7 @@ namespace MHXXDamageCalc
             if (weapChaotic.Checked)
             {
                 stats.positiveAffinity = double.Parse(weapPosAff.Text);
-                stats.negativeAffinity = -1 * double.Parse(weapNegAff.Text);
+                stats.negativeAffinity = double.Parse(weapNegAff.Text);
                 stats.chaotic = true;
             }
             else
@@ -4720,8 +4793,16 @@ namespace MHXXDamageCalc
             {
                 stats.altDamageType = weapEle.Text;
                 stats.eleAttackPower = double.Parse(weapEleDamage.Text);
-                stats.secElement = secondElements[weapSec.Text];
-                stats.secPower = double.Parse(weapSecDamage.Text);
+                if(stats.altDamageType != "(No Element)")
+                {
+                    stats.secElement = secondElements[weapSec.Text];
+                    stats.secPower = double.Parse(weapSecDamage.Text);
+                }
+                else
+                {
+                    stats.secElement = "(No Element)";
+                    stats.secPower = 0;
+                }
             }
 
             stats.hitCount = int.Parse(moveHitCount.Text);
@@ -4893,7 +4974,7 @@ namespace MHXXDamageCalc
                 }
             }
 
-            else if (isStatus(stats.altDamageType) || stats.altDamageType == "Blast")
+            else if (isStatus(stats.secElement) || stats.secElement == "Blast")
             {
                 stats.secPower *= stats.staSecMod;
                 if (stats.secPower != 0)
@@ -6577,6 +6658,12 @@ namespace MHXXDamageCalc
                     monsterList.Items.Add(item);
                 }
             }
+
+            if(monsterList.Items.Count > 0)
+            {
+                monsterList.Items[0].Selected = true;
+            }
+            
         }
 
         private void staMonSearch_TextChanged(object sender, EventArgs e)
@@ -6602,6 +6689,11 @@ namespace MHXXDamageCalc
                 {
                     staMonsterList.Items.Add(item);
                 }
+            }
+
+            if(staMonsterList.Items.Count > 0)
+            {
+                staMonsterList.Items[0].Selected = true;
             }
         }
 

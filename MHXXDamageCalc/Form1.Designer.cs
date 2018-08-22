@@ -264,93 +264,99 @@
             System.Windows.Forms.TreeNode treeNode120 = new System.Windows.Forms.TreeNode("Sword and Shield", new System.Windows.Forms.TreeNode[] {
             treeNode118,
             treeNode119});
-            System.Windows.Forms.TreeNode treeNode121 = new System.Windows.Forms.TreeNode("Dual Blades");
-            System.Windows.Forms.TreeNode treeNode122 = new System.Windows.Forms.TreeNode("Hammer");
-            System.Windows.Forms.TreeNode treeNode123 = new System.Windows.Forms.TreeNode("Attack Up (S)");
-            System.Windows.Forms.TreeNode treeNode124 = new System.Windows.Forms.TreeNode("Attack Up (L)");
-            System.Windows.Forms.TreeNode treeNode125 = new System.Windows.Forms.TreeNode("Elemental Attack Boost");
-            System.Windows.Forms.TreeNode treeNode126 = new System.Windows.Forms.TreeNode("Abnormal Attack Boost");
-            System.Windows.Forms.TreeNode treeNode127 = new System.Windows.Forms.TreeNode("Affinity Up");
-            System.Windows.Forms.TreeNode treeNode128 = new System.Windows.Forms.TreeNode("Self-Improvement");
-            System.Windows.Forms.TreeNode treeNode129 = new System.Windows.Forms.TreeNode("Hunting Horn", new System.Windows.Forms.TreeNode[] {
-            treeNode123,
-            treeNode124,
+            System.Windows.Forms.TreeNode treeNode121 = new System.Windows.Forms.TreeNode("Wolf\'s Maw");
+            System.Windows.Forms.TreeNode treeNode122 = new System.Windows.Forms.TreeNode("Dual Blades", new System.Windows.Forms.TreeNode[] {
+            treeNode121});
+            System.Windows.Forms.TreeNode treeNode123 = new System.Windows.Forms.TreeNode("Provoke III Attack Buff");
+            System.Windows.Forms.TreeNode treeNode124 = new System.Windows.Forms.TreeNode("Hammer", new System.Windows.Forms.TreeNode[] {
+            treeNode123});
+            System.Windows.Forms.TreeNode treeNode125 = new System.Windows.Forms.TreeNode("Attack Up (S)");
+            System.Windows.Forms.TreeNode treeNode126 = new System.Windows.Forms.TreeNode("Attack Up (L)");
+            System.Windows.Forms.TreeNode treeNode127 = new System.Windows.Forms.TreeNode("Elemental Attack Boost");
+            System.Windows.Forms.TreeNode treeNode128 = new System.Windows.Forms.TreeNode("Abnormal Attack Boost");
+            System.Windows.Forms.TreeNode treeNode129 = new System.Windows.Forms.TreeNode("Affinity Up");
+            System.Windows.Forms.TreeNode treeNode130 = new System.Windows.Forms.TreeNode("Self-Improvement");
+            System.Windows.Forms.TreeNode treeNode131 = new System.Windows.Forms.TreeNode("Hunting Horn", new System.Windows.Forms.TreeNode[] {
             treeNode125,
             treeNode126,
             treeNode127,
-            treeNode128});
-            System.Windows.Forms.TreeNode treeNode130 = new System.Windows.Forms.TreeNode("Innate Impact/Cut");
-            System.Windows.Forms.TreeNode treeNode131 = new System.Windows.Forms.TreeNode("Enraged Guard");
-            System.Windows.Forms.TreeNode treeNode132 = new System.Windows.Forms.TreeNode("Lance", new System.Windows.Forms.TreeNode[] {
-            treeNode130,
-            treeNode131});
-            System.Windows.Forms.TreeNode treeNode133 = new System.Windows.Forms.TreeNode("Heat");
-            System.Windows.Forms.TreeNode treeNode134 = new System.Windows.Forms.TreeNode("Dragon\'s Breath");
-            System.Windows.Forms.TreeNode treeNode135 = new System.Windows.Forms.TreeNode("Gunlance", new System.Windows.Forms.TreeNode[] {
-            treeNode133,
-            treeNode134});
-            System.Windows.Forms.TreeNode treeNode136 = new System.Windows.Forms.TreeNode("Phial Effects");
-            System.Windows.Forms.TreeNode treeNode137 = new System.Windows.Forms.TreeNode("Energy Charge");
-            System.Windows.Forms.TreeNode treeNode138 = new System.Windows.Forms.TreeNode("Demon Riot");
-            System.Windows.Forms.TreeNode treeNode139 = new System.Windows.Forms.TreeNode("Switch Axe", new System.Windows.Forms.TreeNode[] {
-            treeNode136,
-            treeNode137,
-            treeNode138});
-            System.Windows.Forms.TreeNode treeNode140 = new System.Windows.Forms.TreeNode("Red Shield");
-            System.Windows.Forms.TreeNode treeNode141 = new System.Windows.Forms.TreeNode("Charge Blade", new System.Windows.Forms.TreeNode[] {
+            treeNode128,
+            treeNode129,
+            treeNode130});
+            System.Windows.Forms.TreeNode treeNode132 = new System.Windows.Forms.TreeNode("Innate Impact/Cut");
+            System.Windows.Forms.TreeNode treeNode133 = new System.Windows.Forms.TreeNode("Enraged Guard");
+            System.Windows.Forms.TreeNode treeNode134 = new System.Windows.Forms.TreeNode("Lance", new System.Windows.Forms.TreeNode[] {
+            treeNode132,
+            treeNode133});
+            System.Windows.Forms.TreeNode treeNode135 = new System.Windows.Forms.TreeNode("Heat");
+            System.Windows.Forms.TreeNode treeNode136 = new System.Windows.Forms.TreeNode("Dragon\'s Breath");
+            System.Windows.Forms.TreeNode treeNode137 = new System.Windows.Forms.TreeNode("Gunlance", new System.Windows.Forms.TreeNode[] {
+            treeNode135,
+            treeNode136});
+            System.Windows.Forms.TreeNode treeNode138 = new System.Windows.Forms.TreeNode("Phial Effects");
+            System.Windows.Forms.TreeNode treeNode139 = new System.Windows.Forms.TreeNode("Energy Charge");
+            System.Windows.Forms.TreeNode treeNode140 = new System.Windows.Forms.TreeNode("Demon Riot");
+            System.Windows.Forms.TreeNode treeNode141 = new System.Windows.Forms.TreeNode("Switch Axe", new System.Windows.Forms.TreeNode[] {
+            treeNode138,
+            treeNode139,
             treeNode140});
-            System.Windows.Forms.TreeNode treeNode142 = new System.Windows.Forms.TreeNode("Extract Buffs");
-            System.Windows.Forms.TreeNode treeNode143 = new System.Windows.Forms.TreeNode("Insect Glaive", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode142 = new System.Windows.Forms.TreeNode("Red Shield");
+            System.Windows.Forms.TreeNode treeNode143 = new System.Windows.Forms.TreeNode("Charge Blade", new System.Windows.Forms.TreeNode[] {
             treeNode142});
-            System.Windows.Forms.TreeNode treeNode144 = new System.Windows.Forms.TreeNode("Blademaster", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode144 = new System.Windows.Forms.TreeNode("Extract Buffs");
+            System.Windows.Forms.TreeNode treeNode145 = new System.Windows.Forms.TreeNode("Insect Glaive", new System.Windows.Forms.TreeNode[] {
+            treeNode144});
+            System.Windows.Forms.TreeNode treeNode146 = new System.Windows.Forms.TreeNode("Blademaster", new System.Windows.Forms.TreeNode[] {
             treeNode110,
             treeNode113,
             treeNode117,
             treeNode120,
-            treeNode121,
             treeNode122,
-            treeNode129,
-            treeNode132,
-            treeNode135,
-            treeNode139,
+            treeNode124,
+            treeNode131,
+            treeNode134,
+            treeNode137,
             treeNode141,
-            treeNode143});
-            System.Windows.Forms.TreeNode treeNode145 = new System.Windows.Forms.TreeNode("Critical Distance");
-            System.Windows.Forms.TreeNode treeNode146 = new System.Windows.Forms.TreeNode("Innate Raw Modifier");
-            System.Windows.Forms.TreeNode treeNode147 = new System.Windows.Forms.TreeNode("Long Barrel");
-            System.Windows.Forms.TreeNode treeNode148 = new System.Windows.Forms.TreeNode("Power Reload");
-            System.Windows.Forms.TreeNode treeNode149 = new System.Windows.Forms.TreeNode("Light Bowgun", new System.Windows.Forms.TreeNode[] {
-            treeNode146,
-            treeNode147,
-            treeNode148});
-            System.Windows.Forms.TreeNode treeNode150 = new System.Windows.Forms.TreeNode("Innate Raw Modifier");
-            System.Windows.Forms.TreeNode treeNode151 = new System.Windows.Forms.TreeNode("Power Barrel");
-            System.Windows.Forms.TreeNode treeNode152 = new System.Windows.Forms.TreeNode("Power Reload");
-            System.Windows.Forms.TreeNode treeNode153 = new System.Windows.Forms.TreeNode("Heavy Bowgun", new System.Windows.Forms.TreeNode[] {
-            treeNode150,
-            treeNode151,
-            treeNode152});
-            System.Windows.Forms.TreeNode treeNode154 = new System.Windows.Forms.TreeNode("Charge Levels");
-            System.Windows.Forms.TreeNode treeNode155 = new System.Windows.Forms.TreeNode("Valor Power Shot");
-            System.Windows.Forms.TreeNode treeNode156 = new System.Windows.Forms.TreeNode("Coatings and Boosts");
-            System.Windows.Forms.TreeNode treeNode157 = new System.Windows.Forms.TreeNode("Bow", new System.Windows.Forms.TreeNode[] {
-            treeNode154,
-            treeNode155,
-            treeNode156});
-            System.Windows.Forms.TreeNode treeNode158 = new System.Windows.Forms.TreeNode("Gunner", new System.Windows.Forms.TreeNode[] {
-            treeNode145,
+            treeNode143,
+            treeNode145});
+            System.Windows.Forms.TreeNode treeNode147 = new System.Windows.Forms.TreeNode("Critical Distance");
+            System.Windows.Forms.TreeNode treeNode148 = new System.Windows.Forms.TreeNode("Innate Raw Modifier");
+            System.Windows.Forms.TreeNode treeNode149 = new System.Windows.Forms.TreeNode("Long Barrel");
+            System.Windows.Forms.TreeNode treeNode150 = new System.Windows.Forms.TreeNode("Power Reload");
+            System.Windows.Forms.TreeNode treeNode151 = new System.Windows.Forms.TreeNode("Light Bowgun", new System.Windows.Forms.TreeNode[] {
+            treeNode148,
             treeNode149,
+            treeNode150});
+            System.Windows.Forms.TreeNode treeNode152 = new System.Windows.Forms.TreeNode("Innate Raw Modifier");
+            System.Windows.Forms.TreeNode treeNode153 = new System.Windows.Forms.TreeNode("Power Barrel");
+            System.Windows.Forms.TreeNode treeNode154 = new System.Windows.Forms.TreeNode("Power Reload");
+            System.Windows.Forms.TreeNode treeNode155 = new System.Windows.Forms.TreeNode("Gunpowder Infusion");
+            System.Windows.Forms.TreeNode treeNode156 = new System.Windows.Forms.TreeNode("Heavy Bowgun", new System.Windows.Forms.TreeNode[] {
+            treeNode152,
             treeNode153,
-            treeNode157});
-            System.Windows.Forms.TreeNode treeNode159 = new System.Windows.Forms.TreeNode("Weapon-Specific", new System.Windows.Forms.TreeNode[] {
-            treeNode144,
-            treeNode158});
-            System.Windows.Forms.TreeNode treeNode160 = new System.Windows.Forms.TreeNode("Frenzy");
-            System.Windows.Forms.TreeNode treeNode161 = new System.Windows.Forms.TreeNode("Mizutsune Red Bubble");
-            System.Windows.Forms.TreeNode treeNode162 = new System.Windows.Forms.TreeNode("Misc. Buffs", new System.Windows.Forms.TreeNode[] {
-            treeNode160,
+            treeNode154,
+            treeNode155});
+            System.Windows.Forms.TreeNode treeNode157 = new System.Windows.Forms.TreeNode("Charge Levels");
+            System.Windows.Forms.TreeNode treeNode158 = new System.Windows.Forms.TreeNode("Valor Power Shot");
+            System.Windows.Forms.TreeNode treeNode159 = new System.Windows.Forms.TreeNode("Coatings and Boosts");
+            System.Windows.Forms.TreeNode treeNode160 = new System.Windows.Forms.TreeNode("Bow", new System.Windows.Forms.TreeNode[] {
+            treeNode157,
+            treeNode158,
+            treeNode159});
+            System.Windows.Forms.TreeNode treeNode161 = new System.Windows.Forms.TreeNode("Gunner", new System.Windows.Forms.TreeNode[] {
+            treeNode147,
+            treeNode151,
+            treeNode156,
+            treeNode160});
+            System.Windows.Forms.TreeNode treeNode162 = new System.Windows.Forms.TreeNode("Weapon-Specific", new System.Windows.Forms.TreeNode[] {
+            treeNode146,
             treeNode161});
-            System.Windows.Forms.TreeNode treeNode163 = new System.Windows.Forms.TreeNode("Attack Stacking");
+            System.Windows.Forms.TreeNode treeNode163 = new System.Windows.Forms.TreeNode("Frenzy");
+            System.Windows.Forms.TreeNode treeNode164 = new System.Windows.Forms.TreeNode("Mizutsune Red Bubble");
+            System.Windows.Forms.TreeNode treeNode165 = new System.Windows.Forms.TreeNode("Misc. Buffs", new System.Windows.Forms.TreeNode[] {
+            treeNode163,
+            treeNode164});
+            System.Windows.Forms.TreeNode treeNode166 = new System.Windows.Forms.TreeNode("Attack Stacking");
             System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
             System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
             System.Windows.Forms.ListViewGroup listViewGroup3 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
@@ -359,36 +365,35 @@
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.weapBow = new System.Windows.Forms.RadioButton();
-            this.weapHBG = new System.Windows.Forms.RadioButton();
-            this.weapLBG = new System.Windows.Forms.RadioButton();
-            this.weapIG = new System.Windows.Forms.RadioButton();
-            this.weapCB = new System.Windows.Forms.RadioButton();
-            this.weapSA = new System.Windows.Forms.RadioButton();
-            this.weapGL = new System.Windows.Forms.RadioButton();
-            this.weapLan = new System.Windows.Forms.RadioButton();
-            this.weapHH = new System.Windows.Forms.RadioButton();
-            this.weapHam = new System.Windows.Forms.RadioButton();
-            this.weapDB = new System.Windows.Forms.RadioButton();
-            this.weapSnS = new System.Windows.Forms.RadioButton();
-            this.weapLS = new System.Windows.Forms.RadioButton();
-            this.weapGS = new System.Windows.Forms.RadioButton();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.label81 = new System.Windows.Forms.Label();
-            this.weapSearch = new System.Windows.Forms.TextBox();
-            this.weapFinalUpgrade = new System.Windows.Forms.CheckBox();
-            this.weapNoEle = new System.Windows.Forms.CheckBox();
-            this.weapBlast = new System.Windows.Forms.CheckBox();
-            this.weapSleep = new System.Windows.Forms.CheckBox();
-            this.weapPara = new System.Windows.Forms.CheckBox();
-            this.weapPoi = new System.Windows.Forms.CheckBox();
-            this.weapDra = new System.Windows.Forms.CheckBox();
-            this.weapIce = new System.Windows.Forms.CheckBox();
-            this.weapThunder = new System.Windows.Forms.CheckBox();
-            this.weapWater = new System.Windows.Forms.CheckBox();
-            this.weapFire = new System.Windows.Forms.CheckBox();
-            this.weapFilter = new System.Windows.Forms.CheckBox();
             this.weaponDetails = new System.Windows.Forms.ListView();
+            this.weapHBG = new System.Windows.Forms.RadioButton();
             this.weaponTree = new System.Windows.Forms.TreeView();
+            this.weapSearch = new System.Windows.Forms.TextBox();
+            this.weapHH = new System.Windows.Forms.RadioButton();
+            this.weapLBG = new System.Windows.Forms.RadioButton();
+            this.weapFilter = new System.Windows.Forms.CheckBox();
+            this.weapFinalUpgrade = new System.Windows.Forms.CheckBox();
+            this.weapGS = new System.Windows.Forms.RadioButton();
+            this.weapIG = new System.Windows.Forms.RadioButton();
+            this.weapFire = new System.Windows.Forms.CheckBox();
+            this.weapNoEle = new System.Windows.Forms.CheckBox();
+            this.weapLS = new System.Windows.Forms.RadioButton();
+            this.weapCB = new System.Windows.Forms.RadioButton();
+            this.weapWater = new System.Windows.Forms.CheckBox();
+            this.weapBlast = new System.Windows.Forms.CheckBox();
+            this.weapSnS = new System.Windows.Forms.RadioButton();
+            this.weapSA = new System.Windows.Forms.RadioButton();
+            this.weapThunder = new System.Windows.Forms.CheckBox();
+            this.weapSleep = new System.Windows.Forms.CheckBox();
+            this.weapDB = new System.Windows.Forms.RadioButton();
+            this.weapGL = new System.Windows.Forms.RadioButton();
+            this.weapIce = new System.Windows.Forms.CheckBox();
+            this.weapPara = new System.Windows.Forms.CheckBox();
+            this.weapHam = new System.Windows.Forms.RadioButton();
+            this.weapLan = new System.Windows.Forms.RadioButton();
+            this.weapDra = new System.Windows.Forms.CheckBox();
+            this.weapPoi = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -573,6 +578,8 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.calcDetails = new System.Windows.Forms.RichTextBox();
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.calcPerHit = new System.Windows.Forms.TextBox();
+            this.label99 = new System.Windows.Forms.Label();
             this.calcAllElePict = new System.Windows.Forms.PictureBox();
             this.calcSecPict = new System.Windows.Forms.PictureBox();
             this.calcElePict = new System.Windows.Forms.PictureBox();
@@ -728,10 +735,11 @@
             this.columnHeader36 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ErrorPreventer = new System.Windows.Forms.ErrorProvider(this.components);
             this.label52 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label100 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            this.groupBox12.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.weapSecPict)).BeginInit();
@@ -795,6 +803,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(892, 436);
             this.tabControl1.TabIndex = 0;
+            this.tabControl1.TabStop = false;
             // 
             // tabPage6
             // 
@@ -807,30 +816,44 @@
             this.tabPage6.Size = new System.Drawing.Size(884, 410);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Weapon";
+            this.toolTip1.SetToolTip(this.tabPage6, "Find specific weapons to use for calculations.");
             // 
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.weapBow);
-            this.groupBox8.Controls.Add(this.weapHBG);
-            this.groupBox8.Controls.Add(this.weapLBG);
-            this.groupBox8.Controls.Add(this.weapIG);
-            this.groupBox8.Controls.Add(this.weapCB);
-            this.groupBox8.Controls.Add(this.weapSA);
-            this.groupBox8.Controls.Add(this.weapGL);
-            this.groupBox8.Controls.Add(this.weapLan);
-            this.groupBox8.Controls.Add(this.weapHH);
-            this.groupBox8.Controls.Add(this.weapHam);
-            this.groupBox8.Controls.Add(this.weapDB);
-            this.groupBox8.Controls.Add(this.weapSnS);
-            this.groupBox8.Controls.Add(this.weapLS);
-            this.groupBox8.Controls.Add(this.weapGS);
-            this.groupBox8.Controls.Add(this.groupBox12);
+            this.groupBox8.Controls.Add(this.label81);
             this.groupBox8.Controls.Add(this.weaponDetails);
+            this.groupBox8.Controls.Add(this.weapHBG);
             this.groupBox8.Controls.Add(this.weaponTree);
-            this.groupBox8.Location = new System.Drawing.Point(250, 7);
+            this.groupBox8.Controls.Add(this.weapSearch);
+            this.groupBox8.Controls.Add(this.weapHH);
+            this.groupBox8.Controls.Add(this.weapLBG);
+            this.groupBox8.Controls.Add(this.weapFilter);
+            this.groupBox8.Controls.Add(this.weapFinalUpgrade);
+            this.groupBox8.Controls.Add(this.weapGS);
+            this.groupBox8.Controls.Add(this.weapIG);
+            this.groupBox8.Controls.Add(this.weapFire);
+            this.groupBox8.Controls.Add(this.weapNoEle);
+            this.groupBox8.Controls.Add(this.weapLS);
+            this.groupBox8.Controls.Add(this.weapCB);
+            this.groupBox8.Controls.Add(this.weapWater);
+            this.groupBox8.Controls.Add(this.weapBlast);
+            this.groupBox8.Controls.Add(this.weapSnS);
+            this.groupBox8.Controls.Add(this.weapSA);
+            this.groupBox8.Controls.Add(this.weapThunder);
+            this.groupBox8.Controls.Add(this.weapSleep);
+            this.groupBox8.Controls.Add(this.weapDB);
+            this.groupBox8.Controls.Add(this.weapGL);
+            this.groupBox8.Controls.Add(this.weapIce);
+            this.groupBox8.Controls.Add(this.weapPara);
+            this.groupBox8.Controls.Add(this.weapHam);
+            this.groupBox8.Controls.Add(this.weapLan);
+            this.groupBox8.Controls.Add(this.weapDra);
+            this.groupBox8.Controls.Add(this.weapPoi);
+            this.groupBox8.Location = new System.Drawing.Point(229, 7);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(628, 397);
-            this.groupBox8.TabIndex = 2;
+            this.groupBox8.Size = new System.Drawing.Size(649, 397);
+            this.groupBox8.TabIndex = 0;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Weapon Search";
             // 
@@ -839,366 +862,22 @@
             this.weapBow.Appearance = System.Windows.Forms.Appearance.Button;
             this.weapBow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapBow.BackgroundImage")));
             this.weapBow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapBow.Location = new System.Drawing.Point(223, 55);
+            this.weapBow.Location = new System.Drawing.Point(550, 23);
             this.weapBow.Name = "weapBow";
             this.weapBow.Size = new System.Drawing.Size(30, 30);
-            this.weapBow.TabIndex = 40;
-            this.weapBow.TabStop = true;
+            this.weapBow.TabIndex = 14;
+            this.toolTip1.SetToolTip(this.weapBow, "Bow");
             this.weapBow.UseVisualStyleBackColor = true;
             this.weapBow.CheckedChanged += new System.EventHandler(this.weapBow_CheckedChanged);
-            // 
-            // weapHBG
-            // 
-            this.weapHBG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapHBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHBG.BackgroundImage")));
-            this.weapHBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapHBG.Location = new System.Drawing.Point(187, 55);
-            this.weapHBG.Name = "weapHBG";
-            this.weapHBG.Size = new System.Drawing.Size(30, 30);
-            this.weapHBG.TabIndex = 39;
-            this.weapHBG.TabStop = true;
-            this.weapHBG.UseVisualStyleBackColor = true;
-            this.weapHBG.CheckedChanged += new System.EventHandler(this.weapHBG_CheckedChanged);
-            // 
-            // weapLBG
-            // 
-            this.weapLBG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapLBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLBG.BackgroundImage")));
-            this.weapLBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapLBG.Location = new System.Drawing.Point(151, 55);
-            this.weapLBG.Name = "weapLBG";
-            this.weapLBG.Size = new System.Drawing.Size(30, 30);
-            this.weapLBG.TabIndex = 38;
-            this.weapLBG.TabStop = true;
-            this.weapLBG.UseVisualStyleBackColor = true;
-            this.weapLBG.CheckedChanged += new System.EventHandler(this.weapLBG_CheckedChanged);
-            // 
-            // weapIG
-            // 
-            this.weapIG.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapIG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapIG.BackgroundImage")));
-            this.weapIG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapIG.Location = new System.Drawing.Point(115, 55);
-            this.weapIG.Name = "weapIG";
-            this.weapIG.Size = new System.Drawing.Size(30, 30);
-            this.weapIG.TabIndex = 37;
-            this.weapIG.TabStop = true;
-            this.weapIG.UseVisualStyleBackColor = true;
-            this.weapIG.CheckedChanged += new System.EventHandler(this.weapIG_CheckedChanged);
-            // 
-            // weapCB
-            // 
-            this.weapCB.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapCB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapCB.BackgroundImage")));
-            this.weapCB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapCB.Location = new System.Drawing.Point(79, 55);
-            this.weapCB.Name = "weapCB";
-            this.weapCB.Size = new System.Drawing.Size(30, 30);
-            this.weapCB.TabIndex = 36;
-            this.weapCB.TabStop = true;
-            this.weapCB.UseVisualStyleBackColor = true;
-            this.weapCB.CheckedChanged += new System.EventHandler(this.weapCB_CheckedChanged);
-            // 
-            // weapSA
-            // 
-            this.weapSA.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapSA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSA.BackgroundImage")));
-            this.weapSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapSA.Location = new System.Drawing.Point(43, 55);
-            this.weapSA.Name = "weapSA";
-            this.weapSA.Size = new System.Drawing.Size(30, 30);
-            this.weapSA.TabIndex = 35;
-            this.weapSA.TabStop = true;
-            this.weapSA.UseVisualStyleBackColor = true;
-            this.weapSA.CheckedChanged += new System.EventHandler(this.weapSA_CheckedChanged);
-            // 
-            // weapGL
-            // 
-            this.weapGL.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapGL.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapGL.BackgroundImage")));
-            this.weapGL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapGL.Location = new System.Drawing.Point(7, 55);
-            this.weapGL.Name = "weapGL";
-            this.weapGL.Size = new System.Drawing.Size(30, 30);
-            this.weapGL.TabIndex = 34;
-            this.weapGL.TabStop = true;
-            this.weapGL.UseVisualStyleBackColor = true;
-            this.weapGL.CheckedChanged += new System.EventHandler(this.weapGL_CheckedChanged);
-            // 
-            // weapLan
-            // 
-            this.weapLan.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapLan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLan.BackgroundImage")));
-            this.weapLan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapLan.Location = new System.Drawing.Point(223, 19);
-            this.weapLan.Name = "weapLan";
-            this.weapLan.Size = new System.Drawing.Size(30, 30);
-            this.weapLan.TabIndex = 33;
-            this.weapLan.TabStop = true;
-            this.weapLan.UseVisualStyleBackColor = true;
-            this.weapLan.CheckedChanged += new System.EventHandler(this.weapLan_CheckedChanged);
-            // 
-            // weapHH
-            // 
-            this.weapHH.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapHH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHH.BackgroundImage")));
-            this.weapHH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapHH.Location = new System.Drawing.Point(187, 19);
-            this.weapHH.Name = "weapHH";
-            this.weapHH.Size = new System.Drawing.Size(30, 30);
-            this.weapHH.TabIndex = 32;
-            this.weapHH.TabStop = true;
-            this.weapHH.UseVisualStyleBackColor = true;
-            this.weapHH.CheckedChanged += new System.EventHandler(this.weapHH_CheckedChanged);
-            // 
-            // weapHam
-            // 
-            this.weapHam.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapHam.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHam.BackgroundImage")));
-            this.weapHam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapHam.Location = new System.Drawing.Point(151, 19);
-            this.weapHam.Name = "weapHam";
-            this.weapHam.Size = new System.Drawing.Size(30, 30);
-            this.weapHam.TabIndex = 31;
-            this.weapHam.TabStop = true;
-            this.weapHam.UseVisualStyleBackColor = true;
-            this.weapHam.CheckedChanged += new System.EventHandler(this.weapHam_CheckedChanged);
-            // 
-            // weapDB
-            // 
-            this.weapDB.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapDB.BackgroundImage")));
-            this.weapDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapDB.Location = new System.Drawing.Point(115, 19);
-            this.weapDB.Name = "weapDB";
-            this.weapDB.Size = new System.Drawing.Size(30, 30);
-            this.weapDB.TabIndex = 30;
-            this.weapDB.TabStop = true;
-            this.weapDB.UseVisualStyleBackColor = true;
-            this.weapDB.CheckedChanged += new System.EventHandler(this.waepDB_CheckedChanged);
-            // 
-            // weapSnS
-            // 
-            this.weapSnS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapSnS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSnS.BackgroundImage")));
-            this.weapSnS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapSnS.Location = new System.Drawing.Point(79, 19);
-            this.weapSnS.Name = "weapSnS";
-            this.weapSnS.Size = new System.Drawing.Size(30, 30);
-            this.weapSnS.TabIndex = 29;
-            this.weapSnS.TabStop = true;
-            this.weapSnS.UseVisualStyleBackColor = true;
-            this.weapSnS.CheckedChanged += new System.EventHandler(this.weapSnS_CheckedChanged);
-            // 
-            // weapLS
-            // 
-            this.weapLS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapLS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLS.BackgroundImage")));
-            this.weapLS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapLS.Location = new System.Drawing.Point(43, 19);
-            this.weapLS.Name = "weapLS";
-            this.weapLS.Size = new System.Drawing.Size(30, 30);
-            this.weapLS.TabIndex = 28;
-            this.weapLS.TabStop = true;
-            this.weapLS.UseVisualStyleBackColor = true;
-            this.weapLS.CheckedChanged += new System.EventHandler(this.weapLS_CheckedChanged);
-            // 
-            // weapGS
-            // 
-            this.weapGS.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapGS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapGS.BackgroundImage")));
-            this.weapGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapGS.Location = new System.Drawing.Point(7, 19);
-            this.weapGS.Name = "weapGS";
-            this.weapGS.Size = new System.Drawing.Size(30, 30);
-            this.weapGS.TabIndex = 27;
-            this.weapGS.TabStop = true;
-            this.weapGS.UseVisualStyleBackColor = true;
-            this.weapGS.CheckedChanged += new System.EventHandler(this.weapGS_CheckedChanged);
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.label81);
-            this.groupBox12.Controls.Add(this.weapSearch);
-            this.groupBox12.Controls.Add(this.weapFinalUpgrade);
-            this.groupBox12.Controls.Add(this.weapNoEle);
-            this.groupBox12.Controls.Add(this.weapBlast);
-            this.groupBox12.Controls.Add(this.weapSleep);
-            this.groupBox12.Controls.Add(this.weapPara);
-            this.groupBox12.Controls.Add(this.weapPoi);
-            this.groupBox12.Controls.Add(this.weapDra);
-            this.groupBox12.Controls.Add(this.weapIce);
-            this.groupBox12.Controls.Add(this.weapThunder);
-            this.groupBox12.Controls.Add(this.weapWater);
-            this.groupBox12.Controls.Add(this.weapFire);
-            this.groupBox12.Controls.Add(this.weapFilter);
-            this.groupBox12.Location = new System.Drawing.Point(259, 7);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(363, 82);
-            this.groupBox12.TabIndex = 26;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Filter";
             // 
             // label81
             // 
             this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(6, 20);
+            this.label81.Location = new System.Drawing.Point(6, 68);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(44, 13);
             this.label81.TabIndex = 39;
             this.label81.Text = "Search:";
-            // 
-            // weapSearch
-            // 
-            this.weapSearch.Location = new System.Drawing.Point(56, 17);
-            this.weapSearch.Name = "weapSearch";
-            this.weapSearch.Size = new System.Drawing.Size(104, 20);
-            this.weapSearch.TabIndex = 38;
-            this.weapSearch.TextChanged += new System.EventHandler(this.weapSearch_TextChanged);
-            // 
-            // weapFinalUpgrade
-            // 
-            this.weapFinalUpgrade.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapFinalUpgrade.AutoSize = true;
-            this.weapFinalUpgrade.Location = new System.Drawing.Point(185, 15);
-            this.weapFinalUpgrade.Name = "weapFinalUpgrade";
-            this.weapFinalUpgrade.Size = new System.Drawing.Size(88, 23);
-            this.weapFinalUpgrade.TabIndex = 37;
-            this.weapFinalUpgrade.Text = "Final Upgrades";
-            this.weapFinalUpgrade.UseVisualStyleBackColor = true;
-            this.weapFinalUpgrade.CheckedChanged += new System.EventHandler(this.weapFinalUpgrade_CheckedChanged);
-            // 
-            // weapNoEle
-            // 
-            this.weapNoEle.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapNoEle.AutoSize = true;
-            this.weapNoEle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapNoEle.Location = new System.Drawing.Point(279, 15);
-            this.weapNoEle.Name = "weapNoEle";
-            this.weapNoEle.Size = new System.Drawing.Size(78, 23);
-            this.weapNoEle.TabIndex = 36;
-            this.weapNoEle.Text = "(No Element)";
-            this.weapNoEle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.weapNoEle.UseVisualStyleBackColor = true;
-            this.weapNoEle.CheckedChanged += new System.EventHandler(this.weapNoEle_CheckedChanged);
-            // 
-            // weapBlast
-            // 
-            this.weapBlast.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapBlast.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapBlast.BackgroundImage")));
-            this.weapBlast.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapBlast.Location = new System.Drawing.Point(327, 44);
-            this.weapBlast.Name = "weapBlast";
-            this.weapBlast.Size = new System.Drawing.Size(30, 30);
-            this.weapBlast.TabIndex = 35;
-            this.weapBlast.UseVisualStyleBackColor = true;
-            this.weapBlast.CheckedChanged += new System.EventHandler(this.weapBlast_CheckedChanged);
-            // 
-            // weapSleep
-            // 
-            this.weapSleep.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapSleep.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSleep.BackgroundImage")));
-            this.weapSleep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapSleep.Location = new System.Drawing.Point(291, 44);
-            this.weapSleep.Name = "weapSleep";
-            this.weapSleep.Size = new System.Drawing.Size(30, 30);
-            this.weapSleep.TabIndex = 34;
-            this.weapSleep.UseVisualStyleBackColor = true;
-            this.weapSleep.CheckedChanged += new System.EventHandler(this.weapSleep_CheckedChanged);
-            // 
-            // weapPara
-            // 
-            this.weapPara.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapPara.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapPara.BackgroundImage")));
-            this.weapPara.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapPara.Location = new System.Drawing.Point(255, 44);
-            this.weapPara.Name = "weapPara";
-            this.weapPara.Size = new System.Drawing.Size(30, 30);
-            this.weapPara.TabIndex = 33;
-            this.weapPara.UseVisualStyleBackColor = true;
-            this.weapPara.CheckedChanged += new System.EventHandler(this.weapPara_CheckedChanged);
-            // 
-            // weapPoi
-            // 
-            this.weapPoi.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapPoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapPoi.BackgroundImage")));
-            this.weapPoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapPoi.Location = new System.Drawing.Point(219, 44);
-            this.weapPoi.Name = "weapPoi";
-            this.weapPoi.Size = new System.Drawing.Size(30, 30);
-            this.weapPoi.TabIndex = 32;
-            this.weapPoi.UseVisualStyleBackColor = true;
-            this.weapPoi.CheckedChanged += new System.EventHandler(this.weapPoi_CheckedChanged);
-            // 
-            // weapDra
-            // 
-            this.weapDra.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapDra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapDra.BackgroundImage")));
-            this.weapDra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapDra.Location = new System.Drawing.Point(183, 44);
-            this.weapDra.Name = "weapDra";
-            this.weapDra.Size = new System.Drawing.Size(30, 30);
-            this.weapDra.TabIndex = 31;
-            this.weapDra.UseVisualStyleBackColor = true;
-            this.weapDra.CheckedChanged += new System.EventHandler(this.weapDra_CheckedChanged);
-            // 
-            // weapIce
-            // 
-            this.weapIce.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapIce.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapIce.BackgroundImage")));
-            this.weapIce.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapIce.Location = new System.Drawing.Point(147, 44);
-            this.weapIce.Name = "weapIce";
-            this.weapIce.Size = new System.Drawing.Size(30, 30);
-            this.weapIce.TabIndex = 30;
-            this.weapIce.UseVisualStyleBackColor = true;
-            this.weapIce.CheckedChanged += new System.EventHandler(this.weapIce_CheckedChanged);
-            // 
-            // weapThunder
-            // 
-            this.weapThunder.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapThunder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapThunder.BackgroundImage")));
-            this.weapThunder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapThunder.Location = new System.Drawing.Point(111, 44);
-            this.weapThunder.Name = "weapThunder";
-            this.weapThunder.Size = new System.Drawing.Size(30, 30);
-            this.weapThunder.TabIndex = 29;
-            this.weapThunder.UseVisualStyleBackColor = true;
-            this.weapThunder.CheckedChanged += new System.EventHandler(this.weapThunder_CheckedChanged);
-            // 
-            // weapWater
-            // 
-            this.weapWater.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapWater.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapWater.BackgroundImage")));
-            this.weapWater.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapWater.Location = new System.Drawing.Point(75, 44);
-            this.weapWater.Name = "weapWater";
-            this.weapWater.Size = new System.Drawing.Size(30, 30);
-            this.weapWater.TabIndex = 28;
-            this.weapWater.UseVisualStyleBackColor = true;
-            this.weapWater.CheckedChanged += new System.EventHandler(this.weapWater_CheckedChanged);
-            // 
-            // weapFire
-            // 
-            this.weapFire.Appearance = System.Windows.Forms.Appearance.Button;
-            this.weapFire.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapFire.BackgroundImage")));
-            this.weapFire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.weapFire.Location = new System.Drawing.Point(39, 44);
-            this.weapFire.Name = "weapFire";
-            this.weapFire.Size = new System.Drawing.Size(30, 30);
-            this.weapFire.TabIndex = 27;
-            this.weapFire.UseVisualStyleBackColor = true;
-            this.weapFire.CheckedChanged += new System.EventHandler(this.weapFire_CheckedChanged);
-            // 
-            // weapFilter
-            // 
-            this.weapFilter.AutoSize = true;
-            this.weapFilter.Location = new System.Drawing.Point(18, 53);
-            this.weapFilter.Name = "weapFilter";
-            this.weapFilter.Size = new System.Drawing.Size(15, 14);
-            this.weapFilter.TabIndex = 26;
-            this.weapFilter.UseVisualStyleBackColor = true;
-            this.weapFilter.CheckedChanged += new System.EventHandler(this.weapFilter_CheckedChanged);
             // 
             // weaponDetails
             // 
@@ -1208,12 +887,27 @@
             this.weaponDetails.Location = new System.Drawing.Point(187, 92);
             this.weaponDetails.MultiSelect = false;
             this.weaponDetails.Name = "weaponDetails";
-            this.weaponDetails.Size = new System.Drawing.Size(435, 299);
+            this.weaponDetails.Size = new System.Drawing.Size(456, 299);
             this.weaponDetails.TabIndex = 15;
+            this.weaponDetails.TabStop = false;
             this.weaponDetails.UseCompatibleStateImageBehavior = false;
             this.weaponDetails.View = System.Windows.Forms.View.Details;
             this.weaponDetails.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.weaponDetails_ColumnClick);
             this.weaponDetails.SelectedIndexChanged += new System.EventHandler(this.weaponDetails_SelectedIndexChanged);
+            // 
+            // weapHBG
+            // 
+            this.weapHBG.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapHBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHBG.BackgroundImage")));
+            this.weapHBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapHBG.Location = new System.Drawing.Point(513, 23);
+            this.weapHBG.Name = "weapHBG";
+            this.weapHBG.Size = new System.Drawing.Size(30, 30);
+            this.weapHBG.TabIndex = 13;
+            this.weapHBG.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapHBG, "Heavy Bowgun");
+            this.weapHBG.UseVisualStyleBackColor = true;
+            this.weapHBG.CheckedChanged += new System.EventHandler(this.weapHBG_CheckedChanged);
             // 
             // weaponTree
             // 
@@ -1221,7 +915,339 @@
             this.weaponTree.Name = "weaponTree";
             this.weaponTree.Size = new System.Drawing.Size(174, 299);
             this.weaponTree.TabIndex = 14;
+            this.weaponTree.TabStop = false;
             this.weaponTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.weaponTree_AfterSelect);
+            // 
+            // weapSearch
+            // 
+            this.weapSearch.Location = new System.Drawing.Point(52, 65);
+            this.weapSearch.Name = "weapSearch";
+            this.weapSearch.Size = new System.Drawing.Size(104, 20);
+            this.weapSearch.TabIndex = 1;
+            this.weapSearch.TextChanged += new System.EventHandler(this.weapSearch_TextChanged);
+            // 
+            // weapHH
+            // 
+            this.weapHH.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapHH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHH.BackgroundImage")));
+            this.weapHH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapHH.Location = new System.Drawing.Point(254, 23);
+            this.weapHH.Name = "weapHH";
+            this.weapHH.Size = new System.Drawing.Size(30, 30);
+            this.weapHH.TabIndex = 6;
+            this.weapHH.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapHH, "Hunting Horn");
+            this.weapHH.UseVisualStyleBackColor = true;
+            this.weapHH.CheckedChanged += new System.EventHandler(this.weapHH_CheckedChanged);
+            // 
+            // weapLBG
+            // 
+            this.weapLBG.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapLBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLBG.BackgroundImage")));
+            this.weapLBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapLBG.Location = new System.Drawing.Point(476, 23);
+            this.weapLBG.Name = "weapLBG";
+            this.weapLBG.Size = new System.Drawing.Size(30, 30);
+            this.weapLBG.TabIndex = 12;
+            this.weapLBG.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapLBG, "Light Bowgun");
+            this.weapLBG.UseVisualStyleBackColor = true;
+            this.weapLBG.CheckedChanged += new System.EventHandler(this.weapLBG_CheckedChanged);
+            // 
+            // weapFilter
+            // 
+            this.weapFilter.AutoSize = true;
+            this.weapFilter.Location = new System.Drawing.Point(250, 68);
+            this.weapFilter.Name = "weapFilter";
+            this.weapFilter.Size = new System.Drawing.Size(15, 14);
+            this.weapFilter.TabIndex = 3;
+            this.toolTip1.SetToolTip(this.weapFilter, "Filter by Element");
+            this.weapFilter.UseVisualStyleBackColor = true;
+            this.weapFilter.CheckedChanged += new System.EventHandler(this.weapFilter_CheckedChanged);
+            // 
+            // weapFinalUpgrade
+            // 
+            this.weapFinalUpgrade.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapFinalUpgrade.AutoSize = true;
+            this.weapFinalUpgrade.Location = new System.Drawing.Point(169, 63);
+            this.weapFinalUpgrade.Name = "weapFinalUpgrade";
+            this.weapFinalUpgrade.Size = new System.Drawing.Size(70, 23);
+            this.weapFinalUpgrade.TabIndex = 2;
+            this.weapFinalUpgrade.Text = "Final Forms";
+            this.toolTip1.SetToolTip(this.weapFinalUpgrade, "Click to only show final upgrades of weapons.");
+            this.weapFinalUpgrade.UseVisualStyleBackColor = true;
+            this.weapFinalUpgrade.CheckedChanged += new System.EventHandler(this.weapFinalUpgrade_CheckedChanged);
+            // 
+            // weapGS
+            // 
+            this.weapGS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapGS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapGS.BackgroundImage")));
+            this.weapGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapGS.Location = new System.Drawing.Point(69, 23);
+            this.weapGS.Name = "weapGS";
+            this.weapGS.Size = new System.Drawing.Size(30, 30);
+            this.weapGS.TabIndex = 0;
+            this.weapGS.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapGS, "Great Sword");
+            this.weapGS.UseVisualStyleBackColor = true;
+            this.weapGS.CheckedChanged += new System.EventHandler(this.weapGS_CheckedChanged);
+            // 
+            // weapIG
+            // 
+            this.weapIG.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapIG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapIG.BackgroundImage")));
+            this.weapIG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapIG.Location = new System.Drawing.Point(439, 23);
+            this.weapIG.Name = "weapIG";
+            this.weapIG.Size = new System.Drawing.Size(30, 30);
+            this.weapIG.TabIndex = 11;
+            this.weapIG.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapIG, "Insect Glaive");
+            this.weapIG.UseVisualStyleBackColor = true;
+            this.weapIG.CheckedChanged += new System.EventHandler(this.weapIG_CheckedChanged);
+            // 
+            // weapFire
+            // 
+            this.weapFire.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapFire.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapFire.BackgroundImage")));
+            this.weapFire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapFire.Location = new System.Drawing.Point(268, 59);
+            this.weapFire.Name = "weapFire";
+            this.weapFire.Size = new System.Drawing.Size(30, 30);
+            this.weapFire.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.weapFire, "Fire");
+            this.weapFire.UseVisualStyleBackColor = true;
+            this.weapFire.CheckedChanged += new System.EventHandler(this.weapFire_CheckedChanged);
+            // 
+            // weapNoEle
+            // 
+            this.weapNoEle.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapNoEle.AutoSize = true;
+            this.weapNoEle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapNoEle.Location = new System.Drawing.Point(565, 63);
+            this.weapNoEle.Name = "weapNoEle";
+            this.weapNoEle.Size = new System.Drawing.Size(78, 23);
+            this.weapNoEle.TabIndex = 27;
+            this.weapNoEle.Text = "(No Element)";
+            this.weapNoEle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.weapNoEle.UseVisualStyleBackColor = true;
+            this.weapNoEle.CheckedChanged += new System.EventHandler(this.weapNoEle_CheckedChanged);
+            // 
+            // weapLS
+            // 
+            this.weapLS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapLS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLS.BackgroundImage")));
+            this.weapLS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapLS.Location = new System.Drawing.Point(106, 23);
+            this.weapLS.Name = "weapLS";
+            this.weapLS.Size = new System.Drawing.Size(30, 30);
+            this.weapLS.TabIndex = 1;
+            this.weapLS.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapLS, "Long Sword");
+            this.weapLS.UseVisualStyleBackColor = true;
+            this.weapLS.CheckedChanged += new System.EventHandler(this.weapLS_CheckedChanged);
+            // 
+            // weapCB
+            // 
+            this.weapCB.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapCB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapCB.BackgroundImage")));
+            this.weapCB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapCB.Location = new System.Drawing.Point(402, 23);
+            this.weapCB.Name = "weapCB";
+            this.weapCB.Size = new System.Drawing.Size(30, 30);
+            this.weapCB.TabIndex = 10;
+            this.weapCB.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapCB, "Charge Blade");
+            this.weapCB.UseVisualStyleBackColor = true;
+            this.weapCB.CheckedChanged += new System.EventHandler(this.weapCB_CheckedChanged);
+            // 
+            // weapWater
+            // 
+            this.weapWater.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapWater.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapWater.BackgroundImage")));
+            this.weapWater.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapWater.Location = new System.Drawing.Point(301, 59);
+            this.weapWater.Name = "weapWater";
+            this.weapWater.Size = new System.Drawing.Size(30, 30);
+            this.weapWater.TabIndex = 19;
+            this.toolTip1.SetToolTip(this.weapWater, "Water");
+            this.weapWater.UseVisualStyleBackColor = true;
+            this.weapWater.CheckedChanged += new System.EventHandler(this.weapWater_CheckedChanged);
+            // 
+            // weapBlast
+            // 
+            this.weapBlast.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapBlast.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapBlast.BackgroundImage")));
+            this.weapBlast.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapBlast.Location = new System.Drawing.Point(532, 59);
+            this.weapBlast.Name = "weapBlast";
+            this.weapBlast.Size = new System.Drawing.Size(30, 30);
+            this.weapBlast.TabIndex = 26;
+            this.toolTip1.SetToolTip(this.weapBlast, "Blast");
+            this.weapBlast.UseVisualStyleBackColor = true;
+            this.weapBlast.CheckedChanged += new System.EventHandler(this.weapBlast_CheckedChanged);
+            // 
+            // weapSnS
+            // 
+            this.weapSnS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapSnS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSnS.BackgroundImage")));
+            this.weapSnS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapSnS.Location = new System.Drawing.Point(143, 23);
+            this.weapSnS.Name = "weapSnS";
+            this.weapSnS.Size = new System.Drawing.Size(30, 30);
+            this.weapSnS.TabIndex = 3;
+            this.weapSnS.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapSnS, "Sword and Shield");
+            this.weapSnS.UseVisualStyleBackColor = true;
+            this.weapSnS.CheckedChanged += new System.EventHandler(this.weapSnS_CheckedChanged);
+            // 
+            // weapSA
+            // 
+            this.weapSA.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapSA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSA.BackgroundImage")));
+            this.weapSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapSA.Location = new System.Drawing.Point(365, 23);
+            this.weapSA.Name = "weapSA";
+            this.weapSA.Size = new System.Drawing.Size(30, 30);
+            this.weapSA.TabIndex = 9;
+            this.weapSA.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapSA, "Switch Axe");
+            this.weapSA.UseVisualStyleBackColor = true;
+            this.weapSA.CheckedChanged += new System.EventHandler(this.weapSA_CheckedChanged);
+            // 
+            // weapThunder
+            // 
+            this.weapThunder.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapThunder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapThunder.BackgroundImage")));
+            this.weapThunder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapThunder.Location = new System.Drawing.Point(334, 59);
+            this.weapThunder.Name = "weapThunder";
+            this.weapThunder.Size = new System.Drawing.Size(30, 30);
+            this.weapThunder.TabIndex = 20;
+            this.toolTip1.SetToolTip(this.weapThunder, "Thunder");
+            this.weapThunder.UseVisualStyleBackColor = true;
+            this.weapThunder.CheckedChanged += new System.EventHandler(this.weapThunder_CheckedChanged);
+            // 
+            // weapSleep
+            // 
+            this.weapSleep.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapSleep.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapSleep.BackgroundImage")));
+            this.weapSleep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapSleep.Location = new System.Drawing.Point(499, 59);
+            this.weapSleep.Name = "weapSleep";
+            this.weapSleep.Size = new System.Drawing.Size(30, 30);
+            this.weapSleep.TabIndex = 25;
+            this.toolTip1.SetToolTip(this.weapSleep, "Sleep");
+            this.weapSleep.UseVisualStyleBackColor = true;
+            this.weapSleep.CheckedChanged += new System.EventHandler(this.weapSleep_CheckedChanged);
+            // 
+            // weapDB
+            // 
+            this.weapDB.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapDB.BackgroundImage")));
+            this.weapDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapDB.Location = new System.Drawing.Point(180, 23);
+            this.weapDB.Name = "weapDB";
+            this.weapDB.Size = new System.Drawing.Size(30, 30);
+            this.weapDB.TabIndex = 4;
+            this.weapDB.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapDB, "Dual Blades");
+            this.weapDB.UseVisualStyleBackColor = true;
+            this.weapDB.CheckedChanged += new System.EventHandler(this.waepDB_CheckedChanged);
+            // 
+            // weapGL
+            // 
+            this.weapGL.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapGL.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapGL.BackgroundImage")));
+            this.weapGL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapGL.Location = new System.Drawing.Point(328, 23);
+            this.weapGL.Name = "weapGL";
+            this.weapGL.Size = new System.Drawing.Size(30, 30);
+            this.weapGL.TabIndex = 8;
+            this.weapGL.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapGL, "Gunlance");
+            this.weapGL.UseVisualStyleBackColor = true;
+            this.weapGL.CheckedChanged += new System.EventHandler(this.weapGL_CheckedChanged);
+            // 
+            // weapIce
+            // 
+            this.weapIce.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapIce.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapIce.BackgroundImage")));
+            this.weapIce.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapIce.Location = new System.Drawing.Point(367, 59);
+            this.weapIce.Name = "weapIce";
+            this.weapIce.Size = new System.Drawing.Size(30, 30);
+            this.weapIce.TabIndex = 21;
+            this.toolTip1.SetToolTip(this.weapIce, "Ice");
+            this.weapIce.UseVisualStyleBackColor = true;
+            this.weapIce.CheckedChanged += new System.EventHandler(this.weapIce_CheckedChanged);
+            // 
+            // weapPara
+            // 
+            this.weapPara.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapPara.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapPara.BackgroundImage")));
+            this.weapPara.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapPara.Location = new System.Drawing.Point(466, 59);
+            this.weapPara.Name = "weapPara";
+            this.weapPara.Size = new System.Drawing.Size(30, 30);
+            this.weapPara.TabIndex = 24;
+            this.toolTip1.SetToolTip(this.weapPara, "Para");
+            this.weapPara.UseVisualStyleBackColor = true;
+            this.weapPara.CheckedChanged += new System.EventHandler(this.weapPara_CheckedChanged);
+            // 
+            // weapHam
+            // 
+            this.weapHam.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapHam.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapHam.BackgroundImage")));
+            this.weapHam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapHam.Location = new System.Drawing.Point(217, 23);
+            this.weapHam.Name = "weapHam";
+            this.weapHam.Size = new System.Drawing.Size(30, 30);
+            this.weapHam.TabIndex = 5;
+            this.weapHam.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapHam, "Hammer");
+            this.weapHam.UseVisualStyleBackColor = true;
+            this.weapHam.CheckedChanged += new System.EventHandler(this.weapHam_CheckedChanged);
+            // 
+            // weapLan
+            // 
+            this.weapLan.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapLan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapLan.BackgroundImage")));
+            this.weapLan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapLan.Location = new System.Drawing.Point(291, 23);
+            this.weapLan.Name = "weapLan";
+            this.weapLan.Size = new System.Drawing.Size(30, 30);
+            this.weapLan.TabIndex = 7;
+            this.weapLan.TabStop = true;
+            this.toolTip1.SetToolTip(this.weapLan, "Lance");
+            this.weapLan.UseVisualStyleBackColor = true;
+            this.weapLan.CheckedChanged += new System.EventHandler(this.weapLan_CheckedChanged);
+            // 
+            // weapDra
+            // 
+            this.weapDra.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapDra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapDra.BackgroundImage")));
+            this.weapDra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapDra.Location = new System.Drawing.Point(400, 59);
+            this.weapDra.Name = "weapDra";
+            this.weapDra.Size = new System.Drawing.Size(30, 30);
+            this.weapDra.TabIndex = 22;
+            this.toolTip1.SetToolTip(this.weapDra, "Dragon");
+            this.weapDra.UseVisualStyleBackColor = true;
+            this.weapDra.CheckedChanged += new System.EventHandler(this.weapDra_CheckedChanged);
+            // 
+            // weapPoi
+            // 
+            this.weapPoi.Appearance = System.Windows.Forms.Appearance.Button;
+            this.weapPoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("weapPoi.BackgroundImage")));
+            this.weapPoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.weapPoi.Location = new System.Drawing.Point(433, 59);
+            this.weapPoi.Name = "weapPoi";
+            this.weapPoi.Size = new System.Drawing.Size(30, 30);
+            this.weapPoi.TabIndex = 23;
+            this.toolTip1.SetToolTip(this.weapPoi, "Poison");
+            this.weapPoi.UseVisualStyleBackColor = true;
+            this.weapPoi.CheckedChanged += new System.EventHandler(this.weapPoi_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -1258,8 +1284,8 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(237, 398);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.Size = new System.Drawing.Size(217, 398);
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Weapon Base Stats";
             // 
@@ -1268,7 +1294,7 @@
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label20.Location = new System.Drawing.Point(0, 263);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(237, 2);
+            this.label20.Size = new System.Drawing.Size(217, 2);
             this.label20.TabIndex = 35;
             // 
             // label7
@@ -1276,17 +1302,19 @@
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label7.Location = new System.Drawing.Point(0, 186);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(237, 2);
+            this.label7.Size = new System.Drawing.Size(217, 2);
             this.label7.TabIndex = 2;
             // 
             // weapAffinity
             // 
-            this.weapAffinity.Location = new System.Drawing.Point(126, 204);
+            this.weapAffinity.Location = new System.Drawing.Point(106, 204);
             this.weapAffinity.Name = "weapAffinity";
             this.weapAffinity.Size = new System.Drawing.Size(75, 20);
-            this.weapAffinity.TabIndex = 34;
+            this.weapAffinity.TabIndex = 2;
             this.weapAffinity.Text = "0";
             this.weapAffinity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.weapAffinity, "The base Affinity of a weapon. Affects the chance to critically or feebly hit any" +
+        " single hit.");
             // 
             // weapChaotic
             // 
@@ -1294,27 +1322,31 @@
             this.weapChaotic.Location = new System.Drawing.Point(10, 230);
             this.weapChaotic.Name = "weapChaotic";
             this.weapChaotic.Size = new System.Drawing.Size(138, 17);
-            this.weapChaotic.TabIndex = 33;
+            this.weapChaotic.TabIndex = 3;
             this.weapChaotic.Text = "Chaotic Gore Weapon?";
+            this.toolTip1.SetToolTip(this.weapChaotic, "If you\'re using a Chaotic Gore weapon, check this box to reveal the separate Affi" +
+        "nity textboxes.");
             this.weapChaotic.UseVisualStyleBackColor = true;
             this.weapChaotic.CheckedChanged += new System.EventHandler(this.weapChaotic_CheckedChanged);
             // 
             // weapNegAff
             // 
             this.weapNegAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.weapNegAff.Location = new System.Drawing.Point(172, 204);
+            this.weapNegAff.Location = new System.Drawing.Point(106, 204);
             this.weapNegAff.Name = "weapNegAff";
             this.weapNegAff.Size = new System.Drawing.Size(29, 20);
             this.weapNegAff.TabIndex = 32;
+            this.weapNegAff.TabStop = false;
             this.weapNegAff.Text = "0";
             this.weapNegAff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.weapNegAff, "If you\'re using a Chaotic Gore weapon, list the negative portion here.");
             this.weapNegAff.Visible = false;
             // 
             // weapNegative
             // 
             this.weapNegative.AutoSize = true;
             this.weapNegative.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weapNegative.Location = new System.Drawing.Point(158, 206);
+            this.weapNegative.Location = new System.Drawing.Point(92, 206);
             this.weapNegative.Name = "weapNegative";
             this.weapNegative.Size = new System.Drawing.Size(12, 16);
             this.weapNegative.TabIndex = 31;
@@ -1325,11 +1357,11 @@
             // 
             this.weapPositive.AutoSize = true;
             this.weapPositive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weapPositive.Location = new System.Drawing.Point(111, 206);
+            this.weapPositive.Location = new System.Drawing.Point(139, 206);
             this.weapPositive.Name = "weapPositive";
-            this.weapPositive.Size = new System.Drawing.Size(15, 16);
+            this.weapPositive.Size = new System.Drawing.Size(12, 16);
             this.weapPositive.TabIndex = 30;
-            this.weapPositive.Text = "+";
+            this.weapPositive.Text = "/";
             this.weapPositive.Visible = false;
             // 
             // weapOverride
@@ -1338,19 +1370,23 @@
             this.weapOverride.Location = new System.Drawing.Point(10, 153);
             this.weapOverride.Name = "weapOverride";
             this.weapOverride.Size = new System.Drawing.Size(140, 17);
-            this.weapOverride.TabIndex = 24;
+            this.weapOverride.TabIndex = 5;
             this.weapOverride.Text = "Override Base Element?";
+            this.toolTip1.SetToolTip(this.weapOverride, "If you wish to calculate the secondary element as the primary element,\r\nuse this " +
+        "to override the first element. Used for SA phials.");
             this.weapOverride.UseVisualStyleBackColor = true;
             this.weapOverride.CheckedChanged += new System.EventHandler(this.weapOverride_CheckedChanged);
             // 
             // weapReset
             // 
-            this.weapReset.Location = new System.Drawing.Point(10, 364);
+            this.weapReset.Location = new System.Drawing.Point(6, 369);
             this.weapReset.Name = "weapReset";
-            this.weapReset.Size = new System.Drawing.Size(216, 23);
-            this.weapReset.TabIndex = 22;
+            this.weapReset.Size = new System.Drawing.Size(205, 23);
+            this.weapReset.TabIndex = 7;
             this.weapReset.Text = "Reset Section";
+            this.toolTip1.SetToolTip(this.weapReset, "Hit this button to reset all the fields in this group.");
             this.weapReset.UseVisualStyleBackColor = true;
+            this.weapReset.Click += new System.EventHandler(this.weapReset_Click);
             // 
             // weapSharpTwo
             // 
@@ -1367,14 +1403,16 @@
             "Yellow",
             "Orange",
             "Red"});
-            this.weapSharpTwo.Location = new System.Drawing.Point(126, 337);
+            this.weapSharpTwo.Location = new System.Drawing.Point(106, 337);
             this.weapSharpTwo.Name = "weapSharpTwo";
             this.weapSharpTwo.Size = new System.Drawing.Size(100, 21);
-            this.weapSharpTwo.TabIndex = 21;
+            this.weapSharpTwo.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.weapSharpTwo, "The Sharpness of the weapon at Sharpness +2.\r\nUse \'(No Sharpness)\' if you\'re usin" +
+        "g a Gunner weapon.");
             // 
             // weapElePict
             // 
-            this.weapElePict.Location = new System.Drawing.Point(206, 70);
+            this.weapElePict.Location = new System.Drawing.Point(186, 70);
             this.weapElePict.Name = "weapElePict";
             this.weapElePict.Size = new System.Drawing.Size(20, 20);
             this.weapElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1383,7 +1421,7 @@
             // 
             // weapSecPict
             // 
-            this.weapSecPict.Location = new System.Drawing.Point(206, 125);
+            this.weapSecPict.Location = new System.Drawing.Point(186, 125);
             this.weapSecPict.Name = "weapSecPict";
             this.weapSecPict.Size = new System.Drawing.Size(20, 20);
             this.weapSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1407,10 +1445,13 @@
             "SA - Poison",
             "SA - Para",
             "SA - Exhaust"});
-            this.weapSec.Location = new System.Drawing.Point(126, 98);
+            this.weapSec.Location = new System.Drawing.Point(106, 98);
             this.weapSec.Name = "weapSec";
             this.weapSec.Size = new System.Drawing.Size(100, 21);
-            this.weapSec.TabIndex = 18;
+            this.weapSec.TabIndex = 3;
+            this.weapSec.TabStop = false;
+            this.toolTip1.SetToolTip(this.weapSec, "If the weapon has another potential source of damage, list it here.\r\nThese second" +
+        "ary sources of alternate damage include DB\'s 2nd Element and SA Phials.");
             this.weapSec.SelectedIndexChanged += new System.EventHandler(this.weapSec_SelectedIndexChanged);
             // 
             // weapEle
@@ -1430,20 +1471,26 @@
             "Para",
             "Sleep",
             "Blast"});
-            this.weapEle.Location = new System.Drawing.Point(126, 43);
+            this.weapEle.Location = new System.Drawing.Point(106, 43);
             this.weapEle.Name = "weapEle";
             this.weapEle.Size = new System.Drawing.Size(100, 21);
-            this.weapEle.TabIndex = 17;
+            this.weapEle.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.weapEle, "The type of damage that the weapon additionally does, other than raw.\r\nComes in E" +
+        "lements (Fire, Water, Thunder, Ice, Dragon) or Status (Poison, Para, Sleep, Blas" +
+        "t).");
             this.weapEle.SelectedIndexChanged += new System.EventHandler(this.weapEle_SelectedIndexChanged);
             // 
             // weapSecDamage
             // 
-            this.weapSecDamage.Location = new System.Drawing.Point(126, 125);
+            this.weapSecDamage.Location = new System.Drawing.Point(106, 125);
             this.weapSecDamage.Name = "weapSecDamage";
             this.weapSecDamage.Size = new System.Drawing.Size(75, 20);
-            this.weapSecDamage.TabIndex = 16;
+            this.weapSecDamage.TabIndex = 4;
+            this.weapSecDamage.TabStop = false;
             this.weapSecDamage.Text = "0";
             this.weapSecDamage.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.weapSecDamage, "The value of the secondary source of alternate damage, as unmodified by skills or" +
+        " items.\r\n");
             // 
             // weapSharpOne
             // 
@@ -1460,10 +1507,12 @@
             "Yellow",
             "Orange",
             "Red"});
-            this.weapSharpOne.Location = new System.Drawing.Point(126, 310);
+            this.weapSharpOne.Location = new System.Drawing.Point(106, 310);
             this.weapSharpOne.Name = "weapSharpOne";
             this.weapSharpOne.Size = new System.Drawing.Size(100, 21);
-            this.weapSharpOne.TabIndex = 15;
+            this.weapSharpOne.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.weapSharpOne, "The Sharpness of the weapon when using Sharpness +1. \r\nAgain, if you\'re using a G" +
+        "unner weapon, use \'(No Sharpness)\'.");
             this.weapSharpOne.SelectedIndexChanged += new System.EventHandler(this.weapSharpOne_SelectedIndexChanged);
             // 
             // label11
@@ -1489,18 +1538,18 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(7, 127);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(82, 13);
+            this.label9.Size = new System.Drawing.Size(91, 13);
             this.label9.TabIndex = 12;
-            this.label9.Text = "Alternate Value:";
+            this.label9.Text = "Secondary Value:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(7, 101);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 13);
+            this.label8.Size = new System.Drawing.Size(88, 13);
             this.label8.TabIndex = 11;
-            this.label8.Text = "Alternate Type:";
+            this.label8.Text = "Secondary Type:";
             // 
             // weapSharpness
             // 
@@ -1518,17 +1567,19 @@
             "Yellow",
             "Orange",
             "Red"});
-            this.weapSharpness.Location = new System.Drawing.Point(126, 283);
+            this.weapSharpness.Location = new System.Drawing.Point(106, 283);
             this.weapSharpness.Name = "weapSharpness";
             this.weapSharpness.Size = new System.Drawing.Size(100, 21);
-            this.weapSharpness.TabIndex = 10;
+            this.weapSharpness.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.weapSharpness, "Base Sharpness of the weapon, or the Sharpness of the weapon at anywhere below ma" +
+        "ximum.\r\nIf you\'re using a Gunner weapon, then use \'(No Sharpness)\'.");
             this.weapSharpness.SelectedIndexChanged += new System.EventHandler(this.weapSharpness_SelectedIndexChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(203, 204);
+            this.label6.Location = new System.Drawing.Point(183, 206);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(20, 16);
             this.label6.TabIndex = 9;
@@ -1537,33 +1588,37 @@
             // weapPosAff
             // 
             this.weapPosAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.weapPosAff.Location = new System.Drawing.Point(126, 204);
+            this.weapPosAff.Location = new System.Drawing.Point(152, 204);
             this.weapPosAff.Name = "weapPosAff";
             this.weapPosAff.Size = new System.Drawing.Size(29, 20);
             this.weapPosAff.TabIndex = 8;
+            this.weapPosAff.TabStop = false;
             this.weapPosAff.Text = "0";
             this.weapPosAff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.weapPosAff, "If you\'re using a Chaotic Gore weapon, list the positive portion here.");
             this.weapPosAff.Visible = false;
             // 
             // weapEleDamage
             // 
             this.weapEleDamage.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.weapEleDamage.Location = new System.Drawing.Point(126, 70);
+            this.weapEleDamage.Location = new System.Drawing.Point(106, 70);
             this.weapEleDamage.Name = "weapEleDamage";
             this.weapEleDamage.Size = new System.Drawing.Size(75, 20);
-            this.weapEleDamage.TabIndex = 7;
+            this.weapEleDamage.TabIndex = 2;
             this.weapEleDamage.Text = "0";
             this.weapEleDamage.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.weapEleDamage, "The value of the alternative damage source, unmodified by skills or items.");
             // 
             // weapRaw
             // 
             this.weapRaw.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.weapRaw.Location = new System.Drawing.Point(126, 17);
+            this.weapRaw.Location = new System.Drawing.Point(106, 17);
             this.weapRaw.Name = "weapRaw";
             this.weapRaw.Size = new System.Drawing.Size(100, 20);
-            this.weapRaw.TabIndex = 6;
+            this.weapRaw.TabIndex = 0;
             this.weapRaw.Text = "0";
             this.weapRaw.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.weapRaw, "The base display of the weapon\'s power, without skills or items affecting it.");
             // 
             // label5
             // 
@@ -1588,18 +1643,18 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(7, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Element/Status Value:";
+            this.label3.Size = new System.Drawing.Size(82, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Alternate Value:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Element/Status:";
+            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Alternate Type:";
             // 
             // label1
             // 
@@ -1607,7 +1662,7 @@
             this.label1.Location = new System.Drawing.Point(7, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 13);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 10;
             this.label1.Text = "Weapon Raw:";
             // 
             // tabPage7
@@ -1640,9 +1695,9 @@
             this.groupBox9.Controls.Add(this.moveSnS);
             this.groupBox9.Controls.Add(this.moveLS);
             this.groupBox9.Controls.Add(this.moveGS);
-            this.groupBox9.Location = new System.Drawing.Point(249, 7);
+            this.groupBox9.Location = new System.Drawing.Point(229, 7);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(629, 397);
+            this.groupBox9.Size = new System.Drawing.Size(649, 397);
             this.groupBox9.TabIndex = 3;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Move Search";
@@ -1669,8 +1724,9 @@
             this.moveDetails.Location = new System.Drawing.Point(6, 55);
             this.moveDetails.MultiSelect = false;
             this.moveDetails.Name = "moveDetails";
-            this.moveDetails.Size = new System.Drawing.Size(617, 336);
+            this.moveDetails.Size = new System.Drawing.Size(637, 336);
             this.moveDetails.TabIndex = 56;
+            this.moveDetails.TabStop = false;
             this.moveDetails.UseCompatibleStateImageBehavior = false;
             this.moveDetails.View = System.Windows.Forms.View.Details;
             this.moveDetails.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.moveDetails_ColumnClick);
@@ -1741,11 +1797,12 @@
             this.moveShot.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveShot.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveShot.BackgroundImage")));
             this.moveShot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveShot.Location = new System.Drawing.Point(445, 19);
+            this.moveShot.Location = new System.Drawing.Point(457, 19);
             this.moveShot.Name = "moveShot";
             this.moveShot.Size = new System.Drawing.Size(30, 30);
             this.moveShot.TabIndex = 55;
             this.moveShot.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveShot, "Shot Types");
             this.moveShot.UseVisualStyleBackColor = true;
             this.moveShot.CheckedChanged += new System.EventHandler(this.moveShot_CheckedChanged);
             // 
@@ -1754,11 +1811,12 @@
             this.moveBow.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveBow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveBow.BackgroundImage")));
             this.moveBow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveBow.Location = new System.Drawing.Point(553, 19);
+            this.moveBow.Location = new System.Drawing.Point(568, 19);
             this.moveBow.Name = "moveBow";
             this.moveBow.Size = new System.Drawing.Size(30, 30);
             this.moveBow.TabIndex = 54;
             this.moveBow.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveBow, "Bow");
             this.moveBow.UseVisualStyleBackColor = true;
             this.moveBow.CheckedChanged += new System.EventHandler(this.moveBow_CheckedChanged);
             // 
@@ -1767,11 +1825,12 @@
             this.moveHBG.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveHBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveHBG.BackgroundImage")));
             this.moveHBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveHBG.Location = new System.Drawing.Point(517, 19);
+            this.moveHBG.Location = new System.Drawing.Point(531, 19);
             this.moveHBG.Name = "moveHBG";
             this.moveHBG.Size = new System.Drawing.Size(30, 30);
             this.moveHBG.TabIndex = 53;
             this.moveHBG.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveHBG, "Heavy Bowgun");
             this.moveHBG.UseVisualStyleBackColor = true;
             this.moveHBG.CheckedChanged += new System.EventHandler(this.moveHBG_CheckedChanged);
             // 
@@ -1780,11 +1839,12 @@
             this.moveLBG.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveLBG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveLBG.BackgroundImage")));
             this.moveLBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveLBG.Location = new System.Drawing.Point(481, 19);
+            this.moveLBG.Location = new System.Drawing.Point(494, 19);
             this.moveLBG.Name = "moveLBG";
             this.moveLBG.Size = new System.Drawing.Size(30, 30);
             this.moveLBG.TabIndex = 52;
             this.moveLBG.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveLBG, "Light Bowgun (and Rapid Fire)");
             this.moveLBG.UseVisualStyleBackColor = true;
             this.moveLBG.CheckedChanged += new System.EventHandler(this.moveLBG_CheckedChanged);
             // 
@@ -1793,11 +1853,12 @@
             this.moveIG.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveIG.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveIG.BackgroundImage")));
             this.moveIG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveIG.Location = new System.Drawing.Point(409, 19);
+            this.moveIG.Location = new System.Drawing.Point(420, 19);
             this.moveIG.Name = "moveIG";
             this.moveIG.Size = new System.Drawing.Size(30, 30);
             this.moveIG.TabIndex = 51;
             this.moveIG.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveIG, "Insect Glaive");
             this.moveIG.UseVisualStyleBackColor = true;
             this.moveIG.CheckedChanged += new System.EventHandler(this.moveIG_CheckedChanged);
             // 
@@ -1806,11 +1867,12 @@
             this.moveCB.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveCB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveCB.BackgroundImage")));
             this.moveCB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveCB.Location = new System.Drawing.Point(373, 19);
+            this.moveCB.Location = new System.Drawing.Point(383, 19);
             this.moveCB.Name = "moveCB";
             this.moveCB.Size = new System.Drawing.Size(30, 30);
             this.moveCB.TabIndex = 50;
             this.moveCB.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveCB, "Charge Blade");
             this.moveCB.UseVisualStyleBackColor = true;
             this.moveCB.CheckedChanged += new System.EventHandler(this.moveCB_CheckedChanged);
             // 
@@ -1819,11 +1881,12 @@
             this.moveSA.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveSA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveSA.BackgroundImage")));
             this.moveSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveSA.Location = new System.Drawing.Point(337, 19);
+            this.moveSA.Location = new System.Drawing.Point(346, 19);
             this.moveSA.Name = "moveSA";
             this.moveSA.Size = new System.Drawing.Size(30, 30);
             this.moveSA.TabIndex = 49;
             this.moveSA.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveSA, "Switch Axe");
             this.moveSA.UseVisualStyleBackColor = true;
             this.moveSA.CheckedChanged += new System.EventHandler(this.moveSA_CheckedChanged);
             // 
@@ -1832,11 +1895,12 @@
             this.moveGL.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveGL.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveGL.BackgroundImage")));
             this.moveGL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveGL.Location = new System.Drawing.Point(301, 19);
+            this.moveGL.Location = new System.Drawing.Point(309, 19);
             this.moveGL.Name = "moveGL";
             this.moveGL.Size = new System.Drawing.Size(30, 30);
             this.moveGL.TabIndex = 48;
             this.moveGL.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveGL, "Gunlance");
             this.moveGL.UseVisualStyleBackColor = true;
             this.moveGL.CheckedChanged += new System.EventHandler(this.moveGL_CheckedChanged);
             // 
@@ -1845,11 +1909,12 @@
             this.moveLance.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveLance.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveLance.BackgroundImage")));
             this.moveLance.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveLance.Location = new System.Drawing.Point(265, 19);
+            this.moveLance.Location = new System.Drawing.Point(272, 19);
             this.moveLance.Name = "moveLance";
             this.moveLance.Size = new System.Drawing.Size(30, 30);
             this.moveLance.TabIndex = 47;
             this.moveLance.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveLance, "Lance");
             this.moveLance.UseVisualStyleBackColor = true;
             this.moveLance.CheckedChanged += new System.EventHandler(this.moveLance_CheckedChanged);
             // 
@@ -1858,11 +1923,12 @@
             this.moveHH.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveHH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveHH.BackgroundImage")));
             this.moveHH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveHH.Location = new System.Drawing.Point(229, 19);
+            this.moveHH.Location = new System.Drawing.Point(235, 19);
             this.moveHH.Name = "moveHH";
             this.moveHH.Size = new System.Drawing.Size(30, 30);
             this.moveHH.TabIndex = 46;
             this.moveHH.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveHH, "Hunting Horn");
             this.moveHH.UseVisualStyleBackColor = true;
             this.moveHH.CheckedChanged += new System.EventHandler(this.moveHH_CheckedChanged);
             // 
@@ -1871,11 +1937,12 @@
             this.moveHammer.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveHammer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveHammer.BackgroundImage")));
             this.moveHammer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveHammer.Location = new System.Drawing.Point(193, 19);
+            this.moveHammer.Location = new System.Drawing.Point(198, 19);
             this.moveHammer.Name = "moveHammer";
             this.moveHammer.Size = new System.Drawing.Size(30, 30);
             this.moveHammer.TabIndex = 45;
             this.moveHammer.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveHammer, "Hammer");
             this.moveHammer.UseVisualStyleBackColor = true;
             this.moveHammer.CheckedChanged += new System.EventHandler(this.moveHammer_CheckedChanged);
             // 
@@ -1884,11 +1951,12 @@
             this.moveDB.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveDB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveDB.BackgroundImage")));
             this.moveDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveDB.Location = new System.Drawing.Point(157, 19);
+            this.moveDB.Location = new System.Drawing.Point(161, 19);
             this.moveDB.Name = "moveDB";
             this.moveDB.Size = new System.Drawing.Size(30, 30);
             this.moveDB.TabIndex = 44;
             this.moveDB.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveDB, "Dual Blades");
             this.moveDB.UseVisualStyleBackColor = true;
             this.moveDB.CheckedChanged += new System.EventHandler(this.moveDB_CheckedChanged);
             // 
@@ -1897,11 +1965,12 @@
             this.moveSnS.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveSnS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveSnS.BackgroundImage")));
             this.moveSnS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveSnS.Location = new System.Drawing.Point(121, 19);
+            this.moveSnS.Location = new System.Drawing.Point(124, 19);
             this.moveSnS.Name = "moveSnS";
             this.moveSnS.Size = new System.Drawing.Size(30, 30);
             this.moveSnS.TabIndex = 43;
             this.moveSnS.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveSnS, "Sword and Shield");
             this.moveSnS.UseVisualStyleBackColor = true;
             this.moveSnS.CheckedChanged += new System.EventHandler(this.moveSnS_CheckedChanged);
             // 
@@ -1910,11 +1979,12 @@
             this.moveLS.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveLS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveLS.BackgroundImage")));
             this.moveLS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveLS.Location = new System.Drawing.Point(85, 19);
+            this.moveLS.Location = new System.Drawing.Point(87, 19);
             this.moveLS.Name = "moveLS";
             this.moveLS.Size = new System.Drawing.Size(30, 30);
             this.moveLS.TabIndex = 42;
             this.moveLS.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveLS, "Long Sword");
             this.moveLS.UseVisualStyleBackColor = true;
             this.moveLS.CheckedChanged += new System.EventHandler(this.moveLS_CheckedChanged);
             // 
@@ -1923,11 +1993,12 @@
             this.moveGS.Appearance = System.Windows.Forms.Appearance.Button;
             this.moveGS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moveGS.BackgroundImage")));
             this.moveGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.moveGS.Location = new System.Drawing.Point(49, 19);
+            this.moveGS.Location = new System.Drawing.Point(50, 19);
             this.moveGS.Name = "moveGS";
             this.moveGS.Size = new System.Drawing.Size(30, 30);
-            this.moveGS.TabIndex = 41;
+            this.moveGS.TabIndex = 0;
             this.moveGS.TabStop = true;
+            this.toolTip1.SetToolTip(this.moveGS, "Great Sword");
             this.moveGS.UseVisualStyleBackColor = true;
             this.moveGS.CheckedChanged += new System.EventHandler(this.moveGS_CheckedChanged);
             // 
@@ -1962,7 +2033,7 @@
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Location = new System.Drawing.Point(6, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(236, 398);
+            this.groupBox2.Size = new System.Drawing.Size(217, 398);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Move Stats";
@@ -1970,14 +2041,14 @@
             // label80
             // 
             this.label80.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label80.Location = new System.Drawing.Point(0, 155);
+            this.label80.Location = new System.Drawing.Point(0, 159);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(237, 2);
+            this.label80.Size = new System.Drawing.Size(217, 2);
             this.label80.TabIndex = 3;
             // 
             // moveInheritPict
             // 
-            this.moveInheritPict.Location = new System.Drawing.Point(206, 268);
+            this.moveInheritPict.Location = new System.Drawing.Point(186, 272);
             this.moveInheritPict.Name = "moveInheritPict";
             this.moveInheritPict.Size = new System.Drawing.Size(20, 20);
             this.moveInheritPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1987,7 +2058,7 @@
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(7, 271);
+            this.label53.Location = new System.Drawing.Point(7, 275);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(78, 13);
             this.label53.TabIndex = 36;
@@ -1996,12 +2067,13 @@
             // moveInheritValue
             // 
             this.moveInheritValue.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.moveInheritValue.Location = new System.Drawing.Point(126, 268);
+            this.moveInheritValue.Location = new System.Drawing.Point(106, 272);
             this.moveInheritValue.Name = "moveInheritValue";
             this.moveInheritValue.Size = new System.Drawing.Size(75, 20);
-            this.moveInheritValue.TabIndex = 35;
+            this.moveInheritValue.TabIndex = 8;
             this.moveInheritValue.Text = "0";
             this.moveInheritValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.moveInheritValue, "List the value of the inherant element here.");
             // 
             // moveInherit
             // 
@@ -2020,16 +2092,18 @@
             "Para",
             "Sleep",
             "Blast"});
-            this.moveInherit.Location = new System.Drawing.Point(126, 241);
+            this.moveInherit.Location = new System.Drawing.Point(106, 245);
             this.moveInherit.Name = "moveInherit";
             this.moveInherit.Size = new System.Drawing.Size(100, 21);
-            this.moveInherit.TabIndex = 35;
+            this.moveInherit.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.moveInherit, "Some moves have inherant elemental damage, which automatically overrides the weap" +
+        "on\'s element. List that here.");
             this.moveInherit.SelectedIndexChanged += new System.EventHandler(this.moveInherit_SelectedIndexChanged);
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(7, 244);
+            this.label51.Location = new System.Drawing.Point(7, 248);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(78, 13);
             this.label51.TabIndex = 33;
@@ -2037,7 +2111,7 @@
             // 
             // moveTypePict
             // 
-            this.moveTypePict.Location = new System.Drawing.Point(206, 68);
+            this.moveTypePict.Location = new System.Drawing.Point(186, 71);
             this.moveTypePict.Name = "moveTypePict";
             this.moveTypePict.Size = new System.Drawing.Size(20, 20);
             this.moveTypePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2047,7 +2121,7 @@
             // moveExhPict
             // 
             this.moveExhPict.Image = ((System.Drawing.Image)(resources.GetObject("moveExhPict.Image")));
-            this.moveExhPict.Location = new System.Drawing.Point(206, 196);
+            this.moveExhPict.Location = new System.Drawing.Point(186, 200);
             this.moveExhPict.Name = "moveExhPict";
             this.moveExhPict.Size = new System.Drawing.Size(20, 20);
             this.moveExhPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2057,7 +2131,7 @@
             // moveKOPict
             // 
             this.moveKOPict.Image = ((System.Drawing.Image)(resources.GetObject("moveKOPict.Image")));
-            this.moveKOPict.Location = new System.Drawing.Point(206, 170);
+            this.moveKOPict.Location = new System.Drawing.Point(186, 174);
             this.moveKOPict.Name = "moveKOPict";
             this.moveKOPict.Size = new System.Drawing.Size(20, 20);
             this.moveKOPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2068,10 +2142,12 @@
             // 
             this.moveReset.Location = new System.Drawing.Point(6, 369);
             this.moveReset.Name = "moveReset";
-            this.moveReset.Size = new System.Drawing.Size(224, 23);
-            this.moveReset.TabIndex = 19;
+            this.moveReset.Size = new System.Drawing.Size(204, 23);
+            this.moveReset.TabIndex = 12;
             this.moveReset.Text = "Reset Section";
+            this.toolTip1.SetToolTip(this.moveReset, "Click this to reset all fields of this section.");
             this.moveReset.UseVisualStyleBackColor = true;
+            this.moveReset.Click += new System.EventHandler(this.moveReset_Click);
             // 
             // moveType
             // 
@@ -2084,15 +2160,17 @@
             "Impact",
             "Shot",
             "Fixed"});
-            this.moveType.Location = new System.Drawing.Point(126, 67);
+            this.moveType.Location = new System.Drawing.Point(106, 70);
             this.moveType.Name = "moveType";
             this.moveType.Size = new System.Drawing.Size(75, 21);
-            this.moveType.TabIndex = 18;
+            this.moveType.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.moveType, "The particular damage type that this move does.\r\nCan be Cut, Impact, Shot, or Fix" +
+        "ed.\r\n");
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(7, 70);
+            this.label19.Location = new System.Drawing.Point(7, 73);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(77, 13);
             this.label19.TabIndex = 17;
@@ -2100,128 +2178,140 @@
             // 
             // moveExhaust
             // 
-            this.moveExhaust.Location = new System.Drawing.Point(126, 196);
+            this.moveExhaust.Location = new System.Drawing.Point(106, 200);
             this.moveExhaust.Name = "moveExhaust";
             this.moveExhaust.Size = new System.Drawing.Size(75, 20);
-            this.moveExhaust.TabIndex = 16;
+            this.moveExhaust.TabIndex = 6;
             this.moveExhaust.Text = "0";
             this.moveExhaust.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.moveExhaust, "The amount of Exhaust damage dealt per hit.");
             // 
             // moveKO
             // 
-            this.moveKO.Location = new System.Drawing.Point(126, 170);
+            this.moveKO.Location = new System.Drawing.Point(106, 174);
             this.moveKO.Name = "moveKO";
             this.moveKO.Size = new System.Drawing.Size(75, 20);
-            this.moveKO.TabIndex = 15;
+            this.moveKO.TabIndex = 5;
             this.moveKO.Text = "0";
             this.moveKO.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.moveKO, "The amount of KO damage dealt per hit.");
             // 
             // moveSharpMod
             // 
-            this.moveSharpMod.Location = new System.Drawing.Point(126, 94);
+            this.moveSharpMod.Location = new System.Drawing.Point(106, 98);
             this.moveSharpMod.Name = "moveSharpMod";
             this.moveSharpMod.Size = new System.Drawing.Size(100, 20);
-            this.moveSharpMod.TabIndex = 14;
+            this.moveSharpMod.TabIndex = 3;
             this.moveSharpMod.Text = "1.0";
             this.moveSharpMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.moveSharpMod, "The move\'s individual Sharpness Modifier, which both increases damage and reduces" +
+        " bouncing.\r\nIf the move is a Rapid Fire volley, then this doubles as the RF Modi" +
+        "fier.");
             // 
             // moveElement
             // 
-            this.moveElement.Location = new System.Drawing.Point(126, 120);
+            this.moveElement.Location = new System.Drawing.Point(106, 124);
             this.moveElement.Name = "moveElement";
             this.moveElement.Size = new System.Drawing.Size(100, 20);
-            this.moveElement.TabIndex = 13;
+            this.moveElement.TabIndex = 4;
             this.moveElement.Text = "1.0";
             this.moveElement.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.moveElement, "The Elemental Modifier of the attack. If the move used was\r\na Rapid Fire volley, " +
+        "this doubles as the RF modifier.\r\n");
             // 
             // moveHitCount
             // 
-            this.moveHitCount.Location = new System.Drawing.Point(126, 39);
+            this.moveHitCount.Location = new System.Drawing.Point(106, 43);
             this.moveHitCount.Name = "moveHitCount";
             this.moveHitCount.Size = new System.Drawing.Size(100, 20);
-            this.moveHitCount.TabIndex = 12;
+            this.moveHitCount.TabIndex = 1;
             this.moveHitCount.Text = "0";
             this.moveHitCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.moveHitCount, "The number of individual hits done for a single attack.");
             // 
             // moveMV
             // 
-            this.moveMV.Location = new System.Drawing.Point(126, 13);
+            this.moveMV.Location = new System.Drawing.Point(106, 17);
             this.moveMV.Name = "moveMV";
             this.moveMV.Size = new System.Drawing.Size(100, 20);
-            this.moveMV.TabIndex = 11;
+            this.moveMV.TabIndex = 0;
             this.moveMV.Text = "0";
             this.moveMV.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.moveMV, "The total Motion Value (MV) of a single attack.");
             // 
             // moveDraw
             // 
             this.moveDraw.AutoSize = true;
-            this.moveDraw.Location = new System.Drawing.Point(10, 345);
+            this.moveDraw.Location = new System.Drawing.Point(10, 349);
             this.moveDraw.Name = "moveDraw";
             this.moveDraw.Size = new System.Drawing.Size(91, 17);
-            this.moveDraw.TabIndex = 9;
+            this.moveDraw.TabIndex = 11;
             this.moveDraw.Text = "Draw Attack?";
+            this.toolTip1.SetToolTip(this.moveDraw, "Is the move a Draw Attack? (Used for Critical Draw and Punish Draw-like skills)");
             this.moveDraw.UseVisualStyleBackColor = true;
             // 
             // moveAerial
             // 
             this.moveAerial.AutoSize = true;
-            this.moveAerial.Location = new System.Drawing.Point(10, 322);
+            this.moveAerial.Location = new System.Drawing.Point(10, 326);
             this.moveAerial.Name = "moveAerial";
             this.moveAerial.Size = new System.Drawing.Size(119, 17);
-            this.moveAerial.TabIndex = 8;
+            this.moveAerial.TabIndex = 10;
             this.moveAerial.Text = "Aerial-Type Attack?";
+            this.toolTip1.SetToolTip(this.moveAerial, "Does the move deal mounting damage? (Used for Airborne boosts)");
             this.moveAerial.UseVisualStyleBackColor = true;
             // 
             // moveMinds
             // 
             this.moveMinds.AutoSize = true;
-            this.moveMinds.Location = new System.Drawing.Point(10, 299);
+            this.moveMinds.Location = new System.Drawing.Point(10, 303);
             this.moveMinds.Name = "moveMinds";
             this.moveMinds.Size = new System.Drawing.Size(120, 17);
-            this.moveMinds.TabIndex = 7;
+            this.moveMinds.TabIndex = 9;
             this.moveMinds.Text = "Natural Mind\'s Eye?";
+            this.toolTip1.SetToolTip(this.moveMinds, "Does the move not bounce, regardless of the hitzone\'s value?\r\n");
             this.moveMinds.UseVisualStyleBackColor = true;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(7, 199);
+            this.label18.Location = new System.Drawing.Point(7, 203);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(64, 13);
+            this.label18.Size = new System.Drawing.Size(66, 13);
             this.label18.TabIndex = 6;
-            this.label18.Text = "Exh. Power:";
+            this.label18.Text = "Exhaust/Hit:";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(7, 173);
+            this.label17.Location = new System.Drawing.Point(7, 177);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(58, 13);
+            this.label17.Size = new System.Drawing.Size(43, 13);
             this.label17.TabIndex = 5;
-            this.label17.Text = "KO Power:";
+            this.label17.Text = "KO/Hit:";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(7, 123);
+            this.label16.Location = new System.Drawing.Point(7, 127);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(88, 13);
+            this.label16.Size = new System.Drawing.Size(72, 13);
             this.label16.TabIndex = 4;
-            this.label16.Text = "Element Modifier:";
+            this.label16.Text = "Element Mod:";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(7, 97);
+            this.label15.Location = new System.Drawing.Point(7, 101);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(100, 13);
+            this.label15.Size = new System.Drawing.Size(84, 13);
             this.label15.TabIndex = 3;
-            this.label15.Text = "Sharpness Modifier:";
+            this.label15.Text = "Sharpness Mod:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(7, 42);
+            this.label14.Location = new System.Drawing.Point(7, 46);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(54, 13);
             this.label14.TabIndex = 2;
@@ -2230,7 +2320,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(7, 16);
+            this.label12.Location = new System.Drawing.Point(7, 20);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(99, 13);
             this.label12.TabIndex = 0;
@@ -2255,8 +2345,9 @@
             // 
             this.monsterSearch.Location = new System.Drawing.Point(56, 9);
             this.monsterSearch.Name = "monsterSearch";
-            this.monsterSearch.Size = new System.Drawing.Size(177, 20);
-            this.monsterSearch.TabIndex = 20;
+            this.monsterSearch.Size = new System.Drawing.Size(130, 20);
+            this.monsterSearch.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.monsterSearch, "Search for specific monsters here.");
             this.monsterSearch.TextChanged += new System.EventHandler(this.monsterSearch_TextChanged);
             // 
             // label84
@@ -2279,8 +2370,9 @@
             this.monsterList.Location = new System.Drawing.Point(6, 35);
             this.monsterList.MultiSelect = false;
             this.monsterList.Name = "monsterList";
-            this.monsterList.Size = new System.Drawing.Size(227, 369);
+            this.monsterList.Size = new System.Drawing.Size(180, 369);
             this.monsterList.TabIndex = 18;
+            this.monsterList.TabStop = false;
             this.monsterList.UseCompatibleStateImageBehavior = false;
             this.monsterList.View = System.Windows.Forms.View.Details;
             this.monsterList.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.monsterList_ColumnClick);
@@ -2294,15 +2386,15 @@
             // columnHeader15
             // 
             this.columnHeader15.Text = "Monster";
-            this.columnHeader15.Width = 170;
+            this.columnHeader15.Width = 120;
             // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.questDetails);
             this.groupBox10.Controls.Add(this.hitzoneDetails);
-            this.groupBox10.Location = new System.Drawing.Point(239, 161);
+            this.groupBox10.Location = new System.Drawing.Point(192, 161);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(639, 243);
+            this.groupBox10.Size = new System.Drawing.Size(686, 243);
             this.groupBox10.TabIndex = 4;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Hitzones + Quest";
@@ -2323,8 +2415,9 @@
             this.questDetails.Location = new System.Drawing.Point(373, 19);
             this.questDetails.MultiSelect = false;
             this.questDetails.Name = "questDetails";
-            this.questDetails.Size = new System.Drawing.Size(260, 218);
+            this.questDetails.Size = new System.Drawing.Size(307, 218);
             this.questDetails.TabIndex = 17;
+            this.questDetails.TabStop = false;
             this.questDetails.UseCompatibleStateImageBehavior = false;
             this.questDetails.View = System.Windows.Forms.View.Details;
             this.questDetails.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.questDetails_ColumnClick);
@@ -2388,6 +2481,7 @@
             this.hitzoneDetails.Name = "hitzoneDetails";
             this.hitzoneDetails.Size = new System.Drawing.Size(361, 218);
             this.hitzoneDetails.TabIndex = 16;
+            this.hitzoneDetails.TabStop = false;
             this.hitzoneDetails.UseCompatibleStateImageBehavior = false;
             this.hitzoneDetails.View = System.Windows.Forms.View.Details;
             this.hitzoneDetails.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.hitzoneDetails_ColumnClick);
@@ -2497,30 +2591,32 @@
             this.groupBox3.Controls.Add(this.label23);
             this.groupBox3.Controls.Add(this.label22);
             this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Location = new System.Drawing.Point(239, 6);
+            this.groupBox3.Location = new System.Drawing.Point(192, 6);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(633, 149);
+            this.groupBox3.Size = new System.Drawing.Size(686, 149);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Monster Stats";
             // 
             // monKOMod
             // 
-            this.monKOMod.Location = new System.Drawing.Point(523, 68);
+            this.monKOMod.Location = new System.Drawing.Point(560, 68);
             this.monKOMod.Name = "monKOMod";
             this.monKOMod.Size = new System.Drawing.Size(48, 20);
-            this.monKOMod.TabIndex = 50;
+            this.monKOMod.TabIndex = 12;
             this.monKOMod.Text = "1.0";
             this.monKOMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monKOMod, "The KO Modifier applied to the monster on this particular quest.");
             // 
             // monGRank
             // 
             this.monGRank.AutoSize = true;
-            this.monGRank.Location = new System.Drawing.Point(432, 124);
+            this.monGRank.Location = new System.Drawing.Point(469, 124);
             this.monGRank.Name = "monGRank";
             this.monGRank.Size = new System.Drawing.Size(69, 17);
-            this.monGRank.TabIndex = 49;
+            this.monGRank.TabIndex = 15;
             this.monGRank.Text = "G-Rank?";
+            this.toolTip1.SetToolTip(this.monGRank, "Is this quest G-Rank? (Affects bouncing)");
             this.monGRank.UseVisualStyleBackColor = true;
             // 
             // monStatus
@@ -2534,15 +2630,16 @@
             "Sleeping (Bomb) (3x)",
             "Sleeping (Else) (2x)",
             "Paralyzed (1.1x)"});
-            this.monStatus.Location = new System.Drawing.Point(523, 94);
+            this.monStatus.Location = new System.Drawing.Point(560, 94);
             this.monStatus.Name = "monStatus";
             this.monStatus.Size = new System.Drawing.Size(101, 20);
-            this.monStatus.TabIndex = 48;
+            this.monStatus.TabIndex = 14;
+            this.toolTip1.SetToolTip(this.monStatus, "The monster\'s status at the time of damage calculation.");
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(429, 96);
+            this.label50.Location = new System.Drawing.Point(466, 96);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(81, 13);
             this.label50.TabIndex = 47;
@@ -2550,44 +2647,49 @@
             // 
             // monReset
             // 
-            this.monReset.Location = new System.Drawing.Point(523, 120);
+            this.monReset.Location = new System.Drawing.Point(560, 120);
             this.monReset.Name = "monReset";
             this.monReset.Size = new System.Drawing.Size(101, 23);
-            this.monReset.TabIndex = 45;
+            this.monReset.TabIndex = 16;
             this.monReset.Text = "Reset Section";
+            this.toolTip1.SetToolTip(this.monReset, "Reset all the values in this section to default values.");
             this.monReset.UseVisualStyleBackColor = true;
+            this.monReset.Click += new System.EventHandler(this.monReset_Click);
             // 
             // monExhaustMod
             // 
-            this.monExhaustMod.Location = new System.Drawing.Point(576, 68);
+            this.monExhaustMod.Location = new System.Drawing.Point(613, 68);
             this.monExhaustMod.Name = "monExhaustMod";
             this.monExhaustMod.Size = new System.Drawing.Size(48, 20);
-            this.monExhaustMod.TabIndex = 44;
+            this.monExhaustMod.TabIndex = 13;
             this.monExhaustMod.Text = "1.0";
             this.monExhaustMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monExhaustMod, "The Exhaust modifier applied to the monster during this particular quest.");
             // 
             // monQuest
             // 
-            this.monQuest.Location = new System.Drawing.Point(523, 42);
+            this.monQuest.Location = new System.Drawing.Point(560, 42);
             this.monQuest.Name = "monQuest";
             this.monQuest.Size = new System.Drawing.Size(101, 20);
-            this.monQuest.TabIndex = 43;
+            this.monQuest.TabIndex = 11;
             this.monQuest.Text = "1.0";
             this.monQuest.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monQuest, "The quest defense modifier for the monster.");
             // 
             // monHealth
             // 
-            this.monHealth.Location = new System.Drawing.Point(523, 16);
+            this.monHealth.Location = new System.Drawing.Point(560, 16);
             this.monHealth.Name = "monHealth";
             this.monHealth.Size = new System.Drawing.Size(101, 20);
-            this.monHealth.TabIndex = 42;
+            this.monHealth.TabIndex = 10;
             this.monHealth.Text = "0";
             this.monHealth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monHealth, "Average health of the monster on any particular quest.");
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(429, 71);
+            this.label34.Location = new System.Drawing.Point(466, 71);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(92, 13);
             this.label34.TabIndex = 41;
@@ -2596,7 +2698,7 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(429, 45);
+            this.label33.Location = new System.Drawing.Point(466, 45);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(62, 13);
             this.label33.TabIndex = 40;
@@ -2605,7 +2707,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(429, 19);
+            this.label32.Location = new System.Drawing.Point(466, 19);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(41, 13);
             this.label32.TabIndex = 39;
@@ -2614,7 +2716,7 @@
             // label31
             // 
             this.label31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label31.Location = new System.Drawing.Point(418, 9);
+            this.label31.Location = new System.Drawing.Point(440, 9);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(2, 140);
             this.label31.TabIndex = 24;
@@ -2622,7 +2724,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(383, 120);
+            this.pictureBox8.Location = new System.Drawing.Point(399, 120);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(20, 20);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2632,7 +2734,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(383, 94);
+            this.pictureBox9.Location = new System.Drawing.Point(399, 94);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(20, 20);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2642,7 +2744,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(383, 68);
+            this.pictureBox10.Location = new System.Drawing.Point(399, 68);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(20, 20);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2652,7 +2754,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(383, 42);
+            this.pictureBox11.Location = new System.Drawing.Point(399, 42);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(20, 20);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2662,7 +2764,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(383, 16);
+            this.pictureBox12.Location = new System.Drawing.Point(399, 16);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(20, 20);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2671,48 +2773,53 @@
             // 
             // monFire
             // 
-            this.monFire.Location = new System.Drawing.Point(302, 16);
+            this.monFire.Location = new System.Drawing.Point(318, 16);
             this.monFire.Name = "monFire";
             this.monFire.Size = new System.Drawing.Size(75, 20);
-            this.monFire.TabIndex = 33;
+            this.monFire.TabIndex = 5;
             this.monFire.Text = "0";
             this.monFire.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monFire, "Value of the Fire hitzone of the monster part.");
             // 
             // monWater
             // 
-            this.monWater.Location = new System.Drawing.Point(302, 42);
+            this.monWater.Location = new System.Drawing.Point(318, 42);
             this.monWater.Name = "monWater";
             this.monWater.Size = new System.Drawing.Size(75, 20);
-            this.monWater.TabIndex = 32;
+            this.monWater.TabIndex = 6;
             this.monWater.Text = "0";
             this.monWater.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monWater, "Value of the Water hitzone of the monster part.");
             // 
             // monThunder
             // 
-            this.monThunder.Location = new System.Drawing.Point(302, 68);
+            this.monThunder.Location = new System.Drawing.Point(318, 68);
             this.monThunder.Name = "monThunder";
             this.monThunder.Size = new System.Drawing.Size(75, 20);
-            this.monThunder.TabIndex = 31;
+            this.monThunder.TabIndex = 7;
             this.monThunder.Text = "0";
             this.monThunder.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monThunder, "Value of the Thunder hitzone of the monster part.");
             // 
             // monIce
             // 
-            this.monIce.Location = new System.Drawing.Point(302, 94);
+            this.monIce.Location = new System.Drawing.Point(318, 94);
             this.monIce.Name = "monIce";
             this.monIce.Size = new System.Drawing.Size(75, 20);
-            this.monIce.TabIndex = 30;
+            this.monIce.TabIndex = 8;
             this.monIce.Text = "0";
             this.monIce.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monIce, "Value of the Ice hitzone of the monster part.");
             // 
             // monDragon
             // 
-            this.monDragon.Location = new System.Drawing.Point(302, 120);
+            this.monDragon.Location = new System.Drawing.Point(318, 120);
             this.monDragon.Name = "monDragon";
             this.monDragon.Size = new System.Drawing.Size(75, 20);
-            this.monDragon.TabIndex = 29;
+            this.monDragon.TabIndex = 9;
             this.monDragon.Text = "0";
             this.monDragon.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monDragon, "Value of the Dragon hitzone of the monster part.");
             // 
             // pictureBox7
             // 
@@ -2769,50 +2876,55 @@
             this.monCut.Location = new System.Drawing.Point(101, 16);
             this.monCut.Name = "monCut";
             this.monCut.Size = new System.Drawing.Size(75, 20);
-            this.monCut.TabIndex = 14;
+            this.monCut.TabIndex = 0;
             this.monCut.Text = "0";
             this.monCut.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monCut, "Value of the Cut-type hitzone of the monster part.");
             // 
             // monImpact
             // 
             this.monImpact.Location = new System.Drawing.Point(101, 42);
             this.monImpact.Name = "monImpact";
             this.monImpact.Size = new System.Drawing.Size(75, 20);
-            this.monImpact.TabIndex = 13;
+            this.monImpact.TabIndex = 1;
             this.monImpact.Text = "0";
             this.monImpact.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monImpact, "Value of the Impact-type hitzone of the monster part.");
             // 
             // monShot
             // 
             this.monShot.Location = new System.Drawing.Point(101, 68);
             this.monShot.Name = "monShot";
             this.monShot.Size = new System.Drawing.Size(75, 20);
-            this.monShot.TabIndex = 12;
+            this.monShot.TabIndex = 2;
             this.monShot.Text = "0";
             this.monShot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monShot, "Value of the Shot-type hitzone of the monster part.");
             // 
             // monKO
             // 
             this.monKO.Location = new System.Drawing.Point(101, 94);
             this.monKO.Name = "monKO";
             this.monKO.Size = new System.Drawing.Size(75, 20);
-            this.monKO.TabIndex = 11;
+            this.monKO.TabIndex = 3;
             this.monKO.Text = "0";
             this.monKO.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monKO, "Value of the KO hitzone of the monster part.");
             // 
             // monExhaust
             // 
             this.monExhaust.Location = new System.Drawing.Point(101, 120);
             this.monExhaust.Name = "monExhaust";
             this.monExhaust.Size = new System.Drawing.Size(75, 20);
-            this.monExhaust.TabIndex = 10;
+            this.monExhaust.TabIndex = 4;
             this.monExhaust.Text = "0";
             this.monExhaust.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.monExhaust, "Value of the Exhaust hitzone of the monster part.");
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(210, 123);
+            this.label30.Location = new System.Drawing.Point(226, 123);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(84, 13);
             this.label30.TabIndex = 9;
@@ -2821,7 +2933,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(210, 97);
+            this.label29.Location = new System.Drawing.Point(226, 97);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(64, 13);
             this.label29.TabIndex = 8;
@@ -2830,7 +2942,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(210, 71);
+            this.label28.Location = new System.Drawing.Point(226, 71);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(89, 13);
             this.label28.TabIndex = 7;
@@ -2839,7 +2951,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(210, 45);
+            this.label27.Location = new System.Drawing.Point(226, 45);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(78, 13);
             this.label27.TabIndex = 6;
@@ -2848,7 +2960,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(210, 19);
+            this.label26.Location = new System.Drawing.Point(226, 19);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(66, 13);
             this.label26.TabIndex = 5;
@@ -2930,6 +3042,7 @@
             this.modDetails.ReadOnly = true;
             this.modDetails.Size = new System.Drawing.Size(368, 373);
             this.modDetails.TabIndex = 2;
+            this.modDetails.TabStop = false;
             this.modDetails.Text = "";
             // 
             // modGlossary
@@ -2937,7 +3050,7 @@
             this.modGlossary.Location = new System.Drawing.Point(6, 19);
             this.modGlossary.Name = "modGlossary";
             treeNode1.Name = "Node32";
-            treeNode1.Tag = "When at or below 40% Health, +15 Defense and +30% Attack.";
+            treeNode1.Tag = "When at or below 40% Health:\\n+15 Defense\\n+30% Attack.";
             treeNode1.Text = "Adrenaline +2";
             treeNode2.Name = "Node33";
             treeNode2.Tag = "+10% Attack on all attacks which are executed in the air.";
@@ -3290,8 +3403,9 @@
             treeNode106.Tag = "+10 Attack.";
             treeNode106.Text = "Demon Horn";
             treeNode107.Name = "Node9";
-            treeNode107.Tag = "Demon S: +10 Attack\\n\\n+10% damage in Critical Distance.\\n\\nDemon Affinity S+15 A" +
-    "ttack\\n\\n+10% damage in Critical Distance.\\n\\n+10% Affinity.";
+            treeNode107.Tag = "Demon S:\\n+10 Attack\\n+10% Sharpness.\\n+25% damage in Critical Distance.\\n\\nDemon" +
+    " Affinity S:\\n+15 Attack\\n+10% Sharpness.\\n+10% damage in Critical Distance.\\n+1" +
+    "0% Affinity.";
             treeNode107.Text = "Demon S";
             treeNode108.Name = "Node1";
             treeNode108.Tag = "All Item Skills.";
@@ -3311,17 +3425,18 @@
     "33% raw on next attack for level 3.";
             treeNode112.Text = "Lion\'s Maw";
             treeNode113.Name = "Node6";
-            treeNode113.Tag = "All GS modifiers.";
+            treeNode113.Tag = "All Great Sword modifiers.";
             treeNode113.Text = "Great Sword";
             treeNode114.Name = "Node0";
             treeNode114.Tag = "+5% raw if you connected with the center of the blade.";
             treeNode114.Text = "Center of Blade";
             treeNode115.Name = "Node1";
-            treeNode115.Tag = "+13% raw if Spirit Gauge is flashing.\\n\\n+5% raw in White Spirit.+10% raw in Yell" +
-    "ow Spirit.\\n\\n+20% raw in Red Spirit.\\n\\n+18% raw in Blue Spirit (Valor only).";
+            treeNode115.Tag = "+13% raw if Spirit Gauge is flashing.\\n\\n+5% raw in White Spirit.\\n\\n+10% raw in " +
+    "Yellow Spirit.\\n\\n+20% raw in Red Spirit.\\n\\n+18% raw in Blue Spirit (Valor only" +
+    ").";
             treeNode115.Text = "Spirit Gauge";
             treeNode116.Name = "Node2";
-            treeNode116.Tag = "+10% raw for level 1.\\n\\n+20% raw for level 2.+30% raw for level 3.";
+            treeNode116.Tag = "+10% raw for level 1.\\n\\n+20% raw for level 2.\\n\\n+30% raw for level 3.";
             treeNode116.Text = "Devouring Demon";
             treeNode117.Name = "Node7";
             treeNode117.Tag = "All Long Sword modifiers.";
@@ -3335,150 +3450,162 @@
             treeNode120.Name = "Node8";
             treeNode120.Tag = "All Sword and Shield modifiers.";
             treeNode120.Text = "Sword and Shield";
-            treeNode121.Name = "Node9";
-            treeNode121.Tag = "Has no modifiers.";
-            treeNode121.Text = "Dual Blades";
-            treeNode122.Name = "Node10";
+            treeNode121.Name = "Node0";
+            treeNode121.Tag = "Okay, so technically Wolf\'s Maw is a thing, however damage results have been inco" +
+    "nsistent. I elected to not include them here for the sake of clarity.";
+            treeNode121.Text = "Wolf\'s Maw";
+            treeNode122.Name = "Node9";
             treeNode122.Tag = "Has no modifiers.";
-            treeNode122.Text = "Hammer";
-            treeNode123.Name = "Node6";
-            treeNode123.Tag = "+10% raw for Attack Up (S) song.\\n\\n+15% raw for Attack Up (S) Encore.";
-            treeNode123.Text = "Attack Up (S)";
-            treeNode124.Name = "Node7";
-            treeNode124.Tag = "+15% raw for Attack Up (L) song.\\n\\n+20% raw for Attack Up (L) Encore.";
-            treeNode124.Text = "Attack Up (L)";
-            treeNode125.Name = "Node8";
-            treeNode125.Tag = "+8% element (Fire, Water, Thunder, Ice, Dragon) for Elemental Attack Boost song.\\" +
+            treeNode122.Text = "Dual Blades";
+            treeNode123.Name = "Node0";
+            treeNode123.Tag = "You heard right folks, Provoke got buffed.\\n\\n+15 Attack while active.";
+            treeNode123.Text = "Provoke III Attack Buff";
+            treeNode124.Name = "Node10";
+            treeNode124.Tag = "The singular Hammer modifier.";
+            treeNode124.Text = "Hammer";
+            treeNode125.Name = "Node6";
+            treeNode125.Tag = "+10% raw for Attack Up (S) song.\\n\\n+15% raw for Attack Up (S) Encore.";
+            treeNode125.Text = "Attack Up (S)";
+            treeNode126.Name = "Node7";
+            treeNode126.Tag = "+15% raw for Attack Up (L) song.\\n\\n+20% raw for Attack Up (L) Encore.";
+            treeNode126.Text = "Attack Up (L)";
+            treeNode127.Name = "Node8";
+            treeNode127.Tag = "+8% element (Fire, Water, Thunder, Ice, Dragon) for Elemental Attack Boost song.\\" +
     "n\\n+10% element for Elemental Attack Boost Encore.";
-            treeNode125.Text = "Elemental Attack Boost";
-            treeNode126.Name = "Node9";
-            treeNode126.Tag = "+10% Status (Poison, Para, Sleep) for Abnormal Attack Boost song.\\n\\n+15% Status " +
+            treeNode127.Text = "Elemental Attack Boost";
+            treeNode128.Name = "Node9";
+            treeNode128.Tag = "+10% Status (Poison, Para, Sleep) for Abnormal Attack Boost song.\\n\\n+15% Status " +
     "for Abnormal Attack Boost Encore.";
-            treeNode126.Text = "Abnormal Attack Boost";
-            treeNode127.Name = "Node10";
-            treeNode127.Tag = "+15% Affinity for Affinity Up Song.\\n\\n+20% Affinity for Affinity Up Encore.";
-            treeNode127.Text = "Affinity Up";
-            treeNode128.Name = "Node11";
-            treeNode128.Tag = "Innate Mind’s Eye for user only for Self-Improvement Encore. (Does not replace mo" +
+            treeNode128.Text = "Abnormal Attack Boost";
+            treeNode129.Name = "Node10";
+            treeNode129.Tag = "+15% Affinity for Affinity Up Song.\\n\\n+20% Affinity for Affinity Up Encore.";
+            treeNode129.Text = "Affinity Up";
+            treeNode130.Name = "Node11";
+            treeNode130.Tag = "Innate Mind’s Eye for user only for Self-Improvement Encore. (Does not replace mo" +
     "vement speed increase of standard song)";
-            treeNode128.Text = "Self-Improvement";
-            treeNode129.Name = "Node11";
-            treeNode129.Tag = "All HH songs.";
-            treeNode129.Text = "Hunting Horn";
-            treeNode130.Name = "Node12";
-            treeNode130.Tag = resources.GetString("treeNode130.Tag");
-            treeNode130.Text = "Innate Impact/Cut";
-            treeNode131.Name = "Node13";
-            treeNode131.Tag = "+10% raw for Yellow.\\n\\n+20% raw for Orange.\\n\\n+30% raw for Red.";
-            treeNode131.Text = "Enraged Guard";
+            treeNode130.Text = "Self-Improvement";
+            treeNode131.Name = "Node11";
+            treeNode131.Tag = "All HH songs.";
+            treeNode131.Text = "Hunting Horn";
             treeNode132.Name = "Node12";
-            treeNode132.Tag = "All Lance modifiers.";
-            treeNode132.Text = "Lance";
-            treeNode133.Name = "Node14";
-            treeNode133.Tag = "+15% Raw if in Orange Heat.\\n\\n+20% Raw if in Red Heat.";
-            treeNode133.Text = "Heat";
-            treeNode134.Name = "Node15";
-            treeNode134.Tag = "+10 raw to all shots.\\n\\n+10 Fire to all shots.";
-            treeNode134.Text = "Dragon\'s Breath";
-            treeNode135.Name = "Node13";
-            treeNode135.Tag = "All Gunlance modifiers.";
-            treeNode135.Text = "Gunlance";
-            treeNode136.Name = "Node16";
-            treeNode136.Tag = "+20% Raw from Power Phials.\\n\\n+25% Element/Status from Element Phials.";
-            treeNode136.Text = "Phial Effects";
-            treeNode137.Name = "Node17";
-            treeNode137.Tag = "+10% Affinity from Energy Charge II\\n\\n+30% Affinity from Energy Charge III";
-            treeNode137.Text = "Energy Charge";
-            treeNode138.Name = "Node18";
-            treeNode138.Tag = resources.GetString("treeNode138.Tag");
-            treeNode138.Text = "Demon Riot";
-            treeNode139.Name = "Node14";
-            treeNode139.Tag = "All Switch Axe modifiers.";
-            treeNode139.Text = "Switch Axe";
-            treeNode140.Name = "Node19";
-            treeNode140.Tag = "+15% Raw for all Axe Attacks.\\n\\n+20% Raw if Striker Style.\\n\\n+35% Raw for all I" +
+            treeNode132.Tag = resources.GetString("treeNode132.Tag");
+            treeNode132.Text = "Innate Impact/Cut";
+            treeNode133.Name = "Node13";
+            treeNode133.Tag = "+10% raw for Yellow.\\n\\n+20% raw for Orange.\\n\\n+30% raw for Red.";
+            treeNode133.Text = "Enraged Guard";
+            treeNode134.Name = "Node12";
+            treeNode134.Tag = "All Lance modifiers.";
+            treeNode134.Text = "Lance";
+            treeNode135.Name = "Node14";
+            treeNode135.Tag = "+15% Raw if in Orange Heat.\\n\\n+20% Raw if in Red Heat.";
+            treeNode135.Text = "Heat";
+            treeNode136.Name = "Node15";
+            treeNode136.Tag = "+10 raw to all shots.\\n\\n+10 Fire to all shots.";
+            treeNode136.Text = "Dragon\'s Breath";
+            treeNode137.Name = "Node13";
+            treeNode137.Tag = "All Gunlance modifiers.";
+            treeNode137.Text = "Gunlance";
+            treeNode138.Name = "Node16";
+            treeNode138.Tag = "+20% Raw from Power Phials.\\n\\n+25% Element/Status from Element Phials.";
+            treeNode138.Text = "Phial Effects";
+            treeNode139.Name = "Node17";
+            treeNode139.Tag = "+10% Affinity from Energy Charge II\\n\\n+30% Affinity from Energy Charge III";
+            treeNode139.Text = "Energy Charge";
+            treeNode140.Name = "Node18";
+            treeNode140.Tag = resources.GetString("treeNode140.Tag");
+            treeNode140.Text = "Demon Riot";
+            treeNode141.Name = "Node14";
+            treeNode141.Tag = "All Switch Axe modifiers.";
+            treeNode141.Text = "Switch Axe";
+            treeNode142.Name = "Node19";
+            treeNode142.Tag = "+15% Raw for all Axe Attacks.\\n\\n+20% Raw if Striker Style.\\n\\n+35% Raw for all I" +
     "mpact Phial Bursts.\\n\\n+35% KO for all Impact Phial Bursts.\\n\\n+35% Exhaust for " +
     "all Impact Phial Bursts.";
-            treeNode140.Text = "Red Shield";
-            treeNode141.Name = "Node15";
-            treeNode141.Tag = "All Charge Blade modifiers.";
-            treeNode141.Text = "Charge Blade";
-            treeNode142.Name = "Node20";
-            treeNode142.Text = "Extract Buffs";
-            treeNode143.Name = "Node16";
-            treeNode143.Tag = resources.GetString("treeNode143.Tag");
-            treeNode143.Text = "Insect Glaive";
+            treeNode142.Text = "Red Shield";
+            treeNode143.Name = "Node15";
+            treeNode143.Tag = "All Charge Blade modifiers.";
+            treeNode143.Text = "Charge Blade";
             treeNode144.Name = "Node20";
-            treeNode144.Tag = "All Blademaster weapons.";
-            treeNode144.Text = "Blademaster";
-            treeNode145.Name = "Node0";
-            treeNode145.Tag = "+0% Raw at Normal Range.\\n\\n+50% Raw at Critical Distances.\\n\\n-20% Raw at Long R" +
+            treeNode144.Tag = resources.GetString("treeNode144.Tag");
+            treeNode144.Text = "Extract Buffs";
+            treeNode145.Name = "Node16";
+            treeNode145.Tag = "All Insect Glaive Modifiers.";
+            treeNode145.Text = "Insect Glaive";
+            treeNode146.Name = "Node20";
+            treeNode146.Tag = "All Blademaster weapons.";
+            treeNode146.Text = "Blademaster";
+            treeNode147.Name = "Node0";
+            treeNode147.Tag = "+0% Raw at Normal Range.\\n\\n+50% Raw at Critical Distances.\\n\\n-20% Raw at Long R" +
     "ange.\\n\\n-50% Raw at Extremely Long Ranges.\\n\\n+75% Raw at Critical Distance wit" +
     "h Heavy Grinder’s effect.";
-            treeNode145.Text = "Critical Distance";
-            treeNode146.Name = "Node21";
-            treeNode146.Tag = "+30% Raw.";
-            treeNode146.Text = "Innate Raw Modifier";
-            treeNode147.Name = "Node22";
-            treeNode147.Tag = "+5% Raw with Long Barrel Attachment.";
-            treeNode147.Text = "Long Barrel";
-            treeNode148.Name = "Node23";
-            treeNode148.Tag = "~+6% Raw while Power Reloaded.\\n\\n+5% Raw while Valor Reloaded.";
-            treeNode148.Text = "Power Reload";
-            treeNode149.Name = "Node17";
-            treeNode149.Tag = "All Light Bowgun modifiers.";
-            treeNode149.Text = "Light Bowgun";
-            treeNode150.Name = "Node24";
-            treeNode150.Tag = "+48% Raw.";
-            treeNode150.Text = "Innate Raw Modifier";
-            treeNode151.Name = "Node25";
-            treeNode151.Tag = "+5% Raw with Power Barrel Attachment.";
-            treeNode151.Text = "Power Barrel";
-            treeNode152.Name = "Node26";
-            treeNode152.Tag = "~+6% Raw while Power Reloaded.\\n\\n+5% Raw while Valor Reloaded.";
-            treeNode152.Text = "Power Reload";
-            treeNode153.Name = "Node18";
-            treeNode153.Tag = "All Heavy Bowgun modifiers.";
-            treeNode153.Text = "Heavy Bowgun";
-            treeNode154.Name = "Node27";
-            treeNode154.Tag = resources.GetString("treeNode154.Tag");
-            treeNode154.Text = "Charge Levels";
-            treeNode155.Name = "Node31";
-            treeNode155.Tag = "+30% Raw.";
-            treeNode155.Text = "Valor Power Shot";
-            treeNode156.Name = "Node32";
-            treeNode156.Tag = resources.GetString("treeNode156.Tag");
-            treeNode156.Text = "Coatings and Boosts";
-            treeNode157.Name = "Node19";
-            treeNode157.Tag = "All Bow modifiers.";
-            treeNode157.Text = "Bow";
-            treeNode158.Name = "Node21";
-            treeNode158.Tag = "All Gunner weapons.";
-            treeNode158.Text = "Gunner";
-            treeNode159.Name = "Weapon-Specific";
-            treeNode159.Tag = "All modifiers that are inherent to the weapon, regardless of attack used.";
-            treeNode159.Text = "Weapon-Specific";
-            treeNode160.Name = "Node4";
-            treeNode160.Tag = "+15% Affinity for 1 minute after you overcome the Frenzy successfully.\\n\\n+30% wi" +
-    "th Antivirus.";
-            treeNode160.Text = "Frenzy";
-            treeNode161.Name = "Node0";
-            treeNode161.Tag = "+10 Raw for 2 minutes.";
-            treeNode161.Text = "Mizutsune Red Bubble";
-            treeNode162.Name = "Misc. Buffs";
-            treeNode162.Tag = "Buffs that come from different sources than the ones described above.";
-            treeNode162.Text = "Misc. Buffs";
-            treeNode163.Name = "Node1";
-            treeNode163.Tag = resources.GetString("treeNode163.Tag");
-            treeNode163.Text = "Attack Stacking";
+            treeNode147.Text = "Critical Distance";
+            treeNode148.Name = "Node21";
+            treeNode148.Tag = "+30% Raw.";
+            treeNode148.Text = "Innate Raw Modifier";
+            treeNode149.Name = "Node22";
+            treeNode149.Tag = "+5% Raw with Long Barrel Attachment.";
+            treeNode149.Text = "Long Barrel";
+            treeNode150.Name = "Node23";
+            treeNode150.Tag = "~+6% Raw while Power Reloaded.\\n\\n+5% Raw while Valor Reloaded.";
+            treeNode150.Text = "Power Reload";
+            treeNode151.Name = "Node17";
+            treeNode151.Tag = "All Light Bowgun modifiers.";
+            treeNode151.Text = "Light Bowgun";
+            treeNode152.Name = "Node24";
+            treeNode152.Tag = "+48% Raw.";
+            treeNode152.Text = "Innate Raw Modifier";
+            treeNode153.Name = "Node25";
+            treeNode153.Tag = "+5% Raw with Power Barrel Attachment.";
+            treeNode153.Text = "Power Barrel";
+            treeNode154.Name = "Node26";
+            treeNode154.Tag = "~+6% Raw while Power Reloaded.\\n\\n+5% Raw while Valor Reloaded.";
+            treeNode154.Text = "Power Reload";
+            treeNode155.Name = "Node1";
+            treeNode155.Tag = "While loaded, all shots have +15% raw.";
+            treeNode155.Text = "Gunpowder Infusion";
+            treeNode156.Name = "Node18";
+            treeNode156.Tag = "All Heavy Bowgun modifiers.";
+            treeNode156.Text = "Heavy Bowgun";
+            treeNode157.Name = "Node27";
+            treeNode157.Tag = resources.GetString("treeNode157.Tag");
+            treeNode157.Text = "Charge Levels";
+            treeNode158.Name = "Node31";
+            treeNode158.Tag = "+30% Raw.";
+            treeNode158.Text = "Valor Power Shot";
+            treeNode159.Name = "Node32";
+            treeNode159.Tag = resources.GetString("treeNode159.Tag");
+            treeNode159.Text = "Coatings and Boosts";
+            treeNode160.Name = "Node19";
+            treeNode160.Tag = "All Bow modifiers.";
+            treeNode160.Text = "Bow";
+            treeNode161.Name = "Node21";
+            treeNode161.Tag = "All Gunner weapons.";
+            treeNode161.Text = "Gunner";
+            treeNode162.Name = "Weapon-Specific";
+            treeNode162.Tag = "All modifiers that are inherent to the weapon, regardless of attack used.";
+            treeNode162.Text = "Weapon-Specific";
+            treeNode163.Name = "Node4";
+            treeNode163.Tag = "+15% Affinity for 1 minute after you overcome the Frenzy successfully.\\n\\n+30% wi" +
+    "th Antivirus.\\n\\nAlso inverts any negative Affinity on Chaotic Gore weapons.";
+            treeNode163.Text = "Frenzy";
+            treeNode164.Name = "Node0";
+            treeNode164.Tag = "+10 Raw for 2 minutes.";
+            treeNode164.Text = "Mizutsune Red Bubble";
+            treeNode165.Name = "Misc. Buffs";
+            treeNode165.Tag = "Buffs that come from different sources than the ones described above.";
+            treeNode165.Text = "Misc. Buffs";
+            treeNode166.Name = "Node1";
+            treeNode166.Tag = resources.GetString("treeNode166.Tag");
+            treeNode166.Text = "Attack Stacking";
             this.modGlossary.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode87,
             treeNode109,
-            treeNode159,
             treeNode162,
-            treeNode163});
+            treeNode165,
+            treeNode166});
             this.modGlossary.Size = new System.Drawing.Size(183, 373);
             this.modGlossary.TabIndex = 0;
+            this.modGlossary.TabStop = false;
             this.modGlossary.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // groupBox4
@@ -3526,6 +3653,7 @@
             this.modList.ShowGroups = false;
             this.modList.Size = new System.Drawing.Size(282, 237);
             this.modList.TabIndex = 13;
+            this.modList.TabStop = false;
             this.modList.UseCompatibleStateImageBehavior = false;
             this.modList.View = System.Windows.Forms.View.List;
             // 
@@ -3534,7 +3662,7 @@
             this.modMiscButton.Location = new System.Drawing.Point(248, 97);
             this.modMiscButton.Name = "modMiscButton";
             this.modMiscButton.Size = new System.Drawing.Size(43, 23);
-            this.modMiscButton.TabIndex = 12;
+            this.modMiscButton.TabIndex = 7;
             this.modMiscButton.Text = "Add";
             this.modMiscButton.UseVisualStyleBackColor = true;
             this.modMiscButton.Click += new System.EventHandler(this.modMiscButton_Click);
@@ -3544,7 +3672,7 @@
             this.modWeaponButton.Location = new System.Drawing.Point(248, 71);
             this.modWeaponButton.Name = "modWeaponButton";
             this.modWeaponButton.Size = new System.Drawing.Size(43, 23);
-            this.modWeaponButton.TabIndex = 11;
+            this.modWeaponButton.TabIndex = 5;
             this.modWeaponButton.Text = "Add";
             this.modWeaponButton.UseVisualStyleBackColor = true;
             this.modWeaponButton.Click += new System.EventHandler(this.modWeaponButton_Click);
@@ -3554,7 +3682,7 @@
             this.modFoodButton.Location = new System.Drawing.Point(248, 44);
             this.modFoodButton.Name = "modFoodButton";
             this.modFoodButton.Size = new System.Drawing.Size(43, 23);
-            this.modFoodButton.TabIndex = 10;
+            this.modFoodButton.TabIndex = 3;
             this.modFoodButton.Text = "Add";
             this.modFoodButton.UseVisualStyleBackColor = true;
             this.modFoodButton.Click += new System.EventHandler(this.modFoodButton_Click);
@@ -3564,7 +3692,7 @@
             this.modArmorButton.Location = new System.Drawing.Point(248, 17);
             this.modArmorButton.Name = "modArmorButton";
             this.modArmorButton.Size = new System.Drawing.Size(43, 23);
-            this.modArmorButton.TabIndex = 9;
+            this.modArmorButton.TabIndex = 1;
             this.modArmorButton.Text = "Add";
             this.modArmorButton.UseVisualStyleBackColor = true;
             this.modArmorButton.Click += new System.EventHandler(this.modArmorButton_Click);
@@ -3579,7 +3707,8 @@
             this.modMisc.Location = new System.Drawing.Point(66, 100);
             this.modMisc.Name = "modMisc";
             this.modMisc.Size = new System.Drawing.Size(176, 21);
-            this.modMisc.TabIndex = 8;
+            this.modMisc.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.modMisc, "All other modifiers that don\'t fit in the other caregories.");
             // 
             // label38
             // 
@@ -3601,7 +3730,8 @@
             this.modFood.Name = "modFood";
             this.modFood.Size = new System.Drawing.Size(176, 21);
             this.modFood.Sorted = true;
-            this.modFood.TabIndex = 6;
+            this.modFood.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.modFood, "All modifiers gained from food or carried items.");
             // 
             // label37
             // 
@@ -3622,7 +3752,8 @@
             this.modWeapon.Location = new System.Drawing.Point(66, 73);
             this.modWeapon.Name = "modWeapon";
             this.modWeapon.Size = new System.Drawing.Size(176, 21);
-            this.modWeapon.TabIndex = 6;
+            this.modWeapon.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.modWeapon, "All modifiers innate to the weapon.");
             // 
             // label36
             // 
@@ -3644,7 +3775,8 @@
             this.modArmor.Name = "modArmor";
             this.modArmor.Size = new System.Drawing.Size(176, 21);
             this.modArmor.Sorted = true;
-            this.modArmor.TabIndex = 4;
+            this.modArmor.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.modArmor, "All modifiers from armor skills.");
             // 
             // label35
             // 
@@ -3660,8 +3792,9 @@
             this.modAllButton.Location = new System.Drawing.Point(157, 369);
             this.modAllButton.Name = "modAllButton";
             this.modAllButton.Size = new System.Drawing.Size(134, 23);
-            this.modAllButton.TabIndex = 2;
+            this.modAllButton.TabIndex = 9;
             this.modAllButton.Text = "Clear All";
+            this.toolTip1.SetToolTip(this.modAllButton, "Click this to remove all modifiers from the list.");
             this.modAllButton.UseVisualStyleBackColor = true;
             this.modAllButton.Click += new System.EventHandler(this.modAllButton_Click);
             // 
@@ -3670,8 +3803,10 @@
             this.modSelectedButton.Location = new System.Drawing.Point(6, 369);
             this.modSelectedButton.Name = "modSelectedButton";
             this.modSelectedButton.Size = new System.Drawing.Size(145, 23);
-            this.modSelectedButton.TabIndex = 1;
+            this.modSelectedButton.TabIndex = 8;
             this.modSelectedButton.Text = "Clear Selected";
+            this.toolTip1.SetToolTip(this.modSelectedButton, "Clear the selected items from the modifier list. Use Ctrl + Left Click to select " +
+        "multiple items.");
             this.modSelectedButton.UseVisualStyleBackColor = true;
             this.modSelectedButton.Click += new System.EventHandler(this.modSelectedButton_Click);
             // 
@@ -3695,12 +3830,15 @@
             this.calcDetails.Location = new System.Drawing.Point(6, 349);
             this.calcDetails.Name = "calcDetails";
             this.calcDetails.ReadOnly = true;
-            this.calcDetails.Size = new System.Drawing.Size(868, 55);
+            this.calcDetails.Size = new System.Drawing.Size(871, 55);
             this.calcDetails.TabIndex = 3;
+            this.calcDetails.TabStop = false;
             this.calcDetails.Text = "";
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.calcPerHit);
+            this.groupBox.Controls.Add(this.label99);
             this.groupBox.Controls.Add(this.calcAllElePict);
             this.groupBox.Controls.Add(this.calcSecPict);
             this.groupBox.Controls.Add(this.calcElePict);
@@ -3737,16 +3875,37 @@
             this.groupBox.Controls.Add(this.calcPositive);
             this.groupBox.Controls.Add(this.calcAverage);
             this.groupBox.Controls.Add(this.label67);
-            this.groupBox.Location = new System.Drawing.Point(7, 207);
+            this.groupBox.Location = new System.Drawing.Point(6, 195);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(867, 135);
+            this.groupBox.Size = new System.Drawing.Size(872, 147);
             this.groupBox.TabIndex = 2;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Calculate";
             // 
+            // calcPerHit
+            // 
+            this.calcPerHit.Location = new System.Drawing.Point(478, 72);
+            this.calcPerHit.Name = "calcPerHit";
+            this.calcPerHit.ReadOnly = true;
+            this.calcPerHit.Size = new System.Drawing.Size(100, 20);
+            this.calcPerHit.TabIndex = 58;
+            this.calcPerHit.TabStop = false;
+            this.calcPerHit.Text = "0";
+            this.calcPerHit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcPerHit, "The total damage of the attack per hit.");
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(475, 55);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(92, 13);
+            this.label99.TabIndex = 57;
+            this.label99.Text = "Total Damage/Hit";
+            // 
             // calcAllElePict
             // 
-            this.calcAllElePict.Location = new System.Drawing.Point(690, 64);
+            this.calcAllElePict.Location = new System.Drawing.Point(690, 72);
             this.calcAllElePict.Name = "calcAllElePict";
             this.calcAllElePict.Size = new System.Drawing.Size(20, 20);
             this.calcAllElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -3755,7 +3914,7 @@
             // 
             // calcSecPict
             // 
-            this.calcSecPict.Location = new System.Drawing.Point(335, 105);
+            this.calcSecPict.Location = new System.Drawing.Point(335, 113);
             this.calcSecPict.Name = "calcSecPict";
             this.calcSecPict.Size = new System.Drawing.Size(20, 20);
             this.calcSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -3764,7 +3923,7 @@
             // 
             // calcElePict
             // 
-            this.calcElePict.Location = new System.Drawing.Point(335, 64);
+            this.calcElePict.Location = new System.Drawing.Point(335, 72);
             this.calcElePict.Name = "calcElePict";
             this.calcElePict.Size = new System.Drawing.Size(20, 20);
             this.calcElePict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -3774,7 +3933,7 @@
             // calcExhPict
             // 
             this.calcExhPict.Image = ((System.Drawing.Image)(resources.GetObject("calcExhPict.Image")));
-            this.calcExhPict.Location = new System.Drawing.Point(825, 104);
+            this.calcExhPict.Location = new System.Drawing.Point(825, 112);
             this.calcExhPict.Name = "calcExhPict";
             this.calcExhPict.Size = new System.Drawing.Size(20, 20);
             this.calcExhPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -3784,7 +3943,7 @@
             // calcKOPict
             // 
             this.calcKOPict.Image = ((System.Drawing.Image)(resources.GetObject("calcKOPict.Image")));
-            this.calcKOPict.Location = new System.Drawing.Point(826, 65);
+            this.calcKOPict.Location = new System.Drawing.Point(826, 73);
             this.calcKOPict.Name = "calcKOPict";
             this.calcKOPict.Size = new System.Drawing.Size(20, 20);
             this.calcKOPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -3793,7 +3952,7 @@
             // 
             // calcAllSecPict
             // 
-            this.calcAllSecPict.Location = new System.Drawing.Point(690, 105);
+            this.calcAllSecPict.Location = new System.Drawing.Point(690, 113);
             this.calcAllSecPict.Name = "calcAllSecPict";
             this.calcAllSecPict.Size = new System.Drawing.Size(20, 20);
             this.calcAllSecPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -3802,18 +3961,20 @@
             // 
             // calcExhAll
             // 
-            this.calcExhAll.Location = new System.Drawing.Point(720, 104);
+            this.calcExhAll.Location = new System.Drawing.Point(720, 112);
             this.calcExhAll.Name = "calcExhAll";
             this.calcExhAll.ReadOnly = true;
             this.calcExhAll.Size = new System.Drawing.Size(100, 20);
             this.calcExhAll.TabIndex = 42;
+            this.calcExhAll.TabStop = false;
             this.calcExhAll.Text = "0";
             this.calcExhAll.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcExhAll, "Exhaust damage dealt per hit of this attack, as affected by hitzones.");
             // 
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(717, 87);
+            this.label78.Location = new System.Drawing.Point(717, 95);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(106, 13);
             this.label78.TabIndex = 41;
@@ -3821,18 +3982,20 @@
             // 
             // calcKOAll
             // 
-            this.calcKOAll.Location = new System.Drawing.Point(720, 64);
+            this.calcKOAll.Location = new System.Drawing.Point(720, 72);
             this.calcKOAll.Name = "calcKOAll";
             this.calcKOAll.ReadOnly = true;
             this.calcKOAll.Size = new System.Drawing.Size(100, 20);
             this.calcKOAll.TabIndex = 40;
+            this.calcKOAll.TabStop = false;
             this.calcKOAll.Text = "0";
             this.calcKOAll.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcKOAll, "KO Damage done per hit of this attack, as affected by hitzones.");
             // 
             // label79
             // 
             this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(717, 47);
+            this.label79.Location = new System.Drawing.Point(717, 55);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(83, 13);
             this.label79.TabIndex = 39;
@@ -3840,18 +4003,20 @@
             // 
             // calcSecAll
             // 
-            this.calcSecAll.Location = new System.Drawing.Point(584, 104);
+            this.calcSecAll.Location = new System.Drawing.Point(584, 112);
             this.calcSecAll.Name = "calcSecAll";
             this.calcSecAll.ReadOnly = true;
             this.calcSecAll.Size = new System.Drawing.Size(100, 20);
             this.calcSecAll.TabIndex = 38;
+            this.calcSecAll.TabStop = false;
             this.calcSecAll.Text = "0";
             this.calcSecAll.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcSecAll, "The secondary damage dealt by each hit of this attack, as affected by hitzones.");
             // 
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(581, 88);
+            this.label77.Location = new System.Drawing.Point(581, 96);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(90, 13);
             this.label77.TabIndex = 37;
@@ -3859,18 +4024,20 @@
             // 
             // calcEleAll
             // 
-            this.calcEleAll.Location = new System.Drawing.Point(584, 64);
+            this.calcEleAll.Location = new System.Drawing.Point(584, 72);
             this.calcEleAll.Name = "calcEleAll";
             this.calcEleAll.ReadOnly = true;
             this.calcEleAll.Size = new System.Drawing.Size(100, 20);
             this.calcEleAll.TabIndex = 34;
+            this.calcEleAll.TabStop = false;
             this.calcEleAll.Text = "0";
             this.calcEleAll.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcEleAll, "The alternate damage source\'s overall damage, as affected by hitzones.");
             // 
             // label75
             // 
             this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(581, 47);
+            this.label75.Location = new System.Drawing.Point(581, 55);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(83, 13);
             this.label75.TabIndex = 33;
@@ -3878,18 +4045,20 @@
             // 
             // calcRawAll
             // 
-            this.calcRawAll.Location = new System.Drawing.Point(478, 64);
+            this.calcRawAll.Location = new System.Drawing.Point(584, 32);
             this.calcRawAll.Name = "calcRawAll";
             this.calcRawAll.ReadOnly = true;
             this.calcRawAll.Size = new System.Drawing.Size(100, 20);
             this.calcRawAll.TabIndex = 32;
+            this.calcRawAll.TabStop = false;
             this.calcRawAll.Text = "0";
             this.calcRawAll.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcRawAll, "The raw damage done per hit of this attack, as effected by hitzones.");
             // 
             // label76
             // 
             this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(475, 47);
+            this.label76.Location = new System.Drawing.Point(581, 15);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(90, 13);
             this.label76.TabIndex = 31;
@@ -3898,18 +4067,20 @@
             // calcBounce
             // 
             this.calcBounce.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calcBounce.Location = new System.Drawing.Point(372, 104);
+            this.calcBounce.Location = new System.Drawing.Point(372, 112);
             this.calcBounce.Name = "calcBounce";
             this.calcBounce.ReadOnly = true;
             this.calcBounce.Size = new System.Drawing.Size(100, 20);
             this.calcBounce.TabIndex = 30;
+            this.calcBounce.TabStop = false;
             this.calcBounce.Text = "No";
             this.calcBounce.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcBounce, "Will you bounce on this attack?");
             // 
             // label74
             // 
             this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(369, 87);
+            this.label74.Location = new System.Drawing.Point(369, 95);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(50, 13);
             this.label74.TabIndex = 29;
@@ -3918,18 +4089,20 @@
             // calcFinal
             // 
             this.calcFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calcFinal.Location = new System.Drawing.Point(372, 64);
+            this.calcFinal.Location = new System.Drawing.Point(372, 72);
             this.calcFinal.Name = "calcFinal";
             this.calcFinal.ReadOnly = true;
             this.calcFinal.Size = new System.Drawing.Size(100, 20);
             this.calcFinal.TabIndex = 28;
+            this.calcFinal.TabStop = false;
             this.calcFinal.Text = "0";
             this.calcFinal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcFinal, "The sum total damage done for this attack.");
             // 
             // label73
             // 
             this.label73.AutoSize = true;
-            this.label73.Location = new System.Drawing.Point(369, 47);
+            this.label73.Location = new System.Drawing.Point(369, 55);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(74, 13);
             this.label73.TabIndex = 27;
@@ -3937,10 +4110,10 @@
             // 
             // calcAll
             // 
-            this.calcAll.Location = new System.Drawing.Point(372, 21);
+            this.calcAll.Location = new System.Drawing.Point(372, 29);
             this.calcAll.Name = "calcAll";
             this.calcAll.Size = new System.Drawing.Size(100, 23);
-            this.calcAll.TabIndex = 26;
+            this.calcAll.TabIndex = 2;
             this.calcAll.Text = "Calculate All";
             this.calcAll.UseVisualStyleBackColor = true;
             this.calcAll.Click += new System.EventHandler(this.calcAll_Click);
@@ -3950,23 +4123,25 @@
             this.label72.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label72.Location = new System.Drawing.Point(364, 7);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(2, 128);
+            this.label72.Size = new System.Drawing.Size(2, 140);
             this.label72.TabIndex = 25;
             // 
             // calcSecOut
             // 
-            this.calcSecOut.Location = new System.Drawing.Point(229, 104);
+            this.calcSecOut.Location = new System.Drawing.Point(229, 112);
             this.calcSecOut.Name = "calcSecOut";
             this.calcSecOut.ReadOnly = true;
             this.calcSecOut.Size = new System.Drawing.Size(100, 20);
             this.calcSecOut.TabIndex = 13;
+            this.calcSecOut.TabStop = false;
             this.calcSecOut.Text = "0";
             this.calcSecOut.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcSecOut, "The secondary damage source\'s value.");
             // 
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(226, 87);
+            this.label70.Location = new System.Drawing.Point(226, 95);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(93, 13);
             this.label70.TabIndex = 12;
@@ -3974,18 +4149,20 @@
             // 
             // calcEleOut
             // 
-            this.calcEleOut.Location = new System.Drawing.Point(229, 64);
+            this.calcEleOut.Location = new System.Drawing.Point(229, 72);
             this.calcEleOut.Name = "calcEleOut";
             this.calcEleOut.ReadOnly = true;
             this.calcEleOut.Size = new System.Drawing.Size(100, 20);
             this.calcEleOut.TabIndex = 11;
+            this.calcEleOut.TabStop = false;
             this.calcEleOut.Text = "0";
             this.calcEleOut.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcEleOut, "The alternate damage type\'s value.");
             // 
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(226, 47);
+            this.label71.Location = new System.Drawing.Point(226, 55);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(84, 13);
             this.label71.TabIndex = 10;
@@ -3993,18 +4170,20 @@
             // 
             // calcRawOut
             // 
-            this.calcRawOut.Location = new System.Drawing.Point(123, 104);
+            this.calcRawOut.Location = new System.Drawing.Point(123, 112);
             this.calcRawOut.Name = "calcRawOut";
             this.calcRawOut.ReadOnly = true;
             this.calcRawOut.Size = new System.Drawing.Size(100, 20);
             this.calcRawOut.TabIndex = 9;
+            this.calcRawOut.TabStop = false;
             this.calcRawOut.Text = "0";
             this.calcRawOut.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcRawOut, "The effective damage you deal with this weapon and attack.");
             // 
             // label69
             // 
             this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(120, 87);
+            this.label69.Location = new System.Drawing.Point(120, 95);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(64, 13);
             this.label69.TabIndex = 8;
@@ -4012,81 +4191,90 @@
             // 
             // calcRawWeap
             // 
-            this.calcRawWeap.Location = new System.Drawing.Point(123, 64);
+            this.calcRawWeap.Location = new System.Drawing.Point(123, 72);
             this.calcRawWeap.Name = "calcRawWeap";
             this.calcRawWeap.ReadOnly = true;
             this.calcRawWeap.Size = new System.Drawing.Size(100, 20);
             this.calcRawWeap.TabIndex = 7;
+            this.calcRawWeap.TabStop = false;
             this.calcRawWeap.Text = "0";
             this.calcRawWeap.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.calcRawWeap, "The weapon\'s effective raw, before the Motion Value.");
             // 
             // label68
             // 
             this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(120, 47);
+            this.label68.Location = new System.Drawing.Point(120, 55);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(108, 13);
+            this.label68.Size = new System.Drawing.Size(74, 13);
             this.label68.TabIndex = 6;
-            this.label68.Text = "Raw Weapon Output";
+            this.label68.Text = "Effective Raw";
             // 
             // calcOutput
             // 
-            this.calcOutput.Location = new System.Drawing.Point(123, 21);
+            this.calcOutput.Location = new System.Drawing.Point(123, 29);
             this.calcOutput.Name = "calcOutput";
             this.calcOutput.Size = new System.Drawing.Size(100, 23);
-            this.calcOutput.TabIndex = 25;
+            this.calcOutput.TabIndex = 1;
             this.calcOutput.Text = "Calculate Output";
+            this.toolTip1.SetToolTip(this.calcOutput, "Calculate the output raw and element of your weapon, aka damage dealt before taki" +
+        "ng into account hitzones.");
             this.calcOutput.UseVisualStyleBackColor = true;
             this.calcOutput.Click += new System.EventHandler(this.calcOutput_Click);
             // 
             // calcNeutral
             // 
             this.calcNeutral.AutoSize = true;
-            this.calcNeutral.Location = new System.Drawing.Point(9, 106);
+            this.calcNeutral.Location = new System.Drawing.Point(9, 114);
             this.calcNeutral.Name = "calcNeutral";
             this.calcNeutral.Size = new System.Drawing.Size(59, 17);
             this.calcNeutral.TabIndex = 4;
             this.calcNeutral.TabStop = true;
             this.calcNeutral.Text = "Neutral";
+            this.toolTip1.SetToolTip(this.calcNeutral, "Use this option to calculate damage if you did not critically nor feebly hit.");
             this.calcNeutral.UseVisualStyleBackColor = true;
             // 
             // calcNegative
             // 
             this.calcNegative.AutoSize = true;
-            this.calcNegative.Location = new System.Drawing.Point(9, 83);
+            this.calcNegative.Location = new System.Drawing.Point(9, 91);
             this.calcNegative.Name = "calcNegative";
-            this.calcNegative.Size = new System.Drawing.Size(102, 17);
+            this.calcNegative.Size = new System.Drawing.Size(73, 17);
             this.calcNegative.TabIndex = 3;
             this.calcNegative.TabStop = true;
-            this.calcNegative.Text = "Negative Affinity";
+            this.calcNegative.Text = "Feeble Hit";
+            this.toolTip1.SetToolTip(this.calcNegative, "Use this option to calculate damage as if you had dealt a feeble hit.");
             this.calcNegative.UseVisualStyleBackColor = true;
             // 
             // calcPositive
             // 
             this.calcPositive.AutoSize = true;
-            this.calcPositive.Location = new System.Drawing.Point(9, 60);
+            this.calcPositive.Location = new System.Drawing.Point(9, 68);
             this.calcPositive.Name = "calcPositive";
-            this.calcPositive.Size = new System.Drawing.Size(96, 17);
+            this.calcPositive.Size = new System.Drawing.Size(72, 17);
             this.calcPositive.TabIndex = 2;
             this.calcPositive.TabStop = true;
-            this.calcPositive.Text = "Positive Affinity";
+            this.calcPositive.Text = "Critical Hit";
+            this.toolTip1.SetToolTip(this.calcPositive, "Use this option to calculate damage as if you crit.");
             this.calcPositive.UseVisualStyleBackColor = true;
             // 
             // calcAverage
             // 
             this.calcAverage.AutoSize = true;
-            this.calcAverage.Location = new System.Drawing.Point(9, 37);
+            this.calcAverage.Location = new System.Drawing.Point(9, 45);
             this.calcAverage.Name = "calcAverage";
             this.calcAverage.Size = new System.Drawing.Size(65, 17);
-            this.calcAverage.TabIndex = 1;
+            this.calcAverage.TabIndex = 0;
             this.calcAverage.TabStop = true;
             this.calcAverage.Text = "Average";
+            this.toolTip1.SetToolTip(this.calcAverage, "Use this option to calculate as if this much damage were done over the whole hunt" +
+        ".");
             this.calcAverage.UseVisualStyleBackColor = true;
             // 
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(6, 21);
+            this.label67.Location = new System.Drawing.Point(6, 29);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(89, 13);
             this.label67.TabIndex = 0;
@@ -4124,8 +4312,9 @@
             this.paraGRank.Location = new System.Drawing.Point(221, 166);
             this.paraGRank.Name = "paraGRank";
             this.paraGRank.Size = new System.Drawing.Size(69, 17);
-            this.paraGRank.TabIndex = 66;
+            this.paraGRank.TabIndex = 8;
             this.paraGRank.Text = "G-Rank?";
+            this.toolTip1.SetToolTip(this.paraGRank, "Is the quest G-Rank?");
             this.paraGRank.UseVisualStyleBackColor = true;
             // 
             // paraQuestMod
@@ -4133,9 +4322,11 @@
             this.paraQuestMod.Location = new System.Drawing.Point(10, 123);
             this.paraQuestMod.Name = "paraQuestMod";
             this.paraQuestMod.Size = new System.Drawing.Size(100, 20);
-            this.paraQuestMod.TabIndex = 23;
+            this.paraQuestMod.TabIndex = 5;
             this.paraQuestMod.Text = "1.0";
             this.paraQuestMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraQuestMod, "The Quest Defense Modifier reduces overall damage done to the monster before taki" +
+        "ng into account hitzones.");
             this.paraQuestMod.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraQuestMod.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4153,9 +4344,10 @@
             this.paraHealth.Location = new System.Drawing.Point(10, 164);
             this.paraHealth.Name = "paraHealth";
             this.paraHealth.Size = new System.Drawing.Size(100, 20);
-            this.paraHealth.TabIndex = 22;
+            this.paraHealth.TabIndex = 6;
             this.paraHealth.Text = "0";
             this.paraHealth.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraHealth, "The average health of the monster in the quest.");
             this.paraHealth.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraHealth.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4182,7 +4374,8 @@
             this.paraMonStatus.Location = new System.Drawing.Point(115, 164);
             this.paraMonStatus.Name = "paraMonStatus";
             this.paraMonStatus.Size = new System.Drawing.Size(100, 20);
-            this.paraMonStatus.TabIndex = 21;
+            this.paraMonStatus.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.paraMonStatus, "The current status of the monster at the time of calculation.");
             // 
             // label63
             // 
@@ -4198,9 +4391,10 @@
             this.paraSecZone.Location = new System.Drawing.Point(221, 32);
             this.paraSecZone.Name = "paraSecZone";
             this.paraSecZone.Size = new System.Drawing.Size(100, 20);
-            this.paraSecZone.TabIndex = 20;
+            this.paraSecZone.TabIndex = 2;
             this.paraSecZone.Text = "0";
             this.paraSecZone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraSecZone, "The second elemental value of the hitzone. For DBs only.");
             this.paraSecZone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraSecZone.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4218,9 +4412,10 @@
             this.paraEleHit.Location = new System.Drawing.Point(115, 32);
             this.paraEleHit.Name = "paraEleHit";
             this.paraEleHit.Size = new System.Drawing.Size(100, 20);
-            this.paraEleHit.TabIndex = 19;
+            this.paraEleHit.TabIndex = 1;
             this.paraEleHit.Text = "0";
             this.paraEleHit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraEleHit, "The elemental hitzone of the monster part you wish to calculate for.");
             this.paraEleHit.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraEleHit.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4238,9 +4433,10 @@
             this.paraExhZone.Location = new System.Drawing.Point(221, 75);
             this.paraExhZone.Name = "paraExhZone";
             this.paraExhZone.Size = new System.Drawing.Size(100, 20);
-            this.paraExhZone.TabIndex = 18;
+            this.paraExhZone.TabIndex = 4;
             this.paraExhZone.Text = "0";
             this.paraExhZone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraExhZone, "The exhaust value of the monster part.");
             this.paraExhZone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraExhZone.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4258,9 +4454,10 @@
             this.paraKOZone.Location = new System.Drawing.Point(115, 75);
             this.paraKOZone.Name = "paraKOZone";
             this.paraKOZone.Size = new System.Drawing.Size(100, 20);
-            this.paraKOZone.TabIndex = 17;
+            this.paraKOZone.TabIndex = 3;
             this.paraKOZone.Text = "0";
             this.paraKOZone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraKOZone, "The value of the KO hitzone of the monster part.");
             this.paraKOZone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraKOZone.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4278,9 +4475,10 @@
             this.paraHitzone.Location = new System.Drawing.Point(9, 32);
             this.paraHitzone.Name = "paraHitzone";
             this.paraHitzone.Size = new System.Drawing.Size(100, 20);
-            this.paraHitzone.TabIndex = 16;
+            this.paraHitzone.TabIndex = 0;
             this.paraHitzone.Text = "0";
             this.paraHitzone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraHitzone, "The hitzone value of the monster\'s part you wish to calculate for.");
             this.paraHitzone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraHitzone.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4349,9 +4547,10 @@
             this.paraAffinity.Location = new System.Drawing.Point(335, 123);
             this.paraAffinity.Name = "paraAffinity";
             this.paraAffinity.Size = new System.Drawing.Size(84, 20);
-            this.paraAffinity.TabIndex = 53;
+            this.paraAffinity.TabIndex = 15;
             this.paraAffinity.Text = "0";
             this.paraAffinity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraAffinity, "The affinity of the weapon. List negative affinity with \'-\'.");
             this.paraAffinity.Validating += new System.ComponentModel.CancelEventHandler(this.AffinityField_Validating);
             this.paraAffinity.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4361,8 +4560,9 @@
             this.paraChaotic.Location = new System.Drawing.Point(441, 125);
             this.paraChaotic.Name = "paraChaotic";
             this.paraChaotic.Size = new System.Drawing.Size(68, 17);
-            this.paraChaotic.TabIndex = 52;
+            this.paraChaotic.TabIndex = 16;
             this.paraChaotic.Text = "Chaotic?";
+            this.toolTip1.SetToolTip(this.paraChaotic, "If you\'re using a Chaotic Gore weapon, check this box.");
             this.paraChaotic.UseVisualStyleBackColor = true;
             this.paraChaotic.CheckedChanged += new System.EventHandler(this.paraChaotic_CheckedChanged);
             // 
@@ -4380,8 +4580,9 @@
             this.paraUpdate.Location = new System.Drawing.Point(6, 20);
             this.paraUpdate.Name = "paraUpdate";
             this.paraUpdate.Size = new System.Drawing.Size(112, 53);
-            this.paraUpdate.TabIndex = 50;
+            this.paraUpdate.TabIndex = 0;
             this.paraUpdate.Text = "Update Parameters";
+            this.toolTip1.SetToolTip(this.paraUpdate, "Click this to fill in the fields with the sum information from the other tabs.");
             this.paraUpdate.UseVisualStyleBackColor = true;
             this.paraUpdate.Click += new System.EventHandler(this.paraUpdate_Click);
             // 
@@ -4391,7 +4592,7 @@
             this.paraMadAff.Location = new System.Drawing.Point(6, 171);
             this.paraMadAff.Name = "paraMadAff";
             this.paraMadAff.Size = new System.Drawing.Size(81, 17);
-            this.paraMadAff.TabIndex = 49;
+            this.paraMadAff.TabIndex = 5;
             this.paraMadAff.Text = "Rueful Crit?";
             this.paraMadAff.UseVisualStyleBackColor = true;
             // 
@@ -4401,7 +4602,7 @@
             this.paraStatusCrit.Location = new System.Drawing.Point(6, 148);
             this.paraStatusCrit.Name = "paraStatusCrit";
             this.paraStatusCrit.Size = new System.Drawing.Size(80, 17);
-            this.paraStatusCrit.TabIndex = 48;
+            this.paraStatusCrit.TabIndex = 4;
             this.paraStatusCrit.Text = "Status Crit?";
             this.paraStatusCrit.UseVisualStyleBackColor = true;
             // 
@@ -4411,7 +4612,7 @@
             this.paraMinds.Location = new System.Drawing.Point(6, 125);
             this.paraMinds.Name = "paraMinds";
             this.paraMinds.Size = new System.Drawing.Size(83, 17);
-            this.paraMinds.TabIndex = 47;
+            this.paraMinds.TabIndex = 3;
             this.paraMinds.Text = "Mind\'s Eye?";
             this.paraMinds.UseVisualStyleBackColor = true;
             // 
@@ -4421,7 +4622,7 @@
             this.paraCritBoost.Location = new System.Drawing.Point(6, 102);
             this.paraCritBoost.Name = "paraCritBoost";
             this.paraCritBoost.Size = new System.Drawing.Size(93, 17);
-            this.paraCritBoost.TabIndex = 46;
+            this.paraCritBoost.TabIndex = 2;
             this.paraCritBoost.Text = "Critical Boost?";
             this.paraCritBoost.UseVisualStyleBackColor = true;
             // 
@@ -4431,7 +4632,7 @@
             this.paraFixed.Location = new System.Drawing.Point(6, 79);
             this.paraFixed.Name = "paraFixed";
             this.paraFixed.Size = new System.Drawing.Size(100, 17);
-            this.paraFixed.TabIndex = 45;
+            this.paraFixed.TabIndex = 1;
             this.paraFixed.Text = "Fixed Damage?";
             this.paraFixed.UseVisualStyleBackColor = true;
             this.paraFixed.CheckedChanged += new System.EventHandler(this.paraFixed_CheckedChanged);
@@ -4450,9 +4651,10 @@
             this.paraSecPower.Location = new System.Drawing.Point(230, 123);
             this.paraSecPower.Name = "paraSecPower";
             this.paraSecPower.Size = new System.Drawing.Size(75, 20);
-            this.paraSecPower.TabIndex = 15;
+            this.paraSecPower.TabIndex = 14;
             this.paraSecPower.Text = "0";
             this.paraSecPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraSecPower, "List the DB\'s value of the second element here.");
             this.paraSecPower.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraSecPower.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4483,7 +4685,8 @@
             this.paraSecEle.Location = new System.Drawing.Point(124, 123);
             this.paraSecEle.Name = "paraSecEle";
             this.paraSecEle.Size = new System.Drawing.Size(100, 21);
-            this.paraSecEle.TabIndex = 14;
+            this.paraSecEle.TabIndex = 13;
+            this.toolTip1.SetToolTip(this.paraSecEle, "If your DBs has a second element, list it here.");
             this.paraSecEle.SelectedIndexChanged += new System.EventHandler(this.paraSecEle_SelectedIndexChanged);
             // 
             // label56
@@ -4509,7 +4712,8 @@
             this.paraEleCrit.Location = new System.Drawing.Point(441, 76);
             this.paraEleCrit.Name = "paraEleCrit";
             this.paraEleCrit.Size = new System.Drawing.Size(100, 20);
-            this.paraEleCrit.TabIndex = 13;
+            this.paraEleCrit.TabIndex = 12;
+            this.toolTip1.SetToolTip(this.paraEleCrit, "If you\'ve got Elemental Crit, then list it and the weapon type here.");
             // 
             // label55
             // 
@@ -4523,12 +4727,13 @@
             // paraNegAff
             // 
             this.paraNegAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.paraNegAff.Location = new System.Drawing.Point(390, 123);
+            this.paraNegAff.Location = new System.Drawing.Point(346, 123);
             this.paraNegAff.Name = "paraNegAff";
             this.paraNegAff.Size = new System.Drawing.Size(29, 20);
             this.paraNegAff.TabIndex = 30;
             this.paraNegAff.Text = "0";
             this.paraNegAff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraNegAff, "The negative Affinity portion of a Chaotic Gore weapon.");
             this.paraNegAff.Visible = false;
             this.paraNegAff.Validating += new System.ComponentModel.CancelEventHandler(this.PositiveAffinityField_Validating);
             this.paraNegAff.Validated += new System.EventHandler(this.GenericField_Validated);
@@ -4537,7 +4742,7 @@
             // 
             this.paraNega.AutoSize = true;
             this.paraNega.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.paraNega.Location = new System.Drawing.Point(378, 125);
+            this.paraNega.Location = new System.Drawing.Point(333, 125);
             this.paraNega.Name = "paraNega";
             this.paraNega.Size = new System.Drawing.Size(12, 16);
             this.paraNega.TabIndex = 36;
@@ -4548,18 +4753,18 @@
             // 
             this.paraPositive.AutoSize = true;
             this.paraPositive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.paraPositive.Location = new System.Drawing.Point(329, 125);
+            this.paraPositive.Location = new System.Drawing.Point(376, 125);
             this.paraPositive.Name = "paraPositive";
-            this.paraPositive.Size = new System.Drawing.Size(15, 16);
+            this.paraPositive.Size = new System.Drawing.Size(12, 16);
             this.paraPositive.TabIndex = 35;
-            this.paraPositive.Text = "+";
+            this.paraPositive.Text = "/";
             this.paraPositive.Visible = false;
             // 
             // label54
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(417, 125);
+            this.label54.Location = new System.Drawing.Point(419, 125);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(20, 16);
             this.label54.TabIndex = 34;
@@ -4568,12 +4773,13 @@
             // paraPosAff
             // 
             this.paraPosAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.paraPosAff.Location = new System.Drawing.Point(344, 123);
+            this.paraPosAff.Location = new System.Drawing.Point(388, 123);
             this.paraPosAff.Name = "paraPosAff";
             this.paraPosAff.Size = new System.Drawing.Size(29, 20);
             this.paraPosAff.TabIndex = 30;
             this.paraPosAff.Text = "0";
             this.paraPosAff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraPosAff, "The positive Affinity portion");
             this.paraPosAff.Visible = false;
             this.paraPosAff.Validating += new System.ComponentModel.CancelEventHandler(this.PositiveAffinityField_Validating);
             this.paraPosAff.Validated += new System.EventHandler(this.GenericField_Validated);
@@ -4596,7 +4802,8 @@
             this.paraAltType.Location = new System.Drawing.Point(124, 75);
             this.paraAltType.Name = "paraAltType";
             this.paraAltType.Size = new System.Drawing.Size(100, 21);
-            this.paraAltType.TabIndex = 5;
+            this.paraAltType.TabIndex = 9;
+            this.toolTip1.SetToolTip(this.paraAltType, "The alternate damage type on the weapon, Element or Status.");
             this.paraAltType.SelectedIndexChanged += new System.EventHandler(this.paraAltType_SelectedIndexChanged);
             // 
             // label49
@@ -4631,9 +4838,10 @@
             this.paraHitCount.Location = new System.Drawing.Point(124, 164);
             this.paraHitCount.Name = "paraHitCount";
             this.paraHitCount.Size = new System.Drawing.Size(100, 20);
-            this.paraHitCount.TabIndex = 12;
+            this.paraHitCount.TabIndex = 17;
             this.paraHitCount.Text = "1";
             this.paraHitCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraHitCount, "The number of hits done in this attack.");
             this.paraHitCount.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.paraHitCount.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4651,9 +4859,10 @@
             this.paraAvgMV.Location = new System.Drawing.Point(230, 164);
             this.paraAvgMV.Name = "paraAvgMV";
             this.paraAvgMV.Size = new System.Drawing.Size(100, 20);
-            this.paraAvgMV.TabIndex = 11;
+            this.paraAvgMV.TabIndex = 18;
             this.paraAvgMV.Text = "0";
             this.paraAvgMV.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraAvgMV, "The average motion value ");
             this.paraAvgMV.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraAvgMV.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4671,9 +4880,10 @@
             this.paraExh.Location = new System.Drawing.Point(440, 164);
             this.paraExh.Name = "paraExh";
             this.paraExh.Size = new System.Drawing.Size(100, 20);
-            this.paraExh.TabIndex = 8;
+            this.paraExh.TabIndex = 20;
             this.paraExh.Text = "0";
             this.paraExh.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraExh, "Average Exhaust damage dealt per hit in this attack.");
             this.paraExh.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraExh.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4691,9 +4901,11 @@
             this.paraEleSharp.Location = new System.Drawing.Point(335, 76);
             this.paraEleSharp.Name = "paraEleSharp";
             this.paraEleSharp.Size = new System.Drawing.Size(100, 20);
-            this.paraEleSharp.TabIndex = 7;
+            this.paraEleSharp.TabIndex = 11;
             this.paraEleSharp.Text = "1";
             this.paraEleSharp.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraEleSharp, "The sharpness modifier, as applied to element. (Status is not affected by Sharpne" +
+        "ss)");
             this.paraEleSharp.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraEleSharp.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4711,9 +4923,10 @@
             this.paraElePower.Location = new System.Drawing.Point(230, 76);
             this.paraElePower.Name = "paraElePower";
             this.paraElePower.Size = new System.Drawing.Size(75, 20);
-            this.paraElePower.TabIndex = 6;
+            this.paraElePower.TabIndex = 10;
             this.paraElePower.Text = "0";
             this.paraElePower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraElePower, "The value of the alternate damage type on the weapon.");
             this.paraElePower.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraElePower.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4731,9 +4944,10 @@
             this.paraKO.Location = new System.Drawing.Point(335, 164);
             this.paraKO.Name = "paraKO";
             this.paraKO.Size = new System.Drawing.Size(100, 20);
-            this.paraKO.TabIndex = 4;
+            this.paraKO.TabIndex = 19;
             this.paraKO.Text = "0";
             this.paraKO.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraKO, "Average KO power per hit of the combo.");
             this.paraKO.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraKO.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4751,9 +4965,10 @@
             this.paraRawSharp.Location = new System.Drawing.Point(335, 32);
             this.paraRawSharp.Name = "paraRawSharp";
             this.paraRawSharp.Size = new System.Drawing.Size(100, 20);
-            this.paraRawSharp.TabIndex = 3;
+            this.paraRawSharp.TabIndex = 8;
             this.paraRawSharp.Text = "1";
             this.paraRawSharp.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraRawSharp, "The sharpness modifier, as applied to raw.");
             this.paraRawSharp.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraRawSharp.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4762,9 +4977,10 @@
             this.paraRaw.Location = new System.Drawing.Point(230, 33);
             this.paraRaw.Name = "paraRaw";
             this.paraRaw.Size = new System.Drawing.Size(100, 20);
-            this.paraRaw.TabIndex = 2;
+            this.paraRaw.TabIndex = 7;
             this.paraRaw.Text = "0";
             this.paraRaw.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.paraRaw, "The raw of the weapon, considered after all modifiers.");
             this.paraRaw.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.paraRaw.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4793,7 +5009,8 @@
             this.paraSharp.Location = new System.Drawing.Point(124, 32);
             this.paraSharp.Name = "paraSharp";
             this.paraSharp.Size = new System.Drawing.Size(100, 21);
-            this.paraSharp.TabIndex = 1;
+            this.paraSharp.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.paraSharp, "Sharpness used at the time of calculation. Use \'(No Sharpness)\' for Gunners.");
             this.paraSharp.SelectedIndexChanged += new System.EventHandler(this.paraSharp_SelectedIndexChanged);
             // 
             // label39
@@ -4823,8 +5040,8 @@
             // 
             this.staMonSearch.Location = new System.Drawing.Point(56, 9);
             this.staMonSearch.Name = "staMonSearch";
-            this.staMonSearch.Size = new System.Drawing.Size(177, 20);
-            this.staMonSearch.TabIndex = 22;
+            this.staMonSearch.Size = new System.Drawing.Size(130, 20);
+            this.staMonSearch.TabIndex = 0;
             this.staMonSearch.TextChanged += new System.EventHandler(this.staMonSearch_TextChanged);
             // 
             // label95
@@ -4874,38 +5091,40 @@
             this.groupBox11.Controls.Add(this.label13);
             this.groupBox11.Controls.Add(this.staCritCheck);
             this.groupBox11.Controls.Add(this.staStatusTable);
-            this.groupBox11.Location = new System.Drawing.Point(240, 7);
+            this.groupBox11.Location = new System.Drawing.Point(192, 7);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(638, 397);
+            this.groupBox11.Size = new System.Drawing.Size(686, 397);
             this.groupBox11.TabIndex = 20;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Status";
             // 
             // staReset
             // 
-            this.staReset.Location = new System.Drawing.Point(7, 64);
+            this.staReset.Location = new System.Drawing.Point(557, 211);
             this.staReset.Name = "staReset";
-            this.staReset.Size = new System.Drawing.Size(106, 39);
-            this.staReset.TabIndex = 65;
+            this.staReset.Size = new System.Drawing.Size(123, 37);
+            this.staReset.TabIndex = 14;
             this.staReset.Text = "Reset Section";
+            this.toolTip1.SetToolTip(this.staReset, "Click this button to reset the entire section back to original values.");
             this.staReset.UseVisualStyleBackColor = true;
             this.staReset.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // staHitCount
             // 
-            this.staHitCount.Location = new System.Drawing.Point(204, 38);
+            this.staHitCount.Location = new System.Drawing.Point(312, 33);
             this.staHitCount.Name = "staHitCount";
             this.staHitCount.Size = new System.Drawing.Size(100, 20);
-            this.staHitCount.TabIndex = 64;
+            this.staHitCount.TabIndex = 1;
             this.staHitCount.Text = "0";
             this.staHitCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staHitCount, "How many hits are in the attack?");
             this.staHitCount.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.staHitCount.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label83
             // 
             this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(201, 22);
+            this.label83.Location = new System.Drawing.Point(309, 17);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(54, 13);
             this.label83.TabIndex = 63;
@@ -4914,7 +5133,7 @@
             // label94
             // 
             this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(289, 80);
+            this.label94.Location = new System.Drawing.Point(397, 80);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(15, 13);
             this.label94.TabIndex = 62;
@@ -4925,7 +5144,7 @@
             this.label93.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label93.Location = new System.Drawing.Point(7, 108);
             this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(629, 2);
+            this.label93.Size = new System.Drawing.Size(679, 2);
             this.label93.TabIndex = 61;
             // 
             // staMax
@@ -4933,9 +5152,10 @@
             this.staMax.Location = new System.Drawing.Point(313, 227);
             this.staMax.Name = "staMax";
             this.staMax.Size = new System.Drawing.Size(100, 20);
-            this.staMax.TabIndex = 57;
+            this.staMax.TabIndex = 10;
             this.staMax.Text = "0";
             this.staMax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staMax, "The maximum threshold for this status on the monster.");
             this.staMax.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.staMax.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4953,9 +5173,10 @@
             this.staInc.Location = new System.Drawing.Point(313, 185);
             this.staInc.Name = "staInc";
             this.staInc.Size = new System.Drawing.Size(100, 20);
-            this.staInc.TabIndex = 55;
+            this.staInc.TabIndex = 9;
             this.staInc.Text = "0";
             this.staInc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staInc, "By how much the threshold increases after you\'ve applied the status.");
             this.staInc.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.staInc.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4973,9 +5194,10 @@
             this.staInit.Location = new System.Drawing.Point(313, 140);
             this.staInit.Name = "staInit";
             this.staInit.Size = new System.Drawing.Size(100, 20);
-            this.staInit.TabIndex = 53;
+            this.staInit.TabIndex = 8;
             this.staInit.Text = "0";
             this.staInit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staInit, "The initial threshold value of the status.");
             this.staInit.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.staInit.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
@@ -4991,7 +5213,7 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(610, 184);
+            this.pictureBox15.Location = new System.Drawing.Point(526, 185);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(20, 20);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5001,7 +5223,7 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(610, 142);
+            this.pictureBox16.Location = new System.Drawing.Point(526, 143);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(20, 20);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5010,19 +5232,20 @@
             // 
             // staExhMod
             // 
-            this.staExhMod.Location = new System.Drawing.Point(504, 184);
+            this.staExhMod.Location = new System.Drawing.Point(420, 185);
             this.staExhMod.Name = "staExhMod";
             this.staExhMod.Size = new System.Drawing.Size(100, 20);
-            this.staExhMod.TabIndex = 49;
+            this.staExhMod.TabIndex = 12;
             this.staExhMod.Text = "1.0";
             this.staExhMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staExhMod, "The Exhaust mod increases the Exhaust threshold of the monster.");
             this.staExhMod.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.staExhMod.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label89
             // 
             this.label89.AutoSize = true;
-            this.label89.Location = new System.Drawing.Point(501, 168);
+            this.label89.Location = new System.Drawing.Point(417, 169);
             this.label89.Name = "label89";
             this.label89.Size = new System.Drawing.Size(72, 13);
             this.label89.TabIndex = 48;
@@ -5030,19 +5253,20 @@
             // 
             // staKOMod
             // 
-            this.staKOMod.Location = new System.Drawing.Point(504, 140);
+            this.staKOMod.Location = new System.Drawing.Point(420, 141);
             this.staKOMod.Name = "staKOMod";
             this.staKOMod.Size = new System.Drawing.Size(100, 20);
-            this.staKOMod.TabIndex = 47;
+            this.staKOMod.TabIndex = 11;
             this.staKOMod.Text = "1.0";
             this.staKOMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staKOMod, "The KO Mod increases the KO thresholds by a multiplier.");
             this.staKOMod.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.staKOMod.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label88
             // 
             this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(501, 123);
+            this.label88.Location = new System.Drawing.Point(417, 124);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(49, 13);
             this.label88.TabIndex = 46;
@@ -5053,7 +5277,7 @@
             this.label87.AutoSize = true;
             this.label87.Location = new System.Drawing.Point(6, 331);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(627, 52);
+            this.label87.Size = new System.Drawing.Size(627, 65);
             this.label87.TabIndex = 45;
             this.label87.Text = resources.GetString("label87.Text");
             // 
@@ -5063,17 +5287,19 @@
             this.staPrint.Location = new System.Drawing.Point(6, 260);
             this.staPrint.Name = "staPrint";
             this.staPrint.ReadOnly = true;
-            this.staPrint.Size = new System.Drawing.Size(623, 68);
+            this.staPrint.Size = new System.Drawing.Size(674, 68);
             this.staPrint.TabIndex = 44;
+            this.staPrint.TabStop = false;
             this.staPrint.Text = "";
             // 
             // staCalc
             // 
-            this.staCalc.Location = new System.Drawing.Point(504, 210);
+            this.staCalc.Location = new System.Drawing.Point(420, 211);
             this.staCalc.Name = "staCalc";
-            this.staCalc.Size = new System.Drawing.Size(125, 37);
-            this.staCalc.TabIndex = 43;
+            this.staCalc.Size = new System.Drawing.Size(126, 37);
+            this.staCalc.TabIndex = 13;
             this.staCalc.Text = "Calculate";
+            this.toolTip1.SetToolTip(this.staCalc, "Hit this button to calculate a status.");
             this.staCalc.UseVisualStyleBackColor = true;
             this.staCalc.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -5081,16 +5307,18 @@
             // 
             this.staUpdate.Location = new System.Drawing.Point(6, 19);
             this.staUpdate.Name = "staUpdate";
-            this.staUpdate.Size = new System.Drawing.Size(107, 39);
-            this.staUpdate.TabIndex = 42;
+            this.staUpdate.Size = new System.Drawing.Size(107, 84);
+            this.staUpdate.TabIndex = 0;
             this.staUpdate.Text = "Update Parameters";
+            this.toolTip1.SetToolTip(this.staUpdate, "Click this button to automatically fill in the fields here with relevant informat" +
+        "ion from the other tabs.");
             this.staUpdate.UseVisualStyleBackColor = true;
             this.staUpdate.Click += new System.EventHandler(this.staUpdate_Click);
             // 
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(610, 76);
+            this.pictureBox13.Location = new System.Drawing.Point(658, 76);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(20, 20);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5100,7 +5328,7 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(610, 34);
+            this.pictureBox14.Location = new System.Drawing.Point(658, 34);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(20, 20);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5109,19 +5337,20 @@
             // 
             // staExhZone
             // 
-            this.staExhZone.Location = new System.Drawing.Point(504, 77);
+            this.staExhZone.Location = new System.Drawing.Point(552, 77);
             this.staExhZone.Name = "staExhZone";
             this.staExhZone.Size = new System.Drawing.Size(100, 20);
-            this.staExhZone.TabIndex = 39;
+            this.staExhZone.TabIndex = 7;
             this.staExhZone.Text = "0";
             this.staExhZone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staExhZone, "The Exhaust hitzone of the monster part.");
             this.staExhZone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.staExhZone.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label85
             // 
             this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(501, 60);
+            this.label85.Location = new System.Drawing.Point(549, 60);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(87, 13);
             this.label85.TabIndex = 38;
@@ -5129,19 +5358,20 @@
             // 
             // staKOZone
             // 
-            this.staKOZone.Location = new System.Drawing.Point(504, 34);
+            this.staKOZone.Location = new System.Drawing.Point(552, 34);
             this.staKOZone.Name = "staKOZone";
             this.staKOZone.Size = new System.Drawing.Size(100, 20);
-            this.staKOZone.TabIndex = 37;
+            this.staKOZone.TabIndex = 6;
             this.staKOZone.Text = "0";
             this.staKOZone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staKOZone, "The KO Hitzone of the monster part.");
             this.staKOZone.Validating += new System.ComponentModel.CancelEventHandler(this.IntField_Validating);
             this.staKOZone.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label86
             // 
             this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(501, 18);
+            this.label86.Location = new System.Drawing.Point(549, 18);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(64, 13);
             this.label86.TabIndex = 36;
@@ -5149,7 +5379,7 @@
             // 
             // staPictOne
             // 
-            this.staPictOne.Location = new System.Drawing.Point(420, 77);
+            this.staPictOne.Location = new System.Drawing.Point(525, 77);
             this.staPictOne.Name = "staPictOne";
             this.staPictOne.Size = new System.Drawing.Size(20, 20);
             this.staPictOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5158,19 +5388,20 @@
             // 
             // staPower
             // 
-            this.staPower.Location = new System.Drawing.Point(313, 77);
+            this.staPower.Location = new System.Drawing.Point(418, 77);
             this.staPower.Name = "staPower";
             this.staPower.Size = new System.Drawing.Size(100, 20);
-            this.staPower.TabIndex = 29;
+            this.staPower.TabIndex = 5;
             this.staPower.Text = "0";
             this.staPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staPower, "The value of the status damage dealt.");
             this.staPower.Validating += new System.ComponentModel.CancelEventHandler(this.GenericField_Validating);
             this.staPower.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label82
             // 
             this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(310, 61);
+            this.label82.Location = new System.Drawing.Point(415, 61);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(96, 13);
             this.label82.TabIndex = 28;
@@ -5189,16 +5420,17 @@
             "Blast",
             "KO",
             "Exhaust"});
-            this.staType.Location = new System.Drawing.Point(313, 33);
+            this.staType.Location = new System.Drawing.Point(418, 33);
             this.staType.Name = "staType";
             this.staType.Size = new System.Drawing.Size(100, 21);
-            this.staType.TabIndex = 27;
+            this.staType.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.staType, "List the type of status your weapon deals here.");
             this.staType.SelectedIndexChanged += new System.EventHandler(this.staType_SelectedIndexChanged);
             // 
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(310, 17);
+            this.label65.Location = new System.Drawing.Point(415, 17);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(67, 13);
             this.label65.TabIndex = 26;
@@ -5207,19 +5439,21 @@
             // staAffinity
             // 
             this.staAffinity.Enabled = false;
-            this.staAffinity.Location = new System.Drawing.Point(204, 77);
+            this.staAffinity.Location = new System.Drawing.Point(312, 77);
             this.staAffinity.Name = "staAffinity";
             this.staAffinity.Size = new System.Drawing.Size(80, 20);
-            this.staAffinity.TabIndex = 25;
+            this.staAffinity.TabIndex = 4;
             this.staAffinity.Text = "0";
             this.staAffinity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.toolTip1.SetToolTip(this.staAffinity, "List how much positive affinity you have here. Only Positive Affinity is accepted" +
+        ", and this is only active when Status Crit is active.");
             this.staAffinity.Validating += new System.ComponentModel.CancelEventHandler(this.PositiveAffinityField_Validating);
             this.staAffinity.Validated += new System.EventHandler(this.GenericField_Validated);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(202, 61);
+            this.label13.Location = new System.Drawing.Point(310, 61);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(41, 13);
             this.label13.TabIndex = 24;
@@ -5228,11 +5462,12 @@
             // staCritCheck
             // 
             this.staCritCheck.AutoSize = true;
-            this.staCritCheck.Location = new System.Drawing.Point(118, 79);
+            this.staCritCheck.Location = new System.Drawing.Point(226, 79);
             this.staCritCheck.Name = "staCritCheck";
             this.staCritCheck.Size = new System.Drawing.Size(80, 17);
-            this.staCritCheck.TabIndex = 23;
+            this.staCritCheck.TabIndex = 3;
             this.staCritCheck.Text = "Status Crit?";
+            this.toolTip1.SetToolTip(this.staCritCheck, "Is Status Crit active?");
             this.staCritCheck.UseVisualStyleBackColor = true;
             this.staCritCheck.CheckedChanged += new System.EventHandler(this.staCritCheck_CheckedChanged);
             // 
@@ -5251,6 +5486,7 @@
             this.staStatusTable.Name = "staStatusTable";
             this.staStatusTable.Size = new System.Drawing.Size(298, 130);
             this.staStatusTable.TabIndex = 21;
+            this.staStatusTable.TabStop = false;
             this.staStatusTable.UseCompatibleStateImageBehavior = false;
             this.staStatusTable.View = System.Windows.Forms.View.Details;
             this.staStatusTable.SelectedIndexChanged += new System.EventHandler(this.staStatusTable_SelectedIndexChanged);
@@ -5286,8 +5522,9 @@
             this.staMonsterList.Location = new System.Drawing.Point(6, 35);
             this.staMonsterList.MultiSelect = false;
             this.staMonsterList.Name = "staMonsterList";
-            this.staMonsterList.Size = new System.Drawing.Size(227, 369);
+            this.staMonsterList.Size = new System.Drawing.Size(180, 369);
             this.staMonsterList.TabIndex = 19;
+            this.staMonsterList.TabStop = false;
             this.staMonsterList.UseCompatibleStateImageBehavior = false;
             this.staMonsterList.View = System.Windows.Forms.View.Details;
             this.staMonsterList.SelectedIndexChanged += new System.EventHandler(this.staMonsterList_SelectedIndexChanged);
@@ -5300,7 +5537,7 @@
             // columnHeader35
             // 
             this.columnHeader35.Text = "Monster";
-            this.columnHeader35.Width = 170;
+            this.columnHeader35.Width = 120;
             // 
             // tabPage1
             // 
@@ -5323,7 +5560,7 @@
             this.label98.AutoSize = true;
             this.label98.Enabled = false;
             this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label98.Location = new System.Drawing.Point(173, 7);
+            this.label98.Location = new System.Drawing.Point(109, 7);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(88, 13);
             this.label98.TabIndex = 5;
@@ -5332,10 +5569,10 @@
             // historyDetails
             // 
             this.historyDetails.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.historyDetails.Location = new System.Drawing.Point(276, 7);
+            this.historyDetails.Location = new System.Drawing.Point(203, 7);
             this.historyDetails.Name = "historyDetails";
             this.historyDetails.ReadOnly = true;
-            this.historyDetails.Size = new System.Drawing.Size(602, 397);
+            this.historyDetails.Size = new System.Drawing.Size(675, 397);
             this.historyDetails.TabIndex = 4;
             this.historyDetails.Text = "";
             // 
@@ -5353,9 +5590,9 @@
             this.label96.AutoSize = true;
             this.label96.Location = new System.Drawing.Point(6, 7);
             this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(85, 13);
+            this.label96.Size = new System.Drawing.Size(97, 13);
             this.label96.TabIndex = 2;
-            this.label96.Text = "Damage History:";
+            this.label96.Text = "Calculation History:";
             // 
             // statusHistory
             // 
@@ -5364,7 +5601,7 @@
             this.statusHistory.GridLines = true;
             this.statusHistory.Location = new System.Drawing.Point(6, 228);
             this.statusHistory.Name = "statusHistory";
-            this.statusHistory.Size = new System.Drawing.Size(263, 176);
+            this.statusHistory.Size = new System.Drawing.Size(191, 176);
             this.statusHistory.TabIndex = 1;
             this.statusHistory.UseCompatibleStateImageBehavior = false;
             this.statusHistory.View = System.Windows.Forms.View.Details;
@@ -5373,7 +5610,7 @@
             // columnHeader37
             // 
             this.columnHeader37.Text = "Entry";
-            this.columnHeader37.Width = 255;
+            this.columnHeader37.Width = 160;
             // 
             // damageHistory
             // 
@@ -5382,7 +5619,7 @@
             this.damageHistory.GridLines = true;
             this.damageHistory.Location = new System.Drawing.Point(6, 23);
             this.damageHistory.Name = "damageHistory";
-            this.damageHistory.Size = new System.Drawing.Size(263, 176);
+            this.damageHistory.Size = new System.Drawing.Size(191, 176);
             this.damageHistory.TabIndex = 0;
             this.damageHistory.UseCompatibleStateImageBehavior = false;
             this.damageHistory.View = System.Windows.Forms.View.Details;
@@ -5391,7 +5628,7 @@
             // columnHeader36
             // 
             this.columnHeader36.Text = "Entry";
-            this.columnHeader36.Width = 255;
+            this.columnHeader36.Width = 160;
             // 
             // ErrorPreventer
             // 
@@ -5403,9 +5640,20 @@
             this.label52.Enabled = false;
             this.label52.Location = new System.Drawing.Point(347, 455);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(553, 104);
+            this.label52.Size = new System.Drawing.Size(553, 13);
             this.label52.TabIndex = 2;
-            this.label52.Text = resources.GetString("label52.Text");
+            this.label52.Text = "NOTE: If you are using this calculator for World purposes, there is no guarantee " +
+    "that this will return accurate values. \r\n";
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Enabled = false;
+            this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label100.Location = new System.Drawing.Point(570, 9);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(0, 13);
+            this.label100.TabIndex = 3;
             // 
             // Form1
             // 
@@ -5413,6 +5661,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(908, 470);
+            this.Controls.Add(this.label100);
             this.Controls.Add(this.label52);
             this.Controls.Add(this.tabControl1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -5420,12 +5669,11 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "(Yet Another) MHGU Damage Calculator Alpha Vers.";
+            this.Text = "Yet Another Damage Calculator For MHGU Release Vers. 1.0: \'";
             this.tabControl1.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
+            this.groupBox8.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).EndInit();
@@ -5721,7 +5969,6 @@
         private System.Windows.Forms.Button modSelectedButton;
         private System.Windows.Forms.TreeView weaponTree;
         private System.Windows.Forms.ListView weaponDetails;
-        private System.Windows.Forms.GroupBox groupBox12;
         private System.Windows.Forms.CheckBox weapFilter;
         private System.Windows.Forms.RadioButton weapBow;
         private System.Windows.Forms.RadioButton weapHBG;
@@ -5864,6 +6111,10 @@
         private System.Windows.Forms.Label label98;
         private System.Windows.Forms.ColumnHeader columnHeader36;
         private System.Windows.Forms.ColumnHeader columnHeader37;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.TextBox calcPerHit;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.Label label100;
     }
 }
 
