@@ -737,6 +737,9 @@
             this.label52 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label100 = new System.Windows.Forms.Label();
+            this.OptionsButt = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -3610,6 +3613,8 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.button2);
+            this.groupBox4.Controls.Add(this.button3);
             this.groupBox4.Controls.Add(this.modList);
             this.groupBox4.Controls.Add(this.modMiscButton);
             this.groupBox4.Controls.Add(this.modWeaponButton);
@@ -3651,7 +3656,7 @@
             this.modList.Location = new System.Drawing.Point(9, 126);
             this.modList.Name = "modList";
             this.modList.ShowGroups = false;
-            this.modList.Size = new System.Drawing.Size(282, 237);
+            this.modList.Size = new System.Drawing.Size(282, 209);
             this.modList.TabIndex = 13;
             this.modList.TabStop = false;
             this.modList.UseCompatibleStateImageBehavior = false;
@@ -3789,9 +3794,9 @@
             // 
             // modAllButton
             // 
-            this.modAllButton.Location = new System.Drawing.Point(157, 369);
+            this.modAllButton.Location = new System.Drawing.Point(9, 369);
             this.modAllButton.Name = "modAllButton";
-            this.modAllButton.Size = new System.Drawing.Size(134, 23);
+            this.modAllButton.Size = new System.Drawing.Size(136, 23);
             this.modAllButton.TabIndex = 9;
             this.modAllButton.Text = "Clear All";
             this.toolTip1.SetToolTip(this.modAllButton, "Click this to remove all modifiers from the list.");
@@ -3800,9 +3805,9 @@
             // 
             // modSelectedButton
             // 
-            this.modSelectedButton.Location = new System.Drawing.Point(6, 369);
+            this.modSelectedButton.Location = new System.Drawing.Point(9, 341);
             this.modSelectedButton.Name = "modSelectedButton";
-            this.modSelectedButton.Size = new System.Drawing.Size(145, 23);
+            this.modSelectedButton.Size = new System.Drawing.Size(136, 23);
             this.modSelectedButton.TabIndex = 8;
             this.modSelectedButton.Text = "Clear Selected";
             this.toolTip1.SetToolTip(this.modSelectedButton, "Clear the selected items from the modifier list. Use Ctrl + Left Click to select " +
@@ -5638,7 +5643,7 @@
             // 
             this.label52.AutoSize = true;
             this.label52.Enabled = false;
-            this.label52.Location = new System.Drawing.Point(347, 455);
+            this.label52.Location = new System.Drawing.Point(347, 459);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(553, 13);
             this.label52.TabIndex = 2;
@@ -5655,12 +5660,43 @@
             this.label100.Size = new System.Drawing.Size(0, 13);
             this.label100.TabIndex = 3;
             // 
+            // OptionsButt
+            // 
+            this.OptionsButt.Location = new System.Drawing.Point(12, 454);
+            this.OptionsButt.Name = "OptionsButt";
+            this.OptionsButt.Size = new System.Drawing.Size(114, 23);
+            this.OptionsButt.TabIndex = 4;
+            this.OptionsButt.Text = "Options";
+            this.OptionsButt.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(151, 369);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(140, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Load Modifiers";
+            this.toolTip1.SetToolTip(this.button2, "Click this to remove all modifiers from the list.");
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(151, 341);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(140, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "Save Modifiers...";
+            this.toolTip1.SetToolTip(this.button3, "Clear the selected items from the modifier list. Use Ctrl + Left Click to select " +
+        "multiple items.");
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(908, 470);
+            this.ClientSize = new System.Drawing.Size(908, 483);
+            this.Controls.Add(this.OptionsButt);
             this.Controls.Add(this.label100);
             this.Controls.Add(this.label52);
             this.Controls.Add(this.tabControl1);
@@ -6115,6 +6151,9 @@
         private System.Windows.Forms.TextBox calcPerHit;
         private System.Windows.Forms.Label label99;
         private System.Windows.Forms.Label label100;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button OptionsButt;
     }
 }
 
