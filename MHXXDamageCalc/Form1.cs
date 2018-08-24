@@ -126,9 +126,9 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Attack Down (L)", x => Attack(6));
 
             armorModifiers.Add("Bloodbath Soul", x => Bloodbath(1));
-            armorModifiers.Add("True Bloodbath Soul", x => TrueBloodbath(1));
+            armorModifiers.Add("Bloodbath SoulX ", x => TrueBloodbath(1));
             armorModifiers.Add("Boltreaver Soul", x => Boltreaver(1));
-            armorModifiers.Add("True Boltreaver Soul", x => TrueBoltreaver(1));
+            armorModifiers.Add("Boltreaver Soul X", x => TrueBoltreaver(1));
             armorModifiers.Add("Bludgeoner (GU)", x => Blunt(1));
             armorModifiers.Add("Bludgeoner (Gen)", x => Blunt(2));
             armorModifiers.Add("Bombardier (Blast)", x => BombBoost(1));
@@ -159,31 +159,31 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Pro D. Fencer (0 Carts)", x => DFencing(1));
             armorModifiers.Add("Pro D. Fencer (One Cart)", x => DFencing(2));
             armorModifiers.Add("Pro D. Fencer (Two Carts)", x => DFencing(3));
-            armorModifiers.Add("Deadeye Soul", x => Deadeye(1));
-            armorModifiers.Add("True D.eye S. (0 Carts)", x => TrueDeadeye(1));
-            armorModifiers.Add("True D.eye S. (0 Carts, Enraged)", x => TrueDeadeye(2));
-            armorModifiers.Add("True D.eye S. (1 Carts)", x => TrueDeadeye(3));
-            armorModifiers.Add("True D.eye S. (1 Carts, Enraged)", x => TrueDeadeye(4));
-            armorModifiers.Add("True D.eye S. (2 Carts)", x => TrueDeadeye(5));
-            armorModifiers.Add("True D.eye S. (2 Carts, Enraged)", x => TrueDeadeye(6));
+            armorModifiers.Add("D.eye Soul", x => Deadeye(1));
+            armorModifiers.Add("D.eye Soul X (0 Carts)", x => TrueDeadeye(1));
+            armorModifiers.Add("D.eye Soul X (0 Carts, Enraged)", x => TrueDeadeye(2));
+            armorModifiers.Add("D.eye Soul X (1 Carts)", x => TrueDeadeye(3));
+            armorModifiers.Add("D.eye Soul X (1 Carts, Enraged)", x => TrueDeadeye(4));
+            armorModifiers.Add("D.eye Soul X (2 Carts)", x => TrueDeadeye(5));
+            armorModifiers.Add("D.eye Soul X (2 Carts, Enraged)", x => TrueDeadeye(6));
             armorModifiers.Add("Dragon Atk +1", x => DragonAtk(1));
             armorModifiers.Add("Dragon Atk +2", x => DragonAtk(2));
             armorModifiers.Add("Dragon Atk Down", x => DragonAtk(3));
             armorModifiers.Add("Dragon's Spirit", x => DragonAura(1));
             armorModifiers.Add("Dreadking Soul", x => Dreadking(1));
-            armorModifiers.Add("True Dreadking Soul", x => TrueDreadking(1));
+            armorModifiers.Add("Dreadking Soul X", x => TrueDreadking(1));
             armorModifiers.Add("Dreadqueen Soul", x => Dreadqueen(1));
-            armorModifiers.Add("True Dreadqueen Soul", x => TrueDreadqueen(1));
+            armorModifiers.Add("Dreadqueen Soul X", x => TrueDreadqueen(1));
             armorModifiers.Add("Drilltusk Soul", x => Drilltusk(1));
-            armorModifiers.Add("True D.tusk S. (Adren +2)", x => TrueDrilltusk(1));
-            armorModifiers.Add("True D.tusk S. (Fixed Weaps.)", x => TrueDrilltusk(2));
-            armorModifiers.Add("True D.tusk S. (Exp. Shots)", x => TrueDrilltusk(3));
-            armorModifiers.Add("True D.tusk S. (Impact Phial)", x => TrueDrilltusk(4));
-            armorModifiers.Add("True D.tusk S. (GL Shots)", x => TrueDrilltusk(5));
+            armorModifiers.Add("D.tusk Soul X (Adren +2)", x => TrueDrilltusk(1));
+            armorModifiers.Add("D.tusk Soul X (Fixed Weaps.)", x => TrueDrilltusk(2));
+            armorModifiers.Add("D.tusk Soul X (Exp. Shots)", x => TrueDrilltusk(3));
+            armorModifiers.Add("D.tusk Soul X (Impact Phial)", x => TrueDrilltusk(4));
+            armorModifiers.Add("D.tusk Soul X (GL Shots)", x => TrueDrilltusk(5));
 
             armorModifiers.Add("Honed Blade", x => Edgemaster(1));
             armorModifiers.Add("Elderfrost Soul", x => Elderfrost(1));
-            armorModifiers.Add("True Elderfrost Soul", x => TrueElderfrost(1));
+            armorModifiers.Add("Elderfrost Soul X", x => TrueElderfrost(1));
             armorModifiers.Add("Element Atk Up", x => Elemental(1));
             armorModifiers.Add("Element Atk Down", x => Elemental(2));
             armorModifiers.Add("Critical Eye +1", x => Expert(1));
@@ -208,10 +208,10 @@ namespace MHXXDamageCalc
             armorModifiers.Add("TrueShot Up", x => Haphazard(1));
             armorModifiers.Add("Heavy/Heavy Up", x => HeavyUp(1));
             armorModifiers.Add("Hellblade Soul", x => Hellblade(1));
-            armorModifiers.Add("True Hellblade Soul (Blast)", x => TrueHellblade(1));
-            armorModifiers.Add("True Hellblade Soul (Bomb)", x => TrueHellblade(2));
-            armorModifiers.Add("Tropic Hunter ", x => HotBlooded(1));
-            armorModifiers.Add("Soul of the Hunter's Pub", x => HuntersPub(1));
+            armorModifiers.Add("Hellblade Soul X (Blast)", x => TrueHellblade(1));
+            armorModifiers.Add("Hellblade Soul X (Bomb)", x => TrueHellblade(2));
+            armorModifiers.Add("Tropic Hunter", x => HotBlooded(1));
+            armorModifiers.Add("Flying Pub Soul", x => HuntersPub(1));
 
             armorModifiers.Add("Ice Atk +1", x => IceAtk(1));
             armorModifiers.Add("Ice Atk +2", x => IceAtk(2));
@@ -235,13 +235,13 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Sheath Control", x => Readiness(1));
             armorModifiers.Add("Bonus Shot", x => RapidFire(1));
             armorModifiers.Add("Redhelm Soul", x => Redhelm(1));
-            armorModifiers.Add("True Redhelm Soul", x => TrueRedhelm(1));
+            armorModifiers.Add("Redhelm Soul X", x => TrueRedhelm(1));
             armorModifiers.Add("Rueful Crit", x => ReverseCrit(1));
-            armorModifiers.Add("True Rustrazor Soul", x => TrueRustrazor(1));
+            armorModifiers.Add("Rustrazor Soul X", x => TrueRustrazor(1));
 
             armorModifiers.Add("Shining Blade", x => ScaledSword(1));
             armorModifiers.Add("Silverwind Soul", x => Silverwind(1));
-            armorModifiers.Add("True Silverwind Soul", x => TrueSilverwind(1));
+            armorModifiers.Add("Silverwind Soul X", x => TrueSilverwind(1));
             armorModifiers.Add("Challenger +1", x => Spirit(1));
             armorModifiers.Add("Challenger +2", x => Spirit(2));
             armorModifiers.Add("Stamina Thief", x => StamDrain(1));
@@ -252,10 +252,10 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Silver Bullet (Pellet S)", x => SteadyHand(2));
             armorModifiers.Add("Silver Bullet (Spread)", x => SteadyHand(3));
             armorModifiers.Add("Silver Bullet (Pierce/Pierce)", x => SteadyHand(4));
-            armorModifiers.Add("Soulseer Soul (No Enrage)", x => Soulseer(1));
-            armorModifiers.Add("Soulseer Soul (Rage)", x => Soulseer(2));
-            armorModifiers.Add("True Soulseer Soul", x => TrueSoulseer(1));
-            armorModifiers.Add("True Soulseer Soul (Enraged)", x => TrueSoulseer(2));
+            armorModifiers.Add("Soulseer Soul", x => Soulseer(1));
+            armorModifiers.Add("Soulseer Soul (Enraged)", x => Soulseer(2));
+            armorModifiers.Add("Soulseer Soul X", x => TrueSoulseer(1));
+            armorModifiers.Add("Soulseer Soul X (Enraged)", x => TrueSoulseer(2));
             armorModifiers.Add("Fortify (1st Cart)", x => Survivor(1));
             armorModifiers.Add("Fortify (2nd Cart)", x => Survivor(2));
 
@@ -264,7 +264,7 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Thunder Atk +2", x => ThunderAtk(2));
             armorModifiers.Add("Thunder Atk Down", x => ThunderAtk(3));
             armorModifiers.Add("Thunderlord Soul", x => Thunderlord(1));
-            armorModifiers.Add("True Thunderlord Soul", x => TrueThunderlord(1));
+            armorModifiers.Add("Thunderlord Soul X", x => TrueThunderlord(1));
 
             armorModifiers.Add("Peak Performance", x => Unscathed(1));
 
@@ -6970,6 +6970,22 @@ namespace MHXXDamageCalc
             if (statusHistory.SelectedItems.Count != 0)
             {
                 historyDetails.Text = ((string)statusHistory.SelectedItems[0].Tag).Replace("\\n", Environment.NewLine);
+            }
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(tabControl1.SelectedIndex == 4)
+            {
+                ImportSetUp();
+                ImportModifiers();
+                Export();
+            }
+            else if(tabControl1.SelectedIndex == 5)
+            {
+                ImportSetUp();
+                ImportModifiers();
+                ExportStatus();
             }
         }
     }
