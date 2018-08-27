@@ -395,6 +395,9 @@
             this.weapDra = new System.Windows.Forms.CheckBox();
             this.weapPoi = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.weaponCopy = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.formatCopyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label101 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.weapAffinity = new System.Windows.Forms.TextBox();
@@ -560,6 +563,9 @@
             this.modDetails = new System.Windows.Forms.RichTextBox();
             this.modGlossary = new System.Windows.Forms.TreeView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.modCopy = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.formatAndCopyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label103 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.modList = new System.Windows.Forms.ListView();
@@ -740,10 +746,12 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label100 = new System.Windows.Forms.Label();
             this.OptionsButt = new System.Windows.Forms.Button();
+            this.label102 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.weaponCopy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.weapSecPict)).BeginInit();
             this.tabPage7.SuspendLayout();
@@ -769,6 +777,7 @@
             this.tabPage8.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.modCopy.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.calcAllElePict)).BeginInit();
@@ -1256,6 +1265,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.ContextMenuStrip = this.weaponCopy;
+            this.groupBox1.Controls.Add(this.label101);
             this.groupBox1.Controls.Add(this.label20);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.weapAffinity);
@@ -1293,10 +1304,35 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Weapon Base Stats";
             // 
+            // weaponCopy
+            // 
+            this.weaponCopy.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.formatCopyToolStripMenuItem});
+            this.weaponCopy.Name = "weaponCopy";
+            this.weaponCopy.Size = new System.Drawing.Size(167, 26);
+            // 
+            // formatCopyToolStripMenuItem
+            // 
+            this.formatCopyToolStripMenuItem.Name = "formatCopyToolStripMenuItem";
+            this.formatCopyToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.formatCopyToolStripMenuItem.Text = "Format and Copy";
+            this.formatCopyToolStripMenuItem.Click += new System.EventHandler(this.formatCopyToolStripMenuItem_Click);
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Enabled = false;
+            this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label101.Location = new System.Drawing.Point(33, 378);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(151, 13);
+            this.label101.TabIndex = 36;
+            this.label101.Text = "Right-click to format and copy!";
+            // 
             // label20
             // 
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label20.Location = new System.Drawing.Point(0, 263);
+            this.label20.Location = new System.Drawing.Point(0, 248);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(217, 2);
             this.label20.TabIndex = 35;
@@ -1304,14 +1340,14 @@
             // label7
             // 
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Location = new System.Drawing.Point(0, 186);
+            this.label7.Location = new System.Drawing.Point(0, 181);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(217, 2);
             this.label7.TabIndex = 2;
             // 
             // weapAffinity
             // 
-            this.weapAffinity.Location = new System.Drawing.Point(106, 204);
+            this.weapAffinity.Location = new System.Drawing.Point(106, 194);
             this.weapAffinity.Name = "weapAffinity";
             this.weapAffinity.Size = new System.Drawing.Size(75, 20);
             this.weapAffinity.TabIndex = 2;
@@ -1323,7 +1359,7 @@
             // weapChaotic
             // 
             this.weapChaotic.AutoSize = true;
-            this.weapChaotic.Location = new System.Drawing.Point(10, 230);
+            this.weapChaotic.Location = new System.Drawing.Point(10, 220);
             this.weapChaotic.Name = "weapChaotic";
             this.weapChaotic.Size = new System.Drawing.Size(138, 17);
             this.weapChaotic.TabIndex = 3;
@@ -1336,7 +1372,7 @@
             // weapNegAff
             // 
             this.weapNegAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.weapNegAff.Location = new System.Drawing.Point(106, 204);
+            this.weapNegAff.Location = new System.Drawing.Point(106, 194);
             this.weapNegAff.Name = "weapNegAff";
             this.weapNegAff.Size = new System.Drawing.Size(29, 20);
             this.weapNegAff.TabIndex = 32;
@@ -1350,7 +1386,7 @@
             // 
             this.weapNegative.AutoSize = true;
             this.weapNegative.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weapNegative.Location = new System.Drawing.Point(92, 206);
+            this.weapNegative.Location = new System.Drawing.Point(92, 196);
             this.weapNegative.Name = "weapNegative";
             this.weapNegative.Size = new System.Drawing.Size(12, 16);
             this.weapNegative.TabIndex = 31;
@@ -1361,7 +1397,7 @@
             // 
             this.weapPositive.AutoSize = true;
             this.weapPositive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weapPositive.Location = new System.Drawing.Point(139, 206);
+            this.weapPositive.Location = new System.Drawing.Point(139, 196);
             this.weapPositive.Name = "weapPositive";
             this.weapPositive.Size = new System.Drawing.Size(12, 16);
             this.weapPositive.TabIndex = 30;
@@ -1383,7 +1419,7 @@
             // 
             // weapReset
             // 
-            this.weapReset.Location = new System.Drawing.Point(6, 369);
+            this.weapReset.Location = new System.Drawing.Point(6, 349);
             this.weapReset.Name = "weapReset";
             this.weapReset.Size = new System.Drawing.Size(205, 23);
             this.weapReset.TabIndex = 7;
@@ -1407,7 +1443,7 @@
             "Yellow",
             "Orange",
             "Red"});
-            this.weapSharpTwo.Location = new System.Drawing.Point(106, 337);
+            this.weapSharpTwo.Location = new System.Drawing.Point(106, 317);
             this.weapSharpTwo.Name = "weapSharpTwo";
             this.weapSharpTwo.Size = new System.Drawing.Size(100, 21);
             this.weapSharpTwo.TabIndex = 6;
@@ -1511,7 +1547,7 @@
             "Yellow",
             "Orange",
             "Red"});
-            this.weapSharpOne.Location = new System.Drawing.Point(106, 310);
+            this.weapSharpOne.Location = new System.Drawing.Point(106, 290);
             this.weapSharpOne.Name = "weapSharpOne";
             this.weapSharpOne.Size = new System.Drawing.Size(100, 21);
             this.weapSharpOne.TabIndex = 5;
@@ -1522,7 +1558,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(7, 340);
+            this.label11.Location = new System.Drawing.Point(7, 320);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(75, 13);
             this.label11.TabIndex = 14;
@@ -1531,7 +1567,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(7, 313);
+            this.label10.Location = new System.Drawing.Point(7, 293);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(75, 13);
             this.label10.TabIndex = 13;
@@ -1571,7 +1607,7 @@
             "Yellow",
             "Orange",
             "Red"});
-            this.weapSharpness.Location = new System.Drawing.Point(106, 283);
+            this.weapSharpness.Location = new System.Drawing.Point(106, 263);
             this.weapSharpness.Name = "weapSharpness";
             this.weapSharpness.Size = new System.Drawing.Size(100, 21);
             this.weapSharpness.TabIndex = 4;
@@ -1583,7 +1619,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(183, 206);
+            this.label6.Location = new System.Drawing.Point(183, 196);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(20, 16);
             this.label6.TabIndex = 9;
@@ -1592,7 +1628,7 @@
             // weapPosAff
             // 
             this.weapPosAff.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.weapPosAff.Location = new System.Drawing.Point(152, 204);
+            this.weapPosAff.Location = new System.Drawing.Point(152, 194);
             this.weapPosAff.Name = "weapPosAff";
             this.weapPosAff.Size = new System.Drawing.Size(29, 20);
             this.weapPosAff.TabIndex = 8;
@@ -1627,7 +1663,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 286);
+            this.label5.Location = new System.Drawing.Point(7, 266);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 4;
@@ -1636,7 +1672,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 207);
+            this.label4.Location = new System.Drawing.Point(7, 197);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 3;
@@ -2045,14 +2081,14 @@
             // label80
             // 
             this.label80.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label80.Location = new System.Drawing.Point(0, 159);
+            this.label80.Location = new System.Drawing.Point(0, 154);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(217, 2);
             this.label80.TabIndex = 3;
             // 
             // moveInheritPict
             // 
-            this.moveInheritPict.Location = new System.Drawing.Point(186, 272);
+            this.moveInheritPict.Location = new System.Drawing.Point(186, 252);
             this.moveInheritPict.Name = "moveInheritPict";
             this.moveInheritPict.Size = new System.Drawing.Size(20, 20);
             this.moveInheritPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2062,7 +2098,7 @@
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(7, 275);
+            this.label53.Location = new System.Drawing.Point(7, 255);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(78, 13);
             this.label53.TabIndex = 36;
@@ -2071,7 +2107,7 @@
             // moveInheritValue
             // 
             this.moveInheritValue.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.moveInheritValue.Location = new System.Drawing.Point(106, 272);
+            this.moveInheritValue.Location = new System.Drawing.Point(106, 252);
             this.moveInheritValue.Name = "moveInheritValue";
             this.moveInheritValue.Size = new System.Drawing.Size(75, 20);
             this.moveInheritValue.TabIndex = 8;
@@ -2096,7 +2132,7 @@
             "Para",
             "Sleep",
             "Blast"});
-            this.moveInherit.Location = new System.Drawing.Point(106, 245);
+            this.moveInherit.Location = new System.Drawing.Point(106, 225);
             this.moveInherit.Name = "moveInherit";
             this.moveInherit.Size = new System.Drawing.Size(100, 21);
             this.moveInherit.TabIndex = 7;
@@ -2107,7 +2143,7 @@
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(7, 248);
+            this.label51.Location = new System.Drawing.Point(7, 228);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(78, 13);
             this.label51.TabIndex = 33;
@@ -2125,7 +2161,7 @@
             // moveExhPict
             // 
             this.moveExhPict.Image = ((System.Drawing.Image)(resources.GetObject("moveExhPict.Image")));
-            this.moveExhPict.Location = new System.Drawing.Point(186, 200);
+            this.moveExhPict.Location = new System.Drawing.Point(186, 190);
             this.moveExhPict.Name = "moveExhPict";
             this.moveExhPict.Size = new System.Drawing.Size(20, 20);
             this.moveExhPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2135,7 +2171,7 @@
             // moveKOPict
             // 
             this.moveKOPict.Image = ((System.Drawing.Image)(resources.GetObject("moveKOPict.Image")));
-            this.moveKOPict.Location = new System.Drawing.Point(186, 174);
+            this.moveKOPict.Location = new System.Drawing.Point(186, 164);
             this.moveKOPict.Name = "moveKOPict";
             this.moveKOPict.Size = new System.Drawing.Size(20, 20);
             this.moveKOPict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2144,7 +2180,7 @@
             // 
             // moveReset
             // 
-            this.moveReset.Location = new System.Drawing.Point(6, 369);
+            this.moveReset.Location = new System.Drawing.Point(6, 349);
             this.moveReset.Name = "moveReset";
             this.moveReset.Size = new System.Drawing.Size(204, 23);
             this.moveReset.TabIndex = 12;
@@ -2182,7 +2218,7 @@
             // 
             // moveExhaust
             // 
-            this.moveExhaust.Location = new System.Drawing.Point(106, 200);
+            this.moveExhaust.Location = new System.Drawing.Point(106, 190);
             this.moveExhaust.Name = "moveExhaust";
             this.moveExhaust.Size = new System.Drawing.Size(75, 20);
             this.moveExhaust.TabIndex = 6;
@@ -2192,7 +2228,7 @@
             // 
             // moveKO
             // 
-            this.moveKO.Location = new System.Drawing.Point(106, 174);
+            this.moveKO.Location = new System.Drawing.Point(106, 164);
             this.moveKO.Name = "moveKO";
             this.moveKO.Size = new System.Drawing.Size(75, 20);
             this.moveKO.TabIndex = 5;
@@ -2246,7 +2282,7 @@
             // moveDraw
             // 
             this.moveDraw.AutoSize = true;
-            this.moveDraw.Location = new System.Drawing.Point(10, 349);
+            this.moveDraw.Location = new System.Drawing.Point(10, 329);
             this.moveDraw.Name = "moveDraw";
             this.moveDraw.Size = new System.Drawing.Size(91, 17);
             this.moveDraw.TabIndex = 11;
@@ -2257,7 +2293,7 @@
             // moveAerial
             // 
             this.moveAerial.AutoSize = true;
-            this.moveAerial.Location = new System.Drawing.Point(10, 326);
+            this.moveAerial.Location = new System.Drawing.Point(10, 306);
             this.moveAerial.Name = "moveAerial";
             this.moveAerial.Size = new System.Drawing.Size(119, 17);
             this.moveAerial.TabIndex = 10;
@@ -2268,7 +2304,7 @@
             // moveMinds
             // 
             this.moveMinds.AutoSize = true;
-            this.moveMinds.Location = new System.Drawing.Point(10, 303);
+            this.moveMinds.Location = new System.Drawing.Point(10, 283);
             this.moveMinds.Name = "moveMinds";
             this.moveMinds.Size = new System.Drawing.Size(120, 17);
             this.moveMinds.TabIndex = 9;
@@ -2279,7 +2315,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(7, 203);
+            this.label18.Location = new System.Drawing.Point(7, 193);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(66, 13);
             this.label18.TabIndex = 6;
@@ -2288,7 +2324,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(7, 177);
+            this.label17.Location = new System.Drawing.Point(7, 167);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(43, 13);
             this.label17.TabIndex = 5;
@@ -3614,6 +3650,8 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.ContextMenuStrip = this.modCopy;
+            this.groupBox4.Controls.Add(this.label103);
             this.groupBox4.Controls.Add(this.button2);
             this.groupBox4.Controls.Add(this.button3);
             this.groupBox4.Controls.Add(this.modList);
@@ -3638,19 +3676,47 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Active Modifiers";
             // 
+            // modCopy
+            // 
+            this.modCopy.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.formatAndCopyToolStripMenuItem1});
+            this.modCopy.Name = "modCopy";
+            this.modCopy.Size = new System.Drawing.Size(167, 26);
+            // 
+            // formatAndCopyToolStripMenuItem1
+            // 
+            this.formatAndCopyToolStripMenuItem1.Name = "formatAndCopyToolStripMenuItem1";
+            this.formatAndCopyToolStripMenuItem1.Size = new System.Drawing.Size(166, 22);
+            this.formatAndCopyToolStripMenuItem1.Text = "Format and Copy";
+            this.formatAndCopyToolStripMenuItem1.Click += new System.EventHandler(this.formatAndCopyToolStripMenuItem1_Click);
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Enabled = false;
+            this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label103.Location = new System.Drawing.Point(73, 380);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(151, 13);
+            this.label103.TabIndex = 38;
+            this.label103.Text = "Right-click to format and copy!";
+            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(151, 369);
+            this.button2.Enabled = false;
+            this.button2.Location = new System.Drawing.Point(151, 354);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 23);
             this.button2.TabIndex = 15;
-            this.button2.Text = "Load Modifiers";
+            this.button2.Text = "Load Modifiers...";
             this.toolTip1.SetToolTip(this.button2, "Click this to remove all modifiers from the list.");
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(151, 341);
+            this.button3.Enabled = false;
+            this.button3.Location = new System.Drawing.Point(151, 326);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(140, 23);
             this.button3.TabIndex = 14;
@@ -3658,18 +3724,20 @@
             this.toolTip1.SetToolTip(this.button3, "Clear the selected items from the modifier list. Use Ctrl + Left Click to select " +
         "multiple items.");
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Visible = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // modList
             // 
             this.modList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             listViewGroup1.Header = "ListViewGroup";
-            listViewGroup1.Name = "listViewGroup1";
+            listViewGroup1.Name = "armor";
             listViewGroup2.Header = "ListViewGroup";
-            listViewGroup2.Name = "listViewGroup2";
+            listViewGroup2.Name = "food";
             listViewGroup3.Header = "ListViewGroup";
-            listViewGroup3.Name = "listViewGroup3";
+            listViewGroup3.Name = "weapon";
             listViewGroup4.Header = "ListViewGroup";
-            listViewGroup4.Name = "listViewGroup4";
+            listViewGroup4.Name = "misc";
             this.modList.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             listViewGroup1,
             listViewGroup2,
@@ -3678,7 +3746,7 @@
             this.modList.Location = new System.Drawing.Point(9, 126);
             this.modList.Name = "modList";
             this.modList.ShowGroups = false;
-            this.modList.Size = new System.Drawing.Size(282, 209);
+            this.modList.Size = new System.Drawing.Size(282, 194);
             this.modList.TabIndex = 13;
             this.modList.TabStop = false;
             this.modList.UseCompatibleStateImageBehavior = false;
@@ -3816,9 +3884,9 @@
             // 
             // modAllButton
             // 
-            this.modAllButton.Location = new System.Drawing.Point(9, 369);
+            this.modAllButton.Location = new System.Drawing.Point(9, 354);
             this.modAllButton.Name = "modAllButton";
-            this.modAllButton.Size = new System.Drawing.Size(136, 23);
+            this.modAllButton.Size = new System.Drawing.Size(282, 23);
             this.modAllButton.TabIndex = 9;
             this.modAllButton.Text = "Clear All";
             this.toolTip1.SetToolTip(this.modAllButton, "Click this to remove all modifiers from the list.");
@@ -3827,9 +3895,9 @@
             // 
             // modSelectedButton
             // 
-            this.modSelectedButton.Location = new System.Drawing.Point(9, 341);
+            this.modSelectedButton.Location = new System.Drawing.Point(9, 326);
             this.modSelectedButton.Name = "modSelectedButton";
-            this.modSelectedButton.Size = new System.Drawing.Size(136, 23);
+            this.modSelectedButton.Size = new System.Drawing.Size(282, 23);
             this.modSelectedButton.TabIndex = 8;
             this.modSelectedButton.Text = "Clear Selected";
             this.toolTip1.SetToolTip(this.modSelectedButton, "Clear the selected items from the modifier list. Use Ctrl + Left Click to select " +
@@ -5684,12 +5752,26 @@
             // 
             // OptionsButt
             // 
+            this.OptionsButt.Enabled = false;
             this.OptionsButt.Location = new System.Drawing.Point(12, 454);
             this.OptionsButt.Name = "OptionsButt";
             this.OptionsButt.Size = new System.Drawing.Size(114, 23);
             this.OptionsButt.TabIndex = 4;
             this.OptionsButt.Text = "Options";
             this.OptionsButt.UseVisualStyleBackColor = true;
+            this.OptionsButt.Visible = false;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Enabled = false;
+            this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label102.Location = new System.Drawing.Point(268, 1);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(639, 13);
+            this.label102.TabIndex = 5;
+            this.label102.Text = "Right now, the Calculation tab will calculate automatically when entered. Options" +
+    " are coming soon, so please check for vers. 1.1 soon!";
             // 
             // Form1
             // 
@@ -5697,6 +5779,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(908, 483);
+            this.Controls.Add(this.label102);
             this.Controls.Add(this.OptionsButt);
             this.Controls.Add(this.label100);
             this.Controls.Add(this.label52);
@@ -5713,6 +5796,7 @@
             this.groupBox8.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.weaponCopy.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.weapElePict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.weapSecPict)).EndInit();
             this.tabPage7.ResumeLayout(false);
@@ -5742,6 +5826,7 @@
             this.groupBox7.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.modCopy.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.groupBox.ResumeLayout(false);
             this.groupBox.PerformLayout();
@@ -6155,6 +6240,13 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button OptionsButt;
+        private System.Windows.Forms.ContextMenuStrip weaponCopy;
+        private System.Windows.Forms.ToolStripMenuItem formatCopyToolStripMenuItem;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.ContextMenuStrip modCopy;
+        private System.Windows.Forms.ToolStripMenuItem formatAndCopyToolStripMenuItem1;
+        private System.Windows.Forms.Label label102;
     }
 }
 

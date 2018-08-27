@@ -5043,6 +5043,9 @@
         QmCC
 </value>
   </data>
+  <metadata name="weaponCopy.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>244, 17</value>
+  </metadata>
   <data name="moveShot.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAYAAADNkKWqAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
@@ -10090,6 +10093,9 @@
   <data name="treeNode166.Tag" xml:space="preserve">
     <value>Buffs belonging to different groups stack with each other. Buffs within the same group will not.\n\nGroup A:\nPower Charm (+6)\n\nGroup B:\nPowertalon (+9)\n\nGroup C (Larger effects override smaller):\nDemondrug (+5)\nMega Demondrug (+7)\n\nGroup D (Larger effects override smaller):\nAttack Up S Meal (+3)\nAttack Up M Meal (+5)\nAttack Up L Meal (+7)\n\nGroup E (Most recently used take priority):\nMight Seed (+10, 3 minutes)\nMight Pill (+25, 20 seconds)\nNitroshroom (+10, 3 minutes) (using Mushromancer)\nDemon Horn (+10, 3 minutes)\nDemon S (+10, +10% Sharpness, +25% Critical Distance bonus max. 175%)\nDemon Affinity S (+15, +10% Affinity, +10% Sharpness, +25% Critical Distance bonus max 175%)\nCool Cat (+15, 30 seconds)\n\nGroup F\nFelyne Booster (+3, 10 minutes from quest start, or resting in bed)\n\nGroup G\nAttack Up (S) (+10)\nAttack Up (M) (+15)\nAttack Up (L) (+20)\n\nGroup H\nAdrenaline +2 (+30% Raw while Health &lt;=40%)\nFelyne Heroics (+35% Raw while Health &lt;=10)\n\nGroup I\nFortify (+10%, first cart)\nFortify (+20% second cart)\n\nGroup J (Challenger &gt; Unscathed &gt; Latent Power)\nChallenger +1 (+10, +10% Affinity)\nChallenger +2 (+15, +20% Affinity)\nPeak Performance (+20 while Health =100%)\nLatent Power +1 (+30% Affinity)\nLatent Power +2 (+50% Affinity)\n\nGroup K (priority given to first song)\nAttack Up (S) Song (+10% Raw)\nAttack Up (S) Encore (+15% Raw)\nAttack Up (L) Song (+15% Raw)\nAttack Up (L) Encore (+20% Raw)\n\nGroup L\nPolar Hunter (+15, +5 more with Cool Drinks)\nTropic Hunter (+15)\n\nGroup M\nBludgeoner (+10% on Green, +15% on Yellow, +20% on Orange/Red)\n\nGroup N\nResuscitate (+20)\n\nGroup O\nResentment (+20)\n\nGroup P\nDragon Spirit: +10% raw + Special Dragonblight that nullifies other elements except for Dragon. Sets Elemental Resistances to 50.</value>
   </data>
+  <metadata name="modCopy.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>477, 17</value>
+  </metadata>
   <data name="calcExhPict.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAYAAADNkKWqAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1

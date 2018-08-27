@@ -37,6 +37,8 @@ namespace MHXXDamageCalc
         ListViewColumnSorter hitzoneColumnSorter;
         ListViewColumnSorter questColumnSorter;
 
+        opts options= new opts();
+
         string[] quips = new string[] { "Try saying Soulseer Soul 10 times fast.'", "Elderfrost makes some good snowcones.'", "Also try Ping's Dex!'", "Also try Athena's Armor Set Search!'", "If you squint really hard, you can see damage values.'",
         "Is Boltreaver the Monado?'", "Lavasioth got a few trophies for his fabulous dance moves.'", "Tigrex is really hungry, like all the time.'",
         "Akantor could be in Mario Kart with how well he drifts.'", "You need to stop bullying Ukanlos. He's just trying to chill.'", "NEOPTERON GEAR SOLID: Tactical Hunting Action'",
@@ -63,6 +65,18 @@ namespace MHXXDamageCalc
             hitzoneDetails.ListViewItemSorter = hitzoneColumnSorter;
             questColumnSorter = new ListViewColumnSorter();
             questDetails.ListViewItemSorter = questColumnSorter;
+
+            if(!File.Exists("./Options.txt"))
+            {
+                options.DefaultOptions();
+            }
+
+            if(!options.ReadOptions())
+            {
+                options.DefaultOptions();
+                options.ReadOptions();
+            }
+
             setUp();
             setSelected();
         }
@@ -825,47 +839,7 @@ namespace MHXXDamageCalc
 
         private void calcAll_Click(object sender, EventArgs e)
         {
-            calcDetails.ResetText();
-            Tuple<double, double, double, double> calcOutput = CalculateDamage();
-
-            int hitCount = int.Parse(paraHitCount.Text);
-
-            calcRawWeap.Text = calcOutput.Item1.ToString("N2");
-            calcRawOut.Text = (calcOutput.Item2 * hitCount).ToString("N2");
-            calcEleOut.Text = (calcOutput.Item3).ToString("N2");
-            calcSecOut.Text = (calcOutput.Item4).ToString("N2");
-
-            EffectiveRawCalc(calcOutput);
-
-            Tuple<double, bool, double, double, double, double, double> allTuple = CalculateAllDamage(calcOutput);
-            calcFinal.Text = allTuple.Item1.ToString();
-            if(hitCount == 0)
-            {
-                calcPerHit.Text = "0";
-            }
-            else
-            {
-                calcPerHit.Text = (allTuple.Item1 / hitCount).ToString();
-            }
-
-            if (allTuple.Item2)
-            {
-                calcBounce.Text = "No";
-            }
-            else
-            {
-                calcBounce.Text = "Yes";
-            }
-
-            calcRawAll.Text = allTuple.Item3.ToString("N2"); //But with use of the outputted tuple from the moreDamage function.
-
-            calcEleAll.Text = allTuple.Item4.ToString("N2");
-            calcSecAll.Text = allTuple.Item5.ToString("N2");
-
-            calcKOAll.Text = allTuple.Item6.ToString();
-            calcExhAll.Text = allTuple.Item7.ToString();
-            HealthCalc(allTuple); //Estimate how many hits it would take to kill the monster.
-            addDamageHistory(2);
+            CalculateAll();
         }
 
         private void weapEle_SelectedIndexChanged(object sender, EventArgs e)
@@ -5778,7 +5752,7 @@ namespace MHXXDamageCalc
             {
                 foreach (string weapon in filteredWeapons)
                 {
-                    if (weapon.Contains(weapSearch.Text) || (weapon.ToLower()).Contains(weapSearch.Text))
+                    if (weapon.StartsWith(weapSearch.Text) || (weapon.ToLower()).StartsWith(weapSearch.Text))
                     {
                         finalWeapons.Add(weapon);
                     }
@@ -6645,7 +6619,7 @@ namespace MHXXDamageCalc
             {
                 foreach (ListViewItem item in allMonsters)
                 {
-                    if ((item.SubItems[1].Text).Contains(monsterSearch.Text) || (item.SubItems[1].Text.ToLower()).Contains(monsterSearch.Text))
+                    if ((item.SubItems[1].Text).StartsWith(monsterSearch.Text) || (item.SubItems[1].Text.ToLower()).StartsWith(monsterSearch.Text))
                     {
                         monsterList.Items.Add(item);
                     }
@@ -6677,7 +6651,7 @@ namespace MHXXDamageCalc
             {
                 foreach (ListViewItem item in staMonsters)
                 {
-                    if ((item.SubItems[1].Text).Contains(staMonSearch.Text) || (item.SubItems[1].Text.ToLower()).Contains(staMonSearch.Text))
+                    if ((item.SubItems[1].Text).StartsWith(staMonSearch.Text) || (item.SubItems[1].Text.ToLower()).StartsWith(staMonSearch.Text))
                     {
                         staMonsterList.Items.Add(item);
                     }
@@ -6980,16 +6954,312 @@ namespace MHXXDamageCalc
                 ImportSetUp();
                 ImportModifiers();
                 Export();
+
+                CalculateAll();
             }
             else if(tabControl1.SelectedIndex == 5)
             {
                 ImportSetUp();
                 ImportModifiers();
                 ExportStatus();
+
+                CalculateStatus();
+            }
+        }
+
+        private void CalculateAll()
+        {
+            calcDetails.ResetText();
+            Tuple<double, double, double, double> calcOutput = CalculateDamage();
+
+            int hitCount = int.Parse(paraHitCount.Text);
+
+            calcRawWeap.Text = calcOutput.Item1.ToString("N2");
+            calcRawOut.Text = (calcOutput.Item2 * hitCount).ToString("N2");
+            calcEleOut.Text = (calcOutput.Item3).ToString("N2");
+            calcSecOut.Text = (calcOutput.Item4).ToString("N2");
+
+            EffectiveRawCalc(calcOutput);
+
+            Tuple<double, bool, double, double, double, double, double> allTuple = CalculateAllDamage(calcOutput);
+            calcFinal.Text = allTuple.Item1.ToString();
+            if (hitCount == 0)
+            {
+                calcPerHit.Text = "0";
+            }
+            else
+            {
+                calcPerHit.Text = (allTuple.Item1 / hitCount).ToString();
+            }
+
+            if (allTuple.Item2)
+            {
+                calcBounce.Text = "No";
+            }
+            else
+            {
+                calcBounce.Text = "Yes";
+            }
+
+            calcRawAll.Text = allTuple.Item3.ToString("N2"); //But with use of the outputted tuple from the moreDamage function.
+
+            calcEleAll.Text = allTuple.Item4.ToString("N2");
+            calcSecAll.Text = allTuple.Item5.ToString("N2");
+
+            calcKOAll.Text = allTuple.Item6.ToString();
+            calcExhAll.Text = allTuple.Item7.ToString();
+            HealthCalc(allTuple); //Estimate how many hits it would take to kill the monster.
+            addDamageHistory(2);
+        }
+
+        private void formatCopyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            copyWeapon();
+        }
+
+        private void copyWeapon()
+        {
+            List<string> formatList = new List<string>();
+
+            formatList.Add(weapRaw.Text);
+
+            if(weapEle.Text != "(No Element)")
+            {
+                formatList.Add(weapEle.Text + " " + weapEleDamage.Text);
+
+                if(weapSec.Text != "(No Element)")
+                {
+                    formatList.Add(weapSec.Text + " " + weapSecDamage.Text);
+                }
+            }
+
+            if(weapChaotic.Checked)
+            {
+                formatList.Add("-" + weapNegAff.Text + "/" + weapPosAff.Text + "%");
+            }
+            else
+            {
+                formatList.Add(weapAffinity.Text + "%");
+            }
+
+            if(weapSharpness.Text != "(No Sharpness)")
+            {
+                formatList.Add("Natural " + weapSharpness.Text);
+                formatList.Add(weapSharpOne.Text + " @ S+1");
+                formatList.Add(weapSharpTwo.Text + " @ S+2");
+            }
+            
+            Clipboard.SetText(String.Join(", ", formatList));
+        }
+
+        private void formatAndCopyToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            copyMod();
+        }
+
+        private void copyMod()
+        {
+            List<string> formatList = new List<string>();
+
+            foreach(ListViewItem item in modList.Items)
+            {
+                formatList.Add(item.Text);
+            }
+
+            Clipboard.SetText(String.Join(", ", formatList));
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog dialog = new SaveFileDialog();
+            dialog.Filter = "Modifier Files (*.mdfr)|*.mdfr";
+            dialog.DefaultExt = "mdfr";
+            dialog.AddExtension = true;
+            dialog.Title = "Save a Modifier Set";
+            dialog.InitialDirectory = Path.Combine(Application.StartupPath, "./Modifiers/");
+            dialog.ShowDialog();
+
+            if(dialog.FileName != "")
+            {
+                using (System.IO.StreamWriter we = new System.IO.StreamWriter(dialog.FileName + ".mdfr"))
+                {
+                    foreach(ListViewItem item in modList.Items)
+                    {
+                        we.WriteLine(item.Text + "," + item.Group.Name);
+                    }
+                }
             }
         }
     }
 
+    internal class opts
+    {
+        int weaponDefault;
+        string searchDefault;
+        bool finalFormStart;
+        bool calculationStart;
+        string modifierStart;
+
+        bool updateCalc;
+        bool updateStatus;
+        bool autoCalc;
+
+        bool resetSearch;
+        bool resetFinal;
+        bool resetFilters;
+
+        bool startswithSearch;
+
+        int copyFormat;
+
+        public void DefaultOptions()
+        {
+            using (StreamWriter sw = new StreamWriter("./Options.txt"))
+            {
+                sw.WriteLine("0,,0,0,,1,1,1,0,0,0,0,0");
+            }
+
+            File.SetAttributes("./Options.txt", FileAttributes.Hidden);
+        }
+
+        internal bool ReadOptions()
+        {
+            string[] split;
+            bool one;
+            using (StreamReader sr = new StreamReader("./Options.txt"))
+            {
+                string options = sr.ReadLine();
+                split = options.Split(new char[] { ',' });
+            }
+
+            if(!int.TryParse(split[0], out int weapon))
+            {
+                return false;
+            }
+
+            if(weapon < 0 || weapon > 14)
+            {
+                return false;
+            }
+
+            weaponDefault = weapon;
+
+            searchDefault = split[1];
+
+            if(!checkAndSet(split[2], out one))
+            {
+                return false;
+            }
+
+            finalFormStart = one;
+
+            if(!checkAndSet(split[2], out one))
+            {
+                return false;
+            }
+
+            calculationStart = one;
+
+            modifierStart = split[4];
+
+            if (!checkAndSet(split[5], out one))
+            {
+                return false;
+            }
+
+            updateCalc = one;
+
+            if (!checkAndSet(split[6], out one))
+            {
+                return false;
+            }
+
+            calculationStart = one;
+
+            if (!checkAndSet(split[7], out one))
+            {
+                return false;
+            }
+
+            autoCalc = one;
+
+            if (!checkAndSet(split[8], out one))
+            {
+                return false;
+            }
+
+            resetSearch = one;
+
+            if (!checkAndSet(split[9], out one))
+            {
+                return false;
+            }
+
+            resetFinal = one;
+
+            if (!checkAndSet(split[10], out one))
+            {
+                return false;
+            }
+
+            resetFilters = one;
+
+            if (!checkAndSet(split[11], out one))
+            {
+                return false;
+            }
+
+            startswithSearch = one;
+
+            if(split[12] != "0" && split[12] != "1" && split[12] == "2")
+            {
+                return false;
+            }
+
+            else
+            {
+                if(split[12] == "0")
+                {
+                    copyFormat = 0;
+                }
+
+                if(split[12] == "1")
+                {
+                    copyFormat = 1;
+                }
+
+                if(split[12] == "2")
+                {
+                    copyFormat = 2;
+                }
+            }
+
+            return true;
+        }
+
+        bool checkAndSet(string str, out bool retBool)
+        {
+            if(str != "0" && str != "1")
+            {
+                retBool = false;
+                return false;
+            }
+
+            else
+            {
+                if(str == "0")
+                {
+                    retBool = false;
+                    return true;
+                }
+                else
+                {
+                    retBool = true;
+                    return true;
+                }
+            }
+        }
+    }
 
     internal class weaponStorage
     {
