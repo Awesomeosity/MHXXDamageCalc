@@ -9973,124 +9973,124 @@
         7wS3uoc0jnOx5+4VbnyGUv8LZW6RVaf8PeoAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="treeNode3.Tag" xml:space="preserve">
+  <data name="treeNode169.Tag" xml:space="preserve">
     <value>Artillery Novice's effects:\n+10% damage to Cannon and Ballista shots.\n+15% raw to Crag S, Triburst S, Wyvern S, and Cannon S.\n+30% damage to Impact Phial bursts from CB.\n+10% Fire to GL shots.\n-33% heat generation from GL shots and Wyvern's Fire.\n\nArtillery Expert's effects: \n+20% damage to Cannon and Ballista shots.\n+30% raw to Crag S, Triburst S, Wyvern S, and Cannon S.\n+35% damage to Impact Phial bursts from CB.\n+20% Fire to GL shots\n-50% heat generation from GL shots and Wyvern's Fire.\n-25% cooldown on Wyvern's Fire.</value>
   </data>
-  <data name="treeNode6.Tag" xml:space="preserve">
+  <data name="treeNode173.Tag" xml:space="preserve">
     <value>Combines Attack Up (L) and Evasion +2:\n+20 Attack\n+0.2 seconds of additional invincibility when dodging.\n\nBloodbath Soul X adds Composed:\n+10% charge rate for all Hunter Art, Valor, and Alchemy Gauges.</value>
   </data>
-  <data name="treeNode7.Tag" xml:space="preserve">
+  <data name="treeNode174.Tag" xml:space="preserve">
     <value>+10% raw in Green Sharpness.\n+15% in Yellow Sharpness.\n+20% when in Orange or Red Sharpness.\n\nOriginally in Gen, the values did not scale and were instead flat bonuses.\n\n+10 raw in Green Sharpness.\n+15 raw in Yellow Sharpness.\n+20 raw in Orange or Red Sharpness. \n\nWarning, dipping into Yellow and below causes the Low Sharpness Modifier to kick in, reducing your damage by up to 40%. Please see the associated entry in the glossary for more details on the LSM.</value>
   </data>
-  <data name="treeNode8.Tag" xml:space="preserve">
+  <data name="treeNode175.Tag" xml:space="preserve">
     <value>Boltreaver Soul provides a combination of Critical Boost, Bonus Shot, and Sharpness +1. Together, they grant +15% damage on critical hits, increasing the critical hit damage from 1.25x to 1.4x, increasing the shots fired from Rapid Fire volleys by one, and 25 more units of Sharpness, as long as the sharpness of the weapon can be increased.\n\nBoltreaver Soul X additionally adds Chance Seizer, which increases your Hunter Art, Valor, and Alchemy Gauges whenever you take damage.</value>
   </data>
-  <data name="treeNode15.Tag" xml:space="preserve">
+  <data name="treeNode182.Tag" xml:space="preserve">
     <value>Critical Eye -3: -15% Affinity. This is added to the negative portion of Chaotic weapons.\n\nCritical Eye -2: -10% Affinity. This is added to the negative portion of Chaotic weapons.\n\nCritical Eye -1: -5% Affinity. This is added to the negative portion of Chaotic weapons.\n\nCritical Eye +1: +10% Affinity. This is added to the positive portion of Chaotic weapons.\n\nCritical Eye +2: +20% Affinity. This is added to the positive portion of Chaotic weapons.\n\nCritical Eye +3: +30% Affinity. This is added to the positive portion of Chaotic weapons.</value>
   </data>
-  <data name="treeNode17.Tag" xml:space="preserve">
+  <data name="treeNode184.Tag" xml:space="preserve">
     <value>Combines Negate Stun and Challenger +2.\n\nCompletely negates the infliction of stun.\n\n+20 Attack and +15% Affinity while a monster in the same area is enraged.\n\nDeadeye Soul X additionally adds Fortify, which grants +10% Attack and +15% Defense when you cart, stacks up to two times. You must cart, not your teammates, to activate this effect.</value>
   </data>
-  <data name="treeNode18.Tag" xml:space="preserve">
+  <data name="treeNode185.Tag" xml:space="preserve">
     <value>When at or below 66% health, you gain several effects:\n\n+10% raw.\n\nAll Elemental Resistances are set to 50, regardless of original amount.\n\nSpecial Dragonblight that negates all other elements on your weapon aside from Dragon.</value>
   </data>
-  <data name="treeNode19.Tag" xml:space="preserve">
+  <data name="treeNode186.Tag" xml:space="preserve">
     <value>Dragon Atk +1: +5%, then +4 Dragon damage, if your weapon has Dragon-element damage.\n\nDragon Atk +2: +10%, then +6 Dragon damage, if your weapon has Dragon-element damage.\n\nDragon Atk Down: -25% Dragon damage, if your weapon has Dragon-element damage.</value>
   </data>
-  <data name="treeNode20.Tag" xml:space="preserve">
+  <data name="treeNode187.Tag" xml:space="preserve">
     <value>Combines the effects of Attack Up (L) and Windproof (Hi):\n\n+20 Attack (flat).\n\nNegates all wind pressure exerted from monsters, except for Dragonwind, which is reduced.\n\nDreadking Soul X additionally adds Adrenaline +1, which grants +15 Defense if at or below 40% Health.</value>
   </data>
-  <data name="treeNode21.Tag" xml:space="preserve">
+  <data name="treeNode188.Tag" xml:space="preserve">
     <value>Combines the effects of Status Atk +2 and Wide-Range +2.\n\n+25%, then +1 Status (Poison, Para, Sleep)\n\nSpreads the effects of some items to everyone in the same area. Includes Mushrooms if you have Mushromancer, Potions, Herbs, Antidotes, Adamant and Might Seeds, and Nulberries.\n\nDreadqueen Soul X additionally grants Herbalist, which increases efficacy of Herbs to about 1.5x Potion level.</value>
   </data>
-  <data name="treeNode22.Tag" xml:space="preserve">
+  <data name="treeNode189.Tag" xml:space="preserve">
     <value>Combines the effects of Adrenaline +2 and Scavenger.\n\n+30% Attack, +45 Defense while you have 40% or less Health.\n\n33% chance to recover 25 max Stamina when you consume a recovery item.\n\nDrilltusk Soul X additionally grants Artillery Expert.\n\n+20% damage to Cannon and Ballista shots.\n\n+30% raw to Crag S, Triburst S, Wyvern S, and Cannon S.\n\n+35% damage to Impact Phial bursts from CB.\n\n+20% Fire to GL shots.\n\n-50% heat generation from GL shots and Wyvern's Fire.\n\n-25% cooldown on Wyvern's Fire.</value>
   </data>
-  <data name="treeNode24.Tag" xml:space="preserve">
+  <data name="treeNode191.Tag" xml:space="preserve">
     <value>Combines the effects of Marathon Runner, Bludgeoner, and Normal/Rapid Up.\n\n-50% Stamina usage when dashing or otherwise draining Stamina over time.\n\n+10% raw to weapon if in Green Sharpness.\n\n+15% raw to weapon if in Yellow Sharpness.\n\n+20% raw to weapon if in Orange/Red Sharpness.\n\n+10% Attack on Normal S from Bowguns, or Rapid-type Arrows from Bows.\n\nElderfrost Soul X additionally grants Attack Up (M), which increases your Attack by 15.</value>
   </data>
-  <data name="treeNode27.Tag" xml:space="preserve">
+  <data name="treeNode194.Tag" xml:space="preserve">
     <value>Combines the effects of Element Attack Up and Item Use Up.\n\n+10% Element (Fire, Water, Thunder, Ice, Dragon) damage, if your weapon had any of those.\n\n+50% duration to items which have a duration. Extends sharpness effect of "Heavy Grinder" when using a whetstone.</value>
   </data>
-  <data name="treeNode28.Tag" xml:space="preserve">
+  <data name="treeNode195.Tag" xml:space="preserve">
     <value>Combines the effects of Bombardier and Trap Master.\n\n+20% Blast application.\n\n+30% Bomb Damage (applies to all items with ‘bomb’ in their name).\n\n100% chance to combine all ‘bomb’ items.\n\nSpeeds up placement of traps and bombs, and guarantees combinations of traps.</value>
   </data>
-  <data name="treeNode30.Tag" xml:space="preserve">
+  <data name="treeNode197.Tag" xml:space="preserve">
     <value>Fire Atk +1: +5%, then +4 Fire damage, if your weapon has Fire-element damage.\n\nFire Atk +2: +10%, then +6 Fire damage, if your weapon has Fire-element damage.\n\n-25% Fire damage, if your weapon has Fire-element damage.</value>
   </data>
-  <data name="treeNode34.Tag" xml:space="preserve">
+  <data name="treeNode201.Tag" xml:space="preserve">
     <value>Combines the effects of Polar Hunter, Windproof (Hi), Negate Bind.\n\nProvides natural cold resistance (you don't have to use Hot Drinks in cold areas).\n\n+15 Attack and +20 Defense while in a cold area.\n\n+5 Attack while a Cool Drink is in effect.\n\nNegates all wind pressure exerted from monsters, except for Dragonwind, which is reduced.\n\nNegates any effect that would cause bind, such as Snowman, Ossified, or Bubble.</value>
   </data>
-  <data name="treeNode38.Tag" xml:space="preserve">
+  <data name="treeNode205.Tag" xml:space="preserve">
     <value>Combines the effects of Sharpness +2, Shot Booster, and Speed Sharpening.\n\n+50 Sharpness, if it can be increased.\n\n+50% extension to Critical Distance.\n\n-75% time it takes to sharpen.\n\nHellblade Soul X additionally adds Bombardier.\n\n+20% Blast application.\n\n+30% Bomb Damage (applies to all items with ‘bomb’ in their name)\n\n100% chance to combine all ‘bomb’ items.</value>
   </data>
-  <data name="treeNode41.Tag" xml:space="preserve">
+  <data name="treeNode208.Tag" xml:space="preserve">
     <value>Ice Atk +1: +5%, then +4 Ice damage, if your weapon has Ice-element damage.\n\nIce Atk +2: +10%, then +6 Ice damage, if your weapon has Ice-element damage.\n\nIce Atk Down: -25% Ice damage, if your weapon has Ice-element damage.</value>
   </data>
-  <data name="treeNode45.Tag" xml:space="preserve">
+  <data name="treeNode212.Tag" xml:space="preserve">
     <value>Latent Power +1: +30% Affinity, -50% Stamina consumption for 90 seconds after either you take 180 damage from any large monster or have fought it for 5 minutes.\n\nLatent Power +2: +50% Affinity, -75% Stamina consumption for 90 seconds after either you take 180 damage from any large monster or have fought it for 5 minutes.</value>
   </data>
-  <data name="treeNode47.Tag" xml:space="preserve">
+  <data name="treeNode214.Tag" xml:space="preserve">
     <value>Combines the effects of Tropic Hunter, Fire Res +20, and Bio Researcher.\n\nProvides natural heat resistance (you don't have to use Cold Drinks in hot areas).\n\n+15 Attack and +20 Defense in hot areas.\n\n+10 Defense while a Hot Drink is in effect.\n\n+20 Fire Res.\n\nGuarantees that the monster will flee immediately once a Dung Bomb is applied, if the monster can be affected by Dung Bombs, and if it can flee.\n\nGrants 100% chance to combine Dung Bombs.\n\nPrevents Stench and Blastblight.</value>
   </data>
-  <data name="treeNode56.Tag" xml:space="preserve">
+  <data name="treeNode223.Tag" xml:space="preserve">
     <value>Combines the effects of Fortify, Marathon Runner, and Stamina Thief.\n\n+10% Attack and +15% Defense when you cart, stacks up to two times. You must cart, not your teammates, to activate this effect.\n\n-50% Stamina usage when dashing or otherwise draining Stamina over time.\n\n+20% Exhaust damage.</value>
   </data>
-  <data name="treeNode59.Tag" xml:space="preserve">
+  <data name="treeNode226.Tag" xml:space="preserve">
     <value>Combines the effects of Focus and Resentment.\n\n+20% charge rate for GS, Hammer, Bow charge attacks, +20% charge rate for DB’s Demon Gauge, LS Spirit Gauge, SA Phial Gauge, and CB Phials.\n\n+20 Attack while you’re recovering from an attack (while there is red health in your Health Gauge).\n\nRedhelm Soul X additionally grants Marathon Runner, which grants -50% Stamina usage when dashing or otherwise draining Stamina over time.</value>
   </data>
-  <data name="treeNode68.Tag" xml:space="preserve">
+  <data name="treeNode234.Tag" xml:space="preserve">
     <value>For Blademaster weapons, after you perform evasive actions (5 rolls, 9 hops/dashes), restores 5 units of Sharpness. This effect does not stack with the Seregios Blademaster weapons.\n\nFor Bowguns (Light/Heavy), per evasive action, you have a 33% chance to load the currently selected shot type. This effect stacks with the similar ones provided by the Seregios LBG and HBG.\n\nFor Bows, applies a +50% damage increase when you use C.Range Coatings. This effect does not stack with the one provided by the Seregios line of Bows.</value>
   </data>
-  <data name="treeNode69.Tag" xml:space="preserve">
+  <data name="treeNode235.Tag" xml:space="preserve">
     <value>Combines the effects of Normal/Rapid Up, Pellet/Spread Up, and Pierce/Pierce Up.\n\n+10% Attack on Normal S from Bowguns, or Rapid-type Arrows from Bows.\n\n+20% Attack on Pellet S from Bowguns, +30% Attack on Spread-type Arrows from Bows.\n\n+10% Attack on Pierce S from Bowguns and on Pierce-type Arrows from Bows.</value>
   </data>
-  <data name="treeNode70.Tag" xml:space="preserve">
+  <data name="treeNode236.Tag" xml:space="preserve">
     <value>Combines the effects of Evasion +2 and Critical Eye +3.\n\n+100% invincibility period when dodging. (0.4, from 0.2 normal)\n\n+30% Affinity.\n\nSilverwind Soul X additionally adds Sneak, which decreases the chance that monsters will randomly target you.</value>
   </data>
-  <data name="treeNode71.Tag" xml:space="preserve">
+  <data name="treeNode237.Tag" xml:space="preserve">
     <value>Combines the effects of Critical Eye +3 and Challenger +1.\n\n+30% Affinity.\n\n+10 Attack and +10% Affinity while a monster in the area is enraged.\n\nSoulseer Soul X upgrades Challenger +1 to Challenger +2, which grants +20 Attack and +15% Affinity while a monster in the same area is enraged.</value>
   </data>
-  <data name="treeNode73.Tag" xml:space="preserve">
+  <data name="treeNode239.Tag" xml:space="preserve">
     <value>Status Atk +1: +10%, then +1 Status damage, if your weapon has status damage.\n\nStatus Atk +2: +20, then +1 Status damage, if your weapon has status damage.\n\nStatus Attack Down: -10% Status damage, if your weapon has status damage.</value>
   </data>
-  <data name="treeNode76.Tag" xml:space="preserve">
+  <data name="treeNode242.Tag" xml:space="preserve">
     <value>Thunder Atk +1: +5%, then +4 Thunder damage, if your weapon has Thunder-element damage.\n\nThunder Atk +2: +10%, then +6 Thunder damage, if your weapon has Thunder-element damage.\n\nThunder Atk Down: -25% Thunder damage, if your weapon has Thunder-element damage.</value>
   </data>
-  <data name="treeNode77.Tag" xml:space="preserve">
+  <data name="treeNode243.Tag" xml:space="preserve">
     <value>Combines the effects of Latent Power +2 and Constitution +2.\n\n+50% Affinity, -75% Stamina consumption for 90 seconds after either you take 180 damage from any large monster or have fought it for 5 minutes.\n\n-50% Stamina usage when using Stamina in chunks, such as evading or blocking.\n\nThunderlord Soul X additionally grants Focus, which grants +20% charge rate for GS, Hammer, Bow charge attacks, -20% charge rate for DB’s Demon Gauge, LS Spirit Gauge, SA Phial Gauge, and CB Phials.</value>
   </data>
-  <data name="treeNode80.Tag" xml:space="preserve">
+  <data name="treeNode246.Tag" xml:space="preserve">
     <value>When a monster is downed or otherwise immobilized, you get a yellow aura around your hand for 60 seconds. While this aura persists:\n\n20% damage to HAs which have motion values and which are not listed below.\n\n+20% duration to all HAs which have durations.\n\nAbsolute Evasion/Absolute Readiness: Two evades, rather than one.\n\nFrenzy Fever: Immediate activation of Affinity-Boosting Effect.\n\nLion’s Maw: +15% damage on next attack.\n\nEuphony: 2nd Level Song Effects.\n\nWyvern’s Breath: +20% Fire and Fixed damage on shots.\n\nDemon Riot: +15% to effects.\n\nFull House: Faster Animation.\n\nGunpowder Infusion: +5 shots loaded.\n\nArisen Phoenix: Heals more health.\n\nSacrificial Blade: +10% damage, +20% duration.\n\nCharged Shot: +5 shots loaded.</value>
   </data>
-  <data name="treeNode82.Tag" xml:space="preserve">
+  <data name="treeNode248.Tag" xml:space="preserve">
     <value>Water Atk +1: +5%, then +4 Water damage, if your weapon has Water-element damage.\n\nWater Atk +2: +10%, then +6 Water damage, if your weapon has Water-element damage.\n\nWater Atk Down: -25% Water damage, if your weapon has Water-element damage.</value>
   </data>
-  <data name="treeNode85.Tag" xml:space="preserve">
+  <data name="treeNode251.Tag" xml:space="preserve">
     <value>Combines the effects of Guts and Adrenaline +2.\n\nPrevents you from carting once if your health is above 65 and you take a hit that would normally cart you.\n\n+35% Attack and +45 Defense when you have 40% or less Health.</value>
   </data>
-  <data name="treeNode118.Tag" xml:space="preserve">
+  <data name="treeNode284.Tag" xml:space="preserve">
     <value>+30% Affinity when Affinity Oil is applied.\n\n+8 KO, +10 Exhaust when Stamina Oil is applied.\n\nInnate Mind’s Eye when Mind’s Eye Oil is applied (duh).\n\n+15(?)% Stagger Damage when Partbreaker Oil is applied.</value>
   </data>
-  <data name="treeNode119.Tag" xml:space="preserve">
+  <data name="treeNode285.Tag" xml:space="preserve">
     <value>Chaos Oil I/II:\n\n+15% Affinity, increases to +30% if Affinity Oil is applied.\n\n+4 KO, increases to +8 KO if Stamina Oil is applied.\n\n+5 Exhaust, increases to +10 Exhaust if Stamina Oil is applied.\n\n+10% Stagger Damage, increases to +20% if Partbreaker Oil is applied.\n\nInnate Mind’s Eye, restores 100 Sharpness if Mind’s Eye Oil is applied.\n\nChaos Oil III:\n\n+30% Affinity, increases to +60% if Affinity Oil is applied.\n\n+7 KO, increases to +12 KO if Stamina Oil is applied.\n\n+8 Exhaust, increases to +14 Exhaust if Stamina Oil is applied.\n\n+15% Stagger Damage, increases to +30% if Partbreaker Oil is applied.\n\nInnate Mind’s Eye, restores 100 Sharpness if Mind’s Eye Oil is applied.</value>
   </data>
-  <data name="treeNode132.Tag" xml:space="preserve">
+  <data name="treeNode298.Tag" xml:space="preserve">
     <value>If the Impact zone for a particular part of a monster multiplied by 0.72 exceeds that of the cutting hitzone of the same part of the monster, then use the Impact hitzone to calculate damage, rather than the cutting hitzone. Still deals Cut-type damage.</value>
   </data>
-  <data name="treeNode140.Tag" xml:space="preserve">
+  <data name="treeNode306.Tag" xml:space="preserve">
     <value>+5% Raw from Demon Riot I, using Power Phial.\n\n+10% Raw from Demon Riot II, using Power Phial.\n\n+20% Raw from Demon Riot III, using Power Phial.\n\n+5% Element/Status from Demon Riot I, using Element/Dragon/Status Phial.\n\n+10% Element/Status from Demon Riot II, using Element/Dragon/Status Phial.\n\n+20% Element/Status from Demon Riot III, using Element/Dragon/Status Phial.</value>
   </data>
-  <data name="treeNode144.Tag" xml:space="preserve">
+  <data name="treeNode310.Tag" xml:space="preserve">
     <value>+15% Raw with Red/White Extracts.\n\n+20% Raw with Triple Up.\n\n+5 Raw for other teammates when you collect Red (stacks once).\n\n+10% Affinity for other teammates when you collect White (stacks once).\n\n+30% Affinity when you collect White with Speed Kinsect.</value>
   </data>
-  <data name="treeNode157.Tag" xml:space="preserve">
+  <data name="treeNode323.Tag" xml:space="preserve">
     <value>Charge Lv 1:\n-60% Raw.\n-30% Element.\n-50% Status.\n\nCharge Lv2:\n+0% Raw.\n-15% Element.\n+0% Status.\n\nCharge Lv3:\n+50% Raw.\n+0% Element.\n+50% Poison.\n+30% Para/Sleep/Blast.\n\nCharge Lv4:\n+70% Raw.\n+12.5% Element.\n+50% Poison.\n+30% Para/Sleep/Blast.</value>
   </data>
-  <data name="treeNode159.Tag" xml:space="preserve">
+  <data name="treeNode325.Tag" xml:space="preserve">
     <value>Power C:\n\n+35% Raw when using Lv 1.\n\n+50% Raw when using Lv 2.\n\nEle C:\n\n+35% Element/Status when using Lv1.\n\n+50% Element/Status when using Lv2.\n\nExhaust Coating:\n\nDeals 8 Exhaust, 4 KO per arrow, regardless of shot type.\n\nCoating Boosts:\n\n+20% Raw when using any Power Coatings.\n\n+20% Element when using any Elemental Coatings.\n\n+50% Raw when using C.Range Coatings.\n\n+20% Status when using any Status Coatings (that is listed on the Coating Boosts section of the Bow).</value>
   </data>
-  <data name="treeNode166.Tag" xml:space="preserve">
+  <data name="treeNode332.Tag" xml:space="preserve">
     <value>Buffs belonging to different groups stack with each other. Buffs within the same group will not.\n\nGroup A:\nPower Charm (+6)\n\nGroup B:\nPowertalon (+9)\n\nGroup C (Larger effects override smaller):\nDemondrug (+5)\nMega Demondrug (+7)\n\nGroup D (Larger effects override smaller):\nAttack Up S Meal (+3)\nAttack Up M Meal (+5)\nAttack Up L Meal (+7)\n\nGroup E (Most recently used take priority):\nMight Seed (+10, 3 minutes)\nMight Pill (+25, 20 seconds)\nNitroshroom (+10, 3 minutes) (using Mushromancer)\nDemon Horn (+10, 3 minutes)\nDemon S (+10, +10% Sharpness, +25% Critical Distance bonus max. 175%)\nDemon Affinity S (+15, +10% Affinity, +10% Sharpness, +25% Critical Distance bonus max 175%)\nCool Cat (+15, 30 seconds)\n\nGroup F\nFelyne Booster (+3, 10 minutes from quest start, or resting in bed)\n\nGroup G\nAttack Up (S) (+10)\nAttack Up (M) (+15)\nAttack Up (L) (+20)\n\nGroup H\nAdrenaline +2 (+30% Raw while Health &lt;=40%)\nFelyne Heroics (+35% Raw while Health &lt;=10)\n\nGroup I\nFortify (+10%, first cart)\nFortify (+20% second cart)\n\nGroup J (Challenger &gt; Unscathed &gt; Latent Power)\nChallenger +1 (+10, +10% Affinity)\nChallenger +2 (+15, +20% Affinity)\nPeak Performance (+20 while Health =100%)\nLatent Power +1 (+30% Affinity)\nLatent Power +2 (+50% Affinity)\n\nGroup K (priority given to first song)\nAttack Up (S) Song (+10% Raw)\nAttack Up (S) Encore (+15% Raw)\nAttack Up (L) Song (+15% Raw)\nAttack Up (L) Encore (+20% Raw)\n\nGroup L\nPolar Hunter (+15, +5 more with Cool Drinks)\nTropic Hunter (+15)\n\nGroup M\nBludgeoner (+10% on Green, +15% on Yellow, +20% on Orange/Red)\n\nGroup N\nResuscitate (+20)\n\nGroup O\nResentment (+20)\n\nGroup P\nDragon Spirit: +10% raw + Special Dragonblight that nullifies other elements except for Dragon. Sets Elemental Resistances to 50.</value>
   </data>
   <metadata name="modCopy.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

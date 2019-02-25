@@ -42,13 +42,15 @@ namespace MHXXDamageCalc
         string[] quips = new string[] { "Try saying Soulseer Soul 10 times fast.'", "Elderfrost makes some good snowcones.'", "Also try Ping's Dex!'", "Also try Athena's Armor Set Search!'", "If you squint really hard, you can see damage values.'",
         "Is Boltreaver the Monado?'", "Lavasioth got a few trophies for his fabulous dance moves.'", "Tigrex is really hungry, like all the time.'",
         "Akantor could be in Mario Kart with how well he drifts.'", "You need to stop bullying Ukanlos. He's just trying to chill.'", "NEOPTERON GEAR SOLID: Tactical Hunting Action'",
-        "If Rustrazor figures out how to triple-wield, we're all screwed.'", "PWAAAAAAAAAH'", "Nightcloak is a nerd. He actually carries around a D20.'",
+        "If Rustrazor figures out how to triple-wield, we're all screwed.'", "PWAAAAAAAAAH'", "Nightcloak has anxiety. That's why he can go invisible.'",
         "I still prefer calling Bloodbath Diablos 'Bloodlust Diablos'.'", "Generations Unite > Generations Ultimate. Fite me.'", "Do Hellblade eat spicy Doritoes?'",
         "Redhelm? You mean... Super Bear?'", "Welcome... TO THE ELECTRO-DROME!'", "What's a 'World'? ...Can I eat it?'", "Is Silverwind an edgelord?'", "DK! DREADKING-KONG'", "It's all fun and games until a Savage Jho invades.'",
         "Hypers: Twice the Health, Half the Fun'", "Bet you didn't Ceadeus coming.'", "The Last Jhodi: The Hunger Awakens'", "Dedicated to Cha-Cha, best companion.'", "Hunter-tar, Master of all 4 Generations.'",
         "Now finally out of Beta!'", "Are *you* the monster in 'Monster Hunter'?'", "I'M GONNA PUNCH THIS HUNTER SO HARD HE EXPLODES'", "Definitely *not* dedicated to Kayamba.'",
         "4U Best Game! ...Wait'", "Is that Soulseer as the icon or just a Mizutsune?'", "Jaggia? Never even met her!'", "Teostra needs to get his paws out of the Doritos.'",
-        "Na Na na na Na Na na na Nargacuga!'", "Honts?'", "MH3U: 7.8/10 Too Much Water.'", "Chameleos is just the cutest Elder Dragon.'", "Mizumi desu~'", "Yukari here. >_<'", "Yes? It's Ashlynn here.'", "Made by Awesomeosity!'", "Mmm? What business do you have with me, Fiore?'"};
+        "Na Na na na Na Na na na Nargacuga!'", "Honts?'", "MH3U: 7.8/10 Too Much Water.'", "Chameleos is just the cutest Elder Dragon.'", "Mizumi desu~'", "Yukari here. >_<'", "Yes? It's Ashlynn here.'", "Made by Awesomeosity!'", "Mmm? What business do you have with me, Fiore?'",
+        "4 Slots.", "EX-tremely Special Hunting", "Guild/No Arts wen", "Who would win, Stonefist or Rustrazor?", "Thank goodness Hypers don't invade.", "So how about Hunter in Smash?",
+        "Blep", "Boop on snoot wen?", "Jhome Alone 2", "Insert Witty Comment Here"};
 
         
 
@@ -66,16 +68,16 @@ namespace MHXXDamageCalc
             questColumnSorter = new ListViewColumnSorter();
             questDetails.ListViewItemSorter = questColumnSorter;
 
-            if(!File.Exists("./Options.txt"))
-            {
-                options.DefaultOptions();
-            }
+            //if(!File.Exists("./Options.txt"))
+            //{
+            //    options.DefaultOptions();
+            //}
 
-            if(!options.ReadOptions())
-            {
-                options.DefaultOptions();
-                options.ReadOptions();
-            }
+            //if(!options.ReadOptions())
+            //{
+            //    options.DefaultOptions();
+            //    options.ReadOptions();
+            //}
 
             setUp();
             setSelected();
@@ -121,9 +123,9 @@ namespace MHXXDamageCalc
             secondElements.Add("SA - Exhaust", "Exhaust");
 
             armorModifiers.Add("Elementality", x => Amplify(1));
-            armorModifiers.Add("Frosty Protection (Cold Area)", x => AntiDaora(1));
-            armorModifiers.Add("Frosty Protection (Cool Drink)", x => AntiDaora(2));
-            armorModifiers.Add("Metallic Protection", x => AntiTeostra(1));
+            armorModifiers.Add("Hazefur Talisman (Cold Area)", x => AntiDaora(1));
+            armorModifiers.Add("Hazefur Talisman (Cool Drink)", x => AntiDaora(2));
+            armorModifiers.Add("Steelshell Talisman", x => AntiTeostra(1));
             armorModifiers.Add("Art. Novice (Fixed Weaps.)", x => Artillery(1));
             armorModifiers.Add("Art. Novice (Exp. Ammo)", x => Artillery(2));
             armorModifiers.Add("Art. Novice (Impact CB)", x => Artillery(3));
@@ -140,7 +142,7 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Attack Down (L)", x => Attack(6));
 
             armorModifiers.Add("Bloodbath Soul", x => Bloodbath(1));
-            armorModifiers.Add("Bloodbath SoulX ", x => TrueBloodbath(1));
+            armorModifiers.Add("Bloodbath Soul X ", x => TrueBloodbath(1));
             armorModifiers.Add("Boltreaver Soul", x => Boltreaver(1));
             armorModifiers.Add("Boltreaver Soul X", x => TrueBoltreaver(1));
             armorModifiers.Add("Bludgeoner (GU)", x => Blunt(1));
@@ -219,7 +221,9 @@ namespace MHXXDamageCalc
 
             armorModifiers.Add("Sharpness +1", x => Handicraft(1));
             armorModifiers.Add("Sharpness +2", x => Handicraft(2));
-            armorModifiers.Add("TrueShot Up", x => Haphazard(1));
+            armorModifiers.Add("TrueShot Up (Explosives)", x => Haphazard(1));
+            armorModifiers.Add("TrueShot Up (LBG/HBG)", x => Haphazard(2));
+            armorModifiers.Add("TrueShot Up (Bow)", x => Haphazard(3));
             armorModifiers.Add("Heavy/Heavy Up", x => HeavyUp(1));
             armorModifiers.Add("Hellblade Soul", x => Hellblade(1));
             armorModifiers.Add("Hellblade Soul X (Blast)", x => TrueHellblade(1));
@@ -250,7 +254,7 @@ namespace MHXXDamageCalc
             armorModifiers.Add("Bonus Shot", x => RapidFire(1));
             armorModifiers.Add("Redhelm Soul", x => Redhelm(1));
             armorModifiers.Add("Redhelm Soul X", x => TrueRedhelm(1));
-            armorModifiers.Add("Rueful Crit", x => ReverseCrit(1));
+            armorModifiers.Add("Bitter Affinity", x => ReverseCrit(1));
             armorModifiers.Add("Rustrazor Soul X", x => TrueRustrazor(1));
 
             armorModifiers.Add("Shining Blade", x => ScaledSword(1));
@@ -446,16 +450,16 @@ namespace MHXXDamageCalc
                 modMisc.Items.Add(pair.Key);
             }
 
-            using (StreamReader sr = new StreamReader("./Monsters/MonID.csv"))
+            using (StreamReader sr = new StreamReader("./Monsters/MonID.tsv"))
             {
-                if (sr.ReadLine() != "ID,name")
+                if (sr.ReadLine() != "ID\tname")
                 {
                     return;
                 }
 
                 while (sr.Peek() >= 0)
                 {
-                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    string[] inputs = sr.ReadLine().Split(new char[] { '\t' });
                     ListViewItem newItem = new ListViewItem(inputs[0]);
                     newItem.SubItems.Add(inputs[1]);
                     ListViewItem otherItem = new ListViewItem(inputs[0]);
@@ -1157,6 +1161,10 @@ namespace MHXXDamageCalc
 
         private void modMiscButton_Click(object sender, EventArgs e)
         {
+            if (modWeapon.Text == "")
+            {
+                return;
+            }
             foreach (ListViewItem listItem in modList.Items)
             {
                 if (modMisc.Text == listItem.Text)
@@ -1606,15 +1614,15 @@ namespace MHXXDamageCalc
             string monster = monsterList.SelectedItems[0].SubItems[1].Text;
             hitzoneDetails.Items.Clear();
             //Access the respective file for monster hitzones and quests, add their entries to the list views.
-            using (StreamReader sr = new StreamReader("./Monsters/" + monster + ".csv"))
+            using (StreamReader sr = new StreamReader("./Monsters/" + monster + ".tsv"))
             {
-                if (sr.ReadLine() != "ID,part,cut,impact,shot,fire,water,thunder,ice,dragon,KO,exhaust")
+                if (sr.ReadLine() != "ID\tpart\tcut\timpact\tshot\tfire\twater\tthunder\tice\tdragon\tKO\texhaust")
                 {
                     return;
                 }
                 while (sr.Peek() >= 0)
                 {
-                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    string[] inputs = sr.ReadLine().Split(new char[] { '\t' });
                     ListViewItem newItem = new ListViewItem(inputs[0]);
                     newItem.SubItems.Add(inputs[1]);
                     newItem.SubItems.Add(inputs[2]);
@@ -1633,15 +1641,15 @@ namespace MHXXDamageCalc
             }
 
             questDetails.Items.Clear();
-            using (StreamReader sr = new StreamReader("./Quests/" + monster + ".csv"))
+            using (StreamReader sr = new StreamReader("./Quests/" + monster + ".tsv"))
             {
-                if (sr.ReadLine() != "ID,name,health,defense,KO,exhaust,GRank")
+                if (sr.ReadLine() != "ID\tname\thealth\tdefense\tKO\texhaust\tGRank")
                 {
                     return;
                 }
                 while (sr.Peek() >= 0)
                 {
-                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    string[] inputs = sr.ReadLine().Split(new char[] { '\t' });
                     ListViewItem newItem = new ListViewItem(inputs[0]);
                     newItem.SubItems.Add(inputs[1]);
                     newItem.SubItems.Add(inputs[2]);
@@ -1909,15 +1917,15 @@ namespace MHXXDamageCalc
             string monster = staMonsterList.SelectedItems[0].SubItems[1].Text;
             staStatusTable.Items.Clear();
             //Access the respective file for monster hitzones and quests, add their entries to the list views.
-            using (StreamReader sr = new StreamReader("./Statuses/" + monster + ".csv"))
+            using (StreamReader sr = new StreamReader("./Statuses/" + monster + ".tsv"))
             {
-                if (sr.ReadLine() != "status,init,inc,max")
+                if (sr.ReadLine() != "status\tinit\tinc\tmax")
                 {
                     return;
                 }
                 while (sr.Peek() >= 0)
                 {
-                    string[] inputs = sr.ReadLine().Split(new char[] { ',' });
+                    string[] inputs = sr.ReadLine().Split(new char[] { '\t' });
                     ListViewItem newItem = new ListViewItem(inputs[0]);
                     newItem.SubItems.Add(inputs[1]);
                     newItem.SubItems.Add(inputs[2]);
@@ -4626,9 +4634,6 @@ namespace MHXXDamageCalc
 
             rawDamage *= monsterStatus[paraMonStatus.SelectedIndex];
 
-            //Quest modifier applies before hitzone consideration. Rounded down.
-            rawDamage *= questMod;
-            rawDamage = Math.Floor(rawDamage);
             string element = paraAltType.Text;
             string second = paraSecEle.Text;
 
@@ -4678,7 +4683,10 @@ namespace MHXXDamageCalc
                 totaldamage += secDamage;
             }
 
-            totaldamage = Math.Floor(totaldamage) * hitCount;
+            totaldamage = Math.Floor(totaldamage);
+            totaldamage *= questMod;
+            totaldamage = Math.Floor(totaldamage);
+            totaldamage *= hitCount;
             
             if(hitCount == 0)
             {
@@ -5053,7 +5061,7 @@ namespace MHXXDamageCalc
             weaponTree.Nodes.Clear();
             string input;
             string[] inputs;
-            char[] splitter = new char[] { ',' };
+            char[] splitter = new char[] { '\t' };
             char[] affinitySplit = new char[] { '/' };
             string[] levelSplit = new string[] { " Lv. " };
             List<weapon> newWeaponLevels = new List<weapon>();
@@ -5062,27 +5070,27 @@ namespace MHXXDamageCalc
 
             if (weapGS.Checked)
             {
-                path = "./Weapons/GS.csv";
+                path = "./Weapons/GS.tsv";
             }
 
             if (weapLS.Checked)
             {
-                path = "./Weapons/LS.csv";
+                path = "./Weapons/LS.tsv";
             }
 
             if (weapSnS.Checked)
             {
-                path = "./Weapons/SnS.csv";
+                path = "./Weapons/SnS.tsv";
             }
 
             if (weapDB.Checked)
             {
-                using (StreamReader sr = new StreamReader("./Weapons/DB.csv"))
+                using (StreamReader sr = new StreamReader("./Weapons/DB.tsv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "ID,name,raw,element,eleValue,elementTwo,eleValueTwo,affinity,sharpness,sharpOne,sharpTwo")
+                    if (input != "ID\tname\traw\telement\teleValue\telementTwo\teleValueTwo\taffinity\tsharpness\tsharpOne\tsharpTwo")
                     {
                         return;
                     }
@@ -5184,32 +5192,32 @@ namespace MHXXDamageCalc
 
             if (weapHam.Checked)
             {
-                path = "./Weapons/Hammer.csv";
+                path = "./Weapons/Hammer.tsv";
             }
 
             if (weapHH.Checked)
             {
-                path = "./Weapons/HH.csv";
+                path = "./Weapons/HH.tsv";
             }
 
             if (weapLan.Checked)
             {
-                path = "./Weapons/Lance.csv";
+                path = "./Weapons/Lance.tsv";
             }
 
             if (weapGL.Checked)
             {
-                path = "./Weapons/GL.csv";
+                path = "./Weapons/GL.tsv";
             }
 
             if (weapSA.Checked)
             {
-                using (StreamReader sr = new StreamReader("./Weapons/SA.csv"))
+                using (StreamReader sr = new StreamReader("./Weapons/SA.tsv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "ID,name,raw,element,eleValue,elementTwo,eleValueTwo,affinity,sharpness,sharpOne,sharpTwo")
+                    if (input != "ID\tname\traw\telement\teleValue\telementTwo\teleValueTwo\taffinity\tsharpness\tsharpOne\tsharpTwo")
                     {
                         return;
                     }
@@ -5309,22 +5317,22 @@ namespace MHXXDamageCalc
 
             if (weapCB.Checked)
             {
-                path = "./Weapons/CB.csv";
+                path = "./Weapons/CB.tsv";
             }
 
             if (weapIG.Checked)
             {
-                path = "./Weapons/IG.csv";
+                path = "./Weapons/IG.tsv";
             }
 
             if (weapLBG.Checked)
             {
-                using (StreamReader sr = new StreamReader("./Weapons/LBG.csv"))
+                using (StreamReader sr = new StreamReader("./Weapons/LBG.tsv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "ID,name,raw,affinity")
+                    if (input != "ID\tname\traw\taffinity")
                     {
                         return;
                     }
@@ -5410,12 +5418,12 @@ namespace MHXXDamageCalc
 
             if (weapHBG.Checked)
             {
-                using (StreamReader sr = new StreamReader("./Weapons/HBG.csv"))
+                using (StreamReader sr = new StreamReader("./Weapons/HBG.tsv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "ID,name,raw,affinity")
+                    if (input != "ID\tname\traw\taffinity")
                     {
                         return;
                     }
@@ -5501,12 +5509,12 @@ namespace MHXXDamageCalc
 
             if (weapBow.Checked)
             {
-                using (StreamReader sr = new StreamReader("./Weapons/Bow.csv"))
+                using (StreamReader sr = new StreamReader("./Weapons/Bow.tsv"))
                 {
                     //Verify
                     input = sr.ReadLine();
                     inputs = input.Split(splitter);
-                    if (input != "ID,name,raw,element,eleValue,affinity")
+                    if (input != "ID\tname\traw\telement\teleValue\taffinity")
                     {
                         return;
                     }
@@ -5601,7 +5609,7 @@ namespace MHXXDamageCalc
                 //Verify
                 input = sr.ReadLine();
                 inputs = input.Split(splitter);
-                if (input != "ID,name,raw,element,eleValue,affinity,sharpness,sharpOne,sharpTwo")
+                if (input != "ID\tname\traw\telement\teleValue\taffinity\tsharpness\tsharpOne\tsharpTwo")
                 {
                     return;
                 }
@@ -5881,63 +5889,63 @@ namespace MHXXDamageCalc
             string path;
             if (moveGS.Checked)
             {
-                path = "./Moves/GS.csv";
+                path = "./Moves/GS.tsv";
             }
             else if (moveLS.Checked)
             {
-                path = "./Moves/LS.csv";
+                path = "./Moves/LS.tsv";
             }
             else if (moveSnS.Checked)
             {
-                path = "./Moves/SnS.csv";
+                path = "./Moves/SnS.tsv";
             }
             else if (moveDB.Checked)
             {
-                path = "./Moves/DB.csv";
+                path = "./Moves/DB.tsv";
             }
             else if (moveHammer.Checked)
             {
-                path = "./Moves/Hammer.csv";
+                path = "./Moves/Hammer.tsv";
             }
             else if (moveHH.Checked)
             {
-                path = "./Moves/HH.csv";
+                path = "./Moves/HH.tsv";
             }
             else if (moveLance.Checked)
             {
-                path = "./Moves/Lance.csv";
+                path = "./Moves/Lance.tsv";
             }
             else if (moveGL.Checked)
             {
-                path = "./Moves/GL.csv";
+                path = "./Moves/GL.tsv";
             }
             else if (moveSA.Checked)
             {
-                path = "./Moves/SA.csv";
+                path = "./Moves/SA.tsv";
             }
             else if (moveCB.Checked)
             {
-                path = "./Moves/CB.csv";
+                path = "./Moves/CB.tsv";
             }
             else if (moveIG.Checked)
             {
-                path = "./Moves/IG.csv";
+                path = "./Moves/IG.tsv";
             }
             else if (moveShot.Checked)
             {
-                path = "./Moves/Shots.csv";
+                path = "./Moves/Shots.tsv";
             }
             else if (moveLBG.Checked)
             {
-                path = "./Moves/LBG.csv";
+                path = "./Moves/LBG.tsv";
             }
             else if (moveHBG.Checked)
             {
-                path = "./Moves/HBG.csv";
+                path = "./Moves/HBG.tsv";
             }
             else if (moveBow.Checked)
             {
-                path = "./Moves/Bow.csv";
+                path = "./Moves/Bow.tsv";
             }
             else
             {
@@ -5948,15 +5956,15 @@ namespace MHXXDamageCalc
             {
                 //Verify
                 string input = sr.ReadLine();
-                string[] inputs = input.Split(new char[] { ',' });
-                if (input != "ID,name,combo,MV,hitCount,damageType,sharpnessMod,elementMod,KO,exhaust,moveElement,mindsEye,aerial,miscNotes")
+                string[] inputs = input.Split(new char[] { '\t' });
+                if (input != "ID\tname\tcombo\tMV\thitCount\tdamageType\tsharpnessMod\telementMod\tKO\texhaust\tmoveElement\tmindsEye\taerial\tmiscNotes")
                 {
                     return;
                 }
 
                 while (sr.Peek() >= 0)
                 {
-                    inputs = (sr.ReadLine()).Split(new char[] { ',' });
+                    inputs = (sr.ReadLine()).Split(new char[] { '\t' });
 
                     string[] extraElement = inputs[12].Split(new char[] { ' ' });
                     ListViewItem newItem = new ListViewItem(inputs[0]);
@@ -6156,7 +6164,14 @@ namespace MHXXDamageCalc
 
             moveInherit.SelectedIndex = 0;
 
-            if (text == "Element Lv 1")
+            if(text == "Element Phial Explosion")
+            {
+                moveMV.Text = "0";
+                double weaponEle = double.Parse(weapEleDamage.Text);
+                moveInherit.SelectedIndex = 1;
+                moveInheritValue.Text = (weaponEle * 2.5).ToString();
+            }
+            else if (text == "Element Lv 1")
             {
                 moveMV.Text = "7";
                 double weaponRaw = double.Parse(weapRaw.Text);
@@ -6713,7 +6728,7 @@ namespace MHXXDamageCalc
             {
                 string[] formatArray = grabParameters(mode);
                 string formatString = String.Format("{24}\\n\\nCalculation type: {0}\\n\\nFixed Damage? {1}" +
-                    "\\nCritical Boost? {2}\\nMind’s Eye? {3}\\nStatus Crit? {4}\\nRueful Crit? {5}" +
+                    "\\nCritical Boost? {2}\\nMind’s Eye? {3}\\nStatus Crit? {4}\\nBitter Affinity? {5}" +
                     "\\n\\nWeapon Raw: {6}\\nSharpness Modifier (Raw): {7}\\nAlternate Damage: {8} {9}" +
                     "\\nSharpness Modifier (Element Only): {10}\\nElemental Crit? {11}\\nDB Second Damage: {12} {13}" +
                     "\\nAffinity: -{14}/{15}%\\nHit Count: {16}\\nAverage Motion Value/Hit: {17}\\nKO/Hit: {18}" +
@@ -6725,7 +6740,7 @@ namespace MHXXDamageCalc
             {
                 string[] formatArray = grabParameters(mode);
                 string formatString = String.Format("{40}\\n\\nCalculation type: {0}\\n\\nFixed Damage? {1}" +
-                    "\\nCritical Boost? {2}\\nMind’s Eye? {3}\\nStatus Crit? {4}\\nRueful Crit? {5}" +
+                    "\\nCritical Boost? {2}\\nMind’s Eye? {3}\\nStatus Crit? {4}\\nBitter Affinity? {5}" +
                     "\\n\\nWeapon Raw: {6}\\nSharpness Modifier (Raw): {7}\\nAlternate Damage: {8} {9}" +
                     "\\nSharpness Modifier (Element Only): {10}\\nElemental Crit? {11}" +
                     "\\nDB Second Damage: {12} {13}\\nAffinity: -{14}/{15}%\\nHit Count: {16}" +
@@ -6949,22 +6964,22 @@ namespace MHXXDamageCalc
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(tabControl1.SelectedIndex == 4)
-            {
-                ImportSetUp();
-                ImportModifiers();
-                Export();
+            //if(tabControl1.SelectedIndex == 4)
+            //{
+            //    ImportSetUp();
+            //    ImportModifiers();
+            //    Export();
 
-                CalculateAll();
-            }
-            else if(tabControl1.SelectedIndex == 5)
-            {
-                ImportSetUp();
-                ImportModifiers();
-                ExportStatus();
+            //    CalculateAll();
+            //}
+            //else if(tabControl1.SelectedIndex == 5)
+            //{
+            //    ImportSetUp();
+            //    ImportModifiers();
+            //    ExportStatus();
 
-                CalculateStatus();
-            }
+            //    CalculateStatus();
+            //}
         }
 
         private void CalculateAll()
@@ -7090,33 +7105,44 @@ namespace MHXXDamageCalc
                 }
             }
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("http://www.mediafire.com/folder/aohondi0c5cd0/(Yet_Another)_MHGU_Damage_Calculator");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Unable to open link that was clicked.");
+            }
+        }
     }
 
     internal class opts
     {
-        int weaponDefault;
-        string searchDefault;
-        bool finalFormStart;
-        bool calculationStart;
-        string modifierStart;
+        string searchDefault; //Shows what string to input into the search box on start up
+        int weaponDefault; //Shows which weapon type to default to upon startup
+        bool finalFormStart; //Should the final form box be selected?
+        bool calculationStart; //Should we start on the calculation tab?
 
-        bool updateCalc;
-        bool updateStatus;
-        bool autoCalc;
+        bool updateCalc; //auto-update calculation?
+        bool updateStatus; //auto-update status?
+        bool autoCalc; //auto-calculate?
 
-        bool resetSearch;
-        bool resetFinal;
-        bool resetFilters;
+        bool resetSearch; //reset search on type switch?
+        bool resetFinal; //reset final weapons on type switch?
+        bool resetFilters; //reset filters on type switch?
 
-        bool startswithSearch;
+        bool startswithSearch; //use a "Starts with Search" instead of a "contains phrase" search?
 
-        int copyFormat;
+        int copyFormat; //how should we format the format and copy?
 
         public void DefaultOptions()
         {
             using (StreamWriter sw = new StreamWriter("./Options.txt"))
             {
-                sw.WriteLine("0,,0,0,,1,1,1,0,0,0,0,0");
+                sw.WriteLine("0,0,0,0,1,1,1,0,0,0,0,0");
             }
 
             File.SetAttributes("./Options.txt", FileAttributes.Hidden);
@@ -7125,139 +7151,43 @@ namespace MHXXDamageCalc
         internal bool ReadOptions()
         {
             string[] split;
-            bool one;
+            int one;
             using (StreamReader sr = new StreamReader("./Options.txt"))
             {
                 string options = sr.ReadLine();
                 split = options.Split(new char[] { ',' });
             }
 
-            if(!int.TryParse(split[0], out int weapon))
+            int[] converted = new int[split.Length - 1];
+
+            for(int i = 0; i < split.Length; i++)
             {
-                return false;
-            }
-
-            if(weapon < 0 || weapon > 14)
-            {
-                return false;
-            }
-
-            weaponDefault = weapon;
-
-            searchDefault = split[1];
-
-            if(!checkAndSet(split[2], out one))
-            {
-                return false;
-            }
-
-            finalFormStart = one;
-
-            if(!checkAndSet(split[2], out one))
-            {
-                return false;
-            }
-
-            calculationStart = one;
-
-            modifierStart = split[4];
-
-            if (!checkAndSet(split[5], out one))
-            {
-                return false;
-            }
-
-            updateCalc = one;
-
-            if (!checkAndSet(split[6], out one))
-            {
-                return false;
-            }
-
-            calculationStart = one;
-
-            if (!checkAndSet(split[7], out one))
-            {
-                return false;
-            }
-
-            autoCalc = one;
-
-            if (!checkAndSet(split[8], out one))
-            {
-                return false;
-            }
-
-            resetSearch = one;
-
-            if (!checkAndSet(split[9], out one))
-            {
-                return false;
-            }
-
-            resetFinal = one;
-
-            if (!checkAndSet(split[10], out one))
-            {
-                return false;
-            }
-
-            resetFilters = one;
-
-            if (!checkAndSet(split[11], out one))
-            {
-                return false;
-            }
-
-            startswithSearch = one;
-
-            if(split[12] != "0" && split[12] != "1" && split[12] == "2")
-            {
-                return false;
-            }
-
-            else
-            {
-                if(split[12] == "0")
+                if(i == 0)
                 {
-                    copyFormat = 0;
+                    searchDefault = split[i];
                 }
 
-                if(split[12] == "1")
-                {
-                    copyFormat = 1;
-                }
-
-                if(split[12] == "2")
-                {
-                    copyFormat = 2;
-                }
-            }
-
-            return true;
-        }
-
-        bool checkAndSet(string str, out bool retBool)
-        {
-            if(str != "0" && str != "1")
-            {
-                retBool = false;
-                return false;
-            }
-
-            else
-            {
-                if(str == "0")
-                {
-                    retBool = false;
-                    return true;
-                }
                 else
                 {
-                    retBool = true;
-                    return true;
+                    if (!int.TryParse(split[i], out one))
+                    {
+                        return false;
+                    }
+
+                    if (one < 0 || one > 15)
+                    {
+                        return false;
+                    }
+
+                    converted[i - 1] = one;
                 }
             }
+
+            weaponDefault = converted[1];
+
+
+
+            return true;
         }
     }
 

@@ -39,108 +39,108 @@
             treeNode2,
             treeNode3,
             treeNode4});
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Bloodbath Soul");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Bludgeoner");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Boltreaver Soul");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Bombardier");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Bonus Shot");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("B", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Bitter Affinity");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Bloodbath Soul");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Bludgeoner");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Boltreaver Soul");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Bombardier");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Bonus Shot");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("B", new System.Windows.Forms.TreeNode[] {
             treeNode6,
             treeNode7,
             treeNode8,
             treeNode9,
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Challenger");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Critical Boost");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Critical Draw");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Critical Eye");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("C", new System.Windows.Forms.TreeNode[] {
-            treeNode12,
+            treeNode10,
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Challenger");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Critical Boost");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Critical Draw");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Critical Eye");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("C", new System.Windows.Forms.TreeNode[] {
             treeNode13,
             treeNode14,
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Deadeye Soul");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Dragon\'s Spirit");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Dragon Attack");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Dreadking Soul");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Dreadqueen Soul");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Drilltusk Soul");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("D", new System.Windows.Forms.TreeNode[] {
-            treeNode17,
+            treeNode15,
+            treeNode16});
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Deadeye Soul");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Dragon\'s Spirit");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Dragon Attack");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Dreadking Soul");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Dreadqueen Soul");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Drilltusk Soul");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("D", new System.Windows.Forms.TreeNode[] {
             treeNode18,
             treeNode19,
             treeNode20,
             treeNode21,
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Elderfrost Soul");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Elemental Crit");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Element Attack");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Elementality");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Explosive Trapper");
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("E", new System.Windows.Forms.TreeNode[] {
-            treeNode24,
+            treeNode22,
+            treeNode23});
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Elderfrost Soul");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Elemental Crit");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Element Attack");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Elementality");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Explosive Trapper");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("E", new System.Windows.Forms.TreeNode[] {
             treeNode25,
             treeNode26,
             treeNode27,
-            treeNode28});
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Fire Attack");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Fleet Feet");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Flying Pub Soul");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Fortify");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Frosty Protection");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("F", new System.Windows.Forms.TreeNode[] {
-            treeNode30,
+            treeNode28,
+            treeNode29});
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Fire Attack");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Fleet Feet");
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Flying Pub Soul");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Fortify");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Frosty Protection");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("F", new System.Windows.Forms.TreeNode[] {
             treeNode31,
             treeNode32,
             treeNode33,
-            treeNode34});
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Heavy Hitter");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Heavy/Heavy Up");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Hellblade Soul");
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Honed Blade");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("H", new System.Windows.Forms.TreeNode[] {
-            treeNode36,
+            treeNode34,
+            treeNode35});
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Heavy Hitter");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Heavy/Heavy Up");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Hellblade Soul");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Honed Blade");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("H", new System.Windows.Forms.TreeNode[] {
             treeNode37,
             treeNode38,
-            treeNode39});
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Ice Attack");
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("I", new System.Windows.Forms.TreeNode[] {
-            treeNode41});
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("KO King");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("K", new System.Windows.Forms.TreeNode[] {
-            treeNode43});
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Latent Power");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("L", new System.Windows.Forms.TreeNode[] {
-            treeNode45});
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Metallic Protection");
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Mind\'s Eye");
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("M", new System.Windows.Forms.TreeNode[] {
-            treeNode47,
-            treeNode48});
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Normal/Rapid Up");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("N", new System.Windows.Forms.TreeNode[] {
-            treeNode50});
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Peak Performance");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Pellet/Spread Up");
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Pierce/Pierce Up");
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Polar Hunter");
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Pro Dirty Fencer");
-            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Punishing Draw");
-            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("P", new System.Windows.Forms.TreeNode[] {
-            treeNode52,
+            treeNode39,
+            treeNode40});
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Ice Attack");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("I", new System.Windows.Forms.TreeNode[] {
+            treeNode42});
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("KO King");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("K", new System.Windows.Forms.TreeNode[] {
+            treeNode44});
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Latent Power");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("L", new System.Windows.Forms.TreeNode[] {
+            treeNode46});
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Metallic Protection");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Mind\'s Eye");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("M", new System.Windows.Forms.TreeNode[] {
+            treeNode48,
+            treeNode49});
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Normal/Rapid Up");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("N", new System.Windows.Forms.TreeNode[] {
+            treeNode51});
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Peak Performance");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Pellet/Spread Up");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Pierce/Pierce Up");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Polar Hunter");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Pro Dirty Fencer");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Punishing Draw");
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("P", new System.Windows.Forms.TreeNode[] {
             treeNode53,
             treeNode54,
             treeNode55,
             treeNode56,
-            treeNode57});
-            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Redhelm Soul");
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Repeat Offender");
-            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Resentment");
-            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Resuscitate");
-            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Rueful Crit");
+            treeNode57,
+            treeNode58});
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Redhelm Soul");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Repeat Offender");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Resentment");
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Resuscitate");
             System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Ruthlessness");
             System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("R", new System.Windows.Forms.TreeNode[] {
-            treeNode59,
             treeNode60,
             treeNode61,
             treeNode62,
@@ -187,18 +187,18 @@
             treeNode85});
             System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("Armor Skills", new System.Windows.Forms.TreeNode[] {
             treeNode5,
-            treeNode11,
-            treeNode16,
-            treeNode23,
-            treeNode29,
-            treeNode35,
-            treeNode40,
-            treeNode42,
-            treeNode44,
-            treeNode46,
-            treeNode49,
-            treeNode51,
-            treeNode58,
+            treeNode12,
+            treeNode17,
+            treeNode24,
+            treeNode30,
+            treeNode36,
+            treeNode41,
+            treeNode43,
+            treeNode45,
+            treeNode47,
+            treeNode50,
+            treeNode52,
+            treeNode59,
             treeNode65,
             treeNode75,
             treeNode81,
@@ -746,7 +746,7 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label100 = new System.Windows.Forms.Label();
             this.OptionsButt = new System.Windows.Forms.Button();
-            this.label102 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.tabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -3106,203 +3106,203 @@
             treeNode5.Name = "Node10";
             treeNode5.Tag = "Covers Adrenaline +2 through Attack.";
             treeNode5.Text = "A";
-            treeNode6.Name = "Node37";
-            treeNode6.Tag = resources.GetString("treeNode6.Tag");
-            treeNode6.Text = "Bloodbath Soul";
-            treeNode7.Name = "Node38";
+            treeNode6.Name = "Node0";
+            treeNode6.Tag = "If you would deal a feeble hit to a monster, have a 25% chance to convert it into" +
+    " a critical hit that does 200% damage.";
+            treeNode6.Text = "Bitter Affinity";
+            treeNode7.Name = "Node37";
             treeNode7.Tag = resources.GetString("treeNode7.Tag");
-            treeNode7.Text = "Bludgeoner";
-            treeNode8.Name = "Node39";
+            treeNode7.Text = "Bloodbath Soul";
+            treeNode8.Name = "Node38";
             treeNode8.Tag = resources.GetString("treeNode8.Tag");
-            treeNode8.Text = "Boltreaver Soul";
-            treeNode9.Name = "Node40";
-            treeNode9.Tag = "+20% Blast application, +30% Bomb Damage, and 100% chance to combine all \'bomb\' i" +
+            treeNode8.Text = "Bludgeoner";
+            treeNode9.Name = "Node39";
+            treeNode9.Tag = resources.GetString("treeNode9.Tag");
+            treeNode9.Text = "Boltreaver Soul";
+            treeNode10.Name = "Node40";
+            treeNode10.Tag = "+20% Blast application, +30% Bomb Damage, and 100% chance to combine all \'bomb\' i" +
     "tems.";
-            treeNode9.Text = "Bombardier";
-            treeNode10.Name = "Node41";
-            treeNode10.Tag = "Adds one more shot to each Rapid Fire volley.";
-            treeNode10.Text = "Bonus Shot";
-            treeNode11.Name = "Node11";
-            treeNode11.Tag = "Covers Bloodbath Soul through Bonus Shot.";
-            treeNode11.Text = "B";
-            treeNode12.Name = "Node42";
-            treeNode12.Tag = "Challenger +1: +10 Attack, +10% Affinity when a monster in the same area is enrag" +
+            treeNode10.Text = "Bombardier";
+            treeNode11.Name = "Node41";
+            treeNode11.Tag = "Adds one more shot to each Rapid Fire volley.";
+            treeNode11.Text = "Bonus Shot";
+            treeNode12.Name = "Node11";
+            treeNode12.Tag = "Covers Bloodbath Soul through Bonus Shot.";
+            treeNode12.Text = "B";
+            treeNode13.Name = "Node42";
+            treeNode13.Tag = "Challenger +1: +10 Attack, +10% Affinity when a monster in the same area is enrag" +
     "ed.\\n\\nChallenger +2: +20 Attack, +15% Affinity while a monster in the same area" +
     " is enraged.";
-            treeNode12.Text = "Challenger";
-            treeNode13.Name = "Node43";
-            treeNode13.Tag = "Increases Critical Hit damage from 125% normal to 140% normal damage. Only affect" +
+            treeNode13.Text = "Challenger";
+            treeNode14.Name = "Node43";
+            treeNode14.Tag = "Increases Critical Hit damage from 125% normal to 140% normal damage. Only affect" +
     "s raw. Does not affect feeble hits.";
-            treeNode13.Text = "Critical Boost";
-            treeNode14.Name = "Node44";
-            treeNode14.Tag = "On any draw attack, increases Affinity by 100%.";
-            treeNode14.Text = "Critical Draw";
-            treeNode15.Name = "Node45";
-            treeNode15.Tag = resources.GetString("treeNode15.Tag");
-            treeNode15.Text = "Critical Eye";
-            treeNode16.Name = "Node12";
-            treeNode16.Tag = "Covers Challenger through Critical Eye.";
-            treeNode16.Text = "C";
-            treeNode17.Name = "Node52";
-            treeNode17.Tag = resources.GetString("treeNode17.Tag");
-            treeNode17.Text = "Deadeye Soul";
-            treeNode18.Name = "Node53";
+            treeNode14.Text = "Critical Boost";
+            treeNode15.Name = "Node44";
+            treeNode15.Tag = "On any draw attack, increases Affinity by 100%.";
+            treeNode15.Text = "Critical Draw";
+            treeNode16.Name = "Node45";
+            treeNode16.Tag = resources.GetString("treeNode16.Tag");
+            treeNode16.Text = "Critical Eye";
+            treeNode17.Name = "Node12";
+            treeNode17.Tag = "Covers Challenger through Critical Eye.";
+            treeNode17.Text = "C";
+            treeNode18.Name = "Node52";
             treeNode18.Tag = resources.GetString("treeNode18.Tag");
-            treeNode18.Text = "Dragon\'s Spirit";
-            treeNode19.Name = "Node54";
+            treeNode18.Text = "Deadeye Soul";
+            treeNode19.Name = "Node53";
             treeNode19.Tag = resources.GetString("treeNode19.Tag");
-            treeNode19.Text = "Dragon Attack";
-            treeNode20.Name = "Node55";
+            treeNode19.Text = "Dragon\'s Spirit";
+            treeNode20.Name = "Node54";
             treeNode20.Tag = resources.GetString("treeNode20.Tag");
-            treeNode20.Text = "Dreadking Soul";
-            treeNode21.Name = "Node56";
+            treeNode20.Text = "Dragon Attack";
+            treeNode21.Name = "Node55";
             treeNode21.Tag = resources.GetString("treeNode21.Tag");
-            treeNode21.Text = "Dreadqueen Soul";
-            treeNode22.Name = "Node57";
+            treeNode21.Text = "Dreadking Soul";
+            treeNode22.Name = "Node56";
             treeNode22.Tag = resources.GetString("treeNode22.Tag");
-            treeNode22.Text = "Drilltusk Soul";
-            treeNode23.Name = "Node13";
-            treeNode23.Tag = "Covers Deadeye Soul through Drilltusk Soul.";
-            treeNode23.Text = "D";
-            treeNode24.Name = "Node58";
-            treeNode24.Tag = resources.GetString("treeNode24.Tag");
-            treeNode24.Text = "Elderfrost Soul";
-            treeNode25.Name = "Node59";
-            treeNode25.Tag = "Increases elemental damage when you critically hit, depending on weapon type:\\n\\n" +
+            treeNode22.Text = "Dreadqueen Soul";
+            treeNode23.Name = "Node57";
+            treeNode23.Tag = resources.GetString("treeNode23.Tag");
+            treeNode23.Text = "Drilltusk Soul";
+            treeNode24.Name = "Node13";
+            treeNode24.Tag = "Covers Deadeye Soul through Drilltusk Soul.";
+            treeNode24.Text = "D";
+            treeNode25.Name = "Node58";
+            treeNode25.Tag = resources.GetString("treeNode25.Tag");
+            treeNode25.Text = "Elderfrost Soul";
+            treeNode26.Name = "Node59";
+            treeNode26.Tag = "Increases elemental damage when you critically hit, depending on weapon type:\\n\\n" +
     "SnS/DB/Bow: +35%.\\n\\nLBG/HBG: +30%.\\n\\nOther weapon types: +25%.\\n\\nGS: +20%.";
-            treeNode25.Text = "Elemental Crit";
-            treeNode26.Name = "Node60";
-            treeNode26.Tag = "Element Atk Up: +10% Element (Fire, Water, Thunder, Ice, Dragon) damage, if your " +
+            treeNode26.Text = "Elemental Crit";
+            treeNode27.Name = "Node60";
+            treeNode27.Tag = "Element Atk Up: +10% Element (Fire, Water, Thunder, Ice, Dragon) damage, if your " +
     "weapon had any of those.\\n\\n-10% Element (Fire, Water, Thunder, Ice, Dragon) dam" +
     "age, if your weapon had any of those.";
-            treeNode26.Text = "Element Attack";
-            treeNode27.Name = "Node61";
-            treeNode27.Tag = resources.GetString("treeNode27.Tag");
-            treeNode27.Text = "Elementality";
-            treeNode28.Name = "Node62";
+            treeNode27.Text = "Element Attack";
+            treeNode28.Name = "Node61";
             treeNode28.Tag = resources.GetString("treeNode28.Tag");
-            treeNode28.Text = "Explosive Trapper";
-            treeNode29.Name = "Node14";
-            treeNode29.Tag = "Covers Elderfrost Soul through Explosive Trapper.";
-            treeNode29.Text = "E";
-            treeNode30.Name = "Node63";
-            treeNode30.Tag = resources.GetString("treeNode30.Tag");
-            treeNode30.Text = "Fire Attack";
-            treeNode31.Name = "Node64";
-            treeNode31.Tag = "Combines the effects of Evade Extender and Peak Performance.\\n\\n+50% distance cov" +
+            treeNode28.Text = "Elementality";
+            treeNode29.Name = "Node62";
+            treeNode29.Tag = resources.GetString("treeNode29.Tag");
+            treeNode29.Text = "Explosive Trapper";
+            treeNode30.Name = "Node14";
+            treeNode30.Tag = "Covers Elderfrost Soul through Explosive Trapper.";
+            treeNode30.Text = "E";
+            treeNode31.Name = "Node63";
+            treeNode31.Tag = resources.GetString("treeNode31.Tag");
+            treeNode31.Text = "Fire Attack";
+            treeNode32.Name = "Node64";
+            treeNode32.Tag = "Combines the effects of Evade Extender and Peak Performance.\\n\\n+50% distance cov" +
     "ered whenever you take an evasive action that isn’t a HA.\\n\\n+20 Attack when you" +
     "r Health is at 100%.";
-            treeNode31.Text = "Fleet Feet";
-            treeNode32.Name = "Node92";
-            treeNode32.Tag = "Combines the effects of Knockout King and Horn Maestro.\\n\\n+10% KO Damage.\\n\\n+1 " +
+            treeNode32.Text = "Fleet Feet";
+            treeNode33.Name = "Node92";
+            treeNode33.Tag = "Combines the effects of Knockout King and Horn Maestro.\\n\\n+10% KO Damage.\\n\\n+1 " +
     "minute Melody Effect Duration, Horns never break on use, decrease chance that he" +
     "aling melody is downgraded one stage.";
-            treeNode32.Text = "Flying Pub Soul";
-            treeNode33.Name = "Node65";
-            treeNode33.Tag = "+10% Attack and +15% Defense when you cart, stacks up to two times. You must cart" +
+            treeNode33.Text = "Flying Pub Soul";
+            treeNode34.Name = "Node65";
+            treeNode34.Tag = "+10% Attack and +15% Defense when you cart, stacks up to two times. You must cart" +
     ", not your teammates, to activate this effect.";
-            treeNode33.Text = "Fortify";
-            treeNode34.Name = "Node66";
-            treeNode34.Tag = resources.GetString("treeNode34.Tag");
-            treeNode34.Text = "Frosty Protection";
-            treeNode35.Name = "Node15";
-            treeNode35.Tag = "Covers Fire Attack through Frosty Protection.";
-            treeNode35.Text = "F";
-            treeNode36.Name = "Node68";
-            treeNode36.Tag = "Combines the effects of Knockout King, Stamina Thief.\\n\\n+10% KO damage.\\n\\n+20% " +
+            treeNode34.Text = "Fortify";
+            treeNode35.Name = "Node66";
+            treeNode35.Tag = resources.GetString("treeNode35.Tag");
+            treeNode35.Text = "Frosty Protection";
+            treeNode36.Name = "Node15";
+            treeNode36.Tag = "Covers Fire Attack through Frosty Protection.";
+            treeNode36.Text = "F";
+            treeNode37.Name = "Node68";
+            treeNode37.Tag = "Combines the effects of Knockout King, Stamina Thief.\\n\\n+10% KO damage.\\n\\n+20% " +
     "Exhaust damage.";
-            treeNode36.Text = "Heavy Hitter";
-            treeNode37.Name = "Node69";
-            treeNode37.Tag = "+10% damage to Heavy-type Arrows and Heavy S.";
-            treeNode37.Text = "Heavy/Heavy Up";
-            treeNode38.Name = "Node70";
-            treeNode38.Tag = resources.GetString("treeNode38.Tag");
-            treeNode38.Text = "Hellblade Soul";
-            treeNode39.Name = "Node71";
-            treeNode39.Tag = "Combines the effects of Attack Up (L) and Sharpness +1.\\n\\n+20 Attack.\\n\\n+25 Sha" +
+            treeNode37.Text = "Heavy Hitter";
+            treeNode38.Name = "Node69";
+            treeNode38.Tag = "+10% damage to Heavy-type Arrows and Heavy S.";
+            treeNode38.Text = "Heavy/Heavy Up";
+            treeNode39.Name = "Node70";
+            treeNode39.Tag = resources.GetString("treeNode39.Tag");
+            treeNode39.Text = "Hellblade Soul";
+            treeNode40.Name = "Node71";
+            treeNode40.Tag = "Combines the effects of Attack Up (L) and Sharpness +1.\\n\\n+20 Attack.\\n\\n+25 Sha" +
     "rpness units, if your weapon’s Sharpness can be increased.";
-            treeNode39.Text = "Honed Blade";
-            treeNode40.Name = "Node17";
-            treeNode40.Tag = "Covers Heavy Hitter through Honed Blade";
-            treeNode40.Text = "H";
-            treeNode41.Name = "Node72";
-            treeNode41.Tag = resources.GetString("treeNode41.Tag");
-            treeNode41.Text = "Ice Attack";
-            treeNode42.Name = "Node18";
-            treeNode42.Tag = "Covers Ice Attack.";
-            treeNode42.Text = "I";
-            treeNode43.Name = "Node73";
-            treeNode43.Tag = "+10% KO damage.";
-            treeNode43.Text = "KO King";
-            treeNode44.Name = "Node19";
-            treeNode44.Tag = "Covers KO King.";
-            treeNode44.Text = "K";
-            treeNode45.Name = "Node75";
-            treeNode45.Tag = resources.GetString("treeNode45.Tag");
-            treeNode45.Text = "Latent Power";
-            treeNode46.Name = "Node74";
-            treeNode46.Tag = "Covers Latent Power.";
-            treeNode46.Text = "L";
-            treeNode47.Name = "Node76";
-            treeNode47.Tag = resources.GetString("treeNode47.Tag");
-            treeNode47.Text = "Metallic Protection";
-            treeNode48.Name = "Node77";
-            treeNode48.Tag = "Prevents Blademaster weapons from bouncing.";
-            treeNode48.Text = "Mind\'s Eye";
-            treeNode49.Name = "Node20";
-            treeNode49.Tag = "Covers Metallic Protection and Mind\'s Eye.";
-            treeNode49.Text = "M";
-            treeNode50.Name = "Node78";
-            treeNode50.Tag = "+10% Attack on Normal S from Bowguns, or Rapid-type Arrows from Bows.";
-            treeNode50.Text = "Normal/Rapid Up";
-            treeNode51.Name = "Node21";
-            treeNode51.Tag = "Covers Normal/Rapid Up.";
-            treeNode51.Text = "N";
-            treeNode52.Name = "Node75";
-            treeNode52.Tag = "+20 Attack when your Health is at 100%.";
-            treeNode52.Text = "Peak Performance";
-            treeNode53.Name = "Node76";
-            treeNode53.Tag = "+20% Attack on Pellet S from Bowguns\\n\\n+30% Attack on Spread-type Arrows from Bo" +
+            treeNode40.Text = "Honed Blade";
+            treeNode41.Name = "Node17";
+            treeNode41.Tag = "Covers Heavy Hitter through Honed Blade";
+            treeNode41.Text = "H";
+            treeNode42.Name = "Node72";
+            treeNode42.Tag = resources.GetString("treeNode42.Tag");
+            treeNode42.Text = "Ice Attack";
+            treeNode43.Name = "Node18";
+            treeNode43.Tag = "Covers Ice Attack.";
+            treeNode43.Text = "I";
+            treeNode44.Name = "Node73";
+            treeNode44.Tag = "+10% KO damage.";
+            treeNode44.Text = "KO King";
+            treeNode45.Name = "Node19";
+            treeNode45.Tag = "Covers KO King.";
+            treeNode45.Text = "K";
+            treeNode46.Name = "Node75";
+            treeNode46.Tag = resources.GetString("treeNode46.Tag");
+            treeNode46.Text = "Latent Power";
+            treeNode47.Name = "Node74";
+            treeNode47.Tag = "Covers Latent Power.";
+            treeNode47.Text = "L";
+            treeNode48.Name = "Node76";
+            treeNode48.Tag = resources.GetString("treeNode48.Tag");
+            treeNode48.Text = "Metallic Protection";
+            treeNode49.Name = "Node77";
+            treeNode49.Tag = "Prevents Blademaster weapons from bouncing.";
+            treeNode49.Text = "Mind\'s Eye";
+            treeNode50.Name = "Node20";
+            treeNode50.Tag = "Covers Metallic Protection and Mind\'s Eye.";
+            treeNode50.Text = "M";
+            treeNode51.Name = "Node78";
+            treeNode51.Tag = "+10% Attack on Normal S from Bowguns, or Rapid-type Arrows from Bows.";
+            treeNode51.Text = "Normal/Rapid Up";
+            treeNode52.Name = "Node21";
+            treeNode52.Tag = "Covers Normal/Rapid Up.";
+            treeNode52.Text = "N";
+            treeNode53.Name = "Node75";
+            treeNode53.Tag = "+20 Attack when your Health is at 100%.";
+            treeNode53.Text = "Peak Performance";
+            treeNode54.Name = "Node76";
+            treeNode54.Tag = "+20% Attack on Pellet S from Bowguns\\n\\n+30% Attack on Spread-type Arrows from Bo" +
     "ws.";
-            treeNode53.Text = "Pellet/Spread Up";
-            treeNode54.Name = "Node77";
-            treeNode54.Tag = "+10% Attack on Pierce S from Bowguns and Pierce-type Arrows from Bows.";
-            treeNode54.Text = "Pierce/Pierce Up";
-            treeNode55.Name = "Node78";
-            treeNode55.Tag = "Provides natural cold resistance (you don\'t have to use Hot Drinks in cold areas)" +
+            treeNode54.Text = "Pellet/Spread Up";
+            treeNode55.Name = "Node77";
+            treeNode55.Tag = "+10% Attack on Pierce S from Bowguns and Pierce-type Arrows from Bows.";
+            treeNode55.Text = "Pierce/Pierce Up";
+            treeNode56.Name = "Node78";
+            treeNode56.Tag = "Provides natural cold resistance (you don\'t have to use Hot Drinks in cold areas)" +
     ".\\n\\n+15 Attack and +20 Defense while in a cold area.\\n\\n+5 Attack while a Cool " +
     "Drink is in effect.";
-            treeNode55.Text = "Polar Hunter";
-            treeNode56.Name = "Node79";
-            treeNode56.Tag = resources.GetString("treeNode56.Tag");
-            treeNode56.Text = "Pro Dirty Fencer";
-            treeNode57.Name = "Node80";
-            treeNode57.Tag = "+5 Attack for all weapons.\\n\\nFor Cut-type weapons, each draw attack deals 30 Stu" +
+            treeNode56.Text = "Polar Hunter";
+            treeNode57.Name = "Node79";
+            treeNode57.Tag = resources.GetString("treeNode57.Tag");
+            treeNode57.Text = "Pro Dirty Fencer";
+            treeNode58.Name = "Node80";
+            treeNode58.Tag = "+5 Attack for all weapons.\\n\\nFor Cut-type weapons, each draw attack deals 30 Stu" +
     "n and 20 Exhaust.";
-            treeNode57.Text = "Punishing Draw";
-            treeNode58.Name = "Node22";
-            treeNode58.Tag = "Covers Peak Performance through Punishing Draw.";
-            treeNode58.Text = "P";
-            treeNode59.Name = "Node81";
-            treeNode59.Tag = resources.GetString("treeNode59.Tag");
-            treeNode59.Text = "Redhelm Soul";
-            treeNode60.Name = "Node82";
-            treeNode60.Tag = "+25% Affinity after 1 hit.\\n\\n+30% Affinity after 5 hits (overwrites previous eff" +
+            treeNode58.Text = "Punishing Draw";
+            treeNode59.Name = "Node22";
+            treeNode59.Tag = "Covers Peak Performance through Punishing Draw.";
+            treeNode59.Text = "P";
+            treeNode60.Name = "Node81";
+            treeNode60.Tag = resources.GetString("treeNode60.Tag");
+            treeNode60.Text = "Redhelm Soul";
+            treeNode61.Name = "Node82";
+            treeNode61.Tag = "+25% Affinity after 1 hit.\\n\\n+30% Affinity after 5 hits (overwrites previous eff" +
     "ect).\\n\\nResets to 0 if you do not hit anything in 5 seconds.";
-            treeNode60.Text = "Repeat Offender";
-            treeNode61.Name = "Node83";
-            treeNode61.Tag = "+20 Attack while you’re recovering from an attack (while there is red health in y" +
+            treeNode61.Text = "Repeat Offender";
+            treeNode62.Name = "Node83";
+            treeNode62.Tag = "+20 Attack while you’re recovering from an attack (while there is red health in y" +
     "our Health Gauge).";
-            treeNode61.Text = "Resentment";
-            treeNode62.Name = "Node84";
-            treeNode62.Tag = "+20 Attack (flat) while you have any negative status effect, including Poison (al" +
+            treeNode62.Text = "Resentment";
+            treeNode63.Name = "Node84";
+            treeNode63.Tag = "+20 Attack (flat) while you have any negative status effect, including Poison (al" +
     "l levels), Sleep, Paralysis, Defense Down, Bubble, Stench, Leech, Blastblight, B" +
     "leeding, Confusion, and Mucus.";
-            treeNode62.Text = "Resuscitate";
-            treeNode63.Name = "Node85";
-            treeNode63.Tag = "If you would deal a feeble hit to a monster, have a 25% chance to convert it into" +
-    " a critical hit that does 200% damage.";
-            treeNode63.Text = "Rueful Crit";
+            treeNode63.Text = "Resuscitate";
             treeNode64.Name = "Node86";
             treeNode64.Tag = "Combines the effects of Weakness Exploit and Critical Eye +2.\\n\\n+20% Affinity.\\n" +
     "\\n+50% Affinity on hitzones of 45+ for your respective damage type.";
@@ -4686,9 +4686,9 @@
             this.paraMadAff.AutoSize = true;
             this.paraMadAff.Location = new System.Drawing.Point(6, 171);
             this.paraMadAff.Name = "paraMadAff";
-            this.paraMadAff.Size = new System.Drawing.Size(81, 17);
+            this.paraMadAff.Size = new System.Drawing.Size(90, 17);
             this.paraMadAff.TabIndex = 5;
-            this.paraMadAff.Text = "Rueful Crit?";
+            this.paraMadAff.Text = "Bitter Affinity?";
             this.paraMadAff.UseVisualStyleBackColor = true;
             // 
             // paraStatusCrit
@@ -5761,17 +5761,16 @@
             this.OptionsButt.UseVisualStyleBackColor = true;
             this.OptionsButt.Visible = false;
             // 
-            // label102
+            // linkLabel1
             // 
-            this.label102.AutoSize = true;
-            this.label102.Enabled = false;
-            this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label102.Location = new System.Drawing.Point(268, 1);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(639, 13);
-            this.label102.TabIndex = 5;
-            this.label102.Text = "Right now, the Calculation tab will calculate automatically when entered. Options" +
-    " are coming soon, so please check for vers. 1.1 soon!";
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(741, 9);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(163, 13);
+            this.linkLabel1.TabIndex = 5;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Check for updates! (Click for link)";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Form1
             // 
@@ -5779,7 +5778,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(908, 483);
-            this.Controls.Add(this.label102);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.OptionsButt);
             this.Controls.Add(this.label100);
             this.Controls.Add(this.label52);
@@ -5789,7 +5788,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Yet Another Damage Calculator For MHGU Release Vers. 1.0: \'";
+            this.Text = "Yet Another Damage Calculator For MHGU Release Vers. 1.1.0: \'";
             this.tabControl1.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
@@ -6246,7 +6245,7 @@
         private System.Windows.Forms.Label label103;
         private System.Windows.Forms.ContextMenuStrip modCopy;
         private System.Windows.Forms.ToolStripMenuItem formatAndCopyToolStripMenuItem1;
-        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
