@@ -1,0 +1,18 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Stock Strike	Sp. Atk	2	1	Fixed	1	1	15	15		Yes	No	
+1	Jumping Reload	X	5	1	Fixed	1	1	15	15		Yes	No	
+2	Super Nova I (Center)		*	1	Fixed	1	1	0	0		Yes	No	damage = 40 + 40 * (weaponraw / 100 * 0.75)
+3	Super Nova I (Edge)		*	1	Fixed	1	1	0	0		Yes	No	damage = 36 + 36 * (weaponraw / 100 * 0.75)
+4	Super Nova II (Center)		*	1	Fixed	1	1	0	0		Yes	No	damage = 40 + 40 * (weaponraw / 100 * 1.5)
+5	Super Nova II (Edge)		*	1	Fixed	1	1	0	0		Yes	No	damage = 15 + 15 * (weaponraw / 100 * 1.5)
+6	Super Nova III (Center)		*	1	Fixed	1	1	0	0		Yes	No	damage = 45 + 45 * (weaponraw / 100 * 2)
+7	Super Nova III (Edge)		*	1	Fixed	1	1	0	0		Yes	No	damage = 5 + 5 * (weaponraw / 100 * 2)
+8	Super Nova I (Center Gen)		100	1	Fixed	1	1	0	0		Yes	No	
+9	Super Nova I (Edge Gen)		30	1	Fixed	1	1	0	0		Yes	No	
+10	Super Nova II (Center Gen)		130	1	Fixed	1	1	0	0		Yes	No	
+11	Super Nova II (Edge Gen)		40	1	Fixed	1	1	0	0		Yes	No	
+12	Super Nova III (Center Gen)		175	1	Fixed	1	1	0	0		Yes	No	
+13	Super Nova III (Edge Gen)		50	1	Fixed	1	1	0	0		Yes	No	
+14	Void Piercer I		90	1	Shot	1	1	0	0		Yes	No	
+15	Void Piercer II		120	1	Shot	1	1	0	0		Yes	No	
+16	Void Piercer III		170	1	Shot	1	1	0	0		Yes	No	

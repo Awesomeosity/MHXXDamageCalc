@@ -1,0 +1,878 @@
+ID	name	raw	element	eleValue	affinity	sharpness	sharpOne	sharpTwo
+0	Petrified Sword Lv. 1	60	(No Element)	0	0	Yellow	Yellow	Yellow
+1	Petrified Sword Lv. 2	80	(No Element)	0	0	Yellow	Yellow	Yellow
+2	Petrified Sword Lv. 3	90	(No Element)	0	0	Yellow	Green	Green
+3	Petrified Sword Lv. 4	100	(No Element)	0	0	Green	Green	Green
+4	Petrified Sword Lv. 5	110	(No Element)	0	0	Green	Green	Green
+5	Petrified Sword Lv. 6	140	(No Element)	0	0	Green	Blue	Blue
+6	Petrified Sword Lv. 7	170	(No Element)	0	0	Blue	Blue	White
+7	Scholarly Sword Lv. 8	210	(No Element)	0	0	Blue	Blue	White
+8	Scholarly Sword Lv. 9	240	(No Element)	0	0	Blue	Blue	White
+9	Scholarly Sword Lv. 10	290	(No Element)	0	0	White	White	White
+10	Sophos Sword Lv. 11	320	(No Element)	0	0	White	White	White
+11	Hunter's Knife Lv. 1	70	(No Element)	0	0	Yellow	Yellow	Green
+12	Hunter's Knife Lv. 2	80	(No Element)	0	0	Green	Green	Green
+13	Hunter's Knife Lv. 3	100	(No Element)	0	0	Green	Green	Green
+14	Hunter's Knife Lv. 4	110	(No Element)	0	0	Green	Green	Green
+15	Hunter's Knife Lv. 5	120	(No Element)	0	0	Green	Green	Blue
+16	Hunter's Knife Lv. 6	150	(No Element)	0	0	Green	Blue	Blue
+17	Hunter's Knife Lv. 7	180	(No Element)	0	0	Green	Blue	Blue
+18	Fighter Sword Lv. 8	230	(No Element)	0	0	Green	Blue	Blue
+19	Fighter Sword Lv. 9	260	(No Element)	0	0	Blue	Blue	White
+20	Fighter Sword Lv. 10	330	(No Element)	0	0	Blue	White	White
+21	Champion's Sword Lv. 11	360	(No Element)	0	0	Blue	White	White
+22	Bone Kris Lv. 1	80	(No Element)	0	0	Yellow	Yellow	Yellow
+23	Bone Kris Lv. 2	100	(No Element)	0	0	Yellow	Yellow	Yellow
+24	Bone Kris Lv. 3	110	(No Element)	0	0	Yellow	Yellow	Yellow
+25	Bone Kris Lv. 4	130	(No Element)	0	0	Yellow	Yellow	Green
+26	Bone Kris Lv. 5	140	(No Element)	0	0	Green	Green	Green
+27	Bone Kris Lv. 6	170	(No Element)	0	0	Green	Green	Green
+28	Bone Kris Lv. 7	210	(No Element)	0	0	Green	Green	Green
+29	Chief Kris Lv. 8	240	(No Element)	0	0	Green	Green	Blue
+30	Chief Kris Lv. 9	270	(No Element)	0	0	Blue	Blue	White
+31	Chief Kris Lv. 10	330	(No Element)	0	0	Blue	Blue	White
+32	King Kris Lv. 11	360	(No Element)	0	0	Blue	White	Purple
+33	Bone Tabar Lv. 1	110	(No Element)	0	-5	Yellow	Yellow	Yellow
+34	Bone Tabar Lv. 2	120	(No Element)	0	-5	Yellow	Yellow	Yellow
+35	Bone Tabar Lv. 3	150	(No Element)	0	-5	Green	Green	Green
+36	Bone Tabar Lv. 4	170	(No Element)	0	-10	Green	Green	Blue
+37	Ragdos Tabar Lv. 5	240	(No Element)	0	-10	Blue	White	White
+38	Ragdos Tabar Lv. 6	300	(No Element)	0	-10	White	Purple	Purple
+39	Bonebreaker Tabar Lv. 7	360	(No Element)	0	-10	White	Purple	Purple
+40	Secta Nulo Lv. 1	80	(No Element)	0	0	Green	Green	Green
+41	Secta Nulo Lv. 2	90	(No Element)	0	0	Green	Green	Green
+42	Secta Nulo Lv. 3	120	(No Element)	0	0	Green	Green	Green
+43	Secta Nulo Lv. 4	130	(No Element)	0	0	Blue	Blue	Blue
+44	Secta Nulo Lv. 5	160	(No Element)	0	0	White	White	White
+45	Secta Unu Lv. 6	190	(No Element)	0	0	White	White	White
+46	Secta Unu Lv. 7	220	(No Element)	0	0	White	White	White
+47	Secta Unu Lv. 8	280	(No Element)	0	0	Purple	Purple	Purple
+48	Secta Du Lv. 9	310	(No Element)	0	0	Purple	Purple	Purple
+49	Soldier's Dagger Lv. 1	90	(No Element)	0	0	Yellow	Yellow	Green
+50	Soldier's Dagger Lv. 2	100	(No Element)	0	0	Green	Green	Green
+51	Soldier's Dagger Lv. 3	130	(No Element)	0	0	Green	Green	Blue
+52	Soldier's Dagger Lv. 4	150	(No Element)	0	0	Green	Blue	Blue
+53	Soldier's Dagger Lv. 5	190	(No Element)	0	0	Green	Blue	Blue
+54	Commander's Dagger Lv. 6	220	(No Element)	0	0	Blue	Blue	White
+55	Commander's Dagger Lv. 7	250	(No Element)	0	0	Blue	White	White
+56	Elite Dagger Lv. 8	340	(No Element)	0	0	Blue	White	White
+57	Serpent Bite Lv. 1	80	(No Element)	0	0	Yellow	Yellow	Green
+58	Serpent Bite Lv. 2	90	(No Element)	0	0	Green	Green	Green
+59	Serpent Bite Lv. 3	100	(No Element)	0	0	Green	Green	Green
+60	Serpent Bite Lv. 4	150	(No Element)	0	0	Green	Green	Green
+61	Serpent Bite Lv. 5	170	(No Element)	0	0	Green	Green	Blue
+62	Serpent Cleaver Lv. 6	230	(No Element)	0	0	Green	Blue	Blue
+63	Serpent Cleaver Lv. 7	260	(No Element)	0	0	Green	Blue	Blue
+64	Serpent Cleaver Lv. 8	320	(No Element)	0	0	Green	Blue	Blue
+65	Serpent Soul Lv. 9	350	(No Element)	0	0	Green	Blue	White
+66	Snake Bite Lv. 1	80	Ice	14	0	Yellow	Green	Green
+67	Snake Bite Lv. 2	100	Ice	16	0	Green	Green	Green
+68	Snake Bite Lv. 3	130	Ice	18	0	Green	Green	Green
+69	Snake Bite Lv. 4	150	Ice	20	0	Green	Green	Blue
+70	Snake Bite Lv. 5	170	Ice	22	0	Green	Blue	Blue
+71	Snowy Cleaver Lv. 6	210	Ice	24	0	Blue	Blue	White
+72	Snowy Cleaver Lv. 7	250	Ice	26	0	Blue	Blue	White
+73	Asp Bite Lv. 8	340	Ice	28	0	Blue	White	White
+74	Viper Bite Lv. 1	70	Para	22	0	Green	Green	Green
+75	Viper Bite Lv. 2	80	Para	24	0	Green	Green	Green
+76	Viper Bite Lv. 3	130	Para	26	0	Green	Green	Blue
+77	Viper Bite Lv. 4	150	Para	28	0	Green	Green	Blue
+78	Deathprize Lv. 5	190	Para	30	0	Green	Blue	Blue
+79	Deathprize Lv. 6	210	Para	31	0	Blue	White	White
+80	Deathgrip Lv. 7	300	Para	32	0	Blue	White	White
+81	Hydra Bite Lv. 1	80	Poison	28	0	Green	Green	Green
+82	Hydra Bite Lv. 2	90	Poison	32	0	Green	Green	Green
+83	Hydra Bite Lv. 3	110	Poison	34	0	Green	Green	Blue
+84	Hydra Bite Lv. 4	130	Poison	38	0	Green	Green	Blue
+85	Hydra Bite Lv. 5	150	Poison	42	0	Blue	Blue	White
+86	Deadly Poison Lv. 6	180	Poison	45	0	Blue	Blue	White
+87	Deadly Poison Lv. 7	240	Poison	46	0	Blue	Blue	White
+88	Lethal Poison Lv. 8	300	Poison	48	0	Blue	White	White
+89	Brash Buddies Lv. 1	90	(No Element)	0	0	Green	Green	Green
+90	Brash Buddies Lv. 2	100	(No Element)	0	0	Green	Green	Green
+91	Brash Buddies Lv. 3	130	(No Element)	0	0	Green	Green	Green
+92	Brash Buddies Lv. 4	150	(No Element)	0	0	Green	Green	Blue
+93	Brash Buddies Lv. 5	190	(No Element)	0	0	Blue	Blue	Blue
+94	Cocky Comrades Lv. 6	210	(No Element)	0	0	Blue	Blue	White
+95	Cocky Comrades Lv. 7	250	(No Element)	0	0	Blue	White	White
+96	Cocksure Compatriots Lv. 8	340	(No Element)	0	0	White	White	Purple
+97	Ludroth's Nail Lv. 1	100	(No Element)	0	0	Green	Green	Green
+98	Ludroth's Nail Lv. 2	120	(No Element)	0	0	Green	Green	Green
+99	Ludroth's Nail Lv. 3	130	(No Element)	0	0	Green	Green	Blue
+100	Ludroth's Nail Lv. 4	150	(No Element)	0	0	Blue	Blue	White
+101	Ludroth Gear Lv. 5	190	(No Element)	0	0	Blue	Blue	White
+102	Ludroth Gear Lv. 6	240	(No Element)	0	0	White	White	White
+103	Foaming Ludroth Gear Lv. 7	330	(No Element)	0	0	White	White	Purple
+104	Velocidrome Bite Lv. 1	70	(No Element)	0	0	Green	Green	Green
+105	Velocidrome Bite Lv. 2	80	(No Element)	0	0	Green	Green	Green
+106	Velocidrome Bite Lv. 3	100	(No Element)	0	0	Green	Green	Green
+107	Velocidrome Bite Lv. 4	140	(No Element)	0	0	Green	Green	Blue
+108	Velocidrome Fang Lv. 5	200	(No Element)	0	0	Blue	Blue	White
+109	Velocidrome Fang Lv. 6	240	(No Element)	0	0	Blue	White	White
+110	Velocidrome Fang Slash Lv. 7	340	(No Element)	0	0	Blue	White	Purple
+111	Yukumo Cutter Lv. 1	70	(No Element)	0	0	Green	Green	Green
+112	Yukumo Cutter Lv. 2	90	(No Element)	0	0	Green	Green	Green
+113	Yukumo Cutter Lv. 3	120	(No Element)	0	0	Green	Green	Green
+114	Yukumo Cutter Lv. 4	140	(No Element)	0	0	Green	Blue	Blue
+115	Yukumo Hatchet Lv. 5	180	(No Element)	0	0	Green	Blue	Blue
+116	Yukumo Hatchet Lv. 6	260	(No Element)	0	0	Green	Blue	Blue
+117	Yukumo Hatchet Lv. 7	320	(No Element)	0	0	Green	Blue	Blue
+118	Hot Spring Hatchet Lv. 8	350	(No Element)	0	0	Green	Blue	White
+119	Rusted Sword Lv. 1	100	(No Element)	0	-70	Orange	Orange	Orange
+120	Rusted Sword Lv. 2	100	(No Element)	0	-70	Orange	Orange	Orange
+121	Tarnished Sword Lv. 3	100	(No Element)	0	-70	Yellow	Yellow	Green
+122	Hunter's Dagger Lv. 1	100	(No Element)	0	0	Green	Green	Green
+123	Hunter's Dagger Lv. 2	110	(No Element)	0	0	Green	Green	Green
+124	Hunter's Dagger Lv. 3	130	(No Element)	0	0	Green	Green	Blue
+125	Hunter's Dagger Lv. 4	140	(No Element)	0	0	Blue	Blue	White
+126	Hunter's Dagger Lv. 5	180	(No Element)	0	0	Blue	Blue	White
+127	Assassin's Dagger Lv. 6	220	(No Element)	0	0	Blue	White	White
+128	Assassin's Dagger Lv. 7	280	(No Element)	0	0	White	White	Purple
+129	Master's Dagger Lv. 8	340	(No Element)	0	0	White	Purple	Purple
+130	Bone Pick Lv. 1	90	(No Element)	0	0	Yellow	Yellow	Yellow
+131	Bone Pick Lv. 2	110	(No Element)	0	0	Yellow	Yellow	Yellow
+132	Bone Pick Lv. 3	140	(No Element)	0	-5	Green	Green	Green
+133	Bone Pick Lv. 4	160	(No Element)	0	-5	Green	Green	Blue
+134	Bone Pick Lv. 5	180	(No Element)	0	-10	Blue	Blue	White
+135	Bone Pick Lv. 6	200	(No Element)	0	-10	Blue	Blue	White
+136	Osteon Pick Lv. 7	220	(No Element)	0	-10	Blue	White	White
+137	Osteon Pick Lv. 8	250	(No Element)	0	-10	White	Purple	Purple
+138	Spinal Pick Lv. 9	340	(No Element)	0	-10	White	Purple	Purple
+139	Frost Edge Lv. 1	90	Ice	24	0	Green	Green	Green
+140	Frost Edge Lv. 2	100	Ice	30	0	Green	Green	Blue
+141	Frost Edge Lv. 3	130	Ice	36	0	Blue	Blue	White
+142	Hi Frost Edge Lv. 4	200	Ice	42	0	Blue	Blue	White
+143	Hi Frost Edge Lv. 5	230	Ice	44	0	Blue	Blue	White
+144	Hi Frost Edge Lv. 6	280	Ice	46	0	White	Purple	Purple
+145	Permafrost Edge Lv. 7	310	Ice	48	0	White	Purple	Purple
+146	Secta Nulo (G) Lv. 1	90	Para	14	0	Yellow	Green	Green
+147	Secta Nulo (G) Lv. 2	100	Para	15	0	Green	Green	Green
+148	Secta Nulo (G) Lv. 3	120	Para	17	0	Blue	Blue	Blue
+149	Secta Nulo (G) Lv. 4	140	Para	20	0	Blue	Blue	Blue
+150	Secta Unu (G) Lv. 5	170	Para	22	0	Blue	Blue	White
+151	Secta Unu (G) Lv. 6	200	Para	23	0	Blue	White	White
+152	Secta Unu (G) Lv. 7	240	Para	24	0	White	White	White
+153	Secta Du (G) Lv. 8	290	Para	25	0	Purple	Purple	Purple
+154	Secta Nulo (R) Lv. 1	90	Fire	12	0	Green	Green	Green
+155	Secta Nulo (R) Lv. 2	100	Fire	14	0	Green	Green	Green
+156	Secta Nulo (R) Lv. 3	130	Fire	16	0	Blue	Blue	Blue
+157	Secta Nulo (R) Lv. 4	150	Fire	18	0	Blue	Blue	Blue
+158	Secta Unu (R) Lv. 5	170	Fire	22	0	Blue	Blue	White
+159	Secta Unu (R) Lv. 6	200	Fire	24	0	Blue	White	White
+160	Secta Unu (R) Lv. 7	230	Fire	26	0	Blue	White	White
+161	Secta Du (R) Lv. 8	290	Fire	28	0	Blue	White	Purple
+162	Lava Pick Lv. 1	100	Fire	10	0	Yellow	Yellow	Green
+163	Lava Pick Lv. 2	110	Fire	12	0	Yellow	Green	Green
+164	Lava Pick Lv. 3	120	Fire	14	0	Green	Green	Green
+165	Lava Pick Lv. 4	170	Fire	16	0	Green	Green	Blue
+166	Burly Beak Lv. 5	230	Fire	18	0	Green	Blue	Blue
+167	Burly Beak Lv. 6	290	Fire	19	0	Green	Blue	Blue
+168	Burly Beak Lv. 7	320	Fire	20	0	Green	Blue	Blue
+169	Bruising Beak Lv. 8	350	Fire	22	0	Green	Blue	White
+170	Poison Axe Lv. 1	90	Poison	24	0	Green	Green	Green
+171	Poison Axe Lv. 2	100	Poison	26	0	Green	Green	Green
+172	Poison Axe Lv. 3	120	Poison	28	0	Green	Green	Blue
+173	Poison Axe Lv. 4	140	Poison	30	0	Blue	Blue	White
+174	Poison Axe Lv. 5	160	Poison	32	0	Blue	White	White
+175	Poison Battleaxe Lv. 6	200	Poison	35	0	Blue	White	White
+176	Poison Battleaxe Lv. 7	230	Poison	36	0	Blue	White	White
+177	Poison Battleaxe Lv. 8	260	Poison	38	0	White	White	White
+178	Poison Tomahawk Lv. 9	320	Poison	40	0	White	White	Purple
+179	Thunderbane Lv. 1	90	Thunder	17	0	Green	Green	Green
+180	Thunderbane Lv. 2	130	Thunder	20	0	Green	Green	Green
+181	Thunderbane Lv. 3	150	Thunder	22	0	Green	Green	Green
+182	Thunderbane Lv. 4	170	Thunder	24	0	Green	Green	Blue
+183	Frightbane Lv. 5	230	Thunder	27	0	Green	Blue	Blue
+184	Frightbane Lv. 6	290	Thunder	28	0	Green	Blue	White
+185	Indra Lv. 7	350	Thunder	30	0	Green	Blue	White
+186	Royal Claw Lv. 1	90	Water	12	0	Green	Green	Green
+187	Royal Claw Lv. 2	110	Water	16	0	Green	Green	Green
+188	Royal Claw Lv. 3	130	Water	22	0	Green	Green	Blue
+189	Royal Claw Lv. 4	170	Water	28	0	Blue	White	White
+190	Royal Ludroth Claw Lv. 5	200	Water	36	0	Blue	White	White
+191	Royal Ludroth Claw Lv. 6	230	Water	37	0	Blue	White	White
+192	Royal Ludroth Claw Lv. 7	250	Water	38	0	White	White	White
+193	Royal Waterclaw Lv. 8	290	Water	40	0	White	Purple	Purple
+194	Shura Fan Lv. 1	90	Sleep	18	0	Green	Green	Green
+195	Shura Fan Lv. 2	110	Sleep	19	0	Green	Green	Green
+196	Shura Fan Lv. 3	120	Sleep	20	0	Green	Green	Blue
+197	Shura Fan Lv. 4	160	Sleep	21	0	Blue	Blue	Blue
+198	Shura Fan Lv. 5	170	Sleep	22	0	Blue	Blue	White
+199	Dream Duke Shura Lv. 6	180	Sleep	24	0	Blue	Blue	White
+200	Dream Duke Shura Lv. 7	220	Sleep	26	0	White	White	White
+201	Dream Duke Shura Lv. 8	250	Sleep	27	0	White	White	White
+202	Dream Archduke Shura Lv. 9	300	Sleep	28	0	White	Purple	Purple
+203	Khezu Razor Lv. 1	80	Thunder	22	10	Green	Green	Green
+204	Khezu Razor Lv. 2	110	Thunder	24	10	Green	Green	Green
+205	Khezu Razor Lv. 3	140	Thunder	30	15	Green	Green	Green
+206	Khezu Razor Lv. 4	170	Thunder	34	15	Blue	Blue	White
+207	Painful Razor Lv. 5	200	Thunder	38	15	Blue	Blue	White
+208	Painful Razor Lv. 6	260	Thunder	39	15	White	White	White
+209	Dread Razor Lv. 7	320	Thunder	40	15	White	White	Purple
+210	Dual Carapace Lv. 1	100	Water	10	0	Green	Green	Green
+211	Dual Carapace Lv. 2	120	Water	12	0	Green	Green	Green
+212	Dual Carapace Lv. 3	130	Water	15	0	Blue	Blue	Blue
+213	Dual Carapace Lv. 4	150	Water	20	0	Blue	Blue	White
+214	Dual Scissors Lv. 5	200	Water	25	0	White	White	White
+215	Dual Scissors Lv. 6	230	Water	27	0	White	White	White
+216	Dual Scissors Lv. 7	260	Water	30	0	White	Purple	Purple
+217	Dual Crustacio Lv. 8	310	Water	32	0	Purple	Purple	Purple
+218	Spiked Circle Lv. 1	110	Para	8	-10	Green	Green	Green
+219	Spiked Circle Lv. 2	130	Para	10	-10	Green	Green	Green
+220	Spiked Circle Lv. 3	150	Para	11	-10	Green	Green	Green
+221	Spiked Circle Lv. 4	170	Para	13	-10	Blue	Blue	Blue
+222	Paraspiked Circle Lv. 5	200	Para	15	-10	Blue	Blue	White
+223	Paraspiked Circle Lv. 6	260	Para	17	-10	Blue	White	White
+224	Paraspiked Circle Lv. 7	280	Para	19	-10	White	White	White
+225	Paraspiked Rondo Lv. 8	310	Para	23	-10	White	White	Purple
+226	Hidden Edge Lv. 1	100	(No Element)	0	40	Green	Blue	Blue
+227	Hidden Edge Lv. 2	120	(No Element)	0	40	Green	Blue	White
+228	Hidden Edge Lv. 3	140	(No Element)	0	40	Blue	Blue	White
+229	Hidden Edge Lv. 4	160	(No Element)	0	40	White	White	White
+230	Flash in the Night Lv. 5	180	(No Element)	0	40	White	White	White
+231	Flash in the Night Lv. 6	230	(No Element)	0	40	White	White	White
+232	Flash in the Night Lv. 7	270	(No Element)	0	40	Purple	Purple	Purple
+233	Avidya Edge Lv. 8	300	(No Element)	0	40	Purple	Purple	Purple
+234	Tusk Gear Lv. 1	80	Ice	8	0	Green	Green	Blue
+235	Tusk Gear Lv. 2	90	Ice	10	0	Green	Green	Blue
+236	Tusk Gear Lv. 3	130	Ice	12	0	Green	Blue	Blue
+237	Tusk Gear Lv. 4	150	Ice	14	0	Blue	Blue	White
+238	Skull's Wrath Lv. 5	190	Ice	16	0	Blue	Blue	White
+239	Skull's Wrath Lv. 6	220	Ice	18	0	White	White	White
+240	Skull's Wrath Lv. 7	270	Ice	20	0	White	White	White
+241	Chalcamine Sword Lv. 8	310	Ice	23	0	White	White	White
+242	Catspaw Lv. 1	80	Para	18	0	Yellow	Yellow	Yellow
+243	Catspaw Lv. 2	100	Para	22	0	Green	Green	Green
+244	Catspaw Lv. 3	110	Para	25	0	Green	Green	Green
+245	Catburglar Lv. 4	130	Para	28	0	Green	Blue	Blue
+246	Catburglar Lv. 5	190	Para	29	0	Blue	Blue	White
+247	Catlike Tread Lv. 6	280	Para	30	0	White	White	White
+248	Kitchen Knife Lv. 1	80	(No Element)	0	10	Yellow	Yellow	Green
+249	Kitchen Knife Lv. 2	120	(No Element)	0	10	Green	Blue	Blue
+250	Kitchen Knife Lv. 3	140	(No Element)	0	10	Blue	Blue	White
+251	Iron Chefblade Lv. 4	150	(No Element)	0	10	White	White	White
+252	Iron Chefblade Lv. 5	220	(No Element)	0	15	White	White	White
+253	Millennium Knife Lv. 6	320	(No Element)	0	20	Purple	Purple	Purple
+254	Chak Chak Lv. 1	90	(No Element)	0	5	Green	Green	Green
+255	Chak Chak Lv. 2	130	(No Element)	0	10	Green	Blue	Blue
+256	Chak Chak Lv. 3	160	(No Element)	0	10	Green	Blue	Blue
+257	Wagga Wagga Lv. 4	210	(No Element)	0	15	Blue	Blue	White
+258	Wagga Wagga Lv. 5	250	(No Element)	0	15	Blue	Blue	White
+259	Gimble Gyre Lv. 6	300	(No Element)	0	15	White	Purple	Purple
+260	Moofah Sword Lv. 1	80	Sleep	10	0	Green	Green	Green
+261	Moofah Sword Lv. 2	100	Sleep	12	0	Green	Green	Blue
+262	Moofah Sword Lv. 3	120	Sleep	14	0	Green	Green	Blue
+263	Sleepy Moofah Lv. 4	130	Sleep	16	0	Blue	White	White
+264	Sleepy Moofah Lv. 5	190	Sleep	18	0	Blue	Purple	Purple
+265	Sound Asleep Moofah Lv. 6	260	Sleep	20	0	White	Purple	Purple
+266	Eldora Closure Lv. 1	50	(No Element)	0	0	Blue	Blue	Blue
+267	Eldora Closure Lv. 2	80	(No Element)	0	0	Blue	Blue	Blue
+268	Eldora Closure Lv. 3	120	(No Element)	0	0	Blue	Blue	White
+269	Treasured Fedda Lv. 4	150	(No Element)	0	0	White	White	White
+270	Treasured Fedda Lv. 5	240	(No Element)	0	0	Purple	Purple	Purple
+271	Treasured Fedda Lv. 6	260	(No Element)	0	0	Purple	Purple	Purple
+272	Lost Ys Lv. 7	280	(No Element)	0	0	Purple	Purple	Purple
+273	Obsidian Sword Lv. 1	140	(No Element)	0	0	Green	Blue	Blue
+274	Obsidian Sword Lv. 2	150	(No Element)	0	0	Blue	Blue	White
+275	Obsidian Sword Lv. 3	160	(No Element)	0	0	Blue	Blue	White
+276	Obsidian Sword Lv. 4	180	(No Element)	0	0	Blue	Blue	White
+277	Obsidian Sword Lv. 5	200	(No Element)	0	0	Blue	White	White
+278	Lustrous Cretecia Lv. 6	220	(No Element)	0	0	Blue	White	White
+279	Lustrous Cretecia Lv. 7	280	(No Element)	0	0	White	White	White
+280	Ethereal Cretecia Lv. 8	330	(No Element)	0	0	White	Purple	Purple
+281	Heavy Bang Lv. 1	110	(No Element)	0	5	Green	Green	Green
+282	Heavy Bang Lv. 2	140	(No Element)	0	5	Green	Green	Blue
+283	Heavy Bang Lv. 3	170	(No Element)	0	5	Blue	Blue	Blue
+284	Master Bang Lv. 4	180	(No Element)	0	5	Blue	White	White
+285	Master Bang Lv. 5	260	(No Element)	0	5	White	Purple	Purple
+286	Bang Bang Lv. 6	320	(No Element)	0	10	White	Purple	Purple
+287	Raven Blade Lv. 1	110	(No Element)	0	20	Green	Green	Green
+288	Raven Blade Lv. 2	120	(No Element)	0	20	Green	Blue	Blue
+289	Raven Blade Lv. 3	130	(No Element)	0	20	Blue	Blue	Blue
+290	Raven Blade Lv. 4	140	(No Element)	0	25	Blue	Blue	White
+291	Wolf Blade Lv. 5	190	(No Element)	0	25	White	White	White
+292	Wolf Blade Lv. 6	270	(No Element)	0	25	White	White	White
+293	Wolf Blade Lv. 7	290	(No Element)	0	25	White	White	Purple
+294	Crow Blade Lv. 8	310	(No Element)	0	25	Purple	Purple	Purple
+295	Gigas Club Lv. 1	140	(No Element)	0	0	Yellow	Yellow	Green
+296	Gigas Club Lv. 2	150	(No Element)	0	0	Yellow	Green	Green
+297	Gigas Club Lv. 3	160	(No Element)	0	0	Yellow	Green	Green
+298	Gigas Club Lv. 4	180	(No Element)	0	0	Green	Green	Green
+299	Gigas Crusher Lv. 5	220	(No Element)	0	0	Green	Blue	Blue
+300	Gigas Crusher Lv. 6	330	(No Element)	0	0	Green	Blue	Blue
+301	Gigas Crusher Lv. 7	340	(No Element)	0	0	Green	Blue	Blue
+302	Mighty Gigantreon Lv. 8	360	(No Element)	0	0	Green	Blue	White
+303	Princess Rapier Lv. 1	110	Poison	10	0	Green	Green	Green
+304	Princess Rapier Lv. 2	130	Poison	14	0	Green	Green	Green
+305	Princess Rapier Lv. 3	150	Poison	18	5	Green	Green	Blue
+306	Princess Rapier Lv. 4	170	Poison	22	5	Blue	Blue	White
+307	Queen Rapier Lv. 5	190	Poison	26	5	Blue	White	White
+308	Queen Rapier Lv. 6	250	Poison	27	5	Blue	White	White
+309	Queen Rapier Lv. 7	280	Poison	28	5	White	White	White
+310	Empress Rapier Lv. 8	310	Poison	30	5	White	White	Purple
+311	Djinn Lv. 1	110	Fire	24	0	Green	Green	Green
+312	Djinn Lv. 2	130	Fire	25	0	Green	Green	Blue
+313	Djinn Lv. 3	160	Fire	26	0	Green	Blue	Blue
+314	Djinn Lv. 4	190	Fire	28	0	Green	Blue	Blue
+315	Blazing Falchion Lv. 5	220	Fire	30	0	Blue	Blue	White
+316	Blazing Falchion Lv. 6	280	Fire	32	0	Blue	Blue	White
+317	Blazing Falchion Lv. 7	310	Fire	33	0	Blue	White	White
+318	High Ifrit Lv. 8	340	Fire	34	0	Blue	White	White
+319	Lagia Sword Lv. 1	130	Thunder	12	0	Green	Green	Green
+320	Lagia Sword Lv. 2	140	Thunder	14	0	Green	Green	Green
+321	Lagia Sword Lv. 3	150	Thunder	18	0	Green	Green	Green
+322	Lagia Sword Lv. 4	160	Thunder	22	0	Blue	Blue	White
+323	High Lagia Sword Lv. 5	180	Thunder	27	0	Blue	White	White
+324	High Lagia Sword Lv. 6	270	Thunder	28	0	Blue	White	White
+325	Exlagia Sword Lv. 7	300	Thunder	30	0	White	Purple	Purple
+326	Usurper's Firebolt Lv. 1	120	Thunder	25	0	Green	Green	Green
+327	Usurper's Firebolt Lv. 2	130	Thunder	27	0	Green	Blue	Blue
+328	Usurper's Firebolt Lv. 3	160	Thunder	28	0	Blue	Blue	Blue
+329	Despot's Crookbolt Lv. 4	210	Thunder	30	0	Blue	White	White
+330	Despot's Crookbolt Lv. 5	270	Thunder	32	0	Blue	White	White
+331	Despot's Crookbolt Lv. 6	280	Thunder	34	0	Blue	White	Purple
+332	Oppressor's Bounty Lv. 7	320	Thunder	35	0	White	Purple	Purple
+333	Hana no Nagoriwo Lv. 1	130	Water	22	0	Green	Green	Green
+334	Hana no Nagoriwo Lv. 2	140	Water	24	0	Green	Green	Green
+335	Hana no Nagoriwo Lv. 3	150	Water	27	10	Green	Blue	Blue
+336	Hana no Nagoriwo Lv. 4	170	Water	28	10	Blue	White	White
+337	Hana no Nagoriwo Lv. 5	190	Water	30	10	Blue	White	White
+338	Kurenawi Ougi Lv. 6	200	Water	32	10	Blue	White	White
+339	Kurenawi Ougi Lv. 7	270	Water	33	10	White	White	White
+340	Kurenawi Ougi Lv. 8	290	Water	34	10	White	White	Purple
+341	Kurenawi Kunpuu Lv. 9	310	Water	35	10	White	Purple	Purple
+342	Verdant Rapier Lv. 1	120	Thunder	22	15	Green	Green	Green
+343	Verdant Rapier Lv. 2	130	Thunder	24	15	Green	Green	Blue
+344	Verdant Rapier Lv. 3	150	Thunder	25	20	Blue	Blue	White
+345	Verdant Rapier Lv. 4	160	Thunder	28	20	Blue	White	White
+346	Verdant Rapier Lv. 5	170	Thunder	30	20	White	White	White
+347	Lightning Rapier Lv. 6	180	Thunder	32	20	White	White	White
+348	Lightning Rapier Lv. 7	250	Thunder	33	20	White	White	White
+349	Lightning Rapier Lv. 8	270	Thunder	34	20	Purple	Purple	Purple
+350	Astalos Rapier Lv. 9	290	Thunder	35	20	Purple	Purple	Purple
+351	Giant's Tusk Lv. 1	140	Ice	12	-20	Green	Green	Green
+352	Giant's Tusk Lv. 2	150	Ice	14	-20	Green	Green	Blue
+353	Giant's Tusk Lv. 3	170	Ice	15	-20	Green	Blue	Blue
+354	Giant's Tusk Lv. 4	190	Ice	16	-20	Blue	Blue	Blue
+355	Giant's Tusk Lv. 5	210	Ice	17	-20	Blue	Blue	Blue
+356	Colossus's Tusk Lv. 6	230	Ice	18	-20	Blue	Blue	White
+357	Colossus's Tusk Lv. 7	300	Ice	20	-20	White	White	White
+358	Colossus's Tusk Lv. 8	320	Ice	21	-20	White	White	Purple
+359	Behemoth's Tusk Lv. 9	340	Ice	22	-20	White	White	Purple
+360	Burning Prominar Lv. 1	130	Fire	22	0	Green	Green	Green
+361	Burning Prominar Lv. 2	140	Fire	24	0	Green	Green	Green
+362	Burning Prominar Lv. 3	160	Fire	25	0	Green	Green	Blue
+363	Burning Prominar Lv. 4	180	Fire	26	0	Blue	Blue	Blue
+364	Burning Prominar Lv. 5	200	Fire	28	0	Blue	Blue	White
+365	Glinting Glavenus Lv. 6	210	Fire	30	0	Blue	White	White
+366	Glinting Glavenus Lv. 7	280	Fire	31	0	White	White	White
+367	Glinting Glavenus Lv. 8	300	Fire	32	0	White	White	White
+368	Glinting Glavenova Lv. 9	320	Fire	33	0	White	Purple	Purple
+369	Sucher-Ankh Lv. 1	120	Dragon	12	15	Green	Green	Blue
+370	Sucher-Ankh Lv. 2	130	Dragon	15	15	Green	Blue	White
+371	Sucher-Ankh Lv. 3	150	Dragon	17	20	Blue	Blue	White
+372	Sucher-Ankh Lv. 4	170	Dragon	18	20	Blue	Blue	White
+373	Jager-Ankh Lv. 5	190	Dragon	20	25	Blue	White	White
+374	Jager-Ankh Lv. 6	290	Dragon	23	25	Blue	White	White
+375	Sieger-Ankh Lv. 7	320	Dragon	25	25	Blue	Purple	Purple
+376	Naab Sword Lv. 1	140	(No Element)	0	10	Blue	Blue	Blue
+377	Naab Sword Lv. 2	150	(No Element)	0	10	Blue	Blue	Blue
+378	Naab Sword Lv. 3	160	(No Element)	0	10	Blue	White	White
+379	Naab Sword Lv. 4	180	(No Element)	0	10	White	White	White
+380	Feral Fangs Lv. 5	190	(No Element)	0	10	White	White	White
+381	Feral Fangs Lv. 6	280	(No Element)	0	10	White	White	Purple
+382	Insurgent Fangs Lv. 7	310	(No Element)	0	10	White	Purple	Purple
+383	Rex Talon Lv. 1	140	(No Element)	0	-20	Blue	Blue	Blue
+384	Rex Talon Lv. 2	180	(No Element)	0	-20	Blue	Blue	Blue
+385	Rex Talon Lv. 3	200	(No Element)	0	-20	Blue	Blue	White
+386	Tigrex Sword Lv. 4	220	(No Element)	0	-20	White	White	White
+387	Tigrex Sword Lv. 5	280	(No Element)	0	-20	White	White	White
+388	Tigrex Sword Lv. 6	320	(No Element)	0	-20	White	White	White
+389	Great Tigrex Sword Lv. 7	340	(No Element)	0	-20	Purple	Purple	Purple
+390	Kirin Bolt Ultimus Lv. 1	100	Thunder	32	0	Blue	Blue	Blue
+391	Kirin Bolt Ultimus Lv. 2	110	Thunder	35	0	Blue	Blue	Blue
+392	Kirin Bolt Ultimus Lv. 3	120	Thunder	40	0	Blue	Blue	Blue
+393	Kirin Bolt Ultimus Lv. 4	130	Thunder	45	0	Blue	Blue	Blue
+394	Kirin Bolt Maximus Lv. 5	140	Thunder	48	0	Blue	Blue	White
+395	Kirin Bolt Maximus Lv. 6	210	Thunder	50	0	White	White	White
+396	Kirin Bolt Maximus Lv. 7	230	Thunder	54	0	White	White	White
+397	Kirin Bolt Perfectus Lv. 8	250	Thunder	58	0	White	White	Purple
+398	Dios Edge Lv. 1	130	Blast	15	0	Green	Green	Green
+399	Dios Edge Lv. 2	150	Blast	16	0	Green	Green	Blue
+400	Dios Edge Lv. 3	170	Blast	18	0	Green	Green	Blue
+401	Dios Edge Lv. 4	200	Blast	20	0	Blue	Blue	White
+402	Booming Barrage Lv. 5	210	Blast	22	0	Blue	White	White
+403	Booming Barrage Lv. 6	300	Blast	24	0	Blue	White	White
+404	Thermostorm Lv. 7	340	Blast	25	0	Blue	White	Purple
+405	Le Detecteur Lv. 1	120	Dragon	22	30	Blue	Blue	White
+406	Le Detecteur Lv. 2	130	Dragon	23	30	Blue	Blue	White
+407	Le Detecteur Lv. 3	140	Dragon	25	30	White	White	White
+408	Le Detecteur Lv. 4	150	Dragon	26	35	White	White	White
+409	La Verite Lv. 5	160	Dragon	28	35	White	White	White
+410	La Verite Lv. 6	240	Dragon	30	35	White	White	White
+411	La Verite Lv. 7	260	Dragon	32	35	White	White	White
+412	Le Limier Lv. 8	280	Dragon	34	35	White	Purple	Purple
+413	Icesteel Dagger Lv. 1	120	Ice	18	5	Green	Green	Blue
+414	Icesteel Dagger Lv. 2	130	Ice	20	5	Green	Blue	Blue
+415	Icesteel Dagger Lv. 3	180	Ice	24	10	Blue	Blue	White
+416	Daora's Razor Lv. 4	190	Ice	26	10	Blue	White	White
+417	Daora's Razor Lv. 5	280	Ice	30	10	White	White	White
+418	Daora's Maelstrom Lv. 6	310	Ice	32	10	White	Purple	Purple
+419	Skeletal Blade Lv. 1	160	Dragon	10	-25	Yellow	Yellow	Yellow
+420	Skeletal Blade Lv. 2	180	Dragon	12	-25	Yellow	Green	Green
+421	Skeletal Blade Lv. 3	230	Dragon	14	-25	Green	Green	Green
+422	Skeletal Blade Lv. 4	250	Dragon	16	-25	Green	Green	Green
+423	Infernal Horns Lv. 5	260	Dragon	18	-25	Green	Blue	Blue
+424	Infernal Horns Lv. 6	330	Dragon	19	-20	Green	Blue	White
+425	Aldebaran Horns Lv. 7	380	Dragon	20	-20	Green	White	White
+426	Floral Seif Lv. 1	100	Blast	8	0	Green	Green	Green
+427	Floral Seif Lv. 2	120	Blast	10	0	Green	Green	Blue
+428	Floral Seif Lv. 3	160	Blast	13	0	Green	Blue	Blue
+429	Blooming Seif Lv. 4	170	Blast	15	0	Green	Blue	Blue
+430	Blooming Seif Lv. 5	240	Blast	20	0	Green	Blue	White
+431	Garlanded Seif Lv. 6	300	Blast	24	0	Green	Blue	White
+432	Black Belt Sword Lv. 1	120	(No Element)	0	0	Green	Green	Green
+433	Black Belt Sword Lv. 2	130	(No Element)	0	0	Green	Green	Green
+434	Black Belt Sword Lv. 3	160	(No Element)	0	0	Green	Green	Blue
+435	Shihan Sword Lv. 4	200	(No Element)	0	0	Blue	Blue	Blue
+436	Shihan Sword Lv. 5	270	(No Element)	0	0	Blue	Blue	White
+437	Grandmaster Sword Lv. 6	330	(No Element)	0	0	Blue	White	White
+438	Yukumo Pure Cutter Lv. 1	130	(No Element)	0	0	Green	Green	Green
+439	Yukumo Pure Cutter Lv. 2	150	(No Element)	0	0	Green	Green	Blue
+440	Yukumo Pure Cutter Lv. 3	170	(No Element)	0	0	Blue	Blue	White
+441	Divine Yukumo Axe Lv. 4	220	(No Element)	0	0	Blue	Blue	White
+442	Divine Yukumo Axe Lv. 5	290	(No Element)	0	0	White	White	White
+443	Spiritual Yukumo Axe Lv. 6	340	(No Element)	0	0	White	White	Purple
+444	Black Sword Lv. 1	100	Dragon	20	0	Green	Green	Green
+445	Black Sword Lv. 2	120	Dragon	21	0	Green	Green	Green
+446	Black Sword Lv. 3	140	Dragon	22	0	Green	Green	Blue
+447	Black Sword Lv. 4	170	Dragon	23	0	Green	Blue	Blue
+448	Chrono Sword Lv. 5	200	Dragon	25	0	Green	White	White
+449	Chrono Sword Lv. 6	270	Dragon	27	0	Blue	White	Purple
+450	Fatalis Sword Lv. 7	290	Dragon	28	0	Blue	Purple	Purple
+451	Hero's Blade Lv. 1	100	(No Element)	0	30	Yellow	Green	Green
+452	Hero's Blade Lv. 2	120	(No Element)	0	35	Green	Green	Green
+453	Hero's Blade Lv. 3	140	(No Element)	0	40	Blue	Blue	Blue
+454	Hero's Blade Lv. 4	160	(No Element)	0	40	Blue	White	White
+455	Master's Blade Lv. 5	180	(No Element)	0	40	White	White	White
+456	Master's Blade Lv. 6	220	(No Element)	0	40	White	White	White
+457	Master's Blade Lv. 7	260	(No Element)	0	40	White	White	Purple
+458	Legend's Blade Lv. 8	290	(No Element)	0	50	Purple	Purple	Purple
+459	Eternal Strife Lv. 1	80	Dragon	41	0	Green	Green	Blue
+460	Eternal Strife Lv. 2	100	Dragon	46	0	Green	Blue	Blue
+461	Eternal Hate Lv. 3	140	Dragon	52	0	Blue	Blue	White
+462	Eternal Hate Lv. 4	160	Dragon	56	0	White	White	White
+463	Eternal Hate Lv. 5	200	Dragon	58	0	White	White	White
+464	Eternal Vengeance Lv. 6	250	Dragon	60	0	White	White	White
+465	Odyssey Blade Lv. 1	140	Water	24	0	Green	Green	Green
+466	Odyssey Blade Lv. 2	160	Water	26	0	Green	Green	Blue
+467	Odyssey Blade Lv. 3	180	Water	28	0	Blue	Blue	White
+468	Master Odyssey Lv. 4	210	Water	30	0	Blue	White	White
+469	Master Odyssey Lv. 5	270	Water	32	0	White	Purple	Purple
+470	Agamemnon Lv. 6	330	Water	34	0	White	Purple	Purple
+471	Celestial Sword Lv. 1	150	Water	10	0	Green	Green	Green
+472	Celestial Sword Lv. 2	170	Water	12	0	Green	Green	Green
+473	Celestial Sword Lv. 3	190	Water	14	0	Green	Blue	Blue
+474	Celestial Brand Lv. 4	220	Water	15	0	Green	Blue	Blue
+475	Celestial Brand Lv. 5	260	Water	16	0	Green	Blue	Blue
+476	Empyreal Brand Lv. 6	350	Water	17	0	Green	Blue	White
+477	Sharkutter Lv. 1	180	Ice	10	-15	Green	Green	Blue
+478	Sharkutter Lv. 2	190	Ice	11	-15	Green	Blue	Blue
+479	Sharkutter Lv. 3	210	Ice	12	-15	Green	Blue	Blue
+480	Sharkgutter Lv. 4	230	Ice	14	-15	Green	White	White
+481	Sharkgutter Lv. 5	290	Ice	16	-15	Blue	White	White
+482	Sharkslitter Lv. 6	350	Ice	17	-15	Blue	White	White
+483	Worn Sword Lv. 1	110	(No Element)	0	-70	Orange	Orange	Orange
+484	Worn Sword Lv. 2	110	(No Element)	0	-70	Orange	Orange	Orange
+485	Worn Sword Lv. 3	110	(No Element)	0	-70	Yellow	Yellow	Yellow
+486	Worn Sword Lv. 4	110	(No Element)	0	-70	Yellow	Yellow	Yellow
+487	Weathered Sword Lv. 5	270	(No Element)	0	-70	Yellow	Blue	Blue
+488	Weathered Sword Lv. 6	280	(No Element)	0	-70	Yellow	Green	Blue
+489	Aged Sword Lv. 7	380	(No Element)	0	-70	Yellow	Blue	White
+490	Carapace Mace Lv. 1	170	(No Element)	0	-30	Green	Green	Blue
+491	Carapace Mace Lv. 2	210	(No Element)	0	-30	Blue	Blue	Blue
+492	Barroth Club Lv. 3	230	(No Element)	0	-40	Blue	Blue	White
+493	Barroth Club Lv. 4	300	(No Element)	0	-40	Blue	Blue	White
+494	Barroth Club Lv. 5	330	(No Element)	0	-40	White	White	White
+495	Pneumatic Drillblade Lv. 6	360	(No Element)	0	-40	White	White	White
+496	Scaly Sword Lv. 1	120	Sleep	16	15	White	White	White
+497	Scaly Sword Lv. 2	140	Sleep	17	20	White	White	White
+498	Nerskiller Lv. 3	150	Sleep	18	25	White	White	White
+499	Nerskiller Lv. 4	200	Sleep	20	25	White	White	White
+500	Nerskiller Lv. 5	230	Sleep	21	25	White	White	Purple
+501	Shadow Nerwrithe Lv. 6	270	Sleep	22	30	White	Purple	Purple
+502	Sharfin Sword Lv. 1	190	Ice	18	-10	Blue	Blue	Blue
+503	Sharfin Sword Lv. 2	200	Ice	20	-10	Blue	Blue	White
+504	Sharfinisher Lv. 3	220	Ice	21	-10	Blue	White	White
+505	Sharfinisher Lv. 4	300	Ice	30	-10	White	White	Purple
+506	Icy Akzar Lv. 5	330	Ice	33	-10	White	Purple	Purple
+507	Weary Finsword Lv. 1	140	Sleep	26	0	Green	Blue	Blue
+508	Weary Finsword Lv. 2	150	Sleep	30	0	Green	Blue	Blue
+509	Sandman Finsword Lv. 3	160	Sleep	32	0	Green	Blue	Blue
+510	Sandman Finsword Lv. 4	200	Sleep	32	0	Blue	Blue	White
+511	Sandman Finsword Lv. 5	230	Sleep	32	0	Blue	White	White
+512	Phobetor Finsword Lv. 6	250	Sleep	33	0	Blue	White	Purple
+513	Melynx Tool Lv. 1	120	Para	34	0	Green	Green	Green
+514	Melynx Tool Lv. 2	130	Para	36	0	Green	Green	Green
+515	Melynx Gadget Lv. 3	140	Para	38	0	Green	Green	Green
+516	Melynx Gadget Lv. 4	200	Para	39	0	Green	Green	Blue
+517	Melynx Master Lv. 5	250	Para	40	0	Green	Green	Blue
+518	Shining Wyvern Blade Lv. 1	180	(No Element)	0	0	Green	Blue	Blue
+519	Shining Wyvern Blade Lv. 2	200	(No Element)	0	0	Green	Blue	Blue
+520	Shining Wyvern Blade Lv. 3	230	(No Element)	0	0	Blue	Blue	Blue
+521	Shining Wyvernstruth Lv. 4	240	(No Element)	0	0	Blue	Blue	White
+522	Shining Wyvernstruth Lv. 5	320	(No Element)	0	0	White	White	White
+523	Shining Wyvernzenith Lv. 6	360	(No Element)	0	0	White	White	Purple
+524	Icicle Spike Lv. 1	160	Ice	32	30	Blue	Blue	White
+525	Nardebosche Lv. 2	180	Ice	35	30	Blue	White	White
+526	Nardebosche Lv. 3	270	Ice	37	30	White	White	White
+527	Never Event Lv. 4	290	Ice	38	30	White	Purple	Purple
+528	Flame Syphos Lv. 1	180	Fire	20	-25	Blue	Blue	White
+529	Black Doom Flame Lv. 2	210	Fire	25	-25	Blue	Blue	White
+530	Black Doom Flame Lv. 3	290	Fire	26	-20	White	White	White
+531	Black Doom Flame Lv. 4	310	Fire	28	-20	White	White	Purple
+532	Red Divine Flame Lv. 5	330	Fire	30	-15	White	White	Purple
+533	Cross Sword Lv. 1	170	Water	18	0	Blue	Blue	Blue
+534	Cross Sword Lv. 2	180	Water	19	0	Blue	Blue	Blue
+535	Dual Cross Brand Lv. 3	190	Water	20	0	Blue	Blue	White
+536	Dual Cross Brand Lv. 4	260	Water	22	0	Blue	Blue	White
+537	Dual Cross Brand Lv. 5	280	Water	24	0	White	White	White
+538	Grand Dual Cross Lv. 6	310	Water	26	0	White	Purple	Purple
+539	Corona Lv. 1	170	Fire	40	10	Blue	White	White
+540	Corona Lv. 2	180	Fire	42	15	Blue	White	White
+541	Daze Eye Lv. 3	190	Fire	44	15	Blue	White	White
+542	Daze Eye Lv. 4	270	Fire	46	15	White	White	Purple
+543	Suncore Lv. 5	290	Fire	48	15	White	Purple	Purple
+544	Storm Sword Lv. 1	180	Thunder	10	0	Blue	Blue	Blue
+545	Storm Sword Lv. 2	190	Thunder	12	0	Blue	Blue	White
+546	Takemikazuchi Lv. 3	220	Thunder	14	0	Blue	Blue	White
+547	Takemikazuchi Lv. 4	300	Thunder	15	0	White	White	White
+548	Takemikazuchi Lv. 5	320	Thunder	16	0	White	White	Purple
+549	Susanoo-no-Mikoto Lv. 6	340	Thunder	17	0	White	White	Purple
+550	Seditious Fang Lv. 1	160	(No Element)	0	15	White	White	White
+551	Seditious Fang Lv. 2	170	(No Element)	0	15	White	White	White
+552	Panja Sedition Lv. 3	180	(No Element)	0	15	White	White	White
+553	Panja Sedition Lv. 4	240	(No Element)	0	15	White	White	White
+554	Panja Sedition Lv. 5	260	(No Element)	0	15	Purple	Purple	Purple
+555	Sedition Shredder Lv. 6	290	(No Element)	0	15	Purple	Purple	Purple
+556	Baumfaller Lv. 1	180	(No Element)	0	0	Blue	White	White
+557	Baumfaller Lv. 2	190	(No Element)	0	0	Blue	White	White
+558	Dendrotomy Lv. 3	210	(No Element)	0	0	Blue	White	White
+559	Dendrotomy Lv. 4	310	(No Element)	0	0	White	White	White
+560	Plutocatena Lv. 5	340	(No Element)	0	0	White	White	Purple
+561	Demolition Cutter Lv. 1	170	Blast	30	0	Blue	Blue	Blue
+562	Demolition Cutter Lv. 2	180	Blast	32	0	Blue	Blue	White
+563	Struxion Demolisher Lv. 3	190	Blast	34	0	White	White	White
+564	Struxion Demolisher Lv. 4	270	Blast	35	0	White	White	Purple
+565	Struxion Demolisher Lv. 5	290	Blast	36	0	White	Purple	Purple
+566	Struxion Annihilator Lv. 6	310	Blast	38	0	Green	Blue	Blue
+567	Rajang Club Lv. 1	180	Thunder	10	-30	Green	Blue	Blue
+568	Rajang Club Lv. 2	190	Thunder	14	-20	Blue	White	White
+569	Rajang Club Lv. 3	200	Thunder	18	-10	Blue	White	White
+570	Banned Rajang Club Lv. 4	220	Thunder	20	-10	Blue	White	White
+571	Banned Rajang Club Lv. 5	300	Thunder	22	-10	White	White	White
+572	Cursed Rajang Club Lv. 6	330	Thunder	23	-10	White	Purple	Purple
+573	Dragonseal Sword Lv. 1	140	Dragon	12	0	Green	Blue	Blue
+574	Dragonseal Sword Lv. 2	180	Dragon	14	0	Blue	Blue	White
+575	Dragontruth Sword Lv. 3	200	Dragon	16	0	White	White	White
+576	Dragontruth Sword Lv. 4	220	Dragon	18	0	Purple	Purple	Purple
+577	Dragonzenith Sword Lv. 5	290	Dragon	20	0	Purple	Purple	Purple
+578	Ninja Sword Lv. 1	180	(No Element)	0	25	Green	Green	Green
+579	Ninja Sword Lv. 2	190	(No Element)	0	25	Green	Green	Green
+580	Hi Ninja Sword Lv. 3	200	(No Element)	0	30	Green	Blue	Blue
+581	Hi Ninja Sword Lv. 4	300	(No Element)	0	40	Green	Blue	Blue
+582	Ninja Master Sword Lv. 5	320	(No Element)	0	45	Green	Blue	Blue
+583	Divine Exodus Lv. 1	80	Dragon	56	0	Blue	Blue	White
+584	Divine Exodus Lv. 2	90	Dragon	58	0	Blue	Blue	White
+585	Divine Insodus Lv. 3	100	Dragon	60	0	Blue	White	White
+586	Divine Insodus Lv. 4	140	Dragon	62	0	Blue	White	White
+587	Divine Egression Lv. 5	200	Dragon	65	0	Blue	White	Purple
+588	Studded Club Lv. 1	230	(No Element)	0	-5	Green	Green	Blue
+589	Spiked Bat Lv. 2	240	(No Element)	0	-5	Green	Blue	Blue
+590	Spiked Bat Lv. 3	300	(No Element)	0	-5	Blue	White	White
+591	Spiked Bat Lv. 4	320	(No Element)	0	-5	Blue	White	White
+592	Barbaric Terror Lv. 5	350	(No Element)	0	-5	Blue	Purple	Purple
+593	Research Sword Lv. 1	180	(No Element)	0	15	Blue	Blue	White
+594	Discovery Sword Lv. 2	200	(No Element)	0	15	White	White	White
+595	Discovery Sword Lv. 3	230	(No Element)	0	20	White	White	Purple
+596	Discovery Sword Lv. 4	280	(No Element)	0	20	Purple	Purple	Purple
+597	Authority Pathfinder Lv. 5	300	(No Element)	0	25	Purple	Purple	Purple
+598	Inazuma Works Lv. 1	130	Thunder	36	0	White	White	White
+599	Inazuma Works Lv. 2	140	Thunder	38	0	White	White	White
+600	Ikazuchi Works Lv. 3	150	Thunder	40	0	White	White	White
+601	Ikazuchi Works Lv. 4	250	Thunder	42	0	White	White	White
+602	Dengeki Sword Lv. 5	290	Thunder	45	0	White	White	White
+603	Levindicator Lv. 1	150	Thunder	18	10	Blue	Blue	White
+604	Levindicator Lv. 2	180	Thunder	20	10	Blue	Blue	White
+605	CoroCoro Thunderbolt Lv. 3	200	Thunder	22	10	Blue	White	White
+606	CoroCoro Thunderbolt Lv. 4	290	Thunder	24	15	Blue	White	White
+607	Rolling Thunderbolt Lv. 5	330	Thunder	26	15	Blue	White	White
+608	Star Knight Sword Lv. 1	140	Ice	13	0	White	White	White
+609	Star Knight Sword Lv. 2	160	Ice	14	0	White	White	White
+610	Eternal Sword Lv. 3	180	Ice	15	0	White	White	White
+611	Eternal Sword Lv. 4	260	Ice	16	0	White	White	White
+612	Infinity Sword Lv. 5	300	Ice	18	0	White	White	White
+613	Hero's Sword Lv. 1	130	(No Element)	0	5	Blue	Blue	Blue
+614	Hero's Sword Lv. 2	150	(No Element)	0	10	Blue	Blue	Blue
+615	Master Sword Lv. 3	170	(No Element)	0	10	Blue	Blue	White
+616	Master Sword Lv. 4	270	(No Element)	0	15	Blue	Blue	White
+617	Master Sword G Lv. 5	300	(No Element)	0	15	White	White	White
+618	Falchion Lv. 1	170	Dragon	38	0	Blue	Blue	White
+619	Exalted Falchion Lv. 2	180	Dragon	40	0	Blue	White	White
+620	Exalted Falchion Lv. 3	270	Dragon	44	0	White	White	White
+621	Illustrious Falchion Lv. 4	290	Dragon	48	0	White	Purple	Purple
+622	Teostra's Spada Lv. 1	150	Blast	32	0	Blue	Blue	White
+623	Teostra's Spada Lv. 2	160	Blast	36	0	Blue	Blue	White
+624	Teostra's Emblem Lv. 3	170	Blast	40	0	Blue	White	White
+625	Teostra's Emblem Lv. 4	260	Blast	42	0	White	White	Purple
+626	Teostra's Medal Lv. 5	290	Blast	45	0	White	Purple	Purple
+627	Lunatic Rose Lv. 1	150	Poison	32	0	Blue	Blue	White
+628	Lunatic Rose Lv. 2	160	Poison	36	0	Blue	Blue	White
+629	Lunatic Briar Lv. 3	170	Poison	40	0	Blue	White	White
+630	Lunatic Briar Lv. 4	260	Poison	42	0	White	White	Purple
+631	Lunatic Thorn Lv. 5	290	Poison	45	0	White	Purple	Purple
+632	Golden Falchion Lv. 1	180	Fire	32	0	Blue	Blue	Blue
+633	Golden Falchion Lv. 2	190	Fire	35	0	Blue	Blue	White
+634	Golden Radius Lv. 3	200	Fire	40	0	Blue	Blue	White
+635	Golden Radius Lv. 4	290	Fire	42	0	White	White	White
+636	Golden Riot Lv. 5	310	Fire	44	0	White	White	Purple
+637	Demonlord Mace Lv. 1	160	Thunder	26	20	Blue	Blue	White
+638	Demonlord Mace Lv. 2	170	Thunder	28	25	Blue	Blue	White
+639	Demonlord Bludgeon Lv. 3	180	Thunder	30	30	Blue	Blue	White
+640	Demonlord Bludgeon Lv. 4	270	Thunder	32	30	Blue	White	White
+641	Demonlord Crusher Lv. 5	300	Thunder	35	30	Blue	White	Purple
+642	Akantor Duo Lv. 1	250	(No Element)	0	35	Yellow	Yellow	Green
+643	Akantor Duo Lv. 2	250	(No Element)	0	40	Yellow	Yellow	Green
+644	Akantor Coup Lv. 3	250	(No Element)	0	45	Yellow	Green	Green
+645	Akantor Coup Lv. 4	340	(No Element)	0	45	Green	Green	Green
+646	Akantor Purge Lv. 5	370	(No Element)	0	45	Green	Green	Blue
+647	Ukanlos Soul Hatchet Lv. 1	250	Ice	8	-25	Green	Green	Green
+648	Ukanlos Soul Hatchet Lv. 2	250	Ice	9	-25	Green	Green	Blue
+649	Ukanlos Skyhatchet Lv. 3	250	Ice	10	-20	Green	Green	Blue
+650	Ukanlos Skyhatchet Lv. 4	350	Ice	11	-20	Blue	Blue	Blue
+651	Ukanlos Earth Hatchet Lv. 5	370	Ice	12	-20	Blue	Blue	White
+652	Ominous Treasure Lv. 1	200	Water	8	-20	Blue	Blue	Blue
+653	Ominous Treasure Lv. 2	220	Water	10	-20	Blue	Blue	White
+654	Heavenly Gale Lv. 3	240	Water	12	-20	Blue	Blue	White
+655	Heavenly Gale Lv. 4	280	Water	16	-20	White	White	White
+656	Heaven and Earth Lv. 5	340	Water	18	-20	White	White	White
+657	Astral Taurus Lv. 1	170	Dragon	7	0	Blue	Blue	Blue
+658	Astral Taurus Lv. 2	180	Dragon	9	0	Blue	Blue	White
+659	Enraged Taurus Lv. 3	190	Dragon	12	0	White	White	White
+660	Enraged Taurus Lv. 4	280	Dragon	13	0	White	White	White
+661	Wrathful Taurus Lv. 5	310	Dragon	14	0	Purple	Purple	Purple
+662	Alatreon Sword Lv. 1	180	Dragon	25	0	White	White	White
+663	Alatreon Sword Lv. 2	180	Dragon	32	0	White	White	White
+664	Alatreon Star Lv. 3	180	Dragon	37	0	White	White	White
+665	Alatreon Star Lv. 4	260	Dragon	44	0	Purple	Purple	Purple
+666	Altheos Zodiarch Lv. 5	280	Dragon	55	0	Purple	Purple	Purple
+667	Silverwing Swiftblade Lv. 1	160	Dragon	34	0	White	White	White
+668	Dragonstar Alcor Lv. 2	180	Dragon	35	0	White	White	White
+669	Dragonstar Alcor Lv. 3	240	Dragon	37	0	White	White	White
+670	Dragonstar Alcor Lv. 4	270	Dragon	40	0	White	White	White
+671	Dragonstar Alcor Lv. 5	280	Dragon	42	0	White	White	White
+672	Magnastar Akri Lv. 6	300	Dragon	44	0	White	White	White
+673	Elder Sword Lv. 1	260	(No Element)	0	0	White	White	White
+674	Sage Sword Lv. 2	280	(No Element)	0	0	White	White	White
+675	Philosopher Sword Lv. 3	320	(No Element)	0	0	White	White	White
+676	Binding Blade Lv. 1	290	(No Element)	0	-15	White	Purple	Purple
+677	Great Kris Lv. 2	320	(No Element)	0	-15	White	Purple	Purple
+678	Bloodsucker Lv. 3	350	(No Element)	0	-15	White	Purple	Purple
+679	Drome Rush Dagger Lv. 1	280	(No Element)	0	10	White	White	White
+680	Great Stabberdag Lv. 2	310	(No Element)	0	10	White	White	Purple
+681	Azure Drome Tooth Lv. 3	330	(No Element)	0	10	White	White	Purple
+682	Bloodscale Sword Lv. 1	250	Poison	20	20	Purple	Purple	Purple
+683	Bloodsquama Sword Lv. 2	270	Poison	22	25	Purple	Purple	Purple
+684	Bloodslaughter Lv. 3	300	Poison	23	25	Purple	Purple	Purple
+685	Cryo Cross Lv. 1	300	Ice	15	15	Blue	White	White
+686	Icestorm Cross Lv. 2	320	Ice	17	15	Blue	White	White
+687	Glacio Cross Lv. 3	350	Ice	19	15	Blue	White	Purple
+688	Wycademy Dagger Lv. 1	260	Blast	12	0	White	White	Purple
+689	Insignia Dagger Lv. 2	280	Blast	13	0	Purple	Purple	Purple
+690	Ravilian Insignia Lv. 3	300	Blast	14	0	Purple	Purple	Purple
+691	Xin's Trust Lv. 1	250	(No Element)	0	20	Blue	White	White
+692	Xin's Faith Lv. 2	290	(No Element)	0	20	White	White	White
+693	Xin's Virtue Lv. 3	320	(No Element)	0	25	White	Purple	Purple
+694	Verstecken/Chercher Lv. 1	310	Dragon	6	-25/10	White	White	White
+695	Entkommen/Trouver Lv. 2	320	Dragon	7	-25/10	White	White	White
+696	Lugen/Verite Lv. 3	330	Dragon	8	-25/10	White	White	Purple
+697	Platinum Dawn Lv. 1	270	Fire	33	0	Purple	Purple	Purple
+698	Annular Sol Lv. 2	280	Fire	34	0	Purple	Purple	Purple
+699	Daybreak Sword Lv. 3	300	Fire	35	0	Purple	Purple	Purple
+700	Lightbreak Sword Lv. 1	260	Blast	39	0	White	White	White
+701	Lightbreak Ray Lv. 2	280	Blast	42	0	White	White	Purple
+702	Lightbreak Beam Lv. 3	300	Blast	44	0	White	Purple	Purple
+703	Goldsword Lv. 1	310	(No Element)	0	0	Purple	Purple	Purple
+704	Inscribed Ausir Lv. 2	320	(No Element)	0	0	Purple	Purple	Purple
+705	Unnefer Lv. 3	330	(No Element)	0	0	Purple	Purple	Purple
+706	Ruiner Sword Lv. 1	300	Blast	32	0	Blue	Blue	White
+707	True Ruiner Sword Lv. 2	320	Blast	33	0	Blue	Blue	Purple
+708	Absolute Ruiner Sword Lv. 3	330	Blast	34	0	Blue	Purple	Purple
+709	O. Fatalis Sword Lv. 1	260	Dragon	42	0	White	White	White
+710	True O. Fatalis Sword Lv. 2	280	Dragon	43	0	White	White	White
+711	Pure O. Fatalis Sword Lv. 3	300	Dragon	44	0	White	Purple	Purple
+712	Dreadqueen Rapier Lv. 1	80	Poison	28	5	Green	Green	Green
+713	Dreadqueen Rapier Lv. 2	100	Poison	29	5	Green	Green	Blue
+714	Dreadqueen Rapier Lv. 3	110	Poison	30	5	Green	Blue	Blue
+715	Dreadqueen Rapier Lv. 4	120	Poison	32	10	Blue	Blue	Blue
+716	Dreadqueen Rapier Lv. 5	130	Poison	33	10	Blue	Blue	Blue
+717	Dreadqueen Rapier Lv. 6	140	Poison	34	10	Blue	Blue	White
+718	Dreadqueen Rapier Lv. 7	150	Poison	35	10	Blue	Blue	White
+719	Dreadqueen Rapier Lv. 8	160	Poison	36	10	Blue	White	White
+720	Dreadqueen Rapier Lv. 9	180	Poison	37	10	Blue	White	White
+721	Dreadqueen Rapier Rose Lv. 10	190	Poison	38	10	Blue	White	White
+722	Dreadqueen Rapier Rose Lv. 11	230	Poison	39	10	Blue	White	White
+723	Dreadqueen Rapier Rose Lv. 12	240	Poison	40	10	White	White	White
+724	Dreadqueen Rapier Rose Lv. 13	260	Poison	42	10	White	White	White
+725	Dreadqueen Rapier Rose Lv. 14	270	Poison	43	10	Purple	Purple	Purple
+726	Dreadqueen Rapierina Lv. 15	290	Poison	44	10	Purple	Purple	Purple
+727	Drilltusk Truncheon Lv. 1	130	(No Element)	0	5	Green	Green	Blue
+728	Drilltusk Truncheon Lv. 2	140	(No Element)	0	5	Green	Blue	Blue
+729	Drilltusk Truncheon Lv. 3	150	(No Element)	0	5	Green	Blue	Blue
+730	Drilltusk Truncheon Lv. 4	160	(No Element)	0	5	Green	Blue	Blue
+731	Drilltusk Truncheon Lv. 5	170	(No Element)	0	5	Blue	Blue	Blue
+732	Drilltusk Truncheon Lv. 6	180	(No Element)	0	5	Blue	Blue	White
+733	Drilltusk Truncheon Lv. 7	190	(No Element)	0	5	Blue	Blue	White
+734	Drilltusk Truncheon Lv. 8	200	(No Element)	0	5	Blue	Blue	White
+735	Drilltusk Truncheon Lv. 9	210	(No Element)	0	5	Blue	Blue	White
+736	Official Truncheon Lv. 10	220	(No Element)	0	5	Blue	White	White
+737	Official Truncheon Lv. 11	240	(No Element)	0	5	Blue	White	White
+738	Official Truncheon Lv. 12	250	(No Element)	0	5	Blue	White	White
+739	Official Truncheon Lv. 13	290	(No Element)	0	5	White	White	White
+740	Official Truncheon Lv. 14	310	(No Element)	0	5	White	White	Purple
+741	Constable's Truncheon Lv. 15	340	(No Element)	0	5	White	Purple	Purple
+742	Nightfall Edge Lv. 1	140	(No Element)	0	10	White	White	White
+743	Nightfall Edge Lv. 2	140	(No Element)	0	10	White	White	White
+744	Nightfall Edge Lv. 3	150	(No Element)	0	10	White	White	White
+745	Nightfall Edge Lv. 4	160	(No Element)	0	10	White	White	White
+746	Nightfall Edge Lv. 5	160	(No Element)	0	10	White	White	White
+747	Nightfall Edge Lv. 6	170	(No Element)	0	10	White	White	White
+748	Nightfall Edge Lv. 7	180	(No Element)	0	10	White	White	White
+749	Nightfall Edge Lv. 8	180	(No Element)	0	10	White	White	White
+750	Nightfall Edge Lv. 9	190	(No Element)	0	10	White	White	White
+751	Silverwind Edge Lv. 10	190	(No Element)	0	15	White	White	White
+752	Silverwind Edge Lv. 11	220	(No Element)	0	15	Purple	Purple	Purple
+753	Silverwind Edge Lv. 12	240	(No Element)	0	15	Purple	Purple	Purple
+754	Silverwind Edge Lv. 13	260	(No Element)	0	20	Purple	Purple	Purple
+755	Silverwind Edge Lv. 14	280	(No Element)	0	20	Purple	Purple	Purple
+756	Daybreak Edge Lv. 15	300	(No Element)	0	20	Purple	Purple	Purple
+757	Geode Mace Lv. 1	150	(No Element)	0	5	Green	Green	Blue
+758	Geode Mace Lv. 2	150	(No Element)	0	5	Green	Green	Blue
+759	Geode Mace Lv. 3	160	(No Element)	0	5	Green	Green	Blue
+760	Geode Mace Lv. 4	170	(No Element)	0	5	Green	Green	Blue
+761	Geode Mace Lv. 5	180	(No Element)	0	5	Green	Green	Blue
+762	Geode Mace Lv. 6	180	(No Element)	0	5	Green	Blue	Blue
+763	Geode Mace Lv. 7	190	(No Element)	0	5	Green	Blue	Blue
+764	Geode Mace Lv. 8	200	(No Element)	0	5	Green	Blue	Blue
+765	Geode Mace Lv. 9	210	(No Element)	0	5	Green	Blue	Blue
+766	Crystalbeard Mace Lv. 10	220	(No Element)	0	5	Green	Blue	Blue
+767	Crystalbeard Mace Lv. 11	300	(No Element)	0	10	Green	Blue	Blue
+768	Crystalbeard Mace Lv. 12	330	(No Element)	0	10	Green	Blue	Blue
+769	Crystalbeard Mace Lv. 13	350	(No Element)	0	10	Green	Blue	Blue
+770	Crystalbeard Mace Lv. 14	370	(No Element)	0	10	Green	Blue	Blue
+771	Diamante Mace Lv. 15	380	(No Element)	0	10	Green	Blue	Blue
+772	Hardened Edge Lv. 1	160	(No Element)	0	10	Blue	Blue	White
+773	Hardened Edge Lv. 2	160	(No Element)	0	10	Blue	Blue	White
+774	Hardened Edge Lv. 3	170	(No Element)	0	10	Blue	Blue	White
+775	Hardened Edge Lv. 4	170	(No Element)	0	10	Blue	White	White
+776	Hardened Edge Lv. 5	180	(No Element)	0	10	Blue	White	White
+777	Hardened Edge Lv. 6	180	(No Element)	0	10	Blue	White	White
+778	Hardened Edge Lv. 7	190	(No Element)	0	10	Blue	White	White
+779	Hardened Edge Lv. 8	190	(No Element)	0	10	Blue	White	White
+780	Hardened Edge Lv. 9	200	(No Element)	0	10	Blue	White	White
+781	Deadeye Edge Lv. 10	210	(No Element)	0	10	Blue	White	White
+782	Deadeye Edge Lv. 11	270	(No Element)	0	15	White	White	White
+783	Deadeye Edge Lv. 12	280	(No Element)	0	15	White	White	White
+784	Deadeye Edge Lv. 13	290	(No Element)	0	15	White	White	White
+785	Deadeye Edge Lv. 14	300	(No Element)	0	20	White	White	White
+786	Deadeye Fiasco Lv. 15	320	(No Element)	0	20	White	Purple	Purple
+787	Tomb Edge Lv. 1	160	Fire	27	5	Green	Blue	Blue
+788	Tomb Edge Lv. 2	160	Fire	28	5	Green	Blue	Blue
+789	Tomb Edge Lv. 3	160	Fire	29	5	Green	Blue	Blue
+790	Tomb Edge Lv. 4	170	Fire	30	5	Green	Blue	Blue
+791	Tomb Edge Lv. 5	170	Fire	31	5	Blue	White	White
+792	Tomb Edge Lv. 6	170	Fire	32	5	Blue	White	White
+793	Tomb Edge Lv. 7	180	Fire	33	5	Blue	White	White
+794	Tomb Edge Lv. 8	180	Fire	34	5	Blue	White	White
+795	Tomb Edge Lv. 9	180	Fire	35	5	Blue	White	White
+796	Dreadking Edge Lv. 10	190	Fire	36	5	Blue	White	White
+797	Dreadking Edge Lv. 11	250	Fire	37	5	White	White	White
+798	Dreadking Edge Lv. 12	270	Fire	38	5	White	White	White
+799	Dreadking Edge Lv. 13	280	Fire	40	5	White	White	White
+800	Dreadking Edge Lv. 14	300	Fire	41	5	White	White	White
+801	Firewaltz Edge Lv. 15	310	Fire	42	5	White	Purple	Purple
+802	Thunderlord Firebolt Lv. 1	160	Thunder	31	5	Green	Blue	Blue
+803	Thunderlord Firebolt Lv. 2	160	Thunder	32	5	Green	Blue	Blue
+804	Thunderlord Firebolt Lv. 3	160	Thunder	33	5	Green	Blue	Blue
+805	Thunderlord Firebolt Lv. 4	170	Thunder	34	5	Green	Blue	Blue
+806	Thunderlord Firebolt Lv. 5	170	Thunder	35	5	Blue	White	White
+807	Thunderlord Firebolt Lv. 6	170	Thunder	36	5	Blue	White	White
+808	Thunderlord Firebolt Lv. 7	180	Thunder	37	5	Blue	White	White
+809	Thunderlord Firebolt Lv. 8	180	Thunder	38	5	Blue	White	White
+810	Thunderlord Firebolt Lv. 9	180	Thunder	39	5	Blue	White	White
+811	Thunderlord Crookbolt Lv. 10	190	Thunder	40	5	Blue	White	White
+812	Thunderlord Crookbolt Lv. 11	260	Thunder	41	5	White	White	White
+813	Thunderlord Crookbolt Lv. 12	270	Thunder	42	5	White	White	White
+814	Thunderlord Crookbolt Lv. 13	280	Thunder	43	5	White	White	White
+815	Thunderlord Crookbolt Lv. 14	290	Thunder	44	5	White	White	White
+816	Thunderlord Skybolt Lv. 15	300	Thunder	45	5	White	Purple	Purple
+817	Grimclaw Barb Lv. 1	170	(No Element)	0	10	White	White	White
+818	Grimclaw Barb Lv. 2	170	(No Element)	0	10	White	White	White
+819	Grimclaw Barb Lv. 3	170	(No Element)	0	10	White	White	White
+820	Grimclaw Barb Lv. 4	180	(No Element)	0	10	White	White	White
+821	Grimclaw Barb Lv. 5	180	(No Element)	0	10	White	White	White
+822	Grimclaw Barb Lv. 6	180	(No Element)	0	10	White	White	White
+823	Grimclaw Barb Lv. 7	190	(No Element)	0	10	White	White	White
+824	Grimclaw Barb Lv. 8	190	(No Element)	0	10	White	White	White
+825	Grimclaw Barb Lv. 9	190	(No Element)	0	10	White	White	White
+826	Grimclaw Glare Lv. 10	200	(No Element)	0	10	White	White	White
+827	Grimclaw Glare Lv. 11	270	(No Element)	0	10	White	White	White
+828	Grimclaw Glare Lv. 12	280	(No Element)	0	10	White	White	White
+829	Grimclaw Glare Lv. 13	290	(No Element)	0	10	Purple	Purple	Purple
+830	Grimclaw Glare Lv. 14	300	(No Element)	0	10	Purple	Purple	Purple
+831	Grimclaw Spur Lv. 15	310	(No Element)	0	10	Purple	Purple	Purple
+832	Fiery Prominar Lv. 1	170	Blast	16	5	Blue	Blue	Blue
+833	Fiery Prominar Lv. 2	170	Blast	17	5	Blue	Blue	Blue
+834	Fiery Prominar Lv. 3	170	Blast	18	5	Blue	Blue	Blue
+835	Fiery Prominar Lv. 4	180	Blast	19	5	Blue	Blue	Blue
+836	Fiery Prominar Lv. 5	180	Blast	20	5	Blue	Blue	Blue
+837	Fiery Prominar Lv. 6	180	Blast	21	5	Blue	Blue	White
+838	Fiery Prominar Lv. 7	190	Blast	22	5	White	White	White
+839	Fiery Prominar Lv. 8	190	Blast	23	5	White	White	White
+840	Fiery Prominar Lv. 9	190	Blast	24	5	White	White	White
+841	Magma Hellblade Lv. 10	200	Blast	25	5	White	White	White
+842	Magma Hellblade Lv. 11	260	Blast	26	5	Purple	Purple	Purple
+843	Magma Hellblade Lv. 12	270	Blast	27	5	Purple	Purple	Purple
+844	Magma Hellblade Lv. 13	280	Blast	28	5	Purple	Purple	Purple
+845	Magma Hellblade Lv. 14	290	Blast	29	5	Purple	Purple	Purple
+846	Magma Nova Lv. 15	300	Blast	30	5	Purple	Purple	Purple
+847	Cloaked Fan Lv. 1	260	Sleep	12	5	Blue	Blue	White
+848	Cloaked Fan Lv. 2	270	Sleep	13	5	Blue	White	White
+849	Cloaked Schlaf Lv. 3	310	Sleep	14	10	Blue	White	White
+850	Cloaked Schlaf Lv. 4	320	Sleep	15	10	Blue	White	White
+851	Cloaked Dammerschlaf Lv. 5	330	Sleep	16	10	Blue	White	White
+852	Razor Render Lv. 1	250	(No Element)	0	5	White	White	White
+853	Razor Render Lv. 2	270	(No Element)	0	5	White	White	White
+854	Careless Render Lv. 3	290	(No Element)	0	5	White	White	Purple
+855	Careless Render Lv. 4	310	(No Element)	0	5	White	White	Purple
+856	Rustrazor Render Lv. 5	330	(No Element)	0	5	White	Purple	Purple
+857	Kyoka Fugetsu Lv. 1	240	Water	26	15	White	White	White
+858	Kyoka Fugetsu Lv. 2	260	Water	27	15	White	White	White
+859	Tokaede Lv. 3	280	Water	28	15	White	White	White
+860	Tokaede Lv. 4	300	Water	29	20	White	White	Purple
+861	Sanitsurau Lv. 5	320	Water	30	20	White	Purple	Purple
+862	Zephra Rapier Lv. 1	230	Thunder	14	30	Purple	Purple	Purple
+863	Zephra Rapier Lv. 2	240	Thunder	15	30	Purple	Purple	Purple
+864	Zephra Espada Lv. 3	250	Thunder	16	35	Purple	Purple	Purple
+865	Zephra Espada Lv. 4	270	Thunder	17	35	Purple	Purple	Purple
+866	Zilvolt Espada Lv. 5	280	Thunder	18	40	Purple	Purple	Purple
+867	Elderfrost Sword Lv. 1	340	Ice	12	5	Green	Green	Blue
+868	Elderfrost Sword Lv. 2	350	Ice	13	5	Green	Blue	Blue
+869	Elderfrost Opposer Lv. 3	360	Ice	14	5	Green	Blue	Blue
+870	Elderfrost Opposer Lv. 4	370	Ice	15	5	Green	Blue	White
+871	Elderfrost Giant Slalom Lv. 5	380	Ice	16	5	Green	Blue	White
+872	Massacre Club Lv. 1	330	(No Element)	0	-30	White	White	White
+873	Massacre Club Lv. 2	340	(No Element)	0	-30	White	White	White
+874	Massacre Bludgeon Lv. 3	350	(No Element)	0	-30	White	White	White
+875	Massacre Bludgeon Lv. 4	360	(No Element)	0	-30	White	White	White
+876	Kristatu Lv. 5	370	(No Element)	0	-30	White	Purple	Purple

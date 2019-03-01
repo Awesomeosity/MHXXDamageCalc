@@ -1,0 +1,17 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head	55	55	45	10	10	0	15	5	100	100
+1	Torso	25	25	10	5	5	0	5	5	0	100
+2	Back	45	40	40	10	15	0	20	5	0	100
+3	Forelegs	25	30	20	5	5	0	15	5	0	100
+4	Hind Legs	45	45	35	5	5	0	10	5	0	100
+5	Shoulders	44	44	25	5	5	0	10	5	0	100
+6	Tail	30	25	25	5	5	0	5	5	0	100
+7	Tail Tip	21	20	10	10	15	0	25	5	0	100
+8	Head (Ultracharged)	65	65	45	10	10	0	15	10	120	100
+9	Torso (Ultracharged)	30	30	10	5	10	0	10	5	0	100
+10	Back (Ultracharged)	45	40	40	15	20	0	25	5	0	100
+11	Forelegs (Ultracharged)	21	21	10	5	5	0	25	5	0	100
+12	Hind Legs (Ultracharged)	50	50	35	10	10	0	15	5	0	100
+13	Shoulders (Ultracharged)	45	45	25	10	10	0	15	5	0	100
+14	Tail (Ultracharged)	30	25	25	5	10	0	10	5	0	100
+15	Tail Tip (Ultracharged)	21	19	10	10	15	0	25	5	0	100

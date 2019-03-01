@@ -1,0 +1,719 @@
+ID	name	raw	affinity
+0	Petrified Cannon Lv. 1	80	0
+1	Petrified Cannon Lv. 2	90	0
+2	Petrified Cannon Lv. 3	100	0
+3	Petrified Cannon Lv. 4	110	0
+4	Petrified Cannon Lv. 5	120	0
+5	Petrified Cannon Lv. 6	160	0
+6	Petrified Cannon Lv. 7	180	0
+7	Scholarly Cannon Lv. 8	200	0
+8	Scholarly Cannon Lv. 9	240	0
+9	Scholarly Cannon Lv. 10	270	0
+10	Sophos Cannon Lv. 11	320	0
+11	Arbalest Lv. 1	90	0
+12	Arbalest Lv. 2	100	0
+13	Arbalest Lv. 3	110	0
+14	Arbalest Lv. 4	120	0
+15	Arbalest Lv. 5	130	0
+16	Arbalest Lv. 6	140	0
+17	Arbalest Lv. 7	170	0
+18	Great Arbalest Lv. 8	190	0
+19	Great Arbalest Lv. 9	220	0
+20	Great Arbalest Lv. 10	250	0
+21	Magnificent Arbalest Lv. 11	310	0
+22	Bone Shooter Lv. 1	70	0
+23	Bone Shooter Lv. 2	80	0
+24	Bone Shooter Lv. 3	90	0
+25	Bone Shooter Lv. 4	100	0
+26	Bone Shooter Lv. 5	120	0
+27	Bone Shooter Lv. 6	150	0
+28	Bone Shooter Lv. 7	170	0
+29	Bone Buster Lv. 8	180	0
+30	Bone Buster Lv. 9	220	0
+31	Bone Buster Lv. 10	250	0
+32	Bone Blaster Lv. 11	310	0
+33	Injector Cannon Lv. 1	100	0
+34	Injector Cannon Lv. 2	110	0
+35	Injector Cannon Lv. 3	130	0
+36	Injector Cannon Lv. 4	170	0
+37	Zect Injector Lv. 5	190	0
+38	Zect Injector Lv. 6	230	0
+39	Zect Injector Lv. 7	270	0
+40	Trypanophobia Lv. 8	320	0
+41	Sand Diver Lv. 1	90	0
+42	Sand Diver Lv. 2	100	0
+43	Sand Diver Lv. 3	120	0
+44	Sand Diver Lv. 4	150	0
+45	Sand Diver Lv. 5	180	0
+46	Desert Diver Lv. 6	190	0
+47	Desert Diver Lv. 7	230	0
+48	Dune Diver Lv. 8	310	0
+49	Anteka Burst Lv. 1	100	0
+50	Anteka Burst Lv. 2	110	0
+51	Anteka Burst Lv. 3	130	0
+52	Anteka Burst Lv. 4	160	0
+53	Anteka Blaster Lv. 5	190	0
+54	Anteka Blaster Lv. 6	220	0
+55	Anteka Shatterblast Lv. 7	310	0
+56	Marino Burst Lv. 1	80	0
+57	Marino Burst Lv. 2	100	0
+58	Marino Burst Lv. 3	140	0
+59	Marino Burst Lv. 4	180	0
+60	Marino Cannon Lv. 5	200	0
+61	Marino Cannon Lv. 6	240	0
+62	Purple October Lv. 7	330	0
+63	Yukumo Bowgun Lv. 1	100	0
+64	Yukumo Bowgun Lv. 2	110	0
+65	Yukumo Bowgun Lv. 3	130	0
+66	Yukumo Bowgun Lv. 4	170	0
+67	Yukumo Cannon Lv. 5	190	0
+68	Yukumo Cannon Lv. 6	240	10
+69	Yukumo Cannon Lv. 7	270	10
+70	Hot Spring Cannon Lv. 8	310	20
+71	Meteor Bazooka Lv. 1	100	0
+72	Meteor Bazooka Lv. 2	110	0
+73	Meteor Bazooka Lv. 3	120	0
+74	Meteor Bazooka Lv. 4	150	0
+75	Meteor Cannon Lv. 5	190	0
+76	Meteor Cannon Lv. 6	250	0
+77	Galaxy Cannon Lv. 7	300	0
+78	Yian Kut-Ku Cannon Lv. 1	120	0
+79	Yian Kut-Ku Cannon Lv. 2	140	0
+80	Yian Kut-Ku Cannon Lv. 3	150	0
+81	Yian Kut-Ku Cannon Lv. 4	180	0
+82	Super Kut-Ku Cannon Lv. 5	200	0
+83	Super Kut-Ku Cannon Lv. 6	240	0
+84	Gigantic Kut-Ku Cannon Lv. 7	320	0
+85	Spheniscine Slayer Lv. 1	110	0
+86	Spheniscine Slayer Lv. 2	120	0
+87	Spheniscine Slayer Lv. 3	140	0
+88	Spheniscine Slayer Lv. 4	180	0
+89	Spheniscine Ruler Lv. 5	200	0
+90	Spheniscine Ruler Lv. 6	240	0
+91	Spheniscine Overlord Lv. 7	320	0
+92	Tankmage Lv. 1	110	0
+93	Tankmage Lv. 2	120	0
+94	Tankmage Lv. 3	140	0
+95	Tankmage Lv. 4	180	0
+96	Tanksorcerer Lv. 5	200	0
+97	Tanksorcerer Lv. 6	250	0
+98	Tankwizard Lv. 7	320	0
+99	Crab Buster Lv. 1	110	0
+100	Crab Buster Lv. 2	130	0
+101	Crab Buster Lv. 3	160	0
+102	Crab Buster Lv. 4	190	0
+103	Heavy Crab Buster Lv. 5	200	0
+104	Heavy Crab Buster Lv. 6	230	0
+105	Heavy Crab Buster Lv. 7	270	0
+106	Immovable Cannon Lv. 8	320	0
+107	Carom Shot Lv. 1	130	0
+108	Carom Shot Lv. 2	150	0
+109	Carom Shot Lv. 3	180	0
+110	Rebound Shot Lv. 4	200	0
+111	Rebound Shot Lv. 5	230	0
+112	Red-Hot Rebound Shot Lv. 6	320	0
+113	Binary Blaster Lv. 1	120	5
+114	Binary Blaster Lv. 2	130	5
+115	Binary Blaster Lv. 3	170	5
+116	Swoon Cannon Lv. 4	190	5
+117	Swoon Cannon Lv. 5	250	5
+118	Swoon Cannon Lv. 6	290	10
+119	Somnolescent Cannon Lv. 7	320	10
+120	Type 46 Gunflage Lv. 1	110	0
+121	Type 46 Gunflage Lv. 2	120	0
+122	Type 46 Gunflage Lv. 3	140	0
+123	Type 46 Gunflage Lv. 4	180	0
+124	Nibelflage Prototype Lv. 5	200	0
+125	Nibelflage Prototype Lv. 6	260	0
+126	Final Nibelflage Lv. 7	320	0
+127	Icethrower Lv. 1	120	0
+128	Icethrower Lv. 2	140	0
+129	Icethrower Lv. 3	180	0
+130	Iceblaster Lv. 4	200	0
+131	Iceblaster Lv. 5	260	0
+132	Iceblaster Lv. 6	280	0
+133	Icelauncher Lv. 7	320	0
+134	Bite Blaster Lv. 1	130	0
+135	Bite Blaster Lv. 2	150	0
+136	Bite Blaster Lv. 3	180	0
+137	Biting Blast Lv. 4	200	0
+138	Biting Blast Lv. 5	250	0
+139	Ravager Blast Lv. 6	310	0
+140	Hidden Gambit Lv. 1	110	20
+141	Hidden Gambit Lv. 2	120	20
+142	Hidden Gambit Lv. 3	150	30
+143	Hidden Gambit Lv. 4	180	30
+144	Baleful Night Lv. 5	190	30
+145	Baleful Night Lv. 6	250	30
+146	Baleful Night Lv. 7	280	30
+147	Avidya Gambit Lv. 8	300	30
+148	Moofire Cannon Lv. 1	110	0
+149	Moofire Cannon Lv. 2	120	0
+150	Moofire Cannon Lv. 3	130	0
+151	Moofire Cannon Lv. 4	170	0
+152	Mooflame Cannon Lv. 5	190	0
+153	Mooflame Cannon Lv. 6	250	0
+154	Mooflare Cannon Lv. 7	310	0
+155	Lunastra's Zeal Lv. 1	130	-30
+156	Lunastra's Zeal Lv. 2	150	-30
+157	Lunastra's Zeal Lv. 3	210	-30
+158	Lunastra's Roar Lv. 4	230	-30
+159	Lunastra's Roar Lv. 5	290	-30
+160	Lunastra's Charge Lv. 6	350	-30
+161	Felyne Bowgun Lv. 1	110	0
+162	Felyne Bowgun Lv. 2	130	0
+163	Felyne Bowgun Lv. 3	160	0
+164	Felyne Bowgun Lv. 4	190	0
+165	Felyne Cannon Lv. 5	200	0
+166	Felyne Cannon Lv. 6	240	0
+167	Felyne Artillery Lv. 7	320	0
+168	Obsidian Cannon Lv. 1	140	10
+169	Obsidian Cannon Lv. 2	180	10
+170	Obsidian Cannon Lv. 3	190	10
+171	Relic Cannon Lv. 4	210	10
+172	Relic Cannon Lv. 5	270	15
+173	Ethereal Carbonifer Lv. 6	330	15
+174	Raven Heirloom Lv. 1	140	0
+175	Raven Heirloom Lv. 2	160	0
+176	Raven Heirloom Lv. 3	200	0
+177	Wolf Heirloom Lv. 4	210	0
+178	Wolf Heirloom Lv. 5	270	0
+179	Wolf Heirloom Lv. 6	290	0
+180	Crow Heirloom Lv. 7	330	0
+181	Lagia Blitz Lv. 1	150	0
+182	Lagia Blitz Lv. 2	160	0
+183	Lagia Blitz Lv. 3	200	0
+184	Thunderblitz Cannon Lv. 4	210	0
+185	Thunderblitz Cannon Lv. 5	280	0
+186	Thunderblitz Cannon Lv. 6	300	0
+187	Thundercrash Blaster Lv. 7	330	0
+188	Usurper's Tremor Lv. 1	150	10
+189	Usurper's Tremor Lv. 2	190	10
+190	Despot's Paroxysm Lv. 3	210	10
+191	Despot's Paroxysm Lv. 4	280	10
+192	Despot's Paroxysm Lv. 5	300	10
+193	Oppressor's Making Lv. 6	330	10
+194	Cirrus Blaster Lv. 1	150	0
+195	Cirrus Blaster Lv. 2	160	0
+196	Cirrus Blaster Lv. 3	200	0
+197	Mountainous Roar Lv. 4	220	0
+198	Mountainous Roar Lv. 5	290	0
+199	Mountainous Roar Lv. 6	310	0
+200	Mountainous Torrent Lv. 7	340	0
+201	Wyvern Blaster Lv. 1	150	10
+202	Wyvern Blaster Lv. 2	160	10
+203	Wyvern Blaster Lv. 3	200	10
+204	Wyvern Shocker Lv. 4	220	10
+205	Wyvern Shocker Lv. 5	290	15
+206	Wyvern Shocker Lv. 6	310	15
+207	Wyvern Crasher Lv. 7	330	20
+208	Giant's Cannon Lv. 1	160	-10
+209	Giant's Cannon Lv. 2	180	-10
+210	Giant's Cannon Lv. 3	230	-10
+211	Giant's Rocket Lv. 4	240	-10
+212	Giant's Rocket Lv. 5	310	-10
+213	Giant's Rocket Lv. 6	330	-10
+214	Giant's Mega Rocket Lv. 7	360	-10
+215	Burning Igna Lv. 1	160	0
+216	Burning Igna Lv. 2	170	0
+217	Burning Igna Lv. 3	210	0
+218	Glavenus Scorcher Lv. 4	230	0
+219	Glavenus Scorcher Lv. 5	310	0
+220	Glavenus Scorcher Lv. 6	320	0
+221	Glavenus Scorchanova Lv. 7	350	0
+222	Sayyad Cannon Lv. 1	150	10
+223	Sayyad Cannon Lv. 2	160	10
+224	Sayyad Cannon Lv. 3	200	10
+225	Insurrection Cannon Lv. 4	210	10
+226	Insurrection Cannon Lv. 5	300	10
+227	Anarchy Cannon Lv. 6	330	15
+228	Tigrex Howl Lv. 1	150	-10
+229	Tigrex Howl Lv. 2	190	-10
+230	Tigrex Skull Lv. 3	230	-10
+231	Tigrex Skull Lv. 4	300	-10
+232	Tigrex Skull Lv. 5	320	-10
+233	Huge Tigrex Skull Lv. 6	350	-10
+234	Dios Cannon Lv. 1	150	0
+235	Dios Cannon Lv. 2	200	0
+236	Atom Cannon Lv. 3	210	0
+237	Atom Cannon Lv. 4	300	0
+238	Fission Cannon Lv. 5	330	0
+239	Todlicher Abzug Lv. 1	150	20
+240	Todlicher Abzug Lv. 2	190	20
+241	Ableben Abzug Lv. 3	210	20
+242	Ableben Abzug Lv. 4	300	20
+243	Gemetzel Abzug Lv. 5	330	20
+244	Daora's Delphinidae Lv. 1	150	10
+245	Daora's Delphinidae Lv. 2	160	10
+246	Daora's Delphinidae Lv. 3	210	10
+247	Daora Grande Lv. 4	230	10
+248	Daora Grande Lv. 5	320	20
+249	Daora's Ceti Lv. 6	350	20
+250	Skeletal Cannon Lv. 1	160	0
+251	Skeletal Cannon Lv. 2	200	0
+252	Skeletal Cannon Lv. 3	210	0
+253	Total Absolution Lv. 4	220	0
+254	Total Absolution Lv. 5	300	0
+255	Zubenelgenubi Cannon Lv. 6	340	0
+256	Aquamatic 'Needler' Lv. 1	150	0
+257	Aquamatic 'Needler' Lv. 2	190	0
+258	Aquamatic 'Firelash' Lv. 3	210	0
+259	Aquamatic 'Firelash' Lv. 4	270	0
+260	Aquamatic 'Ashmaker' Lv. 5	330	0
+261	Yukumo Puregun Lv. 1	140	0
+262	Yukumo Puregun Lv. 2	150	0
+263	Yukumo Puregun Lv. 3	200	0
+264	Yukumo Spiritgun Lv. 4	210	0
+265	Yukumo Spiritgun Lv. 5	270	0
+266	Yukumo Auragun Lv. 6	330	0
+267	Black Cannon Lv. 1	140	0
+268	Black Cannon Lv. 2	150	0
+269	Black Cannon Lv. 3	200	0
+270	Onyx Cannon Lv. 4	210	0
+271	Onyx Cannon Lv. 5	310	0
+272	Fatalis Cannon Lv. 6	330	0
+273	Rapidcaster Lv. 1	150	0
+274	Rapidcaster Lv. 2	180	0
+275	Cyclecaster Lv. 3	190	0
+276	Cyclecaster Lv. 4	220	0
+277	Torrentcaster Lv. 5	310	0
+278	Flechette Gun Lv. 1	150	0
+279	Flechette Gun Lv. 2	170	0
+280	Honeycomber Lv. 3	180	0
+281	Honeycomber Lv. 4	240	0
+282	Honeycomber Lv. 5	260	0
+283	Waspstinger Lv. 6	310	0
+284	Striker's Bowgun Lv. 1	150	0
+285	Striker's Bowgun Lv. 2	190	0
+286	Elite Bowgun Lv. 3	210	0
+287	Elite Bowgun Lv. 4	260	0
+288	Imperial Bowgun Lv. 5	330	0
+289	Arzuros Gun Lv. 1	160	0
+290	Arzuros Gun Lv. 2	190	0
+291	Arzuros Fishergun Lv. 3	200	0
+292	Arzuros Fishergun Lv. 4	250	0
+293	Arbearalest Lv. 5	320	0
+294	Straw Drumcannon Lv. 1	160	0
+295	Straw Drumcannon Lv. 2	190	0
+296	Shirabeo Lv. 3	200	0
+297	Shirabeo Lv. 4	250	0
+298	Ratatat Drumcannon Lv. 5	320	0
+299	Carrozza Bazooka Lv. 1	150	0
+300	Carrozza Bazooka Lv. 2	190	0
+301	Cendrillon Lv. 3	200	0
+302	Cendrillon Lv. 4	240	0
+303	Bibidi Babidi Boom Lv. 5	320	0
+304	Piercing Crab Lv. 1	190	0
+305	Piercing Crab Lv. 2	200	0
+306	Ceanataur Blaster Lv. 3	210	0
+307	Ceanataur Blaster Lv. 4	280	0
+308	Ceanataur Blaster Lv. 5	300	0
+309	Master Shooter Lv. 6	330	0
+310	Pressurized Plaser Lv. 1	180	5
+311	Pressurized Plaser Lv. 2	190	5
+312	Pluripotent Plaser Lv. 3	210	5
+313	Pluripotent Plaser Lv. 4	270	5
+314	Pluripotent Plaser Lv. 5	290	10
+315	Phalanx Plaser Lv. 6	330	10
+316	Meteor Buster Lv. 1	180	0
+317	Meteor Buster Lv. 2	190	0
+318	Meteor Shower Lv. 3	210	0
+319	Meteor Shower Lv. 4	270	0
+320	Meteor Shower Lv. 5	300	0
+321	Meteor Storm Lv. 6	330	0
+322	Rock Eater Lv. 1	170	0
+323	Rock Eater Lv. 2	180	0
+324	Earth Eater Lv. 3	200	0
+325	Earth Eater Lv. 4	260	0
+326	Gaia Eater Lv. 5	320	0
+327	Ner Bustergun Lv. 1	180	15
+328	Ner Bustergun Lv. 2	190	15
+329	Buster Blaster Lv. 3	210	25
+330	Buster Blaster Lv. 4	270	25
+331	Buster Blaster Lv. 5	300	25
+332	Buster Lancera Lv. 6	330	40
+333	Griffin's Charge Lv. 1	160	0
+334	Griffin's Charge Lv. 2	200	0
+335	Seltas Cannon Lv. 3	220	0
+336	Seltas Cannon Lv. 4	260	0
+337	Heroic Seltas Cannon Lv. 5	340	0
+338	Queen's Longfire Lv. 1	180	0
+339	Queen's Longfire Lv. 2	190	0
+340	Queen's Farflier Lv. 3	210	0
+341	Queen's Farflier Lv. 4	270	0
+342	Queen's Farflier Lv. 5	300	0
+343	Queen's Scionfire Lv. 6	330	0
+344	Agnaboom Lv. 1	200	5
+345	Agnaboom Lv. 2	210	5
+346	Agna Hellblazer Lv. 3	220	5
+347	Agna Hellblazer Lv. 4	310	10
+348	Agna Hellraiser Lv. 5	340	10
+349	Quickcaster Lv. 1	170	0
+350	Quickcaster Lv. 2	180	0
+351	Quick Quiver Lv. 3	190	0
+352	Quick Quiver Lv. 4	280	0
+353	Quick Blaster Lv. 5	310	0
+354	Shooting Star Lv. 1	180	0
+355	Shooting Star Lv. 2	190	0
+356	Great Meteor Lv. 3	200	0
+357	Great Meteor Lv. 4	260	0
+358	Mighty Asteroid Lv. 5	320	0
+359	Ladybug Cannon Lv. 1	180	0
+360	Ladybug Cannon Lv. 2	190	0
+361	Ladybug Mortar Lv. 3	200	0
+362	Ladybug Mortar Lv. 4	260	0
+363	Great Ladybug Cannon Lv. 5	320	0
+364	Power Stinger Lv. 1	160	0
+365	Power Stinger Lv. 2	180	0
+366	Wild Stinger Lv. 3	200	0
+367	Wild Stinger Lv. 4	230	0
+368	Wild Stinger Lv. 5	270	0
+369	Fatal Stinker Lv. 6	320	0
+370	Guerrilla Cannon Lv. 1	200	20
+371	Guerrilla Espino Lv. 2	230	20
+372	Guerrilla Espino Lv. 3	290	30
+373	Guerrilla Espino Lv. 4	310	30
+374	Valía Cannon Lv. 5	340	30
+375	Gravios Howl Lv. 1	190	0
+376	Gravios Howl Lv. 2	200	0
+377	Gravios Gigahowl Lv. 3	210	0
+378	Gravios Gigahowl Lv. 4	290	0
+379	Gravios Gigahowl Lv. 5	310	0
+380	Gravios Gigascream Lv. 6	340	0
+381	Magnificent El Dora Gun Lv. 1	180	10
+382	Invaluable Lost Cannon Lv. 2	200	10
+383	Invaluable Lost Cannon Lv. 3	230	10
+384	Invaluable Lost Cannon Lv. 4	260	10
+385	Shamballa's Treasure Lv. 5	290	10
+386	Seditious Cannon Lv. 1	210	10
+387	Seditious Cannon Lv. 2	220	10
+388	Furia Sedition Lv. 3	230	10
+389	Furia Sedition Lv. 4	300	10
+390	Furia Sedition Lv. 5	320	10
+391	Sedition Blaster Lv. 6	350	10
+392	Monteverde Lv. 1	210	0
+393	Monteverde Lv. 2	220	0
+394	Peaksmasher Lv. 3	230	0
+395	Peaksmasher Lv. 4	280	0
+396	Peaksmasher Lv. 5	310	0
+397	Bergbasher Lv. 6	350	0
+398	Demolition Cannon Lv. 1	210	0
+399	Demolition Cannon Lv. 2	220	0
+400	Haize Demolisher Lv. 3	230	0
+401	Haize Demolisher Lv. 4	300	0
+402	Haize Demolisher Lv. 5	320	0
+403	Haize Annihilator Lv. 6	350	0
+404	Le Desastre Lv. 1	200	30
+405	Le Desastre Lv. 2	210	30
+406	La Foi Lv. 3	220	30
+407	La Foi Lv. 4	290	30
+408	La Foi Lv. 5	310	30
+409	Le Deluge Lv. 6	340	30
+410	Gluttonous Cannon Lv. 1	200	-10
+411	Gluttonous Cannon Lv. 2	210	-10
+412	Dark Devourer Lv. 3	220	-10
+413	Dark Devourer Lv. 4	310	-10
+414	Nero's Worldeater Lv. 5	340	-10
+415	Hero Blaster Lv. 1	160	40
+416	Hero Blaster Lv. 2	180	40
+417	Master Blaster Lv. 3	190	40
+418	Master Blaster Lv. 4	250	40
+419	Master Blaster Lv. 5	280	40
+420	Legend Blaster Lv. 6	310	40
+421	Dual Threat Lv. 1	220	-20
+422	Diablazooka Lv. 2	230	-20
+423	Diablazooka Lv. 3	320	-20
+424	Diablazooka Lv. 4	340	-30
+425	Diablastazooka Lv. 5	370	-30
+426	Research Cannon Lv. 1	200	15
+427	Discovery Cannon Lv. 2	220	15
+428	Discovery Cannon Lv. 3	250	20
+429	Discovery Cannon Lv. 4	270	20
+430	Authority Macroscope Lv. 5	300	30
+431	Arbahefty Lv. 1	190	0
+432	Arbaheftier Lv. 2	210	0
+433	Arbaheftier Lv. 3	240	0
+434	Arbaheftier Lv. 4	270	0
+435	Arbaheftiest Lv. 5	330	0
+436	Pirate Cannon J Lv. 1	190	0
+437	Pirate Cannon J Lv. 2	200	0
+438	Buccaneer Cannon J Lv. 3	210	0
+439	Buccaneer Cannon J Lv. 4	290	0
+440	Pirate King Cannon J Lv. 5	330	0
+441	Kamaeleon Lv. 1	210	0
+442	Kamaeleon Lv. 2	220	0
+443	Veiled Kamaeleon Lv. 3	230	0
+444	Veiled Kamaeleon Lv. 4	320	0
+445	Invisible Kamaeleon Lv. 5	350	0
+446	Teostra's Artillery Lv. 1	210	5
+447	Teostra's Artillery Lv. 2	220	5
+448	Teostra's Flames Lv. 3	230	5
+449	Teostra's Flames Lv. 4	320	10
+450	Teostra's Firestorm Lv. 5	350	10
+451	Endless Famine Lv. 1	220	-15
+452	Endless Famine Lv. 2	230	-15
+453	Dark Famine Lv. 3	240	-15
+454	Dark Famine Lv. 4	320	-15
+455	Sheer Starvation Lv. 5	360	-15
+456	Akantor Cannon Lv. 1	210	40
+457	Akantor Cannon Lv. 2	210	40
+458	Akantor Skysounder Lv. 3	220	40
+459	Akantor Skysounder Lv. 4	310	40
+460	Akantor Descent Lv. 5	340	40
+461	Ukanlos Cannon Lv. 1	240	-30
+462	Ukanlos Cannon Lv. 2	250	-30
+463	Ukanlos Skyblaster Lv. 3	260	-30
+464	Ukanlos Skyblaster Lv. 4	340	-30
+465	Ukanlos Rising Lv. 5	380	-30
+466	Ill Omen Lv. 1	210	-5
+467	Ill Omen Lv. 2	220	-5
+468	Celestial Tempest Lv. 3	230	-5
+469	Celestial Tempest Lv. 4	320	-5
+470	Endless Sky Lv. 5	350	-5
+471	Cosmic Cannon Lv. 1	180	10
+472	Cosmic Cannon Lv. 2	190	10
+473	Vizvi Cannon Lv. 3	200	15
+474	Vizvi Cannon Lv. 4	290	15
+475	Viznak Cannon Lv. 5	320	20
+476	Chaos Wing Lv. 1	210	10
+477	Chaos Wing Lv. 2	220	10
+478	Altheos Aetheria Lv. 3	230	10
+479	Altheos Aetheria Lv. 4	320	15
+480	Altheos Aeterna Lv. 5	350	15
+481	Silverwing Cannon Lv. 1	180	0
+482	Dragonstar Denig Lv. 2	190	0
+483	Dragonstar Denig Lv. 3	240	0
+484	Dragonstar Denig Lv. 4	270	0
+485	Dragonstar Denig Lv. 5	290	0
+486	Magnastar Fujik Lv. 6	310	0
+487	Elder Cannon Lv. 1	250	0
+488	Sage Cannon Lv. 2	280	0
+489	Philosopher Cannon Lv. 3	310	0
+490	Super Trench Snarfer Lv. 1	270	0
+491	Hyper Trench Snarfer Lv. 2	300	0
+492	Brutal Trench Snarfer Lv. 3	330	0
+493	Loyal Thunder Lv. 1	290	20
+494	Oppressor's Wedge Lv. 2	310	20
+495	Orcus Quarcus Lv. 3	340	20
+496	Agna Magnum Lv. 1	310	0
+497	Agna Scorpion Lv. 2	330	0
+498	Agna Arbalest Lv. 3	350	0
+499	Cannonissimo Lv. 1	290	0
+500	Llave de Libertad Lv. 2	310	0
+501	Vive La Liberation Lv. 3	330	0
+502	Verrat/Foi Lv. 1	290	-30/20
+503	Sicherheit/Risque Lv. 2	310	-30/20
+504	Ursprung/Mort Lv. 3	340	-30/20
+505	Lightbreak Cannon Lv. 1	310	0
+506	Lightbreak Eruption Lv. 2	330	0
+507	Lightbreak Starshatter Lv. 3	360	0
+508	Lao-Shan Lung Cannon Lv. 1	310	-10
+509	Grand Lao-Shan Cannon Lv. 2	330	-10
+510	True Lao-Shan Cannon Lv. 3	360	-10
+511	Goldcannon Lv. 1	330	0
+512	Inscribed Haroeris Lv. 2	340	0
+513	Ra-Horakhty Lv. 3	350	0
+514	Vor Cannon Lv. 1	300	0
+515	Vor Buster Lv. 2	320	0
+516	Vor Blaster Lv. 3	350	0
+517	Destiny's Hand Lv. 1	320	-15
+518	Destiny's Arm Lv. 2	340	-15
+519	Destiny's Shoulder Lv. 3	370	-15
+520	Fatalis Enslaver Lv. 1	290	0
+521	Fatalis Subjugator Lv. 2	310	0
+522	Fatalis Transformer Lv. 3	340	0
+523	Crimson Bowgun Lv. 1	90	0
+524	Crimson Bowgun Lv. 2	100	0
+525	Crimson Bowgun Lv. 3	110	0
+526	Crimson Bowgun Lv. 4	130	0
+527	Crimson Bowgun Lv. 5	140	0
+528	Crimson Bowgun Lv. 6	170	0
+529	Crimson Bowgun Lv. 7	180	0
+530	Crimson Bowgun Lv. 8	190	0
+531	Crimson Bowgun Lv. 9	200	0
+532	Crimson Cannon Lv. 10	210	0
+533	Crimson Cannon Lv. 11	240	0
+534	Crimson Cannon Lv. 12	260	0
+535	Crimson Cannon Lv. 13	280	0
+536	Crimson Cannon Lv. 14	300	0
+537	Crimson Crasher Lv. 15	320	0
+538	Eeostopen Burst Lv. 1	90	0
+539	Eeostopen Burst Lv. 2	100	0
+540	Eeostopen Burst Lv. 3	110	0
+541	Eeostopen Burst Lv. 4	130	0
+542	Eeostopen Burst Lv. 5	140	0
+543	Eeostopen Burst Lv. 6	170	0
+544	Eeostopen Burst Lv. 7	180	0
+545	Eeostopen Burst Lv. 8	190	0
+546	Eeostopen Burst Lv. 9	200	0
+547	Eeostopen Cannon Lv. 10	210	0
+548	Eeostopen Cannon Lv. 11	240	0
+549	Eeostopen Cannon Lv. 12	260	0
+550	Eeostopen Cannon Lv. 13	280	0
+551	Eeostopen Cannon Lv. 14	300	0
+552	Eeostopen Avalanche Lv. 15	320	0
+553	Stonefist Buster Lv. 1	90	0
+554	Stonefist Buster Lv. 2	100	0
+555	Stonefist Buster Lv. 3	110	0
+556	Stonefist Buster Lv. 4	130	0
+557	Stonefist Buster Lv. 5	140	0
+558	Stonefist Buster Lv. 6	170	0
+559	Stonefist Buster Lv. 7	180	0
+560	Stonefist Buster Lv. 8	190	0
+561	Stonefist Buster Lv. 9	200	0
+562	Ebon Stonefist Buster Lv. 10	210	0
+563	Ebon Stonefist Buster Lv. 11	240	0
+564	Ebon Stonefist Buster Lv. 12	260	0
+565	Ebon Stonefist Buster Lv. 13	280	0
+566	Ebon Stonefist Buster Lv. 14	300	0
+567	Stonefist Blaster Lv. 15	320	0
+568	Dreadqueen Shot Lv. 1	90	0
+569	Dreadqueen Shot Lv. 2	100	0
+570	Dreadqueen Shot Lv. 3	110	0
+571	Dreadqueen Shot Lv. 4	130	0
+572	Dreadqueen Shot Lv. 5	140	0
+573	Dreadqueen Shot Lv. 6	160	0
+574	Dreadqueen Shot Lv. 7	170	0
+575	Dreadqueen Shot Lv. 8	180	0
+576	Dreadqueen Shot Lv. 9	190	0
+577	Dreadqueen Blaster Lv. 10	200	0
+578	Dreadqueen Blaster Lv. 11	230	0
+579	Dreadqueen Blaster Lv. 12	250	0
+580	Dreadqueen Blaster Lv. 13	270	0
+581	Dreadqueen Blaster Lv. 14	290	0
+582	Dreadqueen Crasher Lv. 15	310	0
+583	Demonic Cannon Lv. 1	120	0
+584	Demonic Cannon Lv. 2	130	0
+585	Demonic Cannon Lv. 3	140	0
+586	Demonic Cannon Lv. 4	150	0
+587	Demonic Cannon Lv. 5	190	0
+588	Demonic Cannon Lv. 6	190	0
+589	Demonic Cannon Lv. 7	200	0
+590	Demonic Cannon Lv. 8	200	0
+591	Demonic Cannon Lv. 9	210	0
+592	Chthonic Cannon Lv. 10	210	0
+593	Chthonic Cannon Lv. 11	240	0
+594	Chthonic Cannon Lv. 12	260	0
+595	Chthonic Cannon Lv. 13	280	0
+596	Chthonic Cannon Lv. 14	300	0
+597	Chthonic Mortar Lv. 15	320	0
+598	Silverwind Sniper Lv. 1	170	20
+599	Silverwind Sniper Lv. 2	170	30
+600	Silverwind Sniper Lv. 3	180	20
+601	Silverwind Sniper Lv. 4	180	30
+602	Silverwind Sniper Lv. 5	190	20
+603	Silverwind Sniper Lv. 6	190	30
+604	Silverwind Sniper Lv. 7	200	20
+605	Silverwind Sniper Lv. 8	200	30
+606	Silverwind Sniper Lv. 9	210	20
+607	Dawn's Rage Lv. 10	210	30
+608	Dawn's Rage Lv. 11	240	30
+609	Dawn's Rage Lv. 12	260	30
+610	Dawn's Rage Lv. 13	280	30
+611	Dawn's Rage Lv. 14	300	30
+612	Dawn's Torment Lv. 15	320	30
+613	Grobo Shot Lv. 1	180	-20
+614	Grobo Shot Lv. 2	180	-10
+615	Grobo Shot Lv. 3	190	-20
+616	Grobo Shot Lv. 4	190	-10
+617	Grobo Shot Lv. 5	200	-20
+618	Grobo Shot Lv. 6	200	-10
+619	Grobo Shot Lv. 7	210	-20
+620	Grobo Shot Lv. 8	210	-10
+621	Grobo Shot Lv. 9	220	-20
+622	Grobo Barzeta Lv. 10	220	-10
+623	Grobo Barzeta Lv. 11	250	-10
+624	Grobo Barzeta Lv. 12	270	-10
+625	Grobo Barzeta Lv. 13	290	-10
+626	Grobo Barzeta Lv. 14	310	-10
+627	Grobo Shot Diamante Lv. 15	330	-10
+628	Cahoe Shot Lv. 1	160	0
+629	Cahoe Shot Lv. 2	170	0
+630	Cahoe Shot Lv. 3	180	0
+631	Cahoe Shot Lv. 4	190	0
+632	Cahoe Shot Lv. 5	200	0
+633	Cahoe Shot Lv. 6	200	0
+634	Cahoe Shot Lv. 7	210	0
+635	Cahoe Shot Lv. 8	210	0
+636	Cahoe Shot Lv. 9	210	0
+637	Deadeye Cahoe Lv. 10	210	0
+638	Deadeye Cahoe Lv. 11	240	0
+639	Deadeye Cahoe Lv. 12	260	0
+640	Deadeye Cahoe Lv. 13	280	0
+641	Deadeye Cahoe Lv. 14	290	0
+642	Combustion Cahoe Lv. 15	330	0
+643	Lord's Shot Lv. 1	160	10
+644	Lord's Shot Lv. 2	170	10
+645	Lord's Shot Lv. 3	180	10
+646	Lord's Shot Lv. 4	190	10
+647	Lord's Shot Lv. 5	200	10
+648	Lord's Shot Lv. 6	200	20
+649	Lord's Shot Lv. 7	210	10
+650	Lord's Shot Lv. 8	210	20
+651	Lord's Shot Lv. 9	220	10
+652	Lord's Roar Lv. 10	220	20
+653	Lord's Roar Lv. 11	250	20
+654	Lord's Roar Lv. 12	270	20
+655	Lord's Roar Lv. 13	290	20
+656	Lord's Roar Lv. 14	310	20
+657	Lord's Bellow Lv. 15	330	20
+658	Rudra's Howl Lv. 1	180	-20
+659	Rudra's Howl Lv. 2	180	-10
+660	Rudra's Howl Lv. 3	190	-20
+661	Rudra's Howl Lv. 4	190	-10
+662	Rudra's Howl Lv. 5	200	-20
+663	Rudra's Howl Lv. 6	200	-10
+664	Rudra's Howl Lv. 7	210	-20
+665	Rudra's Howl Lv. 8	210	-10
+666	Rudra's Howl Lv. 9	220	-20
+667	Grimclaw Cannon Lv. 10	220	-10
+668	Grimclaw Cannon Lv. 11	250	-10
+669	Grimclaw Cannon Lv. 12	270	-10
+670	Grimclaw Cannon Lv. 13	290	-10
+671	Grimclaw Cannon Lv. 14	310	-10
+672	Grimclaw Howl Lv. 15	330	-10
+673	Ashen Blaster Lv. 1	180	0
+674	Ashen Blaster Lv. 2	190	0
+675	Ashen Blaster Lv. 3	200	0
+676	Ashen Blaster Lv. 4	200	0
+677	Ashen Blaster Lv. 5	210	0
+678	Ashen Blaster Lv. 6	210	0
+679	Ashen Blaster Lv. 7	220	0
+680	Ashen Blaster Lv. 8	220	0
+681	Ashen Blaster Lv. 9	230	0
+682	Ashen Eclipse Lv. 10	230	0
+683	Ashen Eclipse Lv. 11	260	0
+684	Ashen Eclipse Lv. 12	280	0
+685	Ashen Eclipse Lv. 13	300	0
+686	Ashen Eclipse Lv. 14	320	0
+687	Ashen Sky Nova Lv. 15	340	0
+688	Cloaked Horror Lv. 1	260	0
+689	Cloaked Horror Lv. 2	270	0
+690	Cloaked Nightmare Lv. 3	290	0
+691	Cloaked Nightmare Lv. 4	300	0
+692	Cloaked Night Terror Lv. 5	330	0
+693	Razor Piercer Lv. 1	270	10
+694	Razor Piercer Lv. 2	280	10
+695	Daredevil Piercer Lv. 3	300	10
+696	Daredevil Piercer Lv. 4	310	10
+697	Rustrazor Piercer Lv. 5	330	10
+698	Bitter Breeze Lv. 1	270	0
+699	Bitter Breeze Lv. 2	280	0
+700	Priestess in Red Lv. 3	290	0
+701	Priestess in Red Lv. 4	310	0
+702	A Marriage Divine Lv. 5	320	0
+703	Boltreaver Cannon Lv. 1	260	20
+704	Boltreaver Cannon Lv. 2	270	20
+705	Boltreaver Blaster Lv. 3	280	20
+706	Boltreaver Blaster Lv. 4	290	20
+707	Boltreaver Assault Lv. 5	310	20
+708	Elderfrost Boom Lv. 1	310	0
+709	Elderfrost Boom Lv. 2	320	0
+710	Elderfrost Kaboom Lv. 3	330	0
+711	Elderfrost Kaboom Lv. 4	340	0
+712	Elderfrost Kablast Lv. 5	350	0
+713	Massacre Cannon Lv. 1	320	-20
+714	Massacre Cannon Lv. 2	330	-20
+715	Massacre Blaster Lv. 3	340	-20
+716	Massacre Blaster Lv. 4	350	-20
+717	Ivanus Lv. 5	360	-20

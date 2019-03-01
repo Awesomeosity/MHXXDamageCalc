@@ -1,0 +1,56 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Overhead Slash	X	26	1	Cut	1	1	0	0		No	No	
+1	Thrust	A	14	1	Cut	1	1	0	0		No	No	
+2	Rising Slash	A X	18	1	Cut	1	1	0	0		No	No	
+3	Fade Slash	X+A	24	1	Cut	1	1	0	0		No	No	
+4	Round Slash	R	16	1	Cut	1	1	0	0		No	No	No Spirit
+5	Spirit Slash I	R	28	1	Cut	1	1	0	0		No	No	
+6	Spirit Slash II	R R	30	1	Cut	1	1	0	0		No	No	32 -> 30
+7	Spirit Slash II (Gen)	R R	32	1	Cut	1	1	0	0		No	No	
+8	Spirit Slash III	R R R	60	3	Cut	1	1	0	0		No	No	
+9	Spirit Slash III (Hit 1)	R R R	12	1	Cut	1	1	0	0		No	No	
+10	Spirit Slash III (Hit 2)	R R R	14	1	Cut	1	1	0	0		No	No	
+11	Spirit Slash III (Hit 3)	R R R	34	1	Cut	1	1	0	0		No	No	
+12	Spirit Roundslash	R R R R	42	1	Cut	1	1	0	0		Yes	No	
+13	Rushing Slash	X+A R	18	1	Cut	1	1	0	0		No	No	No Spirit
+14	Rushing Spirit Slash I	X+A R	30	1	Cut	1	1	0	0		No	No	
+15	Jumping Round Slash	R	16	1	Cut	1	1	0	0		Yes	Yes	No Spirit
+16	Jumping Spirit Slash I	R	30	1	Cut	1	1	0	0		Yes	Yes	
+17	Jumping Round Slash II	R	28	2	Cut	1	1	0	0		Yes	Yes	No Spirit
+18	Jumping Round Slash II (Hit 1)	R	8	1	Cut	1	1	0	0		Yes	Yes	No Spirit
+19	Jumping Round Slash II (Hit 2)	R	20	1	Cut	1	1	0	0		Yes	Yes	No Spirit
+20	Jumping Spirit Slash II	R	48	2	Cut	1	1	0	0		Yes	Yes	
+21	Jumping Spirit Slash II (Hit 1)	R	12	1	Cut	1	1	0	0		Yes	Yes	
+22	Jumping Spirit Slash II (Hit 2)	R	36	1	Cut	1	1	0	0		Yes	Yes	
+23	Aerial Slashes	R	35	2	Cut	1	1	0	0		Yes	Yes	
+24	Aerial Slashes (Hit 1)	X	10	1	Cut	1	1	0	0		Yes	Yes	
+25	Aerial Slashes (Hit 2)	X	25	1	Cut	1	1	0	0		Yes	Yes	
+26	Aerial Roundslash III	R	27	3	Cut	1	1	0	0		Yes	No	No Spirit
+27	Aerial Roundslash III (Hits 1/2)	R	6	1	Cut	1	1	0	0		Yes	No	No Spirit
+28	Aerial Roundslash (Hit 3)	R	15	1	Cut	1	1	0	0		Yes	No	No Spirit
+29	Adept Cut-In	X	25	1	Cut	1	1	0	0		No	No	
+30	Adept Spirit Round	X R	110	2	Cut	1	1	0	0		Yes	No	
+31	Adept Spirit Round (Hit 1)	X R	30	1	Cut	1	1	0	0		Yes	No	
+32	Adept Spirit Round (Hit 2)	X R	80	1	Cut	1	1	0	0		Yes	No	
+33	Valor Spirit Slash I	R	28	1	Cut	1	1	0	0		No	No	
+34	Valor Spirit Slash II	R R	30	1	Cut	1	1	0	0		No	No	
+35	Valor Spirit Slash III	R R R	35	1	Cut	1	1	0	0		No	No	
+36	Valor Spirit Round	R R R R	95	2	Cut	1	1	0	0		Yes	No	
+37	Valor Spirit Round (Hit 1)	R R R R	35	1	Cut	1	1	0	0		Yes	No	
+38	Valor Spirit Round (Hit 2)	R R R R	60	1	Cut	1	1	0	0		Yes	No	
+39	Valor Spirit Counter	R	51	1	Cut	1	1	0	0		No	No	Guard Point at beginning of Spirit I
+40	Sakura Slash I		100	4	Cut	1	1	0	0		Yes	No	
+41	Sakura Slash I (Hits 1/2)		10	1	Cut	1	1	0	0		Yes	No	
+42	Sakura Slash I (Hits 3/4)		40	1	Cut	1	1	0	0		Yes	No	
+43	Sakura Slash II		140	6	Cut	1	1	0	0		Yes	No	
+44	Sakura Slash II (Hits 1/2)		10	1	Cut	1	1	0	0		Yes	No	
+45	Sakura Slash II (Hits 3/5)		40	1	Cut	1	1	0	0		Yes	No	
+46	Sakura Slash II (Hits 4/6)		20	1	Cut	1	1	0	0		Yes	No	
+47	Sakura Slash III		160	8	Cut	1	1	0	0		Yes	No	
+48	Sakura Slash III (Hits 1/2)		10	1	Cut	1	1	0	0		Yes	No	
+49	Sakura Slash III (Hits 3/6)		40	1	Cut	1	1	0	0		Yes	No	
+50	Sakura Slash III (Hits 4/5/7/8)		15	1	Cut	1	1	0	0		Yes	No	
+51	Unhinged Spirit Opener		42	1	Cut	1	1	0	0		Yes	No	
+52	Critical Juncture I		100	1	Cut	1	1	0	0		Yes	No	
+53	Critical Juncture II		140	1	Cut	1	1	0	0		Yes	No	
+54	Critical Juncture III		180	1	Cut	1	1	0	0		Yes	No	

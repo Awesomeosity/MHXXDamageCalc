@@ -1,0 +1,770 @@
+ID	name	raw	element	eleValue	elementTwo	eleValueTwo	affinity	sharpness	sharpOne	sharpTwo
+0	Petrified Axe Lv. 1	60	(No Element)	0	(No Element)	0	0	Yellow	Yellow	Yellow
+1	Petrified Axe Lv. 2	80	(No Element)	0	(No Element)	0	0	Yellow	Yellow	Yellow
+2	Petrified Axe Lv. 3	90	(No Element)	0	(No Element)	0	0	Yellow	Green	Green
+3	Petrified Axe Lv. 4	100	(No Element)	0	(No Element)	0	0	Green	Green	Green
+4	Petrified Axe Lv. 5	110	(No Element)	0	(No Element)	0	0	Green	Green	Green
+5	Petrified Axe Lv. 6	140	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+6	Petrified Axe Lv. 7	170	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+7	Scholarly Axe Lv. 8	210	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+8	Scholarly Axe Lv. 9	240	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+9	Scholarly Axe Lv. 10	290	(No Element)	0	(No Element)	0	0	White	White	White
+10	Sophos Axe Lv. 11	320	(No Element)	0	(No Element)	0	0	White	White	White
+11	Iron Axe Lv. 1	70	(No Element)	0	SA - Para	10	0	Yellow	Yellow	Green
+12	Iron Axe Lv. 2	80	(No Element)	0	SA - Para	11	0	Green	Green	Green
+13	Iron Axe Lv. 3	100	(No Element)	0	SA - Para	12	0	Green	Green	Green
+14	Iron Axe Lv. 4	110	(No Element)	0	SA - Para	13	0	Green	Green	Green
+15	Iron Axe Lv. 5	120	(No Element)	0	SA - Para	14	0	Green	Green	Blue
+16	Iron Axe Lv. 6	150	(No Element)	0	SA - Para	15	0	Green	Green	Blue
+17	Iron Axe Lv. 7	180	(No Element)	0	SA - Para	16	0	Green	Blue	Blue
+18	Araxxis Lv. 8	230	(No Element)	0	SA - Para	18	0	Green	Blue	Blue
+19	Araxxis Lv. 9	260	(No Element)	0	SA - Para	20	0	Blue	Blue	White
+20	Araxxis Lv. 10	310	(No Element)	0	SA - Para	22	0	Blue	White	White
+21	Alter Araxxis Lv. 11	340	(No Element)	0	SA - Para	25	0	Blue	White	White
+22	Bone Axe Lv. 1	80	(No Element)	0	(No Element)	0	0	Yellow	Yellow	Yellow
+23	Bone Axe Lv. 2	100	(No Element)	0	(No Element)	0	0	Yellow	Yellow	Yellow
+24	Bone Axe Lv. 3	110	(No Element)	0	(No Element)	0	0	Yellow	Yellow	Yellow
+25	Bone Axe Lv. 4	130	(No Element)	0	(No Element)	0	0	Yellow	Yellow	Yellow
+26	Bone Axe Lv. 5	140	(No Element)	0	(No Element)	0	0	Green	Green	Green
+27	Bone Axe Lv. 6	170	(No Element)	0	(No Element)	0	0	Green	Green	Green
+28	Bone Axe Lv. 7	210	(No Element)	0	(No Element)	0	0	Green	Green	Green
+29	Daidalos Axe Lv. 8	240	(No Element)	0	(No Element)	0	0	Green	Green	Blue
+30	Daidalos Axe Lv. 9	270	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+31	Daidalos Axe Lv. 10	320	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+32	Ikaros Axe Lv. 11	350	(No Element)	0	(No Element)	0	0	Blue	White	Purple
+33	Exoskeleton Axe Lv. 1	70	Para	15	(No Element)	0	0	Green	Green	Green
+34	Exoskeleton Axe Lv. 2	80	Para	16	(No Element)	0	0	Green	Green	Green
+35	Exoskeleton Axe Lv. 3	90	Para	18	(No Element)	0	0	Green	Green	Green
+36	Exoskeleton Axe Lv. 4	120	Para	20	(No Element)	0	0	Blue	Blue	White
+37	Exoskeleton Chopper Lv. 5	150	Para	22	(No Element)	0	0	White	White	White
+38	Exoskeleton Chopper Lv. 6	180	Para	24	(No Element)	0	0	White	White	Purple
+39	Exoskeleton Hacker Lv. 7	260	Para	26	(No Element)	0	0	Purple	Purple	Purple
+40	Wild Axe Lv. 1	100	(No Element)	0	SA - Exhaust	15	0	Yellow	Yellow	Yellow
+41	Wild Axe Lv. 2	110	(No Element)	0	SA - Exhaust	17	0	Yellow	Yellow	Green
+42	Wild Axe Lv. 3	140	(No Element)	0	SA - Exhaust	20	0	Green	Green	Green
+43	Wild Axe Lv. 4	160	(No Element)	0	SA - Exhaust	23	0	Green	Green	Blue
+44	Wild Axe Lv. 5	190	(No Element)	0	SA - Exhaust	25	0	Green	Green	Blue
+45	Ground Dasher Lv. 6	230	(No Element)	0	SA - Exhaust	28	0	Green	Blue	Blue
+46	Ground Dasher Lv. 7	260	(No Element)	0	SA - Exhaust	30	0	Green	Blue	Blue
+47	Giganto-Dasher Lv. 8	360	(No Element)	0	SA - Exhaust	32	0	Green	Blue	Blue
+48	Arzuros Axe Lv. 1	90	(No Element)	0	SA - Poison	24	0	Yellow	Yellow	Yellow
+49	Arzuros Axe Lv. 2	120	(No Element)	0	SA - Poison	28	0	Green	Green	Green
+50	Arzuros Axe Lv. 3	140	(No Element)	0	SA - Poison	32	0	Green	Green	Green
+51	Arzuros Axe Lv. 4	160	(No Element)	0	SA - Poison	33	0	Green	Green	Blue
+52	Arzuros Axe Lv. 5	180	(No Element)	0	SA - Poison	34	0	Blue	Blue	White
+53	Arzuros Revelax Lv. 6	220	(No Element)	0	SA - Poison	35	0	Blue	White	White
+54	Arzuros Revelax Lv. 7	250	(No Element)	0	SA - Poison	37	0	Blue	White	White
+55	Arzuros Jubilax Lv. 8	310	(No Element)	0	SA - Poison	40	0	White	White	Purple
+56	Yukumo Switch Axe Lv. 1	70	(No Element)	0	(No Element)	0	0	Green	Green	Green
+57	Yukumo Switch Axe Lv. 2	90	(No Element)	0	(No Element)	0	0	Green	Green	Green
+58	Yukumo Switch Axe Lv. 3	120	(No Element)	0	(No Element)	0	0	Green	Green	Green
+59	Yukumo Switch Axe Lv. 4	140	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+60	Yukumo Axe Lv. 5	180	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+61	Yukumo Axe Lv. 6	260	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+62	Yukumo Axe Lv. 7	320	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+63	Hot Spring Axe Lv. 8	350	(No Element)	0	(No Element)	0	0	Green	Blue	White
+64	The Shredder Lv. 1	90	Thunder	10	(No Element)	0	0	Green	Green	Green
+65	The Shredder Lv. 2	100	Thunder	12	(No Element)	0	0	Green	Green	Green
+66	The Shredder Lv. 3	140	Thunder	16	(No Element)	0	0	Blue	Blue	Blue
+67	The Shredder Lv. 4	160	Thunder	18	(No Element)	0	0	Blue	Blue	White
+68	The Power Shredder Lv. 5	210	Thunder	22	(No Element)	0	0	Blue	Blue	White
+69	The Power Shredder Lv. 6	260	Thunder	24	(No Element)	0	0	Blue	Blue	White
+70	The Lightning Shredder Lv. 7	330	Thunder	26	(No Element)	0	0	Blue	White	White
+71	Bruiser Axe Lv. 1	80	Poison	25	(No Element)	0	0	Green	Green	Green
+72	Bruiser Axe Lv. 2	90	Poison	28	(No Element)	0	0	Green	Green	Green
+73	Bruiser Axe Lv. 3	130	Poison	30	(No Element)	0	0	Green	Green	Green
+74	Bruiser Axe Lv. 4	150	Poison	34	(No Element)	0	0	Blue	Blue	White
+75	Chief Bruiser Axe Lv. 5	180	Poison	36	(No Element)	0	0	Blue	White	White
+76	Chief Bruiser Axe Lv. 6	240	Poison	38	(No Element)	0	0	Blue	White	Purple
+77	Emperor Bruiser Axe Lv. 7	300	Poison	40	(No Element)	0	0	White	White	Purple
+78	Reckless Hatchet Lv. 1	120	(No Element)	0	SA - Exhaust	10	-10	Green	Green	Green
+79	Reckless Hatchet Lv. 2	130	(No Element)	0	SA - Exhaust	12	-10	Green	Green	Blue
+80	Reckless Hatchet Lv. 3	150	(No Element)	0	SA - Exhaust	14	-10	Green	Blue	Blue
+81	Reckless Hatchet Lv. 4	180	(No Element)	0	SA - Exhaust	16	-15	Green	Blue	Blue
+82	Reckless Hatchet Lv. 5	200	(No Element)	0	SA - Exhaust	18	-15	Blue	White	White
+83	Vine Splitter Lv. 6	240	(No Element)	0	SA - Exhaust	20	-20	Blue	White	White
+84	Vine Splitter Lv. 7	270	(No Element)	0	SA - Exhaust	22	-20	Blue	White	White
+85	Audacious Hatchet Lv. 8	360	(No Element)	0	SA - Exhaust	24	-20	Blue	White	White
+86	Scissor Axe Lv. 1	110	Water	8	(No Element)	0	0	Yellow	Yellow	Green
+87	Scissor Axe Lv. 2	120	Water	11	(No Element)	0	0	Green	Green	Green
+88	Scissor Axe Lv. 3	140	Water	12	(No Element)	0	0	Green	Green	Blue
+89	Scissor Axe Lv. 4	170	Water	14	(No Element)	0	0	Blue	Blue	White
+90	Megatalon Shears Lv. 5	200	Water	15	(No Element)	0	0	Blue	Blue	White
+91	Megatalon Shears Lv. 6	230	Water	27	(No Element)	0	0	Blue	White	White
+92	Megatalon Shears Lv. 7	260	Water	27	(No Element)	0	0	White	White	White
+93	Colossoclaw Shears Lv. 8	310	Water	27	(No Element)	0	0	White	White	Purple
+94	Binding Roller Lv. 1	110	Para	12	(No Element)	0	0	Green	Green	Green
+95	Binding Roller Lv. 2	120	Para	13	(No Element)	0	0	Green	Green	Green
+96	Binding Roller Lv. 3	130	Para	15	(No Element)	0	0	Green	Green	Green
+97	Binding Roller Lv. 4	150	Para	16	(No Element)	0	0	Green	Blue	Blue
+98	Vermilingua Lv. 5	170	Para	18	(No Element)	0	0	Blue	Blue	White
+99	Vermilingua Lv. 6	230	Para	20	(No Element)	0	0	Blue	White	White
+100	Vermilingua Lv. 7	260	Para	22	(No Element)	0	0	White	White	White
+101	Vermilion Bloodaxe Lv. 8	280	Para	25	(No Element)	0	0	White	Purple	Purple
+102	Ludroth Axe Lv. 1	100	Water	12	(No Element)	0	0	Green	Green	Green
+103	Ludroth Axe Lv. 2	130	Water	18	(No Element)	0	0	Green	Green	Green
+104	Ludroth Axe Lv. 3	140	Water	22	(No Element)	0	5	Blue	Blue	Blue
+105	Ludroth Axe Lv. 4	180	Water	27	(No Element)	0	5	Blue	Blue	Blue
+106	Splish Splax Lv. 5	210	Water	30	(No Element)	0	5	Blue	Blue	White
+107	Splish Splax Lv. 6	240	Water	31	(No Element)	0	5	Blue	Blue	White
+108	Splish Splax Lv. 7	270	Water	32	(No Element)	0	5	White	White	White
+109	Ludroth Drencher Lv. 8	310	Water	33	(No Element)	0	5	White	Purple	Purple
+110	Dream Captor Lv. 1	90	Sleep	10	(No Element)	0	0	Green	Green	Green
+111	Dream Captor Lv. 2	110	Sleep	12	(No Element)	0	0	Green	Green	Green
+112	Dream Captor Lv. 3	120	Sleep	14	(No Element)	0	0	Green	Green	Blue
+113	Dream Captor Lv. 4	140	Sleep	15	(No Element)	0	0	Blue	Blue	Blue
+114	Dream Captor Lv. 5	160	Sleep	16	(No Element)	0	0	Blue	Blue	White
+115	Somniferous Talon Lv. 6	180	Sleep	18	(No Element)	0	0	Blue	Blue	White
+116	Somniferous Talon Lv. 7	240	Sleep	20	(No Element)	0	0	White	White	White
+117	Somniferous Talon Lv. 8	260	Sleep	22	(No Element)	0	0	White	White	White
+118	Hypnotic Talon Lv. 9	310	Sleep	25	(No Element)	0	0	White	Purple	Purple
+119	Flickaxe Lv. 1	110	(No Element)	0	SA - Para	18	0	Green	Green	Green
+120	Flickaxe Lv. 2	130	(No Element)	0	SA - Para	20	0	Green	Green	Green
+121	Flickaxe Lv. 3	140	(No Element)	0	SA - Para	21	0	Green	Green	Blue
+122	Flickaxe Lv. 4	170	(No Element)	0	SA - Para	22	0	Green	Blue	Blue
+123	Flick Helix Lv. 5	200	(No Element)	0	SA - Para	23	0	Green	White	White
+124	Flick Helix Lv. 6	250	(No Element)	0	SA - Para	25	0	Blue	White	White
+125	Flick Angriff Lv. 7	310	(No Element)	0	SA - Para	27	0	Blue	White	White
+126	Hidden Axe Lv. 1	100	(No Element)	0	SA - Poison	8	40	Green	Blue	Blue
+127	Hidden Axe Lv. 2	120	(No Element)	0	SA - Poison	10	40	Blue	Blue	White
+128	Hidden Axe Lv. 3	150	(No Element)	0	SA - Poison	12	40	Blue	Blue	White
+129	Hidden Axe Lv. 4	170	(No Element)	0	SA - Poison	14	40	White	White	White
+130	Night's Crescent Lv. 5	190	(No Element)	0	SA - Poison	16	40	White	White	White
+131	Night's Crescent Lv. 6	250	(No Element)	0	SA - Poison	18	40	White	White	White
+132	Night's Crescent Lv. 7	270	(No Element)	0	SA - Poison	20	40	Purple	Purple	Purple
+133	Avidya Axe Lv. 8	290	(No Element)	0	SA - Poison	22	45	Purple	Purple	Purple
+134	Grim Cat Lv. 1	80	Para	20	(No Element)	0	0	Green	Green	Green
+135	Grim Cat Lv. 2	100	Para	22	(No Element)	0	0	Green	Green	Green
+136	Grim Cat Lv. 3	120	Para	23	(No Element)	0	0	Green	Blue	Blue
+137	Grimmige Katze Lv. 4	140	Para	25	(No Element)	0	0	Green	Blue	Blue
+138	Grimmige Katze Lv. 5	170	Para	27	(No Element)	0	0	Blue	White	White
+139	Felyne Fatality Lv. 6	270	Para	30	(No Element)	0	0	Blue	White	White
+140	Rough Edge Lv. 1	100	(No Element)	0	SA - Dragon	15	0	Green	Green	Green
+141	Rough Edge Lv. 2	110	(No Element)	0	SA - Dragon	22	5	Green	Green	Green
+142	Rough Edge Lv. 3	130	(No Element)	0	SA - Dragon	24	10	Green	Blue	Blue
+143	Rough Edge Lv. 4	150	(No Element)	0	SA - Dragon	26	15	Blue	Blue	White
+144	Soulbreaker Lv. 5	190	(No Element)	0	SA - Dragon	28	15	Blue	Blue	White
+145	Soulbreaker Lv. 6	220	(No Element)	0	SA - Dragon	30	15	White	White	White
+146	Soulbreaker Lv. 7	250	(No Element)	0	SA - Dragon	30	15	White	White	White
+147	Helios Crusher Lv. 8	310	(No Element)	0	SA - Dragon	32	15	White	White	White
+148	Arctic Ledge Lv. 1	80	Ice	22	(No Element)	0	0	Green	Green	Green
+149	Arctic Ledge Lv. 2	120	Ice	25	(No Element)	0	0	Green	Green	Green
+150	Arctic Ledge Lv. 3	150	Ice	28	(No Element)	0	0	Green	Green	Green
+151	Ledge Axe Lv. 4	170	Ice	30	(No Element)	0	0	Green	Green	Blue
+152	Ledge Axe Lv. 5	210	Ice	32	(No Element)	0	0	Green	Blue	Blue
+153	Axledge Icerunner Lv. 6	300	Ice	35	(No Element)	0	0	Green	Blue	Blue
+154	Gouda Axe Lv. 1	100	(No Element)	0	SA - Exhaust	15	0	Green	Green	Green
+155	Gouda Axe Lv. 2	110	(No Element)	0	SA - Exhaust	18	0	Green	Blue	Blue
+156	Gouda Axe Lv. 3	130	(No Element)	0	SA - Exhaust	23	0	Blue	Blue	White
+157	Gouda Axe Lv. 4	140	(No Element)	0	SA - Exhaust	27	0	White	White	White
+158	Aged Gouda Axe Lv. 5	150	(No Element)	0	SA - Exhaust	30	0	White	White	White
+159	Aged Gouda Axe Lv. 6	200	(No Element)	0	SA - Exhaust	32	0	Purple	Purple	Purple
+160	Boerenkaas Axe Lv. 7	290	(No Element)	0	SA - Exhaust	35	0	Purple	Purple	Purple
+161	Obsidian Axe Lv. 1	140	(No Element)	0	SA - Dragon	18	0	Green	Blue	Blue
+162	Obsidian Axe Lv. 2	150	(No Element)	0	SA - Dragon	20	0	Blue	Blue	White
+163	Obsidian Axe Lv. 3	160	(No Element)	0	SA - Dragon	21	0	Blue	Blue	White
+164	Obsidian Axe Lv. 4	180	(No Element)	0	SA - Dragon	22	0	Blue	Blue	White
+165	Obsidian Axe Lv. 5	200	(No Element)	0	SA - Dragon	23	0	Blue	White	White
+166	Relic Axe Lv. 6	220	(No Element)	0	SA - Dragon	24	0	Blue	White	White
+167	Relic Axe Lv. 7	280	(No Element)	0	SA - Dragon	26	0	White	White	White
+168	Ethereal Axe Lv. 8	330	(No Element)	0	SA - Dragon	28	0	White	Purple	Purple
+169	Elite Switch Axe Lv. 1	110	(No Element)	0	(No Element)	0	0	Green	Green	Green
+170	Elite Switch Axe Lv. 2	120	(No Element)	0	(No Element)	0	0	Green	Green	Green
+171	Elite Switch Axe Lv. 3	130	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+172	Elite Switch Axe Lv. 4	140	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+173	Elite Switch Axe Lv. 5	160	(No Element)	0	(No Element)	0	0	Blue	Blue	Blue
+174	Czar Switch Axe Lv. 6	190	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+175	Czar Switch Axe Lv. 7	250	(No Element)	0	(No Element)	0	0	Blue	White	White
+176	Valor Switch Axe Lv. 8	310	(No Element)	0	(No Element)	0	0	White	White	White
+177	Power Gasher Lv. 1	120	(No Element)	0	SA - Poison	14	0	Green	Green	Green
+178	Power Gasher Lv. 2	150	(No Element)	0	SA - Poison	16	0	Green	Green	Green
+179	Power Gasher Lv. 3	180	(No Element)	0	SA - Poison	18	0	Green	Green	Green
+180	Power Gasher Lv. 4	200	(No Element)	0	SA - Poison	20	0	Blue	Blue	Blue
+181	Maximal Gasher Lv. 5	220	(No Element)	0	SA - Poison	22	0	Blue	White	White
+182	Maximal Gasher Lv. 6	250	(No Element)	0	SA - Poison	25	0	Blue	White	Purple
+183	Powerhouse Gasher Lv. 7	340	(No Element)	0	SA - Poison	27	0	Blue	Purple	Purple
+184	Motor Burst Lv. 1	140	Fire	15	(No Element)	0	0	Yellow	Green	Green
+185	Motor Burst Lv. 2	150	Fire	18	(No Element)	0	0	Green	Green	Green
+186	Motor Burst Lv. 3	160	Fire	20	(No Element)	0	0	Green	Green	Green
+187	Motor Burst Lv. 4	180	Fire	24	(No Element)	0	0	Green	Blue	Blue
+188	Gigant Burst Lv. 5	210	Fire	28	(No Element)	0	0	Blue	White	White
+189	Gigant Burst Lv. 6	300	Fire	30	(No Element)	0	0	Blue	White	White
+190	Giganceladus Lv. 7	330	Fire	33	(No Element)	0	0	Blue	White	White
+191	Dragonmaiden Axe Lv. 1	110	Poison	10	(No Element)	0	0	Green	Green	Green
+192	Dragonmaiden Axe Lv. 2	120	Poison	14	(No Element)	0	0	Green	Green	Blue
+193	Dragonmaiden Axe Lv. 3	140	Poison	16	(No Element)	0	0	Green	Blue	Blue
+194	Dragonmaiden Axe Lv. 4	170	Poison	20	(No Element)	0	0	Blue	Blue	White
+195	Gríor's Landmaker Lv. 5	210	Poison	24	(No Element)	0	0	Blue	Blue	White
+196	Gríor's Landmaker Lv. 6	270	Poison	26	(No Element)	0	0	Blue	White	White
+197	Gríor's Landforger Lv. 7	310	Poison	28	(No Element)	0	0	White	Purple	Purple
+198	Rath Flame Splitter Lv. 1	120	Fire	25	(No Element)	0	0	Green	Green	Green
+199	Rath Flame Splitter Lv. 2	150	Fire	26	(No Element)	0	0	Green	Green	Blue
+200	Rath Flame Splitter Lv. 3	180	Fire	28	(No Element)	0	0	Green	Blue	Blue
+201	Rath Flame Splitter Lv. 4	200	Fire	29	(No Element)	0	0	Green	Blue	Blue
+202	Rath Blaze Splitter Lv. 5	220	Fire	30	(No Element)	0	0	Green	Blue	White
+203	Rath Blaze Splitter Lv. 6	290	Fire	32	(No Element)	0	0	Blue	White	White
+204	Rath Blaze Splitter Lv. 7	310	Fire	34	(No Element)	0	0	Blue	White	White
+205	Rath Inferno Splitter Lv. 8	320	Fire	36	(No Element)	0	0	White	White	Purple
+206	Bolt Axe Lv. 1	120	Thunder	8	(No Element)	0	0	Green	Green	Green
+207	Bolt Axe Lv. 2	140	Thunder	9	(No Element)	0	0	Green	Green	Green
+208	Bolt Axe Lv. 3	150	Thunder	10	(No Element)	0	0	Green	Green	Blue
+209	Bolt Axe Lv. 4	200	Thunder	12	(No Element)	0	0	Blue	Blue	Blue
+210	High Bolt Axe Lv. 5	220	Thunder	13	(No Element)	0	0	Blue	White	White
+211	High Bolt Axe Lv. 6	300	Thunder	15	(No Element)	0	0	Blue	White	White
+212	Extreme Bolt Axe Lv. 7	330	Thunder	17	(No Element)	0	0	White	White	White
+213	Usurper's Downpour Lv. 1	120	Thunder	22	(No Element)	0	0	Green	Green	Green
+214	Usurper's Downpour Lv. 2	130	Thunder	23	(No Element)	0	0	Green	Blue	Blue
+215	Usurper's Downpour Lv. 3	180	Thunder	24	(No Element)	0	0	Blue	Blue	Blue
+216	Despot's Cloudburst Lv. 4	200	Thunder	25	(No Element)	0	0	Blue	White	White
+217	Despot's Cloudburst Lv. 5	260	Thunder	27	(No Element)	0	0	White	White	White
+218	Despot's Cloudburst Lv. 6	290	Thunder	29	(No Element)	0	0	White	White	Purple
+219	Oppressor's Deluge Lv. 7	320	Thunder	32	(No Element)	0	0	White	Purple	Purple
+220	Fond Farewell Lv. 1	130	Water	16	(No Element)	0	0	Green	Green	Green
+221	Fond Farewell Lv. 2	140	Water	18	(No Element)	0	0	Green	Green	Green
+222	Fond Farewell Lv. 3	150	Water	22	(No Element)	0	10	Green	Blue	Blue
+223	Fond Farewell Lv. 4	170	Water	24	(No Element)	0	10	Blue	White	White
+224	Fond Farewell Lv. 5	190	Water	26	(No Element)	0	10	Blue	White	White
+225	Parting Slice Lv. 6	200	Water	28	(No Element)	0	10	Blue	White	White
+226	Parting Slice Lv. 7	270	Water	30	(No Element)	0	10	White	White	White
+227	Parting Slice Lv. 8	290	Water	32	(No Element)	0	10	White	White	Purple
+228	Leave-Taker Lv. 9	300	Water	35	(No Element)	0	10	White	Purple	Purple
+229	Voltaic Axe Lv. 1	120	Thunder	16	(No Element)	0	15	Green	Green	Green
+230	Voltaic Axe Lv. 2	130	Thunder	18	(No Element)	0	15	Green	Green	Blue
+231	Voltaic Axe Lv. 3	150	Thunder	20	(No Element)	0	20	Blue	Blue	White
+232	Voltaic Axe Lv. 4	160	Thunder	22	(No Element)	0	20	Blue	White	White
+233	Voltaic Axe Lv. 5	170	Thunder	26	(No Element)	0	20	White	White	White
+234	Voltaic End Lv. 6	180	Thunder	28	(No Element)	0	20	White	White	White
+235	Voltaic End Lv. 7	250	Thunder	30	(No Element)	0	20	White	White	White
+236	Voltaic End Lv. 8	270	Thunder	32	(No Element)	0	20	Purple	Purple	Purple
+237	Voltaic Load Lv. 9	290	Thunder	35	(No Element)	0	20	Purple	Purple	Purple
+238	Giant's Axe Lv. 1	140	Ice	16	(No Element)	0	-20	Green	Green	Green
+239	Giant's Axe Lv. 2	150	Ice	18	(No Element)	0	-20	Green	Green	Blue
+240	Giant's Axe Lv. 3	170	Ice	20	(No Element)	0	-20	Green	Blue	Blue
+241	Giant's Axe Lv. 4	190	Ice	22	(No Element)	0	-20	Blue	Blue	Blue
+242	Giant's Axe Lv. 5	210	Ice	24	(No Element)	0	-20	Blue	Blue	Blue
+243	Colossus's Axe Lv. 6	230	Ice	26	(No Element)	0	-20	Blue	Blue	White
+244	Colossus's Axe Lv. 7	300	Ice	28	(No Element)	0	-20	White	White	White
+245	Colossus's Axe Lv. 8	320	Ice	30	(No Element)	0	-20	White	White	Purple
+246	Behemoth's Axe Lv. 9	340	Ice	32	(No Element)	0	-20	White	White	Purple
+247	Scorching Drafa Lv. 1	130	Fire	16	(No Element)	0	0	Green	Green	Green
+248	Scorching Drafa Lv. 2	140	Fire	18	(No Element)	0	0	Green	Green	Green
+249	Scorching Drafa Lv. 3	160	Fire	20	(No Element)	0	0	Green	Green	Blue
+250	Scorching Drafa Lv. 4	180	Fire	22	(No Element)	0	0	Blue	Blue	Blue
+251	Scorching Drafa Lv. 5	200	Fire	24	(No Element)	0	0	Blue	Blue	White
+252	Glavenus's Grimace Lv. 6	210	Fire	26	(No Element)	0	0	Blue	White	White
+253	Glavenus's Grimace Lv. 7	280	Fire	28	(No Element)	0	0	White	White	White
+254	Glavenus's Grimace Lv. 8	300	Fire	30	(No Element)	0	0	White	White	White
+255	Glavenus's Grimanova Lv. 9	320	Fire	32	(No Element)	0	0	White	Purple	Purple
+256	Eisenleib Lv. 1	120	Dragon	10	(No Element)	0	15	Green	Green	Green
+257	Eisenleib Lv. 2	130	Dragon	12	(No Element)	0	15	Green	Blue	Blue
+258	Eisenleib Lv. 3	150	Dragon	14	(No Element)	0	20	Blue	Blue	Blue
+259	Eisenleib Lv. 4	170	Dragon	15	(No Element)	0	25	Blue	Blue	White
+260	Eisengeist Lv. 5	190	Dragon	16	(No Element)	0	30	Blue	White	White
+261	Eisengeist Lv. 6	290	Dragon	18	(No Element)	0	30	Blue	White	White
+262	Eisenherz Lv. 7	310	Dragon	20	(No Element)	0	30	Blue	Purple	Purple
+263	Aksa Switch Lv. 1	140	(No Element)	0	(No Element)	0	10	Blue	Blue	Blue
+264	Aksa Switch Lv. 2	150	(No Element)	0	(No Element)	0	10	Blue	Blue	Blue
+265	Aksa Switch Lv. 3	160	(No Element)	0	(No Element)	0	10	Blue	White	White
+266	Aksa Switch Lv. 4	180	(No Element)	0	(No Element)	0	10	White	White	White
+267	Baran Defiance Lv. 5	190	(No Element)	0	(No Element)	0	10	White	White	White
+268	Baran Defiance Lv. 6	270	(No Element)	0	(No Element)	0	10	White	White	Purple
+269	Baran Rebellion Lv. 7	310	(No Element)	0	(No Element)	0	10	White	Purple	Purple
+270	Rex Slasher Lv. 1	140	(No Element)	0	SA - Exhaust	20	-15	Blue	Blue	Blue
+271	Rex Slasher Lv. 2	160	(No Element)	0	SA - Exhaust	22	-15	Blue	Blue	Blue
+272	Rex Slasher Lv. 3	200	(No Element)	0	SA - Exhaust	24	-10	Blue	Blue	White
+273	Rex Gnasher Lv. 4	220	(No Element)	0	SA - Exhaust	25	-10	White	White	White
+274	Rex Gnasher Lv. 5	280	(No Element)	0	SA - Exhaust	28	-10	White	White	White
+275	Rex Gnasher Lv. 6	320	(No Element)	0	SA - Exhaust	30	-10	White	White	White
+276	Rex Thrasher Lv. 7	340	(No Element)	0	SA - Exhaust	32	-10	Purple	Purple	Purple
+277	Peal Lv. 1	110	Thunder	28	(No Element)	0	0	Blue	Blue	White
+278	Peal Lv. 2	120	Thunder	30	(No Element)	0	0	Blue	Blue	White
+279	Peal Lv. 3	130	Thunder	36	(No Element)	0	0	Blue	Blue	White
+280	Peal Lv. 4	140	Thunder	42	(No Element)	0	0	Blue	White	White
+281	Kirin Thunderpeal Lv. 5	150	Thunder	48	(No Element)	0	0	Blue	White	White
+282	Kirin Thunderpeal Lv. 6	230	Thunder	50	(No Element)	0	0	White	White	White
+283	Kirin Thunderpeal Lv. 7	250	Thunder	52	(No Element)	0	0	White	White	White
+284	Archbeast Kirin Lv. 8	280	Thunder	55	(No Element)	0	0	White	White	Purple
+285	Dios Axe Lv. 1	120	Blast	17	(No Element)	0	0	Green	Green	Green
+286	Dios Axe Lv. 2	140	Blast	20	(No Element)	0	0	Green	Green	Blue
+287	Dios Axe Lv. 3	160	Blast	22	(No Element)	0	0	Green	Blue	Blue
+288	Dios Axe Lv. 4	200	Blast	24	(No Element)	0	0	Blue	White	White
+289	Grand Slasher Lv. 5	210	Blast	26	(No Element)	0	0	Blue	White	White
+290	Grand Slasher Lv. 6	300	Blast	28	(No Element)	0	0	Blue	White	White
+291	Magnificent Slasher Lv. 7	330	Blast	30	(No Element)	0	0	Blue	White	Purple
+292	La Guillotine Lv. 1	130	Dragon	15	(No Element)	0	30	Blue	Blue	White
+293	La Guillotine Lv. 2	140	Dragon	16	(No Element)	0	30	Blue	Blue	White
+294	La Guillotine Lv. 3	150	Dragon	17	(No Element)	0	35	White	White	White
+295	La Guillotine Lv. 4	160	Dragon	18	(No Element)	0	35	White	White	White
+296	Le Sursis Lv. 5	170	Dragon	20	(No Element)	0	35	White	White	White
+297	Le Sursis Lv. 6	240	Dragon	21	(No Element)	0	35	White	White	White
+298	Le Sursis Lv. 7	260	Dragon	23	(No Element)	0	35	White	White	White
+299	La Conclusion Lv. 8	280	Dragon	25	(No Element)	0	35	White	Purple	Purple
+300	Daora's Farasa Lv. 1	130	Ice	20	(No Element)	0	5	Green	Green	Blue
+301	Daora's Farasa Lv. 2	140	Ice	22	(No Element)	0	5	Blue	White	White
+302	Daora's Farasa Lv. 3	170	Ice	26	(No Element)	0	5	White	White	White
+303	Daora's Janah Lv. 4	180	Ice	28	(No Element)	0	5	White	White	White
+304	Daora's Janah Lv. 5	270	Ice	30	(No Element)	0	5	White	White	White
+305	Daora's Ajniha Lv. 6	310	Ice	32	(No Element)	0	5	White	Purple	Purple
+306	Waxglare Wand Lv. 1	120	Poison	24	(No Element)	0	0	Blue	Blue	White
+307	Waxglare Wand Lv. 2	130	Poison	26	(No Element)	0	0	Blue	Blue	White
+308	Waxglare Wand Lv. 3	160	Poison	28	(No Element)	0	0	White	White	White
+309	Balor's Mirage Lv. 4	170	Poison	30	(No Element)	0	0	White	White	White
+310	Balor's Mirage Lv. 5	250	Poison	33	(No Element)	0	0	White	White	White
+311	Zariella's Phantasm Lv. 6	280	Poison	35	(No Element)	0	0	White	Purple	Purple
+312	Skeletal Axe Lv. 1	160	Dragon	10	(No Element)	0	-25	Yellow	Yellow	Yellow
+313	Skeletal Axe Lv. 2	180	Dragon	12	(No Element)	0	-25	Yellow	Green	Green
+314	Skeletal Axe Lv. 3	230	Dragon	13	(No Element)	0	-25	Green	Green	Green
+315	Skeletal Axe Lv. 4	250	Dragon	14	(No Element)	0	-25	Green	Green	Green
+316	Wicked Thorns Lv. 5	260	Dragon	16	(No Element)	0	-25	Green	Blue	Blue
+317	Wicked Thorns Lv. 6	330	Dragon	18	(No Element)	0	-25	Green	Blue	White
+318	Antares Axe Lv. 7	380	Dragon	20	(No Element)	0	-25	Green	White	White
+319	Wycademy Axe Lv. 1	120	Blast	10	(No Element)	0	0	Green	Green	Green
+320	Wycademy Axe Lv. 2	130	Blast	12	(No Element)	0	0	Green	Green	Blue
+321	Wycademy Axe Lv. 3	170	Blast	13	(No Element)	0	0	Green	Green	Blue
+322	Versa Veil Axe Lv. 4	200	Blast	15	(No Element)	0	0	Green	Blue	White
+323	Versa Veil Axe Lv. 5	260	Blast	17	(No Element)	0	0	Green	Blue	White
+324	Granversa Axe Lv. 6	330	Blast	20	(No Element)	0	0	Green	Blue	White
+325	Infernal Axe Lv. 1	100	Dragon	12	(No Element)	0	0	Green	Green	Green
+326	Infernal Axe Lv. 2	130	Dragon	14	(No Element)	0	0	Green	Green	Green
+327	Infernal Axe Lv. 3	150	Dragon	16	(No Element)	0	0	Green	Blue	Blue
+328	Hellish Edge Lv. 4	170	Dragon	18	(No Element)	0	0	Blue	Blue	White
+329	Hellish Edge Lv. 5	240	Dragon	20	(No Element)	0	0	Blue	Blue	White
+330	Hellish Edge Lv. 6	260	Dragon	22	(No Element)	0	0	White	White	White
+331	Calamitous Axe Lv. 7	290	Dragon	25	(No Element)	0	0	White	White	Purple
+332	Black Belt Axe Lv. 1	120	(No Element)	0	SA - Poison	14	0	Green	Green	Green
+333	Black Belt Axe Lv. 2	130	(No Element)	0	SA - Poison	16	0	Green	Green	Green
+334	Black Belt Axe Lv. 3	160	(No Element)	0	SA - Poison	18	0	Green	Green	Green
+335	Shihan Axe Lv. 4	210	(No Element)	0	SA - Poison	20	0	Green	Green	Blue
+336	Shihan Axe Lv. 5	260	(No Element)	0	SA - Poison	22	0	Blue	Blue	White
+337	Grandmaster Axe Lv. 6	320	(No Element)	0	SA - Poison	25	0	Blue	White	White
+338	Yukumo Pure Axe Lv. 1	130	(No Element)	0	SA - Dragon	20	0	Green	Green	Green
+339	Yukumo Pure Axe Lv. 2	150	(No Element)	0	SA - Dragon	22	0	Green	Green	Blue
+340	Yukumo Pure Axe Lv. 3	170	(No Element)	0	SA - Dragon	25	0	Blue	Blue	White
+341	Yukumo Spirit Axe Lv. 4	220	(No Element)	0	SA - Dragon	28	0	Blue	Blue	White
+342	Yukumo Spirit Axe Lv. 5	290	(No Element)	0	SA - Dragon	30	0	White	White	White
+343	Yukumo Aura Axe Lv. 6	340	(No Element)	0	SA - Dragon	32	0	White	White	Purple
+344	Black Axe Lv. 1	100	Dragon	7	(No Element)	0	0	Green	Green	Green
+345	Black Axe Lv. 2	120	Dragon	8	(No Element)	0	0	Green	Green	Green
+346	Black Axe Lv. 3	140	Dragon	10	(No Element)	0	0	Green	Green	Blue
+347	Black Axe Lv. 4	180	Dragon	12	(No Element)	0	0	Green	Blue	White
+348	Onyx Axe Lv. 5	210	Dragon	14	(No Element)	0	0	Green	Blue	White
+349	Onyx Axe Lv. 6	320	Dragon	28	(No Element)	0	0	Blue	Blue	White
+350	Fatalis's End Lv. 7	340	Dragon	30	(No Element)	0	0	Blue	Purple	Purple
+351	General's Strongaxe Lv. 1	140	(No Element)	0	SA - Exhaust	25	0	Blue	Blue	White
+352	General's Strongaxe Lv. 2	160	(No Element)	0	SA - Exhaust	28	0	Blue	Blue	White
+353	Conqueress Lv. 3	180	(No Element)	0	SA - Exhaust	30	0	Blue	White	White
+354	Conqueress Lv. 4	270	(No Element)	0	SA - Exhaust	32	0	White	Purple	Purple
+355	Reconqueress Lv. 5	330	(No Element)	0	SA - Exhaust	35	0	White	Purple	Purple
+356	Vavoom Axe Lv. 1	150	Water	18	(No Element)	0	0	Green	Green	Blue
+357	Vavoom Axe Lv. 2	170	Water	20	(No Element)	0	0	Green	Green	Blue
+358	Vavoom Axe Lv. 3	190	Water	22	(No Element)	0	0	Green	Blue	Blue
+359	Vavoom Verdict Lv. 4	220	Water	24	(No Element)	0	0	Green	Blue	Blue
+360	Vavoom Verdict Lv. 5	250	Water	26	(No Element)	0	0	Blue	Blue	White
+361	Vavoom Verdict Lv. 6	280	Water	28	(No Element)	0	0	Blue	White	White
+362	Vavoom Victory Lv. 7	340	Water	30	(No Element)	0	0	White	White	White
+363	Notched Doom Lv. 1	170	Ice	12	(No Element)	0	-15	Green	Green	Blue
+364	Notched Doom Lv. 2	180	Ice	14	(No Element)	0	-15	Green	Green	Blue
+365	Notched Doom Lv. 3	200	Ice	16	(No Element)	0	-15	Green	Blue	Blue
+366	Notched Legion Lv. 4	230	Ice	18	(No Element)	0	-15	Blue	White	White
+367	Notched Legion Lv. 5	290	Ice	20	(No Element)	0	-15	Blue	White	White
+368	Notched Rout Lv. 6	350	Ice	22	(No Element)	0	-15	Blue	White	White
+369	Worn Switch Axe Lv. 1	110	(No Element)	0	SA - Dragon	10	-70	Orange	Orange	Orange
+370	Worn Switch Axe Lv. 2	110	(No Element)	0	SA - Dragon	15	-70	Orange	Orange	Orange
+371	Worn Switch Axe Lv. 3	110	(No Element)	0	SA - Dragon	20	-70	Yellow	Yellow	Yellow
+372	Worn Switch Axe Lv. 4	110	(No Element)	0	SA - Dragon	25	-70	Yellow	Yellow	Yellow
+373	Weathered Switch Axe Lv. 5	270	(No Element)	0	SA - Dragon	40	-70	Yellow	Blue	Blue
+374	Weathered Switch Axe Lv. 6	300	(No Element)	0	SA - Dragon	42	-70	Yellow	Green	Blue
+375	Aged Switch Axe Lv. 7	380	(No Element)	0	SA - Dragon	45	-70	Yellow	Blue	White
+376	Beak Axe Lv. 1	150	Fire	18	(No Element)	0	5	Blue	Blue	White
+377	Beak Axe Lv. 2	170	Fire	20	(No Element)	0	5	Blue	Blue	White
+378	Sawbill Axe Lv. 3	200	Fire	22	(No Element)	0	5	Blue	Blue	White
+379	Sawbill Axe Lv. 4	230	Fire	25	(No Element)	0	5	Blue	White	White
+380	Beakutkaxe Lv. 5	260	Fire	27	(No Element)	0	5	White	White	White
+381	Terror Bird Axe Lv. 6	300	Fire	30	(No Element)	0	10	White	White	Purple
+382	Assault Axe Lv. 1	160	(No Element)	0	SA - Para	8	-10	Green	Green	Blue
+383	Assault Axe Lv. 2	190	(No Element)	0	SA - Para	10	-10	Green	Blue	Blue
+384	Blitzkrieg Lv. 3	210	(No Element)	0	SA - Para	12	-10	Green	Blue	Blue
+385	Blitzkrieg Lv. 4	280	(No Element)	0	SA - Para	14	-15	Blue	Blue	White
+386	Blitzkrieg Lv. 5	310	(No Element)	0	SA - Para	16	-15	Blue	White	White
+387	Bastion Blitz Lv. 6	350	(No Element)	0	SA - Para	18	-15	Blue	White	White
+388	Vavoom Vengeance Lv. 1	170	Water	36	(No Element)	0	0	Blue	Blue	White
+389	Vavoom Vengeance Lv. 2	180	Water	38	(No Element)	0	0	Blue	Blue	White
+390	Vavoom Vindication Lv. 3	190	Water	40	(No Element)	0	0	Blue	Blue	White
+391	Vavoom Vindication Lv. 4	250	Water	42	(No Element)	0	0	White	White	Purple
+392	Weird Wacha Nakha Lv. 5	300	Water	45	(No Element)	0	0	White	Purple	Purple
+393	Notched Tyrant Lv. 1	180	Ice	30	(No Element)	0	-10	Blue	Blue	Blue
+394	Notched Tyrant Lv. 2	190	Ice	32	(No Element)	0	-10	Blue	Blue	Blue
+395	Notched Oppressor Lv. 3	200	Ice	34	(No Element)	0	-10	Blue	Blue	White
+396	Notched Oppressor Lv. 4	260	Ice	36	(No Element)	0	-10	White	White	White
+397	Notched Ice Autarch Lv. 5	310	Ice	38	(No Element)	0	-10	White	Purple	Purple
+398	Finslash Lv. 1	160	Sleep	18	(No Element)	0	0	Green	Green	Green
+399	Finslash Lv. 2	170	Sleep	20	(No Element)	0	0	Green	Blue	Blue
+400	Mega Rhipidon Lv. 3	190	Sleep	22	(No Element)	0	0	Blue	White	White
+401	Mega Rhipidon Lv. 4	240	Sleep	24	(No Element)	0	0	Blue	White	White
+402	Mega Rhipidon Lv. 5	270	Sleep	26	(No Element)	0	0	Blue	White	White
+403	Cascade Rhipidon Lv. 6	310	Sleep	28	(No Element)	0	0	White	White	Purple
+404	Flicker Axe Lv. 1	170	(No Element)	0	SA - Para	24	0	Blue	Blue	Blue
+405	Flicker Axe Lv. 2	180	(No Element)	0	SA - Para	26	0	Blue	Blue	White
+406	Paraflick Axe Lv. 3	190	(No Element)	0	SA - Para	28	0	Blue	White	White
+407	Paraflick Axe Lv. 4	240	(No Element)	0	SA - Para	31	0	White	White	White
+408	Paracrux Axe Lv. 5	290	(No Element)	0	SA - Para	33	0	White	Purple	Purple
+409	Golba Bandar Lv. 1	150	(No Element)	0	(No Element)	0	0	Green	Green	Green
+410	Golba Bandar Lv. 2	170	(No Element)	0	(No Element)	0	0	Green	Blue	Blue
+411	Gunda Bandandar Lv. 3	200	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+412	Gunda Bandandar Lv. 4	260	(No Element)	0	(No Element)	0	0	Blue	White	White
+413	Gunda Bandandar Lv. 5	290	(No Element)	0	(No Element)	0	0	Blue	White	White
+414	Gundar Sangram Lv. 6	320	(No Element)	0	(No Element)	0	0	White	Purple	Purple
+415	Amber Slash Lv. 1	160	Ice	32	(No Element)	0	10	Blue	Blue	White
+416	Amber Hoarfrost Lv. 2	180	Ice	35	(No Element)	0	10	Blue	Blue	White
+417	Amber Hoarfrost Lv. 3	260	Ice	38	(No Element)	0	10	White	White	White
+418	Amber Permafrost Lv. 4	290	Ice	40	(No Element)	0	10	Purple	Purple	Purple
+419	Volt Axe Lv. 1	160	Thunder	30	(No Element)	0	5	Blue	Blue	White
+420	Volt Axe Lv. 2	170	Thunder	32	(No Element)	0	5	Blue	Blue	White
+421	Megavolt Axe Lv. 3	190	Thunder	35	(No Element)	0	5	Blue	Blue	White
+422	Megavolt Axe Lv. 4	260	Thunder	37	(No Element)	0	5	White	White	Purple
+423	Megavolt Axe Lv. 5	280	Thunder	39	(No Element)	0	5	White	White	Purple
+424	Gigavolt Axe Lv. 6	300	Thunder	41	(No Element)	0	5	White	Purple	Purple
+425	Fire Tempest Lv. 1	160	Fire	22	(No Element)	0	15	Blue	Blue	White
+426	Fire Tempest Lv. 2	170	Fire	24	(No Element)	0	15	Blue	Blue	White
+427	Flame Tempest Lv. 3	180	Fire	26	(No Element)	0	15	Blue	Blue	White
+428	Flame Tempest Lv. 4	250	Fire	28	(No Element)	0	15	Blue	Blue	White
+429	Flame Tempest Lv. 5	270	Fire	30	(No Element)	0	20	White	White	White
+430	Helstrong Firebath Lv. 6	280	Fire	32	(No Element)	0	20	White	Purple	Purple
+431	Seditious Axe Lv. 1	160	(No Element)	0	(No Element)	0	20	White	White	White
+432	Seditious Axe Lv. 2	170	(No Element)	0	(No Element)	0	20	White	White	White
+433	Baraq Sedition Lv. 3	180	(No Element)	0	(No Element)	0	20	White	White	White
+434	Baraq Sedition Lv. 4	230	(No Element)	0	(No Element)	0	20	White	White	White
+435	Baraq Sedition Lv. 5	250	(No Element)	0	(No Element)	0	20	Purple	Purple	Purple
+436	Sedition Splitter Lv. 6	280	(No Element)	0	(No Element)	0	20	Purple	Purple	Purple
+437	Heavy Divider Lv. 1	190	(No Element)	0	SA - Exhaust	36	0	Blue	Blue	White
+438	Heavy Divider Lv. 2	200	(No Element)	0	SA - Exhaust	38	0	Blue	Blue	White
+439	Grunhart Lv. 3	220	(No Element)	0	SA - Exhaust	40	0	Blue	White	White
+440	Grunhart Lv. 4	310	(No Element)	0	SA - Exhaust	42	0	White	White	White
+441	Grunfest Lv. 5	340	(No Element)	0	SA - Exhaust	45	0	White	White	Purple
+442	Demolition Axe Lv. 1	170	Blast	30	(No Element)	0	0	Blue	Blue	White
+443	Demolition Axe Lv. 2	180	Blast	32	(No Element)	0	0	Blue	Blue	White
+444	Brisant Demolisher Lv. 3	190	Blast	34	(No Element)	0	0	Blue	Blue	White
+445	Brisant Demolisher Lv. 4	260	Blast	36	(No Element)	0	0	White	White	White
+446	Brisant Demolisher Lv. 5	280	Blast	38	(No Element)	0	0	White	White	Purple
+447	Brisant Annihilator Lv. 6	300	Blast	40	(No Element)	0	0	White	Purple	Purple
+448	Undying Axe Lv. 1	160	Thunder	27	(No Element)	0	15	Green	Green	Green
+449	Undying Axe Lv. 2	170	Thunder	28	(No Element)	0	15	Green	Green	Blue
+450	Undying Axe Lv. 3	190	Thunder	30	(No Element)	0	15	Green	Blue	Blue
+451	Undying Light Lv. 4	200	Thunder	32	(No Element)	0	15	Blue	White	White
+452	Undying Light Lv. 5	280	Thunder	33	(No Element)	0	15	White	White	White
+453	Undying Purity Lv. 6	310	Thunder	35	(No Element)	0	15	White	White	White
+454	Tyrannos Lv. 1	190	(No Element)	0	SA - Dragon	5	-5	Green	Blue	Blue
+455	Tyrannos Lv. 2	210	(No Element)	0	SA - Dragon	6	-5	Green	Blue	Blue
+456	Terror Tyrannos Lv. 3	230	(No Element)	0	SA - Dragon	8	-5	Green	Blue	Blue
+457	Terror Tyrannos Lv. 4	310	(No Element)	0	SA - Dragon	10	-5	White	White	White
+458	Nero's Tyrannos Lv. 5	340	(No Element)	0	SA - Dragon	12	-5	White	White	Purple
+459	Mundus Altus Lv. 1	110	Dragon	50	(No Element)	0	0	Blue	White	White
+460	Mundus Altus Lv. 2	120	Dragon	55	(No Element)	0	0	Blue	White	White
+461	Mundus Regius Lv. 3	130	Dragon	60	(No Element)	0	0	Blue	White	White
+462	Mundus Regius Lv. 4	190	Dragon	62	(No Element)	0	0	White	White	White
+463	Mundus Divinus Lv. 5	270	Dragon	65	(No Element)	0	0	White	White	White
+464	Axe Semper Tyrannis Lv. 1	210	(No Element)	0	SA - Exhaust	8	-10	Green	Blue	Blue
+465	Grand Chaos Lv. 2	240	(No Element)	0	SA - Exhaust	10	-10	Blue	Blue	White
+466	Grand Chaos Lv. 3	300	(No Element)	0	SA - Exhaust	13	-10	Blue	White	White
+467	Grand Chaos Lv. 4	320	(No Element)	0	SA - Exhaust	15	-10	Blue	White	White
+468	Axe of Gaia Lv. 5	350	(No Element)	0	SA - Exhaust	17	-10	White	Purple	Purple
+469	Research Axe Lv. 1	180	(No Element)	0	SA - Dragon	15	15	Blue	Blue	White
+470	Discovery Axe Lv. 2	200	(No Element)	0	SA - Dragon	17	15	White	White	White
+471	Discovery Axe Lv. 3	230	(No Element)	0	SA - Dragon	20	20	White	White	Purple
+472	Discovery Axe Lv. 4	280	(No Element)	0	SA - Dragon	23	20	Purple	Purple	Purple
+473	Authority Shears Lv. 5	300	(No Element)	0	SA - Dragon	25	25	Purple	Purple	Purple
+474	Switch Fox Lv. 1	150	Ice	8	(No Element)	0	0	Blue	Blue	White
+475	Switch Fox Lv. 2	170	Ice	10	(No Element)	0	0	Blue	White	White
+476	Special Corps Axe Lv. 3	180	Ice	11	(No Element)	0	0	Blue	White	White
+477	Special Corps Axe Lv. 4	240	Ice	13	(No Element)	0	0	White	White	White
+478	Shapeshifter Lv. 5	300	Ice	15	(No Element)	0	0	White	White	White
+479	Raikou Works Lv. 1	160	Thunder	20	(No Element)	0	0	Blue	Blue	White
+480	Raikou Works Lv. 2	180	Thunder	22	(No Element)	0	0	Blue	White	White
+481	Raiden Works Lv. 3	190	Thunder	24	(No Element)	0	0	Blue	White	White
+482	Raiden Works Lv. 4	280	Thunder	26	(No Element)	0	0	White	White	White
+483	Dengeki Axe Lv. 5	310	Thunder	28	(No Element)	0	0	White	White	White
+484	Pirate Axe J Lv. 1	160	(No Element)	0	(No Element)	0	0	Blue	Blue	White
+485	Pirate Axe J Lv. 2	180	(No Element)	0	(No Element)	0	0	Blue	White	White
+486	Buccaneer Axe J Lv. 3	200	(No Element)	0	(No Element)	0	0	Blue	White	White
+487	Buccaneer Axe J Lv. 4	290	(No Element)	0	(No Element)	0	0	White	White	White
+488	Pirate King Axe J Lv. 5	320	(No Element)	0	(No Element)	0	0	White	White	White
+489	Red Tomahawk Lv. 1	140	Para	24	(No Element)	0	10	Green	Blue	White
+490	Crimson Tomahawk Lv. 2	150	Para	25	(No Element)	0	10	Green	Blue	White
+491	Crimson Tomahawk Lv. 3	200	Para	28	(No Element)	0	15	Blue	Blue	White
+492	Purgatory Tomahawk Lv. 4	260	Para	30	(No Element)	0	15	Blue	Purple	Purple
+493	Teostra's Arx Lv. 1	150	Blast	36	(No Element)	0	0	Blue	Blue	White
+494	Teostra's Arx Lv. 2	160	Blast	38	(No Element)	0	0	Blue	Blue	White
+495	Teostra's Castle Lv. 3	170	Blast	40	(No Element)	0	0	Blue	White	White
+496	Teostra's Castle Lv. 4	250	Blast	42	(No Element)	0	0	White	White	Purple
+497	Teostra's Hellebarde Lv. 5	280	Blast	44	(No Element)	0	0	White	Purple	Purple
+498	Rathsplicer Lv. 1	170	Fire	32	(No Element)	0	5	Blue	Blue	White
+499	Rathsplicer Lv. 2	180	Fire	34	(No Element)	0	5	Blue	Blue	White
+500	Rathlagration Lv. 3	190	Fire	35	(No Element)	0	5	Blue	Blue	White
+501	Rathlagration Lv. 4	270	Fire	38	(No Element)	0	10	White	White	White
+502	Rathscension Lv. 5	290	Fire	40	(No Element)	0	10	White	Purple	Purple
+503	Golden Crescent Lv. 1	200	Poison	10	(No Element)	0	0	Blue	Blue	White
+504	Golden Crescent Lv. 2	210	Poison	12	(No Element)	0	0	Blue	Blue	White
+505	Lune Shredder Lv. 3	220	Poison	14	(No Element)	0	0	Blue	Blue	White
+506	Lune Shredder Lv. 4	310	Poison	17	(No Element)	0	0	White	White	White
+507	Harvest Moon Lv. 5	320	Poison	20	(No Element)	0	0	White	Purple	Purple
+508	Demonlord Axe Lv. 1	160	Thunder	16	(No Element)	0	20	Blue	Blue	White
+509	Demonlord Axe Lv. 2	170	Thunder	18	(No Element)	0	25	Blue	Blue	White
+510	Demonlord Edge Lv. 3	180	Thunder	20	(No Element)	0	30	Blue	White	White
+511	Demonlord Edge Lv. 4	260	Thunder	22	(No Element)	0	30	Blue	White	White
+512	Demonlord Earthshaker Lv. 5	300	Thunder	23	(No Element)	0	30	Blue	White	Purple
+513	Saligia Vileaxe Lv. 1	190	(No Element)	0	SA - Dragon	10	-20	Blue	Blue	Blue
+514	Saligia Vileaxe Lv. 2	200	(No Element)	0	SA - Dragon	12	-20	Blue	Blue	White
+515	Saligia Enderaxe Lv. 3	210	(No Element)	0	SA - Dragon	14	-20	Blue	White	White
+516	Saligia Enderaxe Lv. 4	290	(No Element)	0	SA - Dragon	16	-20	Blue	White	White
+517	Doomaxe 'Downpour' Lv. 5	310	(No Element)	0	SA - Dragon	18	-20	Blue	White	Purple
+518	Akantor Switch Axe Lv. 1	250	(No Element)	0	SA - Dragon	12	30	Green	Green	Green
+519	Akantor Switch Axe Lv. 2	250	(No Element)	0	SA - Dragon	14	30	Green	Green	Green
+520	Akantor Divider Lv. 3	250	(No Element)	0	SA - Dragon	15	35	Green	Green	Green
+521	Akantor Divider Lv. 4	320	(No Element)	0	SA - Dragon	18	35	Green	Green	Blue
+522	Akantor Fissure Lv. 5	370	(No Element)	0	SA - Dragon	20	35	Green	Blue	Blue
+523	Murkham Axe Lv. 1	250	Ice	12	(No Element)	0	-25	Green	Green	Green
+524	Murkham Axe Lv. 2	250	Ice	14	(No Element)	0	-25	Green	Green	Blue
+525	Muronkham Axe Lv. 3	250	Ice	15	(No Element)	0	-20	Green	Green	Blue
+526	Muronkham Axe Lv. 4	330	Ice	17	(No Element)	0	-20	Blue	Blue	Blue
+527	Murkamunomi Axe Lv. 5	360	Ice	18	(No Element)	0	-20	Blue	Blue	White
+528	Cloudburst Axe Lv. 1	200	Water	10	(No Element)	0	-20	Blue	Blue	Blue
+529	Cloudburst Axe Lv. 2	220	Water	11	(No Element)	0	-20	Blue	Blue	Blue
+530	Heavenly Rain Lv. 3	240	Water	12	(No Element)	0	-20	Blue	Blue	White
+531	Heavenly Rain Lv. 4	320	Water	14	(No Element)	0	-20	White	White	White
+532	Celestial Axe Lv. 5	360	Water	16	(No Element)	0	-20	White	White	White
+533	Polaris Skalvia Lv. 1	170	Dragon	6	(No Element)	0	0	Blue	Blue	Blue
+534	Polaris Skalvia Lv. 2	180	Dragon	8	(No Element)	0	0	Blue	Blue	White
+535	Cosmic Skalve Lv. 3	190	Dragon	10	(No Element)	0	0	White	White	White
+536	Cosmic Skalve Lv. 4	280	Dragon	12	(No Element)	0	0	White	White	White
+537	Starfire Skalve Lv. 5	310	Dragon	13	(No Element)	0	0	Purple	Purple	Purple
+538	Dark Switch Axe Lv. 1	180	Dragon	28	(No Element)	0	0	Blue	White	White
+539	Dark Switch Axe Lv. 2	180	Dragon	30	(No Element)	0	0	White	White	White
+540	Black Harvest Lv. 3	180	Dragon	32	(No Element)	0	0	White	White	White
+541	Black Harvest Lv. 4	260	Dragon	34	(No Element)	0	0	Purple	Purple	Purple
+542	Altheos Voracion Lv. 5	280	Dragon	36	(No Element)	0	0	Purple	Purple	Purple
+543	Silverwing Axe Lv. 1	160	Dragon	38	(No Element)	0	0	White	White	White
+544	Dragonstar Dunat Lv. 2	180	Dragon	40	(No Element)	0	0	White	White	White
+545	Dragonstar Dunat Lv. 3	240	Dragon	42	(No Element)	0	0	White	White	White
+546	Dragonstar Dunat Lv. 4	270	Dragon	44	(No Element)	0	0	White	White	White
+547	Dragonstar Dunat Lv. 5	280	Dragon	46	(No Element)	0	0	White	White	White
+548	Magnastar Batis Lv. 6	300	Dragon	48	(No Element)	0	0	White	White	White
+549	Elder Axe Lv. 1	250	(No Element)	0	(No Element)	0	0	White	White	White
+550	Sage Axe Lv. 2	270	(No Element)	0	(No Element)	0	0	White	White	White
+551	Philosopher Axe Lv. 3	310	(No Element)	0	(No Element)	0	0	White	White	White
+552	Gorgonzola Axe Lv. 1	200	Para	3	(No Element)	0	0	Purple	Purple	Purple
+553	Aged Gorgonzola Axe Lv. 2	230	Para	4	(No Element)	0	0	Purple	Purple	Purple
+554	Gorgonzola Piccante Lv. 3	280	Para	5	(No Element)	0	0	Purple	Purple	Purple
+555	Galefrost Lv. 1	290	Ice	15	(No Element)	0	20	Blue	White	White
+556	Giga Galefrost Lv. 2	310	Ice	17	(No Element)	0	20	White	White	White
+557	Amberfang Lv. 3	320	Ice	20	(No Element)	0	20	White	White	White
+558	Inceadeus Lv. 1	310	Water	15	(No Element)	0	0	Blue	White	White
+559	Great Inceadeus Lv. 2	320	Water	17	(No Element)	0	0	White	Purple	Purple
+560	Ceadeed Axe Lv. 3	330	Water	18	(No Element)	0	0	White	Purple	Purple
+561	Korper/Esprit Lv. 1	280	Dragon	20	(No Element)	0	-30/15	White	White	White
+562	Fleisch/Ame Lv. 2	290	Dragon	21	(No Element)	0	-30/15	White	White	White
+563	Frevel/Sursis Lv. 3	300	Dragon	22	(No Element)	0	-30/15	White	White	Purple
+564	Lightbreak Axe Lv. 1	250	Blast	42	(No Element)	0	0	White	White	White
+565	Lightbreak Intent Lv. 2	270	Blast	43	(No Element)	0	0	White	White	Purple
+566	Lightbreak Target Lv. 3	290	Blast	45	(No Element)	0	0	White	Purple	Purple
+567	Dragon Ripper Lv. 1	260	Dragon	45	(No Element)	0	0	White	White	White
+568	Dragonfire Axe Lv. 2	280	Dragon	47	(No Element)	0	0	White	White	Purple
+569	Dragon Eater Lv. 3	300	Dragon	50	(No Element)	0	0	White	Purple	Purple
+570	Goldaxe Lv. 1	310	(No Element)	0	(No Element)	0	0	Purple	Purple	Purple
+571	Inscribed Astarte Lv. 2	320	(No Element)	0	(No Element)	0	0	Purple	Purple	Purple
+572	Anat Karnaim Lv. 3	330	(No Element)	0	(No Element)	0	0	Purple	Purple	Purple
+573	Ruiner's Bane Lv. 1	230	Blast	42	(No Element)	0	20	Blue	White	White
+574	True Ruiner's Bane Lv. 2	240	Blast	45	(No Element)	0	25	White	White	White
+575	Absolute Ruiner's Bane Lv. 3	250	Blast	50	(No Element)	0	30	White	Purple	Purple
+576	Fatalis Force Lv. 1	270	Thunder	44	(No Element)	0	0	White	White	White
+577	Fatalis Finesse Lv. 2	290	Thunder	48	(No Element)	0	0	White	White	White
+578	Fatalis Feint Lv. 3	300	Thunder	52	(No Element)	0	0	White	Purple	Purple
+579	Crimson Axe Lv. 1	110	(No Element)	0	SA - Poison	22	5	Green	Green	Green
+580	Crimson Axe Lv. 2	120	(No Element)	0	SA - Poison	23	5	Green	Green	Green
+581	Crimson Axe Lv. 3	130	(No Element)	0	SA - Poison	24	5	Green	Green	Blue
+582	Crimson Axe Lv. 4	150	(No Element)	0	SA - Poison	25	10	Green	Blue	Blue
+583	Crimson Axe Lv. 5	160	(No Element)	0	SA - Poison	26	10	Green	Blue	Blue
+584	Crimson Axe Lv. 6	170	(No Element)	0	SA - Poison	27	10	Blue	Blue	Blue
+585	Crimson Axe Lv. 7	180	(No Element)	0	SA - Poison	28	10	Blue	Blue	White
+586	Crimson Axe Lv. 8	190	(No Element)	0	SA - Poison	30	10	Blue	Blue	White
+587	Crimson Axe Lv. 9	200	(No Element)	0	SA - Poison	31	10	Blue	White	White
+588	Redhelm Axe Lv. 10	210	(No Element)	0	SA - Poison	33	10	Blue	White	White
+589	Redhelm Axe Lv. 11	240	(No Element)	0	SA - Poison	35	10	Blue	White	White
+590	Redhelm Axe Lv. 12	260	(No Element)	0	SA - Poison	36	10	Blue	White	White
+591	Redhelm Axe Lv. 13	300	(No Element)	0	SA - Poison	37	10	Blue	White	White
+592	Redhelm Axe Lv. 14	320	(No Element)	0	SA - Poison	38	10	Blue	White	Purple
+593	Red Cloudscraper Axe Lv. 15	350	(No Element)	0	SA - Poison	39	10	Blue	White	Purple
+594	Blackhare Axe Lv. 1	100	Ice	10	(No Element)	0	5	Green	Green	Green
+595	Blackhare Axe Lv. 2	110	Ice	11	(No Element)	0	5	Green	Green	Green
+596	Blackhare Axe Lv. 3	130	Ice	12	(No Element)	0	5	Green	Green	Green
+597	Blackhare Axe Lv. 4	140	Ice	13	(No Element)	0	10	Green	Green	Blue
+598	Blackhare Axe Lv. 5	150	Ice	14	(No Element)	0	10	Green	Blue	Blue
+599	Blackhare Axe Lv. 6	160	Ice	15	(No Element)	0	10	Blue	Blue	White
+600	Blackhare Axe Lv. 7	170	Ice	16	(No Element)	0	10	Blue	White	White
+601	Blackhare Axe Lv. 8	180	Ice	17	(No Element)	0	10	Blue	White	White
+602	Blackhare Axe Lv. 9	190	Ice	18	(No Element)	0	10	Blue	White	White
+603	Snowbaron Axe Lv. 10	200	Ice	20	(No Element)	0	10	Blue	White	White
+604	Snowbaron Axe Lv. 11	220	Ice	22	(No Element)	0	15	Blue	White	White
+605	Snowbaron Axe Lv. 12	240	Ice	24	(No Element)	0	15	Blue	White	White
+606	Snowbaron Axe Lv. 13	260	Ice	26	(No Element)	0	15	White	White	White
+607	Snowbaron Axe Lv. 14	280	Ice	28	(No Element)	0	15	White	White	White
+608	Snowbaron Aurispada Lv. 15	300	Ice	30	(No Element)	0	15	White	Purple	Purple
+609	Pincher Axe Lv. 1	100	Water	10	(No Element)	0	5	Green	Green	Green
+610	Pincher Axe Lv. 2	110	Water	11	(No Element)	0	5	Green	Green	Blue
+611	Pincher Axe Lv. 3	120	Water	12	(No Element)	0	5	Green	Green	Blue
+612	Pincher Axe Lv. 4	130	Water	13	(No Element)	0	10	Green	Blue	Blue
+613	Pincher Axe Lv. 5	140	Water	14	(No Element)	0	10	Green	Blue	Blue
+614	Pincher Axe Lv. 6	150	Water	15	(No Element)	0	10	Blue	Blue	Blue
+615	Pincher Axe Lv. 7	160	Water	16	(No Element)	0	10	Blue	Blue	White
+616	Pincher Axe Lv. 8	170	Water	17	(No Element)	0	10	Blue	Blue	White
+617	Pincher Axe Lv. 9	180	Water	18	(No Element)	0	10	Blue	White	White
+618	Stonefist Axe Lv. 10	190	Water	20	(No Element)	0	10	Blue	White	White
+619	Stonefist Axe Lv. 11	210	Water	22	(No Element)	0	10	Blue	White	White
+620	Stonefist Axe Lv. 12	230	Water	23	(No Element)	0	10	Blue	White	White
+621	Stonefist Axe Lv. 13	300	Water	24	(No Element)	0	10	Blue	White	White
+622	Stonefist Axe Lv. 14	320	Water	25	(No Element)	0	10	Blue	White	Purple
+623	Stonefist Gigantaxe Lv. 15	340	Water	26	(No Element)	0	10	Blue	White	Purple
+624	Royal Axe Lv. 1	80	Poison	25	(No Element)	0	5	Green	Green	Green
+625	Royal Axe Lv. 2	100	Poison	26	(No Element)	0	5	Green	Green	Blue
+626	Royal Axe Lv. 3	110	Poison	27	(No Element)	0	5	Green	Blue	Blue
+627	Royal Axe Lv. 4	120	Poison	28	(No Element)	0	10	Blue	Blue	Blue
+628	Royal Axe Lv. 5	130	Poison	29	(No Element)	0	10	Blue	Blue	Blue
+629	Royal Axe Lv. 6	140	Poison	30	(No Element)	0	10	Blue	Blue	White
+630	Royal Axe Lv. 7	150	Poison	31	(No Element)	0	10	Blue	Blue	White
+631	Royal Axe Lv. 8	160	Poison	32	(No Element)	0	10	Blue	White	White
+632	Royal Axe Lv. 9	180	Poison	33	(No Element)	0	10	Blue	White	White
+633	Dreadqueen Axe Lv. 10	190	Poison	34	(No Element)	0	10	Blue	White	White
+634	Dreadqueen Axe Lv. 11	230	Poison	36	(No Element)	0	10	Blue	White	White
+635	Dreadqueen Axe Lv. 12	250	Poison	37	(No Element)	0	10	White	White	White
+636	Dreadqueen Axe Lv. 13	260	Poison	38	(No Element)	0	10	White	White	White
+637	Dreadqueen Axe Lv. 14	280	Poison	39	(No Element)	0	10	Purple	Purple	Purple
+638	Dreadqueen Cleaver Lv. 15	290	Poison	40	(No Element)	0	10	Purple	Purple	Purple
+639	Pierce Axe Lv. 1	130	(No Element)	0	SA - Exhaust	9	5	Green	Green	Blue
+640	Pierce Axe Lv. 2	140	(No Element)	0	SA - Exhaust	10	5	Green	Blue	Blue
+641	Pierce Axe Lv. 3	150	(No Element)	0	SA - Exhaust	11	5	Green	Blue	Blue
+642	Pierce Axe Lv. 4	160	(No Element)	0	SA - Exhaust	12	5	Green	Blue	Blue
+643	Pierce Axe Lv. 5	170	(No Element)	0	SA - Exhaust	13	5	Blue	Blue	Blue
+644	Pierce Axe Lv. 6	180	(No Element)	0	SA - Exhaust	14	5	Blue	Blue	White
+645	Pierce Axe Lv. 7	190	(No Element)	0	SA - Exhaust	15	5	Blue	Blue	White
+646	Pierce Axe Lv. 8	200	(No Element)	0	SA - Exhaust	16	5	Blue	Blue	White
+647	Pierce Axe Lv. 9	210	(No Element)	0	SA - Exhaust	17	5	Blue	Blue	White
+648	Drilltusk Axe Lv. 10	220	(No Element)	0	SA - Exhaust	18	5	Blue	White	White
+649	Drilltusk Axe Lv. 11	240	(No Element)	0	SA - Exhaust	20	5	Blue	White	White
+650	Drilltusk Axe Lv. 12	250	(No Element)	0	SA - Exhaust	21	5	White	White	White
+651	Drilltusk Axe Lv. 13	290	(No Element)	0	SA - Exhaust	22	5	White	White	White
+652	Drilltusk Axe Lv. 14	310	(No Element)	0	SA - Exhaust	23	5	White	White	Purple
+653	Tetsucabra Axe Lv. 15	340	(No Element)	0	SA - Exhaust	24	5	White	Purple	Purple
+654	Nightfall Axe Lv. 1	140	(No Element)	0	(No Element)	0	10	White	White	White
+655	Nightfall Axe Lv. 2	140	(No Element)	0	(No Element)	0	10	White	White	White
+656	Nightfall Axe Lv. 3	150	(No Element)	0	(No Element)	0	10	White	White	White
+657	Nightfall Axe Lv. 4	160	(No Element)	0	(No Element)	0	10	White	White	White
+658	Nightfall Axe Lv. 5	160	(No Element)	0	(No Element)	0	10	White	White	White
+659	Nightfall Axe Lv. 6	170	(No Element)	0	(No Element)	0	10	White	White	White
+660	Nightfall Axe Lv. 7	180	(No Element)	0	(No Element)	0	10	White	White	White
+661	Nightfall Axe Lv. 8	180	(No Element)	0	(No Element)	0	10	White	White	White
+662	Nightfall Axe Lv. 9	190	(No Element)	0	(No Element)	0	10	White	White	White
+663	Silverwind Axe Lv. 10	190	(No Element)	0	(No Element)	0	15	White	White	White
+664	Silverwind Axe Lv. 11	220	(No Element)	0	(No Element)	0	15	Purple	Purple	Purple
+665	Silverwind Axe Lv. 12	240	(No Element)	0	(No Element)	0	15	Purple	Purple	Purple
+666	Silverwind Axe Lv. 13	260	(No Element)	0	(No Element)	0	20	Purple	Purple	Purple
+667	Silverwind Axe Lv. 14	280	(No Element)	0	(No Element)	0	20	Purple	Purple	Purple
+668	Daybreak Axe Lv. 15	290	(No Element)	0	(No Element)	0	20	Purple	Purple	Purple
+669	Geode Axe Lv. 1	150	(No Element)	0	(No Element)	0	5	Green	Green	Blue
+670	Geode Axe Lv. 2	150	(No Element)	0	(No Element)	0	5	Green	Green	Blue
+671	Geode Axe Lv. 3	160	(No Element)	0	(No Element)	0	5	Green	Green	Blue
+672	Geode Axe Lv. 4	170	(No Element)	0	(No Element)	0	5	Green	Green	Blue
+673	Geode Axe Lv. 5	180	(No Element)	0	(No Element)	0	5	Green	Green	Blue
+674	Geode Axe Lv. 6	180	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+675	Geode Axe Lv. 7	190	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+676	Geode Axe Lv. 8	200	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+677	Geode Axe Lv. 9	210	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+678	Crystalbeard Axe Lv. 10	220	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+679	Crystalbeard Axe Lv. 11	300	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+680	Crystalbeard Axe Lv. 12	330	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+681	Crystalbeard Axe Lv. 13	340	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+682	Crystalbeard Axe Lv. 14	360	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+683	Diamante Axe Lv. 15	370	(No Element)	0	(No Element)	0	5	Green	Blue	Blue
+684	Tomb Axe Lv. 1	170	Fire	23	(No Element)	0	5	Green	Blue	Blue
+685	Tomb Axe Lv. 2	170	Fire	24	(No Element)	0	5	Green	Blue	Blue
+686	Tomb Axe Lv. 3	170	Fire	25	(No Element)	0	5	Green	Blue	Blue
+687	Tomb Axe Lv. 4	180	Fire	26	(No Element)	0	5	Green	Blue	Blue
+688	Tomb Axe Lv. 5	180	Fire	27	(No Element)	0	5	Blue	White	White
+689	Tomb Axe Lv. 6	180	Fire	28	(No Element)	0	5	Blue	White	White
+690	Tomb Axe Lv. 7	190	Fire	29	(No Element)	0	5	Blue	White	White
+691	Tomb Axe Lv. 8	190	Fire	30	(No Element)	0	5	Blue	White	White
+692	Tomb Axe Lv. 9	190	Fire	31	(No Element)	0	5	Blue	White	White
+693	Dreadking Axe Lv. 10	200	Fire	32	(No Element)	0	5	Blue	White	White
+694	Dreadking Axe Lv. 11	240	Fire	34	(No Element)	0	10	White	White	White
+695	Dreadking Axe Lv. 12	260	Fire	35	(No Element)	0	10	White	White	White
+696	Dreadking Axe Lv. 13	270	Fire	36	(No Element)	0	10	White	White	White
+697	Dreadking Axe Lv. 14	290	Fire	37	(No Element)	0	10	White	White	White
+698	Firewaltz Axe Lv. 15	300	Fire	38	(No Element)	0	10	White	Purple	Purple
+699	Raiden Axe Lv. 1	160	Thunder	23	(No Element)	0	10	Green	Blue	Blue
+700	Raiden Axe Lv. 2	160	Thunder	24	(No Element)	0	10	Green	Blue	Blue
+701	Raiden Axe Lv. 3	160	Thunder	25	(No Element)	0	10	Green	Blue	Blue
+702	Raiden Axe Lv. 4	170	Thunder	26	(No Element)	0	10	Green	Blue	Blue
+703	Raiden Axe Lv. 5	170	Thunder	27	(No Element)	0	10	Blue	White	White
+704	Raiden Axe Lv. 6	170	Thunder	28	(No Element)	0	10	Blue	White	White
+705	Raiden Axe Lv. 7	180	Thunder	29	(No Element)	0	10	Blue	White	White
+706	Raiden Axe Lv. 8	180	Thunder	30	(No Element)	0	10	Blue	White	White
+707	Raiden Axe Lv. 9	180	Thunder	31	(No Element)	0	10	Blue	White	White
+708	Thunderlord Axe Lv. 10	190	Thunder	32	(No Element)	0	10	Blue	White	White
+709	Thunderlord Axe Lv. 11	250	Thunder	36	(No Element)	0	10	White	White	White
+710	Thunderlord Axe Lv. 12	260	Thunder	37	(No Element)	0	10	White	White	White
+711	Thunderlord Axe Lv. 13	270	Thunder	38	(No Element)	0	10	White	White	White
+712	Thunderlord Axe Lv. 14	290	Thunder	39	(No Element)	0	10	White	White	White
+713	Thunderlord Shocker Lv. 15	300	Thunder	40	(No Element)	0	10	White	Purple	Purple
+714	Seize Axe Lv. 1	170	(No Element)	0	SA - Dragon	7	10	White	White	White
+715	Seize Axe Lv. 2	170	(No Element)	0	SA - Dragon	8	10	White	White	White
+716	Seize Axe Lv. 3	170	(No Element)	0	SA - Dragon	9	10	White	White	White
+717	Seize Axe Lv. 4	180	(No Element)	0	SA - Dragon	10	10	White	White	White
+718	Seize Axe Lv. 5	180	(No Element)	0	SA - Dragon	11	10	White	White	White
+719	Seize Axe Lv. 6	180	(No Element)	0	SA - Dragon	12	10	White	White	White
+720	Seize Axe Lv. 7	190	(No Element)	0	SA - Dragon	13	10	White	White	White
+721	Seize Axe Lv. 8	190	(No Element)	0	SA - Dragon	14	10	White	White	White
+722	Seize Axe Lv. 9	190	(No Element)	0	SA - Dragon	15	10	White	White	White
+723	Grimclaw Axe Lv. 10	200	(No Element)	0	SA - Dragon	16	10	White	White	White
+724	Grimclaw Axe Lv. 11	270	(No Element)	0	SA - Dragon	18	10	White	White	White
+725	Grimclaw Axe Lv. 12	280	(No Element)	0	SA - Dragon	19	10	White	White	White
+726	Grimclaw Axe Lv. 13	290	(No Element)	0	SA - Dragon	20	10	Purple	Purple	Purple
+727	Grimclaw Axe Lv. 14	300	(No Element)	0	SA - Dragon	21	10	Purple	Purple	Purple
+728	Grimclaw Chopper Lv. 15	310	(No Element)	0	SA - Dragon	22	10	Purple	Purple	Purple
+729	Magma Axe Lv. 1	170	Blast	21	(No Element)	0	5	Blue	Blue	Blue
+730	Magma Axe Lv. 2	170	Blast	22	(No Element)	0	5	Blue	Blue	Blue
+731	Magma Axe Lv. 3	170	Blast	23	(No Element)	0	5	Blue	Blue	Blue
+732	Magma Axe Lv. 4	180	Blast	24	(No Element)	0	5	Blue	Blue	Blue
+733	Magma Axe Lv. 5	180	Blast	25	(No Element)	0	5	Blue	Blue	Blue
+734	Magma Axe Lv. 6	180	Blast	26	(No Element)	0	5	Blue	Blue	White
+735	Magma Axe Lv. 7	190	Blast	27	(No Element)	0	5	White	White	White
+736	Magma Axe Lv. 8	190	Blast	28	(No Element)	0	5	White	White	White
+737	Magma Axe Lv. 9	190	Blast	29	(No Element)	0	5	White	White	White
+738	Hellblade Axe Lv. 10	200	Blast	30	(No Element)	0	5	White	White	White
+739	Hellblade Axe Lv. 11	260	Blast	31	(No Element)	0	5	Purple	Purple	Purple
+740	Hellblade Axe Lv. 12	270	Blast	32	(No Element)	0	5	Purple	Purple	Purple
+741	Hellblade Axe Lv. 13	280	Blast	33	(No Element)	0	5	Purple	Purple	Purple
+742	Hellblade Axe Lv. 14	290	Blast	34	(No Element)	0	5	Purple	Purple	Purple
+743	Glaverno Axe Lv. 15	300	Blast	35	(No Element)	0	5	Purple	Purple	Purple
+744	Cloaked Kaleidos Lv. 1	260	Sleep	14	(No Element)	0	5	Blue	Blue	White
+745	Cloaked Kaleidos Lv. 2	270	Sleep	15	(No Element)	0	5	Blue	White	White
+746	Cloaked Somnolus Lv. 3	310	Sleep	16	(No Element)	0	10	Blue	White	White
+747	Cloaked Somnolus Lv. 4	320	Sleep	17	(No Element)	0	10	Blue	White	White
+748	Cloaked Somnolence Lv. 5	330	Sleep	18	(No Element)	0	10	Blue	White	White
+749	Deep Yearning Lv. 1	240	Water	24	(No Element)	0	15	White	White	White
+750	Deep Yearning Lv. 2	260	Water	25	(No Element)	0	15	White	White	White
+751	Lanternlight Banner Lv. 3	280	Water	26	(No Element)	0	15	White	White	White
+752	Lanternlight Banner Lv. 4	300	Water	27	(No Element)	0	20	White	White	Purple
+753	Lanternlight Grave Lv. 5	310	Water	28	(No Element)	0	20	White	Purple	Purple
+754	Zephra Axe Lv. 1	230	Thunder	15	(No Element)	0	30	Purple	Purple	Purple
+755	Zephra Axe Lv. 2	240	Thunder	16	(No Element)	0	30	Purple	Purple	Purple
+756	Zephra Halberd Lv. 3	250	Thunder	17	(No Element)	0	35	Purple	Purple	Purple
+757	Zephra Halberd Lv. 4	270	Thunder	18	(No Element)	0	35	Purple	Purple	Purple
+758	Zilvolt Axe Lv. 5	280	Thunder	19	(No Element)	0	40	Purple	Purple	Purple
+759	Elderfrost Switch Axe Lv. 1	330	Ice	16	(No Element)	0	5	Green	Green	Blue
+760	Elderfrost Switch Axe Lv. 2	340	Ice	17	(No Element)	0	5	Green	Blue	Blue
+761	Elderfrost Gasher Lv. 3	350	Ice	18	(No Element)	0	5	Green	Blue	Blue
+762	Elderfrost Gasher Lv. 4	360	Ice	19	(No Element)	0	5	Green	Blue	White
+763	Elderfrost Unleasher Lv. 5	370	Ice	20	(No Element)	0	5	Green	Blue	White
+764	Massacre Hatchet Lv. 1	330	(No Element)	0	SA - Exhaust	8	-30	White	White	White
+765	Massacre Hatchet Lv. 2	340	(No Element)	0	SA - Exhaust	9	-30	White	White	White
+766	Massacre Axe Lv. 3	350	(No Element)	0	SA - Exhaust	10	-30	White	White	White
+767	Massacre Axe Lv. 4	360	(No Element)	0	SA - Exhaust	11	-30	White	White	White
+768	Scipio Lv. 5	370	(No Element)	0	SA - Exhaust	12	-30	White	Purple	Purple

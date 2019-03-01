@@ -1,0 +1,76 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Normal Lv 1		6	1	Shot	1	1	0	0		Yes	No	
+1	Normal Lv 2		12	1	Shot	1	1	0	0		Yes	No	
+2	Normal Lv 3		10	1	Shot	1	1	0	0		Yes	No	
+3	Pierce Lv 1		27	3	Shot	1	1	0	0		Yes	No	
+4	Pierce Lv 1 (Individual Hits)		9	1	Shot	1	1	0	0		Yes	No	
+5	Pierce Lv 2		28	4	Shot	1	1	0	0		Yes	No	
+6	Pierce Lv 2 (Individual Hits)		7	1	Shot	1	1	0	0		Yes	No	
+7	Pierce Lv 3		35	5	Shot	1	1	0	0		Yes	No	
+8	Pierce Lv 3 (Individual Hits)		7	1	Shot	1	1	0	0		Yes	No	
+9	Pellet Lv 1		15	3	Shot	1	1	0	0		Yes	No	Cannot attain Critical Distance
+10	Pellet Lv 2		20	4	Shot	1	1	0	0		Yes	No	Cannot attain Critical Distance
+11	Pellet Lv 3		25	5	Shot	1	1	0	0		Yes	No	Cannot attain Critical Distance
+12	Pellet (Individual Hits)		5	1	Shot	1	1	0	0		Yes	No	Cannot attain Critical Distance
+13	Crag (Shot)		3	1	Shot	1	1	0	0		Yes	No	
+14	Crag Lv 1 (Explosion)		25	1	Fixed	1	1	25	0	Fire 30	Yes	No	
+15	Crag Lv 2 (Explosion)		30	1	Fixed	1	1	30	0		Yes	No	
+16	Crag Lv 3 (Explosion)		40	1	Fixed	1	1	40	0		Yes	No	
+17	Clust (Shot)		6	1	Shot	1	1	0	0		Yes	No	
+18	Clust (Explosion)		25	1	Fixed	1	1	0	0	Fire 2	Yes	No	
+19	Element Lv 1		*	1	Shot	1	1	0	0		Yes	No	Element Lv 1 Shots deal element = weaponRaw * 0.42
+20	Element Lv 1 (Gen)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.45
+21	Dragon Lv 1		*	5	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.38 per hit
+22	Dragon Lv 1 (Individual Hits)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.38 per hit
+23	Dragon Lv 1 (Gen)		*	5	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.40 per hit
+24	Dragon Lv 1 (Individual Gen)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.40 per hit
+25	Poison Lv 1		10	1	Shot	1	1	0	0	Poison 25	Yes	No	
+26	Poison Lv 2		15	1	Shot	1	1	0	0	Poison 50	Yes	No	
+27	Para Lv 1		10	1	Shot	1	1	0	0	Para 25	Yes	No	
+28	Para Lv 2		15	1	Shot	1	1	0	0	Para 50	Yes	No	
+29	Sleep Lv 1		0	1	Shot	1	1	0	0	Sleep 25	Yes	No	
+30	Sleep Lv 2		0	1	Shot	1	1	0	0	Sleep 50	Yes	No	
+31	Blast Lv 1		10	1	Shot	1	1	0	0	Blast 25	Yes	No	
+32	Blast Lv 2		15	1	Shot	1	1	0	0	Blast 50	Yes	No	
+33	Exhaust Lv 1		15	1	Shot	1	1	15	35		Yes	No	
+34	Exhaust Lv 2		20	1	Shot	1	1	20	70		Yes	No	
+35	Force Lv 1		15	1	Shot	1	1	0	0		Yes	No	
+36	Force Lv 2		18	1	Shot	1	1	0	0		Yes	No	
+37	Long Lv 1		15	1	Shot	1	1	0	0		Yes	No	
+38	Long Lv 2		18	1	Shot	1	1	0	0		Yes	No	
+39	Dazzling		35	1	Shot	1	1	0	0		Yes	No	No Critical Distance.
+40	Heavy Lv 1		9	1	Shot	1	1	0	0		Yes	No	Natural Partbreaker.
+41	Heavy Lv 2		12	1	Shot	1	1	0	0		Yes	No	Natural Partbreaker.
+42	Sting		14	1	Shot	1	1	0	0		Yes	No	Auto-Critical if hit a hitzone of 45+.
+43	Stone		10	1	Shot	1	1	0	0		Yes	No	Natural Partbreaker.
+44	Cannon Lv 1 (Shot)		5	1	Shot	1	1	0	0		Yes	No	
+45	Cannon Lv 1 (Explosion)		30	1	Fixed	1	1	10	5		Yes	No	
+46	Cannon Lv 2 (Shot)		7	1	Shot	1	1	0	0		Yes	No	
+47	Cannon Lv 2 (Explosion)		40	1	Fixed	1	1	15	10		Yes	No	
+48	Triblast (Shot)		3	1	Shot	1	1	0	0		Yes	No	
+49	Triblast (Explosions)		75	3	Fixed	1	1	75	30	Fire 90	Yes	No	
+50	Triblast (1 Explosion)		25	1	Fixed	1	1	25	10	Fire 30	Yes	No	
+51	Element Lv 2		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.55
+52	Element Lv 2 (Gen)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.58
+53	Dragon Lv 2		*	5	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.45 per hit
+54	Dragon Lv 2 (Individual Hit)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.45 per hit
+55	Dragon Lv 2 (Gen)		*	5	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.48 per hit
+56	Dragon Lv 2 (Individual Gen)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.48 per hit
+57	P. Element Lv 1		*	3	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.19 per hit
+58	P. Element Lv 1 (Individual Hit)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.19 per hit
+59	P. Element Lv 1 (Gen)		*	3	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.20 per hit
+60	P. Element Lv 1 (Individual Gen)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.20 per hit
+61	P. Element Lv 2		*	5	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.21 per hit
+62	P. Element Lv 2 (Individual Hit)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.21 per hit
+63	P. Element Lv 2 (Gen)		*	5	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.23 per hit
+64	P. Element Lv 2 (Individual Gen)		*	1	Shot	1	1	0	0		Yes	No	element = weaponRaw * 0.23 per hit
+65	Slicing Lv 1		25	4	Shot	1	1	0	0		Yes	No	Deals Cut-Type damage.
+66	Slicing Lv 2		41	6	Shot	1	1	0	0		Yes	No	Deals Cut-Type damage.
+67	Slicing (Shot)		1	1	Shot	1	1	0	0		Yes	No	
+68	Slicing (Slice)		8	1	Shot	1	1	0	0		Yes	No	Deals Cut-Type damage.
+69	Shrapnel		25	4	Shot	1	1	0	0		Yes	No	
+70	Shrapnel (Shot)		1	1	Shot	1	1	0	0		Yes	No	
+71	Shrapnel (Shrapnel)		8	1	Shot	1	1	0	0		Yes	No	
+72	Wyvernsfire		50	2	Shot	1	1	0	0	Fire 70	Yes	No	
+73	Wyvernsfire (Individual Hits)		25	1	Shot	1	1	0	0	Fire 35	Yes	No	
+74	Poison Smoke		0	1	Shot	1	1	0	0	Poison 35	Yes	No	

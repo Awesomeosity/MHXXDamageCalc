@@ -1,0 +1,9 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head	55	60	40	10	0	15	0	0	100	100
+1	Trunk	63	54	45	25	5	10	0	0	0	100
+2	Forelegs	40	38	35	5	5	10	0	0	0	100
+3	Hind Legs	24	25	25	5	5	10	0	0	0	100
+4	Tail	30	35	38	5	5	10	0	0	0	100
+5	Body	26	34	19	5	0	5	0	0	0	100
+6	Trunk (Iced)	55	45	35	25	0	0	0	0	0	100
+7	Forelegs (Iced)	25	30	24	25	0	0	0	0	0	100

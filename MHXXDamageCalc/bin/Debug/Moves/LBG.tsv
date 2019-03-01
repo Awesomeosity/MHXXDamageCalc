@@ -1,0 +1,113 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	RF Normal Lv 1 		30	5	Shot	0.8	0.8	0	0		Yes	No	
+1	RF Normal Lv 1 (Individual Hits)		6	5	Shot	0.8	0.8	0	0		Yes	No	
+2	RF Normal Lv 2 (x3)		36	3	Shot	0.8	0.8	0	0		Yes	No	
+3	RF Normal Lv 2 (x3 Individual Hits)		12	1	Shot	0.8	0.8	0	0		Yes	No	
+4	RF Normal Lv 2 (x4)		48	4	Shot	0.7	0.7	0	0		Yes	No	
+5	RF Normal Lv 2 (x4 Individual Hits)		12	1	Shot	0.7	0.7	0	0		Yes	No	
+6	RF Pierce Lv 1		81	9	Shot	0.7	0.7	0	0		Yes	No	
+7	RF Pierce Lv 1 (Individual Hits)		9	1	Shot	0.7	0.7	0	0		Yes	No	
+8	RF Pierce Lv 2		84	12	Shot	0.7	0.7	0	0		Yes	No	
+9	RF Pierce Lv 2 (Individual Hits)		7	1	Shot	0.7	0.7	0	0		Yes	No	
+10	RF Pellet Lv 1		45	9	Shot	0.8	0.8	0	0		Yes	No	
+11	RF Pellet Lv 1 (Individual Hits)		5	1	Shot	0.8	0.8	0	0		Yes	No	
+12	RF Pellet Lv 2		40	8	Shot	0.8	0.8	0	0		Yes	No	
+13	RF Pellet Lv 2 (Individual Hits)		5	1	Shot	0.8	0.8	0	0		Yes	No	
+14	RF Crag Lv 1 (2 Shots)		6	2	Shot	0.7	0.7	0	0		Yes	No	
+15	RF Crag Lv 1 (3 Shots)		9	3	Shot	0.7	0.7	0	0		Yes	No	
+16	RF Crag Lv 1 (Individual Hits)		3	1	Shot	0.7	0.7	0	0		Yes	No	
+17	RF Crag Lv 2 (2 Shots)		6	2	Shot	0.7	0.7	0	0		Yes	No	
+18	RF Crag Lv 2 (3 Shots)		9	3	Shot	0.7	0.7	0	0		Yes	No	
+19	RF Crag Lv 2 (Individual Hits)		3	1	Shot	0.7	0.7	0	0		Yes	No	
+20	RF Clust Lv 1 (Shots)		12	2	Shot	0.7	0.7	0	0		Yes	No	
+21	RF Clust Lv 1 (Individual Hits)		6	1	Shot	0.7	0.7	0	0		Yes	No	
+22	RF Element Lv 1 (x3)		*	3	Shot	0.7	0.7	0	0		Yes	No	
+23	RF Element Lv 1 (x3 1 Hit)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+24	RF Element Lv 1 (x3 Gen)		*	3	Shot	0.7	0.7	0	0		Yes	No	
+25	RF Element Lv 1 (x3 1 Hit Gen)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+26	RF Element Lv 1 (x4)		*	4	Shot	0.6	0.6	0	0		Yes	No	
+27	RF Element Lv 1 (x4 1 Hit)		*	1	Shot	0.6	0.6	0	0		Yes	No	
+28	RF Element Lv 1 (x4 Gen)		*	4	Shot	0.6	0.6	0	0		Yes	No	
+29	RF Element Lv 1 (x4 1 Hit Gen)		*	1	Shot	0.6	0.6	0	0		Yes	No	
+30	RF Dragon Lv 1		*	10	Shot	0.6	0.6	0	0		Yes	No	
+31	RF Dragon Lv 1 (1 Hit)		*	1	Shot	0.6	0.6	0	0		Yes	No	
+32	RF Dragon Lv 1 (Gen)		*	10	Shot	0.6	0.6	0	0		Yes	No	
+33	RF Dragon Lv 1 (1 Hit Gen)		*	1	Shot	0.6	0.6	0	0		Yes	No	
+34	RF Poison Lv 1		30	3	Shot	1	1	0	0	Poison 75	Yes	No	
+35	RF Poison Lv 1 (1 Hit)		10	1	Shot	1	1	0	0	Poison 25	Yes	No	
+36	RF Poison Lv 2		30	2	Shot	1	1	0	0	Poison 100	Yes	No	
+37	RF Poison Lv 2 (1 Hit)		15	1	Shot	1	1	0	0	Poison 50	Yes	No	
+38	RF Para Lv 1		20	2	Shot	1	1	0	0	Para 50	Yes	No	
+39	RF Para Lv 1 (1 Hit)		10	1	Shot	1	1	0	0	Para 25	Yes	No	
+40	RF Sleep Lv 1		0	2	Shot	1	1	0	0	Sleep 50	Yes	No	
+41	RF Sleep Lv 1 (1 Hit)		0	1	Shot	1	1	0	0	Sleep 25	Yes	No	
+42	RF Sleep Lv 2		0	2	Shot	1	1	0	0	Sleep 100	Yes	No	
+43	RF Sleep Lv 2 (1 Hit)		0	1	Shot	1	1	0	0	Sleep 50	Yes	No	
+44	RF Blast Lv 1		20	2	Shot	1	1	0	0	Blast 50	Yes	No	
+45	RF Blast Lv 1 (1 Hit)		10	1	Shot	1	1	0	0	Blast 25	Yes	No	
+46	RF Exhaust Lv 1		45	3	Shot	1	1	45	105		Yes	No	
+47	RF Exhaust Lv 1 (1 Hit)		15	1	Shot	1	1	15	35		Yes	No	
+48	RF Force Lv 2		54	3	Shot	0.7	0.7	0	0		Yes	No	
+49	RF Force Lv 2 (1 Hit)		18	1	Shot	0.7	0.7	0	0		Yes	No	
+50	RF Long Lv 1		45	3	Shot	0.7	0.7	0	0		Yes	No	
+51	RF Long Lv 1		15	1	Shot	0.7	0.7	0	0		Yes	No	
+52	RF Dazzling (x2)		70	2	Shot	0.7	0.7	0	0		Yes	No	
+53	RF Dazzling (x2 1 Hit)		35	1	Shot	0.7	0.7	0	0		Yes	No	
+54	RF Dazzling (x3)		105	3	Shot	0.7	0.7	0	0		Yes	No	
+55	RF Dazzling (x3 1 Hit)		35	1	Shot	0.7	0.7	0	0		Yes	No	
+56	RF Heavy Lv 2		24	2	Shot	0.7	0.7	0	0		Yes	No	
+57	RF Heavy Lv 2 (1 Hit)		12	1	Shot	0.7	0.7	0	0		Yes	No	
+58	RF Sting		28	2	Shot	0.7	0.7	0	0		Yes	No	
+59	RF Sting (1 Hit)		14	1	Shot	0.7	0.7	0	0		Yes	No	
+60	RF Stone		30	3	Shot	0.8	0.8	0	0		Yes	No	
+61	RF Stone (1 Hit)		10	1	Shot	0.8	0.8	0	0		Yes	No	
+62	RF Triblast 		6	2	Shot	0.7	0.7	0	0		Yes	No	
+63	RF Triblast (1 Hit)		3	1	Shot	0.7	0.7	0	0		Yes	No	
+64	RF Element Lv 2		*	3	Shot	0.7	0.7	0	0		Yes	No	
+65	RF Element Lv 2 (1 Hit)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+66	RF Element Lv 2 (Gen)		*	3	Shot	0.7	0.7	0	0		Yes	No	
+67	RF Element Lv 2 (1 Hit Gen)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+68	RF Dragon Lv 2		*	10	Shot	0.6	0.6	0	0		Yes	No	
+69	RF Dragon Lv 2 (1 Hit)		*	1	Shot	0.6	0.6	0	0		Yes	No	
+70	RF Dragon Lv 2 (Gen)		*	10	Shot	0.6	0.6	0	0		Yes	No	
+71	RF Dragon Lv 2 (1 Hit Gen)		*	1	Shot	0.6	0.6	0	0		Yes	No	
+72	RF P.Element Lv 1		*	9	Shot	0.7	0.7	0	0		Yes	No	
+73	RF P.Element Lv 1 (1 Hit)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+74	RF P.Element Lv 1 (Gen)		*	9	Shot	0.7	0.7	0	0		Yes	No	
+75	RF P.Element Lv 1 (1 Hit Gen)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+76	RF P.Element Lv 2		*	15	Shot	0.7	0.7	0	0		Yes	No	
+77	RF P.Element Lv 2 (1 Hit)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+78	RF P.Element Lv 2 (Gen)		*	15	Shot	0.7	0.7	0	0		Yes	No	
+79	RF P.Element Lv 2 (1 Hit Gen)		*	1	Shot	0.7	0.7	0	0		Yes	No	
+80	RF Slicing Lv 1		50	8	Shot	0.9	0.9	0	0		Yes	No	
+81	RF Slicing Lv 1 (1 Hit)		25	4	Shot	0.9	0.9	0	0		Yes	No	
+82	RF Slicing Lv 1 (Shot)		2	2	Shot	0.9	0.9	0	0		Yes	No	
+83	RF Slicing Lv 1 (Shot 1 Hit)		1	1	Shot	0.9	0.9	0	0		Yes	No	
+84	RF Slicing Lv 1 (Slice)		48	6	Shot	0.9	0.9	0	0		Yes	No	
+85	RF Slicing Lv 1 (Slice 1 Hit)		8	1	Shot	0.9	0.9	0	0		Yes	No	
+86	RF Slicing Lv 2		82	12	Shot	0.9	0.9	0	0		Yes	No	
+87	RF Slicing Lv 2 (1 Hit)		41	6	Shot	0.9	0.9	0	0		Yes	No	
+88	RF Slicing Lv 2 (Shot)		2	2	Shot	0.9	0.9	0	0		Yes	No	
+89	RF Slicing Lv 2 (Shot 1 Hit)		1	1	Shot	0.9	0.9	0	0		Yes	No	
+90	RF Slicing Lv 2 (Slice)		80	10	Shot	0.9	0.9	0	0		Yes	No	
+91	RF Slicing Lv 2 (Slice 1 Hit)		8	1	Shot	0.9	0.9	0	0		Yes	No	
+92	RF Shrapnel		50	8	Shot	0.7	0.7	0	0		Yes	No	
+93	RF Shrapnel (1 Hit)		25	4	Shot	0.7	0.7	0	0		Yes	No	
+94	RF Shrapnel (Shot)		2	2	Shot	0.7	0.7	0	0		Yes	No	
+95	RF Shrapnel (Shot 1 Hit)		1	1	Shot	0.7	0.7	0	0		Yes	No	
+96	RF Shrapnel (Shrapnel)		48	6	Shot	0.7	0.7	0	0		Yes	No	
+97	RF Shrapnel (Shrapnel 1 Hit)		8	1	Shot	0.7	0.7	0	0		Yes	No	
+98	Stock Strike	Sp. Atk	2	1	Fixed	1	1	15	15		Yes	No	
+99	Jumping Reload	X	5	1	Fixed	1	1	15	15		Yes	No	
+100	Valor Buster Shots	B	10	1	Shot	1	1	10	10		Yes	No	
+101	Valor Buster Duster	B B B	18	3	Shot	1	1	7	7		Yes	No	
+102	Valor Buster Duster (1 Hit)	B B B	6	1	Shot	1	1	0	7		Yes	No	
+103	Bullet Geyser I		20	1	Fixed	1	1	0	0	Fire 10	Yes	No	
+104	Bullet Geyser II		39	3	Fixed	1	1	0	0	Fire 30	Yes	No	
+105	Bullet Geyser II (1 Hit)		13	1	Fixed	1	1	0	0	Fire 10	Yes	No	
+106	Bullet Geyser III		60	6	Fixed	1	1	0	0	Fire 60	Yes	No	
+107	Bullet Geyser III (1 Hit)		10	1	Fixed	1	1	0	0	Fire 10	Yes	No	
+108	Charge Shot Charge 1		20	1	Shot	1	1	0	0		Yes	No	
+109	Charge Shot Charge 2		40	1	Shot	1	1	0	0		Yes	No	
+110	Charge Shot Charge 3		60	2	Shot	1	1	0	0		Yes	No	
+111	Charge Shot Charge 3 (1 Hit)		30	1	Shot	1	1	0	0		Yes	No	

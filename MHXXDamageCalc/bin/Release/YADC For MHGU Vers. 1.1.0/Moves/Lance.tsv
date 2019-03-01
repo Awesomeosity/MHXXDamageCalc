@@ -1,0 +1,41 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Low Thrusts	X	20	1	Cut	1	1	0	0		No	No	
+1	Low Finisher	X X X	45	3	Cut	1	1	0	0		No	No	
+2	Low Finisher (Individual Hit)	X X X	15	1	Cut	1	1	0	0		No	No	
+3	High Thrusts	A	22	1	Cut	1	1	0	0		No	No	
+4	High Finisher	A A A	45	3	Cut	1	1	0	0		No	No	
+5	High Finisher (Individual Hit)	A A A	15	1	Cut	1	1	0	0		No	No	
+6	Wide Sweep	X+A	20	1	Cut	1	1	0	0		No	No	
+7	Guard Thrust	R X+A	20	1	Cut	1	1	0	0		No	No	
+8	Uncharged Counter Thrust	R A	22	1	Cut	1	1	0	0		No	No	
+9	Counter Thrust	R A	50	1	Cut	1	1	0	0		No	No	
+10	Overcharged Counter Thrust	R A	20	1	Cut	1	1	0	0		No	No	
+11	Shield Bash	R Dir.+X X	14	1	Impact	1	1	27	27		No	No	Deals Impact damage does not apply Lance Cut/Impact Property
+12	Charge!	R X+A	16	1	Cut	1	1	0	0		No	No	
+13	Jumping Charge	R X+A	25	1	Cut	1	1	0	0		Yes	Yes	
+14	Charge Finisher	R X+A X	50	1	Cut	1	1	0	0		Yes	No	
+15	Charge Jump Finisher	R X+A Up+B X	50	1	Cut	1	1	0	0		Yes	No	
+16	Charge Back Finisher	R X+A Back+X	50	1	Cut	1	1	0	0		Yes	No	
+17	Jump Stab	X	30	1	Cut	1	1	0	0		Yes	Yes	
+18	Striker 3rd Low Thrust	X X X	25	1	Cut	1	1	0	0		No	No	
+19	Striker 3rd High Thrust	A A A	27	1	Cut	1	1	0	0		No	No	
+20	Striker Charge Finisher	R X+A X	70	1	Cut	1	1	0	0		No	No	
+21	Aerial Jabs	X	45	3	Cut	1	1	0	0		Yes	Yes	
+22	Aerial Jabs (Individual Hits)	X	15	1	Cut	1	1	0	0		Yes	Yes	
+23	Adept Swipes	X	77	2	Cut	1	1	0	0		No	No	
+24	Adept Swipes (Hit 1)	X	41	1	Cut	1	1	0	0		No	No	
+25	Adept Swipes (Hit 2)	X	36	1	Cut	1	1	0	0		No	No	
+26	Valor Stance Swipes	Y X	50	2	Cut	1	1	0	0		No	No	
+27	Valor Stance Swipes (Hit 1)	Y X	30	1	Cut	1	1	0	0		No	No	
+28	Valor Stance Swipes (Hit 2)	Y X	20	1	Cut	1	1	0	0		No	No	
+29	Valor Shield Rush	X X+A	20	1	Impact	1	1	27	27		Yes	No	Deals Impact damage does not apply Lance Cut/Impact Property
+30	Shield Assault (Opener)		10	1	Impact	1	1	27	27		Yes	No	
+31	Shield Assault (Rush)		10	1	Impact	1	1	2	3		Yes	No	
+32	Shield Assault (Ender)		30	1	Impact	1	1	27	27		Yes	No	
+33	Shield Assault (Finisher)		50	1	Cut	1	1	0	0		Yes	No	
+34	Corkscrew Jab I		135	3	Cut	1	1	0	0		Yes	No	
+35	Corkscrew Jab I (Individual Hits)		45	1	Cut	1	1	0	0		Yes	No	
+36	Corkscrew Jab II		160	5	Cut	1	1	0	0		Yes	No	
+37	Corkscrew Jab II (Individual Hits)		32	1	Cut	1	1	0	0		Yes	No	
+38	Corkscrew Jab III		189	7	Cut	1	1	0	0		Yes	No	
+39	Corkscrew Jab III (Individual Hits)		27	1	Cut	1	1	0	0		Yes	No	

@@ -1,0 +1,17 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head	50	60	45	30	10	35	20	0	100	100
+1	Torso	40	50	30	15	5	20	10	0	0	100
+2	Shell	22	40	25	20	5	25	10	0	0	100
+3	Feet	35	40	30	15	5	15	10	0	0	100
+4	Scissors	25	30	15	35	5	20	10	0	0	100
+5	Arms	40	45	30	15	5	15	10	0	0	100
+6	Shell (Broken)	30	40	25	35	5	20	10	0	0	100
+7	Scissors (Broken)	15	20	10	35	5	20	10	0	0	100
+8	Head (Guard)	20	40	20	30	10	35	20	0	100	100
+9	Torso (Guard)	20	30	15	15	5	20	10	0	0	100
+10	Shell (Guard)	20	30	15	20	5	25	10	0	0	100
+11	Feet (Guard)	15	20	10	35	5	20	10	0	0	100
+12	Scissors (Guard)	15	20	10	35	5	20	10	0	0	100
+13	Arms (Guard)	20	30	15	15	5	15	10	0	0	100
+14	Head (Gen)	50	60	40	30	10	35	20	0	100	100
+15	Scissors (Broken, Gen)	30	40	25	35	5	20	10	0	0	100

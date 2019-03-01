@@ -1,0 +1,20 @@
+ID	name	health	defense	KO	exhaust	GRank
+0	Stonefist I: Hunt	3825	0.9	1.3	1.5	
+1	Stonefist II: Capture	5040	0.9	1.3	1.5	
+2	Stonefist III: Hunt	4365	0.85	1.3	1.5	
+3	Stonefist IV: Hunt	5715	0.85	1.3	1.6	
+4	Stonefist V: Hunt	4635	0.85	1.3	1.6	
+5	Stonefist VI: Hunt	4905	0.85	1.3	1.6	
+6	Stonefist VII: Capture	6119	0.85	1.3	1.6	
+7	Stonefist VIII: Hunt	5310	0.85	1.3	1.6	
+8	Stonefist IX: Hunt	5310	0.85	1.3	1.6	
+9	Stonefist IX: Hunt	5580	0.85	1.3	1.6	
+10	Stonefist X: Hunt	5985	0.85	1.4	1.65	
+11	Stonefist G1: Capture	9495	0.8	1.5	1.9	G
+12	Stonefist G2: Hunt	7200	0.8	1.5	1.9	G
+13	Stonefist G2: Hunt	8280	0.8	1.5	2	G
+14	Stonefist G3: Hunt	8145	0.8	1.5	2	G
+15	Stonefist G4: Hunt	10980	0.75	1.5	2.1	G
+16	Stonefist G5: Hunt	12375	0.75	2	2.5	G
+17	Stonefist EX: Hunt	20250	0.7	3	3.75	G
+18	Arena DLC XX Trials: Stonefist	7200	0.85	1.15	1.5	G

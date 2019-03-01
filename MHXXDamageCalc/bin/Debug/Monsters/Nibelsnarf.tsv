@@ -1,0 +1,14 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head	25	26	22	0	15	10	15	5	100	100
+1	Torso / Tail	26	25	25	0	10	15	15	5	0	100
+2	Back	36	30	40	0	15	15	20	5	0	100
+3	Feet	35	35	35	0	5	10	10	5	0	100
+4	Stomach	36	30	30	0	10	25	20	5	0	100
+5	Gills	60	60	65	0	10	15	15	5	0	100
+6	Uvula	70	70	70	0	10	10	10	5	0	100
+7	Nose (Enraged)	55	55	60	0	10	15	30	5	100	100
+8	Head (Trapped)	35	36	32	0	15	10	15	5	100	100
+9	Torso / Tail (Trapped)	36	35	35	0	10	15	15	5	0	100
+10	Back (Trapped)	46	40	50	0	15	15	20	5	0	100
+11	Legs (Trapped)	45	45	50	0	5	10	10	5	0	100
+12	Belly (Trapped)	60	60	50	0	10	25	20	5	0	100

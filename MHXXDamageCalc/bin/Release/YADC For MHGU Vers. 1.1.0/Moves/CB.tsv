@@ -1,0 +1,73 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Draw Slash	X	18	1	Cut	1	1	0	0		No	No	
+1	Sword Forward Slice	X	14	1	Cut	1	1	0	0		No	No	
+2	Sword Upward Slice	X X	15	1	Cut	1	1	0	0		No	No	
+3	Sword Roundhouse Slash	X X X	30	1	Cut	1	1	0	0		No	No	
+4	Shield Bash	X X+A	20	2	Cut	1	1	0	0		No	No	Applies 2 Mini Phial Explosions
+5	Shield Bash (1st Hit)	X X+A	8	1	Cut	1	1	0	0		No	No	Applies 1 Mini Phial Explosion
+6	Shield Bash (2nd Hit)	X X+A	12	1	Cut	1	1	0	0		No	No	Applies 1 Mini Phial Explosion
+7	Sword Charged Slash	A	50	2	Cut	1	1	0	0		No	No	
+8	Sword Charged Slash (1st Hit)	A	30	1	Cut	1	1	0	0		No	No	
+9	Sword Charged Slash (2nd Hit)	A	20	1	Cut	1	1	0	0		No	No	
+10	Sword Overcharged Slash	A	16	1	Cut	1	1	0	0		No	No	
+11	Sword Uncharged Slash	A	16	1	Cut	1	1	0	0		No	No	
+12	Jumping Sword Slash	X	22	1	Cut	1	1	0	0		Yes	Yes	
+13	Morph to Axe	R+X	42	1	Cut	1	1	0	0		No	No	
+14	Axe Upswing	X	33	1	Cut	1	1	0	0		No	No	
+15	Axe Downswing	X X	40	1	Cut	1	1	0	0		No	No	
+16	Axe Chop	B X	18	1	Cut	1	1	0	0		No	No	
+17	Axe Discharge Chop	A	20	1	Cut	1	1	0	0		Yes	No	Applies 1 Phial Explosion
+18	Axe Double Discharge Swing	A A	65	2	Cut	1	1	0	0		Yes	No	Applies 2 Phial Explosions
+19	Axe Double Discharge Swing (1)	A A	20	1	Cut	1	1	0	0		Yes	No	Applies 1 Phial Explosion
+20	Axe Double Discharge Swing (2)	A A	45	1	Cut	1	1	0	0		Yes	No	Applies 1 Phial Explosion
+21	Axe Double Swing	A A	50	2	Cut	1	1	0	0		No	No	
+22	Axe Double Swing (Hit 1)	A A	15	1	Cut	1	1	0	0		No	No	
+23	Axe Double Swing (Hit 2)	A A	35	1	Cut	1	1	0	0		No	No	
+24	Jumping Axe Swing	X	42	1	Cut	1	1	0	0		Yes	Yes	
+25	Super AED	A A A	75	1	Cut	1	1	0	0		Yes	No	Applies 3 Phial Explosions
+26	Valor Super AED	A A A	70	1	Cut	1	1	0	0		Yes	No	Applies 3 Phial Explosions
+27	Ultra AED	A A A	105	2	Cut	1	1	0	0		Yes	No	Applies 1 Super Phial Explosion.
+28	Ultra AED (Hit 1)	A A A	25	1	Cut	1	1	0	0		Yes	No	
+29	Ultra AED (Hit 2)	A A A	80	1	Cut	1	1	0	0		Yes	No	Applies 1 Super Phial Explosion.
+30	Ultra Swing	A A A	80	2	Cut	1	1	0	0		Yes	No	
+31	Ultra Swing (Hit 1)	A A A	20	1	Cut	1	1	0	0		Yes	No	
+32	Ultra Swing (Hit 2)	A A A	60	1	Cut	1	1	0	0		Yes	No	
+33	Aerial Super AED	A A A	90	1	Cut	1	1	0	0		Yes	Yes	Applies 3 Phial Explosions
+34	Aerial Super Swing	A A A	42	1	Cut	1	1	0	0		Yes	Yes	
+35	Aerial Ultra AED	A A A	100	1	Cut	1	1	0	0		Yes	Yes	Applies 1 Super Phial Explosion.
+36	Aerial Ultra Swing	A A A	60	1	Cut	1	1	0	0		Yes	Yes	
+37	Valor Double Discharge	A A	65	2	Cut	1	1	0	0		Yes	No	Applies 2 Phial Explosions.
+38	Valor Double Discharge (Hit 1)	A A	20	1	Cut	1	1	0	0		Yes	No	Applies 1 Phial Explosion
+39	Valor Double Discharge (Hit 2)	A A	45	1	Cut	1	1	0	0		Yes	No	Applies 1 Phial Explosion
+40	Valor Ultra AED	X+A	115	2	Cut	1	1	0	0		Yes	No	Applies 1 Super Phial Explosion.
+41	Valor Ultra AED (Hit 1)	X+A	25	1	Cut	1	1	0	0		Yes	No	
+42	Valor Ultra AED (Hit 2)	X+A	90	1	Cut	1	1	0	0		Yes	No	Applies 1 Super Phial Explosion.
+43	Valor Ultra Swing	X+A	75	2	Cut	1	1	0	0		Yes	No	
+44	Valor Ultra Swing (Hit 1)	X+A	20	1	Cut	1	1	0	0		Yes	No	
+45	Valor Ultra Swing (Hit 2)	X+A	55	1	Cut	1	1	0	0		Yes	No	
+46	Valor True Ultra AED	A A A	85	2	Cut	1	1	0	0		Yes	No	Applies 1 Super Phial Explosion.
+47	Valor True Ultra AED (Hit 1)	A A A	15	1	Cut	1	1	0	0		Yes	No	
+48	Valor True Ultra AED (Hit 2)	A A A	70	1	Cut	1	1	0	0		Yes	No	Applies 1 Super Phial Explosion.
+49	Impact Phial Explosion		*	1	Fixed	1	1	25	10		Yes	No	damage = 0.05 * weaponRaw
+50	Mini Impact Explosion		*	1	Fixed	1	1	15	10		Yes	No	damage = 0.025 * weaponRaw
+51	Super Impact Explosion		*	1	Fixed	1	1	50	10		Yes	No	damage = 0.1 * weaponRaw
+52	Element Phial Explosion		0	1	Fixed	1	2.5	0	0		Yes	No	
+53	Energy Blade I (0 Phials)		10	1	Cut	1	1	0	0		Yes	No	
+54	Energy Blade I (1-3 Phials)		80	1	Cut	1	1	0	0		Yes	No	
+55	Energy Blade I (4-6 Phials)		130	1	Cut	1	1	0	0		Yes	No	
+56	Energy Blade I (7-9 Phials)		160	1	Cut	1	1	0	0		Yes	No	
+57	Energy Blade I (10 Phials)		200	1	Cut	1	1	0	0		Yes	No	
+58	Energy Blade I (0 Phials)		20	1	Cut	1	1	0	0		Yes	No	
+59	Energy Blade I (1-3 Phials)		100	1	Cut	1	1	0	0		Yes	No	
+60	Energy Blade I (4-6 Phials)		150	1	Cut	1	1	0	0		Yes	No	
+61	Energy Blade I (7-9 Phials)		180	1	Cut	1	1	0	0		Yes	No	
+62	Energy Blade I (10 Phials)		220	1	Cut	1	1	0	0		Yes	No	
+63	Energy Blade I (0 Phials)		30	1	Cut	1	1	0	0		Yes	No	
+64	Energy Blade I (1-3 Phials)		130	1	Cut	1	1	0	0		Yes	No	
+65	Energy Blade I (4-6 Phials)		180	1	Cut	1	1	0	0		Yes	No	
+66	Energy Blade I (7-9 Phials)		200	1	Cut	1	1	0	0		Yes	No	
+67	Energy Blade I (10 Phials)		250	1	Cut	1	1	0	0		Yes	No	
+68	Ripper Shield I		80	4	Cut	1	1	0	0		Yes	No	
+69	Ripper Shield II		100	5	Cut	1	1	0	0		Yes	No	
+70	Ripper Shield III		120	6	Cut	1	1	0	0		Yes	No	
+71	Ripper Shield (Individual Hits)		20	1	Cut	1	1	0	0		Yes	No	

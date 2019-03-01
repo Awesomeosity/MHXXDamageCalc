@@ -1,0 +1,13 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Horn	22	24	18	0	20	5	25	5	120	100
+1	Head	65	60	46	0	15	10	20	5	100	100
+2	Body	34	34	20	0	10	0	15	5	0	100
+3	Forelegs	38	45	25	0	5	5	10	0	0	100
+4	Hind Legs	25	30	30	0	5	5	10	0	0	100
+5	Tail	40	30	50	0	10	5	15	5	0	100
+6	Tail Tip	24	14	14	0	5	0	5	0	0	100
+7	Horn (Red Slime)	17	20	13	0	20	5	25	5	120	100
+8	Head (Red Slime)	55	50	36	0	15	10	20	5	100	100
+9	Forelegs (Red Slime)	28	35	15	0	5	5	10	0	0	100
+10	Tail (Red Slime)	30	20	45	0	10	5	15	5	0	100
+11	Tail Tip (Red Slime)	20	9	9	0	5	0	5	0	0	100

@@ -1,0 +1,10 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Hard Rubble	5	5	5	0	0	0	0	0	0	0
+1	Drive	41	41	25	0	20	0	5	0	0	0
+2	Claw	26	26	20	0	15	0	5	0	0	0
+3	Soft Rubble	26	26	10	0	5	0	0	0	0	0
+4	Claw Weakness	55	55	55	10	15	10	5	0	0	0
+5	Coccoon Wall	75	75	100	10	10	20	10	10	0	0
+6	Coccoon	120	120	150	15	25	10	10	0	0	0
+7	Giant Coccoon	75	75	35	15	0	20	0	0	0	0
+8	Giant Coccoon (Downed)	250	250	200	15	0	30	0	0	0	0

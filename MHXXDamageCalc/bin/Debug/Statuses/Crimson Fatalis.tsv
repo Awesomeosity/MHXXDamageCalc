@@ -1,0 +1,7 @@
+status	init	inc	max
+Poison	400	50	600
+Para	400	100	1000
+Sleep	400	100	900
+Blast	180	100	2180
+KO	0	0	0
+Exhaust	0	0	0

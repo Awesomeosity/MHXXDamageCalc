@@ -1,0 +1,908 @@
+name	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+Seltas	Head	50	55	70	20	10	25	10	0	100	100
+	Horn	35	35	35	15	5	20	5	0	100	100
+	Claws	42	42	45	10	5	15	5	0	0	100
+	Feet	45	45	50	10	5	15	5	0	0	100
+	Body	65	55	80	25	15	35	15	0	0	100
+Seltas Queen	Head	80	60	80	30	0	15	25	0	100	100
+	Torso/Tail	24	30	30	15	0	5	15	0	0	100
+	Stomach	36	60	45	25	0	10	5	0	0	100
+	Tail Tip	15	20	15	15	0	0	20	0	0	100
+	Legs	24	36	20	5	0	0	15	0	0	100
+	Legs (Broken)	40	40	35	10	0	10	5	0	0	100
+Empress's Throne	Hard Rubble	5	5	5	0	0	0	0	0	0	0
+	Drive	41	41	25	0	20	0	5	0	0	0
+	Claw	26	26	20	0	15	0	5	0	0	0
+	Soft Rubble	26	26	10	0	5	0	0	0	0	0
+	Claw Weakness	55	55	55	10	15	10	5	0	0	0
+	Coccoon Wall	75	75	100	10	10	20	10	10	0	0
+	Coccoon	120	120	150	15	25	10	10	0	0	0
+	Giant Coccoon	75	75	35	15	0	20	0	0	0	0
+	Giant Coccoon (Downed)	250	250	200	15	0	30	0	0	0	0
+Ahtal Ka	Head	70	70	50	0	20	25	5	0	100	100
+	Claws	55	55	20	0	10	20	5	0	0	100
+	Arms	55	55	20	0	15	15	5	0	0	100
+	Back	38	38	35	0	10	15	0	0	100	100
+	Body	25	25	20	0	5	10	0	0	0	100
+	Feet	45	45	20	0	5	10	0	0	0	100
+	Tail	20	20	45	0	15	20	5	0	0	100
+Nerscylla	Head	50	65	50	15	0	0	5	0	100	150
+	Poison Spikes	28	30	20	10	0	0	0	0	0	120
+	Body	36	36	40	25	0	0	5	0	0	120
+	Stomach	60	45	45	15	0	20	5	0	0	100
+	Claws	20	30	20	5	0	10	0	0	0	200
+	Thigh	35	30	25	20	0	0	5	0	0	120
+	Leg Tip	28	35	65	25	0	0	5	0	0	100
+	Head (Uncovered)	50	65	50	5	0	10	5	0	100	130
+	Poison Spikes (Uncovered)	28	42	35	5	0	35	5	0	0	100
+	Body (Uncovered)	36	36	40	5	0	25	5	0	0	100
+	Stomach (Uncovered)	60	45	45	5	0	20	5	0	0	100
+	Thigh (Uncovered)	35	30	25	5	0	15	5	0	0	120
+	Leg Tip (Uncovered)	28	35	65	5	0	5	0	0	0	120
+Cephadrome	Head	35	40	50	0	10	15	30	5	80	100
+	Neck	65	60	80	5	10	15	15	5	0	100
+	Back	60	50	80	0	12	20	17	5	0	100
+	Body	50	55	50	0	15	15	20	5	0	100
+	Wings	45	42	50	0	10	10	15	5	0	100
+	Feet	42	44	40	0	10	10	15	5	0	100
+	Tail	35	35	35	0	15	10	20	5	0	100
+Plesioth	Head	38	50	30	15	0	20	5	5	100	100
+	Neck	45	38	35	15	0	25	5	5	0	100
+	Back	20	20	20	20	0	25	5	5	0	100
+	Stomach	50	45	50	20	0	20	5	5	0	100
+	Wings	25	25	30	25	0	25	5	5	0	100
+	Feet	35	38	30	15	0	15	5	5	0	100
+	Tail	35	25	45	20	0	25	5	5	0	100
+Lavasioth	Head	63	63	45	0	10	10	10	5	100	100
+	Neck	43	43	35	0	10	5	5	5	0	100
+	Back	35	35	20	0	30	20	20	5	0	100
+	Stomach	25	25	15	0	10	5	5	5	0	100
+	Tail	35	35	25	0	30	20	20	5	0	100
+	Wings	55	55	40	0	10	5	5	5	0	100
+	Feet	25	25	10	0	10	5	5	5	0	100
+Giadrome	Head	80	80	75	40	20	30	5	10	100	100
+	Body	50	50	48	30	15	25	5	5	0	100
+Velocidrome	Head	85	85	80	30	30	30	40	10	100	100
+	Body	55	55	50	25	25	25	30	5	0	100
+Gendrome	Head	75	80	70	20	20	30	40	10	100	100
+	Body	47	47	45	15	15	25	30	5	0	100
+Iodrome	Head	38	38	45	20	30	30	10	10	100	100
+	Body	56	56	60	15	25	25	10	5	0	100
+Great Maccao	Head	65	65	60	30	20	10	20	5	100	100
+	Torso	42	42	35	20	10	10	10	0	0	100
+	Tail	63	63	60	30	20	10	20	5	0	100
+Yian Kut-Ku	Head	56	75	80	10	15	20	30	0	100	100
+	Neck	42	42	45	10	25	30	40	20	0	100
+	Back	33	42	40	5	15	15	20	0	0	100
+	Stomach	66	63	60	5	15	15	20	0	0	100
+	Tail	60	56	50	5	15	15	20	0	0	100
+	Wings	80	42	70	5	10	25	15	0	0	100
+	Feet	28	28	30	5	5	5	5	0	0	100
+Gypceros	Head	45	65	70	30	10	0	20	10	100	100
+	Neck	50	25	40	20	5	0	10	10	0	100
+	Back	45	30	20	10	5	0	10	10	0	100
+	Stomach	45	30	20	20	5	0	10	10	0	100
+	Tail	70	40	80	20	5	0	10	10	0	100
+	Wings	42	30	30	20	10	0	20	10	0	100
+	Feet	36	36	30	10	5	0	10	10	0	100
+	Head (G-Rank)	42	55	45	30	10	0	20	10	100	100
+	Feet (G-Rank)	25	25	30	10	5	0	10	10	0	100
+Yian Garuga	Head	65	60	50	0	20	0	10	5	150	100
+	Neck	42	42	25	0	15	0	10	5	0	100
+	Back	15	15	10	5	50	10	20	30	0	100
+	Stomach	29	25	35	15	20	10	15	10	0	100
+	Tail	50	30	15	5	15	0	10	5	0	100
+	Wings	32	45	20	0	15	0	10	5	0	100
+	Feet	32	32	10	0	10	5	10	5	0	100
+Deadeye Yian Garuga	Head	65	60	50	0	20	0	10	5	150	100
+	Neck	40	40	25	0	15	0	10	5	0	100
+	Back	10	10	10	5	50	10	20	30	0	100
+	Stomach	24	20	35	15	20	10	15	10	0	100
+	Tail	50	30	15	5	15	0	10	5	0	100
+	Wings	24	45	20	0	15	0	10	5	0	100
+	Feet	24	24	10	0	10	5	10	5	0	100
+	Back (Broken)	10	10	10	5	30	10	20	30	0	100
+Malfestio	Head	55	50	55	10	15	5	5	5	100	100
+	Torso	40	40	40	5	10	5	5	5	0	100
+	Wings	35	35	30	5	10	5	5	5	0	100
+	Wing Claws	20	20	20	10	20	10	5	5	0	100
+	Feet	35	30	30	5	10	5	5	5	0	100
+	Tail	50	45	35	10	15	5	5	5	0	100
+Nightcloak Malfestio	Head	50	50	50	10	15	5	5	5	100	100
+	Torso	30	30	40	5	10	5	5	5	0	100
+	Wings	25	25	30	5	10	5	5	5	0	100
+	Wing Claws	20	20	20	10	20	10	5	5	0	100
+	Feet	30	25	30	5	10	5	5	5	0	100
+	Tail	45	45	35	10	15	5	5	5	0	100
+Bulldrome	Head	80	70	70	20	10	30	5	0	100	100
+	Body	70	60	60	10	5	20	0	0	0	100
+Kecha Wacha	Head	70	65	60	30	0	20	10	0	100	100
+	Torso	43	43	30	15	0	5	5	0	0	100
+	Forelegs	45	45	30	10	0	5	5	0	0	100
+	Claws	24	30	20	20	0	15	10	0	0	100
+	Hind Legs	45	45	30	10	0	5	5	0	0	100
+	Tail	50	45	45	15	0	5	5	0	0	100
+	Claws (Broken)	30	30	25	15	0	10	5	0	0	100
+Lagombi	Head	45	63	50	30	0	20	0	0	100	100
+	Body	44	44	40	30	0	15	0	0	0	100
+	Forelegs	30	30	20	10	0	5	0	0	0	100
+	Rear	63	50	35	20	0	10	0	0	0	100
+	Stomach/Hind Legs	35	35	20	10	0	5	0	0	0	100
+Snowbaron Lagombi	Head	40	45	40	25	0	20	0	0	100	100
+	Body	38	38	36	20	0	15	0	0	0	100
+	Forelegs	25	25	18	10	0	5	0	0	0	100
+	Rear	42	40	30	15	0	10	0	0	0	100
+	Stomach / Hind Legs	34	34	20	10	0	5	0	0	0	100
+Arzuros	Head	55	55	55	20	5	10	15	0	100	100
+	Body	50	50	62	25	5	10	15	0	0	100
+	Forelegs	33	35	28	30	5	30	20	0	0	100
+	Rear	66	66	43	15	5	10	20	0	0	100
+	Stomach/Hind Legs	55	55	38	15	5	10	20	0	0	100
+	Head (G-Rank)	50	50	50	20	5	10	15	0	100	100
+	Body (G-Rank)	30	30	55	25	5	10	15	0	0	100
+	Forelegs (G-Rank)	22	22	28	25	5	25	20	0	0	100
+	Rear (G-Rank)	45	45	35	15	5	10	15	0	0	100
+	Stomach/Hind Legs (G-Rank)	55	55	38	15	5	10	14	0	0	100
+Redhelm Arzuros	Head	45	40	38	5	0	0	0	0	100	100
+	Body	38	38	35	15	0	0	5	0	0	100
+	Forelegs	20	20	30	20	0	15	10	0	0	100
+	Rear	25	34	25	5	0	0	15	0	0	100
+	Stomach/Hind Legs	36	23	25	5	0	0	15	0	0	100
+	Forelegs (Broken)	45	36	30	25	0	20	10	0	0	100
+	Rear (Broken)	24	34	25	5	0	0	15	0	0	100
+Congalala	Head	65	70	60	25	10	10	15	0	100	100
+	Forelegs	45	40	35	15	10	10	15	0	0	100
+	Hind Legs	36	36	35	15	10	10	15	0	0	100
+	Torso	30	30	40	10	5	5	10	0	0	100
+	Tail	40	36	25	15	10	10	15	0	0	100
+	Head (Guard)	65	75	60	25	10	10	5	0	100	100
+	Forelegs (Guard)	65	15	15	15	10	10	5	0	0	100
+	Hind Legs (Guard)	65	15	15	15	10	10	5	0	0	100
+	Torso (Guard)	5	5	5	10	0	0	0	0	0	100
+	Tail (Guard)	25	25	25	10	5	5	10	0	0	100
+Blangonga	Head	60	60	60	30	5	15	0	0	100	100
+	Forelegs	45	40	30	15	5	15	0	0	0	100
+	Hind Legs	45	40	30	15	5	15	0	0	0	100
+	Body	45	50	40	20	5	15	0	0	0	100
+	Tail	50	40	25	15	5	15	0	0	0	100
+Volvidon	Head	55	50	45	0	30	15	20	0	100	100
+	Body	45	45	35	0	20	10	15	0	0	100
+	Forelegs	38	30	30	0	10	5	5	0	0	100
+	Rear	30	30	25	0	15	10	10	0	0	100
+	Stomach / Hind Legs	36	36	20	0	10	5	10	0	0	100
+	Rolling	75	75	10	0	0	0	0	0	0	0
+	Back	45	45	40	0	20	10	15	0	0	100
+Rajang	Head	60	60	60	5	5	0	30	0	50	100
+	Forelegs	45	40	40	0	5	0	15	0	0	100
+	Hind Legs	45	40	40	0	5	0	15	0	0	100
+	Torso	45	50	45	0	5	0	15	0	0	100
+	Tail	50	40	30	0	5	0	15	0	0	100
+	Hind Legs (Enraged)	55	48	48	0	5	0	15	0	0	100
+	Tail (Enraged)	55	45	30	0	5	0	15	0	0	100
+	Forelegs (Red Aura)	10	10	10	0	5	0	15	0	0	100
+Furious Rajang	Head	60	60	60	5	5	0	30	0	50	100
+	Forelegs	45	40	40	0	5	0	15	0	0	100
+	Hind Legs	45	40	40	0	5	0	15	0	0	100
+	Torso	45	50	45	0	5	0	15	0	0	100
+	Tail	50	40	30	0	5	0	15	0	0	100
+	Head (Enraged)	60	60	60	5	5	0	30	0	50	100
+	Hind Legs (Enraged)	55	48	48	0	5	0	15	0	0	100
+	Tail (Enraged)	55	45	30	0	5	0	15	0	0	100
+	Forelegs (Red Aura)	10	10	10	0	5	0	15	0	0	100
+Gammoth	Head	55	60	40	10	0	15	0	0	100	100
+	Trunk	63	54	45	25	5	10	0	0	0	100
+	Forelegs	36	38	35	5	5	10	0	0	0	100
+	Hind Legs	36	38	35	5	5	10	0	0	0	100
+	Tail	40	35	38	5	5	10	0	0	0	100
+	Body	25	34	19	5	0	5	0	0	0	100
+	Trunk (Broken)	55	50	40	15	5	5	0	0	0	100
+	Forelegs (Snow)	24	30	24	25	0	0	0	0	0	100
+	Hind Legs (Snow)	24	30	24	25	0	0	0	0	0	100
+	Tail (Snow)	24	30	24	25	0	0	0	0	0	100
+Elderfrost Gammoth	Head	55	60	40	10	0	15	0	0	100	100
+	Trunk	63	54	45	25	5	10	0	0	0	100
+	Forelegs	40	38	35	5	5	10	0	0	0	100
+	Hind Legs	24	25	25	5	5	10	0	0	0	100
+	Tail	30	35	38	5	5	10	0	0	0	100
+	Body	26	34	19	5	0	5	0	0	0	100
+	Trunk (Iced)	55	45	35	25	0	0	0	0	0	100
+	Forelegs (Iced)	25	30	24	25	0	0	0	0	0	100
+Tetsucabra	Head	56	56	60	0	30	25	5	5	100	100
+	Fangs	42	45	40	0	25	25	10	5	100	100
+	Torso	25	25	25	0	20	15	5	5	0	100
+	Forelegs	45	42	40	0	20	15	5	5	0	100
+	Hind Legs	42	42	40	0	15	15	10	5	0	100
+	Tail	36	36	35	0	20	15	10	5	0	100
+	Rock	20	20	15	0	0	0	0	10	0	100
+	Tail (Inflated)	80	80	85	0	30	30	15	5	0	100
+Drilltusk Tetsucabra	Head	52	52	55	0	25	20	5	5	100	100
+	Fangs	20	21	20	0	20	15	10	5	100	100
+	Torso	20	21	20	0	25	25	10	5	0	100
+	Forelegs	25	25	25	0	10	5	0	5	0	100
+	Hind Legs	38	35	37	0	10	10	0	5	0	100
+	Tail	37	34	37	0	5	5	10	5	0	100
+	Rock	20	20	15	0	0	0	0	10	0	100
+	Tail (Inflated)	55	55	40	0	0	0	5	0	0	100
+Zamtrios	Head	43	45	45	15	0	20	0	5	100	100
+	Torso	36	36	30	10	0	15	0	5	0	100
+	Back	45	45	40	15	0	15	0	5	0	200
+	Forelegs	42	42	40	10	0	15	0	5	0	100
+	Hind Legs	36	36	35	10	0	15	0	5	0	100
+	Tail	45	43	40	10	0	15	0	5	0	100
+	Stomach	75	66	60	30	0	30	0	10	0	200
+	Head (Frosted)	24	24	20	20	0	20	0	5	100	100
+	Torso (Frosted)	33	33	28	15	0	15	0	5	0	100
+	Back (Frosted)	42	42	40	20	0	15	0	5	0	200
+	Forelegs (Frosted)	20	21	20	20	0	15	0	5	0	100
+	Hind Legs (Frosted)	33	33	30	15	0	15	0	5	0	100
+	Tail (Frosted)	24	24	25	20	0	10	0	5	0	100
+Daimyo Hermitaur	Head	50	60	45	30	10	35	20	0	100	100
+	Torso	40	50	30	15	5	20	10	0	0	100
+	Shell	22	40	25	20	5	25	10	0	0	100
+	Feet	35	40	30	15	5	15	10	0	0	100
+	Scissors	25	30	15	35	5	20	10	0	0	100
+	Arms	40	45	30	15	5	15	10	0	0	100
+	Shell (Broken)	30	40	25	35	5	20	10	0	0	100
+	Scissors (Broken)	15	20	10	35	5	20	10	0	0	100
+	Head (Guard)	20	40	20	30	10	35	20	0	100	100
+	Torso (Guard)	20	30	15	15	5	20	10	0	0	100
+	Shell (Guard)	20	30	15	20	5	25	10	0	0	100
+	Feet (Guard)	15	20	10	35	5	20	10	0	0	100
+	Scissors (Guard)	15	20	10	35	5	20	10	0	0	100
+	Arms (Guard)	20	30	15	15	5	15	10	0	0	100
+Stonefist Hermitaur	Head	45	55	45	10	0	20	5	0	100	100
+	Torso	30	35	25	5	0	10	5	0	0	100
+	Shell	15	20	15	5	0	10	25	0	0	100
+	Left Feet	22	22	20	5	0	15	5	0	0	100
+	Right Feet	22	22	20	5	0	20	5	0	0	100
+	Arms	30	35	25	5	0	10	5	0	0	100
+	Left Scissor	15	15	15	5	0	20	5	0	0	100
+	Right Scissor	20	22	15	5	0	20	5	0	0	100
+	Shell (Broken)	30	35	25	5	0	0	25	0	0	100
+	Left Feet (Broken)	35	35	25	5	0	15	5	0	0	100
+	Right Feet (Broken)	30	35	25	5	0	20	5	0	0	100
+	Left Scissor (Broken)	35	35	25	5	0	15	5	0	0	100
+	Right Scissor (Broken)	30	35	25	5	0	20	5	0	0	100
+Shogun Ceanataur	Head	50	45	45	10	10	35	20	0	100	100
+	Torso	35	35	25	15	5	20	10	0	0	100
+	Shell (Grey)	25	45	25	20	5	25	10	0	0	100
+	Feet	35	30	30	15	5	15	10	0	0	100
+	Claws	25	30	15	35	5	20	10	0	0	100
+	Arms	25	35	25	15	5	15	10	0	0	100
+	Shell Flesh	45	50	45	10	10	20	15	0	0	100
+	Shell (Brown)	35	40	30	10	5	20	10	0	0	100
+	Shell (Gravios)	20	30	15	15	5	20	10	0	0	100
+Rustrazor Ceanataur	Head	50	45	45	10	10	20	20	0	100	100
+	Torso	35	35	25	15	5	20	10	0	0	100
+	Shell (Glavenus)	20	30	15	15	0	20	10	0	0	100
+	Forelegs	25	25	25	15	5	15	10	0	0	100
+	Claws	20	20	10	10	5	20	10	0	0	100
+	Arms	25	35	25	15	5	15	10	0	0	100
+	Shell Flesh	35	40	30	10	5	20	10	0	0	100
+	Hind Legs	35	30	35	10	5	10	10	0	0	100
+	Shell Flesh (Broken)	50	55	40	10	10	20	15	0	0	100
+	Shell (Gravios)	30	30	20	0	15	20	10	0	0	100
+	Forelegs (Gravios)	30	30	30	10	5	10	10	0	0	100
+	Claws (Gravios)	45	45	35	10	5	20	10	0	0	100
+	Hind Legs (Gravios)	25	25	25	15	5	15	10	0	0	100
+Royal Ludroth	Head	40	45	65	30	0	5	5	5	100	100
+	Stomach	50	40	35	35	0	10	10	0	0	100
+	Sponge	65	50	35	40	0	15	10	0	0	100
+	Back	30	45	35	30	0	10	5	5	0	100
+	Forelegs	24	40	25	20	0	10	10	0	0	100
+	Hind Legs	30	24	30	20	0	10	5	0	0	100
+	Tail	40	30	40	25	0	5	5	0	0	100
+Agnaktor	Head (Cooled)	20	20	15	10	30	15	25	0	100	100
+	Neck (Cooled)	20	20	15	10	15	0	15	0	0	100
+	Chest (Cooled)	15	15	15	10	25	10	20	0	0	100
+	Forelegs (Cooled)	15	15	15	10	20	0	20	0	0	100
+	Hind Legs (Cooled)	20	20	15	10	20	5	15	0	0	100
+	Stomach (Cooled)	15	15	15	10	20	0	15	0	0	100
+	Tail (Cooled)	20	24	20	5	15	10	10	20	0	100
+	Back (Cooled)	15	15	15	10	20	0	15	0	0	100
+	Head (Heated)	55	60	50	0	30	25	20	35	100	100
+	Neck (Heated)	40	35	30	0	15	10	15	20	0	100
+	Chest (Heated)	50	45	45	0	25	20	20	30	0	100
+	Forelegs (Heated)	40	44	35	0	20	10	15	30	0	100
+	Hind Legs (Heated)	35	30	25	0	20	15	15	25	0	100
+	Stomach (Heated)	35	35	25	0	20	10	15	25	0	100
+	Tail (Heated)	35	24	20	5	15	10	10	20	0	100
+	Back (Heated)	35	35	25	0	20	10	15	25	0	100
+Nibelsnarf	Head	25	26	22	0	15	10	15	5	100	100
+	Torso / Tail	26	25	25	0	10	15	15	5	0	100
+	Back	36	30	40	0	15	15	20	5	0	100
+	Feet	35	35	35	0	5	10	10	5	0	100
+	Stomach	36	30	30	0	10	25	20	5	0	100
+	Gills	60	60	65	0	10	15	15	5	0	100
+	Uvula	70	70	70	0	10	10	10	5	0	100
+	Nose (Enraged)	55	55	60	0	10	15	30	5	100	100
+	Head (Trapped)	35	36	32	0	15	10	15	5	100	100
+	Torso / Tail (Trapped)	36	35	35	0	10	15	15	5	0	100
+	Back (Trapped)	46	40	50	0	15	15	20	5	0	100
+	Legs (Trapped)	45	45	50	0	5	10	10	5	0	100
+	Belly (Trapped)	60	60	50	0	10	25	20	5	0	100
+Lagiacrus	Head	45	45	45	15	0	0	10	10	100	100
+	Chest	55	45	35	10	0	0	10	10	0	100
+	Body	25	25	20	5	0	0	5	5	0	100
+	Back	24	40	15	25	0	0	15	15	0	100
+	Forelegs	25	25	10	10	0	0	5	5	0	100
+	Tail	25	35	15	20	0	0	10	10	0	100
+	Hind Legs	38	38	30	10	0	0	5	5	0	100
+Mizutsune	Head	63	63	45	5	0	10	5	8	100	100
+	Forelegs	21	21	10	5	0	35	15	30	0	100
+	Hind Legs	38	38	25	5	0	10	5	5	0	100
+	Torso	25	25	20	5	0	10	5	5	0	100
+	Tail	43	33	40	5	0	10	5	5	0	100
+	Neck	43	43	40	8	0	10	5	8	0	100
+	Fin	43	43	45	8	0	15	5	10	0	100
+	Forelegs (Broken)	28	28	10	10	0	15	5	10	0	100
+	Head (Enraged)	63	63	45	10	0	15	5	10	100	100
+	Hind Legs (Enraged)	38	38	30	10	0	15	5	5	0	100
+	Body (Enraged)	25	25	20	5	0	15	5	5	0	100
+	Tail (Enraged)	43	33	40	5	0	15	5	5	0	100
+	Neck (Enraged)	43	43	40	10	0	15	5	10	0	100
+	Fin (Enraged)	43	43	45	10	0	20	5	15	0	100
+Soulseer Mizutsune	Head	50	50	25	5	0	10	5	8	100	100
+	Forelegs	15	15	10	5	0	5	15	30	0	100
+	Hind Legs	38	38	20	5	0	10	5	5	0	100
+	Torso	25	25	20	5	0	10	5	5	0	100
+	Tail	20	20	10	5	0	5	5	5	0	100
+	Neck	43	43	25	8	0	10	5	8	0	100
+	Fin	43	43	45	8	0	15	5	10	0	100
+	Forelegs (Broken)	24	24	15	10	0	15	5	10	0	100
+	Head (Enraged)	52	52	30	10	0	15	5	10	100	100
+	Tail (Enraged)	24	24	15	5	0	15	5	5	0	100
+	Fin (Enraged)	43	43	45	10	0	20	5	15	0	100
+	Left Foreleg (Coated)	52	52	45	10	0	25	5	5	0	100
+	Right Foreleg (Coated)	52	52	35	10	0	25	5	10	0	100
+	Tail (Coated)	52	52	45	5	0	20	5	5	0	100
+Najarala	Head	85	80	75	0	5	10	15	5	100	100
+	Neck	40	40	45	0	5	0	5	0	0	100
+	Body	30	30	30	10	20	10	25	5	0	100
+	Resonating Organs	15	20	10	10	25	5	30	5	0	100
+	Tail	50	45	45	0	10	5	10	0	0	100
+	Forelegs	25	35	40	10	5	5	35	5	0	100
+	Hind Legs	60	60	65	0	5	10	15	0	0	100
+	Resonating Organs (Fatigued)	45	50	25	10	25	5	30	5	0	100
+	Tail (Fatigued)	50	50	45	0	10	5	10	0	0	100
+	Hind Legs (Fatigued)	65	65	70	0	5	10	15	0	0	100
+Barroth	Head (Mud)	22	25	15	40	0	0	20	10	100	100
+	Body (Mud)	36	45	35	25	0	0	10	5	0	100
+	Claws (Mud)	50	55	50	20	0	0	10	5	0	100
+	Feet (Mud)	36	30	25	20	0	0	15	5	0	100
+	Tail (Mud)	47	47	50	25	0	0	20	10	0	100
+	Head (No Mud)	22	25	15	0	50	0	20	0	100	100
+	Body (No Mud)	36	45	35	0	30	0	10	0	0	100
+	Claws (No Mud)	45	50	45	0	25	0	10	0	0	100
+	Feet (No Mud)	36	30	25	0	25	0	15	0	0	100
+	Tail (No Mud)	42	42	45	0	30	0	20	0	0	100
+Deviljho	Head	65	65	60	10	10	15	5	15	100	100
+	Chest	37	37	35	15	15	20	10	20	0	100
+	Body	25	25	25	5	5	20	5	20	0	100
+	Forelegs	30	30	30	10	10	15	5	15	0	100
+	Hind Legs	43	38	35	5	5	10	5	10	0	100
+	Tail	35	32	30	5	5	20	5	20	0	100
+	Head (Enraged)	30	34	30	15	15	20	10	20	120	100
+	Chest (Enraged)	76	76	60	10	10	15	15	15	0	100
+	Body (Enraged)	22	22	20	5	5	25	5	25	0	100
+	Forelegs (Enraged)	27	27	30	15	15	20	10	20	0	100
+	Hind Legs (Enraged)	35	32	25	10	10	15	5	15	0	100
+	Tail (Enraged)	38	35	30	5	5	20	5	20	0	100
+Savage Deviljho	Head	28	31	25	20	20	30	20	20	120	100
+	Chest	69	69	55	15	15	25	15	15	0	100
+	Body	21	21	21	20	20	30	20	20	0	100
+	Forelegs	25	25	30	15	15	25	15	15	0	100
+	Hind Legs	28	28	20	20	20	30	20	20	0	100
+	Tail	26	22	25	20	20	35	20	20	0	100
+	Head (Enraged)	69	76	55	0	0	0	0	0	120	100
+	Breast (Enraged)	48	45	45	15	15	25	15	15	0	100
+	Body (Enraged)	20	20	15	20	20	30	20	20	0	100
+	Hind Legs (Enraged)	27	27	20	20	20	30	20	20	0	100
+	Tail (Enraged)	24	21	25	20	20	35	20	20	0	100
+Uragaan	Head	20	20	10	0	40	5	20	30	100	100
+	Neck	25	30	25	0	20	0	10	15	0	100
+	Back	22	24	10	0	15	0	10	15	0	100
+	Stomach	55	45	45	0	30	5	15	30	0	100
+	Forelegs	25	30	20	0	15	0	10	15	0	100
+	Hind Legs	25	30	20	0	15	0	10	15	0	100
+	Tail	35	30	25	0	25	0	10	20	0	100
+	Tail Tip	22	24	10	0	35	5	15	25	0	100
+	Head (Broken)	55	50	40	0	20	15	30	35	100	100
+Crystalbeard Uragaan	Head	19	20	19	0	20	10	0	15	100	100
+	Tail Tip	20	20	19	0	20	10	0	15	0	100
+	Hind Legs	24	30	24	0	15	0	5	10	0	100
+	Back	21	35	19	0	20	10	0	10	0	100
+	Forelegs	42	45	38	0	15	0	5	10	0	100
+	Neck	24	24	30	0	15	0	10	10	0	100
+	Head (Broken)	55	50	40	0	10	15	30	20	100	100
+Duramboros	Head	23	21	20	35	10	35	20	0	150	100
+	Horn	43	24	35	10	5	15	5	5	100	100
+	Torso	25	35	25	15	5	10	15	10	0	100
+	Hump	60	60	35	20	5	0	15	10	0	100
+	Forelegs	32	30	25	15	0	10	10	10	0	100
+	Hind Legs	44	44	35	10	0	5	10	5	0	100
+	Tail	32	40	50	10	5	5	5	10	0	100
+	Tail Tip	24	43	40	20	5	5	15	20	0	100
+	Hump (Broken)	70	70	60	30	10	5	20	20	0	120
+Brachydios	Horn	20	24	15	0	25	5	20	5	120	100
+	Head	70	65	50	0	20	10	15	5	100	100
+	Body	40	35	20	0	15	0	10	5	0	100
+	Forelegs	45	50	30	0	10	5	5	0	0	100
+	Hind Legs	30	35	35	0	10	5	5	0	0	100
+	Tail	35	25	45	0	15	5	10	5	0	100
+	Tail Tip	20	10	10	0	5	0	5	0	0	100
+Raging Brachydios	Horn	22	24	18	0	20	5	25	5	120	100
+	Head	65	60	46	0	15	10	20	5	100	100
+	Body	34	34	20	0	10	0	15	5	0	100
+	Forelegs	38	45	25	0	5	5	10	0	0	100
+	Hind Legs	25	30	30	0	5	5	10	0	0	100
+	Tail	40	30	50	0	10	5	15	5	0	100
+	Tail Tip	24	14	14	0	5	0	5	0	0	100
+	Horn (Red Slime)	17	20	13	0	20	5	25	5	120	100
+	Head (Red Slime)	55	50	36	0	15	10	20	5	100	100
+	Forelegs (Red Slime)	28	35	15	0	5	5	10	0	0	100
+	Tail (Red Slime)	30	20	45	0	10	5	15	5	0	100
+	Tail Tip (Red Slime)	20	9	9	0	5	0	5	0	0	100
+Glavenus	Head	65	65	50	0	25	10	15	15	100	100
+	Throat	70	70	30	0	30	15	15	15	0	100
+	Back	36	36	45	0	20	5	10	10	0	100
+	Body	25	25	20	0	20	5	10	10	0	100
+	Forelegs	41	41	20	0	15	5	5	5	0	100
+	Hind Legs	25	25	20	0	15	5	5	5	0	100
+	Tail	36	36	20	0	25	10	15	15	0	100
+	Tailblade	22	22	22	0	20	5	5	5	0	100
+	Tailblade (Rusted)	20	20	17	0	20	5	15	5	0	100
+	Tailblade (Heated)	65	65	55	0	35	15	20	15	0	100
+	Tailblade (Broken)	36	36	36	0	20	10	15	5	0	100
+	Head (Heated)	70	70	35	0	30	5	15	5	100	100
+	Throat (Heated)	75	75	35	0	35	15	15	10	0	100
+Hellblade Glavenus	Head	55	55	40	0	20	10	10	10	100	100
+	Throat	63	63	45	0	25	15	15	15	0	100
+	Back	36	36	50	0	20	5	10	5	0	100
+	Body	25	25	20	0	15	5	10	5	0	100
+	Forelegs	41	41	20	0	15	5	5	5	0	100
+	Hind Legs	25	25	20	0	10	5	5	5	0	100
+	Tail	36	36	20	0	15	10	10	10	0	100
+	Tailblade	55	55	40	0	30	10	10	10	0	100
+	Head (Heated)	63	63	40	0	10	5	25	5	100	100
+	Throat (Heated)	70	70	50	0	15	10	25	10	0	100
+	Tail (Heated)	36	36	20	0	10	5	15	5	0	100
+	Tailblade (Heated)	63	63	40	0	10	10	30	10	0	100
+Nargacuga	Head	50	50	55	20	10	25	15	15	100	100
+	Tail	30	30	35	10	0	15	0	5	0	100
+	Stomach	25	25	30	5	0	5	0	5	0	100
+	Wing Blades	20	20	20	25	5	35	10	15	0	100
+	Forelegs	36	36	25	5	0	10	0	10	0	100
+	Tail Tip	25	25	30	25	5	30	10	10	0	100
+	Hind Legs	30	30	25	5	5	10	5	10	0	100
+	Neck / Back	36	40	30	15	5	15	5	10	0	100
+	Head (Enraged)	55	55	60	20	10	30	15	15	100	100
+	Forelegs (Enraged)	36	36	25	5	0	15	0	10	0	100
+Silverwind Nargacuga	Head	40	45	40	20	10	25	15	15	100	100
+	Neck / Back	36	40	30	15	5	15	5	10	0	100
+	Stomach	25	25	25	5	0	5	0	5	0	100
+	Wing Blades	20	20	20	25	5	30	10	15	0	100
+	Forelegs	24	24	25	5	5	30	10	15	0	100
+	Hind Legs	30	30	25	10	5	10	5	10	0	100
+	Tail	25	22	30	5	0	10	0	10	0	100
+	Tail Tip	20	20	25	25	5	30	10	10	0	100
+	Head (Enraged)	55	55	60	20	10	30	15	15	100	100
+	Stomach (Enraged)	36	40	30	15	5	15	5	10	0	100
+	Forelegs (Enraged)	24	24	25	5	0	15	0	10	0	100
+	Hind Legs (Enraged)	30	30	25	5	5	10	5	10	0	100
+	Tail (Enraged)	22	22	30	10	0	15	0	5	0	100
+	Tail Tip (Enraged)	25	25	30	25	5	30	10	10	0	100
+Barioth	Head	55	60	60	30	10	25	0	15	100	100
+	Neck / Back	30	25	30	5	5	5	0	10	0	100
+	Stomach	45	25	40	10	0	5	0	5	0	100
+	Wings	25	30	25	30	5	25	0	10	0	100
+	Claws	30	30	30	15	0	10	0	5	0	100
+	Hind Legs	35	35	35	10	5	5	0	0	0	100
+	Tail	40	40	30	15	0	10	0	5	0	100
+Rathian	Head	90	80	70	0	15	20	15	35	100	100
+	Neck	40	40	40	0	10	15	10	20	0	100
+	Back	25	30	30	15	10	15	10	25	0	100
+	Stomach	60	55	45	0	5	20	5	10	0	100
+	Tail	30	30	25	0	5	10	5	25	0	100
+	Wings	25	20	25	0	10	15	10	20	0	100
+	Feet	44	40	45	0	5	10	5	10	0	100
+Dreadqueen Rathian	Head	21	21	20	0	10	10	10	20	100	100
+	Neck	40	40	30	5	10	15	10	15	0	100
+	Back	20	20	15	5	10	20	10	25	0	100
+	Stomach	24	24	20	0	5	15	5	15	0	100
+	Tail	40	40	30	5	5	10	5	15	0	100
+	Wings	35	35	30	0	10	20	10	25	0	100
+	Feet	24	24	20	0	5	10	5	15	0	100
+	Tail Tip	20	20	15	0	5	10	5	15	0	100
+	Head (Broken)	45	45	35	0	10	10	10	20	100	100
+	Neck (Broken)	45	45	30	5	10	15	10	15	0	100
+	Back (Broken)	38	38	45	5	10	20	10	25	0	100
+	Stomach (Broken)	20	25	15	0	5	15	5	15	0	100
+	Tail (Broken)	45	45	30	5	5	10	5	15	0	100
+	Feet (Broken)	30	25	30	0	5	10	5	15	0	100
+	Tail Tip (Broken)	38	38	35	0	5	10	5	20	0	100
+Gold Rathian	Head	20	20	15	0	20	30	10	0	100	100
+	Neck	15	15	15	0	20	30	10	0	0	100
+	Back	55	50	30	5	15	20	5	0	0	100
+	Stomach	25	30	30	5	10	15	10	0	0	100
+	Tail	20	20	15	0	5	10	5	0	0	100
+	Wings	44	44	25	0	15	25	10	0	0	100
+	Feet	35	35	45	0	10	10	5	0	0	100
+	Tail Tip	45	45	30	0	10	10	5	0	0	100
+	Head (Broken)	55	50	40	0	10	15	5	0	100	100
+Rathalos	Head	65	65	55	0	10	15	10	20	100	100
+	Neck	30	30	20	0	10	10	10	10	0	100
+	Back	25	30	20	15	10	20	10	25	0	100
+	Stomach	40	50	15	0	5	20	5	10	0	100
+	Tail	45	40	25	0	5	10	5	20	0	100
+	Wings	25	20	25	0	10	25	10	35	0	100
+	Feet	30	25	45	0	5	10	5	10	0	100
+Dreadking Rathalos	Head	45	40	30	0	5	10	5	20	100	100
+	Neck	38	38	30	5	10	15	10	15	0	100
+	Back	21	21	15	5	5	20	5	25	0	100
+	Stomach	24	24	18	0	5	15	5	15	0	100
+	Tail	40	35	30	5	5	10	5	15	0	100
+	Wings	24	21	25	0	10	20	10	25	0	100
+	Feet	24	21	20	0	5	10	5	15	0	100
+	Tail Tip	20	20	15	0	5	10	5	15	0	100
+	Head (Broken)	55	50	35	0	10	10	10	20	100	100
+	Neck (Broken)	40	40	30	5	10	15	10	15	0	100
+	Back (Broken)	38	38	45	5	10	20	10	25	0	100
+	Tail (Broken)	40	35	25	5	5	10	5	15	0	100
+	Feet (Broken)	24	24	20	0	5	10	5	15	0	100
+	Tail Tip (Broken)	24	24	25	0	5	10	5	20	0	100
+Silver Rathalos	Head	20	20	15	0	35	30	20	0	100	100
+	Neck	15	15	15	0	35	30	20	0	0	100
+	Back	55	50	30	5	20	15	5	0	0	100
+	Stomach	25	30	30	5	15	10	10	0	0	100
+	Tail	20	20	15	0	10	5	5	0	0	100
+	Wings	44	44	25	0	25	15	10	0	0	100
+	Feet	35	35	45	0	10	10	5	0	0	100
+	Tail Tip	35	35	24	0	10	10	5	0	0	100
+	Head (Broken)	45	45	30	0	15	10	5	0	100	100
+Basarios	Head	20	20	20	10	15	10	10	18	100	100
+	Neck	15	20	20	10	15	10	10	18	0	100
+	Back	15	20	20	10	15	10	10	18	0	100
+	Stomach	24	25	30	10	20	10	10	18	0	100
+	Tail (Base)	15	15	15	10	15	10	10	18	0	100
+	Wings	20	20	20	10	15	10	10	18	0	100
+	Feet	25	26	30	10	10	10	10	10	0	100
+	Tail Tip	28	15	15	10	10	10	10	15	0	100
+	Stomach (Broken)	50	50	55	25	35	10	10	33	0	100
+Gravios	Head	21	28	20	0	15	5	5	25	100	100
+	Feet	21	20	20	0	30	5	5	10	0	100
+	Wing	24	25	23	0	20	5	5	15	0	100
+	Chest	26	30	30	0	35	5	15	30	0	100
+	Back	24	30	25	0	25	5	10	15	0	100
+	Wing	24	25	23	0	20	5	5	15	0	100
+	Stomach	25	30	20	0	30	5	10	20	0	100
+	Head (Broken)	25	35	25	0	15	5	5	30	100	100
+	Back (Broken)	45	45	40	5	35	5	10	15	0	100
+	Chest (Broken)	70	70	60	15	45	5	15	40	0	100
+	Wing (Broken)	26	26	26	0	20	5	0	0	0	100
+	Feet (Broken)	24	30	25	0	30	5	5	10	0	100
+Khezu	Head	63	70	80	30	5	0	5	5	150	100
+	Neck	75	50	50	25	5	0	5	5	0	100
+	Body	45	45	25	25	5	0	5	5	0	100
+	Feet	25	20	35	15	5	0	5	5	0	100
+	Tail	20	20	30	20	5	0	5	5	0	100
+	Wings	25	25	25	20	5	0	5	5	0	200
+Tigrex	Head	65	55	55	0	10	20	5	15	100	100
+	Neck	44	44	25	0	10	20	5	15	0	100
+	Stomach	25	30	20	15	15	15	10	15	0	100
+	Back	44	40	30	0	15	25	10	5	0	100
+	Tail	35	30	20	0	5	15	0	15	0	100
+	Forelegs	25	25	25	0	10	20	10	10	0	100
+	Hind Legs	40	40	40	0	5	10	0	5	0	100
+	Head (Enraged)	70	65	60	0	10	20	5	15	130	100
+	Neck (Enraged)	44	44	30	0	10	20	5	15	0	100
+	Belly (Enraged)	30	35	20	15	15	15	10	15	0	100
+	Back (Enraged)	40	35	35	0	15	25	10	5	0	100
+	Front Legs (Enraged)	30	30	25	0	10	15	10	10	0	100
+Grimclaw Tigrex	Head	65	55	55	0	10	20	5	15	100	100
+	Claws	17	17	10	0	10	20	10	10	0	100
+	Neck	44	44	25	0	10	20	5	15	0	100
+	Stomach	25	30	20	15	15	15	10	15	0	100
+	Forelegs	25	25	20	0	10	20	10	10	0	100
+	Tail	35	30	20	0	5	15	0	15	0	100
+	Back	17	17	10	0	10	20	10	10	0	100
+	Hind Legs	40	40	40	0	5	10	0	5	0	100
+	Head (Enraged)	70	65	60	0	10	20	5	15	130	100
+	Neck (Enraged)	44	44	30	0	10	20	5	15	0	100
+	Stomach (Enraged)	30	35	20	15	15	15	10	15	0	100
+	Back (Enraged)	25	25	20	0	15	20	15	15	0	100
+	Forelegs (Enraged)	57	57	30	0	10	15	10	10	0	100
+	Claws (Broken)	25	25	20	0	15	20	15	15	0	100
+Seregios	Head	42	45	45	0	10	25	15	5	100	100
+	Neck	45	45	50	0	10	15	10	5	0	100
+	Back	35	30	25	15	10	15	10	5	0	100
+	Stomach	60	55	55	0	5	10	5	5	0	100
+	Tail	35	35	35	0	5	10	5	5	0	100
+	Wingclaw	22	22	15	0	10	25	10	5	0	100
+	Hind Legs	45	40	40	0	5	10	10	5	0	100
+	Wings	31	31	31	0	10	25	10	5	0	100
+	Wingclaw (Broken)	24	24	20	0	10	25	10	5	0	100
+Astalos	Head	55	55	30	5	5	0	5	5	100	100
+	Stomach	24	24	15	10	10	0	20	5	0	100
+	Back	25	25	20	5	5	0	5	5	0	100
+	Wings	25	25	20	5	5	0	5	5	0	100
+	Feet	25	25	15	10	10	0	15	5	0	100
+	Tail	35	35	20	10	10	0	20	5	0	100
+	Tail Tip	43	43	25	10	12	0	20	5	0	100
+	Head (Broken)	55	55	30	6	6	0	10	5	100	100
+	Back (Broken)	25	25	15	10	10	0	10	5	0	100
+	Wing (Broken)	25	25	25	6	10	0	15	5	0	100
+	Tail Tip (Broken)	35	35	26	10	15	0	25	5	0	100
+	Head (Charged)	63	63	50	10	10	0	15	5	100	100
+	Wing (Charged)	55	55	40	10	12	0	15	5	0	100
+	Tail Tip (Charged)	55	55	45	10	20	0	25	5	0	100
+Boltreaver Astalos	Head	55	55	30	5	5	0	5	5	100	100
+	Stomach	20	20	15	10	10	0	20	5	0	100
+	Back	32	32	5	5	5	0	5	5	0	100
+	Wings	45	45	20	5	5	0	5	5	0	100
+	Feet	28	28	15	10	10	0	15	5	0	100
+	Tail	35	35	20	10	10	0	20	5	0	100
+	Tail Tip	43	43	25	10	12	0	20	5	0	100
+	Head (Charged)	60	60	30	6	6	0	10	5	100	100
+	Wing (Charged)	58	58	40	10	10	0	15	5	0	100
+	Tail Tip (Charged)	58	58	45	10	10	0	10	5	0	100
+	Head (Fatigued)	45	45	25	5	5	0	10	5	100	100
+	Wing (Fatigued)	25	25	25	5	5	0	10	5	0	100
+	Tail Tip (Fatigued)	43	43	25	5	5	0	10	5	0	100
+Diablos	Head	24	15	20	0	15	15	20	15	100	100
+	Neck	45	45	30	0	10	10	15	10	0	100
+	Back/Wings	23	42	20	10	15	15	25	15	0	100
+	Stomach	68	75	40	0	10	10	10	10	0	100
+	Wing Membrane	40	30	45	0	10	10	20	10	0	100
+	Feet	35	35	35	0	5	5	8	5	0	100
+	Tail	50	24	60	0	10	10	15	10	0	100
+	Tail Tip	22	35	10	10	15	15	30	15	0	100
+Bloodbath Diablos	Horn	20	15	20	0	20	15	15	15	100	100
+	Head/Neck	45	15	30	0	15	10	10	10	100	100
+	Back/Wings	23	42	20	0	25	15	15	15	0	100
+	Stomach	42	42	35	0	10	10	10	10	0	100
+	Wing Membrane	35	30	40	0	20	10	10	10	0	100
+	Feet	30	35	35	0	8	5	5	5	0	100
+	Tail	55	24	50	0	15	10	10	10	0	100
+	Tail Tip	22	35	10	0	30	15	15	15	0	100
+	Belly (Broken)	42	42	40	0	10	10	10	10	0	100
+	Wing Membrane (Broken)	35	30	30	0	20	10	10	10	0	100
+	Tail (Sever)	55	24	40	0	15	10	10	10	0	100
+	Head/Neck (Charging)	52	20	32	0	15	10	10	10	100	100
+	Head/Neck (Massacre Charge)	57	21	35	0	15	10	10	10	100	100
+Akantor	Head	50	50	60	0	5	20	0	20	100	100
+	Neck	35	30	20	0	5	15	0	20	0	100
+	Stomach	35	40	25	0	5	15	0	15	0	100
+	Back	20	25	25	0	5	15	0	20	0	100
+	Tail	30	25	30	0	5	30	0	30	0	100
+	Forelegs	25	35	15	0	5	15	5	20	0	100
+	Hind Legs	30	30	15	0	5	15	0	20	0	100
+	Head (Wound Belly)	50	55	65	0	15	20	5	25	100	100
+	Neck (Wound Belly)	35	40	25	0	10	15	5	20	0	100
+	Stomach (Wound Belly)	45	50	30	10	25	30	10	20	0	100
+	Back (Wound Belly)	40	35	35	0	15	15	5	25	0	100
+	Tail (Wound Belly)	30	25	30	0	10	30	5	30	0	100
+	Forelegs (Wound Belly)	25	35	20	0	10	15	10	25	0	100
+	Hind Legs (Wound Belly)	35	40	25	0	10	15	5	20	0	100
+Ukanlos	Head	45	45	65	20	5	20	0	15	100	100
+	Neck / Back	20	30	20	15	5	15	0	10	0	100
+	Stomach	25	20	15	15	5	10	0	10	0	100
+	Forelegs	20	25	15	20	5	25	0	10	0	100
+	Hind Legs	30	35	15	15	5	15	0	15	0	100
+	Chest	35	40	25	15	5	15	0	10	0	100
+	Tail	30	25	30	25	5	10	0	15	0	100
+	Head (Stomach Broken)	50	45	70	25	5	20	0	20	100	100
+	Neck / Back (Stomach Broken)	30	40	30	15	5	15	0	10	0	100
+	Stomach (Stomach Broken)	40	50	30	20	5	15	0	15	0	100
+	Forelegs (Stomach Broken)	25	30	20	20	5	25	0	10	0	100
+	Hind Legs (Stomach Broken)	30	35	20	15	5	15	0	20	0	100
+	Chest (Stomach Broken)	30	25	15	20	5	10	0	10	0	100
+	Tail (Stomach Broken)	30	30	40	25	5	10	0	15	0	100
+Gore Magala	Head	65	55	55	15	0	15	5	15	100	100
+	Neck	50	50	50	15	0	10	5	5	0	100
+	Body	25	25	35	10	0	5	5	5	0	100
+	Wing Legs	30	30	30	25	0	15	5	10	0	100
+	Forelegs	45	45	40	10	0	5	5	5	0	100
+	Hind Legs	42	42	50	10	0	5	5	5	0	100
+	Wings	26	26	20	15	0	10	0	5	0	100
+	Tail	45	45	40	10	0	10	5	5	0	100
+	Head (Virus Mode)	75	70	65	25	0	15	5	30	100	100
+	Wing Legs (Virus Mode)	30	30	30	30	0	15	5	10	0	100
+Chaotic Gore Magala	Head	65	55	55	25	0	15	5	30	100	100
+	Wing Leg (Right)	20	20	25	30	0	15	5	30	0	100
+	Body	25	25	35	10	0	5	5	5	0	100
+	Wing Leg (Left)	30	30	30	25	0	15	5	10	0	100
+	Forelegs	40	40	40	10	0	5	5	5	0	100
+	Hind Legs	36	36	45	10	0	5	5	5	0	100
+	Wings	26	26	20	15	0	10	0	5	0	100
+	Tail	45	45	40	10	0	10	5	5	0	100
+	Head (Virus Mode)	55	42	42	25	0	15	5	30	100	100
+	Wing Leg (Right/Virus Mode)	16	16	20	30	0	15	5	30	0	100
+Zinogre	Head	65	65	70	10	10	0	15	5	100	100
+	Torso	25	25	30	5	5	0	5	5	0	100
+	Back	45	40	35	10	20	0	25	5	0	100
+	Forelegs	25	30	30	5	5	0	10	5	0	100
+	Hind Legs	45	45	35	5	5	0	10	5	0	100
+	Shoulders	44	44	30	5	5	0	10	5	0	100
+	Tail	30	25	25	5	5	0	5	5	0	100
+	Tail Tip	21	20	10	10	15	0	20	5	0	100
+	Head (Supercharged)	65	65	70	10	10	0	15	10	120	100
+	Torso (Supercharged)	30	30	35	5	10	0	10	5	0	100
+	Back (Supercharged)	70	65	55	15	25	0	30	5	0	100
+	Forelegs (Supercharged)	43	46	30	5	5	0	15	5	0	100
+	Hind Legs (Supercharged)	50	50	40	10	10	0	15	5	0	100
+	Shoulders (Supercharged)	45	45	35	10	10	0	15	5	0	100
+	Tail (Supercharged)	30	25	25	5	10	0	10	5	0	100
+	Tail Tip (Supercharged)	21	19	10	10	15	0	20	5	0	100
+Thunderlord Zinogre	Head	55	55	45	10	10	0	15	5	100	100
+	Torso	25	25	10	5	5	0	5	5	0	100
+	Back	45	40	40	10	15	0	20	5	0	100
+	Forelegs	25	30	20	5	5	0	15	5	0	100
+	Hind Legs	45	45	35	5	5	0	10	5	0	100
+	Shoulders	44	44	25	5	5	0	10	5	0	100
+	Tail	30	25	25	5	5	0	5	5	0	100
+	Tail Tip	21	20	10	10	15	0	25	5	0	100
+	Head (Ultracharged)	65	65	45	10	10	0	15	10	120	100
+	Torso (Ultracharged)	30	30	10	5	10	0	10	5	0	100
+	Back (Ultracharged)	45	40	40	15	20	0	25	5	0	100
+	Forelegs (Ultracharged)	21	21	10	5	5	0	25	5	0	100
+	Hind Legs (Ultracharged)	50	50	35	10	10	0	15	5	0	100
+	Shoulders (Ultracharged)	45	45	25	10	10	0	15	5	0	100
+	Tail (Ultracharged)	30	25	25	5	10	0	10	5	0	100
+	Tail Tip (Ultracharged)	21	19	10	10	15	0	25	5	0	100
+Kirin	Head	40	40	35	5	5	0	5	5	100	100
+	Body	24	24	20	15	15	0	10	5	0	100
+	Lower Body	27	27	25	15	15	0	10	5	0	100
+	Forelegs	25	25	30	5	5	0	5	5	0	100
+	Head (Enraged)	50	50	45	5	5	0	5	5	100	100
+	Body (Enraged)	24	24	20	10	10	0	10	5	0	100
+	Lower Body (Enraged)	15	15	15	10	10	0	10	5	0	100
+	Forelegs (Enraged)	28	28	32	5	5	0	5	5	0	100
+Shagaru Magala	Head	65	60	60	25	0	15	5	30	100	100
+	Neck	50	40	45	15	0	10	5	20	0	100
+	Torso	25	25	25	10	0	5	5	10	0	100
+	Wing Legs	20	20	25	30	0	15	5	30	0	100
+	Forelegs	40	40	40	10	0	5	5	10	0	100
+	Hind Legs	36	36	45	10	0	5	5	10	0	100
+	Wings	26	26	20	15	0	10	5	20	0	100
+	Tail	36	36	35	10	0	10	5	15	0	100
+	Wing Legs (Broken)	36	36	30	20	0	15	5	20	0	100
+Valstrax	Head	55	60	45	25	25	25	25	0	100	100
+	Neck	40	30	40	25	25	25	25	0	0	100
+	Body	30	25	45	20	20	20	20	0	0	100
+	Wing Legs	30	30	60	15	15	15	15	0	0	100
+	Forelegs	25	24	25	25	25	25	25	0	0	100
+	Hind Legs	25	24	20	15	15	15	15	0	0	100
+	Wings	22	25	10	25	25	25	25	0	0	100
+	Tail	30	24	20	20	20	20	20	0	0	100
+	Head (Enraged)	55	60	45	0	0	0	0	0	110	100
+	Next (Enraged)	40	30	25	25	25	25	25	0	0	100
+	Body (Enraged)	30	25	25	20	20	20	20	0	0	100
+	Hind Legs (Enraged)	25	24	40	0	0	0	0	0	0	100
+	Wings (Enraged)	22	25	10	0	0	0	0	0	0	100
+	Tail (Enraged)	30	24	20	0	0	0	0	0	0	100
+Kushala Daora	Head	50	45	40	10	5	30	0	35	100	100
+	Neck	45	40	30	10	5	20	0	25	0	100
+	Stomach	35	50	25	10	5	15	0	20	0	100
+	Back	20	25	30	10	5	15	0	20	0	100
+	Tail	35	30	40	10	5	30	0	30	0	100
+	Forelegs	35	30	20	10	5	20	0	20	0	100
+	Hind Legs	35	35	25	10	5	15	0	20	0	100
+	Wings	20	20	20	10	5	15	0	20	0	100
+	Head (Black Wind)	45	40	35	15	5	35	0	40	100	100
+	Neck (Black Wind)	40	40	30	10	5	25	0	35	0	100
+	Stomach (Black Wind)	25	40	25	5	0	20	0	10	0	100
+	Back (Black Wind)	20	25	20	5	0	20	0	10	0	100
+	Tail (Black Wind)	35	30	40	5	0	30	0	40	0	100
+	Forelegs (Black Wind)	30	25	20	5	0	25	0	10	0	100
+	Hind Legs (Black Wind)	30	30	25	5	0	20	0	10	0	100
+	Wings (Black Wind)	20	15	20	5	0	20	0	10	0	100
+Chameleos	Head	45	50	45	35	0	20	0	35	100	100
+	Stomach	25	30	22	35	0	15	5	20	0	100
+	Back	25	22	25	25	0	15	0	25	0	100
+	Forelegs	22	25	20	15	0	20	0	10	0	100
+	Hind Legs	30	25	20	25	0	10	0	25	0	100
+	Wings	22	22	30	10	0	15	0	15	0	100
+	Tail	25	22	20	10	0	10	0	5	0	100
+	Head	40	45	35	40	0	20	0	35	100	100
+	Stomach	22	25	20	40	0	15	5	20	0	100
+	Back	22	20	22	30	0	15	0	25	0	100
+	Forelegs	20	22	15	20	0	10	0	10	0	100
+	Hind Legs	25	22	15	30	0	15	0	25	0	100
+	Wings	20	20	25	15	0	15	0	15	0	100
+	Tail	22	20	20	15	0	10	0	5	0	100
+Teostra	Head	50	50	45	0	25	10	15	10	100	100
+	Neck / Stomach	25	40	20	0	10	5	10	5	0	100
+	Back	25	25	25	0	5	5	5	5	0	100
+	Tail	45	25	60	0	10	5	25	15	0	100
+	Forelegs	25	25	20	0	15	5	10	5	0	100
+	Hind Legs	45	45	30	0	10	5	15	5	0	100
+	Wings	20	20	10	0	5	5	5	5	0	100
+	Head (Enraged)	60	55	50	0	15	10	10	25	120	100
+	Neck / Stomach (Enraged)	30	45	25	0	10	5	5	10	0	100
+	Back (Enraged)	25	25	25	0	5	5	5	10	0	100
+	Tail (Enraged)	55	35	65	0	10	5	20	25	0	100
+	Forelegs (Enraged)	35	35	30	0	15	5	5	10	0	100
+	Hind Legs (Enraged)	55	55	35	0	5	5	15	10	0	100
+	Wings (Enraged)	20	20	10	0	5	5	5	10	0	100
+Lao-Shan Lung	Head	28	21	30	20	5	15	5	20	0	0
+	Neck	20	20	20	20	5	15	5	20	0	0
+	Uvula	80	80	80	30	10	20	10	40	0	0
+	Back	50	50	45	30	5	15	5	30	0	0
+	Tail	20	20	20	20	5	15	5	20	0	0
+	Stomach	38	35	35	20	5	15	5	30	0	0
+	Thigh	10	20	20	25	5	15	5	20	0	0
+	Legs	32	37	25	20	5	15	5	20	0	0
+	Back (Broken)	50	50	40	25	5	15	5	25	0	0
+Alatreon	Head (Fire Form)	60	65	55	0	15	5	20	5	100	100
+	Neck (Fire Form)	40	35	35	0	10	5	15	5	0	100
+	Body (Fire Form)	35	30	20	0	10	5	15	5	0	100
+	Wings (Fire Form)	21	21	10	0	5	5	10	5	0	100
+	Feet (Fire Form)	25	25	20	0	10	5	15	5	0	100
+	Tail (Fire Form)	30	25	40	0	5	5	10	5	0	100
+	Head (Thunder/Ice Form)	60	65	55	20	15	0	0	30	100	100
+	Neck  (Thunder/Ice Form)	40	35	40	15	10	0	0	20	0	100
+	Body (Thunder/Ice Form)	35	30	20	15	10	0	0	20	0	100
+	Wings (Thunder/Ice Form)	25	25	15	15	5	0	0	10	0	100
+	Feet (Thunder/Ice Form)	38	35	35	15	10	0	0	20	0	100
+	Tail (Thunder/Ice Form)	30	30	40	15	10	0	0	20	0	100
+Amatsu	Head	60	70	65	20	0	15	10	25	100	100
+	Neck	35	30	15	15	0	0	5	10	0	100
+	Back	30	25	15	15	0	0	5	10	0	100
+	Wings	40	40	35	20	0	10	5	20	0	100
+	Stomach	44	44	30	20	0	10	5	20	0	100
+	Feet	25	30	10	15	0	0	5	20	0	100
+	Tail	35	30	15	20	0	0	5	10	0	100
+	Head (2nd Phase)	70	80	75	20	0	15	10	25	100	100
+Nakarkos	Back	30	30	10	10	0	5	0	15	0	0
+	Shell	15	15	10	5	0	0	0	5	0	0
+	Head	65	65	40	15	0	10	0	20	0	0
+	Fin	22	22	15	5	0	0	0	10	0	0
+	Body	15	15	10	0	0	0	0	0	0	0
+	Blowhole	38	38	20	5	0	0	0	10	0	0
+	Back Weakness	70	70	70	20	0	10	0	30	0	0
+	Tentacle	36	36	25	5	0	0	0	10	0	0
+	Tentacle Tip	63	63	35	15	0	10	0	20	0	0
+	Head (Mucus)	30	30	15	0	0	0	0	0	0	0
+Fatalis	Face	70	75	65	15	5	5	10	30	0	100
+	Head	50	50	40	15	5	5	10	25	0	100
+	Neck	45	40	25	15	5	5	10	10	0	100
+	Chest	30	25	20	15	5	5	10	15	0	100
+	Back	30	30	25	15	5	5	10	10	0	100
+	Stomach / Hind Legs	21	21	20	15	5	5	10	15	0	100
+	Tail	10	15	10	15	5	5	10	20	0	100
+	Wing	35	21	15	10	5	5	10	15	0	100
+Crimson Fatalis	Face	70	75	60	5	10	5	15	30	0	100
+	Head	50	55	40	5	10	5	15	25	0	100
+	Neck	40	35	25	5	10	5	15	10	0	100
+	Chest	30	25	20	5	10	5	15	15	0	100
+	Tail	10	15	10	5	10	5	15	20	0	100
+	Back	30	30	25	5	10	5	15	10	0	100
+	Stomach / Hind Legs	21	21	20	5	10	5	15	15	0	100
+	Wings	25	21	15	5	10	5	20	15	0	100
+	Face (Enraged)	85	80	70	0	15	5	30	35	0	100
+	Head (Enraged)	55	55	55	0	10	5	20	25	0	100
+	Neck (Enraged)	50	45	35	0	10	5	15	10	0	100
+	Chest (Enraged)	30	25	20	0	10	5	15	15	0	100
+	Tail (Enraged)	25	21	15	0	10	5	20	25	0	100
+	Back (Enraged)	40	35	30	0	10	5	15	10	0	100
+	Stomach / Hind Legs (Enraged)	30	25	20	0	10	5	15	15	0	100
+	Wings (Enraged)	30	25	20	0	15	10	25	15	0	100
+	Stomach (Enraged)	30	24	30	0	20	5	15	15	0	100
+	Tail (Enraged)	30	24	30	0	20	0	0	10	0	100
+Old Fatalis	Face	55	50	40	15	5	5	10	30	0	100
+	Head	45	45	30	15	5	5	10	25	0	100
+	Neck	25	20	10	15	5	5	10	10	0	100
+	Chest	30	25	20	15	5	5	10	15	0	100
+	Tail	10	15	10	15	5	5	10	10	0	100
+	Back	30	30	25	15	5	5	10	10	0	100
+	Stomach / Hind Legs	30	25	20	15	5	5	10	20	0	100
+	Wings	35	21	15	15	5	5	10	15	0	100
+	Face (Armor Mode)	85	80	70	10	5	5	10	10	0	100
+	Head (Armor Mode)	55	55	55	10	5	5	10	10	0	100
+	Neck (Armor Mode)	55	50	40	10	5	5	10	10	0	100
+	Chest (Armor Mode)	25	20	15	10	5	5	10	10	0	100
+	Tail (Armor Mode)	10	10	10	10	5	5	10	10	0	100
+	Back (Armor Mode)	15	15	15	10	5	5	10	10	0	100
+	Stomach / Hind Legs (Armor Mode)	10	10	10	10	5	5	10	10	0	100
+	Wings (Armor Mode)	25	16	10	10	5	5	10	10	0	100

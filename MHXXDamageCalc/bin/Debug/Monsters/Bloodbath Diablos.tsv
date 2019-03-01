@@ -1,0 +1,14 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Horn	20	15	20	0	20	15	15	15	100	100
+1	Head/Neck	45	15	30	0	15	10	10	10	100	100
+2	Back/Wings	23	42	20	0	25	15	15	15	0	100
+3	Stomach	42	42	35	0	10	10	10	10	0	100
+4	Wing Membrane	35	30	40	0	20	10	10	10	0	100
+5	Feet	30	35	35	0	8	5	5	5	0	100
+6	Tail	55	24	50	0	15	10	10	10	0	100
+7	Tail Tip	22	35	10	0	30	15	15	15	0	100
+8	Belly (Broken)	42	42	40	0	10	10	10	10	0	100
+9	Wing Membrane (Broken)	35	30	30	0	20	10	10	10	0	100
+10	Tail (Sever)	55	24	40	0	15	10	10	10	0	100
+11	Head/Neck (Charging)	52	20	32	0	15	10	10	10	100	100
+12	Head/Neck (Massacre Charge)	57	21	35	0	15	10	10	10	100	100

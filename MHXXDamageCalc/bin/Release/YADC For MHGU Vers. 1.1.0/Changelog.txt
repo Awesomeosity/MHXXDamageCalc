@@ -1,0 +1,3 @@
+Change damage calculation formula to be in-line with the game.
+Added TrueShot Up for Bows.
+Changed database files to .tsv format and changed relevant code.

@@ -1,0 +1,736 @@
+ID	name	raw	element	eleValue	affinity
+0	Petrified Bow Lv. 1	70	(No Element)	0	0
+1	Petrified Bow Lv. 2	80	(No Element)	0	0
+2	Petrified Bow Lv. 3	90	(No Element)	0	0
+3	Petrified Bow Lv. 4	110	(No Element)	0	0
+4	Petrified Bow Lv. 5	120	(No Element)	0	0
+5	Petrified Bow Lv. 6	160	(No Element)	0	0
+6	Petrified Bow Lv. 7	180	(No Element)	0	0
+7	Scholarly Bow Lv. 8	200	(No Element)	0	0
+8	Scholarly Bow Lv. 9	230	(No Element)	0	0
+9	Scholarly Bow Lv. 10	290	(No Element)	0	0
+10	Sophos Bow Lv. 11	320	(No Element)	0	0
+11	Hunter's Bow Lv. 1	60	(No Element)	0	0
+12	Hunter's Bow Lv. 2	70	(No Element)	0	0
+13	Hunter's Bow Lv. 3	80	(No Element)	0	0
+14	Hunter's Bow Lv. 4	90	(No Element)	0	0
+15	Hunter's Bow Lv. 5	110	(No Element)	0	0
+16	Hunter's Bow Lv. 6	150	(No Element)	0	0
+17	Hunter's Bow Lv. 7	170	(No Element)	0	0
+18	Master Hunter's Bow Lv. 8	180	(No Element)	0	0
+19	Master Hunter's Bow Lv. 9	210	(No Element)	0	0
+20	Master Hunter's Bow Lv. 10	240	(No Element)	0	0
+21	Sharpshooter Lv. 11	300	(No Element)	0	0
+22	Hunter's Stoutbow Lv. 1	90	(No Element)	0	0
+23	Hunter's Stoutbow Lv. 2	100	(No Element)	0	0
+24	Hunter's Stoutbow Lv. 3	110	(No Element)	0	0
+25	Hunter's Stoutbow Lv. 4	120	(No Element)	0	0
+26	Hunter's Stoutbow Lv. 5	140	(No Element)	0	0
+27	Hunter's Stoutbow Lv. 6	160	(No Element)	0	0
+28	Hunter's Stoutbow Lv. 7	200	(No Element)	0	0
+29	Hunter's Proudbow Lv. 8	220	(No Element)	0	0
+30	Hunter's Proudbow Lv. 9	250	(No Element)	0	0
+31	Hunter's Proudbow Lv. 10	280	(No Element)	0	0
+32	Hunter's Bravebow Lv. 11	340	(No Element)	0	0
+33	Arko Nulo (Y) Lv. 1	90	Thunder	10	5
+34	Arko Nulo (Y) Lv. 2	110	Thunder	12	5
+35	Arko Nulo (Y) Lv. 3	130	Thunder	13	5
+36	Arko Nulo (Y) Lv. 4	150	Thunder	25	10
+37	Arko Unu (Y) Lv. 5	170	Thunder	28	10
+38	Arko Unu (Y) Lv. 6	210	Thunder	30	10
+39	Arko Unu (Y) Lv. 7	240	Thunder	32	10
+40	Arko Du (Y) Lv. 8	260	Thunder	34	10
+41	Arko Nulo (W) Lv. 1	100	Ice	10	5
+42	Arko Nulo (W) Lv. 2	120	Ice	13	5
+43	Arko Nulo (W) Lv. 3	140	Ice	15	5
+44	Arko Nulo (W) Lv. 4	160	Ice	28	10
+45	Arko Unu (W) Lv. 5	170	Ice	31	10
+46	Arko Unu (W) Lv. 6	200	Ice	32	10
+47	Arko Unu (W) Lv. 7	220	Ice	32	10
+48	Arko Du (W) Lv. 8	240	Ice	33	10
+49	Blango Fur Bow Lv. 1	80	Ice	15	0
+50	Blango Fur Bow Lv. 2	100	Ice	18	0
+51	Blango Fur Bow Lv. 3	130	Ice	21	0
+52	Blango Fur Bow Lv. 4	160	Ice	24	0
+53	Scarfskin Bow Lv. 5	180	Ice	27	0
+54	Scarfskin Bow Lv. 6	210	Ice	30	0
+55	Fullpelt Bow Lv. 7	260	Ice	32	0
+56	Plume Bow Lv. 1	90	(No Element)	0	0
+57	Plume Bow Lv. 2	100	(No Element)	0	0
+58	Plume Bow Lv. 3	120	(No Element)	0	0
+59	Plume Bow Lv. 4	150	(No Element)	0	0
+60	Plume Bow Lv. 5	180	(No Element)	0	0
+61	Grand Plume Bow Lv. 6	190	(No Element)	0	0
+62	Grand Plume Bow Lv. 7	220	(No Element)	0	0
+63	Grand Plume Bow Lv. 8	270	(No Element)	0	0
+64	Archfeather Bow Lv. 9	320	(No Element)	0	0
+65	Yukumo Bow Lv. 1	80	(No Element)	0	0
+66	Yukumo Bow Lv. 2	110	(No Element)	0	0
+67	Yukumo Bow Lv. 3	130	(No Element)	0	0
+68	Yukumo Bow Lv. 4	170	(No Element)	0	0
+69	Yukumo Strongbow Lv. 5	200	(No Element)	0	0
+70	Yukumo Strongbow Lv. 6	230	(No Element)	0	0
+71	Yukumo Strongbow Lv. 7	290	(No Element)	0	0
+72	Hot Spring Bow Lv. 8	320	(No Element)	0	0
+73	Morsel Bowfish Lv. 1	90	(No Element)	0	0
+74	Morsel Bowfish Lv. 2	110	(No Element)	0	0
+75	Morsel Bowfish Lv. 3	130	(No Element)	0	0
+76	Morsel Bowfish Lv. 4	160	(No Element)	0	0
+77	Ample Bowfish Lv. 5	190	(No Element)	0	0
+78	Ample Bowfish Lv. 6	220	(No Element)	0	0
+79	Ample Bowfish Lv. 7	280	(No Element)	0	0
+80	Viand Bowfish Lv. 8	310	(No Element)	0	0
+81	Crystalline Flower Lv. 1	50	Ice	15	0
+82	Crystalline Flower Lv. 2	70	Ice	18	0
+83	Crystalline Flower Lv. 3	90	Ice	20	0
+84	Crystalline Flower Lv. 4	120	Ice	45	0
+85	Heaven's Glaze Lv. 5	140	Ice	50	0
+86	Heaven's Glaze Lv. 6	140	Ice	54	0
+87	Heaven's Glaze Lv. 7	140	Ice	56	0
+88	Heaven's Breath Lv. 8	140	Ice	60	0
+89	Sonic Bow Lv. 1	100	Thunder	10	0
+90	Sonic Bow Lv. 2	110	Thunder	17	0
+91	Sonic Bow Lv. 3	130	Thunder	19	0
+92	Sonic Bow Lv. 4	160	Thunder	21	0
+93	Sonic Resonator Lv. 5	180	Thunder	23	0
+94	Sonic Resonator Lv. 6	210	Thunder	25	0
+95	Sonic Resonator Lv. 7	240	Thunder	27	0
+96	Ultrasonic Lv. 8	270	Thunder	33	0
+97	Kut-Ku Stave Lv. 1	90	Fire	12	0
+98	Kut-Ku Stave Lv. 2	120	Fire	14	0
+99	Kut-Ku Stave Lv. 3	160	Fire	16	0
+100	Kut-Ku Stave Lv. 4	190	Fire	18	0
+101	Strange Kut-Ku Stave Lv. 5	200	Fire	20	0
+102	Strange Kut-Ku Stave Lv. 6	230	Fire	22	0
+103	Strange Kut-Ku Stave Lv. 7	250	Fire	24	0
+104	Great Kut-Ku Stave Lv. 8	270	Fire	25	0
+105	Daimyo's Warbow Lv. 1	110	Water	15	0
+106	Daimyo's Warbow Lv. 2	130	Water	17	0
+107	Daimyo's Warbow Lv. 3	150	Water	19	0
+108	Daimyo's Warbow Lv. 4	180	Water	21	0
+109	Chelae Warbow Lv. 5	190	Water	23	0
+110	Chelae Warbow Lv. 6	210	Water	24	0
+111	Chelae Warbow Lv. 7	240	Water	25	0
+112	Kingpincer Warbow Lv. 8	260	Water	26	0
+113	Spongia Bow Lv. 1	100	Water	10	0
+114	Spongia Bow Lv. 2	120	Water	12	0
+115	Spongia Bow Lv. 3	150	Water	14	0
+116	Spongia Bow Lv. 4	190	Water	16	0
+117	Porifera Bow Lv. 5	200	Water	18	0
+118	Porifera Bow Lv. 6	230	Water	20	0
+119	Porifera Bow Lv. 7	260	Water	22	0
+120	Drothdymion Lv. 8	300	Water	24	0
+121	Khezu Bow Lv. 1	80	Thunder	10	0
+122	Khezu Bow Lv. 2	100	Thunder	13	0
+123	Khezu Bow Lv. 3	120	Thunder	14	0
+124	Khezu Bow Lv. 4	160	Thunder	22	0
+125	Galvanized Core Lv. 5	180	Thunder	24	0
+126	Galvanized Core Lv. 6	240	Thunder	25	0
+127	Khezu Que C'est Lv. 7	260	Thunder	26	0
+128	Queen Blaster Lv. 1	140	Fire	8	0
+129	Queen Blaster Lv. 2	150	Fire	11	0
+130	Queen Blaster Lv. 3	190	Fire	13	0
+131	Queen's Melody Lv. 4	210	Fire	15	0
+132	Queen's Melody Lv. 5	240	Fire	17	0
+133	Queen's Melody Lv. 6	260	Fire	18	0
+134	Queen's Rhapsody Lv. 7	290	Fire	19	0
+135	Type 64 Multibow Lv. 1	100	Water	10	0
+136	Type 64 Multibow Lv. 2	120	Water	15	0
+137	Type 64 Multibow Lv. 3	150	Water	17	0
+138	Type 64 Multibow Lv. 4	170	Water	19	0
+139	Scorpion Zinger Lv. 5	180	Water	21	0
+140	Scorpion Zinger Lv. 6	240	Water	22	0
+141	Scorpion Zinger Lv. 7	270	Water	23	0
+142	Scorpion Perforator Lv. 8	290	Water	24	0
+143	Hidden Bow Lv. 1	120	(No Element)	0	25
+144	Hidden Bow Lv. 2	140	(No Element)	0	30
+145	Hidden Bow Lv. 3	160	(No Element)	0	35
+146	Night Flight Lv. 4	190	(No Element)	0	40
+147	Night Flight Lv. 5	250	(No Element)	0	40
+148	Night Flight Lv. 6	280	(No Element)	0	40
+149	Avidya Bow Lv. 7	310	(No Element)	0	40
+150	Bamboo Taketori Lv. 1	120	(No Element)	0	-30
+151	Bamboo Taketori Lv. 2	150	(No Element)	0	-30
+152	Bamboo Taketori Lv. 3	180	(No Element)	0	-30
+153	Bamboo Taketori Lv. 4	220	(No Element)	0	-30
+154	Bamboo Okina Lv. 5	250	(No Element)	0	-30
+155	Bamboo Okina Lv. 6	310	(No Element)	0	-30
+156	Bamboo Okina Lv. 7	350	(No Element)	0	-30
+157	Bamboo Kaguya Lv. 8	370	(No Element)	0	-30
+158	Ivory Bow Lv. 1	130	(No Element)	0	30
+159	Ivory Bow Lv. 2	150	(No Element)	0	30
+160	Ivory Bow Lv. 3	170	(No Element)	0	30
+161	Frozen Bow Lv. 4	190	(No Element)	0	30
+162	Frozen Bow Lv. 5	220	(No Element)	0	30
+163	Frozen Bow Lv. 6	250	(No Element)	0	30
+164	Frozen Solstice Lv. 7	310	(No Element)	0	30
+165	Chaos Bow Lv. 1	120	(No Element)	0	0
+166	Chaos Bow Lv. 2	140	(No Element)	0	0
+167	Chaos Bow Lv. 3	180	(No Element)	0	0
+168	Chaotic Rapture Lv. 4	200	(No Element)	0	0
+169	Chaotic Rapture Lv. 5	230	(No Element)	0	0
+170	Chaotic Rapture Lv. 6	260	(No Element)	0	0
+171	Chaotic Thrall Lv. 7	320	(No Element)	0	0
+172	Felyne Bow Lv. 1	110	(No Element)	0	-15
+173	Felyne Bow Lv. 2	140	(No Element)	0	-15
+174	Felyne Bow Lv. 3	150	(No Element)	0	-15
+175	Felyne Bow Lv. 4	160	(No Element)	0	-15
+176	Felyne Trickbow Lv. 5	190	(No Element)	0	-15
+177	Felyne Trickbow Lv. 6	220	(No Element)	0	-15
+178	Felyne Trickbow Lv. 7	250	(No Element)	0	-15
+179	Hoodwynk Lv. 8	310	(No Element)	0	-15
+180	Arachnid Bow Lv. 1	110	(No Element)	0	20
+181	Arachnid Bow Lv. 2	130	(No Element)	0	20
+182	Arachnid Bow Lv. 3	150	(No Element)	0	20
+183	Arachnid Silverstring Lv. 4	170	(No Element)	0	20
+184	Arachnid Silverstring Lv. 5	240	(No Element)	0	20
+185	Arachnid Silverstring Lv. 6	280	(No Element)	0	20
+186	Arachnid Silksong Lv. 7	300	(No Element)	0	20
+187	Obsidian Bow Lv. 1	140	(No Element)	0	0
+188	Obsidian Bow Lv. 2	190	(No Element)	0	0
+189	Obsidian Bow Lv. 3	200	(No Element)	0	0
+190	Obsidian Bow Lv. 4	210	(No Element)	0	0
+191	Ediacca Bow Lv. 5	220	(No Element)	0	0
+192	Ediacca Bow Lv. 6	260	(No Element)	0	0
+193	Ethereal Ediacca Lv. 7	320	(No Element)	0	0
+194	Yekla Arc Lv. 1	150	(No Element)	0	0
+195	Yekla Arc Lv. 2	200	(No Element)	0	0
+196	Herald's Battlebow Lv. 3	220	(No Element)	0	0
+197	Herald's Battlebow Lv. 4	250	(No Element)	0	0
+198	Herald's Battlebow Lv. 5	320	(No Element)	0	0
+199	Harbinger's Battlebow Lv. 6	350	(No Element)	0	0
+200	Crow Bow Lv. 1	150	(No Element)	0	10
+201	Crow Bow Lv. 2	180	(No Element)	0	15
+202	Wolf Bow Lv. 3	200	(No Element)	0	20
+203	Wolf Bow Lv. 4	290	(No Element)	0	20
+204	Jinx Bow Lv. 5	320	(No Element)	0	20
+205	Brazencord Lv. 1	140	Fire	5	0
+206	Brazencord Lv. 2	150	Fire	7	0
+207	Brazencord Lv. 3	180	Fire	9	0
+208	Gigacles Lv. 4	190	Fire	11	0
+209	Gigacles Lv. 5	270	Fire	13	0
+210	Gigacles Lv. 6	290	Fire	14	0
+211	Gigantomachy Lv. 7	310	Fire	15	0
+212	Prominence Bow Lv. 1	130	Fire	10	0
+213	Prominence Bow Lv. 2	150	Fire	12	0
+214	Prominence Bow Lv. 3	200	Fire	14	0
+215	Dark Filament Lv. 4	210	Fire	16	0
+216	Dark Filament Lv. 5	260	Fire	18	0
+217	Dark Filament Lv. 6	280	Fire	20	0
+218	Rubescent Saule Lv. 7	300	Fire	22	0
+219	Voltsender Lv. 1	130	Thunder	7	0
+220	Voltsender Lv. 2	160	Thunder	9	0
+221	Voltsender Lv. 3	190	Thunder	11	0
+222	High Voltsender Lv. 4	200	Thunder	12	0
+223	High Voltsender Lv. 5	260	Thunder	12	0
+224	High Voltsender Lv. 6	270	Thunder	13	0
+225	Max Voltsender Lv. 7	290	Thunder	14	0
+226	Usurper's Rumble Lv. 1	130	Thunder	14	0
+227	Usurper's Rumble Lv. 2	150	Thunder	16	0
+228	Usurper's Rumble Lv. 3	180	Thunder	18	0
+229	Despot's Earlybolt Lv. 4	200	Thunder	20	0
+230	Despot's Earlybolt Lv. 5	260	Thunder	22	0
+231	Despot's Earlybolt Lv. 6	280	Thunder	23	0
+232	Oppressor's Answer Lv. 7	300	Thunder	24	0
+233	Blessed Rain Lv. 1	130	Water	10	0
+234	Blessed Rain Lv. 2	140	Water	15	0
+235	Blessed Rain Lv. 3	160	Water	25	0
+236	Heaven's Manna Lv. 4	180	Water	30	0
+237	Heaven's Manna Lv. 5	220	Water	30	0
+238	Heaven's Manna Lv. 6	240	Water	31	0
+239	Elysian Manna Lv. 7	260	Water	32	0
+240	Lightning Bow Lv. 1	140	Thunder	10	0
+241	Lightning Bow Lv. 2	160	Thunder	15	0
+242	Lightning Bow Lv. 3	180	Thunder	20	0
+243	Dark Lightning Lv. 4	190	Thunder	25	0
+244	Dark Lightning Lv. 5	240	Thunder	26	0
+245	Dark Lightning Lv. 6	260	Thunder	27	0
+246	Perkunas Lv. 7	280	Thunder	28	0
+247	Giant's Bow Lv. 1	140	Ice	10	0
+248	Giant's Bow Lv. 2	170	Ice	15	0
+249	Giant's Bow Lv. 3	200	Ice	20	0
+250	Colossus's Bow Lv. 4	210	Ice	25	0
+251	Colossus's Bow Lv. 5	240	Ice	26	0
+252	Colossus's Bow Lv. 6	260	Ice	27	0
+253	Behemoth's Bow Lv. 7	280	Ice	28	0
+254	Ashen Wrath Lv. 1	150	Fire	10	0
+255	Ashen Wrath Lv. 2	170	Fire	15	0
+256	Ashen Wrath Lv. 3	200	Fire	20	0
+257	Ashen Pride Lv. 4	220	Fire	25	0
+258	Ashen Pride Lv. 5	270	Fire	26	0
+259	Ashen Pride Lv. 6	280	Fire	26	0
+260	Ashen Vainglory Lv. 7	300	Fire	26	0
+261	Entbehrung Lv. 1	140	Dragon	12	10
+262	Entbehrung Lv. 2	190	Dragon	14	15
+263	Entbehrung Lv. 3	200	Dragon	16	20
+264	Verzweiflung Lv. 4	210	Dragon	18	25
+265	Verzweiflung Lv. 5	250	Dragon	20	25
+266	Untergang Lv. 6	260	Dragon	22	25
+267	Shalya Bow Lv. 1	150	(No Element)	0	15
+268	Shalya Bow Lv. 2	160	(No Element)	0	15
+269	Shalya Bow Lv. 3	190	(No Element)	0	15
+270	Insurgent Bow Lv. 4	200	(No Element)	0	15
+271	Insurgent Bow Lv. 5	290	(No Element)	0	15
+272	Renegade Bow Lv. 6	320	(No Element)	0	15
+273	Tigrex Archer Lv. 1	160	(No Element)	0	-25
+274	Tigrex Archer Lv. 2	200	(No Element)	0	-25
+275	Tigrex Whisker Lv. 3	220	(No Element)	0	-25
+276	Tigrex Whisker Lv. 4	330	(No Element)	0	-25
+277	Tigrex Whisker Lv. 5	340	(No Element)	0	-25
+278	Tigrex Vibrissa Lv. 6	360	(No Element)	0	-25
+279	Dios Flier Lv. 1	140	Blast	10	0
+280	Dios Flier Lv. 2	180	Blast	12	0
+281	Tsali Flier Lv. 3	200	Blast	14	0
+282	Tsali Flier Lv. 4	280	Blast	15	0
+283	Tsali Arisen Lv. 5	300	Blast	16	0
+284	Bow of Hope & Valor Lv. 1	140	Blast	21	0
+285	Bow of Hope & Valor Lv. 2	190	Blast	23	0
+286	Bow of Hope & Valor Lv. 3	220	Blast	25	0
+287	Bow of Light & Courage Lv. 4	230	Blast	30	0
+288	Bow of Light & Courage Lv. 5	260	Blast	30	0
+289	Bow of Want & Blood Lv. 6	280	Blast	30	0
+290	Skeletal Bow Lv. 1	160	Dragon	10	-25
+291	Skeletal Bow Lv. 2	200	Dragon	12	-25
+292	Skeletal Bow Lv. 3	210	Dragon	14	-25
+293	Infernal Bow Lv. 4	250	Dragon	16	-25
+294	Infernal Bow Lv. 5	340	Dragon	28	-25
+295	Hamal Bow Lv. 6	360	Dragon	30	-25
+296	Yukumo Purebow Lv. 1	150	(No Element)	0	-20
+297	Yukumo Purebow Lv. 2	170	(No Element)	0	-20
+298	Yukumo Purebow Lv. 3	180	(No Element)	0	-20
+299	Yukumo Spiritbow Lv. 4	190	(No Element)	0	-20
+300	Yukumo Spiritbow Lv. 5	270	(No Element)	0	-20
+301	Yukumo Aurabow Lv. 6	330	(No Element)	0	-20
+302	Onyx Bow Lv. 1	140	Dragon	12	0
+303	Onyx Bow Lv. 2	150	Dragon	14	0
+304	Onyx Bow Lv. 3	190	Dragon	16	0
+305	Benighted Bow Lv. 4	200	Dragon	18	0
+306	Benighted Bow Lv. 5	290	Dragon	20	0
+307	Fatalis Bow Lv. 6	310	Dragon	20	0
+308	Kelbi Stingshot Lv. 1	150	(No Element)	0	0
+309	Kelbi Stingshot Lv. 2	180	(No Element)	0	0
+310	Kelbi Strongshot Lv. 3	190	(No Element)	0	0
+311	Kelbi Strongshot Lv. 4	220	(No Element)	0	0
+312	Kelbi Strongshot Lv. 5	250	(No Element)	0	0
+313	Great Kelbi Deershot Lv. 6	310	(No Element)	0	0
+314	Heat Haze Lv. 1	170	(No Element)	0	-15
+315	Heat Haze Lv. 2	210	(No Element)	0	-15
+316	Hulking Haze Lv. 3	220	(No Element)	0	-15
+317	Hulking Haze Lv. 4	250	(No Element)	0	-15
+318	Caraphaze Lv. 5	340	(No Element)	0	-15
+319	Demon Helm Bow Lv. 1	160	(No Element)	0	0
+320	Demon Helm Bow Lv. 2	200	(No Element)	0	0
+321	Archfiend's Roar Lv. 3	210	(No Element)	0	0
+322	Archfiend's Roar Lv. 4	240	(No Element)	0	0
+323	Archfiend's Roar Lv. 5	270	(No Element)	0	0
+324	Gehenna's Roar Lv. 6	330	(No Element)	0	0
+325	Blue Alighter Lv. 1	180	Ice	10	0
+326	Blue Alighter Lv. 2	190	Ice	12	0
+327	Cobalt Fire Lv. 3	200	Ice	14	0
+328	Cobalt Fire Lv. 4	240	Ice	23	0
+329	Cobalt Wildfire Lv. 5	300	Ice	25	0
+330	Bear Blade Bow Lv. 1	160	(No Element)	0	0
+331	Bear Blade Bow Lv. 2	170	(No Element)	0	0
+332	Bear Blade Bow Lv. 3	180	(No Element)	0	0
+333	Showroom Model Lv. 4	190	(No Element)	0	0
+334	Showroom Model Lv. 5	270	(No Element)	0	0
+335	Ursa Major Lv. 6	340	(No Element)	0	0
+336	Arca Raptora Lv. 1	150	(No Element)	0	10
+337	Arca Raptora Lv. 2	170	(No Element)	0	15
+338	Arca Raptora Lv. 3	180	(No Element)	0	15
+339	Amnis Lv. 4	190	(No Element)	0	20
+340	Amnis Lv. 5	250	(No Element)	0	25
+341	Amnis Lv. 6	280	(No Element)	0	25
+342	Fluctus Lv. 7	310	(No Element)	0	25
+343	Worn Bow Lv. 1	110	(No Element)	0	-70
+344	Worn Bow Lv. 2	110	(No Element)	0	-70
+345	Worn Bow Lv. 3	110	(No Element)	0	-70
+346	Worn Bow Lv. 4	110	(No Element)	0	-70
+347	Weathered Bow Lv. 5	300	(No Element)	0	-70
+348	Weathered Bow Lv. 6	320	(No Element)	0	-70
+349	Weathered Bow Lv. 7	360	(No Element)	0	-70
+350	Aged Bow Lv. 8	380	(No Element)	0	-70
+351	Wild Bow Lv. 1	150	(No Element)	0	0
+352	Wild Bow Lv. 2	170	(No Element)	0	0
+353	Wildwood Falde Lv. 3	210	(No Element)	0	0
+354	Wildwood Falde Lv. 4	240	(No Element)	0	0
+355	Wildwood Falderol Lv. 5	330	(No Element)	0	0
+356	Scylla Fist Lv. 1	180	(No Element)	0	20
+357	Scylla Fist Lv. 2	190	(No Element)	0	20
+358	Nershock Lv. 3	200	(No Element)	0	30
+359	Nershock Lv. 4	260	(No Element)	0	40
+360	Nershock Lv. 5	290	(No Element)	0	40
+361	Shadow Nerscope Lv. 6	310	(No Element)	0	40
+362	Ice Cold Alighter Lv. 1	200	Ice	8	0
+363	Ice Cold Alighter Lv. 2	210	Ice	9	0
+364	Freezing Alighter Lv. 3	220	Ice	10	0
+365	Freezing Alighter Lv. 4	270	Ice	16	0
+366	Hailstorm Lv. 5	310	Ice	18	0
+367	Abominable Bow Lv. 1	180	Ice	8	0
+368	Abominable Bow Lv. 2	190	Ice	9	0
+369	Abominable Bow Lv. 3	210	Ice	10	0
+370	Yeti Strongbow Lv. 4	220	Ice	11	0
+371	Yeti Strongbow Lv. 5	260	Ice	12	0
+372	Yeti Strongbow Lv. 6	310	Ice	12	0
+373	Snowdrift Lv. 7	330	Ice	12	0
+374	Feminine Haze Lv. 1	190	Water	10	0
+375	Feminine Haze Lv. 2	200	Water	12	0
+376	Feminine Haze Lv. 3	210	Water	14	0
+377	Formidable Haze Lv. 4	220	Water	16	0
+378	Formidable Haze Lv. 5	280	Water	17	0
+379	Formidable Haze Lv. 6	310	Water	18	0
+380	Absolute Deviance Lv. 7	330	Water	18	0
+381	Seahorse Harp Lv. 1	70	Water	40	5
+382	Seahorse Harp Lv. 2	70	Water	45	5
+383	Reignhorse Harp Lv. 3	70	Water	50	5
+384	Reignhorse Harp Lv. 4	70	Water	55	5
+385	Aquasteed Harp Lv. 5	70	Water	60	5
+386	Savage Wildbow Lv. 1	170	(No Element)	0	0
+387	Savage Wildbow Lv. 2	200	(No Element)	0	0
+388	Wildwood Kalifa Lv. 3	230	(No Element)	0	0
+389	Wildwood Kalifa Lv. 4	260	(No Element)	0	0
+390	Wildwood Kalifa Lv. 5	320	(No Element)	0	0
+391	Wildwood Kalifabra Lv. 6	350	(No Element)	0	0
+392	Ice Crest Lv. 1	170	Ice	12	20
+393	Edelweiss Lv. 2	190	Ice	14	20
+394	Edelweiss Lv. 3	240	Ice	16	30
+395	Edelweiss Lv. 4	260	Ice	18	30
+396	Amber Arc Valanga Lv. 5	270	Ice	20	30
+397	Vile Bow Lv. 1	180	(No Element)	0	20
+398	Vile Bow Lv. 2	190	(No Element)	0	25
+399	Garuga Greatbow Lv. 3	200	(No Element)	0	30
+400	Garuga Greatbow Lv. 4	290	(No Element)	0	30
+401	Garuga Ghoulbow Lv. 5	310	(No Element)	0	30
+402	Seditious Arrow Lv. 1	210	(No Element)	0	15
+403	Seditious Arrow Lv. 2	220	(No Element)	0	15
+404	Kama Sedition Lv. 3	220	(No Element)	0	20
+405	Kama Sedition Lv. 4	280	(No Element)	0	20
+406	Kama Sedition Lv. 5	310	(No Element)	0	20
+407	Sedition Piercer Lv. 6	330	(No Element)	0	20
+408	Demolition Bow Lv. 1	210	Blast	13	0
+409	Demolition Bow Lv. 2	220	Blast	15	0
+410	Warflare Demolisher Lv. 3	220	Blast	17	0
+411	Warflare Demolisher Lv. 4	270	Blast	18	0
+412	Warflare Demolisher Lv. 5	280	Blast	19	0
+413	Warflare Annihilator Lv. 6	290	Blast	20	0
+414	Le Ravisseur Lv. 1	210	Dragon	8	25
+415	Le Ravisseur Lv. 2	220	Dragon	10	25
+416	Le Desir Lv. 3	230	Dragon	12	25
+417	Le Desir Lv. 4	260	Dragon	13	25
+418	Le Desir Lv. 5	270	Dragon	14	25
+419	L'Innocence Lv. 6	280	Dragon	15	25
+420	Beast Thunderbow Lv. 1	200	Thunder	17	0
+421	Beast Thunderbow Lv. 2	210	Thunder	19	0
+422	Beastking Thunderbow Lv. 3	220	Thunder	21	0
+423	Beastking Thunderbow Lv. 4	280	Thunder	22	0
+424	Beastczar Thunderbow Lv. 5	300	Thunder	22	0
+425	Angelbein Lv. 1	200	Dragon	12	0
+426	Angelbein Lv. 2	210	Dragon	14	0
+427	Angelbreath Lv. 3	220	Dragon	16	0
+428	Angelbreath Lv. 4	250	Dragon	16	0
+429	Angelforce Lv. 5	290	Dragon	16	0
+430	Diablos Coilbender Lv. 1	250	(No Element)	0	-20
+431	Tyrant Bow Lv. 2	270	(No Element)	0	-20
+432	Tyrant Bow Lv. 3	330	(No Element)	0	-20
+433	Tyrant Bow Lv. 4	360	(No Element)	0	-20
+434	The Terrible Lv. 5	390	(No Element)	0	-20
+435	Research Bow Lv. 1	180	(No Element)	0	30
+436	Discovery Bow Lv. 2	200	(No Element)	0	30
+437	Discovery Bow Lv. 3	230	(No Element)	0	30
+438	Discovery Bow Lv. 4	290	(No Element)	0	30
+439	Authority Anemoi Lv. 5	310	(No Element)	0	30
+440	Hero's Bow Lv. 1	190	(No Element)	0	0
+441	Hero's Bow Lv. 2	200	(No Element)	0	0
+442	Sacred Bow Lv. 3	210	(No Element)	0	0
+443	Sacred Bow Lv. 4	310	(No Element)	0	0
+444	Sacred Bow G Lv. 5	330	(No Element)	0	0
+445	Pirate Bow J Lv. 1	170	(No Element)	0	15
+446	Buccaneer Bow J Lv. 2	200	(No Element)	0	20
+447	Buccaneer Bow J Lv. 3	280	(No Element)	0	25
+448	Pirate King Bow J Lv. 4	300	(No Element)	0	30
+449	Ancient Bow Lv. 1	170	(No Element)	0	0
+450	Ancient Bow X Lv. 2	210	(No Element)	0	0
+451	Ancient Bow X Lv. 3	310	(No Element)	0	0
+452	Ancient Bow XX Lv. 4	330	(No Element)	0	0
+453	Icesteel Bow Lv. 1	190	Ice	15	10
+454	Icesteel Bow Lv. 2	200	Ice	17	15
+455	Daora's Sagittarii Lv. 3	210	Ice	19	20
+456	Daora's Sagittarii Lv. 4	260	Ice	23	20
+457	Daora's Toxotes Lv. 5	270	Ice	25	20
+458	Genie's Grimoire Lv. 1	220	(No Element)	0	0
+459	Genie's Grimoire Lv. 2	230	(No Element)	0	0
+460	Demon's Guidance Lv. 3	240	(No Element)	0	0
+461	Demon's Guidance Lv. 4	310	(No Element)	0	0
+462	Devil's Counsel Lv. 5	330	(No Element)	0	0
+463	Hyperion Lv. 1	200	Fire	10	0
+464	Hyperion Lv. 2	210	Fire	12	0
+465	Uranus Herald Lv. 3	230	Fire	14	0
+466	Uranus Herald Lv. 4	310	Fire	16	0
+467	Clearsky Eos Lv. 5	330	Fire	18	0
+468	Selene Moonbroken Lv. 1	190	Fire	16	0
+469	Selene Moonbroken Lv. 2	200	Fire	20	0
+470	Artemis Moonmaker Lv. 3	220	Fire	24	0
+471	Artemis Moonmaker Lv. 4	240	Fire	30	0
+472	Hecate Moonsculptor Lv. 5	260	Fire	32	0
+473	Archbeast Thunderbow Lv. 1	210	Thunder	5	0
+474	Archbeast Thunderbow Lv. 2	220	Thunder	7	0
+475	Archbeast Paragon Lv. 3	230	Thunder	9	0
+476	Archbeast Paragon Lv. 4	310	Thunder	18	0
+477	Archbeast Avatar Lv. 5	330	Thunder	20	0
+478	Akantor Bow Lv. 1	210	Dragon	12	20
+479	Akantor Bow Lv. 2	220	Dragon	14	20
+480	Akantor Chaos Bow Lv. 3	230	Dragon	16	25
+481	Akantor Chaos Bow Lv. 4	270	Dragon	22	25
+482	Akantor Mutilator Lv. 5	290	Dragon	24	25
+483	Ukanlos Bow Lv. 1	240	Ice	9	-30
+484	Ukanlos Bow Lv. 2	250	Ice	10	-30
+485	Ukanlos Skyflier Lv. 3	260	Ice	11	-30
+486	Ukanlos Skyflier Lv. 4	320	Ice	12	-30
+487	Ukanlos Worldreaver Lv. 5	340	Ice	13	-30
+488	Tempest Nightbow Lv. 1	230	Water	11	-10
+489	Tempest Nightbow Lv. 2	240	Water	12	-10
+490	Heavenly Storm Lv. 3	250	Water	13	-10
+491	Heavenly Storm Lv. 4	320	Water	14	-10
+492	Unlimited Daybreak Lv. 5	340	Water	14	-10
+493	Polar Avian Bow Lv. 1	170	Dragon	14	0
+494	Polar Avian Bow Lv. 2	180	Dragon	16	0
+495	Avian Star Bow Lv. 3	190	Dragon	18	0
+496	Avian Star Bow Lv. 4	300	Dragon	18	0
+497	Polestar Tangaroa Lv. 5	320	Dragon	18	0
+498	Alatreon Bow Lv. 1	200	Dragon	20	0
+499	Alatreon Bow Lv. 2	210	Dragon	22	0
+500	Alatreon Commandment Lv. 3	230	Dragon	24	0
+501	Alatreon Commandment Lv. 4	260	Dragon	25	0
+502	Altheos Incanonis Lv. 5	280	Dragon	26	0
+503	Silverwing Greatbow Lv. 1	210	Dragon	14	0
+504	Dragonstar Hubar Lv. 2	220	Dragon	15	0
+505	Dragonstar Hubar Lv. 3	240	Dragon	15	0
+506	Dragonstar Hubar Lv. 4	270	Dragon	16	0
+507	Dragonstar Hubar Lv. 5	300	Dragon	17	0
+508	Magnastar Wil Lv. 6	320	Dragon	18	0
+509	Elder Bow Lv. 1	250	(No Element)	0	0
+510	Sage Bow Lv. 2	270	(No Element)	0	0
+511	Philosopher Bow Lv. 3	320	(No Element)	0	0
+512	Scylla Weave Lv. 1	300	(No Element)	0	30
+513	Scylla Shredder Lv. 2	310	(No Element)	0	30
+514	Scylla Webdart Lv. 3	320	(No Element)	0	30
+515	Despot's Shock Lv. 1	300	Thunder	19	0
+516	Oppressor's Providence Lv. 2	310	Thunder	20	0
+517	Orcus Sagittus Lv. 3	320	Thunder	21	0
+518	Kayamcha Slinger Lv. 1	280	(No Element)	0	0
+519	Kayachacha Slinger Lv. 2	290	(No Element)	0	0
+520	Maskbow Kayachacham Lv. 3	310	(No Element)	0	0
+521	Ala Victoria Lv. 1	220	Water	26	0
+522	Prayerful Victoria Lv. 2	230	Water	28	0
+523	Heedful Elizabeth Lv. 3	250	Water	30	0
+524	Gewinn/Perte Lv. 1	250	Dragon	18	-25/15
+525	Verzweiflung/Desir Lv. 2	260	Dragon	20	-25/15
+526	Auftauchen/Disparition Lv. 3	280	Dragon	22	-25/15
+527	Lightbreak Bow Lv. 1	220	Blast	22	0
+528	Lightbreak Burstshot Lv. 2	250	Blast	23	0
+529	Lightbreak Scatterburst Lv. 3	270	Blast	24	0
+530	Kingdomfall Lv. 1	220	Dragon	24	0
+531	Mountainfall Lv. 2	230	Dragon	25	0
+532	Heavensfall Lv. 3	250	Dragon	26	0
+533	Goldbow Lv. 1	330	(No Element)	0	0
+534	Inscribed Neith Lv. 2	340	(No Element)	0	0
+535	Wepwawet Lv. 3	360	(No Element)	0	0
+536	Bow of Toil & Turmoil Lv. 1	280	Dragon	19	20
+537	Bow of Rack & Ruin Lv. 2	290	Dragon	22	20
+538	Bow of Vice & Violence Lv. 3	300	Dragon	25	20
+539	Bow of Ire & Anguish Lv. 1	270	Blast	18	30
+540	Bow of Jinx & Jeopardy Lv. 2	280	Blast	20	30
+541	Bow of Fury & Perfidy Lv. 3	300	Blast	21	30
+542	Glory and Grandeur Lv. 1	270	Dragon	31	0
+543	Might and Marvel Lv. 2	280	Dragon	33	0
+544	Triumph and Testament Lv. 3	300	Dragon	35	0
+545	Crimson Bow Lv. 1	90	(No Element)	0	0
+546	Crimson Bow Lv. 2	100	(No Element)	0	0
+547	Crimson Bow Lv. 3	110	(No Element)	0	0
+548	Crimson Bow Lv. 4	140	(No Element)	0	0
+549	Crimson Bow Lv. 5	150	(No Element)	0	0
+550	Crimson Bow Lv. 6	170	(No Element)	0	0
+551	Crimson Bow Lv. 7	180	(No Element)	0	0
+552	Crimson Bow Lv. 8	190	(No Element)	0	0
+553	Crimson Bow Lv. 9	200	(No Element)	0	0
+554	Crimson Greatbow Lv. 10	210	(No Element)	0	0
+555	Crimson Greatbow Lv. 11	240	(No Element)	0	0
+556	Crimson Greatbow Lv. 12	250	(No Element)	0	0
+557	Crimson Greatbow Lv. 13	300	(No Element)	0	0
+558	Crimson Greatbow Lv. 14	310	(No Element)	0	0
+559	Crimson Nirvana Lv. 15	330	(No Element)	0	0
+560	Stonefist Bow Lv. 1	90	Water	8	0
+561	Stonefist Bow Lv. 2	100	Water	9	0
+562	Stonefist Bow Lv. 3	110	Water	10	0
+563	Stonefist Bow Lv. 4	140	Water	11	0
+564	Stonefist Bow Lv. 5	150	Water	12	0
+565	Stonefist Bow Lv. 6	170	Water	13	0
+566	Stonefist Bow Lv. 7	180	Water	14	0
+567	Stonefist Bow Lv. 8	190	Water	15	0
+568	Stonefist Bow Lv. 9	200	Water	16	0
+569	Stonefist Greatbow Lv. 10	210	Water	17	0
+570	Stonefist Greatbow Lv. 11	240	Water	17	0
+571	Stonefist Greatbow Lv. 12	250	Water	17	0
+572	Stonefist Greatbow Lv. 13	260	Water	17	0
+573	Stonefist Greatbow Lv. 14	280	Water	17	0
+574	Stonefist Gigantbow Lv. 15	300	Water	17	0
+575	Royal Blaster Lv. 1	90	Fire	6	0
+576	Royal Blaster Lv. 2	100	Fire	7	0
+577	Royal Blaster Lv. 3	110	Fire	8	0
+578	Royal Blaster Lv. 4	170	Fire	9	0
+579	Royal Blaster Lv. 5	180	Fire	10	0
+580	Royal Blaster Lv. 6	190	Fire	11	0
+581	Royal Blaster Lv. 7	200	Fire	12	0
+582	Royal Blaster Lv. 8	210	Fire	13	0
+583	Royal Blaster Lv. 9	220	Fire	14	0
+584	Royal Melody Lv. 10	220	Fire	15	0
+585	Royal Melody Lv. 11	250	Fire	16	0
+586	Royal Melody Lv. 12	260	Fire	16	0
+587	Royal Melody Lv. 13	270	Fire	17	0
+588	Royal Melody Lv. 14	280	Fire	17	0
+589	Royal Concerto Lv. 15	300	Fire	17	0
+590	Demonic Bow Lv. 1	120	(No Element)	0	0
+591	Demonic Bow Lv. 2	130	(No Element)	0	0
+592	Demonic Bow Lv. 3	140	(No Element)	0	0
+593	Demonic Bow Lv. 4	150	(No Element)	0	0
+594	Demonic Bow Lv. 5	180	(No Element)	0	0
+595	Demonic Bow Lv. 6	190	(No Element)	0	0
+596	Demonic Bow Lv. 7	200	(No Element)	0	0
+597	Demonic Bow Lv. 8	200	(No Element)	0	0
+598	Demonic Bow Lv. 9	210	(No Element)	0	0
+599	Chthonic Greatbow Lv. 10	220	(No Element)	0	0
+600	Chthonic Greatbow Lv. 11	250	(No Element)	0	0
+601	Chthonic Greatbow Lv. 12	260	(No Element)	0	0
+602	Chthonic Greatbow Lv. 13	310	(No Element)	0	0
+603	Chthonic Greatbow Lv. 14	320	(No Element)	0	0
+604	Chthonic Maelstrom Lv. 15	340	(No Element)	0	0
+605	Silverwind Bow Lv. 1	150	(No Element)	0	20
+606	Silverwind Bow Lv. 2	150	(No Element)	0	35
+607	Silverwind Bow Lv. 3	160	(No Element)	0	20
+608	Silverwind Bow Lv. 4	160	(No Element)	0	35
+609	Silverwind Bow Lv. 5	180	(No Element)	0	20
+610	Silverwind Bow Lv. 6	180	(No Element)	0	35
+611	Silverwind Bow Lv. 7	190	(No Element)	0	20
+612	Silverwind Bow Lv. 8	190	(No Element)	0	35
+613	Silverwind Bow Lv. 9	210	(No Element)	0	20
+614	Moonless Dawn Lv. 10	210	(No Element)	0	35
+615	Moonless Dawn Lv. 11	240	(No Element)	0	35
+616	Moonless Dawn Lv. 12	260	(No Element)	0	35
+617	Moonless Dawn Lv. 13	290	(No Element)	0	35
+618	Moonless Dawn Lv. 14	300	(No Element)	0	35
+619	Sunlight Gale Lv. 15	320	(No Element)	0	35
+620	Grobo Arc Lv. 1	150	Fire	5	0
+621	Grobo Arc Lv. 2	160	Fire	6	0
+622	Grobo Arc Lv. 3	170	Fire	7	0
+623	Grobo Arc Lv. 4	180	Fire	8	0
+624	Grobo Arc Lv. 5	190	Fire	10	0
+625	Grobo Arc Lv. 6	190	Fire	12	0
+626	Grobo Arc Lv. 7	200	Fire	13	0
+627	Grobo Arc Lv. 8	200	Fire	15	0
+628	Grobo Arc Lv. 9	210	Fire	15	0
+629	Gilded Grobo Arc Lv. 10	220	Fire	18	0
+630	Gilded Grobo Arc Lv. 11	280	Fire	18	0
+631	Gilded Grobo Arc Lv. 12	290	Fire	18	0
+632	Gilded Grobo Arc Lv. 13	300	Fire	18	0
+633	Gilded Grobo Arc Lv. 14	310	Fire	18	0
+634	Diamante Arc Lv. 15	330	Fire	18	0
+635	Wicked Bow Lv. 1	150	(No Element)	0	10
+636	Wicked Bow Lv. 2	160	(No Element)	0	10
+637	Wicked Bow Lv. 3	170	(No Element)	0	10
+638	Wicked Bow Lv. 4	180	(No Element)	0	10
+639	Wicked Bow Lv. 5	190	(No Element)	0	10
+640	Wicked Bow Lv. 6	190	(No Element)	0	15
+641	Wicked Bow Lv. 7	200	(No Element)	0	10
+642	Wicked Bow Lv. 8	200	(No Element)	0	15
+643	Wicked Bow Lv. 9	210	(No Element)	0	10
+644	Deadeye Greatbow Lv. 10	210	(No Element)	0	15
+645	Deadeye Greatbow Lv. 11	240	(No Element)	0	15
+646	Deadeye Greatbow Lv. 12	270	(No Element)	0	15
+647	Deadeye Greatbow Lv. 13	300	(No Element)	0	15
+648	Deadeye Greatbow Lv. 14	310	(No Element)	0	15
+649	Deadeye Tragedy Lv. 15	330	(No Element)	0	15
+650	Dread Bow Lv. 1	160	Fire	7	0
+651	Dread Bow Lv. 2	170	Fire	8	0
+652	Dread Bow Lv. 3	180	Fire	9	0
+653	Dread Bow Lv. 4	190	Fire	10	0
+654	Dread Bow Lv. 5	200	Fire	11	0
+655	Dread Bow Lv. 6	200	Fire	14	0
+656	Dread Bow Lv. 7	210	Fire	15	0
+657	Dread Bow Lv. 8	210	Fire	18	0
+658	Dread Bow Lv. 9	220	Fire	19	0
+659	Nera's Flight Lv. 10	220	Fire	20	0
+660	Nera's Flight Lv. 11	230	Fire	22	0
+661	Nera's Flight Lv. 12	240	Fire	24	0
+662	Nera's Flight Lv. 13	250	Fire	26	0
+663	Nera's Flight Lv. 14	260	Fire	28	0
+664	Firewaltz Bow Lv. 15	270	Fire	31	0
+665	Rumble Bow Lv. 1	150	Thunder	7	0
+666	Rumble Bow Lv. 2	160	Thunder	8	0
+667	Rumble Bow Lv. 3	170	Thunder	9	0
+668	Rumble Bow Lv. 4	180	Thunder	10	0
+669	Rumble Bow Lv. 5	190	Thunder	11	0
+670	Rumble Bow Lv. 6	190	Thunder	12	0
+671	Rumble Bow Lv. 7	200	Thunder	13	0
+672	Rumble Bow Lv. 8	200	Thunder	14	0
+673	Rumble Bow Lv. 9	210	Thunder	15	0
+674	Rolling Thunder Lv. 10	220	Thunder	16	0
+675	Rolling Thunder Lv. 11	250	Thunder	17	0
+676	Rolling Thunder Lv. 12	260	Thunder	17	0
+677	Rolling Thunder Lv. 13	270	Thunder	17	0
+678	Rolling Thunder Lv. 14	300	Thunder	18	0
+679	Thundercrash Lv. 15	330	Thunder	19	0
+680	Rudra Bow Lv. 1	190	(No Element)	0	-30
+681	Rudra Bow Lv. 2	190	(No Element)	0	-20
+682	Rudra Bow Lv. 3	200	(No Element)	0	-30
+683	Rudra Bow Lv. 4	200	(No Element)	0	-20
+684	Rudra Bow Lv. 5	210	(No Element)	0	-30
+685	Rudra Bow Lv. 6	210	(No Element)	0	-20
+686	Rudra Bow Lv. 7	220	(No Element)	0	-30
+687	Rudra Bow Lv. 8	220	(No Element)	0	-20
+688	Rudra Bow Lv. 9	230	(No Element)	0	-30
+689	Grimclaw Bow Lv. 10	230	(No Element)	0	-20
+690	Grimclaw Bow Lv. 11	280	(No Element)	0	-20
+691	Grimclaw Bow Lv. 12	310	(No Element)	0	-20
+692	Grimclaw Bow Lv. 13	330	(No Element)	0	-20
+693	Grimclaw Bow Lv. 14	340	(No Element)	0	-20
+694	Grimclaw Roar Lv. 15	360	(No Element)	0	-20
+695	Hellish Wrath Lv. 1	170	Blast	7	5
+696	Hellish Wrath Lv. 2	170	Blast	8	10
+697	Hellish Wrath Lv. 3	180	Blast	9	5
+698	Hellish Wrath Lv. 4	180	Blast	10	10
+699	Hellish Wrath Lv. 5	190	Blast	11	5
+700	Hellish Wrath Lv. 6	190	Blast	12	10
+701	Hellish Wrath Lv. 7	200	Blast	13	5
+702	Hellish Wrath Lv. 8	200	Blast	14	10
+703	Hellish Wrath Lv. 9	220	Blast	15	5
+704	Hellish Pride Lv. 10	220	Blast	16	10
+705	Hellish Pride Lv. 11	270	Blast	17	10
+706	Hellish Pride Lv. 12	280	Blast	17	10
+707	Hellish Pride Lv. 13	290	Blast	17	10
+708	Hellish Pride Lv. 14	300	Blast	18	10
+709	Hellish Virtue Lv. 15	310	Blast	18	10
+710	Razor Striker Lv. 1	260	(No Element)	0	0
+711	Razor Striker Lv. 2	280	(No Element)	0	0
+712	Madcap Striker Lv. 3	320	(No Element)	0	0
+713	Madcap Striker Lv. 4	330	(No Element)	0	0
+714	Rustrazor Striker Lv. 5	350	(No Element)	0	0
+715	Perennial Winter Lv. 1	270	Water	32	0
+716	Perennial Winter Lv. 2	280	Water	34	0
+717	Resplendent Corona Lv. 3	290	Water	36	0
+718	Resplendent Corona Lv. 4	310	Water	38	0
+719	Beyond the Firmaments Lv. 5	330	Water	40	0
+720	Zephra Bow Lv. 1	260	Thunder	21	0
+721	Zephra Bow Lv. 2	270	Thunder	22	0
+722	Zephra Gust Lv. 3	280	Thunder	23	0
+723	Zephra Gust Lv. 4	290	Thunder	24	0
+724	Zilvolt Bow Lv. 5	300	Thunder	25	0
+725	Elderfrost Bow Lv. 1	260	Ice	18	0
+726	Elderfrost Bow Lv. 2	270	Ice	18	0
+727	Elderfrost Kisser Lv. 3	280	Ice	18	0
+728	Elderfrost Kisser Lv. 4	300	Ice	19	0
+729	Elderfrost Marksman Lv. 5	320	Ice	20	0
+730	Massacre Bow Lv. 1	370	(No Element)	0	-25
+731	Massacre Bow Lv. 2	380	(No Element)	0	-25
+732	Massacre Flurry Lv. 3	390	(No Element)	0	-25
+733	Massacre Flurry Lv. 4	400	(No Element)	0	-25
+734	Houyi Lv. 5	410	(No Element)	0	-25

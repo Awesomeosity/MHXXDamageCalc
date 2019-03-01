@@ -1,0 +1,548 @@
+ID	name	raw	element	eleValue	affinity	sharpness	sharpOne	sharpTwo
+0	Petrified Rod Lv. 1	60	(No Element)	0	0	Yellow	Yellow	Yellow
+1	Petrified Rod Lv. 2	80	(No Element)	0	0	Yellow	Yellow	Yellow
+2	Petrified Rod Lv. 3	90	(No Element)	0	0	Yellow	Green	Green
+3	Petrified Rod Lv. 4	100	(No Element)	0	0	Green	Green	Green
+4	Petrified Rod Lv. 5	110	(No Element)	0	0	Green	Green	Green
+5	Petrified Rod Lv. 6	140	(No Element)	0	0	Green	Blue	Blue
+6	Petrified Rod Lv. 7	170	(No Element)	0	0	Blue	Blue	White
+7	Scholarly Rod Lv. 8	210	(No Element)	0	0	Blue	Blue	White
+8	Scholarly Rod Lv. 9	240	(No Element)	0	0	Blue	Blue	White
+9	Scholarly Rod Lv. 10	290	(No Element)	0	0	White	White	White
+10	Sophos Rod Lv. 11	320	(No Element)	0	0	White	White	White
+11	Iron Bayonet Lv. 1	70	(No Element)	0	0	Yellow	Yellow	Green
+12	Iron Bayonet Lv. 2	80	(No Element)	0	0	Green	Green	Green
+13	Iron Bayonet Lv. 3	100	(No Element)	0	0	Green	Green	Green
+14	Iron Bayonet Lv. 4	120	(No Element)	0	0	Green	Green	Blue
+15	Iron Bayonet Lv. 5	140	(No Element)	0	0	Green	Green	Blue
+16	Iron Bayonet Lv. 6	150	(No Element)	0	0	Green	Green	Blue
+17	Iron Bayonet Lv. 7	180	(No Element)	0	0	Green	Blue	Blue
+18	Hiten Blade Lv. 8	230	(No Element)	0	0	Green	Blue	Blue
+19	Hiten Blade Lv. 9	260	(No Element)	0	0	Blue	Blue	White
+20	Hiten Blade Lv. 10	300	(No Element)	0	0	Blue	White	White
+21	Hiten Blade Kai Lv. 11	350	(No Element)	0	0	Blue	White	White
+22	Bone Staff Lv. 1	80	(No Element)	0	0	Yellow	Yellow	Yellow
+23	Bone Staff Lv. 2	100	(No Element)	0	0	Yellow	Yellow	Yellow
+24	Bone Staff Lv. 3	110	(No Element)	0	0	Yellow	Green	Green
+25	Bone Staff Lv. 4	120	(No Element)	0	0	Green	Green	Green
+26	Bone Staff Lv. 5	140	(No Element)	0	0	Green	Green	Blue
+27	Bone Staff Lv. 6	150	(No Element)	0	0	Green	Blue	Blue
+28	Bone Staff Lv. 7	180	(No Element)	0	0	Blue	Blue	White
+29	Aerial Glaive Lv. 8	210	(No Element)	0	0	Blue	Blue	White
+30	Aerial Glaive Lv. 9	240	(No Element)	0	0	Blue	White	White
+31	Aerial Glaive Lv. 10	290	(No Element)	0	0	White	White	White
+32	Volant Lv. 11	330	(No Element)	0	0	White	White	Purple
+33	Hortadent Lv. 1	80	(No Element)	0	0	Green	Green	Green
+34	Hortadent Lv. 2	90	(No Element)	0	0	Green	Blue	Blue
+35	Hortadent Lv. 3	100	(No Element)	0	0	Green	Blue	Blue
+36	Hortadent Lv. 4	140	(No Element)	0	0	Blue	Blue	Blue
+37	Hortadent Lv. 5	170	(No Element)	0	0	Blue	Blue	Blue
+38	Hortadent Brada Lv. 6	200	(No Element)	0	0	Blue	Blue	White
+39	Hortadent Brada Lv. 7	240	(No Element)	0	0	White	White	White
+40	Altaroth Trident Lv. 8	320	(No Element)	0	0	White	White	Purple
+41	Azure Bayonet Lv. 1	80	(No Element)	0	0	Yellow	Yellow	Green
+42	Azure Bayonet Lv. 2	90	(No Element)	0	0	Green	Green	Green
+43	Azure Bayonet Lv. 3	100	(No Element)	0	0	Green	Green	Green
+44	Azure Bayonet Lv. 4	130	(No Element)	0	0	Green	Green	Green
+45	Azure Bayonet Lv. 5	170	(No Element)	0	0	Green	Green	Blue
+46	General's Bayonet Lv. 6	230	(No Element)	0	0	Green	Blue	Blue
+47	General's Bayonet Lv. 7	260	(No Element)	0	0	Blue	Blue	White
+48	Assault Serpent Lv. 8	350	(No Element)	0	0	Blue	Blue	White
+49	Wardance Cudgel Lv. 1	80	Ice	10	0	Yellow	Yellow	Yellow
+50	Wardance Cudgel Lv. 2	100	Ice	12	0	Green	Green	Green
+51	Wardance Cudgel Lv. 3	110	Ice	16	0	Green	Green	Green
+52	Wardance Cudgel Lv. 4	140	Ice	18	0	Green	Green	Green
+53	Wardance Cudgel Lv. 5	190	Ice	20	0	Green	Blue	Blue
+54	Warparty Cudgel Lv. 6	210	Ice	22	0	Green	Blue	Blue
+55	Warparty Cudgel Lv. 7	260	Ice	24	0	Blue	Blue	White
+56	Warfeast Cudgel Lv. 8	320	Ice	27	0	Blue	White	White
+57	Fader Rod Lv. 1	80	(No Element)	0	0	Green	Green	Green
+58	Fader Rod Lv. 2	100	(No Element)	0	0	Green	Green	Green
+59	Fader Rod Lv. 3	130	(No Element)	0	0	Green	Green	Blue
+60	Fader Rod Lv. 4	150	(No Element)	0	0	Green	Blue	Blue
+61	Fader Rod Lv. 5	170	(No Element)	0	0	Green	Blue	Blue
+62	Scale Fader Lv. 6	210	(No Element)	0	0	Blue	Blue	White
+63	Scale Fader Lv. 7	240	(No Element)	0	0	Blue	Blue	White
+64	Scale Fader Lv. 8	280	(No Element)	0	0	White	White	White
+65	Escama Fader Lv. 9	330	(No Element)	0	0	White	White	Purple
+66	Sand Anchor Lv. 1	90	Water	10	0	Green	Green	Green
+67	Sand Anchor Lv. 2	110	Water	14	0	Green	Green	Green
+68	Sand Anchor Lv. 3	150	Water	16	0	Green	Green	Blue
+69	Sand Anchor Lv. 4	170	Water	18	0	Green	Blue	Blue
+70	Dune Anchor Lv. 5	230	Water	20	0	Green	Blue	Blue
+71	Dune Anchor Lv. 6	260	Water	22	0	Green	Blue	Blue
+72	Dune Anchor Lv. 7	290	Water	24	0	Blue	Blue	White
+73	Desert Anchor Lv. 8	350	Water	27	0	Blue	Blue	White
+74	Arcane Strike Lv. 1	70	Thunder	25	0	Green	Green	Green
+75	Arcane Strike Lv. 2	80	Thunder	28	0	Green	Green	Green
+76	Arcane Strike Lv. 3	110	Thunder	30	0	Green	Green	Blue
+77	Arcane Strike Lv. 4	140	Thunder	34	0	Green	Blue	Blue
+78	Arcane Strike Lv. 5	160	Thunder	38	0	Blue	Blue	Blue
+79	Electric Bayonet Lv. 6	180	Thunder	40	0	Blue	Blue	White
+80	Electric Bayonet Lv. 7	210	Thunder	42	0	Blue	Blue	White
+81	Electric Bayonet Lv. 8	250	Thunder	44	0	Blue	White	White
+82	Electric Bayonet Kai Lv. 9	300	Thunder	47	0	Blue	White	White
+83	Kut-Ku Pike Lv. 1	90	Fire	10	0	Yellow	Green	Green
+84	Kut-Ku Pike Lv. 2	100	Fire	12	0	Green	Green	Green
+85	Kut-Ku Pike Lv. 3	120	Fire	14	0	Green	Green	Green
+86	Kut-Ku Pike Lv. 4	140	Fire	15	0	Green	Green	Green
+87	Kut-Ku Pike Lv. 5	170	Fire	16	0	Green	Green	Blue
+88	Toucan Pike Lv. 6	200	Fire	18	0	Blue	Blue	White
+89	Toucan Pike Lv. 7	230	Fire	22	0	Blue	Blue	White
+90	Toucan Pike Lv. 8	260	Fire	24	0	Blue	Blue	White
+91	Flamebeak Pike Lv. 9	310	Fire	27	0	White	White	Purple
+92	Crimson Fury Lv. 1	80	Poison	15	0	Green	Green	Green
+93	Crimson Fury Lv. 2	90	Poison	18	0	Green	Green	Green
+94	Crimson Fury Lv. 3	110	Poison	22	0	Green	Green	Green
+95	Crimson Fury Lv. 4	130	Poison	24	0	Green	Green	Blue
+96	Crimson Fury Lv. 5	150	Poison	26	0	Blue	Blue	Blue
+97	Vermillion Viper Lv. 6	210	Poison	28	0	Blue	White	White
+98	Vermillion Viper Lv. 7	270	Poison	30	0	Blue	White	White
+99	Sanguine Serpent Lv. 8	330	Poison	33	0	White	White	Purple
+100	Shell Intoner Lv. 1	90	(No Element)	0	0	Green	Green	Green
+101	Shell Intoner Lv. 2	110	(No Element)	0	0	Green	Green	Green
+102	Shell Intoner Lv. 3	140	(No Element)	0	0	Green	Green	Blue
+103	Shell Intoner Lv. 4	150	(No Element)	0	0	Blue	Blue	White
+104	Crab Intoner Lv. 5	200	(No Element)	0	0	Blue	Blue	White
+105	Crab Intoner Lv. 6	230	(No Element)	0	0	Blue	White	White
+106	Crab Intoner Lv. 7	270	(No Element)	0	0	White	White	White
+107	King Crab Intoner Lv. 8	320	(No Element)	0	0	White	White	Purple
+108	Royal Bloom Lv. 1	80	Water	20	0	Green	Green	Green
+109	Royal Bloom Lv. 2	110	Water	24	0	Green	Green	Blue
+110	Royal Bloom Lv. 3	140	Water	25	0	Green	Blue	Blue
+111	Royal Bloom Lv. 4	180	Water	27	0	Blue	Blue	White
+112	Bloom Royale Lv. 5	210	Water	28	0	Blue	White	White
+113	Bloom Royale Lv. 6	240	Water	30	0	Blue	White	White
+114	Bloom Royale Lv. 7	270	Water	32	0	White	White	White
+115	Waterspout Bloom Lv. 8	320	Water	35	0	White	Purple	Purple
+116	Bolt Chamber Lv. 1	90	Thunder	20	0	Green	Green	Green
+117	Bolt Chamber Lv. 2	120	Thunder	22	0	Green	Green	Green
+118	Bolt Chamber Lv. 3	130	Thunder	24	0	Green	Green	Green
+119	Bolt Chamber Lv. 4	170	Thunder	26	0	Blue	Blue	Blue
+120	Bolt Chamber Lv. 5	190	Thunder	28	0	Blue	Blue	White
+121	Full Bolt Chamber Lv. 6	220	Thunder	30	0	Blue	Blue	White
+122	Full Bolt Chamber Lv. 7	250	Thunder	32	0	White	White	White
+123	Full Bolt Chamber Lv. 8	280	Thunder	34	0	White	White	White
+124	Surge Chamber Lv. 9	320	Thunder	36	0	White	White	Purple
+125	Rage Cudgel Lv. 1	80	Ice	30	5	Green	Green	Green
+126	Rage Cudgel Lv. 2	100	Ice	34	5	Green	Green	Green
+127	Rage Cudgel Lv. 3	130	Ice	35	5	Green	Green	Blue
+128	Rage Cudgel Lv. 4	160	Ice	36	5	Blue	Blue	Blue
+129	Master's Rage Cudgel Lv. 5	200	Ice	38	5	Blue	White	White
+130	Master's Rage Cudgel Lv. 6	250	Ice	41	5	Blue	White	White
+131	Chieftain's Rage Cudgel Lv. 7	290	Ice	43	5	White	Purple	Purple
+132	Needle Ivy Lv. 1	80	Para	15	0	Green	Green	Green
+133	Needle Ivy Lv. 2	100	Para	17	0	Green	Green	Green
+134	Needle Ivy Lv. 3	120	Para	18	0	Green	Green	Blue
+135	Needle Ivy Lv. 4	140	Para	19	0	Blue	Blue	White
+136	Needle Vine Lv. 5	160	Para	20	0	Blue	Blue	White
+137	Needle Vine Lv. 6	200	Para	22	0	Blue	White	White
+138	Needle Vine Lv. 7	240	Para	24	0	White	White	White
+139	Paralyzing Vine Lv. 8	290	Para	27	0	Purple	Purple	Purple
+140	Hidden Scythe Lv. 1	100	(No Element)	0	40	Green	Blue	Blue
+141	Hidden Scythe Lv. 2	120	(No Element)	0	40	Blue	Blue	White
+142	Hidden Scythe Lv. 3	140	(No Element)	0	40	Blue	Blue	White
+143	Hidden Scythe Lv. 4	160	(No Element)	0	40	White	White	White
+144	Evening Calm Lv. 5	180	(No Element)	0	40	White	White	White
+145	Evening Calm Lv. 6	250	(No Element)	0	40	White	White	White
+146	Evening Calm Lv. 7	270	(No Element)	0	40	Purple	Purple	Purple
+147	Avidya Scythe Lv. 8	290	(No Element)	0	40	Purple	Purple	Purple
+148	Acorn Rod Lv. 1	90	Para	22	0	Green	Green	Green
+149	Acorn Rod Lv. 2	100	Para	24	0	Green	Green	Green
+150	Acorn Rod Lv. 3	120	Para	25	0	Green	Green	Blue
+151	Meownster Club Lv. 4	140	Para	26	0	Green	Blue	Blue
+152	Meownster Club Lv. 5	170	Para	28	0	Blue	Blue	White
+153	Meownster Masher Lv. 6	280	Para	30	0	Blue	White	White
+154	Magia Pitareen Lv. 1	90	Blast	10	0	Green	Green	Green
+155	Magia Pitareen Lv. 2	110	Blast	12	0	Green	Blue	Blue
+156	Magia Pitareen Lv. 3	150	Blast	13	0	Blue	Blue	White
+157	Magia Crescent Lv. 4	170	Blast	15	0	Blue	White	White
+158	Magia Crescent Lv. 5	200	Blast	17	0	Blue	White	White
+159	Magia Crescent Lv. 6	230	Blast	18	0	Blue	Purple	Purple
+160	Magia Finale Lv. 7	290	Blast	20	0	White	Purple	Purple
+161	Obsidian Rod Lv. 1	140	(No Element)	0	0	Green	Blue	Blue
+162	Obsidian Rod Lv. 2	150	(No Element)	0	0	Blue	Blue	White
+163	Obsidian Rod Lv. 3	160	(No Element)	0	0	Blue	Blue	White
+164	Obsidian Rod Lv. 4	180	(No Element)	0	0	Blue	Blue	White
+165	Obsidian Rod Lv. 5	200	(No Element)	0	0	Blue	White	White
+166	Relic Trias Lv. 6	220	(No Element)	0	0	Blue	White	White
+167	Relic Trias Lv. 7	280	(No Element)	0	0	White	White	White
+168	Ethereal Trias Lv. 8	330	(No Element)	0	0	White	Purple	Purple
+169	Sturdy Glaive Lv. 1	120	(No Element)	0	0	Green	Green	Green
+170	Sturdy Glaive Lv. 2	130	(No Element)	0	0	Green	Green	Green
+171	Sturdy Glaive Lv. 3	150	(No Element)	0	0	Green	Green	Blue
+172	Sturdy Glaive Lv. 4	160	(No Element)	0	0	Blue	Blue	White
+173	Sturdy Glaive Redux Lv. 5	200	(No Element)	0	0	Blue	White	White
+174	Sturdy Glaive Redux Lv. 6	230	(No Element)	0	0	White	White	Purple
+175	Stalwart Glaive Lv. 7	320	(No Element)	0	0	White	Purple	Purple
+176	Fox Halberd Lv. 1	130	Water	12	0	Green	Green	Green
+177	Fox Halberd Lv. 2	140	Water	16	0	Green	Green	Green
+178	Fox Halberd Lv. 3	150	Water	20	10	Green	Blue	Blue
+179	Fox Halberd Lv. 4	170	Water	22	10	Blue	White	White
+180	Fox Halberd Lv. 5	190	Water	24	10	Blue	White	White
+181	Curved Naganagi Lv. 6	200	Water	26	10	Blue	White	White
+182	Curved Naganagi Lv. 7	270	Water	28	10	White	White	White
+183	Curved Naganagi Lv. 8	290	Water	30	10	White	White	Purple
+184	Eventide Kazanagi Lv. 9	320	Water	32	10	White	Purple	Purple
+185	Astalos Cudgel Lv. 1	120	Thunder	12	15	Green	Green	Green
+186	Astalos Cudgel Lv. 2	130	Thunder	16	15	Green	Green	Blue
+187	Astalos Cudgel Lv. 3	150	Thunder	20	20	Blue	Blue	White
+188	Astalos Cudgel Lv. 4	160	Thunder	22	20	Blue	White	White
+189	Astalos Cudgel Lv. 5	170	Thunder	24	20	White	White	White
+190	Thunderstorm Cudgel Lv. 6	180	Thunder	26	20	White	White	White
+191	Thunderstorm Cudgel Lv. 7	260	Thunder	28	20	White	White	White
+192	Thunderstorm Cudgel Lv. 8	280	Thunder	30	20	Purple	Purple	Purple
+193	Thunder Dragon Lv. 9	300	Thunder	32	20	Purple	Purple	Purple
+194	Giant's Cudgel Lv. 1	140	Ice	12	-20	Green	Green	Green
+195	Giant's Cudgel Lv. 2	150	Ice	16	-20	Green	Green	Blue
+196	Giant's Cudgel Lv. 3	170	Ice	18	-20	Green	Blue	Blue
+197	Giant's Cudgel Lv. 4	190	Ice	20	-20	Blue	Blue	Blue
+198	Giant's Cudgel Lv. 5	210	Ice	22	-20	Blue	Blue	Blue
+199	Colossus's Cudgel Lv. 6	230	Ice	24	-20	Blue	Blue	White
+200	Colossus's Cudgel Lv. 7	290	Ice	26	-20	White	White	White
+201	Colossus's Cudgel Lv. 8	310	Ice	28	-20	White	White	Purple
+202	Behemoth's Cudgel Lv. 9	340	Ice	30	-20	White	White	Purple
+203	Flaming Teuza Lv. 1	130	Fire	12	0	Green	Green	Green
+204	Flaming Teuza Lv. 2	140	Fire	16	0	Green	Green	Green
+205	Flaming Teuza Lv. 3	160	Fire	18	0	Green	Green	Blue
+206	Flaming Teuza Lv. 4	180	Fire	20	0	Blue	Blue	Blue
+207	Flaming Teuza Lv. 5	200	Fire	22	0	Blue	Blue	White
+208	Glavenus Helldait Lv. 6	210	Fire	24	0	Blue	White	White
+209	Glavenus Helldait Lv. 7	280	Fire	26	0	White	White	White
+210	Glavenus Helldait Lv. 8	300	Fire	28	0	White	White	White
+211	Glavenus Helldanova Lv. 9	330	Fire	30	0	White	Purple	Purple
+212	Leumundslist Lv. 1	120	Dragon	20	10	Green	Green	Green
+213	Leumundslist Lv. 2	130	Dragon	22	10	Green	Blue	Blue
+214	Leumundslist Lv. 3	140	Dragon	24	15	Blue	Blue	Blue
+215	Leumundslist Lv. 4	160	Dragon	26	15	Blue	Blue	White
+216	Leumundsgift Lv. 5	180	Dragon	28	20	Blue	White	White
+217	Leumundsgift Lv. 6	290	Dragon	31	20	Blue	White	White
+218	Leumundsbruch Lv. 7	300	Dragon	33	20	Blue	Purple	Purple
+219	Altair Lv. 1	140	(No Element)	0	10	Blue	Blue	Blue
+220	Altair Lv. 2	150	(No Element)	0	10	Blue	Blue	Blue
+221	Altair Lv. 3	160	(No Element)	0	10	Blue	White	White
+222	Altair Lv. 4	190	(No Element)	0	10	White	White	White
+223	Alteal Lv. 5	200	(No Element)	0	10	White	White	White
+224	Alteal Lv. 6	280	(No Element)	0	10	White	White	Purple
+225	Alteal Rebellion Lv. 7	320	(No Element)	0	10	White	Purple	Purple
+226	Indigo Flash Lv. 1	120	Thunder	32	0	Green	Green	Blue
+227	Indigo Flash Lv. 2	130	Thunder	34	0	Green	Blue	Blue
+228	Indigo Flash Lv. 3	150	Thunder	38	0	Green	Blue	Blue
+229	Indigo Flash Lv. 4	160	Thunder	40	0	Blue	Blue	Blue
+230	Azure Bolt Lv. 5	170	Thunder	42	0	Blue	Blue	White
+231	Azure Bolt Lv. 6	270	Thunder	45	0	Blue	White	White
+232	Verdant Levin Lv. 7	300	Thunder	47	0	White	White	White
+233	Dios Rod Lv. 1	120	Blast	20	0	Green	Green	Green
+234	Dios Rod Lv. 2	140	Blast	22	0	Green	Green	Blue
+235	Dios Rod Lv. 3	160	Blast	24	0	Green	Blue	Blue
+236	Dios Rod Lv. 4	190	Blast	26	0	Blue	White	White
+237	Electrorod Lv. 5	200	Blast	28	0	Blue	White	White
+238	Electrorod Lv. 6	290	Blast	31	0	Blue	White	White
+239	Electroshock Rod Lv. 7	320	Blast	33	0	Blue	White	Purple
+240	Le Traqueur Lv. 1	120	Dragon	30	20	Blue	Blue	White
+241	Le Traqueur Lv. 2	130	Dragon	32	20	Blue	Blue	White
+242	Le Traqueur Lv. 3	150	Dragon	34	25	Blue	White	White
+243	Le Traqueur Lv. 4	160	Dragon	35	25	Blue	White	White
+244	La Merveille Lv. 5	170	Dragon	37	25	Blue	White	White
+245	La Merveille Lv. 6	240	Dragon	40	25	White	White	White
+246	La Merveille Lv. 7	260	Dragon	42	25	White	White	White
+247	Le Miracle Lv. 8	280	Dragon	45	25	White	Purple	Purple
+248	Daora's Entom Lv. 1	120	Ice	22	5	Green	Green	Blue
+249	Daora's Entom Lv. 2	130	Ice	24	5	Green	White	White
+250	Daora's Entom Lv. 3	170	Ice	26	5	Blue	White	White
+251	Daora's Tethidine Lv. 4	180	Ice	28	5	Blue	White	White
+252	Daora's Tethidine Lv. 5	270	Ice	31	10	White	White	White
+253	Daora's Samudra Lv. 6	300	Ice	33	10	White	Purple	Purple
+254	Caster's Rod Lv. 1	120	Poison	30	0	Green	Green	Blue
+255	Caster's Rod Lv. 2	130	Poison	34	0	Green	Blue	Blue
+256	Caster's Rod Lv. 3	170	Poison	36	0	Blue	Blue	White
+257	Hazy Caster Lv. 4	190	Poison	38	0	Blue	Blue	White
+258	Hazy Caster Lv. 5	290	Poison	41	0	White	White	Purple
+259	Veil Caster Lv. 6	310	Poison	43	0	White	Purple	Purple
+260	Skeletal Cudgel Lv. 1	160	Dragon	12	-25	Yellow	Yellow	Yellow
+261	Skeletal Cudgel Lv. 2	180	Dragon	13	-25	Yellow	Green	Green
+262	Skeletal Cudgel Lv. 3	230	Dragon	14	-25	Green	Green	Green
+263	Skeletal Cudgel Lv. 4	250	Dragon	16	-25	Green	Green	Green
+264	Infernal Cudgel Lv. 5	260	Dragon	18	-25	Green	Blue	Blue
+265	Infernal Cudgel Lv. 6	340	Dragon	21	-25	Green	Blue	White
+266	Rasalhague Cudgel Lv. 7	370	Dragon	23	-25	Green	White	White
+267	Push Broom Lv. 1	90	Ice	6	0	Green	Green	Green
+268	Push Broom Lv. 2	120	Ice	8	0	Green	Green	Green
+269	Push Broom Lv. 3	150	Ice	10	0	Green	Blue	Blue
+270	Stain Remover Lv. 4	170	Ice	12	0	Green	Blue	Blue
+271	Stain Remover Lv. 5	200	Ice	14	0	Blue	Blue	White
+272	Filth Abolisher Lv. 6	290	Ice	17	0	Blue	White	White
+273	Deathport Staff Lv. 1	100	Dragon	18	0	Green	Green	Green
+274	Deathport Staff Lv. 2	120	Dragon	20	0	Green	Green	Blue
+275	Deathport Staff Lv. 3	160	Dragon	22	0	Blue	Blue	Blue
+276	Garamorse Lv. 4	180	Dragon	25	0	Blue	Blue	White
+277	Garamorse Lv. 5	210	Dragon	27	0	Blue	Blue	White
+278	Garamorse Lv. 6	240	Dragon	29	0	White	White	White
+279	Darkmorse Lv. 7	300	Dragon	31	0	White	White	Purple
+280	Black Rod Lv. 1	100	Dragon	29	0	Green	Green	Green
+281	Black Rod Lv. 2	120	Dragon	30	0	Green	Green	Green
+282	Black Rod Lv. 3	130	Dragon	32	0	Green	Green	Blue
+283	Black Rod Lv. 4	170	Dragon	34	0	Green	Blue	White
+284	Onyx Rod Lv. 5	200	Dragon	35	0	Green	Blue	White
+285	Onyx Rod Lv. 6	300	Dragon	38	0	Blue	Blue	White
+286	Fatalis Glaive Lv. 7	330	Dragon	40	0	Blue	Purple	Purple
+287	Sect Happa Lv. 1	150	Water	8	0	Green	Green	Blue
+288	Sect Happa Lv. 2	160	Water	9	0	Green	Blue	Blue
+289	Sect Happa Lv. 3	180	Water	10	0	Green	Blue	Blue
+290	Belsect Happa Lv. 4	210	Water	12	0	Blue	White	White
+291	Belsect Happa Lv. 5	250	Water	14	0	Blue	White	White
+292	Virismo Belsect Lv. 6	330	Water	17	0	Blue	White	White
+293	Mind Stick Lv. 1	140	Water	28	0	Blue	Blue	White
+294	Mind Stick Lv. 2	150	Water	29	0	Blue	Blue	White
+295	Mind Stick Lv. 3	160	Water	30	0	Blue	Blue	White
+296	Mind Stick 'Stone' Lv. 4	190	Water	32	0	Blue	Blue	White
+297	Mind Stick 'Stone' Lv. 5	220	Water	34	0	Blue	White	White
+298	Mind Stick 'Stone' Lv. 6	250	Water	36	0	White	White	White
+299	Mind Stick 'Rock' Lv. 7	300	Water	39	0	White	White	White
+300	Neve Rod Lv. 1	150	Ice	20	0	Blue	Blue	Blue
+301	Neve Rod Lv. 2	160	Ice	21	0	Blue	Blue	White
+302	Neve Rod Lv. 3	170	Ice	22	0	Blue	White	White
+303	Neve Frost Lv. 4	190	Ice	23	0	Blue	White	White
+304	Neve Frost Lv. 5	250	Ice	25	0	Blue	White	White
+305	Neve Frost Lv. 6	280	Ice	27	0	White	White	White
+306	Fimbulvetr Lv. 7	310	Ice	30	0	White	Purple	Purple
+307	Garia Club Lv. 1	120	Fire	8	0	Blue	Blue	Blue
+308	Garia Club Lv. 2	140	Fire	10	0	Blue	Blue	Blue
+309	Garia Chachamba Lv. 3	150	Fire	12	0	Blue	Blue	Blue
+310	Garia Chachamba Lv. 4	180	Fire	14	0	Blue	Blue	Blue
+311	Prime Garia Lv. 5	280	Fire	16	0	White	White	White
+312	Stealth Glaive Lv. 1	160	Poison	18	5	Blue	Blue	White
+313	Stealth Glaive Lv. 2	170	Poison	20	5	Blue	White	White
+314	Stealth Glaive Redux Lv. 3	190	Poison	22	10	White	White	White
+315	Stealth Glaive Redux Lv. 4	250	Poison	24	10	White	White	White
+316	Stealth Glaive Redux Lv. 5	280	Poison	26	10	White	White	Purple
+317	Shadow Walker Lv. 6	300	Poison	29	20	White	Purple	Purple
+318	Sky-high Glaive Lv. 1	120	Para	19	0	Blue	Blue	Blue
+319	Sky-high Glaive Lv. 2	130	Para	22	0	Blue	Blue	White
+320	Highest of Glaives Lv. 3	140	Para	24	0	Blue	Blue	White
+321	Highest of Glaives Lv. 4	220	Para	26	0	Blue	Blue	White
+322	Stratosphere Glaive Lv. 5	280	Para	30	0	White	Purple	Purple
+323	Deep Blue Glaive Lv. 1	150	Water	16	0	Blue	White	White
+324	Deep Blue Glaive Lv. 2	170	Water	18	0	White	White	White
+325	Midnight Glaive Lv. 3	180	Water	20	0	White	White	White
+326	Midnight Glaive Lv. 4	240	Water	22	0	White	Purple	Purple
+327	Midnight Glaive Lv. 5	270	Water	24	0	Purple	Purple	Purple
+328	Zaffre Glaive Lv. 6	310	Water	27	0	Purple	Purple	Purple
+329	Fin Harpoon Lv. 1	150	Sleep	16	0	Green	Blue	Blue
+330	Fin Harpoon Lv. 2	170	Sleep	18	0	Green	Blue	White
+331	Dorsal Harpoon Lv. 3	180	Sleep	20	0	Blue	Blue	White
+332	Dorsal Harpoon Lv. 4	210	Sleep	21	0	Blue	White	White
+333	Plesioth Harpoon Lv. 5	300	Sleep	22	0	Blue	White	Purple
+334	Graviafaren Lv. 1	200	Fire	20	0	Green	Green	Blue
+335	Graviarutedia Lv. 2	220	Fire	22	0	Green	Blue	Blue
+336	Graviarutedia Lv. 3	290	Fire	25	0	Blue	Blue	White
+337	Graviarutedia Lv. 4	310	Fire	27	0	White	White	White
+338	Gravid Wyvern Lv. 5	330	Fire	30	0	White	White	Purple
+339	Eldra Glaive Lv. 1	150	(No Element)	0	0	Blue	White	White
+340	Bygone Scepter Lv. 2	170	(No Element)	0	0	White	White	White
+341	Bygone Scepter Lv. 3	200	(No Element)	0	0	Purple	Purple	Purple
+342	Bygone Scepter Lv. 4	250	(No Element)	0	0	Purple	Purple	Purple
+343	Pride of Agaltia Lv. 5	290	(No Element)	0	0	Purple	Purple	Purple
+344	Trim Happa Lv. 1	170	Water	14	0	Blue	Blue	White
+345	Trim Happa Lv. 2	190	Water	15	0	Blue	Blue	White
+346	Cannibal Happa Lv. 3	200	Water	16	0	Blue	Blue	White
+347	Cannibal Happa Lv. 4	280	Water	19	0	White	White	Purple
+348	Dual Talon Cannibal Lv. 5	320	Water	22	0	White	White	Purple
+349	Flaming Halberd Lv. 1	160	Fire	24	25	Blue	Blue	White
+350	Flaming Halberd Lv. 2	170	Fire	36	25	Blue	White	White
+351	Blazing Halberd Lv. 3	180	Fire	38	25	White	White	White
+352	Blazing Halberd Lv. 4	240	Fire	41	25	White	White	White
+353	Blazing Halberd Lv. 5	260	Fire	43	25	Purple	Purple	Purple
+354	Inferno Halberd Lv. 6	280	Fire	45	25	Purple	Purple	Purple
+355	Seditious Breaker Lv. 1	160	(No Element)	0	20	White	White	White
+356	Seditious Breaker Lv. 2	170	(No Element)	0	20	White	White	White
+357	Lana Sedition Lv. 3	180	(No Element)	0	20	White	White	White
+358	Lana Sedition Lv. 4	270	(No Element)	0	20	White	White	White
+359	Lana Sedition Lv. 5	290	(No Element)	0	20	Purple	Purple	Purple
+360	Sedition Queller Lv. 6	310	(No Element)	0	20	Purple	Purple	Purple
+361	Demolition Press Lv. 1	160	Blast	24	0	Blue	Blue	White
+362	Demolition Press Lv. 2	170	Blast	26	0	Blue	Blue	White
+363	Quantum Demolisher Lv. 3	180	Blast	33	0	Blue	Blue	White
+364	Quantum Demolisher Lv. 4	270	Blast	36	0	White	White	White
+365	Quantum Demolisher Lv. 5	290	Blast	38	0	White	White	Purple
+366	Quantum Annihilator Lv. 6	300	Blast	40	0	White	Purple	Purple
+367	Metal Mauler Lv. 1	180	Thunder	32	-10	Yellow	Green	Blue
+368	Metal Mauler Lv. 2	200	Thunder	34	-10	Green	Green	Blue
+369	Metal Mauler Lv. 3	210	Thunder	36	-15	Green	Green	Blue
+370	Metalmangler Lv. 4	230	Thunder	38	-15	Green	Blue	White
+371	Metalmangler Lv. 5	320	Thunder	41	-15	Blue	White	White
+372	Metal Mutilator Lv. 6	350	Thunder	43	-15	White	White	Purple
+373	Diablos Rod Lv. 1	210	(No Element)	0	-10	Blue	Blue	Blue
+374	Tyrant Rod Lv. 2	230	(No Element)	0	-10	Blue	Blue	Blue
+375	Tyrant Rod Lv. 3	310	(No Element)	0	-10	Blue	Blue	Blue
+376	Tyrant Rod Lv. 4	330	(No Element)	0	-10	Blue	Blue	White
+377	Horned Tyrant Lv. 5	350	(No Element)	0	-10	White	White	Purple
+378	Research Glaive Lv. 1	180	(No Element)	0	15	Blue	Blue	White
+379	Discovery Glaive Lv. 2	200	(No Element)	0	15	White	White	White
+380	Discovery Glaive Lv. 3	230	(No Element)	0	20	White	White	Purple
+381	Discovery Glaive Lv. 4	280	(No Element)	0	20	Purple	Purple	Purple
+382	Authority Horizon Lv. 5	300	(No Element)	0	25	Purple	Purple	Purple
+383	Conviction Glaive J Lv. 1	160	(No Element)	0	-20	Blue	White	White
+384	Conviction Glaive J Lv. 2	180	(No Element)	0	-20	Blue	White	White
+385	Condemnation Glaive J Lv. 3	200	(No Element)	0	-20	Blue	White	White
+386	Condemnation Glaive J Lv. 4	270	(No Element)	0	-20	White	White	White
+387	Judgment Glaive Lv. 5	330	(No Element)	0	-20	White	White	White
+388	Aladdin's Wand Lv. 1	150	Thunder	26	15	Blue	White	White
+389	Aladdin's Wand Lv. 2	160	Thunder	28	15	Blue	White	White
+390	Aladdin's Wand X Lv. 3	170	Thunder	30	20	Blue	White	White
+391	Aladdin's Wand X Lv. 4	250	Thunder	32	25	White	White	White
+392	Aladdin's Wand XX Lv. 5	290	Thunder	35	25	White	White	White
+393	Spear of the Beast Lv. 1	140	Dragon	36	10	Blue	Blue	White
+394	Spear of the Beast Lv. 2	150	Dragon	38	10	Blue	Blue	White
+395	Spear of Rebirth Lv. 3	160	Dragon	40	10	Blue	Blue	White
+396	Spear of Rebirth Lv. 4	250	Dragon	42	15	Blue	White	White
+397	True Beast Spear Lv. 5	300	Dragon	45	20	Blue	White	White
+398	Heaven's Rath Glaive Lv. 1	170	Fire	22	5	Blue	Blue	Blue
+399	Heaven's Rath Glaive Lv. 2	180	Fire	26	10	Blue	Blue	White
+400	Unprecedented Rath Lv. 3	190	Fire	31	15	Blue	White	White
+401	Unprecedented Rath Lv. 4	280	Fire	33	20	White	White	White
+402	Propagation Lv. 5	310	Fire	35	20	White	Purple	Purple
+403	Demonlord Cudgel Lv. 1	180	Thunder	40	-20	Blue	White	White
+404	Demonlord Cudgel Lv. 2	200	Thunder	42	-20	Blue	White	White
+405	Demonlord Grudgel Lv. 3	210	Thunder	44	-20	White	White	White
+406	Demonlord Grudgel Lv. 4	290	Thunder	47	-20	White	White	White
+407	Demonlord Bludgel Lv. 5	310	Thunder	50	-20	White	White	Purple
+408	Ukanlos Staff Lv. 1	260	Ice	6	-30	Green	Green	Green
+409	Ukanlos Staff Lv. 2	260	Ice	8	-30	Green	Green	Green
+410	Ukanlos Skytraveler Lv. 3	260	Ice	10	-30	Green	Green	Blue
+411	Ukanlos Skytraveler Lv. 4	360	Ice	12	-30	Blue	Blue	Blue
+412	Ukanlos Worldtraveler Lv. 5	380	Ice	15	-30	Blue	White	White
+413	Polaris Zimbal Lv. 1	170	Dragon	6	0	Blue	Blue	Blue
+414	Polaris Zimbal Lv. 2	180	Dragon	7	0	Blue	Blue	White
+415	Zimbal Cudgel Lv. 3	190	Dragon	8	0	White	White	White
+416	Zimbal Cudgel Lv. 4	290	Dragon	11	0	White	White	White
+417	Zimgaroa Cudgel Lv. 5	320	Dragon	13	0	Purple	Purple	Purple
+418	Alatreon Dragonspire Lv. 1	180	Dragon	24	0	White	White	White
+419	Alatreon Dragonspire Lv. 2	180	Dragon	26	0	White	White	White
+420	Alatreon Embrace Lv. 3	180	Dragon	28	0	White	White	White
+421	Alatreon Embrace Lv. 4	270	Dragon	31	0	Purple	Purple	Purple
+422	Alatreon Godslayer Lv. 5	290	Dragon	33	0	Purple	Purple	Purple
+423	Silverwing Glaive Lv. 1	150	Dragon	35	0	White	White	White
+424	Dragonstar Shuma Lv. 2	170	Dragon	37	0	White	White	White
+425	Dragonstar Shuma Lv. 3	210	Dragon	39	0	White	White	White
+426	Dragonstar Shuma Lv. 4	240	Dragon	41	0	White	White	White
+427	Dragonstar Shuma Lv. 5	260	Dragon	43	0	White	White	White
+428	Magnastar Lev Lv. 6	280	Dragon	45	0	White	White	White
+429	Elder Rod Lv. 1	260	(No Element)	0	0	White	White	White
+430	Sage Rod Lv. 2	280	(No Element)	0	0	White	White	White
+431	Philosopher Rod Lv. 3	320	(No Element)	0	0	White	White	White
+432	Assault Glaive Lv. 1	230	Sleep	23	15	Purple	Purple	Purple
+433	Forewalker Lv. 2	250	Sleep	24	15	Purple	Purple	Purple
+434	Nercharybdis Lv. 3	270	Sleep	25	15	Purple	Purple	Purple
+435	Boltbrute Lv. 1	240	Thunder	47	0	White	White	White
+436	King Boltbrute Lv. 2	270	Thunder	50	0	White	White	White
+437	Emperor Boltbrute Lv. 3	290	Thunder	52	0	White	White	Purple
+438	List/Confiance Lv. 1	300	Dragon	7	-25/10	White	White	White
+439	Bruch/Logique Lv. 2	310	Dragon	8	-25/10	White	White	Purple
+440	Wehmut/Merveille Lv. 3	330	Dragon	9	-25/10	White	White	Purple
+441	Blossomajesty Lv. 1	250	Fire	44	0	White	White	White
+442	Universus Lv. 2	270	Fire	46	0	White	White	Purple
+443	Dragonebula Lv. 3	300	Fire	48	0	White	Purple	Purple
+444	Lightbreak Press Lv. 1	260	Blast	40	0	White	White	White
+445	Lightbreak Furnace Lv. 2	270	Blast	42	0	White	White	Purple
+446	Lightbreak Scoria Lv. 3	290	Blast	45	0	White	Purple	Purple
+447	Stratus Arc Lv. 1	320	Water	14	-20	White	White	White
+448	Cirrus Tears Lv. 2	340	Water	16	-20	White	White	White
+449	Empyrean Storm Lv. 3	360	Water	18	-20	White	White	White
+450	Goldglaive Lv. 1	310	(No Element)	0	0	Purple	Purple	Purple
+451	Inscribed Aset Lv. 2	320	(No Element)	0	0	Purple	Purple	Purple
+452	Mehet-Uret Lv. 3	330	(No Element)	0	0	Purple	Purple	Purple
+453	True Fatalis Teni Lv. 1	280	Dragon	43	0	Blue	Blue	White
+454	True Fatalis Tenyu Lv. 2	290	Dragon	45	0	Blue	Blue	Purple
+455	True Fatalis Dyaus Lv. 3	310	Dragon	48	0	White	White	Purple
+456	Ruiner Glaive Lv. 1	310	Blast	52	15	Blue	Blue	White
+457	True Ruiner Glaive Lv. 2	320	Blast	53	15	Blue	Blue	Purple
+458	Absolute Ruiner Glaive Lv. 3	330	Blast	55	15	Blue	Purple	Purple
+459	Fatalis Soldier Lv. 1	290	Thunder	42	0	White	White	White
+460	Fatalis Enforcer Lv. 2	310	Thunder	43	0	White	White	White
+461	Fatalis Overlord Lv. 3	330	Thunder	45	0	White	Purple	Purple
+462	Stonefist Caster Lv. 1	100	Water	10	5	Green	Green	Green
+463	Stonefist Caster Lv. 2	110	Water	11	5	Green	Green	Blue
+464	Stonefist Caster Lv. 3	120	Water	12	5	Green	Green	Blue
+465	Stonefist Caster Lv. 4	130	Water	13	10	Green	Blue	Blue
+466	Stonefist Caster Lv. 5	140	Water	14	10	Green	Blue	Blue
+467	Stonefist Caster Lv. 6	150	Water	15	10	Blue	Blue	Blue
+468	Stonefist Caster Lv. 7	160	Water	16	10	Blue	Blue	White
+469	Stonefist Caster Lv. 8	170	Water	17	10	Blue	Blue	White
+470	Stonefist Caster Lv. 9	180	Water	18	10	Blue	White	White
+471	Black Stonefist Hurler Lv. 10	190	Water	20	10	Blue	White	White
+472	Black Stonefist Hurler Lv. 11	210	Water	22	10	Blue	White	White
+473	Black Stonefist Hurler Lv. 12	230	Water	23	10	Blue	White	White
+474	Black Stonefist Hurler Lv. 13	300	Water	24	10	Blue	White	White
+475	Black Stonefist Hurler Lv. 14	320	Water	25	10	Blue	White	Purple
+476	Stonefist Flinger Lv. 15	340	Water	26	10	Blue	White	Purple
+477	Nightfall Scythe Lv. 1	140	(No Element)	0	10	White	White	White
+478	Nightfall Scythe Lv. 2	140	(No Element)	0	10	White	White	White
+479	Nightfall Scythe Lv. 3	150	(No Element)	0	10	White	White	White
+480	Nightfall Scythe Lv. 4	160	(No Element)	0	10	White	White	White
+481	Nightfall Scythe Lv. 5	160	(No Element)	0	10	White	White	White
+482	Nightfall Scythe Lv. 6	170	(No Element)	0	10	White	White	White
+483	Nightfall Scythe Lv. 7	180	(No Element)	0	10	White	White	White
+484	Nightfall Scythe Lv. 8	180	(No Element)	0	10	White	White	White
+485	Nightfall Scythe Lv. 9	190	(No Element)	0	10	White	White	White
+486	Morning Calm Lv. 10	190	(No Element)	0	15	White	White	White
+487	Morning Calm Lv. 11	220	(No Element)	0	15	Purple	Purple	Purple
+488	Morning Calm Lv. 12	240	(No Element)	0	15	Purple	Purple	Purple
+489	Morning Calm Lv. 13	260	(No Element)	0	20	Purple	Purple	Purple
+490	Morning Calm Lv. 14	280	(No Element)	0	20	Purple	Purple	Purple
+491	Mistral Scythe Lv. 15	300	(No Element)	0	20	Purple	Purple	Purple
+492	Grobo Blow Lv. 1	150	(No Element)	0	5	Green	Green	Blue
+493	Grobo Blow Lv. 2	150	(No Element)	0	5	Green	Green	Blue
+494	Grobo Blow Lv. 3	160	(No Element)	0	5	Green	Green	Blue
+495	Grobo Blow Lv. 4	170	(No Element)	0	5	Green	Green	Blue
+496	Grobo Blow Lv. 5	180	(No Element)	0	5	Green	Green	Blue
+497	Grobo Blow Lv. 6	180	(No Element)	0	5	Green	Blue	Blue
+498	Grobo Blow Lv. 7	190	(No Element)	0	5	Green	Blue	Blue
+499	Grobo Blow Lv. 8	200	(No Element)	0	5	Green	Blue	Blue
+500	Grobo Blow Lv. 9	210	(No Element)	0	5	Green	Blue	Blue
+501	Grobo Blow Zeta Lv. 10	220	(No Element)	0	5	Green	Blue	Blue
+502	Grobo Blow Zeta Lv. 11	300	(No Element)	0	10	Green	Blue	Blue
+503	Grobo Blow Zeta Lv. 12	330	(No Element)	0	10	Green	Blue	Blue
+504	Grobo Blow Zeta Lv. 13	350	(No Element)	0	10	Green	Blue	Blue
+505	Grobo Blow Zeta Lv. 14	370	(No Element)	0	10	Green	Blue	Blue
+506	Grobo Blow Diamante Lv. 15	380	(No Element)	0	10	Green	Blue	Blue
+507	Ashen Teuza Lv. 1	170	Blast	21	5	Blue	Blue	Blue
+508	Ashen Teuza Lv. 2	170	Blast	22	5	Blue	Blue	Blue
+509	Ashen Teuza Lv. 3	170	Blast	23	5	Blue	Blue	Blue
+510	Ashen Teuza Lv. 4	180	Blast	24	5	Blue	Blue	Blue
+511	Ashen Teuza Lv. 5	180	Blast	25	5	Blue	Blue	Blue
+512	Ashen Teuza Lv. 6	180	Blast	26	5	Blue	Blue	White
+513	Ashen Teuza Lv. 7	190	Blast	27	5	White	White	White
+514	Ashen Teuza Lv. 8	190	Blast	28	5	White	White	White
+515	Ashen Teuza Lv. 9	190	Blast	29	5	White	White	White
+516	Ashen Helldait Lv. 10	200	Blast	30	5	White	White	White
+517	Ashen Helldait Lv. 11	260	Blast	38	5	Purple	Purple	Purple
+518	Ashen Helldait Lv. 12	270	Blast	39	5	Purple	Purple	Purple
+519	Ashen Helldait Lv. 13	280	Blast	40	5	Purple	Purple	Purple
+520	Ashen Helldait Lv. 14	290	Blast	41	5	Purple	Purple	Purple
+521	Ashen Helldait Nova Lv. 15	300	Blast	42	5	Purple	Purple	Purple
+522	Razor Reaper Lv. 1	250	(No Element)	0	5	White	White	White
+523	Razor Reaper Lv. 2	270	(No Element)	0	5	White	White	White
+524	Headlong Reaper Lv. 3	290	(No Element)	0	5	White	White	White
+525	Headlong Reaper Lv. 4	310	(No Element)	0	5	White	White	Purple
+526	Rustrazor Reaper Lv. 5	330	(No Element)	0	5	White	Purple	Purple
+527	Melancholy Lv. 1	240	Water	23	15	White	White	White
+528	Melancholy Lv. 2	260	Water	24	15	White	White	White
+529	Lingering Butterfly Lv. 3	280	Water	25	15	White	White	White
+530	Lingering Butterfly Lv. 4	300	Water	26	20	White	White	Purple
+531	Fleeting Existence Lv. 5	320	Water	27	20	White	Purple	Purple
+532	Boltreaver Glaive Lv. 1	230	Thunder	16	30	Purple	Purple	Purple
+533	Boltreaver Glaive Lv. 2	240	Thunder	17	30	Purple	Purple	Purple
+534	Boltreaver Pinnacle Lv. 3	250	Thunder	18	35	Purple	Purple	Purple
+535	Boltreaver Pinnacle Lv. 4	270	Thunder	19	35	Purple	Purple	Purple
+536	Boltreaver Unbound Lv. 5	290	Thunder	20	40	Purple	Purple	Purple
+537	Elderfrost Club Lv. 1	340	Ice	21	5	Green	Green	Blue
+538	Elderfrost Club Lv. 2	350	Ice	22	5	Green	Blue	Blue
+539	Elderfrost Bludgeon Lv. 3	360	Ice	23	5	Green	Blue	Blue
+540	Elderfrost Bludgeon Lv. 4	370	Ice	24	5	Green	Blue	White
+541	Elderfrost Gambado Lv. 5	380	Ice	25	5	Green	Blue	White
+542	Massacre Rod Lv. 1	330	(No Element)	0	-30	White	White	White
+543	Massacre Rod Lv. 2	340	(No Element)	0	-30	White	White	White
+544	Massacre Mace Lv. 3	350	(No Element)	0	-30	White	White	White
+545	Massacre Mace Lv. 4	360	(No Element)	0	-30	White	White	White
+546	Bai Qi Lv. 5	370	(No Element)	0	-30	White	Purple	Purple

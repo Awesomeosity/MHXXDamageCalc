@@ -1,0 +1,886 @@
+ID	name	raw	element	eleValue	affinity	sharpness	sharpOne	sharpTwo
+0	Petrified Hammer Lv. 1	60	(No Element)	0	0	Yellow	Yellow	Yellow
+1	Petrified Hammer Lv. 2	80	(No Element)	0	0	Yellow	Yellow	Yellow
+2	Petrified Hammer Lv. 3	90	(No Element)	0	0	Yellow	Green	Green
+3	Petrified Hammer Lv. 4	100	(No Element)	0	0	Green	Green	Green
+4	Petrified Hammer Lv. 5	110	(No Element)	0	0	Green	Green	Green
+5	Petrified Hammer Lv. 6	140	(No Element)	0	0	Green	Blue	Blue
+6	Petrified Hammer Lv. 7	170	(No Element)	0	0	Blue	Blue	White
+7	Scholarly Hammer Lv. 8	210	(No Element)	0	0	Blue	Blue	White
+8	Scholarly Hammer Lv. 9	240	(No Element)	0	0	Blue	Blue	White
+9	Scholarly Hammer Lv. 10	290	(No Element)	0	0	White	White	White
+10	Sophos Hammer Lv. 11	320	(No Element)	0	0	White	White	White
+11	Iron Hammer Lv. 1	70	(No Element)	0	0	Yellow	Yellow	Green
+12	Iron Hammer Lv. 2	80	(No Element)	0	0	Green	Green	Green
+13	Iron Hammer Lv. 3	100	(No Element)	0	0	Green	Green	Green
+14	Iron Hammer Lv. 4	110	(No Element)	0	0	Green	Green	Green
+15	Iron Hammer Lv. 5	120	(No Element)	0	0	Green	Green	Blue
+16	Iron Hammer Lv. 6	150	(No Element)	0	0	Green	Green	Blue
+17	Iron Hammer Lv. 7	180	(No Element)	0	0	Green	Blue	Blue
+18	Iron Devil Lv. 8	230	(No Element)	0	0	Green	Blue	Blue
+19	Iron Devil Lv. 9	260	(No Element)	0	0	Blue	Blue	White
+20	Iron Devil Lv. 10	290	(No Element)	0	0	Blue	White	White
+21	Iron Giant Lv. 11	350	(No Element)	0	0	Blue	White	White
+22	Bone Hammer Lv. 1	80	(No Element)	0	0	Yellow	Yellow	Yellow
+23	Bone Hammer Lv. 2	100	(No Element)	0	0	Yellow	Yellow	Yellow
+24	Bone Hammer Lv. 3	110	(No Element)	0	0	Yellow	Yellow	Yellow
+25	Bone Hammer Lv. 4	130	(No Element)	0	0	Yellow	Yellow	Yellow
+26	Bone Hammer Lv. 5	140	(No Element)	0	0	Green	Green	Green
+27	Bone Hammer Lv. 6	170	(No Element)	0	0	Green	Green	Green
+28	Bone Hammer Lv. 7	210	(No Element)	0	0	Green	Green	Green
+29	Hard Bone Hammer Lv. 8	240	(No Element)	0	0	Green	Green	Blue
+30	Hard Bone Hammer Lv. 9	270	(No Element)	0	0	Blue	Blue	White
+31	Hard Bone Hammer Lv. 10	320	(No Element)	0	0	Blue	Blue	White
+32	Bone Crusher Lv. 11	350	(No Element)	0	0	Blue	White	Purple
+33	Spiked Hammer Lv. 1	80	(No Element)	0	5	Green	Green	Green
+34	Spiked Hammer Lv. 2	110	(No Element)	0	5	Green	Green	Green
+35	Spiked Hammer Lv. 3	130	(No Element)	0	10	Green	Green	Green
+36	Spiked Hammer Lv. 4	140	(No Element)	0	10	Green	Green	Green
+37	Spiked Hammer Lv. 5	160	(No Element)	0	15	Green	Green	Blue
+38	Spiked Hammer Lv. 6	190	(No Element)	0	15	Blue	White	White
+39	Spiked Glory Lv. 7	220	(No Element)	0	15	Blue	White	White
+40	Spiked Glory Lv. 8	260	(No Element)	0	20	Blue	White	White
+41	Spiked Glory Lv. 9	300	(No Element)	0	20	Blue	White	White
+42	Spiked Triumph Lv. 10	340	(No Element)	0	20	Blue	White	White
+43	Bone Bludgeon Lv. 1	110	(No Element)	0	0	Yellow	Yellow	Yellow
+44	Bone Bludgeon Lv. 2	120	(No Element)	0	0	Yellow	Yellow	Yellow
+45	Bone Bludgeon Lv. 3	140	(No Element)	0	0	Yellow	Yellow	Yellow
+46	Bone Bludgeon Lv. 4	160	(No Element)	0	0	Yellow	Yellow	Green
+47	Bone Bludgeon Lv. 5	190	(No Element)	0	0	Green	Green	Green
+48	Heavy Bone Bludgeon Lv. 6	230	(No Element)	0	0	Green	Green	Green
+49	Heavy Bone Bludgeon Lv. 7	260	(No Element)	0	0	Green	Blue	Blue
+50	Heavy Bone Bludgeon Lv. 8	290	(No Element)	0	0	Blue	Blue	Blue
+51	Huge Bone Bludgeon Lv. 9	330	(No Element)	0	0	Blue	Blue	White
+52	Revenge Hammer Lv. 1	90	(No Element)	0	0	Yellow	Yellow	Green
+53	Revenge Hammer Lv. 2	100	(No Element)	0	0	Green	Green	Green
+54	Revenge Hammer Lv. 3	130	(No Element)	0	0	Green	Green	Blue
+55	Revenge Hammer Lv. 4	150	(No Element)	0	0	Blue	Blue	White
+56	Vindication Hammer Lv. 5	190	(No Element)	0	0	Blue	White	White
+57	Vindication Hammer Lv. 6	220	(No Element)	0	0	Blue	White	White
+58	Vindication Hammer Lv. 7	260	(No Element)	0	0	Blue	White	White
+59	Retribution Hammer Lv. 8	310	(No Element)	0	0	Blue	White	White
+60	Ludroth Bone Mace Lv. 1	100	(No Element)	0	0	Yellow	Yellow	Yellow
+61	Ludroth Bone Mace Lv. 2	120	(No Element)	0	0	Yellow	Yellow	Green
+62	Ludroth Bone Mace Lv. 3	130	(No Element)	0	0	Green	Blue	Blue
+63	Ludroth Bone Mace Lv. 4	150	(No Element)	0	0	Blue	Blue	White
+64	Ludroth Bone Maul Lv. 5	190	(No Element)	0	0	Blue	White	White
+65	Ludroth Bone Maul Lv. 6	220	(No Element)	0	0	Blue	White	White
+66	Ludroth Bone Maul Lv. 7	250	(No Element)	0	0	White	White	White
+67	Ludroth Sledgehammer Lv. 8	310	(No Element)	0	0	White	White	Purple
+68	Feather Hammer Lv. 1	80	(No Element)	0	0	Green	Green	Green
+69	Feather Hammer Lv. 2	110	(No Element)	0	0	Green	Green	Green
+70	Feather Hammer Lv. 3	140	(No Element)	0	0	Green	Green	Green
+71	Feather Hammer Lv. 4	170	(No Element)	0	0	Green	Blue	White
+72	Plume Hammer Lv. 5	210	(No Element)	0	0	Blue	White	White
+73	Plume Hammer Lv. 6	240	(No Element)	0	0	Blue	White	White
+74	Plume Hammer Lv. 7	270	(No Element)	0	0	Blue	White	White
+75	Crest Hammer Lv. 8	330	(No Element)	0	0	White	White	Purple
+76	Bull Head Hammer Lv. 1	100	(No Element)	0	0	Yellow	Yellow	Yellow
+77	Bull Head Hammer Lv. 2	110	(No Element)	0	0	Yellow	Yellow	Green
+78	Bull Head Hammer Lv. 3	120	(No Element)	0	0	Green	Green	Green
+79	Bull Head Hammer Lv. 4	150	(No Element)	0	0	Green	Green	Green
+80	Bull Head Hammer Lv. 5	190	(No Element)	0	0	Green	Green	Blue
+81	Bull Tusk Hammer Lv. 6	220	(No Element)	0	0	Blue	Blue	White
+82	Bull Tusk Hammer Lv. 7	250	(No Element)	0	0	Blue	Blue	White
+83	Bull Tusk Hammer Lv. 8	280	(No Element)	0	0	Blue	White	White
+84	Wild Bull Crusher Lv. 9	340	(No Element)	0	0	Blue	White	White
+85	Yukumo Mallet Lv. 1	70	(No Element)	0	0	Green	Green	Green
+86	Yukumo Mallet Lv. 2	90	(No Element)	0	0	Green	Green	Green
+87	Yukumo Mallet Lv. 3	120	(No Element)	0	0	Green	Green	Green
+88	Yukumo Mallet Lv. 4	140	(No Element)	0	0	Green	Blue	Blue
+89	Yukumo Impact Lv. 5	180	(No Element)	0	0	Green	Blue	Blue
+90	Yukumo Impact Lv. 6	230	(No Element)	0	0	Green	Blue	Blue
+91	Yukumo Impact Lv. 7	280	(No Element)	0	0	Green	Blue	Blue
+92	Hot Spring Impact Lv. 8	340	(No Element)	0	0	Green	Blue	White
+93	Rusted Hammer Lv. 1	100	(No Element)	0	-70	Orange	Orange	Orange
+94	Rusted Hammer Lv. 2	100	(No Element)	0	-70	Orange	Orange	Yellow
+95	Tarnished Hammer Lv. 3	100	(No Element)	0	-70	Yellow	Yellow	Yellow
+96	War Hammer Lv. 1	100	(No Element)	0	0	Green	Green	Green
+97	War Hammer Lv. 2	110	(No Element)	0	0	Green	Green	Green
+98	War Hammer Lv. 3	130	(No Element)	0	0	Green	Green	Green
+99	War Hammer Lv. 4	140	(No Element)	0	0	Green	Blue	Blue
+100	War Hammer Lv. 5	180	(No Element)	0	0	Blue	Blue	White
+101	War Mace Lv. 6	220	(No Element)	0	0	Blue	Blue	White
+102	War Mace Lv. 7	250	(No Element)	0	0	Blue	White	White
+103	War Mace Lv. 8	280	(No Element)	0	0	Blue	White	White
+104	War Ender Lv. 9	340	(No Element)	0	0	White	White	White
+105	Cyclo-Hammer Lv. 1	110	(No Element)	0	-5	Green	Green	Green
+106	Cyclo-Hammer Lv. 2	120	(No Element)	0	-5	Green	Green	Green
+107	Cyclo-Hammer Lv. 3	150	(No Element)	0	-5	Green	Green	Blue
+108	Cyclo-Hammer Lv. 4	170	(No Element)	0	-10	Green	Blue	Blue
+109	Cyclo-Hammer Lv. 5	190	(No Element)	0	-10	Blue	Blue	Blue
+110	Cyclo-Hammer Lv. 6	210	(No Element)	0	-10	Blue	Blue	White
+111	Atlas Hammer Lv. 7	230	(No Element)	0	-10	Blue	White	White
+112	Atlas Hammer Lv. 8	320	(No Element)	0	-10	Blue	White	White
+113	Atlas Crusher Lv. 9	350	(No Element)	0	-10	Blue	White	White
+114	Frozen Core Lv. 1	80	Ice	20	0	Green	Green	Green
+115	Frozen Core Lv. 2	90	Ice	25	0	Green	Green	Green
+116	Frozen Core Lv. 3	120	Ice	30	0	Green	Green	Blue
+117	Frozen Core Lv. 4	130	Ice	35	0	Blue	Blue	Blue
+118	Cocytus Lv. 5	200	Ice	40	0	Blue	Blue	White
+119	Cocytus Lv. 6	230	Ice	42	0	Blue	White	White
+120	Pykrete Punisher Lv. 7	300	Ice	45	0	White	White	White
+121	Great Nova Lv. 1	90	Thunder	24	0	Green	Green	Green
+122	Great Nova Lv. 2	110	Thunder	28	0	Green	Green	Green
+123	Great Nova Lv. 3	130	Thunder	32	0	Green	Green	Green
+124	Great Nova Lv. 4	150	Thunder	36	0	Blue	Blue	White
+125	Super Nova Lv. 5	190	Thunder	40	0	Blue	Blue	White
+126	Super Nova Lv. 6	220	Thunder	40	0	Blue	Blue	White
+127	Super Nova Lv. 7	250	Thunder	42	0	Blue	White	White
+128	Hyper Nova Lv. 8	300	Thunder	45	0	White	White	Purple
+129	Skullcrusher Lv. 1	130	(No Element)	0	0	Yellow	Yellow	Yellow
+130	Skullcrusher Lv. 2	140	(No Element)	0	0	Yellow	Yellow	Green
+131	Skullcrusher Lv. 3	160	(No Element)	0	0	Green	Green	Green
+132	Skullcrusher Lv. 4	180	(No Element)	0	0	Green	Green	Blue
+133	Skullblaster Lv. 5	220	(No Element)	0	0	Blue	White	White
+134	Skullblaster Lv. 6	250	(No Element)	0	0	Blue	White	White
+135	Skullblaster Lv. 7	280	(No Element)	0	0	Blue	Purple	Purple
+136	Skullsploder Lv. 8	340	(No Element)	0	0	Blue	Purple	Purple
+137	Calamitous Portent Lv. 1	100	Poison	12	5	Green	Green	Green
+138	Calamitous Portent Lv. 2	120	Poison	14	5	Green	Green	Blue
+139	Calamitous Portent Lv. 3	140	Poison	16	10	Green	Green	Blue
+140	Calamitous Portent Lv. 4	170	Poison	18	10	Blue	Blue	White
+141	Catastrophic Portent Lv. 5	190	Poison	20	10	Blue	White	White
+142	Catastrophic Portent Lv. 6	250	Poison	22	15	Blue	White	White
+143	Catastrophic Portent Lv. 7	280	Poison	25	15	White	White	White
+144	Cataclysmic Portent Lv. 8	310	Poison	26	15	White	White	Purple
+145	Kut-Ku Pick Lv. 1	100	(No Element)	0	5	Green	Green	Green
+146	Kut-Ku Pick Lv. 2	110	(No Element)	0	5	Green	Green	Green
+147	Kut-Ku Pick Lv. 3	130	(No Element)	0	5	Green	Green	Green
+148	Kut-Ku Pick Lv. 4	140	(No Element)	0	10	Green	Green	Blue
+149	Kut-Ku Pick Lv. 5	170	(No Element)	0	10	Blue	Blue	White
+150	Kut-Ku Thwap Lv. 6	190	(No Element)	0	10	Blue	White	White
+151	Kut-Ku Thwap Lv. 7	230	(No Element)	0	10	Blue	White	White
+152	Kut-Ku Thwap Lv. 8	270	(No Element)	0	10	White	White	White
+153	Kut-Ku Kaboom Lv. 9	310	(No Element)	0	10	White	White	Purple
+154	Venom Monster Lv. 1	70	Poison	26	0	Green	Green	Green
+155	Venom Monster Lv. 2	80	Poison	28	0	Green	Green	Green
+156	Venom Monster Lv. 3	120	Poison	30	0	Green	Green	Blue
+157	Venom Monster Lv. 4	150	Poison	32	0	Green	Blue	Blue
+158	Death Venom Hammer Lv. 5	180	Poison	35	0	Blue	White	White
+159	Death Venom Hammer Lv. 6	220	Poison	37	0	Blue	White	White
+160	Death Venom Hammer Lv. 7	250	Poison	39	0	Blue	White	White
+161	Death Venom Basher Lv. 8	300	Poison	41	0	White	White	Purple
+162	Binding Bludgeon Lv. 1	90	Para	15	0	Green	Green	Green
+163	Binding Bludgeon Lv. 2	110	Para	17	0	Green	Green	Green
+164	Binding Bludgeon Lv. 3	130	Para	20	0	Green	Green	Blue
+165	Binding Bludgeon Lv. 4	150	Para	23	0	Green	Blue	Blue
+166	Armored Gogue Lv. 5	170	Para	26	0	Green	Blue	Blue
+167	Armored Gogue Lv. 6	260	Para	28	0	Blue	White	White
+168	Armored Gogue Lv. 7	290	Para	30	0	Blue	White	White
+169	Armored Megagogue Lv. 8	320	Para	32	0	Blue	White	White
+170	Ludroth Splashhammer Lv. 1	80	Water	20	0	Green	Green	Green
+171	Ludroth Splashhammer Lv. 2	110	Water	24	0	Green	Green	Green
+172	Ludroth Splashhammer Lv. 3	130	Water	30	0	Green	Green	Blue
+173	Ludroth Splashhammer Lv. 4	150	Water	35	0	Blue	Blue	White
+174	Ludroth Dousehammer Lv. 5	200	Water	40	0	Blue	White	White
+175	Ludroth Dousehammer Lv. 6	230	Water	42	0	Blue	White	White
+176	Lorelei Lv. 7	300	Water	45	0	White	Purple	Purple
+177	Bag o' Horrors Lv. 1	90	Thunder	14	0	Green	Green	Green
+178	Bag o' Horrors Lv. 2	120	Thunder	16	0	Green	Green	Blue
+179	Bag o' Horrors Lv. 3	160	Thunder	20	0	Blue	Blue	Blue
+180	Bag o' Horrors Lv. 4	180	Thunder	23	0	Blue	Blue	Blue
+181	Bag o' Thunder Lv. 5	210	Thunder	25	0	Blue	Blue	White
+182	Bag o' Thunder Lv. 6	270	Thunder	30	0	Blue	White	White
+183	Bag o' Booms Lv. 7	330	Thunder	33	0	White	Purple	Purple
+184	Type 42 Shellbuster Lv. 1	80	Water	12	0	Green	Green	Green
+185	Type 42 Shellbuster Lv. 2	100	Water	14	0	Green	Green	Green
+186	Type 42 Shellbuster Lv. 3	120	Water	16	0	Green	Green	Blue
+187	Type 42 Shellbuster Lv. 4	160	Water	18	0	Blue	Blue	White
+188	Fraghammer Mk.II Lv. 5	210	Water	22	0	Blue	Blue	White
+189	Fraghammer Mk.II Lv. 6	270	Water	24	0	Blue	Blue	White
+190	Super Fraghammer Lv. 7	330	Water	27	0	White	Purple	Purple
+191	Conehead Hammer Lv. 1	100	Ice	15	0	Green	Green	Green
+192	Conehead Hammer Lv. 2	120	Ice	16	0	Green	Green	Green
+193	Conehead Hammer Lv. 3	140	Ice	17	0	Green	Green	Blue
+194	Conehead Hammer Lv. 4	160	Ice	18	0	Blue	Blue	Blue
+195	Great Cone Lv. 5	210	Ice	20	0	Blue	Blue	White
+196	Great Cone Lv. 6	270	Ice	22	0	Blue	White	White
+197	Great Cone Lv. 7	300	Ice	25	0	Blue	White	White
+198	Giant Cone Lv. 8	330	Ice	27	0	White	White	White
+199	Ceanataur Head Axe Lv. 1	110	(No Element)	0	0	Green	Green	Blue
+200	Ceanataur Head Axe Lv. 2	130	(No Element)	0	0	Blue	Blue	White
+201	Ceanataur Head Axe Lv. 3	160	(No Element)	0	0	Blue	Blue	White
+202	Ceanataur Head Axe Lv. 4	190	(No Element)	0	0	Blue	Blue	White
+203	Big Blue Chopper Lv. 5	220	(No Element)	0	0	Blue	White	White
+204	Big Blue Chopper Lv. 6	270	(No Element)	0	0	White	White	White
+205	Ceanataur Chopper Lv. 7	330	(No Element)	0	0	White	White	Purple
+206	Dragonhead Hammer Lv. 1	100	(No Element)	0	0	Green	Green	Blue
+207	Dragonhead Hammer Lv. 2	130	(No Element)	0	0	Green	Green	Blue
+208	Dragonhead Hammer Lv. 3	160	(No Element)	0	0	Green	Green	Blue
+209	Dragonhead Hammer Lv. 4	190	(No Element)	0	0	Green	Blue	Blue
+210	Ancient Relic Lv. 5	230	(No Element)	0	0	Green	Blue	White
+211	Ancient Relic Lv. 6	310	(No Element)	0	0	Blue	Blue	White
+212	Forgotten Remnant Lv. 7	350	(No Element)	0	0	Blue	White	White
+213	Hidden Breaker Lv. 1	100	(No Element)	0	40	Green	Blue	Blue
+214	Hidden Breaker Lv. 2	120	(No Element)	0	40	Blue	Blue	White
+215	Hidden Breaker Lv. 3	140	(No Element)	0	40	Blue	Blue	White
+216	Hidden Breaker Lv. 4	160	(No Element)	0	40	White	White	White
+217	Night Eternal Lv. 5	180	(No Element)	0	40	White	White	White
+218	Night Eternal Lv. 6	250	(No Element)	0	45	White	White	White
+219	Night Eternal Lv. 7	270	(No Element)	0	45	Purple	Purple	Purple
+220	Avidya Breaker Lv. 8	290	(No Element)	0	45	Purple	Purple	Purple
+221	Cactus Creamer Lv. 1	70	Poison	30	0	Green	Green	Green
+222	Cactus Creamer Lv. 2	100	Poison	35	0	Green	Green	Blue
+223	Cactus Creamer Lv. 3	130	Poison	38	0	Blue	Blue	White
+224	Green Monster Lv. 4	150	Poison	40	0	White	White	White
+225	Green Monster Lv. 5	180	Poison	42	0	White	White	Purple
+226	Toxic Cactus Lv. 6	270	Poison	45	0	Purple	Purple	Purple
+227	Black Frying Pan Lv. 1	90	Blast	4	0	Green	Green	Green
+228	Black Frying Pan Lv. 2	110	Blast	5	0	Green	Green	Blue
+229	Black Frying Pan Lv. 3	150	Blast	6	0	Green	Green	Blue
+230	True Black Frying Pan Lv. 4	170	Blast	8	0	Blue	Blue	White
+231	True Black Frying Pan Lv. 5	200	Blast	10	0	Blue	Blue	White
+232	Obsidian Frying Pan Lv. 6	290	Blast	15	0	Blue	White	White
+233	Pumpking Lv. 1	90	Fire	8	0	Green	Green	Green
+234	Pumpking Lv. 2	120	Fire	10	0	Green	Green	Green
+235	Pumpking Lv. 3	160	Fire	14	0	Green	Green	Blue
+236	Jack-'o-lantern King Lv. 4	180	Fire	16	0	Blue	Blue	White
+237	Jack-'o-lantern King Lv. 5	210	Fire	18	0	Blue	Blue	White
+238	Jack-'o-lantern King Lv. 6	240	Fire	20	0	Blue	White	White
+239	Magic Pumpking Lv. 7	300	Fire	23	0	White	White	White
+240	Airship Hammer Lv. 1	100	Blast	7	0	Green	Green	Green
+241	Airship Hammer Lv. 2	120	Blast	8	0	Green	Blue	Blue
+242	Airship Hammer Lv. 3	160	Blast	10	0	Green	Blue	Blue
+243	Zeppelin Hammer Lv. 4	200	Blast	12	0	Green	Blue	White
+244	Zeppelin Hammer Lv. 5	260	Blast	15	0	Blue	White	White
+245	Flight Hammer Lv. 6	320	Blast	18	0	Blue	White	White
+246	Gaiarch Lv. 1	90	Ice	14	0	Green	Green	Green
+247	Gaiarch Lv. 2	100	Ice	15	0	Green	Green	Green
+248	Gaiarch Lv. 3	130	Ice	16	10	Green	Blue	Blue
+249	Gaiarch Lv. 4	150	Ice	17	10	Blue	Blue	White
+250	Great Gaiarch Lv. 5	190	Ice	18	15	Blue	Blue	White
+251	Great Gaiarch Lv. 6	220	Ice	20	20	White	White	White
+252	Great Gaiarch Lv. 7	270	Ice	22	20	White	White	White
+253	Mother Gaiarch Lv. 8	300	Ice	25	25	White	White	White
+254	White Kitty Stamp Lv. 1	80	Para	12	5	Green	Green	Green
+255	White Kitty Stamp Lv. 2	100	Para	14	5	Green	Green	Green
+256	White Kitty Stamp Lv. 3	130	Para	16	10	Green	Green	Green
+257	White Kitty Hammer Lv. 4	140	Para	18	10	Blue	Blue	White
+258	White Kitty Hammer Lv. 5	180	Para	20	20	Blue	White	White
+259	White Kitty Crusher Lv. 6	280	Para	25	25	White	White	White
+260	Obsidian Hammer Lv. 1	140	(No Element)	0	0	Green	Blue	Blue
+261	Obsidian Hammer Lv. 2	150	(No Element)	0	0	Blue	Blue	White
+262	Obsidian Hammer Lv. 3	160	(No Element)	0	0	Blue	Blue	White
+263	Obsidian Hammer Lv. 4	180	(No Element)	0	0	Blue	Blue	White
+264	Obsidian Hammer Lv. 5	200	(No Element)	0	0	Blue	White	White
+265	Relic Hammer Lv. 6	220	(No Element)	0	0	Blue	White	White
+266	Relic Hammer Lv. 7	280	(No Element)	0	0	White	White	White
+267	Ethereal Sideros Lv. 8	330	(No Element)	0	0	White	Purple	Purple
+268	Anvil Hammer Lv. 1	120	(No Element)	0	0	Green	Green	Green
+269	Anvil Hammer Lv. 2	140	(No Element)	0	0	Green	Green	Green
+270	Anvil Hammer Lv. 3	150	(No Element)	0	0	Blue	Blue	Blue
+271	Anvil Hammer Lv. 4	170	(No Element)	0	0	Blue	Blue	White
+272	Onslaught Lv. 5	210	(No Element)	0	0	Blue	Blue	White
+273	Onslaught Lv. 6	250	(No Element)	0	0	Blue	White	White
+274	Onslaught Lv. 7	300	(No Element)	0	0	Blue	White	White
+275	Devastation Lv. 8	330	(No Element)	0	0	White	Purple	Purple
+276	Gun Hammer Lv. 1	80	Fire	18	0	Green	Green	Green
+277	Gun Hammer Lv. 2	120	Fire	20	0	Green	Green	Green
+278	Gun Hammer Lv. 3	130	Fire	22	0	Blue	Blue	Blue
+279	Gun Hammer Lv. 4	160	Fire	24	0	Blue	White	White
+280	Deadeye Revolver Lv. 5	200	Fire	26	0	Blue	White	White
+281	Deadeye Revolver Lv. 6	260	Fire	30	0	Blue	White	White
+282	Deadeye Revolver Lv. 7	280	Fire	32	0	Blue	White	White
+283	Burst Revolver Lv. 8	320	Fire	35	0	Blue	White	White
+284	Raven Torrent Lv. 1	110	(No Element)	0	20	Green	Green	Green
+285	Raven Torrent Lv. 2	120	(No Element)	0	20	Green	Green	Blue
+286	Raven Torrent Lv. 3	150	(No Element)	0	25	Blue	Blue	Blue
+287	Raven Torrent Lv. 4	160	(No Element)	0	25	Blue	Blue	White
+288	Wolf Torrent Lv. 5	190	(No Element)	0	25	Blue	White	White
+289	Wolf Torrent Lv. 6	270	(No Element)	0	25	White	White	White
+290	Crow Torrent Lv. 7	320	(No Element)	0	25	White	White	White
+291	Brazenclout Lv. 1	140	(No Element)	0	0	Yellow	Yellow	Yellow
+292	Brazenclout Lv. 2	150	(No Element)	0	0	Yellow	Green	Green
+293	Brazenclout Lv. 3	170	(No Element)	0	0	Yellow	Green	Green
+294	Brazenclout Lv. 4	190	(No Element)	0	0	Green	Green	Blue
+295	Gigas Hammer Lv. 5	240	(No Element)	0	0	Green	Blue	Blue
+296	Gigas Hammer Lv. 6	290	(No Element)	0	0	Green	Blue	Blue
+297	Grongigas Hammer Lv. 7	350	(No Element)	0	0	Green	Blue	White
+298	Red Bludgeon Lv. 1	100	Fire	32	5	Green	Green	Green
+299	Red Bludgeon Lv. 2	120	Fire	34	5	Green	Green	Blue
+300	Red Bludgeon Lv. 3	150	Fire	36	5	Green	Blue	Blue
+301	Red Bludgeon Lv. 4	180	Fire	38	5	Blue	Blue	Blue
+302	Huracan Hammer Lv. 5	200	Fire	40	5	Blue	Blue	White
+303	Huracan Hammer Lv. 6	270	Fire	43	5	Blue	White	White
+304	Huracan Hammer Lv. 7	290	Fire	45	5	White	White	White
+305	Rathalos Bludgeon Lv. 8	310	Fire	47	10	White	Purple	Purple
+306	Vortex Hammer Lv. 1	120	Thunder	10	0	Green	Green	Green
+307	Vortex Hammer Lv. 2	130	Thunder	12	0	Green	Green	Green
+308	Vortex Hammer Lv. 3	150	Thunder	14	0	Green	Green	Green
+309	Vortex Hammer Lv. 4	180	Thunder	16	0	Blue	Blue	Blue
+310	High Vortex Hammer Lv. 5	220	Thunder	18	0	Blue	White	White
+311	High Vortex Hammer Lv. 6	280	Thunder	20	0	Blue	White	White
+312	Giga Vortex Hammer Lv. 7	340	Thunder	23	0	White	White	White
+313	Usurper's Thunder Lv. 1	120	Thunder	26	0	Green	Green	Green
+314	Usurper's Thunder Lv. 2	130	Thunder	28	0	Green	Blue	Blue
+315	Usurper's Thunder Lv. 3	160	Thunder	30	0	Blue	Blue	Blue
+316	Despot's Crackle Lv. 4	200	Thunder	34	0	Blue	White	White
+317	Despot's Crackle Lv. 5	260	Thunder	36	0	White	White	Purple
+318	Despot's Crackle Lv. 6	290	Thunder	38	0	White	Purple	Purple
+319	Oppressor's Sway Lv. 7	320	Thunder	40	0	White	Purple	Purple
+320	Purity Hammer Lv. 1	130	Water	24	0	Green	Green	Green
+321	Purity Hammer Lv. 2	140	Water	26	0	Green	Green	Green
+322	Purity Hammer Lv. 3	150	Water	30	10	Green	Blue	Blue
+323	Purity Hammer Lv. 4	170	Water	32	10	Blue	White	White
+324	Purity Hammer Lv. 5	190	Water	34	10	Blue	White	White
+325	Sinter Hammer Lv. 6	200	Water	36	10	Blue	White	White
+326	Sinter Hammer Lv. 7	270	Water	38	10	White	White	White
+327	Sinter Hammer Lv. 8	290	Water	40	10	White	White	Purple
+328	Enlightenment Hammer Lv. 9	310	Water	42	10	White	Purple	Purple
+329	Emerald Beater Lv. 1	120	Thunder	24	15	Green	Green	Green
+330	Emerald Beater Lv. 2	130	Thunder	26	15	Green	Green	Blue
+331	Emerald Beater Lv. 3	150	Thunder	28	20	Blue	Blue	White
+332	Emerald Beater Lv. 4	160	Thunder	30	20	Blue	White	White
+333	Emerald Beater Lv. 5	170	Thunder	34	20	White	White	White
+334	Astalos Smasher Lv. 6	180	Thunder	36	20	White	White	White
+335	Astalos Smasher Lv. 7	250	Thunder	38	20	White	White	White
+336	Astalos Smasher Lv. 8	270	Thunder	40	20	Purple	Purple	Purple
+337	Astalos Striker Lv. 9	290	Thunder	42	20	Purple	Purple	Purple
+338	Giant's Hammer Lv. 1	140	Ice	14	-20	Green	Green	Green
+339	Giant's Hammer Lv. 2	150	Ice	16	-20	Green	Green	Blue
+340	Giant's Hammer Lv. 3	170	Ice	18	-20	Green	Blue	Blue
+341	Giant's Hammer Lv. 4	190	Ice	20	-20	Blue	Blue	Blue
+342	Giant's Hammer Lv. 5	210	Ice	22	-20	Blue	Blue	Blue
+343	Colossus's Hammer Lv. 6	230	Ice	24	-20	Blue	Blue	White
+344	Colossus's Hammer Lv. 7	300	Ice	26	-20	White	White	White
+345	Colossus's Hammer Lv. 8	320	Ice	28	-20	White	White	Purple
+346	Behemoth's Hammer Lv. 9	340	Ice	30	-20	White	White	Purple
+347	Scorching Isshata Lv. 1	130	Fire	24	0	Green	Green	Green
+348	Scorching Isshata Lv. 2	140	Fire	26	0	Green	Green	Green
+349	Scorching Isshata Lv. 3	160	Fire	28	0	Green	Green	Blue
+350	Scorching Isshata Lv. 4	180	Fire	30	0	Blue	Blue	Blue
+351	Scorching Isshata Lv. 5	200	Fire	32	0	Blue	Blue	White
+352	Glavenus's Uruga Lv. 6	210	Fire	34	0	Blue	White	White
+353	Glavenus's Uruga Lv. 7	280	Fire	36	0	White	White	White
+354	Glavenus's Uruga Lv. 8	300	Fire	38	0	White	White	White
+355	Glavenus's Uruga Nova Lv. 9	320	Fire	40	0	White	Purple	Purple
+356	Wuchtblick Lv. 1	120	Dragon	12	15	Blue	Blue	Blue
+357	Wuchtblick Lv. 2	130	Dragon	14	20	Blue	Blue	White
+358	Wuchtblick Lv. 3	150	Dragon	16	25	Blue	Blue	White
+359	Wuchtblick Lv. 4	170	Dragon	17	25	Blue	Blue	White
+360	Grimmblick Lv. 5	190	Dragon	18	25	Blue	White	White
+361	Grimmblick Lv. 6	290	Dragon	20	30	Blue	White	White
+362	Achtungsblick Lv. 7	320	Dragon	25	30	Blue	Purple	Purple
+363	Matraca Hammer Lv. 1	140	(No Element)	0	10	Blue	Blue	Blue
+364	Matraca Hammer Lv. 2	150	(No Element)	0	10	Blue	Blue	Blue
+365	Matraca Hammer Lv. 3	160	(No Element)	0	10	Blue	White	White
+366	Matraca Hammer Lv. 4	180	(No Element)	0	10	White	White	White
+367	Argyl Hammer Lv. 5	190	(No Element)	0	10	White	White	White
+368	Argyl Hammer Lv. 6	250	(No Element)	0	15	White	White	Purple
+369	Argyl Crusher Lv. 7	310	(No Element)	0	15	Purple	Purple	Purple
+370	Striped Striker Lv. 1	140	(No Element)	0	-25	Blue	Blue	Blue
+371	Striped Striker Lv. 2	180	(No Element)	0	-20	Blue	Blue	Blue
+372	Striped Striker Lv. 3	200	(No Element)	0	-20	Blue	Blue	White
+373	Tigrex Hammer Lv. 4	220	(No Element)	0	-15	White	White	White
+374	Tigrex Hammer Lv. 5	280	(No Element)	0	-15	White	White	White
+375	Tigrex Hammer Lv. 6	320	(No Element)	0	-10	White	White	White
+376	Huge Tigrex Hammer Lv. 7	340	(No Element)	0	-10	Purple	Purple	Purple
+377	Dios Tailhammer Lv. 1	120	Blast	15	0	Blue	Blue	Blue
+378	Dios Tailhammer Lv. 2	150	Blast	16	0	Blue	Blue	Blue
+379	Dios Tailhammer Lv. 3	170	Blast	17	0	Blue	Blue	White
+380	Dios Tailhammer Lv. 4	200	Blast	18	0	Blue	White	White
+381	Brachy Tailhammer Lv. 5	210	Blast	20	0	Blue	White	White
+382	Brachy Tailhammer Lv. 6	300	Blast	22	0	Blue	White	White
+383	Explosive Tailhammer Lv. 7	330	Blast	25	0	Blue	White	Purple
+384	Le Jugement Lv. 1	120	Dragon	18	45	Blue	Blue	White
+385	Le Jugement Lv. 2	130	Dragon	19	45	Blue	Blue	White
+386	Le Jugement Lv. 3	140	Dragon	20	50	White	White	White
+387	Le Jugement Lv. 4	150	Dragon	21	50	White	White	White
+388	La Naissance Lv. 5	160	Dragon	22	55	White	White	White
+389	La Naissance Lv. 6	220	Dragon	25	60	White	White	White
+390	La Naissance Lv. 7	250	Dragon	26	60	White	White	White
+391	La Terre Lv. 8	280	Dragon	28	60	White	Purple	Purple
+392	Genie's Expanse Lv. 1	110	Poison	23	0	Green	Green	Blue
+393	Genie's Expanse Lv. 2	120	Poison	25	0	Blue	Blue	White
+394	Genie's Expanse Lv. 3	160	Poison	28	0	Blue	White	White
+395	Diamalto's Dream Lv. 4	170	Poison	30	0	White	White	White
+396	Diamalto's Dream Lv. 5	250	Poison	32	0	White	White	White
+397	Diamgolgo's Phantasm Lv. 6	290	Poison	35	0	White	Purple	Purple
+398	Teostra Cratermaker Lv. 1	100	Blast	30	5	Green	Blue	Blue
+399	Teostra Cratermaker Lv. 2	110	Blast	35	5	Green	Blue	Blue
+400	Teostra Cratermaker Lv. 3	150	Blast	40	5	Blue	Blue	White
+401	Teostra Cratergouger Lv. 4	160	Blast	45	5	Blue	Blue	White
+402	Teostra Cratergouger Lv. 5	250	Blast	47	10	White	White	Purple
+403	Teostra del Torre Lv. 6	280	Blast	50	10	White	Purple	Purple
+404	Skeletal Hammer Lv. 1	160	Dragon	12	-25	Yellow	Yellow	Yellow
+405	Skeletal Hammer Lv. 2	180	Dragon	14	-25	Yellow	Green	Green
+406	Skeletal Hammer Lv. 3	230	Dragon	15	-25	Green	Green	Green
+407	Skeletal Hammer Lv. 4	250	Dragon	16	-25	Green	Green	Green
+408	Wicked Hammer Lv. 5	260	Dragon	18	-25	Green	Blue	Blue
+409	Wicked Hammer Lv. 6	330	Dragon	20	-20	Green	Blue	White
+410	Sadalmelik Hammer Lv. 7	380	Dragon	22	-20	Green	White	White
+411	Teddybear Lv. 1	100	Sleep	30	0	Green	Blue	Blue
+412	Teddybear Lv. 2	120	Sleep	38	0	Blue	White	White
+413	Sleepy Bear Lv. 3	150	Sleep	43	0	White	White	White
+414	Sleepy Bear Lv. 4	180	Sleep	45	0	White	White	Purple
+415	Dreamy Bear Lv. 5	250	Sleep	48	0	Purple	Purple	Purple
+416	Lobstrosity Lv. 1	110	Water	14	0	Green	Green	Green
+417	Lobstrosity Lv. 2	140	Water	17	0	Green	Green	Green
+418	Lobstrosity Lv. 3	180	Water	20	0	Green	Green	Blue
+419	King Lobstrosity Lv. 4	200	Water	23	0	Green	Blue	Blue
+420	King Lobstrosity Lv. 5	240	Water	25	0	Blue	Blue	White
+421	King Lobstrosity Lv. 6	260	Water	27	0	Blue	Blue	White
+422	Royal Lobstrosity Lv. 7	320	Water	30	0	Blue	Blue	White
+423	Egg Hammer Lv. 1	170	(No Element)	0	-40	Yellow	Green	Green
+424	Egg Hammer Lv. 2	180	(No Element)	0	-35	Green	Green	Green
+425	Egg Hammer Lv. 3	190	(No Element)	0	-30	Green	Green	Green
+426	Garga Hammer Lv. 4	210	(No Element)	0	-25	Green	Green	Blue
+427	Garga Hammer Lv. 5	250	(No Element)	0	-20	Green	Blue	Blue
+428	Gargegg Hammer Lv. 6	320	(No Element)	0	-20	Blue	White	White
+429	Graceful Death Lv. 1	100	Dragon	24	0	Green	Green	Green
+430	Graceful Death Lv. 2	130	Dragon	28	0	Green	Green	Green
+431	Graceful Death Lv. 3	150	Dragon	32	0	Green	Blue	Blue
+432	Yadora Morte Lv. 4	170	Dragon	35	0	Blue	Blue	White
+433	Yadora Morte Lv. 5	250	Dragon	37	0	White	White	White
+434	Dark Morte Lv. 6	310	Dragon	41	0	White	White	Purple
+435	Black Belt Hammer Lv. 1	120	(No Element)	0	0	Green	Green	Green
+436	Black Belt Hammer Lv. 2	130	(No Element)	0	0	Green	Green	Green
+437	Black Belt Hammer Lv. 3	140	(No Element)	0	0	Green	Green	Green
+438	Shihan Hammer Lv. 4	220	(No Element)	0	0	Green	Green	Blue
+439	Shihan Hammer Lv. 5	270	(No Element)	0	0	Blue	Blue	White
+440	Grandmaster Hammer Lv. 6	350	(No Element)	0	0	Blue	White	White
+441	Yukumo Purehammer Lv. 1	130	(No Element)	0	0	Green	Green	Green
+442	Yukumo Purehammer Lv. 2	150	(No Element)	0	0	Green	Green	Blue
+443	Yukumo Purehammer Lv. 3	170	(No Element)	0	0	Blue	Blue	White
+444	Yukumo Hammerfist Lv. 4	220	(No Element)	0	0	Blue	Blue	White
+445	Yukumo Hammerfist Lv. 5	290	(No Element)	0	0	White	White	White
+446	Yukumo Holy Hammer Lv. 6	340	(No Element)	0	0	White	White	Purple
+447	Black Hammer Lv. 1	100	Dragon	10	0	Green	Green	Blue
+448	Black Hammer Lv. 2	120	Dragon	12	0	Green	Green	Blue
+449	Black Hammer Lv. 3	140	Dragon	14	0	Green	Blue	Blue
+450	Black Hammer Lv. 4	180	Dragon	16	0	Green	Blue	Blue
+451	Onyx Hammer Lv. 5	210	Dragon	18	0	Green	Blue	White
+452	Onyx Hammer Lv. 6	280	Dragon	21	0	Blue	Blue	Purple
+453	Fatalis Buster Lv. 7	320	Dragon	23	0	Blue	Purple	Purple
+454	Breath Core Hammer Lv. 1	120	Dragon	28	0	Green	Green	Green
+455	Breath Core Hammer Lv. 2	140	Dragon	30	0	Green	Blue	Blue
+456	Lava Core Hammer Lv. 3	190	Dragon	33	0	White	White	White
+457	Lava Core Hammer Lv. 4	220	Dragon	35	0	White	Purple	Purple
+458	Crust Core Hammer Lv. 5	280	Dragon	40	0	White	Purple	Purple
+459	Fist of Fury Lv. 1	170	(No Element)	0	-20	Green	Green	Green
+460	Fist of Fury Lv. 2	210	(No Element)	0	-20	Green	Green	Blue
+461	Ancient Blow Lv. 3	250	(No Element)	0	-20	Green	Blue	Blue
+462	Ancient Blow Lv. 4	310	(No Element)	0	-20	Green	Blue	Blue
+463	Ancient Blow Lv. 5	340	(No Element)	0	-20	Blue	Blue	Blue
+464	Foolhardy Stone Fist Lv. 6	370	(No Element)	0	-20	Blue	Blue	White
+465	Iron Striker Lv. 1	140	(No Element)	0	0	Green	Blue	Blue
+466	Iron Striker Lv. 2	160	(No Element)	0	0	Green	Blue	Blue
+467	Iron Striker Lv. 3	180	(No Element)	0	0	Green	Blue	White
+468	Iron Impact Lv. 4	220	(No Element)	0	0	Green	Blue	White
+469	Iron Impact Lv. 5	280	(No Element)	0	0	Blue	Blue	White
+470	Iron Repellant Lv. 6	340	(No Element)	0	0	Blue	White	White
+471	Accelerated Hammer Lv. 1	150	Water	6	-10	Green	Green	Green
+472	Accelerated Hammer Lv. 2	170	Water	8	-10	Green	Green	Green
+473	Accelerated Hammer Lv. 3	200	Water	10	-5	Green	Blue	White
+474	Boosted Hammer Lv. 4	230	Water	12	-5	Blue	White	White
+475	Boosted Hammer Lv. 5	260	Water	13	-5	Blue	White	White
+476	Boosted Hammer Lv. 6	290	Water	14	-5	Blue	White	White
+477	Supersonic Hammer Lv. 7	330	Water	15	-5	Blue	White	White
+478	Meaty Smash Lv. 1	160	Ice	12	0	Green	Green	Green
+479	Meaty Smash Lv. 2	170	Ice	15	0	Green	Green	Green
+480	Meaty Smash Lv. 3	190	Ice	18	0	Green	Green	Blue
+481	Meaty Crush Lv. 4	220	Ice	20	0	Blue	White	White
+482	Meaty Crush Lv. 5	280	Ice	22	0	Blue	White	White
+483	Meaty Demolish Lv. 6	340	Ice	25	0	Blue	White	White
+484	Worn Hammer Lv. 1	110	(No Element)	0	-70	Orange	Orange	Orange
+485	Worn Hammer Lv. 2	110	(No Element)	0	-70	Orange	Orange	Orange
+486	Worn Hammer Lv. 3	110	(No Element)	0	-70	Yellow	Yellow	Yellow
+487	Worn Hammer Lv. 4	110	(No Element)	0	-70	Yellow	Yellow	Yellow
+488	Weathered Hammer Lv. 5	270	(No Element)	0	-70	Yellow	Blue	Blue
+489	Weathered Hammer Lv. 6	280	(No Element)	0	-70	Yellow	Green	Blue
+490	Aged Hammer Lv. 7	380	(No Element)	0	-70	Yellow	Blue	White
+491	Jail Hammer Lv. 1	130	Para	13	0	Green	Green	Blue
+492	Jail Hammer Lv. 2	150	Para	15	0	Blue	Blue	White
+493	Prison Hammer Lv. 3	170	Para	17	0	Blue	White	White
+494	Prison Hammer Lv. 4	200	Para	20	0	Blue	White	White
+495	Prison Hammer Lv. 5	260	Para	22	0	Blue	White	Purple
+496	Binder Mace Lv. 6	290	Para	25	0	Blue	Purple	Purple
+497	Carapace Hammer Lv. 1	160	(No Element)	0	-5	Green	Green	Blue
+498	Carapace Hammer Lv. 2	180	(No Element)	0	-5	Green	Blue	Blue
+499	Barroth Hammer Lv. 3	220	(No Element)	0	-5	Green	Blue	Blue
+500	Barroth Hammer Lv. 4	280	(No Element)	0	-5	Green	Blue	White
+501	Barroth Momentum Lv. 5	340	(No Element)	0	-5	Green	Blue	White
+502	Gigaton Hammer Lv. 1	160	(No Element)	0	0	Green	Green	Green
+503	Gigaton Hammer Lv. 2	180	(No Element)	0	0	Green	Green	Blue
+504	Titan Hammer Lv. 3	200	(No Element)	0	0	Green	Blue	Blue
+505	Titan Hammer Lv. 4	260	(No Element)	0	0	Blue	Blue	White
+506	Great Titan Lv. 5	320	(No Element)	0	0	Blue	White	White
+507	Cluster Hammer Lv. 1	140	Sleep	15	10	Green	Blue	White
+508	Cluster Hammer Lv. 2	150	Sleep	17	10	White	White	White
+509	Nerscrapper Lv. 3	170	Sleep	19	10	White	White	White
+510	Nerscrapper Lv. 4	210	Sleep	21	20	Purple	Purple	Purple
+511	Shadow Nerdirge Lv. 5	280	Sleep	23	20	Purple	Purple	Purple
+512	Devil Masher Lv. 1	120	Para	8	0	Green	Green	Green
+513	Devil Masher Lv. 2	140	Para	10	0	Green	Green	Blue
+514	Devil Masher Lv. 3	170	Para	12	0	Green	Green	Blue
+515	Iron Devil's Soul Lv. 4	190	Para	14	0	Green	Blue	White
+516	Iron Devil's Soul Lv. 5	240	Para	16	0	Blue	Blue	White
+517	Iron Devil's Soul Lv. 6	270	Para	18	0	Blue	White	White
+518	Iron Giant's Soul Lv. 7	300	Para	20	0	Blue	White	White
+519	War Stamp Lv. 1	160	(No Element)	0	0	Blue	Blue	White
+520	War Stamp Lv. 2	180	(No Element)	0	0	Blue	Blue	White
+521	War Basher Lv. 3	210	(No Element)	0	0	Blue	Blue	White
+522	War Basher Lv. 4	270	(No Element)	0	0	White	Purple	Purple
+523	Final Battle Lv. 5	330	(No Element)	0	0	White	White	Purple
+524	Meaty Press Lv. 1	150	Ice	42	0	Blue	Blue	White
+525	Meaty Press Lv. 2	160	Ice	47	0	White	White	White
+526	Pressure Cooker Lv. 3	170	Ice	50	0	White	White	White
+527	Pressure Cooker Lv. 4	230	Ice	52	0	White	White	White
+528	Pressure Cooker Lv. 5	260	Ice	54	0	White	White	Purple
+529	Morphing Brinicle Lv. 6	290	Ice	57	0	White	Purple	Purple
+530	Plesioth Head Lv. 1	160	Water	21	0	Green	Green	Green
+531	Plesioth Head Lv. 2	170	Water	24	0	Blue	Blue	White
+532	Plesioth Head Lv. 3	190	Water	28	0	Blue	Blue	White
+533	Plesioth Breaker Lv. 4	210	Water	32	0	Blue	White	White
+534	Plesioth Breaker Lv. 5	270	Water	35	0	Blue	White	White
+535	Plesioth Breaker Lv. 6	300	Water	37	0	Blue	White	White
+536	Tidal Rampage Lv. 7	330	Water	40	0	White	White	White
+537	Black Kitty Stamp Lv. 1	110	Para	32	0	Green	Green	Blue
+538	Black Kitty Stamp Lv. 2	120	Para	35	0	Green	Blue	Blue
+539	Black Kitty Hammer Lv. 3	130	Para	38	0	Blue	Blue	Blue
+540	Black Kitty Hammer Lv. 4	190	Para	40	0	Blue	White	White
+541	Black Kitty Crusher Lv. 5	260	Para	45	0	White	Purple	Purple
+542	Enormous Ham Lv. 1	170	Fire	10	-40	Green	Green	Green
+543	Enormous Ham Lv. 2	180	Fire	12	-40	Green	Green	Green
+544	Ham of Hams Lv. 3	190	Fire	13	-40	Green	Green	Blue
+545	Ham of Hams Lv. 4	250	Fire	15	-30	Green	Blue	Blue
+546	Hamageddon Lv. 5	310	Fire	18	-30	Blue	White	White
+547	One Star Silver Pot Lv. 1	130	Sleep	16	0	Green	Green	Green
+548	One Star Silver Pot Lv. 2	140	Sleep	18	0	Green	Green	Blue
+549	Two Star Silver Pot Lv. 3	160	Sleep	20	0	Blue	Blue	White
+550	Two Star Silver Pot Lv. 4	220	Sleep	23	0	Blue	Blue	White
+551	Two Star Silver Pot Lv. 5	250	Sleep	25	0	Blue	White	White
+552	Five Star Silver Pot Lv. 6	280	Sleep	27	0	White	White	Purple
+553	Basarios Blow Lv. 1	160	(No Element)	0	0	Green	Blue	Blue
+554	Basarios Blow Lv. 2	180	(No Element)	0	0	Blue	Blue	White
+555	Basarios Bash Lv. 3	210	(No Element)	0	0	Blue	Blue	White
+556	Basarios Bash Lv. 4	270	(No Element)	0	0	Blue	White	White
+557	Basarios Blast Lv. 5	330	(No Element)	0	0	White	White	Purple
+558	Shell Hammer Lv. 1	160	Poison	6	0	Green	Green	Blue
+559	Shell Hammer Lv. 2	180	Poison	8	0	Blue	Blue	Blue
+560	Graviton Hammer Lv. 3	190	Poison	10	0	Blue	White	White
+561	Graviton Hammer Lv. 4	250	Poison	12	0	Blue	White	White
+562	Crater Maker Lv. 5	320	Poison	15	0	Blue	White	Purple
+563	Shot Crusher Lv. 1	150	Fire	46	0	Blue	Blue	White
+564	Shot Crusher Lv. 2	160	Fire	48	0	Blue	Blue	White
+565	Burning Crusher Lv. 3	180	Fire	50	0	Blue	Blue	White
+566	Burning Crusher Lv. 4	290	Fire	52	0	Blue	White	Purple
+567	Steel Crusher Lv. 5	310	Fire	55	0	White	White	Purple
+568	Vile Torrent Lv. 1	150	Poison	12	20	Blue	White	White
+569	Vile Torrent Lv. 2	160	Poison	13	25	Blue	White	White
+570	Garuga Effusion Lv. 3	170	Poison	15	25	Blue	White	White
+571	Garuga Effusion Lv. 4	260	Poison	17	25	White	White	Purple
+572	Garuga Effusion Lv. 5	280	Poison	19	25	White	White	Purple
+573	Occult Effusion Lv. 6	310	Poison	22	25	White	White	Purple
+574	Nitro Boost Hammer Lv. 1	170	Water	20	0	Green	Blue	Blue
+575	Nitro Boost Hammer Lv. 2	180	Water	24	0	Blue	Blue	White
+576	Overclocker Lv. 3	190	Water	27	0	Blue	Blue	White
+577	Overclocker Lv. 4	250	Water	30	0	Blue	White	White
+578	Logicbreaker Lv. 5	310	Water	33	0	White	White	Purple
+579	Vortical Hammer Lv. 1	160	Thunder	28	5	Blue	Blue	White
+580	Vortical Hammer Lv. 2	170	Thunder	30	5	Blue	White	White
+581	Vortastrophe Lv. 3	190	Thunder	32	5	Blue	White	White
+582	Vortastrophe Lv. 4	270	Thunder	35	10	White	White	White
+583	Vortastrophe Lv. 5	280	Thunder	37	10	White	Purple	Purple
+584	Apocalyptex Lv. 6	300	Thunder	40	15	White	Purple	Purple
+585	Seditious Hammer Lv. 1	160	(No Element)	0	20	White	White	White
+586	Seditious Hammer Lv. 2	170	(No Element)	0	20	White	White	White
+587	Qadar Sedition Lv. 3	180	(No Element)	0	20	White	White	White
+588	Qadar Sedition Lv. 4	230	(No Element)	0	25	White	White	White
+589	Qadar Sedition Lv. 5	260	(No Element)	0	25	Purple	Purple	Purple
+590	Sedition Crusher Lv. 6	300	(No Element)	0	25	Purple	Purple	Purple
+591	Jupiter's Sphere Lv. 1	190	(No Element)	0	0	Blue	Blue	Blue
+592	Jupiter's Sphere Lv. 2	210	(No Element)	0	0	Blue	Blue	White
+593	Duramboros Fellmace Lv. 3	220	(No Element)	0	0	Blue	White	White
+594	Duramboros Fellmace Lv. 4	300	(No Element)	0	0	Blue	White	White
+595	Duramboros Fellmaul Lv. 5	340	(No Element)	0	0	White	White	White
+596	Demolition Hammer Lv. 1	170	Blast	26	0	Blue	Blue	Blue
+597	Demolition Hammer Lv. 2	180	Blast	27	0	Blue	Blue	White
+598	Novagio Demolisher Lv. 3	190	Blast	28	0	Blue	Blue	White
+599	Novagio Demolisher Lv. 4	290	Blast	30	0	White	White	White
+600	Novagio Demolisher Lv. 5	300	Blast	32	0	White	White	Purple
+601	Novagio Annihilator Lv. 6	310	Blast	35	0	White	Purple	Purple
+602	Mane Malice Lv. 1	170	Thunder	15	-20	Blue	Blue	White
+603	Mane Malice Lv. 2	180	Thunder	18	-20	Blue	White	White
+604	Mane Malice Lv. 3	190	Thunder	24	-15	Blue	White	White
+605	Mane Malice Rajang Lv. 4	200	Thunder	28	-15	Blue	White	White
+606	Mane Malice Rajang Lv. 5	300	Thunder	30	-10	Blue	White	White
+607	Mane Master Rajang Lv. 6	320	Thunder	32	-5	Blue	White	White
+608	Devil's Due Lv. 1	180	Dragon	10	5	Blue	Blue	White
+609	Devil's Due Lv. 2	190	Dragon	14	5	Blue	Blue	White
+610	Devil's Crush Lv. 3	200	Dragon	18	5	Blue	Blue	White
+611	Devil's Crush Lv. 4	290	Dragon	20	10	White	White	White
+612	Nero's Chaos Lv. 5	320	Dragon	21	10	White	Purple	Purple
+613	Anchor Hammer Lv. 1	150	Water	34	0	Blue	Blue	White
+614	Anchor Hammer Lv. 2	160	Water	36	0	Blue	White	White
+615	Anchor Crusher Lv. 3	170	Water	38	0	Blue	White	White
+616	Anchor Crusher Lv. 4	230	Water	40	0	Blue	White	White
+617	Deep-Sea Anchor Lv. 5	290	Water	43	0	White	White	Purple
+618	Portsmark Lv. 1	160	(No Element)	0	10	Green	Blue	White
+619	Portsmark Lv. 2	170	(No Element)	0	15	Blue	Blue	White
+620	Port Talisman Lv. 3	180	(No Element)	0	20	Blue	White	White
+621	Port Talisman Lv. 4	240	(No Element)	0	20	White	White	White
+622	Tanzia Memories Lv. 5	300	(No Element)	0	20	White	Purple	Purple
+623	Arluq Whammer Lv. 1	140	Dragon	10	0	Blue	Blue	Blue
+624	Arluq Whammer Lv. 2	160	Dragon	13	0	Blue	Blue	White
+625	Swinging Scarluq Lv. 3	180	Dragon	15	0	Blue	Blue	White
+626	Swinging Scarluq Lv. 4	240	Dragon	18	0	Blue	White	Purple
+627	Eternal Arluq Lv. 5	300	Dragon	20	0	White	White	Purple
+628	Pride of Harth Lv. 1	180	(No Element)	0	10	Green	Green	Green
+629	Pride of Harth Lv. 2	190	(No Element)	0	10	Green	Green	Green
+630	Joy of Harth Lv. 3	200	(No Element)	0	10	Green	Green	Blue
+631	Joy of Harth Lv. 4	280	(No Element)	0	15	Blue	White	White
+632	Skill of Harth Lv. 5	310	(No Element)	0	15	Blue	White	Purple
+633	Expert Hammer Lv. 1	170	(No Element)	0	0	Blue	Blue	Blue
+634	Expert Hammer Lv. 2	190	(No Element)	0	0	Blue	Blue	Blue
+635	Warrior's Hammer Lv. 3	200	(No Element)	0	0	Blue	Blue	White
+636	Warrior's Hammer Lv. 4	280	(No Element)	0	0	Blue	Blue	White
+637	Unrivaled Hammer Lv. 5	320	(No Element)	0	0	Blue	Purple	Purple
+638	Pulsating Core Lv. 1	180	Dragon	35	-10	Blue	White	White
+639	Pulsating Core Lv. 2	190	Dragon	36	-10	Blue	White	White
+640	Pulse Crusher Core Lv. 3	200	Dragon	38	-10	Blue	White	White
+641	Pulse Crusher Core Lv. 4	260	Dragon	40	-10	White	White	White
+642	Meteoric Core Lv. 5	310	Dragon	43	-5	White	White	White
+643	Research Hammer Lv. 1	180	(No Element)	0	15	Blue	Blue	White
+644	Discovery Hammer Lv. 2	200	(No Element)	0	15	White	White	White
+645	Discovery Hammer Lv. 3	230	(No Element)	0	20	White	White	Purple
+646	Discovery Hammer Lv. 4	280	(No Element)	0	20	Purple	Purple	Purple
+647	Authority Globus Lv. 5	300	(No Element)	0	25	Purple	Purple	Purple
+648	Crystal Hammer Lv. 1	190	(No Element)	0	0	Green	Blue	Blue
+649	Crystal Nova Lv. 2	210	(No Element)	0	0	Green	Blue	Blue
+650	Crystal Nova Lv. 3	240	(No Element)	0	0	Blue	Blue	White
+651	Crystal Nova Lv. 4	270	(No Element)	0	0	White	White	Purple
+652	Crystal Galaxia Lv. 5	330	(No Element)	0	0	White	Purple	Purple
+653	Thunder Works Lv. 1	150	Thunder	15	30	Blue	Blue	White
+654	Thunder Works Lv. 2	160	Thunder	16	30	White	White	White
+655	Giga Thunder Works Lv. 3	170	Thunder	18	30	White	White	White
+656	Giga Thunder Works Lv. 4	260	Thunder	20	35	White	White	White
+657	Dengeki Hammer Lv. 5	290	Thunder	22	35	White	White	White
+658	Demon Visage Lv. 1	260	(No Element)	0	-70	Green	Green	Green
+659	Demon Visage Lv. 2	270	(No Element)	0	-70	Green	Green	Green
+660	Demon Incarnate Lv. 3	280	(No Element)	0	-70	Green	Green	Green
+661	Demon Incarnate Lv. 4	340	(No Element)	0	-70	Green	Blue	Blue
+662	Demon Grief Lv. 5	370	(No Element)	0	-70	Green	Blue	Blue
+663	Icesteel Hammer Lv. 1	160	Ice	20	0	Blue	White	White
+664	Icesteel Hammer Lv. 2	170	Ice	24	0	Blue	White	White
+665	Daora's Colossus Lv. 3	180	Ice	28	0	White	White	White
+666	Daora's Colossus Lv. 4	280	Ice	30	0	White	White	White
+667	Daora's Hyperborea Lv. 5	300	Ice	33	0	White	White	Purple
+668	Leonid Starcrusher Lv. 1	160	Fire	40	10	Blue	Blue	Blue
+669	Leonid Starcrusher Lv. 2	170	Fire	42	10	Blue	Blue	White
+670	Svarog Starsmasher Lv. 3	190	Fire	44	10	Blue	Blue	White
+671	Svarog Starsmasher Lv. 4	290	Fire	48	15	Blue	White	White
+672	Shamash Starbuster Lv. 5	310	Fire	50	15	White	White	Purple
+673	Demonlord Hammer Lv. 1	170	Thunder	30	-10	White	White	White
+674	Demonlord Hammer Lv. 2	180	Thunder	31	-10	White	White	White
+675	Demonlord Sledge Lv. 3	190	Thunder	32	-10	White	White	White
+676	Demonlord Sledge Lv. 4	290	Thunder	35	-10	White	White	White
+677	Demonlord Maul Lv. 5	310	Thunder	37	-10	Purple	Purple	Purple
+678	Consummate Hammer Lv. 1	170	Dragon	20	0	White	White	White
+679	Consummate Hammer Lv. 2	180	Dragon	22	0	White	White	White
+680	Doomhammer 'Blood' Lv. 3	190	Dragon	24	0	White	White	White
+681	Doomhammer 'Blood' Lv. 4	280	Dragon	26	0	White	White	White
+682	Guilthammer 'Troll' Lv. 5	310	Dragon	27	0	White	White	Purple
+683	Ukanlos Trampler Lv. 1	250	Ice	16	-25	Green	Green	Green
+684	Ukanlos Trampler Lv. 2	250	Ice	18	-25	Green	Green	Blue
+685	Ukanlos Skysmasher Lv. 3	250	Ice	20	-20	Green	Green	Blue
+686	Ukanlos Skysmasher Lv. 4	330	Ice	22	-20	Blue	Blue	Blue
+687	Ukanlos Earthsmasher Lv. 5	360	Ice	25	-20	Blue	Blue	White
+688	Incubus Hammer Lv. 1	200	Water	12	-20	Blue	Blue	Blue
+689	Incubus Hammer Lv. 2	220	Water	14	-20	Blue	Blue	Blue
+690	Imminent Dawn Lv. 3	240	Water	16	-20	Blue	Blue	White
+691	Imminent Dawn Lv. 4	320	Water	18	-20	White	White	White
+692	Heaven Render Lv. 5	360	Water	20	-20	White	White	White
+693	Polaris Hammer Lv. 1	170	Dragon	8	0	Blue	Blue	Blue
+694	Polaris Hammer Lv. 2	180	Dragon	10	0	Blue	Blue	White
+695	Cosmic Hammer Lv. 3	190	Dragon	13	0	White	White	White
+696	Cosmic Hammer Lv. 4	280	Dragon	15	0	White	White	White
+697	Sirius Hammer Lv. 5	310	Dragon	17	0	Purple	Purple	Purple
+698	Alatreon Hammer Lv. 1	180	Dragon	35	0	Blue	White	White
+699	Alatreon Hammer Lv. 2	180	Dragon	37	0	White	White	White
+700	Alatreon Metamorph Lv. 3	180	Dragon	40	0	White	White	White
+701	Alatreon Metamorph Lv. 4	270	Dragon	42	0	Purple	Purple	Purple
+702	Altheos Morphexo Lv. 5	290	Dragon	43	0	Purple	Purple	Purple
+703	Silverwing Hammer Lv. 1	160	Dragon	30	0	White	White	White
+704	Dragonstar Nox Lv. 2	180	Dragon	33	0	White	White	White
+705	Dragonstar Nox Lv. 3	220	Dragon	35	0	White	White	White
+706	Dragonstar Nox Lv. 4	250	Dragon	41	0	White	White	White
+707	Dragonstar Nox Lv. 5	270	Dragon	43	0	White	White	White
+708	Magnastar Maknox Lv. 6	290	Dragon	44	0	White	White	White
+709	Elder Hammer Lv. 1	260	(No Element)	0	0	White	White	White
+710	Sage Hammer Lv. 2	280	(No Element)	0	0	White	White	White
+711	Philosopher Hammer Lv. 3	320	(No Element)	0	0	White	White	White
+712	Blacksmith Lv. 1	260	(No Element)	0	0	White	White	Purple
+713	Juggernaut Lv. 2	280	(No Element)	0	0	White	White	Purple
+714	Anvil Splitter Lv. 3	340	(No Element)	0	0	White	White	Purple
+715	Barroth Martello Lv. 1	270	(No Element)	0	-10	Blue	Blue	White
+716	Barroth Basher Lv. 2	290	(No Element)	0	-10	Blue	White	White
+717	Barroth Grandbasher Lv. 3	310	(No Element)	0	-10	Blue	White	White
+718	Cluster Musterer Lv. 1	190	Sleep	26	10	White	White	Purple
+719	Master Musterer Lv. 2	220	Sleep	28	10	White	White	Purple
+720	Buster Musterer Lv. 3	260	Sleep	30	10	White	Purple	Purple
+721	Memento Volare Lv. 1	230	Sleep	21	0	Blue	Blue	White
+722	Volare Select Lv. 2	270	Sleep	23	0	Blue	White	White
+723	Bon Voyage Lv. 3	300	Sleep	25	0	Blue	White	White
+724	Archambra Fellmace Lv. 1	280	(No Element)	0	0	Blue	White	White
+725	Archambra Resurgence Lv. 2	300	(No Element)	0	0	White	White	Purple
+726	Archambra Immensity Lv. 3	320	(No Element)	0	0	White	Purple	Purple
+727	Grinsen/Froncement Lv. 1	290	Dragon	18	-40/20	White	White	White
+728	Segen/Malediction Lv. 2	300	Dragon	19	-40/20	White	White	Purple
+729	Vergehen/Naissance Lv. 3	310	Dragon	20	-40/20	White	White	Purple
+730	Lightbreak Hammer Lv. 1	260	Blast	40	0	White	White	White
+731	Lightbreak Pulverizer Lv. 2	280	Blast	42	0	White	White	Purple
+732	Lightbreak Grinder Lv. 3	300	Blast	45	0	White	Purple	Purple
+733	Dragon Destroyer Lv. 1	280	Dragon	41	0	White	White	White
+734	Dragonbreaker Lv. 2	290	Dragon	43	0	White	White	Purple
+735	Dark Punisher Lv. 3	300	Dragon	45	0	White	Purple	Purple
+736	Goldhammer Lv. 1	310	(No Element)	0	0	Purple	Purple	Purple
+737	Inscribed Hathor Lv. 2	320	(No Element)	0	0	Purple	Purple	Purple
+738	Ba'alat Gebal Lv. 3	330	(No Element)	0	0	Purple	Purple	Purple
+739	Fatalis Smasher Lv. 1	310	Blast	26	0	Blue	White	White
+740	Fatalis Finisher Lv. 2	320	Blast	28	0	White	White	White
+741	Fatalis Destroyer Lv. 3	330	Blast	30	0	White	Purple	Purple
+742	Old Fatalis Buster Lv. 1	270	Dragon	69	0	Blue	White	White
+743	Old Fatalis Breaker Lv. 2	280	Dragon	71	0	White	White	White
+744	Old Fatalis Ruiner Lv. 3	290	Dragon	73	0	White	Purple	Purple
+745	Pincher Hammer Lv. 1	100	Water	15	5	Green	Green	Green
+746	Pincher Hammer Lv. 2	110	Water	16	5	Green	Green	Blue
+747	Pincher Hammer Lv. 3	120	Water	17	5	Green	Green	Blue
+748	Pincher Hammer Lv. 4	130	Water	18	10	Green	Blue	Blue
+749	Pincher Hammer Lv. 5	140	Water	19	10	Green	Blue	Blue
+750	Pincher Hammer Lv. 6	150	Water	20	10	Blue	Blue	Blue
+751	Pincher Hammer Lv. 7	160	Water	21	10	Blue	Blue	White
+752	Pincher Hammer Lv. 8	170	Water	22	10	Blue	Blue	White
+753	Pincher Hammer Lv. 9	180	Water	23	10	Blue	White	White
+754	Stonefist Hammer Lv. 10	190	Water	24	10	Blue	White	White
+755	Stonefist Hammer Lv. 11	210	Water	26	10	Blue	White	White
+756	Stonefist Hammer Lv. 12	230	Water	27	10	Blue	White	White
+757	Stonefist Hammer Lv. 13	300	Water	28	10	Blue	White	White
+758	Stonefist Hammer Lv. 14	320	Water	29	10	Blue	White	Purple
+759	Stonefist Gigahammer Lv. 15	340	Water	30	10	Blue	White	Purple
+760	Nightfall Hammer Lv. 1	140	(No Element)	0	10	White	White	White
+761	Nightfall Hammer Lv. 2	140	(No Element)	0	10	White	White	White
+762	Nightfall Hammer Lv. 3	150	(No Element)	0	10	White	White	White
+763	Nightfall Hammer Lv. 4	160	(No Element)	0	10	White	White	White
+764	Nightfall Hammer Lv. 5	160	(No Element)	0	10	White	White	White
+765	Nightfall Hammer Lv. 6	170	(No Element)	0	10	White	White	White
+766	Nightfall Hammer Lv. 7	180	(No Element)	0	10	White	White	White
+767	Nightfall Hammer Lv. 8	180	(No Element)	0	10	White	White	White
+768	Nightfall Hammer Lv. 9	190	(No Element)	0	10	White	White	White
+769	Silverwind Hammer Lv. 10	190	(No Element)	0	15	White	White	White
+770	Silverwind Hammer Lv. 11	220	(No Element)	0	15	Purple	Purple	Purple
+771	Silverwind Hammer Lv. 12	240	(No Element)	0	15	Purple	Purple	Purple
+772	Silverwind Hammer Lv. 13	260	(No Element)	0	20	Purple	Purple	Purple
+773	Silverwind Hammer Lv. 14	280	(No Element)	0	20	Purple	Purple	Purple
+774	Daybreak Hammer Lv. 15	300	(No Element)	0	20	Purple	Purple	Purple
+775	Geode Hammer Lv. 1	150	(No Element)	0	5	Green	Green	Blue
+776	Geode Hammer Lv. 2	150	(No Element)	0	5	Green	Green	Blue
+777	Geode Hammer Lv. 3	160	(No Element)	0	5	Green	Green	Blue
+778	Geode Hammer Lv. 4	170	(No Element)	0	5	Green	Green	Blue
+779	Geode Hammer Lv. 5	180	(No Element)	0	5	Green	Green	Blue
+780	Geode Hammer Lv. 6	180	(No Element)	0	5	Green	Blue	Blue
+781	Geode Hammer Lv. 7	190	(No Element)	0	5	Green	Blue	Blue
+782	Geode Hammer Lv. 8	200	(No Element)	0	5	Green	Blue	Blue
+783	Geode Hammer Lv. 9	210	(No Element)	0	5	Green	Blue	Blue
+784	Crystalbeard Hammer Lv. 10	220	(No Element)	0	5	Green	Blue	Blue
+785	Crystalbeard Hammer Lv. 11	300	(No Element)	0	5	Green	Blue	Blue
+786	Crystalbeard Hammer Lv. 12	330	(No Element)	0	5	Green	Blue	Blue
+787	Crystalbeard Hammer Lv. 13	350	(No Element)	0	5	Green	Blue	Blue
+788	Crystalbeard Hammer Lv. 14	370	(No Element)	0	5	Green	Blue	Blue
+789	Diamante Hammer Lv. 15	380	(No Element)	0	5	Green	Blue	Blue
+790	Hardened Hammer Lv. 1	160	(No Element)	0	10	Blue	Blue	White
+791	Hardened Hammer Lv. 2	160	(No Element)	0	10	Blue	Blue	White
+792	Hardened Hammer Lv. 3	170	(No Element)	0	10	Blue	Blue	White
+793	Hardened Hammer Lv. 4	170	(No Element)	0	10	Blue	White	White
+794	Hardened Hammer Lv. 5	180	(No Element)	0	10	Blue	White	White
+795	Hardened Hammer Lv. 6	180	(No Element)	0	10	Blue	White	White
+796	Hardened Hammer Lv. 7	190	(No Element)	0	10	Blue	White	White
+797	Hardened Hammer Lv. 8	190	(No Element)	0	10	Blue	White	White
+798	Hardened Hammer Lv. 9	200	(No Element)	0	10	Blue	White	White
+799	Deadeye Hammer Lv. 10	210	(No Element)	0	10	Blue	White	White
+800	Deadeye Hammer Lv. 11	270	(No Element)	0	15	White	White	White
+801	Deadeye Hammer Lv. 12	280	(No Element)	0	15	White	White	White
+802	Deadeye Hammer Lv. 13	290	(No Element)	0	15	White	White	White
+803	Deadeye Hammer Lv. 14	300	(No Element)	0	20	White	White	White
+804	Deadeye Trouble Lv. 15	320	(No Element)	0	20	White	Purple	Purple
+805	Tomb Hammer Lv. 1	160	Fire	33	5	Green	Blue	Blue
+806	Tomb Hammer Lv. 2	160	Fire	34	5	Green	Blue	Blue
+807	Tomb Hammer Lv. 3	160	Fire	35	5	Green	Blue	Blue
+808	Tomb Hammer Lv. 4	170	Fire	36	5	Green	Blue	Blue
+809	Tomb Hammer Lv. 5	170	Fire	37	5	Blue	White	White
+810	Tomb Hammer Lv. 6	170	Fire	38	5	Blue	White	White
+811	Tomb Hammer Lv. 7	180	Fire	39	5	Blue	White	White
+812	Tomb Hammer Lv. 8	180	Fire	40	5	Blue	White	White
+813	Tomb Hammer Lv. 9	180	Fire	41	5	Blue	White	White
+814	Dreadking Hammer Lv. 10	190	Fire	42	5	Blue	White	White
+815	Dreadking Hammer Lv. 11	240	Fire	44	10	White	White	White
+816	Dreadking Hammer Lv. 12	260	Fire	45	10	White	White	White
+817	Dreadking Hammer Lv. 13	270	Fire	46	10	White	White	White
+818	Dreadking Hammer Lv. 14	290	Fire	47	10	White	White	White
+819	Dreadking Mace Lv. 15	300	Fire	48	10	White	Purple	Purple
+820	Raiden Hammer Lv. 1	160	Thunder	31	10	Green	Blue	Blue
+821	Raiden Hammer Lv. 2	160	Thunder	32	10	Green	Blue	Blue
+822	Raiden Hammer Lv. 3	160	Thunder	33	10	Green	Blue	Blue
+823	Raiden Hammer Lv. 4	170	Thunder	34	10	Green	Blue	Blue
+824	Raiden Hammer Lv. 5	170	Thunder	35	10	Blue	White	White
+825	Raiden Hammer Lv. 6	170	Thunder	36	10	Blue	White	White
+826	Raiden Hammer Lv. 7	180	Thunder	37	10	Blue	White	White
+827	Raiden Hammer Lv. 8	180	Thunder	38	10	Blue	White	White
+828	Raiden Hammer Lv. 9	180	Thunder	39	10	Blue	White	White
+829	Thunderlord Hammer Lv. 10	190	Thunder	40	10	Blue	White	White
+830	Thunderlord Hammer Lv. 11	250	Thunder	42	10	White	White	White
+831	Thunderlord Hammer Lv. 12	260	Thunder	43	10	White	White	White
+832	Thunderlord Hammer Lv. 13	270	Thunder	44	10	White	White	White
+833	Thunderlord Hammer Lv. 14	290	Thunder	45	10	White	White	White
+834	Thundergod Hammer Lv. 15	300	Thunder	46	10	White	Purple	Purple
+835	Seize Hammer Lv. 1	170	(No Element)	0	10	White	White	White
+836	Seize Hammer Lv. 2	170	(No Element)	0	10	White	White	White
+837	Seize Hammer Lv. 3	170	(No Element)	0	10	White	White	White
+838	Seize Hammer Lv. 4	180	(No Element)	0	10	White	White	White
+839	Seize Hammer Lv. 5	180	(No Element)	0	10	White	White	White
+840	Seize Hammer Lv. 6	180	(No Element)	0	10	White	White	White
+841	Seize Hammer Lv. 7	190	(No Element)	0	10	White	White	White
+842	Seize Hammer Lv. 8	190	(No Element)	0	10	White	White	White
+843	Seize Hammer Lv. 9	190	(No Element)	0	10	White	White	White
+844	Grimclaw Hammer Lv. 10	200	(No Element)	0	10	White	White	White
+845	Grimclaw Hammer Lv. 11	270	(No Element)	0	10	White	White	White
+846	Grimclaw Hammer Lv. 12	280	(No Element)	0	10	White	White	White
+847	Grimclaw Hammer Lv. 13	290	(No Element)	0	10	Purple	Purple	Purple
+848	Grimclaw Hammer Lv. 14	300	(No Element)	0	10	Purple	Purple	Purple
+849	Grimclaw Beater Lv. 15	310	(No Element)	0	10	Purple	Purple	Purple
+850	Magma Hammer Lv. 1	170	Blast	16	5	Blue	Blue	Blue
+851	Magma Hammer Lv. 2	170	Blast	17	5	Blue	Blue	Blue
+852	Magma Hammer Lv. 3	170	Blast	18	5	Blue	Blue	Blue
+853	Magma Hammer Lv. 4	180	Blast	19	5	Blue	Blue	Blue
+854	Magma Hammer Lv. 5	180	Blast	20	5	Blue	Blue	Blue
+855	Magma Hammer Lv. 6	180	Blast	21	5	Blue	Blue	White
+856	Magma Hammer Lv. 7	190	Blast	22	5	White	White	White
+857	Magma Hammer Lv. 8	190	Blast	23	5	White	White	White
+858	Magma Hammer Lv. 9	190	Blast	24	5	White	White	White
+859	Hellblade Hammer Lv. 10	200	Blast	25	5	White	White	White
+860	Hellblade Hammer Lv. 11	260	Blast	26	5	Purple	Purple	Purple
+861	Hellblade Hammer Lv. 12	270	Blast	27	5	Purple	Purple	Purple
+862	Hellblade Hammer Lv. 13	280	Blast	28	5	Purple	Purple	Purple
+863	Hellblade Hammer Lv. 14	290	Blast	29	5	Purple	Purple	Purple
+864	Lavaflow Hammer Lv. 15	300	Blast	30	5	Purple	Purple	Purple
+865	Razor Smasher Lv. 1	250	(No Element)	0	5	White	White	White
+866	Razor Smasher Lv. 2	270	(No Element)	0	5	White	White	White
+867	Breakneck Smasher Lv. 3	290	(No Element)	0	5	White	White	Purple
+868	Breakneck Smasher Lv. 4	310	(No Element)	0	5	White	White	Purple
+869	Rustrazor Smasher Lv. 5	330	(No Element)	0	5	White	Purple	Purple
+870	Last Bastion Lv. 1	240	Water	31	15	White	White	White
+871	Last Bastion Lv. 2	260	Water	32	15	White	White	White
+872	Stardust Hammer Lv. 3	280	Water	33	15	White	White	White
+873	Stardust Hammer Lv. 4	300	Water	34	20	White	White	Purple
+874	Diviner's Soulrock Lv. 5	310	Water	35	20	White	Purple	Purple
+875	Zephra Beater Lv. 1	230	Thunder	17	30	Purple	Purple	Purple
+876	Zephra Beater Lv. 2	240	Thunder	18	30	Purple	Purple	Purple
+877	Boltreaver Arges Lv. 3	250	Thunder	19	35	Purple	Purple	Purple
+878	Boltreaver Arges Lv. 4	270	Thunder	20	35	Purple	Purple	Purple
+879	Boltreaver Zilarge Lv. 5	280	Thunder	21	40	Purple	Purple	Purple
+880	Elderfrost Hammer Lv. 1	330	Ice	13	5	Green	Green	Blue
+881	Elderfrost Hammer Lv. 2	340	Ice	14	5	Green	Blue	Blue
+882	Elderfrost Mauler Lv. 3	350	Ice	15	5	Green	Blue	Blue
+883	Elderfrost Mauler Lv. 4	360	Ice	16	5	Green	Blue	White
+884	Elderfrost Grandslam Lv. 5	370	Ice	17	5	Green	Blue	White

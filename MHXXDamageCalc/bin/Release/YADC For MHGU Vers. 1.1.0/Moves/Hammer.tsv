@@ -1,0 +1,77 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Draw Swing	X	20	1	Impact	1	1	15	10		No	No	
+1	Strong Pound	X	40	1	Impact	1	1	15	15		No	No	
+2	Side Swing	A	15	1	Impact	1	1	22	5		No	No	
+3	Weak Pound	X X	20	1	Impact	1	1	15	15		No	No	
+4	Golf Swing	X X X	90	1	Impact	1	1	50	10		No	No	
+5	Charge 1	R	25	1	Impact	1	1	15	15		No	No	
+6	Charge 1 Followup	R X	20	1	Impact	1	1	15	10		No	No	
+7	Charge 2	R	40	1	Impact	1	1	40	10		No	No	
+8	Charge 3	R	91	2	Impact	1	1	32	45		No	No	
+9	Charge 3 (Side Swing)	R	15	1	Impact	1	1	5	5		No	No	
+10	Charge 3 (Slam)	R	76	1	Impact	1	1	27	40		Yes	No	
+11	Charge 3 Spin (Hit 1)	Dir. R	20	1	Impact	1	1	5	5		Yes	No	
+12	Charge 3 Spin (Hits 2-5)	Dir. R	10	1	Impact	1	1	5	5		Yes	No	
+13	Charge 3 Finisher	Dir. R	40	1	Impact	1	1	20	22		Yes	No	
+14	Spinning Hook	R+Dir. X	60	1	Impact	1	1	40	10		No	No	
+15	Spinning Golf Swing	R+Dir. X	90	1	Impact	1	1	50	10		No	No	
+16	Jumping Swing	X	40	1	Impact	1	1	15	10		Yes	Yes	
+17	Jumping Charge 1	R	65	1	Impact	1	1	40	10		Yes	Yes	
+18	Jumping Charge 2	R	70	1	Impact	1	1	40	10		Yes	Yes	
+19	Jumping Charge 3	R	80	1	Impact	1	1	40	10		Yes	Yes	
+20	Striker Power Pound	X X X	60	1	Impact	1	1	40	10		No	No	
+21	Striker Charge 3	R	105	2	Impact	1	1	32	45		No	No	
+22	Striker Charge 3 (Side Swing)	R	19	1	Impact	1	1	5	5		No	No	
+23	Striker Charge 3 (Slam)	R	86	1	Impact	1	1	27	40		Yes	No	
+24	Aerial Smash	X	42	1	Impact	1	1	15	10		Yes	Yes	
+25	Aerial Double Down	A	85	2	Impact	1	1	70	30		Yes	Yes	95 (40+55) -> 85 (35+50)
+26	Aerial Double Down (Hit 1)	A	35	1	Impact	1	1	15	10		Yes	Yes	
+27	Aerial Double Down (Hit 2)	A	50	1	Impact	1	1	55	20		Yes	Yes	
+28	Aerial Double Down	A	95	2	Impact	1	1	70	30		Yes	Yes	
+29	Aerial Double Down (Hit 1)	A	40	1	Impact	1	1	15	10		Yes	Yes	
+30	Aerial Double Down (Hit 2)	A	55	1	Impact	1	1	55	20		Yes	Yes	
+31	Adept Rushing Swing	X	38	1	Impact	1	1	15	15		No	No	
+32	Adept Strong Charge 1	R	50	1	Impact	1	1	45	10		No	No	
+33	Adept Strong Charge 2	R	60	1	Impact	1	1	55	15		No	No	
+34	Adept Strong Charge 3	R	110	2	Impact	1	1	37	65		No	No	
+35	Adept Strong Charge 3 (Hit 1)	R	20	1	Impact	1	1	10	10		No	No	
+36	Adept Strong Charge 3 (Hit 2)	R	90	1	Impact	1	1	27	55		No	No	
+37	Adept Moving Charge 3	R	100	2	Impact	1	1	37	55		No	No	
+38	Adept Moving Charge 3 (Hit 1)	R	20	1	Impact	1	1	10	10		No	No	
+39	Adept Moving Charge 3 (Hit 2)	R	80	1	Impact	1	1	27	45		No	No	
+40	Adept Jumping Charge 1	R	75	1	Impact	1	1	45	10		Yes	Yes	
+41	Adept Jumping Charge 2	R	80	1	Impact	1	1	45	10		Yes	Yes	
+42	Adept Jumping Charge 3	R	90	1	Impact	1	1	45	10		Yes	Yes	
+43	Valor Stance Hook	Y+X	70	1	Impact	1	1	40	10		No	No	
+44	Valor 1st Charge 1	R	25	1	Impact	1	1	15	15		No	No	
+45	Valor 1st Charge 2	R	40	1	Impact	1	1	40	10		No	No	
+46	Valor 2nd Charge 1	R	45	1	Impact	1	1	35	10		No	No	
+47	Valor 2nd Charge 2	R	65	1	Impact	1	1	45	15		No	No	
+48	Valor 3rd Charge 1	R	100	2	Impact	1	1	60	30		No	No	
+49	Valor 3rd Charge 1 (Hit 1)	R	15	1	Impact	1	1	10	5		No	No	
+50	Valor 3rd Charge 1 (Hit 2)	R	85	1	Impact	1	1	50	25		No	No	
+51	Valor 3rd Charge 2	R	125	2	Impact	1	1	70	35		No	No	
+52	Valor 3rd Charge 2 (Hit 1)	R	20	1	Impact	1	1	10	5		No	No	
+53	Valor 3rd Charge 2 (Hit 2)	R	105	1	Impact	1	1	60	30		No	No	
+54	Valor Jumping 1st Charge 1	R	65	1	Impact	1	1	40	10		Yes	Yes	
+55	Valor Jumping 1st Charge 2	R	70	1	Impact	1	1	40	10		Yes	Yes	
+56	Valor Jumping 2nd Charge 1	R	75	1	Impact	1	1	45	10		Yes	Yes	
+57	Valor Jumping 2nd Charge 2	R	80	1	Impact	1	1	45	10		Yes	Yes	
+58	Valor Jumping 3rd Charge 1	R	90	1	Impact	1	1	50	10		Yes	Yes	
+59	Valor Jumping 3rd Charge 2	R	100	1	Impact	1	1	50	10		Yes	Yes	
+60	Spinning Meteor I		165	4	Impact	1	1	55	70		Yes	No	
+61	Spinning Meteor II		200	5	Impact	1	1	70	85		Yes	No	
+62	Spinning Meteor III		260	6	Impact	1	1	85	110		Yes	No	
+63	Spinning Meteor (Swings)		20	1	Impact	1	1	15	15		Yes	No	
+64	Spinning Meteor (Setup Hit)		15	1	Impact	1	1	10	10		Yes	No	
+65	Spinning Meteor I (Finisher)		110	1	Impact	1	1	15	30		Yes	No	
+66	Spinning Meteor II (Finisher)		125	1	Impact	1	1	15	30		Yes	No	
+67	Spinning Meteor III (Finisher)		165	1	Impact	1	1	15	40		Yes	No	
+68	Provoke (Swing)		45	1	Impact	1	1	15	15		Yes	No	
+69	Typhoon Trigger (Swings 1-3)		5	1	Impact	1	1	2	4		Yes	No	
+70	Typhoon Trigger (Swings 4-6)		5	1	Impact	1	1	2	2		Yes	No	
+71	Typhoon Trigger (Setup Swing)		20	1	Impact	1	1	40	10		Yes	No	
+72	Typhoon Trigger Finisher 1		50	1	Impact	1	1	60	20		Yes	No	
+73	Typhoon Trigger Finisher 2		60	1	Impact	1	1	100	25		Yes	No	
+74	Typhoon Trigger Finisher 3		80	1	Impact	1	1	125	30		Yes	No	
+75	Impact Press Shockwaves		6	1	Impact	1	1	12	4		Yes	No	

@@ -1,0 +1,53 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Draw Slam	X	25	1	Cut	1	1	0	0		No	No	
+1	Long Reach	Dir. X	12	1	Cut	1	1	0	0		No	No	
+2	Sweep n' Swipe	X	40	2	Cut	1	1	0	0		No	No	
+3	Sweep n' Swipe	X	23	1	Cut	1	1	0	0		No	No	
+4	Sweep n' Swipe	X	17	1	Cut	1	1	0	0		No	No	
+5	Wide Sweep	A	23	1	Cut	1	1	0	0		No	No	
+6	Down Swipe	X X	21	1	Cut	1	1	0	0		No	No	
+7	Double Lateral	X X X	36	2	Cut	1	1	0	0		No	No	
+8	Double Lateral (Hit 1)	X X X	15	1	Cut	1	1	0	0		No	No	
+9	Double Lateral (Hit 2)	X X X	21	1	Cut	1	1	0	0		No	No	
+10	Forward Slam	A A	27	1	Cut	1	1	0	0		No	No	
+11	Backflip	Back A	17	1	Cut	1	1	0	0		No	No	
+12	Jump Strike	X	21	1	Cut	1	1	0	0		Yes	Yes	
+13	Marker Bash	X R	10	1	Cut	1	1	0	0		No	No	
+14	Long Swipes	Dir. X	24	2	Cut	1	1	0	0		No	No	Red Extract Required.
+15	Long Swipes (Hit 1)	Dir. X	15	1	Cut	1	1	0	0		No	No	Red Extract Required.
+16	Long Swipes (Hit 2)	Dir. X	9	1	Cut	1	1	0	0		No	No	Red Extract Required.
+17	Double Down	X X	36	2	Cut	1	1	0	0		No	No	Red Extract Required.
+18	Double Down (Hit 1)	X X	13	1	Cut	1	1	0	0		No	No	Red Extract Required.
+19	Double Down (Hit 2)	X X	23	1	Cut	1	1	0	0		No	No	Red Extract Required.
+20	Upswings	X	53	3	Cut	1	1	0	0		No	No	Red Extract Required.
+21	Upswings (Hit 1)	X	25	1	Cut	1	1	0	0		No	No	Red Extract Required.
+22	Upswings (Hit 2)	X	13	1	Cut	1	1	0	0		No	No	Red Extract Required.
+23	Upswings (Hit 3)	X	15	1	Cut	1	1	0	0		No	No	Red Extract Required.
+24	Triple Roundhouse	X X X	49	3	Cut	1	1	0	0		No	No	Red Extract Required.
+25	Triple Roundhouse (Hit 1)	X X X	13	1	Cut	1	1	0	0		No	No	Red Extract Required.
+26	Triple Roundhouse (Hit 2)	X X X	11	1	Cut	1	1	0	0		No	No	Red Extract Required.
+27	Triple Roundhouse (Hit 3)	X X X	25	1	Cut	1	1	0	0		No	No	Red Extract Required.
+28	Double Roundhouse	A	42	2	Cut	1	1	0	0		No	No	Red Extract Required.
+29	Double Roundhouse (Hit 1)	A	15	1	Cut	1	1	0	0		No	No	Red Extract Required.
+30	Double Roundhouse (Hit 2)	A	27	1	Cut	1	1	0	0		No	No	Red Extract Required.
+31	Double Lunge	A A	56	2	Cut	1	1	0	0		No	No	Red Extract Required.
+32	Double Lunge (Hit 1)	A A	21	1	Cut	1	1	0	0		No	No	Red Extract Required.
+33	Double Lunge (Hit 2)	A A	35	1	Cut	1	1	0	0		No	No	Red Extract Required.
+34	Super Backflip	X Back A	26	2	Cut	1	1	0	0		No	No	Red Extract Required.
+35	Super Backflip (Individual Hits)	X Back A	13	1	Cut	1	1	0	0		No	No	Red Extract Required.
+36	Double Jumping Strikes	R+B X	24	2	Cut	1	1	0	0		Yes	Yes	Red Extract Required.
+37	Double Jumping Strikes (Hit 1)	R+B X	17	1	Cut	1	1	0	0		Yes	Yes	Red Extract Required.
+38	Double Jumping Strikes (Hit 2)	R+B X	7	1	Cut	1	1	0	0		Yes	Yes	Red Extract Required.
+39	Aerial Spin Assault	R+B X	17	1	Cut	1	1	0	0		Yes	Yes	Red Extract Required.
+40	Swarm		5	1	Cut	1	1	0	0		Yes	No	
+41	Swarm (+Red Extract)		6	1	Cut	1	1	0	0		Yes	No	Red Extract Required.
+42	Bug Blow I		100	3	Cut	1	1	0	0		Yes	No	
+43	Bug Blow II		125	3	Cut	1	1	0	0		Yes	No	
+44	Bug Blow III		140	3	Cut	1	1	0	0		Yes	No	
+45	Bug Blow (Initial Hits)		10	1	Cut	1	1	0	0		Yes	No	
+46	Bug Blow I (Finisher)		80	1	Cut	1	1	0	0		Yes	Yes	
+47	Bug Blow II (Finisher)		105	1	Cut	1	1	0	0		Yes	Yes	
+48	Bug Blow III (Finisher)		120	1	Cut	1	1	0	0		Yes	Yes	
+49	Bug Blow + Swarm I		90	1	Cut	1	1	0	0		Yes	Yes	
+50	Bug Blow + Swarm II		120	1	Cut	1	1	0	0		Yes	Yes	
+51	Bug Blow + Swarm III		150	1	Cut	1	1	0	0		Yes	Yes	

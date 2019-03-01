@@ -1,0 +1,7 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head	63	70	80	30	5	0	5	5	150	100
+1	Neck	75	50	50	25	5	0	5	5	0	100
+2	Body	45	45	25	25	5	0	5	5	0	100
+3	Feet	25	20	35	15	5	0	5	5	0	100
+4	Tail	20	20	30	20	5	0	5	5	0	100
+5	Wings	25	25	25	20	5	0	5	5	0	200

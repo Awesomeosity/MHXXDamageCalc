@@ -1,0 +1,17 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head (Cooled)	20	20	15	10	30	15	25	0	100	100
+1	Neck (Cooled)	20	20	15	10	15	0	15	0	0	100
+2	Chest (Cooled)	15	15	15	10	25	10	20	0	0	100
+3	Forelegs (Cooled)	15	15	15	10	20	0	20	0	0	100
+4	Hind Legs (Cooled)	20	20	15	10	20	5	15	0	0	100
+5	Stomach (Cooled)	15	15	15	10	20	0	15	0	0	100
+6	Tail (Cooled)	20	24	20	5	15	10	10	20	0	100
+7	Back (Cooled)	15	15	15	10	20	0	15	0	0	100
+8	Head (Heated)	55	60	50	0	30	25	20	35	100	100
+9	Neck (Heated)	40	35	30	0	15	10	15	20	0	100
+10	Chest (Heated)	50	45	45	0	25	20	20	30	0	100
+11	Forelegs (Heated)	40	44	35	0	20	10	15	30	0	100
+12	Hind Legs (Heated)	35	30	25	0	20	15	15	25	0	100
+13	Stomach (Heated)	35	35	25	0	20	10	15	25	0	100
+14	Tail (Heated)	35	24	20	5	15	10	10	20	0	100
+15	Back (Heated)	35	35	25	0	20	10	15	25	0	100

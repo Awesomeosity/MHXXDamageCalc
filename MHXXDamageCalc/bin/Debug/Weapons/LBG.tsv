@@ -1,0 +1,704 @@
+ID	name	raw	affinity
+0	Petrified Shooter Lv. 1	80	0
+1	Petrified Shooter Lv. 2	90	0
+2	Petrified Shooter Lv. 3	100	0
+3	Petrified Shooter Lv. 4	110	0
+4	Petrified Shooter Lv. 5	130	0
+5	Petrified Shooter Lv. 6	150	0
+6	Petrified Shooter Lv. 7	190	0
+7	Scholarly Shooter Lv. 8	210	0
+8	Scholarly Shooter Lv. 9	250	0
+9	Scholarly Shooter Lv. 10	290	0
+10	Sophos Shooter Lv. 11	330	0
+11	Hunter's Rifle Lv. 1	70	0
+12	Hunter's Rifle Lv. 2	80	0
+13	Hunter's Rifle Lv. 3	110	0
+14	Hunter's Rifle Lv. 4	120	0
+15	Hunter's Rifle Lv. 5	140	0
+16	Hunter's Rifle Lv. 6	170	0
+17	Hunter's Rifle Lv. 7	200	0
+18	Sniper Shot Lv. 8	200	0
+19	Sniper Shot Lv. 9	230	10
+20	Sniper Shot Lv. 10	260	10
+21	Sniper Ascension Lv. 11	320	20
+22	Cross Bowgun Lv. 1	80	0
+23	Cross Bowgun Lv. 2	90	0
+24	Cross Bowgun Lv. 3	100	0
+25	Cross Bowgun Lv. 4	110	0
+26	Cross Bowgun Lv. 5	130	0
+27	Cross Bowgun Lv. 6	150	0
+28	Cross Bowgun Lv. 7	200	0
+29	Cross Blitz Lv. 8	220	0
+30	Cross Blitz Lv. 9	250	0
+31	Cross Blitz Lv. 10	280	0
+32	Cross Blitzkreig Lv. 11	340	0
+33	Shotgun (White) Lv. 1	90	10
+34	Shotgun (White) Lv. 2	110	10
+35	Shotgun (White) Lv. 3	120	10
+36	Shotgun (White) Lv. 4	150	10
+37	Shotgun (White) Lv. 5	160	10
+38	Bullet Rain (White) Lv. 6	200	10
+39	Bullet Rain (White) Lv. 7	230	15
+40	Bullet Storm (White) Lv. 8	310	15
+41	Striped Shell Lv. 1	100	0
+42	Striped Shell Lv. 2	110	0
+43	Striped Shell Lv. 3	140	0
+44	Striped Shell Lv. 4	170	0
+45	Daimyo Pincer Lv. 5	200	0
+46	Daimyo Pincer Lv. 6	230	0
+47	Daimyo Crusher Lv. 7	320	0
+48	Quill Burst Lv. 1	100	0
+49	Quill Burst Lv. 2	110	0
+50	Quill Burst Lv. 3	150	0
+51	Quill Burst Lv. 4	170	0
+52	Quill Burst Lv. 5	200	0
+53	Plume Burst Lv. 6	210	0
+54	Plume Burst Lv. 7	240	0
+55	Plume Burst Lv. 8	270	0
+56	Pinion Burst Lv. 9	320	0
+57	Kut-Ku Anger Lv. 1	120	0
+58	Kut-Ku Anger Lv. 2	130	0
+59	Kut-Ku Anger Lv. 3	140	0
+60	Kut-Ku Anger Lv. 4	170	0
+61	Kut-Ku Anger Lv. 5	190	0
+62	Kut-Ku Counterattack Lv. 6	200	0
+63	Kut-Ku Counterattack Lv. 7	230	0
+64	Kut-Ku Rampage Lv. 8	320	0
+65	Yukumo Light Bowgun Lv. 1	110	0
+66	Yukumo Light Bowgun Lv. 2	120	0
+67	Yukumo Light Bowgun Lv. 3	140	0
+68	Yukumo Light Bowgun Lv. 4	180	0
+69	Yukumo Shooter Lv. 5	200	0
+70	Yukumo Shooter Lv. 6	230	0
+71	Yukumo Shooter Lv. 7	280	0
+72	Hot Spring Shooter Lv. 8	320	0
+73	Yakt Shooter Lv. 1	140	10
+74	Yakt Shooter Lv. 2	150	10
+75	Yakt Shooter Lv. 3	190	10
+76	Wyvern Chaser Lv. 4	210	10
+77	Wyvern Chaser Lv. 5	270	15
+78	Dark Hunter Lv. 6	330	15
+79	Shotgun (Viper) Lv. 1	130	0
+80	Shotgun (Viper) Lv. 2	150	0
+81	Shotgun (Viper) Lv. 3	180	0
+82	Bullet Rain (Viper) Lv. 4	200	0
+83	Bullet Rain (Viper) Lv. 5	260	0
+84	Bullet Storm (Viper) Lv. 6	320	0
+85	Scale Tornado Lv. 1	130	0
+86	Scale Tornado Lv. 2	150	0
+87	Scale Tornado Lv. 3	180	0
+88	Uroktor Vortex Lv. 4	200	0
+89	Uroktor Vortex Lv. 5	260	0
+90	Uroktor Tempest Lv. 6	320	0
+91	Khezu Syringe Lv. 1	120	0
+92	Khezu Syringe Lv. 2	140	0
+93	Khezu Syringe Lv. 3	160	0
+94	Khezu Syringe Lv. 4	200	0
+95	Khezu Hypo Lv. 5	210	0
+96	Khezu Hypo Lv. 6	270	0
+97	Hyodermic Miracle Lv. 7	330	0
+98	Royal Launcher Lv. 1	120	0
+99	Royal Launcher Lv. 2	140	0
+100	Royal Launcher Lv. 3	150	0
+101	Royal Launcher Lv. 4	190	0
+102	Royal Torrent Lv. 5	200	0
+103	Royal Torrent Lv. 6	230	0
+104	Royal Torrent Lv. 7	260	0
+105	Royal Tempest Lv. 8	320	0
+106	Tail String Lv. 1	130	0
+107	Tail String Lv. 2	160	0
+108	Tail String Lv. 3	170	0
+109	Tail String Lv. 4	190	0
+110	Tail Catapult Lv. 5	200	0
+111	Tail Catapult Lv. 6	260	0
+112	Tail Launcher Lv. 7	320	0
+113	Hidden Eye Lv. 1	120	40
+114	Hidden Eye Lv. 2	130	40
+115	Hidden Eye Lv. 3	140	40
+116	Hidden Eye Lv. 4	150	40
+117	Night Owl Lv. 5	190	40
+118	Night Owl Lv. 6	240	40
+119	Night Owl Lv. 7	270	40
+120	Avidya Eye Lv. 8	300	40
+121	Demon's Isle Lv. 1	130	0
+122	Demon's Isle Lv. 2	150	0
+123	Demon's Isle Lv. 3	160	0
+124	Demon's Isle Lv. 4	190	0
+125	Demon's Island Lv. 5	200	0
+126	Demon's Island Lv. 6	230	0
+127	Demon's Island Lv. 7	260	0
+128	Demon's Archipelago Lv. 8	320	0
+129	Felyne Ragdoll Lv. 1	120	0
+130	Felyne Ragdoll Lv. 2	130	0
+131	Felyne Ragdoll Lv. 3	140	0
+132	Felyne Ragdoll Lv. 4	170	0
+133	Felyne Helldoll Lv. 5	190	0
+134	Felyne Helldoll Lv. 6	250	0
+135	Felyne Heavendoll Lv. 7	310	0
+136	Melynx Ragdoll Lv. 1	120	30
+137	Melynx Ragdoll Lv. 2	130	30
+138	Melynx Ragdoll Lv. 3	150	30
+139	Melynx Ragdoll Lv. 4	180	30
+140	Melynx Helldoll Lv. 5	190	30
+141	Melynx Helldoll Lv. 6	250	30
+142	Melynx Heavendoll Lv. 7	310	30
+143	Kettleblower Lv. 1	160	0
+144	Kettleblower Lv. 2	190	0
+145	Kettleblower Deluxe Lv. 3	210	0
+146	Kettleblower Deluxe Lv. 4	270	0
+147	Master Kettleblower Lv. 5	300	0
+148	Lobster Gun Lv. 1	160	0
+149	Lobster Gun Lv. 2	200	0
+150	King Lobster Gun Lv. 3	210	0
+151	King Lobster Gun Lv. 4	290	0
+152	King Lobster Gun Lv. 5	300	0
+153	Royal Lobster Gun Lv. 6	330	0
+154	Black Belt Bowgun Lv. 1	130	0
+155	Black Belt Bowgun Lv. 2	150	0
+156	Black Belt Bowgun Lv. 3	190	0
+157	Shihan Bowgun Lv. 4	210	0
+158	Shihan Bowgun Lv. 5	260	0
+159	Grandmaster Bowgun Lv. 6	320	0
+160	Fiossidare Lv. 1	140	10
+161	Fiossidare Lv. 2	150	10
+162	Fiossidare Lv. 3	180	15
+163	Sparkling Blossom Lv. 4	200	15
+164	Sparkling Blossom Lv. 5	260	15
+165	Floral Elegance Lv. 6	320	15
+166	Beast Sniper Lv. 1	140	0
+167	Beast Sniper Lv. 2	160	0
+168	Beast Sniper Lv. 3	190	0
+169	Beast Blaster Lv. 4	200	0
+170	Beast Blaster Lv. 5	280	0
+171	Beast Sharpshooter Lv. 6	320	0
+172	Springnight Shot Lv. 1	130	0
+173	Springnight Shot Lv. 2	150	0
+174	Springnight Shot Lv. 3	180	0
+175	Springnight Spawn Lv. 4	200	0
+176	Springnight Spawn Lv. 5	260	0
+177	Springnight Finshot Lv. 6	320	0
+178	Airship Gun Lv. 1	140	0
+179	Airship Gun Lv. 2	150	0
+180	Airship Gun Lv. 3	180	0
+181	Airship Cannon Lv. 4	200	0
+182	Airship Cannon Lv. 5	230	0
+183	Airship Blaster Lv. 6	320	0
+184	Veiled Bell Lv. 1	100	10
+185	Veiled Bell Lv. 2	120	10
+186	Veiled Bell Lv. 3	150	10
+187	High Plains Bell Lv. 4	160	10
+188	High Plains Bell Lv. 5	180	20
+189	Reverb Bell Lv. 6	270	20
+190	Eldra Musket Lv. 1	130	10
+191	Eldra Musket Lv. 2	150	15
+192	Eldra Musket Lv. 3	190	20
+193	Lost Musket Lv. 4	210	30
+194	Lost Musket Lv. 5	270	30
+195	Lost Xanadu Lv. 6	330	30
+196	Obsidian Shooter Lv. 1	150	0
+197	Obsidian Shooter Lv. 2	170	0
+198	Obsidian Shooter Lv. 3	200	0
+199	Relic Debonia Lv. 4	220	0
+200	Relic Debonia Lv. 5	280	0
+201	Ethereal Debonia Lv. 6	340	0
+202	Raven Do Lv. 1	150	5
+203	Raven Do Lv. 2	160	5
+204	Raven Do Lv. 3	170	5
+205	Raven Do Lv. 4	190	5
+206	Wolf Do Lv. 5	210	5
+207	Wolf Do Lv. 6	290	10
+208	Crow Do Lv. 7	320	10
+209	Valkyrie Fire Lv. 1	120	0
+210	Valkyrie Fire Lv. 2	130	0
+211	Valkyrie Fire Lv. 3	140	0
+212	Valkyrie Fire Lv. 4	150	0
+213	Valkyrie Fire Lv. 5	170	0
+214	Valkyrie Fire Lv. 6	200	0
+215	Valkyrie Fire Lv. 7	210	0
+216	Valkyrie Blaze Lv. 8	220	0
+217	Valkyrie Blaze Lv. 9	280	0
+218	Valkyrie Blaze Lv. 10	310	0
+219	Fierce Moss Green Lv. 11	340	0
+220	Rathling Gun Lv. 1	140	0
+221	Rathling Gun Lv. 2	150	0
+222	Rathling Gun Lv. 3	170	0
+223	Rathling Gun Lv. 4	190	0
+224	Rathling Gun Lv. 5	200	0
+225	Rathling Phoenix Lv. 6	210	0
+226	Rathling Phoenix Lv. 7	280	0
+227	Rathling Phoenix Lv. 8	300	0
+228	Eternal Rathling Phoenix Lv. 9	330	0
+229	Usurper's Crime Lv. 1	150	10
+230	Usurper's Crime Lv. 2	170	10
+231	Usurper's Crime Lv. 3	190	10
+232	Usurper's Crime Lv. 4	200	10
+233	Despot's Wildfire Lv. 5	220	10
+234	Despot's Wildfire Lv. 6	280	15
+235	Despot's Wildfire Lv. 7	310	15
+236	Oppressor's Rift Lv. 8	330	20
+237	Desolate Mist Lv. 1	150	0
+238	Desolate Mist Lv. 2	170	0
+239	Desolate Mist Lv. 3	200	0
+240	Nifl Mist Lv. 4	210	0
+241	Nifl Mist Lv. 5	280	0
+242	Nifl Mist Lv. 6	300	0
+243	Encroaching Mist Lv. 7	330	0
+244	Astalos Gun Lv. 1	150	0
+245	Astalos Gun Lv. 2	170	0
+246	Astalos Gun Lv. 3	200	0
+247	Astalos Shocker Lv. 4	210	0
+248	Astalos Shocker Lv. 5	280	0
+249	Astalos Shocker Lv. 6	300	0
+250	Astalos Flashblaster Lv. 7	330	0
+251	Giant's Blaster Lv. 1	160	0
+252	Giant's Blaster Lv. 2	180	0
+253	Giant's Blaster Lv. 3	220	0
+254	Colossus's Blaster Lv. 4	240	0
+255	Colossus's Blaster Lv. 5	300	0
+256	Colossus's Blaster Lv. 6	320	0
+257	Behemoth's Blaster Lv. 7	340	0
+258	Burning Answer Lv. 1	150	0
+259	Burning Answer Lv. 2	170	0
+260	Burning Answer Lv. 3	210	0
+261	Glavenus Shot Lv. 4	220	0
+262	Glavenus Shot Lv. 5	290	0
+263	Glavenus Shot Lv. 6	310	0
+264	Glavenus Shotanova Lv. 7	340	0
+265	Faulnisschleuder Lv. 1	140	20
+266	Faulnisschleuder Lv. 2	150	20
+267	Faulnisschleuder Lv. 3	180	20
+268	Wahnschleuder Lv. 4	200	20
+269	Wahnschleuder Lv. 5	290	30
+270	Teufelsschleuder Lv. 6	320	30
+271	Rasasa Bowgun Lv. 1	150	10
+272	Rasasa Bowgun Lv. 2	160	10
+273	Rasasa Bowgun Lv. 3	210	10
+274	Rebel Stopper Lv. 4	220	10
+275	Rebel Stopper Lv. 5	300	15
+276	No Resistance Lv. 6	320	20
+277	Tigrex Tank Lv. 1	170	-20
+278	Tigrex Tank Lv. 2	180	-20
+279	Tigrex Tank Lv. 3	200	-20
+280	Tigrex Wargun Lv. 4	220	-10
+281	Tigrex Wargun Lv. 5	290	-10
+282	Tigrex Wargun Lv. 6	310	-10
+283	Great Tigrex Wargun Lv. 7	340	-10
+284	Mythical Three-Horn Lv. 1	140	0
+285	Mythical Three-Horn Lv. 2	160	0
+286	Mythical Three-Horn Lv. 3	180	0
+287	Mythical Three-Evils Lv. 4	200	0
+288	Mythical Three-Evils Lv. 5	290	0
+289	Mythical Three-Legs Lv. 6	320	0
+290	Dios Blaster Lv. 1	150	0
+291	Dios Blaster Lv. 2	170	0
+292	Dios Blaster Lv. 3	200	0
+293	Cobalt Blaster Lv. 4	210	0
+294	Cobalt Blaster Lv. 5	290	0
+295	Meteoric Cobalt Lv. 6	320	0
+296	Blessed Lamp Lv. 1	140	30
+297	Blessed Lamp Lv. 2	180	30
+298	Blessed Lamp Lv. 3	200	30
+299	Cursed Lamp Lv. 4	210	30
+300	Cursed Lamp Lv. 5	290	35
+301	Genie's Lamp Lv. 6	320	35
+302	Skeletal Bowgun Lv. 1	160	0
+303	Skeletal Bowgun Lv. 2	170	0
+304	Skeletal Bowgun Lv. 3	210	0
+305	Mysterious Husk Lv. 4	220	0
+306	Mysterious Husk Lv. 5	310	0
+307	Acubens Shooter Lv. 6	340	0
+308	Black Parasol Lv. 1	150	0
+309	Black Parasol Lv. 2	170	0
+310	Black Parasol Lv. 3	190	0
+311	Onyx Parasol Lv. 4	200	0
+312	Onyx Parasol Lv. 5	290	0
+313	Fatalis Parasol Lv. 6	330	0
+314	Shotgun (Azure) Lv. 1	160	20
+315	Shotgun (Azure) Lv. 2	180	20
+316	Shotgun (Azure) Lv. 3	190	20
+317	Bullet Rain (Azure) Lv. 4	200	20
+318	Bullet Rain (Azure) Lv. 5	260	20
+319	Bullet Storm (Azure) Lv. 6	310	20
+320	Shotgun (Green) Lv. 1	170	0
+321	Shotgun (Green) Lv. 2	200	0
+322	Bullet Rain (Green) Lv. 3	210	0
+323	Bullet Rain (Green) Lv. 4	240	0
+324	Bulletstorm (Green) Lv. 5	330	0
+325	Shotgun (Blood) Lv. 1	190	0
+326	Shotgun (Blood) Lv. 2	200	0
+327	Bullet Rain (Blood) Lv. 3	210	0
+328	Bullet Rain (Blood) Lv. 4	270	0
+329	Bullet Storm (Blood) Lv. 5	330	0
+330	Shell Shooter Lv. 1	170	0
+331	Shell Shooter Lv. 2	190	0
+332	Insect Vulcan Lv. 3	200	0
+333	Insect Vulcan Lv. 4	230	0
+334	Hornet's Nest Lv. 5	320	0
+335	Desert Storm Lv. 1	170	0
+336	Desert Storm Lv. 2	190	0
+337	Desert Tempest Lv. 3	210	0
+338	Desert Tempest Lv. 4	240	0
+339	Desert Torrent Lv. 5	320	0
+340	Sawgun Lv. 1	170	0
+341	Sawgun Lv. 2	190	0
+342	Sawgun Lv. 3	200	0
+343	Buzzawcannon Lv. 4	210	0
+344	Buzzawcannon Lv. 5	240	0
+345	Brushcutter Cannon Lv. 6	330	0
+346	Mandible Blaster Lv. 1	190	0
+347	Mandible Blaster Lv. 2	200	0
+348	Jawbreaker Lv. 3	210	0
+349	Jawbreaker Lv. 4	270	0
+350	Jawbreaker Lv. 5	300	0
+351	Jowlcrusher Lv. 6	330	0
+352	Tail Blizzard Lv. 1	170	10
+353	Tail Blizzard Lv. 2	180	10
+354	Tail Avalanche Lv. 3	190	10
+355	Tail Avalanche Lv. 4	280	15
+356	Tail Tundra Lv. 5	310	15
+357	Yukumo Pureshot Lv. 1	180	0
+358	Yukumo Pureshot Lv. 2	200	0
+359	Yukumo Spiritshot Lv. 3	210	0
+360	Yukumo Spiritshot Lv. 4	270	0
+361	Yukumo Aurashot Lv. 5	340	0
+362	Barro Barrel Lv. 1	200	0
+363	Barro Barrel Lv. 2	210	0
+364	Barro Blaster Lv. 3	220	0
+365	Barro Blaster Lv. 4	280	0
+366	Barrozooka Lv. 5	340	0
+367	Grenade Launcher Lv. 1	180	0
+368	Grenade Launcher Lv. 2	190	0
+369	Grenade Revolver Lv. 3	210	0
+370	Grenade Revolver Lv. 4	270	0
+371	Volarevolver Lv. 5	330	0
+372	Drowsy Eye Lv. 1	160	0
+373	Drowsy Eye Lv. 2	180	0
+374	Sleepy Eye Lv. 3	200	0
+375	Sleepy Eye Lv. 4	260	0
+376	Sleepy Eye Lv. 5	280	0
+377	Somnolescence Lv. 6	300	0
+378	Lava Storm Lv. 1	190	0
+379	Lava Storm Lv. 2	200	0
+380	Magma Storm Lv. 3	210	0
+381	Magma Storm Lv. 4	280	0
+382	Magma Storm Lv. 5	300	0
+383	Scoria Storm Lv. 6	330	0
+384	Vile Do Lv. 1	190	30
+385	Vile Do Lv. 2	200	30
+386	Garuga Espringal Lv. 3	210	30
+387	Garuga Espringal Lv. 4	280	30
+388	Garuga Espringal Lv. 5	300	30
+389	Occult Espringal Lv. 6	330	30
+390	Thundacrus Lv. 1	180	10
+391	Thundacrus Lv. 2	190	10
+392	Thundacrus Rex Lv. 3	200	20
+393	Thundacrus Rex Lv. 4	270	25
+394	Thundacrus Rex Lv. 5	290	25
+395	Spinothundacrus Lv. 6	320	25
+396	Blitz Bowgun Lv. 1	190	0
+397	Blitz Bowgun Lv. 2	200	0
+398	Blitz Kirin Lv. 3	210	0
+399	Blitz Kirin Lv. 4	270	0
+400	Blitz Kirin Lv. 5	300	0
+401	Blitz Kirin King Lv. 6	330	0
+402	God's Isle Lv. 1	200	0
+403	God's Isle Lv. 2	210	0
+404	God's Island Lv. 3	220	0
+405	God's Island Lv. 4	300	0
+406	God's Archipelago Lv. 5	340	0
+407	Angel Parasol Lv. 1	190	0
+408	Angel Parasol Lv. 2	200	0
+409	Elegant Parasol Lv. 3	210	0
+410	Elegant Parasol Lv. 4	270	0
+411	Pearl Parasol Lv. 5	320	0
+412	Assault Conga Lv. 1	170	0
+413	Assault Conga Lv. 2	190	0
+414	Combat Conga Lv. 3	210	0
+415	Combat Conga Lv. 4	240	0
+416	Raid Conga Lv. 5	330	0
+417	Blizzard Cannon Lv. 1	190	15
+418	Blizzard Volley Lv. 2	200	15
+419	Blizzard Volley Lv. 3	280	20
+420	Blizzard Volley Lv. 4	300	20
+421	Tabula Blizzara Lv. 5	320	20
+422	Titan Launcher Lv. 1	200	0
+423	Titan Launcher Lv. 2	210	0
+424	Titan Panzer Lv. 3	230	0
+425	Titan Panzer Lv. 4	290	0
+426	Titan Panzer Lv. 5	320	0
+427	Titan Bombardier Lv. 6	350	0
+428	Maelstrom Lv. 1	210	0
+429	Maelstrom Lv. 2	210	0
+430	Nebula Storm Lv. 3	220	0
+431	Nebula Storm Lv. 4	270	0
+432	Nebula Storm Lv. 5	300	0
+433	Plesioth Drencher Lv. 6	330	0
+434	Machine Strafer Lv. 1	200	0
+435	Machine Strafer Lv. 2	210	0
+436	Battalion Strafer Lv. 3	220	0
+437	Battalion Strafer Lv. 4	290	0
+438	Battalion Strafer Lv. 5	320	0
+439	Legion Strafer Lv. 6	330	0
+440	Seditious Shot Lv. 1	220	20
+441	Seditious Shot Lv. 2	230	20
+442	Vayu Sedition Lv. 3	240	20
+443	Vayu Sedition Lv. 4	290	20
+444	Vayu Sedition Lv. 5	310	20
+445	Sedition Sniper Lv. 6	330	20
+446	Durambarrel Lv. 1	200	0
+447	Durambarrel Lv. 2	210	0
+448	Aldebaran Dreadgun Lv. 3	220	0
+449	Aldebaran Dreadgun Lv. 4	310	0
+450	Aldebaran Dreadblast Lv. 5	330	0
+451	Demolition Gun Lv. 1	210	0
+452	Demolition Gun Lv. 2	220	0
+453	Ballista Demolisher Lv. 3	230	0
+454	Ballista Demolisher Lv. 4	310	0
+455	Ballista Demolisher Lv. 5	330	0
+456	Ballista Annihilator Lv. 6	350	0
+457	La Lumiere Lv. 1	190	35
+458	La Lumiere Lv. 2	200	35
+459	Le Condamnateur Lv. 3	210	35
+460	Le Condamnateur Lv. 4	290	35
+461	Le Condamnateur Lv. 5	300	35
+462	La Vertu Lv. 6	320	35
+463	Rajang Barrage Lv. 1	210	-15
+464	Rajang Barrage Lv. 2	220	-15
+465	Ten Thousand Volts Lv. 3	220	-15
+466	Ten Thousand Volts Lv. 4	310	-15
+467	Ten Million Volts Lv. 5	330	-15
+468	Devil's Grin Lv. 1	190	-10
+469	Devil's Grin Lv. 2	200	-10
+470	Devil's Madness Lv. 3	210	-10
+471	Devil's Madness Lv. 4	300	-10
+472	Devil's Insanity Lv. 5	330	-10
+473	Gourd Shot Lv. 1	180	0
+474	Gourd Shot Lv. 2	190	0
+475	Gourd Shot Lv. 3	200	0
+476	Crookneck Shot Lv. 4	210	0
+477	Crookneck Shot Lv. 5	260	0
+478	Calabash Shot Lv. 6	330	0
+479	Research Shooter Lv. 1	190	15
+480	Discovery Shooter Lv. 2	210	15
+481	Discovery Shooter Lv. 3	230	20
+482	Discovery Shooter Lv. 4	280	20
+483	Authority Illuminator Lv. 5	300	30
+484	Arm Cannon Lv. 1	190	0
+485	Arm Cannon Lv. 2	200	0
+486	Arm Cannon X Lv. 3	210	0
+487	Arm Cannon X Lv. 4	270	0
+488	Arm Cannon XX Lv. 5	320	0
+489	Icesteel Wasp Lv. 1	210	10
+490	Icesteel Wasp Lv. 2	220	10
+491	Daora's Hornet Lv. 3	230	10
+492	Daora's Hornet Lv. 4	300	15
+493	Daora's Yellowjacket Lv. 5	330	15
+494	Silver Spartacus Lv. 1	210	-10
+495	Silver Spartacus Lv. 2	220	-10
+496	Silver Semi-Auto Lv. 3	230	-10
+497	Silver Semi-Auto Lv. 4	320	-10
+498	Silver Asgard Lv. 5	350	-10
+499	Gold Valkyrie Lv. 1	200	0
+500	Gold Valkyrie Lv. 2	210	0
+501	Gold Semi-Auto Lv. 3	220	0
+502	Gold Semi-Auto Lv. 4	310	0
+503	Gold Ullr Lv. 5	340	0
+504	Blossomayhem Lv. 1	210	0
+505	Blossomayhem Lv. 2	220	0
+506	Prosperity Lv. 3	230	0
+507	Prosperity Lv. 4	320	0
+508	Mille Blossomayhem Lv. 5	340	0
+509	Demonlord Blaster Lv. 1	220	-25
+510	Demonlord Blaster Lv. 2	230	-25
+511	Demonlord Cannon Lv. 3	240	-25
+512	Demonlord Cannon Lv. 4	330	-25
+513	Demonlord Crasher Lv. 5	340	-25
+514	Diregun 'Dementia' Lv. 1	220	-15
+515	Diregun 'Dementia' Lv. 2	230	-15
+516	Doomgun 'Dementia' Lv. 3	240	-15
+517	Doomgun 'Dementia' Lv. 4	330	-15
+518	Deathgun 'Dementia' Lv. 5	360	-15
+519	Ukanlos Frost Bow Lv. 1	240	-30
+520	Ukanlos Frost Bow Lv. 2	250	-30
+521	Ukanlos Skyshatterer Lv. 3	260	-30
+522	Ukanlos Skyshatterer Lv. 4	360	-30
+523	Ukanlos Cosmosbreaker Lv. 5	380	-30
+524	Wicked Needle Lv. 1	200	-10
+525	Wicked Needle Lv. 2	210	-10
+526	Needlestorm Lv. 3	220	-10
+527	Needlestorm Lv. 4	320	-10
+528	Needle Phalanx Lv. 5	330	-10
+529	Polarstar Shooter Lv. 1	200	10
+530	Polarstar Shooter Lv. 2	210	10
+531	Wondrous Star Lv. 3	220	10
+532	Wondrous Star Lv. 4	300	10
+533	Blast of the North Star Lv. 5	330	10
+534	Silverwing Shooter Lv. 1	180	0
+535	Dragonstar Hotek Lv. 2	190	0
+536	Dragonstar Hotek Lv. 3	240	0
+537	Dragonstar Hotek Lv. 4	270	0
+538	Dragonstar Hotek Lv. 5	290	0
+539	Magnastar Lubos Lv. 6	310	0
+540	Elder Shooter Lv. 1	250	0
+541	Sage Shooter Lv. 2	280	0
+542	Philosopher Shooter Lv. 3	330	0
+543	Memento Barbas Lv. 1	250	0
+544	Barbas Select Lv. 2	280	0
+545	First Class Lv. 3	330	0
+546	Leader's Thunder Lv. 1	290	15
+547	Despot's Wedge Lv. 2	310	15
+548	Orcus Barqus Lv. 3	330	15
+549	Ace Bowgun Lv. 1	290	10
+550	Loyal Ace Bowgun Lv. 2	310	10
+551	The Gunner Lv. 3	330	10
+552	Bulletfox Lv. 1	250	0
+553	Foxbow Flash Lv. 2	290	0
+554	Foxbow Authority Lv. 3	330	0
+555	Beschworung/Oracle Lv. 1	290	-20/10
+556	Vergebung/Peine Lv. 2	310	-20/10
+557	Faulnis/Vertu Lv. 3	340	-20/10
+558	Lightbreak Gun Lv. 1	320	0
+559	Lightbreak Flash Lv. 2	330	0
+560	Lightbreak Sunburst Lv. 3	350	0
+561	Goldshooter Lv. 1	320	0
+562	Inscribed Djehuty Lv. 2	330	0
+563	Trismegistus Lv. 3	340	0
+564	Fatalis Pit Lv. 1	330	0
+565	Fatalis Depths Lv. 2	340	0
+566	Fatalis Abyss Lv. 3	350	0
+567	Ruiner Recurve Lv. 1	320	-10
+568	True Ruiner Recurve Lv. 2	330	-10
+569	Absolute Ruiner Recurve Lv. 3	340	-10
+570	Ancient Bowgun Lv. 1	320	0
+571	Absolute Bowgun Lv. 2	330	0
+572	Absolution Bowgun Lv. 3	340	0
+573	Rathian Fire Lv. 1	120	0
+574	Rathian Fire Lv. 2	130	0
+575	Rathian Fire Lv. 3	140	0
+576	Rathian Fire Lv. 4	170	0
+577	Rathian Fire Lv. 5	180	0
+578	Rathian Fire Lv. 6	190	0
+579	Rathian Fire Lv. 7	200	0
+580	Rathian Fire Lv. 8	210	0
+581	Rathian Fire Lv. 9	220	0
+582	Flaming Rose Lv. 10	220	0
+583	Flaming Rose Lv. 11	250	0
+584	Flaming Rose Lv. 12	270	0
+585	Flaming Rose Lv. 13	290	0
+586	Flaming Rose Lv. 14	310	0
+587	Blazing Rose Lv. 15	330	0
+588	Squall's Gaze Lv. 1	160	30
+589	Squall's Gaze Lv. 2	160	40
+590	Squall's Gaze Lv. 3	170	30
+591	Squall's Gaze Lv. 4	170	40
+592	Squall's Gaze Lv. 5	180	30
+593	Squall's Gaze Lv. 6	180	40
+594	Squall's Gaze Lv. 7	190	30
+595	Squall's Gaze Lv. 8	190	40
+596	Squall's Gaze Lv. 9	200	30
+597	Daybreak's Gaze Lv. 10	200	40
+598	Daybreak's Gaze Lv. 11	230	40
+599	Daybreak's Gaze Lv. 12	250	40
+600	Daybreak's Gaze Lv. 13	270	40
+601	Daybreak's Gaze Lv. 14	290	40
+602	Hurricane's Gaze Lv. 15	310	40
+603	Wicked Do Lv. 1	170	20
+604	Wicked Do Lv. 2	170	30
+605	Wicked Do Lv. 3	180	20
+606	Wicked Do Lv. 4	180	30
+607	Wicked Do Lv. 5	190	20
+608	Wicked Do Lv. 6	190	30
+609	Wicked Do Lv. 7	200	20
+610	Wicked Do Lv. 8	200	30
+611	Wicked Do Lv. 9	210	20
+612	Deadeye Hunter Lv. 10	210	30
+613	Deadeye Hunter Lv. 11	240	30
+614	Deadeye Hunter Lv. 12	260	30
+615	Deadeye Hunter Lv. 13	290	30
+616	Deadeye Hunter Lv. 14	310	30
+617	Apocalypse Hunter Lv. 15	330	30
+618	Dreadking Blaster Lv. 1	180	0
+619	Dreadking Blaster Lv. 2	180	0
+620	Dreadking Blaster Lv. 3	190	0
+621	Dreadking Blaster Lv. 4	190	0
+622	Dreadking Blaster Lv. 5	200	0
+623	Dreadking Blaster Lv. 6	200	0
+624	Dreadking Blaster Lv. 7	210	0
+625	Dreadking Blaster Lv. 8	210	0
+626	Dreadking Blaster Lv. 9	220	0
+627	Dreadking's Bane Lv. 10	220	0
+628	Dreadking's Bane Lv. 11	250	0
+629	Dreadking's Bane Lv. 12	270	0
+630	Dreadking's Bane Lv. 13	290	0
+631	Dreadking's Bane Lv. 14	310	0
+632	Dreadking's Harness Lv. 15	330	0
+633	Thunder Lycan Lv. 1	180	10
+634	Thunder Lycan Lv. 2	190	5
+635	Thunder Lycan Lv. 3	190	10
+636	Thunder Lycan Lv. 4	200	5
+637	Thunder Lycan Lv. 5	210	5
+638	Thunder Lycan Lv. 6	210	10
+639	Thunder Lycan Lv. 7	220	5
+640	Thunder Lycan Lv. 8	220	10
+641	Thunder Lycan Lv. 9	230	5
+642	Thunderclaw Lv. 10	230	10
+643	Thunderclaw Lv. 11	260	10
+644	Thunderclaw Lv. 12	280	10
+645	Thunderclaw Lv. 13	300	10
+646	Thunderclaw Lv. 14	320	10
+647	Flashbang Thunderclaw Lv. 15	340	10
+648	Rudra Shot Lv. 1	190	-20
+649	Rudra Shot Lv. 2	190	-10
+650	Rudra Shot Lv. 3	200	-20
+651	Rudra Shot Lv. 4	200	-10
+652	Rudra Shot Lv. 5	210	-20
+653	Rudra Shot Lv. 6	210	-10
+654	Rudra Shot Lv. 7	220	-20
+655	Rudra Shot Lv. 8	220	-10
+656	Rudra Shot Lv. 9	230	-20
+657	Grimclaw Hunter Lv. 10	230	-10
+658	Grimclaw Hunter Lv. 11	260	-10
+659	Grimclaw Hunter Lv. 12	280	-10
+660	Grimclaw Hunter Lv. 13	300	-10
+661	Grimclaw Hunter Lv. 14	320	-10
+662	Grimclaw's Grip Lv. 15	340	-10
+663	Infernal Solution Lv. 1	170	0
+664	Infernal Solution Lv. 2	180	0
+665	Infernal Solution Lv. 3	190	0
+666	Infernal Solution Lv. 4	200	0
+667	Infernal Solution Lv. 5	200	0
+668	Infernal Solution Lv. 6	210	0
+669	Infernal Solution Lv. 7	210	0
+670	Infernal Solution Lv. 8	220	0
+671	Infernal Solution Lv. 9	220	0
+672	Brimstone Blaster Lv. 10	230	0
+673	Brimstone Blaster Lv. 11	260	0
+674	Brimstone Blaster Lv. 12	280	0
+675	Brimstone Blaster Lv. 13	300	0
+676	Brimstone Blaster Lv. 14	320	0
+677	Combustion Supernova Lv. 15	340	0
+678	Cloaked Threat Lv. 1	260	10
+679	Cloaked Threat Lv. 2	270	10
+680	Cloaked Fear Lv. 3	280	10
+681	Cloaked Fear Lv. 4	290	10
+682	Cloaked Scourge Lv. 5	300	10
+683	Dew on the Leaves Lv. 1	260	0
+684	Dew on the Leaves Lv. 2	270	0
+685	Autumn Shower Lv. 3	280	0
+686	Autumn Shower Lv. 4	290	0
+687	Cardinal Deluge Lv. 5	320	0
+688	Boltreaver Shooter Lv. 1	260	20
+689	Boltreaver Shooter Lv. 2	270	20
+690	Boltreaver Screech Lv. 3	280	20
+691	Boltreaver Screech Lv. 4	290	20
+692	Boltreaver Azurebolt Lv. 5	310	20
+693	Elderfrost Shooter Lv. 1	300	0
+694	Elderfrost Shooter Lv. 2	310	0
+695	Elderfrost Blaster Lv. 3	320	0
+696	Elderfrost Blaster Lv. 4	330	0
+697	Elderfrost Barrage Lv. 5	340	0
+698	Massacre Buster Lv. 1	320	-10
+699	Massacre Buster Lv. 2	330	-10
+700	Massacre Barrage Lv. 3	340	-10
+701	Massacre Barrage Lv. 4	350	-10
+702	Kazusa Lv. 5	360	-10

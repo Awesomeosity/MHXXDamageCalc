@@ -1,0 +1,1616 @@
+monster	name	health	defense	KO	exhaust	GRank
+Great Maccao	Village 2 Vaulting Outlaw	860	1	0.95	0.95	
+	Village 3 Chasing Tail	740	1	0.95	0.95	
+	Village 3 Chasing Tail	740	1	0.95	0.95	
+	Village 5 A Late Jurassic Excursion	860	1	1	1	
+	Village 7 Defiant Maccao	2000	0.95	1	1.1	
+	Village 8 My New Life as a Maccao	1580	0.95	1.1	1.2	
+	Village 9 Jurassic Frontier Fracas	1700	0.95	1.3	1.3	
+	Hub 1 Boot to the Head	1340	0.95	1.1	1.15	
+	Hub 3 An Early Jurassic Excursion	1220	0.95	1	1.1	
+	Hub 4 Bag the Bounding Bandit	2300	0.9	1.3	1.5	
+	Hub 4 So Notable: Great Maccao	1760	0.9	1.3	1.5	
+	Hub 4 So Notable: Great Maccao	1760	0.9	1.3	1.5	
+	Hub 4 A Powerful Team	1520	0.95	1.2	1.25	
+	Hub G1 Ruined Pinnacle, RUINED	3740	0.75	1.5	2	G
+	Hub G1 Ruined Pinnacle, RUINED	3740	0.75	1.5	2	G
+	Hub G2 The Next Stage of E-Volvi-lution	3860	0.75	1.5	2.1	G
+	Hub G2 Minion's Devotion	3860	0.75	1.5	2.1	G
+	Hub G3 Down With This Sort of Thing	4040	0.75	1.6	2.2	G
+	Village 4 Great Maccao Headbreaker	2600	1	0.9	0.85	
+	Village 6 Surrounded by Blue and Green	1340	1	0.95	0.95	
+	Hub 2 A Resplendent Dance	1460	0.95	1.1	1.2	
+	Hub 7 Meownster Hunter	2000	0.85	1.3	1.6	
+	Dreadqueen III: Hunt	1820	0.85	1.3	1.5	
+	Grudge Match: Great Maccao	920	0.95	1	1.15	
+	Hub 1 DLC Fan Club: Great All Stars	2120	0.85	1.3	1.6	
+	Hub 1 DLC Anything For A Buck	2719	0.85	1.3	1.6	
+	Hub 1 DLC SF: Ultimate Entrace Exam	3380	0.85	1.3	1.6	
+	Arena DLC XX Trials: Hunt-a-thon IV	1400	0.85	1.15	1.5	G
+	SP Demo NX Single player: Great Maccao Hunt	2180	0.95	1	1.1	
+	SP Demo NX Multiplayer: Great Maccao Hunt	5500	0.8	1.4	1.85	
+Velocidrome	Village 2 Hunt Down the Velocidrome!	860	1	0.95	0.95	
+	Village 4 Hunt-a-thon: Velocidrome	620	1	0.95	0.95	
+	Village 6 Night Terrors	980	1	1	1.05	
+	Village 10 Verdant Hills Just for You	1940	0.95	1.3	1.4	
+	Hub 1 Hunt Down the Velocidrome!	1340	0.95	1.1	1.15	
+	Hub 2 Finishing the Job	1100	0.95	1	1.05	
+	Hub 2 Finishing the Job	1100	0.95	1	1.05	
+	Hub 4 Hunt Down the Velocidrome!	2300	0.9	1.3	1.5	
+	Hub 4 A Powerful Team	1520	0.95	1.2	1.25	
+	Hub 5 Twin Velocidrome	1820	0.85	1.3	1.5	
+	Hub 5 Twin Velocidrome	1820	0.85	1.3	1.5	
+	Hub G2 Minion's Devotion	3860	0.8	1.4	1.85	G
+	Village 6 Surrounded by Blue and Green	1340	1	0.95	0.95	
+	Village 7 Dashing Velocidrome	2000	0.95	1	1.1	
+	Village 10 Drome Rush!	1760	0.95	1.3	1.3	
+	Hub 1 DLC Fan Club: Great All Stars	2120	0.85	1.3	1.6	
+	Arena Event: Hunt-a-thon 5	1640	0.85	1.15	1.5	
+Bulldrome	Village 2 The Mountain Roughrider	774	1	0.95	0.95	
+	Village 3 A Forest Fracas	936	1	0.95	0.95	
+	Village 3 A Forest Fracas	936	1	0.95	0.95	
+	Village 6 Bristly Fanged Beasts	882	1	1	1.05	
+	Hub 1 Bulldrome of the Peaks	1206	0.95	1.1	1.15	
+	Hub 4 The Bulldrome Charges	2070	0.9	1.3	1.5	
+	Hub 4 A Powerful Team	1368	0.95	1.2	1.25	
+	Hub 6 Marshlands Rag	1800	0.85	1.3	1.6	
+	Hub G1 Survival of the Biggest	3258	0.8	1.4	1.8	G
+	Village 6 Poison and Fangs	1044	1	1	1	
+	Hub 3 Out of the Frying Pan	1260	0.95	1.1	1.2	
+	Hub 7 Meownster Hunter	1800	0.85	1.3	1.6	
+	Hub G4 Meownster Hunter Ultimate	2988	0.8	1.3	1.65	G
+	Snowbaron V: Hunt	1800	0.85	1.3	1.6	
+	Dreadqueen VIII: Hunt	2232	0.85	1.3	1.6	
+	Dreadking VIII: Hunt	2232	0.85	1.3	1.6	
+	Thunderlord X: Hunt	2394	0.85	1.3	1.6	
+	Grimclaw VII: Hunt	2232	0.85	1.3	1.6	
+	Hellblade VII: Hunt	2232	0.85	1.3	1.6	
+	Hub 1 DLC A Hero's Return	2016	0.9	1.3	1.5	
+	Hub 1 DLC Fan Club: Arena Action	2502	0.85	1.3	1.6	
+Seltas	Village 6 Advanced: Seltas Queen	1940	0.85	1.3	1.6	
+	Village 7 Bug Appétit Encore	2000	0.95	1	1.1	
+	Village 9 The Fly in the Ointment	2240	0.95	1.3	1.3	
+	Village 9 Pheromone Moans	2240	0.95	1.3	1.3	
+	Village 9 Disaster on the Steppes	1700	0.95	1.3	1.3	
+	Hub 4 Ancestral Steppe Fungus Run	1880	0.9	1.3	1.5	
+	Hub 4 Ancestral Steppe Fungus Run	1880	0.9	1.3	1.5	
+	Hub 4 Bug Appétit	2300	0.9	1.3	1.5	
+	Hub 4 A Powerful Team	1520	0.95	1.2	1.25	
+	Hub 6 Bug Buffet	2660	0.85	1.3	1.6	
+	Hub 6 Bug Bite	2660	0.85	1.3	1.6	
+	Hub 6 Bugging Out	2000	0.85	1.3	1.6	
+	Hub 7 The Hunter Games	2000	0.85	1.3	1.6	
+	Hub 7 The Unassailable Seltas Queen	2360	0.85	1.3	1.6	
+	Hub 7 Primal Forest Defense	2360	0.85	1.3	1.6	
+	Hub G1 A Brush with Bugs	3740	0.8	1.4	1.8	G
+	Hub G1 A Brush with Bugs	3440	0.8	1.4	1.8	G
+	Hub G3 Strutting the Royal Runway 	5100	0.8	1.5	1.9	G
+	Hub G3 The Royal Guard	5100	0.8	1.5	1.9	G
+	Hub G4 Neopteronophobia	5800	0.75	1.5	2.1	G
+	Hub 4 We Cat All Be Heroes	2120	0.9	1.3	1.5	
+	Hub G4 Seltas Spat	4520	0.8	1.3	1.75	G
+	Hub 1 DLC DMC: The Seltas Queen's Cry	3260	0.8	1.4	1.8	
+Seltas Queen	Village 6 Advanced: Seltas Queen	4732	0.85	1.3	1.6	
+	Village 9 The Fly in the Ointment	5512	0.95	1.3	1.3	
+	Village 9 Pheromone Moans	5512	0.95	1.3	1.3	
+	Hub 6 Bug Buffet	6760	0.85	1.3	1.6	
+	Hub 6 Bug Bite	6760	0.85	1.3	1.6	
+	Hub 6 Bugging Out	4888	0.85	1.3	1.6	
+	Hub 7 The Hunter Games	4888	0.85	1.3	1.6	
+	*Hub 7 The Unassailable Seltas Queen*	8632	0.8	1.4	1.85	
+	*Hub 7 Primal Forest Defense*	6292	0.85	1.3	1.6	
+	Hub G3 Strutting the Royal Runway	11596	0.8	1.5	1.9	G
+	Hub G3 The Royal Guard	11596	0.8	1.5	1.9	G
+	*Hub G4 Neopteronophobia*	20020	0.75	2	2.5	G
+	*Hub 1 DLC DMC: The Seltas Queen's Cry*	12220	0.8	1.5	2	
+Arzuros	Village 2 Arzuros the Azure Beast	1032	1	0.95	0.95	
+	Village 5 Scientific Method	1032	1	1	1	
+	Village 6 Advanced: Barrage of Blue	1824	0.9	1.3	1.5	
+	Village 7 Azure Azure Can Be	2400	0.95	1	1.1	
+	Village 7 Season's Eatings	1824	0.95	1	1.1	
+	Village 7 Season's Eatings	1824	0.95	1	1.1	
+	Hub 1 The Ingredient of Legend	1608	0.95	1.1	1.15	
+	Hub 2 Deserted Island Dustup	1320	0.95	1	1.05	
+	Hub 2 Deserted Island Dustup	1320	0.95	1	1.05	
+	Hub 3 Zinogre Bearly Fazed	1464	0.95	1	1.1	
+	Hub 4 Arzuros Encroaches	2760	0.9	1.3	1.5	
+	Hub 5 Hunt Sweat and Tears	1967	0.9	1.3	1.5	
+	Hub G1 Fangs for the Bath	4344	0.8	1.4	1.8	G
+	Hub G1 Fangs for the Bath	4920	0.8	1.4	1.8	G
+	Hub G1 Riverside Rumble	6000	0.8	1.4	1.8	G
+	Hub G3 Arena Bakalaka-Battle! Woo!	4848	0.8	1.5	1.9	G
+	Village 6 The Right Cattitude	1824	1	1	1	
+	Hub 3 Out of the Frying Pan	1967	0.95	1.1	1.2	
+	Hub G4 Meownster Hunter Ultimate	3984	0.8	1.3	1.65	G
+	Redhelm X: Hunt	3192	0.85	1.3	1.6	
+	Hub 1 DLC Case Closed: Monster Files	1536	0.85	1.3	1.5	
+	Hub 1 DLC Fan Club: Arena Action	2256	0.85	1.3	1.6	
+	Arena DLC Event: Slay an Arzuros	5496	0.85	1.15	1.5	
+	Arena DLC Event: Hunt-a-thon 5	2976	0.85	1.3	1.6	
+Redhelm Arzuros	Redhelm I: Hunt	3825	0.9	1.3	1.5	
+	Redhelm II: Capture	5040	0.9	1.3	1.5	
+	Redhelm III: Hunt	4365	0.85	1.3	1.5	
+	Redhelm IV: Hunt	5715	0.85	1.3	1.6	
+	Redhelm V: Hunt	4635	0.85	1.3	1.6	
+	Redhelm VI: Hunt	4905	0.85	1.3	1.6	
+	Redhelm VII: Capture	6119	0.85	1.3	1.6	
+	Redhelm VIII: Hunt	6525	0.8	1.3	1.75	
+	Redhelm IX: Hunt	5580	0.85	1.3	1.6	
+	Redhelm X: Hunt	5985	0.85	1.4	1.65	
+	Redhelm X: Hunt	5580	0.85	1.3	1.6	
+	Redhelm G1: Capture	9225	0.8	1.5	1.9	G
+	Redhelm G2: Hunt	7200	0.8	1.5	1.9	G
+	Redhelm G2: Hunt	8280	0.8	1.5	2	G
+	Redhelm G3: Hunt	8145	0.8	1.5	2	G
+	Redhelm G4: Hunt	10980	0.75	1.5	2.1	G
+	Redhelm G5: Hunt	7200	0.75	1.6	2.2	G
+	Redhelm G5: Hunt	9900	0.75	1.7	2.3	G
+	Redhelm EX: Hunt	20250	0.7	2.6	3.25	G
+	Silverwind G5: Hunt	6119	0.75	1.7	2.3	G
+	Thunderlord G4: Hunt	7470	0.75	1.6	2.2	G
+	Arena DLC XX Trials: Redhelm	7200	0.85	1.15	1.5	G
+Giadrome	Village 7 Investment Flanking	2400	0.95	1	1.1	
+	Hub 4 Enter the Giadrome	2760	0.9	1.3	1.5	
+	Hub G1 Survival of the Biggest	4344	0.8	1.4	1.8	G
+	Hub G2 Minion's Devotion	4632	0.8	1.4	1.85	G
+	Village 8 Cold-Blooded Giadrome	2112	0.95	1	1.1	
+	Village 8 Cold-Blooded Giadrome	2112	0.95	1	1.1	
+	Village 10 Snow Festival	3984	0.95	1.3	1.4	
+	Village 10 Drome Rush!	2112	0.95	1.3	1.4	
+	Hub G4 Ninjadromes	4272	0.8	1.3	1.7	G
+	Hub G4 Ninjadromes	4704	0.8	1.3	1.7	G
+	Hub DLC "My Love is Like a Chill Wind...?"	5280	0.75	1.5	2.1	G
+	Hub DLC Turnabout Takedown	2976	0.8	1.4	1.8	G
+	Hub DLC Turnabout Takedown	2976	0.8	1.4	1.8	G
+Gendrome	Village 2 Gendrome Roadblock	1075	1	0.95	0.95	
+	Village 4 Hunt-a-thon: Gendrome	925	1	0.95	0.95	
+	Village 5 A Sandy Battle Royale	1075	1	1	1	
+	Village 9 Just a Mirage...?	2125	0.95	1.3	1.3	
+	Hub 1 Gendrome Roadblock	1675	0.95	1.1	1.15	
+	Hub 2 The Poison-fanged Duo	1375	0.95	1	1.05	
+	Hub 2 The Poison-fanged Duo	1375	0.95	1	1.05	
+	Hub 3 Wyvern Sand Runners	1525	0.95	1	1.1	
+	Hub 4 Gendrome Roadblock	2875	0.9	1.3	1.5	
+	Hub 4 A Powerful Team	1900	0.95	1.2	1.25	
+	Hub 5 Spotted Beauty	2275	0.85	1.3	1.5	
+	Hub 5 Spotted Beauty	2275	0.85	1.3	1.5	
+	Hub G2 Minion's Devotion	4825	0.8	1.4	1.85	G
+	Hub G3 Searing Sands	5050	0.8	1.5	1.9	G
+	Village 10 Drome Rush!	2200	0.95	1.3	1.3	
+	Hub 5 Under the Blazing Sun	2800	0.85	1.3	1.5	
+	Hub 7 Monster Prowler	2500	0.85	1.3	1.6	
+	Hub G4 Meownster Hunter Ultimate	4150	0.8	1.3	1.65	G
+	Thunderlord VI: Hunt	3100	0.85	1.3	1.6	
+	Grimclaw III: Hunt	2650	0.85	1.3	1.6	
+	Arena Grudge Match: Bird Wyverns	1150	0.95	1	1.15	
+	Hub 1 DLC Fan Club: Great All Stars	2650	0.85	1.3	1.6	
+Cephadrome	Village 2 The Land Sharq	1110	1	0.95	0.95	
+	Village 5 A Sandy Battle Royale	1110	1	1	1	
+	Village 8 Just Deserts	2190	0.95	1.1	1.2	
+	Hub 1 In Pursuit of the Sand Wyvern	1830	0.95	1.1	1.15	
+	Hub 4 The Land Sharq	3270	0.9	1.3	1.5	
+	Hub 5 Line in the Sand	2550	0.85	1.3	1.5	
+	Hub 5 Line in the Sand	2550	0.85	1.3	1.5	
+	Hub 5 Hunt Sweat and Tears	2280	0.9	1.3	1.5	
+	Hub G1 A Berry Dubious Idea	4890	0.8	1.4	1.8	G
+	Hub G1 A Berry Dubious Idea	4890	0.8	1.4	1.8	G
+	Hub G1 Surprise!	4350	0.8	1.4	1.8	G
+	Hub G3 Frontier Fisticuffs	4709	0.8	1.5	1.9	G
+Yian Kut-Ku	Village 3 Stomping Grounds	1748	1	0.95	0.95	
+	Village 3 Local Threat	1748	1	0.95	0.95	
+	Village 4 Hunt-a-thon: Yian Kut-Ku	1178	1	0.95	0.95	
+	Village 5 A Late Jurassic Excursion	1634	1	1	1	
+	Village 7 Kut-Ku Misunderstood	3572	0.95	1	1.1	
+	Village 7 Verdant Hills Horror	2660	0.95	1	1.1	
+	Village 10 Verdant Hills Just for You	3116	0.95	1.3	1.4	
+	Hub 1 Local Threat	2318	0.95	1.1	1.15	
+	Hub 4 Ruining the Ruins	4142	0.9	1.3	1.5	
+	Hub 4 Birds of a Feather	3116	0.9	1.3	1.5	
+	Hub 4 Delicious White Livers	3344	0.9	1.3	1.5	
+	Hub 4 Delicious White Livers	3344	0.9	1.3	1.5	
+	Hub 6 Dances with Wyverns	3572	0.85	1.3	1.6	
+	*Hub 6 Hyper Investigation*	6308	0.8	1.3	1.75	
+	*Hub 6 Minion Audition Imposition*	4598	0.85	1.3	1.6	
+	*Hub 7 The Descending Fog*	4598	0.85	1.3	1.6	
+	*Hub 7 The Birds of Prey*	4598	0.85	1.3	1.6	
+	Hub G1 Pecking Order	8132	0.8	1.4	1.8	G
+	Hub G1 The Bird Who Wood Be King	8132	0.8	1.4	1.8	G
+	*Hub G2 Revenge from the Skies*	12920	0.75	1.6	2.2	G
+	Village 5 Kut-Ku Earbreaker	4940	1	1	1	
+	Hub 1 DLC Felyne Village: The Tourney	3800	0.85	1.3	1.6	
+	Arena DLC Event: Slay a Yian Kut-Ku	4712	0.85	1.15	1.5	
+	Arena DLC Event: Hunt-a-thon 5	2888	0.85	1.15	1.5	
+Iodrome	Village 3 Sunsnug Isle Rescue!	1820	1	0.95	0.95	
+	Village 5 Hunt-a-thon: Iodrome	1400	1	1	1	
+	Village 6 The Cankerous Quagmire	1715	1	1	1.05	
+	Village 6 The Cankerous Quagmire	1715	1	1	1.05	
+	Village 8 Volcanic Vexations	2765	0.95	1.1	1.2	
+	Village 9 Trouble Comes in Threes	2975	0.95	1.3	1.3	
+	Hub 2 Poisonous Pest	2555	0.95	1.1	1.2	
+	Hub 3 Making it Safe for Swine	2135	0.95	1	1.1	
+	Hub 5 The Ioprey Leader	4130	0.85	1.3	1.5	
+	Hub 5 Poisonous Pair	3185	0.85	1.3	1.5	
+	Hub 5 Poisonous Pair	3185	0.85	1.3	1.5	
+	Hub 5 Hunt Sweat and Tears	2870	0.9	1.3	1.5	
+	Hub G2 Minion's Devotion	6755	0.8	1.4	1.85	G
+	Village 6 Poison and Fangs	2029	1	1	1	
+	Village 9 Pitty and Poison	3500	0.95	1.3	1.3	
+	Village 10 The Slashing Leaders	3080	0.95	1.3	1.4	
+	Hub 6 Everywhere You Look	2240	0.85	1.3	1.6	
+	Hub 6 Everywhere You Look	2450	0.85	1.3	1.6	
+	Hub G3 Laughter is Not the Best Antidote	8119	0.8	1.3	1.7	G
+	Hellblade III: Hunt	3710	0.85	1.3	1.6	
+	Arena Grudge Match: Bird Wyverns	1085	0.95	1	1.15	
+	Hub DLC Jump: Crimson Strongmen	1610	0.95	1	1.05	
+	Hub 1 DLC Fan Club: Great All Stars	3710	0.85	1.3	1.6	
+Kecha Wacha	Village 7 Enough Monkeying Around	3572	0.95	1	1.1	
+	Village 8 My New Life as a Maccao	2774	0.95	1.1	1.2	
+	Village 9 Disaster on the Steppes	2774	0.95	1.3	1.3	
+	Hub 4 Swing into Action	4142	0.9	1.3	1.5	
+	Hub 5 So Notable: Kecha Wacha	3230	0.85	1.3	1.5	
+	Hub 5 So Notable: Kecha Wacha	3230	0.85	1.3	1.5	
+	Hub 6 At the Slayground	3572	0.85	1.3	1.6	
+	*Hub 6 Stop the Wacha!*	6308	0.8	1.3	1.75	
+	*Hub 7 The Fanged Beasts*	4598	0.85	1.3	1.6	
+	Hub G1 Face Two Face	6080	0.8	1.4	1.8	G
+	Hub G1 Face Two Face	5396	0.8	1.4	1.8	G
+	Hub G1 Enough Monkeying Around	7220	0.8	1.4	1.8	G
+	*Hub G2 Commission: Hyper Kecha Wacha*	12920	0.75	1.6	2.2	G
+	Hub G3 Down With This Sort of Thing	5965	0.8	1.5	1.9	G
+	*Hub G3 Let the Games Begin*	10260	0.75	2	2.5	G
+	Hub 5 Kecha Wacha Earbreaker	6536	0.8	1.3	1.7	
+	Arena Grudge Match: Kecha Wacha	2090	0.85	1.1	1.3	
+	Hub 1 DLC No Party Poopers!	4484	0.85	1.3	1.6	
+	*Hub DLC Famitsu: Kecha the Scoop!*	12920	0.75	1.6	2.2	
+Lagombi	Village 3 Snow with Occasional Lagombi	1872	1	0.95	0.95	
+	Village 4 Lagombi Lair	1440	1	0.95	0.95	
+	Village 4 Lagombi Lair	1440	1	0.95	0.95	
+	Village 6 Bristly Fanged Beasts	1764	1	1	1.05	
+	Village 7 The Killer Rabbit of Arctic Ridge	3600	0.95	1	1.1	
+	Village 9 Snowball Skirmish	3060	0.95	1.3	1.3	
+	Village 10 Advanced: Quarrel Quelling	4680	0.8	1.3	1.75	
+	Hub 1 Snow with Occasional Lagombi	2412	0.95	1.1	1.15	
+	Hub 4 Snow with Occasional Lagombi	4140	0.9	1.3	1.5	
+	Hub 5 Must Love Lagombi	3276	0.85	1.3	1.5	
+	Hub 5 Must Love Lagombi	3276	0.85	1.3	1.5	
+	Hub 5 Hunt Sweat and Tears	2952	0.9	1.3	1.5	
+	Hub 7 A Man's Arena Match is His Castle	3600	0.85	1.3	1.6	
+	Hub G1 The Killer Rabbit of Arctic Ridge	7920	0.8	1.4	1.8	G
+	Hub G2 Fishing's Lure	7272	0.8	1.4	1.85	G
+	Hub G2 Fishing's Lure	7272	0.8	1.4	1.85	G
+	Village 10 Snow Festival	5976	0.95	1.3	1.4	
+	Hub 6 The Snow Must Go On	4248	0.85	1.3	1.6	
+	Hub G4 Meownster Hunter Ultimate	5976	0.8	1.3	1.65	G
+	Hub 1 DLC Case Closed: Monster Files	2304	0.85	1.3	1.5	
+	Hub 1 DLC Fan Club: Arena Action	2196	0.85	1.3	1.6	
+	Hub DLC WORST: Skull Motif	4464	0.8	1.4	1.8	G
+	Hub DLC WORST: Skull Motif	3600	0.8	1.4	1.8	G
+	Arena DLC Event: Slay a Lagombi	3924	0.85	1.15	1.5	
+Snowbaron Lagombi	Snowbaron I: Hunt	3825	0.9	1.3	1.5	
+	Snowbaron II: Capture	5040	0.9	1.3	1.5	
+	Snowbaron III: Hunt	4365	0.85	1.3	1.5	
+	Snowbaron IV: Hunt	5715	0.85	1.3	1.6	
+	Snowbaron V: Hunt	4635	0.85	1.3	1.6	
+	Snowbaron VI: Hunt	4905	0.85	1.3	1.6	
+	Snowbaron VII: Capture	6119	0.85	1.3	1.6	
+	Snowbaron VIII: Hunt	5310	0.85	1.3	1.6	
+	Snowbaron IX: Hunt	5580	0.85	1.3	1.6	
+	Snowbaron X: Hunt	5985	0.85	1.4	1.65	
+	Snowbaron G1: Capture	9495	0.8	1.5	1.9	G
+	Snowbaron G2: Hunt	7200	0.75	2	2.5	G
+	Snowbaron G2: Hunt	8280	0.8	1.5	2	G
+	Snowbaron G3: Hunt	8145	0.8	1.5	2	G
+	Snowbaron G4: Hunt	10980	0.75	1.5	2.1	G
+	Snowbaron G5: Hunt	8415	0.75	1.6	2.2	G
+	Snowbaron G5: Hunt	11250	0.75	1.7	2.3	G
+	Snowbaron EX: Hunt	24750	0.7	3	3.75	G
+	Drilltusk G5: Hunt	8415	0.75	1.6	2.2	G
+	Elderfrost G5: Hunt	8145	0.75	1.7	2.3	G
+	Arena DLC XX Trials: Snowbaron	7200	0.85	1.15	1.5	G
+Gypceros	Village 3 Robbed Blind	1794	1	0.95	0.95	
+	Village 5 Hunt-a-thon: Gypceros	1326	1	1	1	
+	Village 6 Night Terrors	1677	1	1	1.05	
+	Village 7 Poisoned for Action	3666	0.95	1	1.1	
+	Village 7 Verdant Hills Horror	2730	0.95	1	1.1	
+	Village 10 Coalition of Chaos	3198	0.95	1.3	1.4	
+	Hub 1 Lost in the Jurassic Frontier	2379	0.95	1.1	1.15	
+	Hub 4 Lost in the Primal Forest	4251	0.9	1.3	1.5	
+	Hub 4 Birds of a Feather	3198	0.9	1.3	1.5	
+	*Hub 6 Miasma Attack*	6474	0.8	1.3	1.75	
+	*Hub 7 The Thieving Gypceros*	4719	0.85	1.3	1.6	
+	*Hub 7 Primal Forest Defense*	4719	0.85	1.3	1.6	
+	Hub G1 After That Bird!	7410	0.8	1.4	1.8	G
+	Hub G1 Lost, But Not for Long	7410	0.8	1.4	1.8	G
+	*Hub G2 The Verdant Hills Are Alive*	14625	0.75	1.6	2.2	G
+	Hub G3 Down With This Sort of Thing	6122	0.8	1.5	1.9	G
+	Grudge Match: Gypceros	975	0.95	1	1.15	
+	Hub DLC It'll Come Out in the Wash	6942	0.8	1.5	1.9	G
+Tetsucabra	Village 3 Tusked Tantrum	1840	1	0.95	0.95	
+	Village 3 Jurassic Treasure: The Frog	1840	1	0.95	0.95	
+	Village 4 Deviled Legs	1360	1	0.95	0.95	
+	Village 4 Deviled Legs	1360	1	0.95	0.95	
+	Village 5 Scientific Method	1480	1	1	1	
+	Village 7 Spit It Out	3760	0.95	1	1.1	
+	Village 8 Deserted Island Missive	2920	0.95	1.1	1.2	
+	Hub 1 Tackling the Tetsucabra	2440	0.95	1.1	1.15	
+	Hub 2 Tetsucabra Bounty	2680	0.95	1.1	1.2	
+	Hub 4 Tackling the Tetsucabra	4360	0.9	1.3	1.5	
+	Hub 5 Tetsucabra Bounty	4480	0.85	1.3	1.5	
+	Hub 6 A Hollow Defense	3760	0.85	1.3	1.6	
+	*Hub 6 The Frog of War*	6640	0.8	1.3	1.75	
+	*Hub 6 Triple Toady Terror*	4840	0.85	1.3	1.6	
+	Hub G1 Pleasantly Sozzled	7600	0.8	1.4	1.8	G
+	Hub G1 Antony and Tetsucabra	7600	0.8	1.4	1.8	G
+	*Hub G2 Frog's Face, Demon's Heart*	13600	0.75	1.6	2.2	G
+	Grudge Match: Tetsucabra	4000	0.85	1.15	1.5	
+	Hub DLC Frozen Free-For-All	8200	0.8	1.5	1.9	G
+Drilltusk Tetsucabra	Drilltusk I: Hunt	5546	0.85	1.3	1.5	
+	Drilltusk II: Capture	5546	0.85	1.3	1.5	
+	Drilltusk III: Hunt	5969	0.85	1.3	1.6	
+	Drilltusk IV: Hunt	4841	0.85	1.3	1.6	
+	Drilltusk V: Hunt	6391	0.85	1.3	1.6	
+	Drilltusk VI: Hunt	5546	0.85	1.3	1.6	
+	Drilltusk VII: Capture	6815	0.8	1.3	1.75	
+	Drilltusk VIII: Hunt	5828	0.85	1.3	1.6	
+	Drilltusk IX: Hunt	6251	0.85	1.4	1.65	
+	Drilltusk X: Hunt	6251	0.85	1.4	1.65	
+	Drilltusk X: Hunt	5828	0.85	1.3	1.6	
+	Drilltusk G1: Capture	9917	0.8	1.5	1.9	G
+	Drilltusk G2: Hunt	7520	0.8	1.5	1.9	G
+	Drilltusk G2: Hunt	8648	0.8	1.5	2	G
+	Drilltusk G3: Hunt	8507	0.8	1.5	2	G
+	Drilltusk G4: Hunt	11468	0.75	1.5	2.1	G
+	Drilltusk G5: Hunt	14100	0.75	2	2.5	G
+	Drilltusk EX: Hunt	22325	0.7	2.8	3.5	G
+	Arena DLC XX Trials: Drilltusk	7520	0.85	1.15	1.5	G
+Daimyo Hermitaur	Village 3 Crustacean Frustration	1518	1	0.95	0.95	
+	Village 3 The Crabbiest Catch	1518	1	0.95	0.95	
+	Village 4 Hunt-a-thon: Daimyo Hermitaur	1023	1	0.95	0.95	
+	Village 5 Scientific Method	1221	1	1	1	
+	Village 6 Advanced: Seeing Red	2310	0.9	1.3	1.5	
+	Village 7 Fashion Victim	3102	0.95	1	1.1	
+	Village 7 Dune the Honors	2310	0.95	1	1.1	
+	Hub 1 Shells of Steel	2013	0.95	1.1	1.15	
+	Hub 4 Shells of Steel	3597	0.9	1.3	1.5	
+	Hub 5 Desert Brawlers	2805	0.85	1.3	1.5	
+	*Hub 6 Daimyo of the Deserted Island*	5478	0.8	1.3	1.75	
+	Hub G1 Daimyo Hermitaur Flambé	6270	0.8	1.4	1.8	G
+	Hub G1 Surprise!	4785	0.8	1.4	1.8	G
+	*Hub G2 So Notable: Hyper Hermitaur*	11220	0.75	1.6	2.2	G
+	Hub G3 Searing Sands	5180	0.8	1.5	1.9	G
+	Village 6 D. Hermitaur Shellbreaker	4290	1	0.95	0.95	
+	Stonefist V: Hunt	3102	0.85	1.3	1.6	
+	*Hub 1 DLC The Obvious Choice...*	7260	0.8	1.5	1.9	
+	*Hub DLC Kingdom: Test of the Best*	11220	0.75	1.6	2.2	G
+Stonefist Hermitaur	Stonefist I: Hunt	3825	0.9	1.3	1.5	
+	Stonefist II: Capture	5040	0.9	1.3	1.5	
+	Stonefist III: Hunt	4365	0.85	1.3	1.5	
+	Stonefist IV: Hunt	5715	0.85	1.3	1.6	
+	Stonefist V: Hunt	4635	0.85	1.3	1.6	
+	Stonefist VI: Hunt	4905	0.85	1.3	1.6	
+	Stonefist VII: Capture	6119	0.85	1.3	1.6	
+	Stonefist VIII: Hunt	5310	0.85	1.3	1.6	
+	Stonefist IX: Hunt	5310	0.85	1.3	1.6	
+	Stonefist IX: Hunt	5580	0.85	1.3	1.6	
+	Stonefist X: Hunt	5985	0.85	1.4	1.65	
+	Stonefist G1: Capture	9495	0.8	1.5	1.9	G
+	Stonefist G2: Hunt	7200	0.8	1.5	1.9	G
+	Stonefist G2: Hunt	8280	0.8	1.5	2	G
+	Stonefist G3: Hunt	8145	0.8	1.5	2	G
+	Stonefist G4: Hunt	10980	0.75	1.5	2.1	G
+	Stonefist G5: Hunt	12375	0.75	2	2.5	G
+	Stonefist EX: Hunt	20250	0.7	3	3.75	G
+	Arena DLC XX Trials: Stonefist	7200	0.85	1.15	1.5	G
+Volvidon	Village 4 Jurassic Treasure: The Bug	2090	1	0.95	0.95	
+	Village 4 Tumbling Troublemaker	2090	1	0.95	0.95	
+	Village 5 Great Knuckleballs o' Fire!	1634	1	1	1	
+	Village 5 Great Knuckleballs o' Fire!	1634	1	1	1	
+	Village 6 Volcano Triple Play	1862	1	1	1.05	
+	Village 6 Volcano Triple Play	1862	1	1	1.05	
+	Village 6 Advanced: Seeing Red	2888	0.9	1.3	1.5	
+	Village 8 I See It Rollin'...	3914	0.95	1.1	1.2	
+	Village 9 Desert Double Act	3230	0.95	1.3	1.3	
+	Village 9 Jurassic Frontier Fracas	3002	0.95	1.3	1.3	
+	Hub 2 Walk 'n Roll	2774	0.95	1.1	1.2	
+	Hub 2 Tongue-Tied	2774	0.95	1.1	1.2	
+	Hub 3 Rumble in the Volcano	2318	0.95	1	1.1	
+	Hub 5 Tumbling Troublemaker	4256	0.85	1.3	1.5	
+	Hub 5 Status: Effected	3458	0.85	1.3	1.5	
+	Hub 5 Hunt Sweat and Tears	3116	0.9	1.3	1.5	
+	Hub G2 The Legend of King Apple	8816	0.8	1.4	1.85	G
+	Hub G2 I See It Rollin'...	8816	0.8	1.4	1.85	G
+	Hub G2 The Next Stage of E-Volvi-lution	7106	0.8	1.4	1.85	G
+	Hub G3 Arena Bakalaka-Battle! Woo!	7676	0.8	1.5	1.9	G
+	Village 9 A Poison Paradise	3572	0.95	1.3	1.3	
+	Hub 7 The Ball's in Your Court	4712	0.85	1.3	1.6	
+	Hub DLC Jump: Crimson Strongmen	2090	0.95	1	1.05	
+	Hub 1 DLC CoroCoro: Rolling Bowlers	3800	0.85	1.3	1.6	
+	Hub 1 DLC CoroCoro: Rolling Bowlers	3800	0.85	1.3	1.6	
+	Hub 1 DLC Case Closed: Monster Files	2888	0.85	1.3	1.5	
+	Hub 1 DLC SF: Ultimate Entrace Exam	3002	0.85	1.3	1.6	
+	Hub 1 DLC Fan Club: Arena Action	2204	0.85	1.3	1.6	
+	Arena DLC Event: Slay a Volvidon	2888	0.85	1.15	1.5	
+Congalala	Village 7 Research Team's First Rodeo	3910	0.95	1	1.1	
+	Village 7 Eau de Congalala	4324	0.95	1	1.1	
+	Village 8 Marshlands Horror Story	3358	0.95	1.1	1.2	
+	Village 10 The Marshlands Morass	3772	0.95	1.3	1.4	
+	Hub 5 Pink Stink	5152	0.85	1.3	1.5	
+	Hub G2 Not Mushroom to Swing a Congalala	9706	0.8	1.4	1.85	G
+	Hub G2 Interruption: Conga Line	8050	0.8	1.4	1.85	G
+	Hub G2 Interruption: Conga Line	7497	0.8	1.4	1.85	G
+	*Hub G3 Trial by Fart*	16560	0.75	2	2.5	G
+	*Hub G4 Jungle Funk*	9430	0.75	2	2.5	G
+	Village 8 Congalala Headbreaker!	7912	0.9	1.3	1.5	
+	*Redhelm G3: Hunt*	8602	0.8	1.5	2	G
+	Grudge Match: Congalala	5980	0.85	1.15	1.5	
+	Arena Grudge Match: Congalala	5980	0.85	1.15	1.5	G
+	Hub DLC It'll Come Out in the Wash	8188	0.8	1.5	1.9	G
+	Hub DLC CoroCoro: Fart of Darkness	8740	0.8	1.4	1.85	G
+Royal Ludroth	Village 3 Royal Spit Take	1840	1	0.95	0.95	
+	Village 3 Current Events	1840	1	0.95	0.95	
+	Village 4 Royal Pains	1360	1	0.95	0.95	
+	Village 4 Royal Pains	1360	1	0.95	0.95	
+	Village 6 Drawing the Waterline	1720	1	1	1.05	
+	Village 6 Drawing the Waterline	1720	1	1	1.05	
+	Village 7 Taking Royal Liberties	3760	0.95	1	1.1	
+	Village 10 Misty Peaks Missive	3280	0.95	1.3	1.4	
+	Hub 1 Royal Spit Take	2440	0.95	1.1	1.15	
+	Hub 2 Ahoy! Royal Ludroth!	1960	0.95	1	1.05	
+	Hub 2 Ahoy! Royal Ludroth!	1960	0.95	1	1.05	
+	Hub 4 Royal Spit Take	4360	0.9	1.3	1.5	
+	*Hub 6 Where the Wild Manes Are*	6640	0.8	1.3	1.75	
+	Hub 7 The Hunter Games	3760	0.85	1.3	1.6	
+	*Hub 7 Searching for Secret Baths*	4840	0.85	1.3	1.6	
+	Hub G1 Sweetheart's Pick: Lofty Ludroth	7600	0.8	1.4	1.8	G
+	Hub G1 Water Fight	6279	0.8	1.4	1.8	G
+	Hub G1 Water Fight	5800	0.8	1.4	1.8	G
+	*Hub G2 The Hype is Royal*	15000	0.75	1.6	2.2	G
+	Hub G4 Quest of Friendship	7000	0.8	1.5	2	G
+	Hub G2 Royal Ludroth Manebreaker	12000	0.7	1.5	2	G
+	*Hub 1 DLC Mega Man: Yellow Devil*	8800	0.8	1.5	1.9	
+	*Hub 1 DLC Retreat Run-in*	7120	0.8	1.4	1.8	
+	Arena DLC Event: Slay a Royal Ludroth	4000	0.85	1.15	1.5	
+Barroth	Village 7 A Friend in Need	3344	0.95	1	1.1	
+	Village 7 Bag a Barroth!	3572	0.95	1	1.1	
+	Village 7 Dune the Honors	2660	0.95	1	1.1	
+	Village 9 Just a Mirage...?	2774	0.95	1.3	1.3	
+	Hub 5 Brute of the Sands	4256	0.85	1.3	1.5	
+	Hub G2 Dirty Deals	8017	0.8	1.4	1.85	G
+	Hub G2 Brute of the Sands	8017	0.8	1.4	1.85	G
+	Hub G3 Searing Sands	6764	0.8	1.5	1.9	G
+	Hub G3 Arena Bakalaka-Battle! Woo!	6764	0.8	1.5	1.9	G
+	*Hub G3 The Mud Must Flow*	13680	0.75	2	2.5	G
+	*Hub G4 A Bed of Sand*	7789	0.75	2	2.5	G
+	Grudge Match: Barroth	2888	0.85	1.15	1.5	
+	Hub 1 DLC Jump: The Desert Crown	4256	0.85	1.3	1.5	G
+	Hub DLC It'll Come Out in the Wash	6764	0.8	1.5	1.9	G
+Basarios	Village 8 Perfectly Normal Rock	3298	0.95	1.1	1.2	
+	Village 8 Volcanic Vexations	2482	0.95	1.1	1.2	
+	Village 9 Trouble Comes in Threes	2482	0.95	1.3	1.3	
+	Hub 5 Disruptive Eruption	3808	0.85	1.3	1.5	
+	Hub G2 That's No Rock...	7174	0.8	1.4	1.85	G
+	Hub G2 Commission: Basarios	7174	0.8	1.4	1.85	G
+	*Hub G3 The Pinnacle of Good Records*	12240	0.75	2	2.5	G
+	*Hub G3 Material Old Girl*	9180	0.75	2	2.5	G
+	*Hub G4 Pinnacle Problems*	6969	0.75	2	2.5	G
+	Village 9 Basarios Chestbreaker	6255	0.85	1.1	1.8	
+	*Nightcloak G3: Hunt*	7378	0.75	1.5	2	G
+	Hub 1 DLC The Legend of Zelda: Power	3808	0.85	1.3	1.5	
+	Hub DLC A Solid Argument	6664	0.75	1.5	2.1	G
+Malfestio	Village 4 The Nocturnal Enchanter	1960	1	0.95	0.95	
+	Village 4 Island Menace	1960	1	0.95	0.95	
+	Village 5 Double Vision	1480	1	1	1	
+	Village 5 Double Vision	1480	1	1	1	
+	Village 5 A Late Jurassic Excursion	1480	1	1	1	
+	Village 6 Advanced: Barrage of Blue	2800	0.9	1.3	1.5	
+	Village 8 Dazed and Confused	3880	0.95	1.1	1.2	
+	Village 8 Deserted Island Missive	2920	0.95	1.1	1.2	
+	Village 10 Deserted Islands Horror	3280	0.95	1.3	1.4	
+	Hub 2 Insomnia? Meet Hypnotism	2680	0.95	1.1	1.2	
+	Hub 2 Malfestio Festival	2680	0.95	1.1	1.2	
+	Hub 5 The Intelligent Malfestio	4480	0.85	1.3	1.5	
+	Hub 5 Insomnia? Meet Hypnotism x 2	3400	0.85	1.3	1.5	
+	Hub 5 Insomnia? Meet Hypnotism x 2	3400	0.85	1.3	1.5	
+	Hub 5 Status: Effected	3400	0.85	1.3	1.5	
+	Hub 6 Bugging Out	3760	0.85	1.3	1.6	
+	*Hub 6 Woe Malfestio*	6040	0.8	1.3	1.75	
+	Hub 7 A Song of White and Lapis	4000	0.85	1.3	1.6	
+	*Hub 7 The Birds of Prey*	4840	0.85	1.3	1.6	
+	Hub G2 Treasure Pinnacle: Rice	8440	0.8	1.4	1.85	G
+	Hub G2 The Owled Man and the Sea	8440	0.8	1.4	1.85	G
+	Hub G3 Primal Forest Fears	6880	0.8	1.5	1.9	G
+	*Hub G3 Sweets for My Sweets*	14400	0.75	2	2.5	G
+	Hub G4 Jurassic Skulduggery	7000	0.8	1.5	2	G
+	Hub 6 Malfestio Headbreaker	7359	0.85	1.3	1.6	
+	Redhelm V: Hunt	3760	0.85	1.3	1.6	
+	*Rustrazor G3: Hunt*	8680	0.75	1.5	2	G
+	Arena Grudge Match: Malfestio	1360	0.95	1	1.15	
+	*Hub 1 DLC Okami: Most Wanted*	7359	0.8	1.5	1.9	
+	Hub 1 DLC The Three Virtues	4720	0.85	1.3	1.6	
+	*Hub DLC Shonen: Winged Nocturne*	14400	0.75	2	2.5	G
+	Arena DLC XX Trials: Hunt-a-thon IV	3400	0.85	1.15	1.5	G
+Nightcloak Malfestio	Nightcloak G1: Capture	10704	0.8	1.5	2	G
+	Nightcloak G2: Hunt	7968	0.8	1.5	2	G
+	Nightcloak G2: Hunt	9264	0.8	1.5	2	G
+	Nightcloak G3: Hunt	9120	0.75	1.5	2.1	G
+	Nightcloak G4: Hunt	12240	0.75	1.6	2.2	G
+	Nightcloak G5: Hunt	7968	0.75	1.7	2.3	G
+	Nightcloak G5: Hunt	13200	0.75	1.8	2.4	G
+	Nightcloak EX: Hunt	22080	0.7	3	3.75	G
+	Arena DLC XX Trials: Hunt-a-thon III	4800	0.85	1.1	1.1	G
+Zamtrios	Village 6 Advanced: Barrage of Blue	3639	0.9	1.3	1.5	
+	Village 8 Bloof!	5044	0.95	1.1	1.2	
+	Village 9 An Ice Surprise	4108	0.95	1.3	1.3	
+	Village 9 An Ice Surprise	4108	0.95	1.3	1.3	
+	Hub 5 Fin Finder	5824	0.85	1.3	1.5	
+	Hub 6 A Three Hour Tour	4888	0.85	1.3	1.6	
+	*Hub 6 Zamtrios Fight!*	7852	0.8	1.3	1.75	
+	Hub 7 A Cold Set of Armor	5200	0.85	1.3	1.6	
+	Hub 7 A Man's Arena Match is His Castle	4888	0.85	1.3	1.6	
+	Hub G2 Through Thick and Fin	10972	0.8	1.4	1.85	G
+	*Hub G3 Zamtrios, Right Ahead!*	18720	0.75	2	2.5	G
+	Drilltusk IV: Hunt	4888	0.85	1.3	1.6	
+	Drilltusk G5: Hunt	9724	0.75	1.6	2.2	G
+	Hub DLC Frozen Free-For-All	10659	0.8	1.5	1.9	G
+Khezu	Village 3 The Shadow in the Mountains	2070	1	0.95	0.95	
+	Village 4 Lurkin' in the Murk	1530	1	0.95	0.95	
+	Village 4 Lurkin' in the Murk	1530	1	0.95	0.95	
+	Village 5 Hunt-a-thon: Khezu	1530	1	1	1	
+	Village 8 A Seaway Just for You	4365	0.95	1.1	1.2	
+	Village 8 Khezu Deserve It	4365	0.95	1.1	1.2	
+	Hub 2 The Shadow in the Mountains	3015	0.95	1.1	1.2	
+	Hub 5 The Walls Have Eyes	5040	0.85	1.3	1.5	
+	Hub 5 The Hunter Games	3825	0.85	1.3	1.5	
+	Hub 6 A Three Hour Tour	4230	0.85	1.3	1.6	
+	*Hub 6 The Khezu and the Shadow*	6795	0.8	1.3	1.75	
+	Hub 7 A Shocking Revelation!	4230	0.85	1.3	1.6	
+	*Hub 7 The Marshlands Nightmare*	5445	0.85	1.3	1.6	
+	Hub G2 Chilled to the Marrow	9495	0.8	1.4	1.85	G
+	Hub G2 The Shadow in the Cave	9495	0.8	1.4	1.85	G
+	*Hub G3 Frozen Seaway Horror Story*	16200	0.75	2	2.5	G
+	*Hub G4 Arctic Ridge Allegiances*	9225	0.75	2	2.5	G
+	Arena Grudge Match: Khezu	2070	0.95	1	1.15	
+Nerscylla	Village 8 Primal Forest Arachnids	3549	0.95	1.1	1.2	
+	Village 9 Distress Signal	3081	0.95	1.3	1.3	
+	Village 9 Distress Signal	3081	0.95	1.3	1.3	
+	Village 10 The Marshlands Morass	3198	0.95	1.3	1.4	
+	Hub 5 Web Sighting	4368	0.85	1.3	1.5	
+	Hub G2 Feeding Time	8229	0.8	1.4	1.85	G
+	Hub G3 Primal Forest Fears	7175	0.8	1.5	1.9	G
+	*Hub G3 Temnoceranophobia*	14040	0.75	2	2.5	G
+	*Hub G3 Let the Games Begin*	10530	0.75	2	2.5	G
+	*Hub G4 Death at My Greaves*	9750	0.75	2	2.5	G
+	Hub G3 Nerscylla Hidebreaker	12480	0.75	1.5	2	G
+	Hub DLC Nerscylla Nightmare	8229	0.75	2	2.5	G
+	Hub DLC Nerscylla Nightmare	9282	0.75	2	2.5	G
+	Hub DLC The Legend of Zelda: Wisdom	11700	0.75	1.5	2	G
+Rathian	Village 4 Wrath of the Rathian	2205	1	0.95	0.95	
+	Village 6 The Perilous Pair	1935	1	1	1.05	
+	Village 6 Night Terrors	1935	1	1	1.05	
+	Village 6 Advanced: Invoking Rath	3150	0.9	1.3	1.5	
+	Village 8 Grapes of Rathian	4365	0.95	1.1	1.2	
+	Village 8 A Royal Rumble	4365	0.95	1.1	1.2	
+	Village 10 Red Dragon, Green Dragon	4095	0.95	1.3	1.4	
+	Village 10 Lord's Request Coalition of Chaos	3690	0.95	1.3	1.4	
+	Hub 2 Royal Assassination	3015	0.95	1.1	1.2	
+	Hub 3 Heaven and Earth	2475	0.95	1	1.1	
+	Hub 5 Dragon Lady	5040	0.85	1.3	1.5	
+	Hub 5 Wrath of the Rathian	5040	0.85	1.3	1.5	
+	Hub 5 Desert Brawlers	3825	0.85	1.3	1.5	
+	Hub 6 Heaven and Earth	4230	0.85	1.3	1.6	
+	Hub 6 Dances with Wyverns	4230	0.85	1.3	1.6	
+	*Hub 6 We Are Not Amused*	6795	0.8	1.3	1.75	
+	Hub 7 A Gathering of Wyverns	4500	0.85	1.3	1.6	
+	*Hub 7 Wyverns All Around Us*	5445	0.85	1.3	1.6	
+	*Hub 7 The Descending Fog*	5445	0.85	1.3	1.6	
+	Hub G2 Queen of the Ruined Pinnacle	9495	0.8	1.4	1.85	G
+	Hub G2 Sky Tribe: Savior of the Skyway	9495	0.8	1.4	1.85	G
+	Hub G2 Royal Assassination	9495	0.8	1.4	1.85	G
+	Hub G3 PR Disaster	7740	0.8	1.5	1.9	G
+	Hub G3 Predator in the Hills	8280	0.8	1.5	1.9	G
+	Hub G3 Frontier Fisticuffs	7064	0.8	1.5	1.9	G
+	*Hub G3 The Pinnacle of Terror*	16200	0.75	2	2.5	G
+	Hub G4 Verdant Hills Missive	7875	0.8	1.5	2	G
+	*Hub G4 R.I.P.*	13050	0.75	2	2.5	G
+	Dreadqueen X: Hunt	5310	0.85	1.3	1.6	
+	Dreadqueen X: Hunt	5715	0.85	1.3	1.6	
+	Dreadking III: Hunt	4500	0.85	1.3	1.6	
+	Hub 1 DLC Yowamushi Pedal: Princess	3825	0.85	1.3	1.5	
+	Hub 1 DLC Making the Cut	6525	0.85	1.3	1.5	
+Gold Rathian	Village 6 Advanced: Wrath of Rath	3572	0.85	1.3	1.6	
+	Village 10 Advanced: Heart of Gold	7660	0.8	1.4	1.85	
+	Village 10 Advanced: Trial at the Pinnacle	6110	0.8	1.3	1.75	
+	Hub 7 Ring of the Golden Lune	6956	0.8	1.3	1.75	
+	Hub 7 Usurpers of the Throne	5546	0.85	1.3	1.6	
+	*Hub 7 Fool's Gold*	9776	0.8	1.5	2	
+	*Hub 7 Shining Examples*	7802	0.8	1.4	1.85	
+	Hub G4 Gold Digger	11468	0.75	1.5	2.1	G
+	Hub G4 The Sun and the Moon	9494	0.75	1.5	2.1	G
+	*Hub G4 A Jurassic Frontier Just for You*	14335	0.75	2	2.5	G
+	*Hub G4 A Tragedy in Silver and Gold*	11750	0.75	2	2.5	G
+	Dreadqueen G4: Hunt	9635	0.75	1.6	2.2	G
+	Hub 1 DLC Moonlit Tryst	5969	0.85	1.3	1.6	
+	*Hub 1 DLC A Golden Moon Rises*	10621	0.8	1.5	2	
+	*Hub 1 DLC Silver and Gold*	8084	0.8	1.4	1.85	
+	Hub 1 DLC The Best of the Best	5969	0.85	1.3	1.6	
+	Hub DLC Into the Maw of Darkness	9212	0.75	1.5	2.1	G
+	*Hub DLC Glimmers of False Hope*	10058	0.75	2	2.5	G
+Dreadqueen Rathian	Dreadqueen I: Hunt	5600	0.9	1.3	1.5	
+	Dreadqueen II: Capture	5900	0.85	1.3	1.5	
+	Dreadqueen III: Hunt	4850	0.85	1.3	1.5	
+	Dreadqueen IV: Hunt	6350	0.85	1.3	1.6	
+	Dreadqueen V: Hunt	5450	0.85	1.3	1.6	
+	Dreadqueen VI: Hunt	5900	0.85	1.3	1.6	
+	Dreadqueen VII: Capture	7250	0.8	1.3	1.75	
+	Dreadqueen VIII: Hunt	6200	0.85	1.3	1.6	
+	Dreadqueen IX: Hunt	6650	0.85	1.4	1.65	
+	Dreadqueen X: Hunt	6650	0.85	1.4	1.65	
+	Dreadqueen G1: Capture	11150	0.8	1.5	2	G
+	Dreadqueen G2: Hunt	8300	0.8	1.5	2	G
+	Dreadqueen G2: Hunt	9650	0.8	1.5	2	G
+	Dreadqueen G3: Hunt	12200	0.75	1.5	2.1	G
+	Dreadqueen G4: Hunt	9950	0.75	1.6	2.2	G
+	Dreadqueen G5: Hunt	12500	0.75	1.8	2.4	G
+	Dreadqueen EX: Hunt	21250	0.7	2.8	3.5	G
+	Dreadking X: Hunt	6200	0.85	1.3	1.6	
+	Arena DLC XX Trials: Dreadqueen	6500	0.85	1.15	1.5	G
+Rathalos	Village 5 Island Heat	2184	1	1	1	
+	Village 5 A King Robed in Smoke	2184	1	1	1	
+	Village 6 The Perilous Pair	1806	1	1	1.05	
+	Village 6 Advanced: Invoking Rath	2940	0.9	1.3	1.5	
+	Village 6 Advanced: The Goliaths	2940	0.9	1.3	1.5	
+	Village 6 Advanced: Seeing Red	2940	0.9	1.3	1.5	
+	Village 6 Advanced: Might is Right	2940	0.85	1.3	1.6	
+	Village 9 Rathalos Topping	4452	0.95	1.3	1.3	
+	Village 9 You're under a Rath	4200	0.95	1.3	1.3	
+	Village 10 Red Dragon, Green Dragon	3822	0.95	1.3	1.4	
+	Village 10 Verdant Hills Just for You	3444	0.95	1.3	1.4	
+	Village 10 Advanced: Ranging Rathalos	6593	0.8	1.4	1.8	
+	Village 10 Advanced: Monster Hunter!	5082	0.8	1.3	1.75	
+	*Village 10 Advanced: Mark of a Hero*	5838	0.8	1.4	1.8	
+	Hub 3 The King's Domain	3192	0.95	1.2	1.25	
+	Hub 3 Heaven and Earth	2310	0.95	1	1.1	
+	Hub 6 Rathalos Run	5460	0.85	1.3	1.6	
+	Hub 6 Heaven and Earth	3948	0.85	1.3	1.6	
+	Hub 6 Lord of the Skies	5460	0.85	1.3	1.6	
+	Hub 6 At the Slayground	3948	0.85	1.3	1.6	
+	Hub 7 The Flames of War	3948	0.85	1.3	1.6	
+	*Hub 7 A Fiery Temper*	6342	0.8	1.3	1.75	
+	*Hub 7 Wyverns All Around Us*	4704	0.85	1.3	1.6	
+	*Hub 7 Show Me Your Shaka-Strength*	4704	0.85	1.3	1.6	
+	*Hub 7 The Winged Wyverns*	4704	0.85	1.3	1.6	
+	Hub G3 Predator in the Hills	7224	0.8	1.5	1.9	G
+	Hub G3 'Kiken' Means 'Danger'!	9366	0.8	1.5	1.9	G
+	Hub G3 Heavenly Fire, Earthly Flame	7224	0.8	1.5	1.9	G
+	Hub G4 Jurassic Skulduggery	7350	0.8	1.5	2	G
+	*Hub G4 Let's Get Igneous*	14910	0.75	2	2.5	G
+	*Hub G4 R.I.P.*	11130	0.75	2	2.5	G
+	Dreadqueen V: Hunt	4200	0.85	1.3	1.6	
+	Arena Grudge Match: Rathalos	2058	0.95	1	1.15	
+	Hub 1 DLC Ghosts 'n Goblins: Seeing Red	8736	0.8	1.5	2	
+	Hub 1 DLC Felyne Village: The Tourney	4200	0.85	1.3	1.6	
+	Hub 1 DLC The Greatest Hunter	5334	0.85	1.3	1.6	
+	Hub 1 DLC Catch a Rathalos by the Tail	6720	0.85	1.3	1.6	
+	*Hub DLC Monster Hunter Channel I*	7224	0.75	1.6	2.2	G
+	Arena DLC Event: Slay a Rathalos	3570	0.85	1.15	1.5	
+	Arena DLC XX Trials: Rathalos	3570	0.85	1.15	1.5	
+Silver Rathalos	Village 6 Advanced: Wrath of Rath	3724	0.85	1.3	1.6	
+	Village 10 Advanced: Wrong One Silver	7986	0.8	1.4	1.85	
+	Village 10 Advanced: Trial at the Pinnacle	6370	0.8	1.3	1.75	
+	Hub 7 Ring of the Silver Sol	7252	0.8	1.3	1.75	
+	Hub 7 Usurpers of the Throne	5782	0.85	1.3	1.6	
+	*Hub 7 Following the Fallen*	10192	0.8	1.5	2	
+	*Hub 7 Shining Examples*	7252	0.8	1.4	1.8	
+	Hub G4 Silver-Tongued Storyteller	11073	0.75	1.5	2.1	G
+	Hub G4 The Sun and the Moon	9310	0.75	1.5	2.1	G
+	*Hub G4 By the Light of the Silvery Rath*	12250	0.75	2	2.5	G
+	*Hub G4 A Tragedy in Silver and Gold*	9310	0.75	2	2.5	G
+	Hub 1 DLC Fire Emblem: Warding Despair	9310	0.8	1.5	2	
+	Hub 1 DLC Moonlit Tryst	6223	0.85	1.3	1.6	
+	*Hub 1 DLC Silver and Gold*	8428	0.8	1.4	1.85	
+	Hub 1 DLC The Best of the Best	6223	0.85	1.3	1.6	
+	*Hub DLC Glimmers of False Hope*	9310	0.75	2	2.5	G
+Dreadking Rathalos	Dreadqueen G5: Hunt	7685	0.75	1.7	2.3	G
+	Dreadking I: Hunt	7207	0.85	1.3	1.6	
+	Dreadking II: Capture	7207	0.85	1.3	1.6	
+	Dreadking III: Hunt	5777	0.85	1.3	1.6	
+	Dreadking IV: Hunt	6254	0.85	1.3	1.6	
+	Dreadking V: Hunt	7685	0.8	1.3	1.75	
+	Dreadking VI: Hunt	6572	0.85	1.3	1.6	
+	Dreadking VII: Capture	8162	0.8	1.4	1.8	
+	Dreadking VIII: Hunt	6572	0.85	1.3	1.6	
+	Dreadking IX: Hunt	7049	0.85	1.4	1.65	
+	Dreadking X: Hunt	7049	0.85	1.4	1.65	
+	Dreadking G1: Capture	12296	0.8	1.5	2	G
+	Dreadking G2: Hunt	12932	0.75	1.5	2.1	G
+	Dreadking G3: Hunt	10864	0.75	1.5	2.1	G
+	Dreadking G3: Hunt	9116	0.8	1.5	2	G
+	Dreadking G4: Hunt	10547	0.75	1.6	2.2	G
+	Dreadking G5: Hunt	13250	0.75	1.8	2.4	G
+	Dreadking EX: Hunt	17225	0.7	3	3.75	G
+	Arena DLC XX Trials: Dreadking	5618	0.85	1.15	1.5	G
+Nibelsnarf	Village 3 The Desert Gourmand	1840	1	0.95	0.95	
+	Village 5 Trifecta of Terror	1360	1	1	1	
+	Village 5 A Sandy Battle Royale	1480	1	1	1	
+	Village 8 It's Gonna Eat Me!	3880	0.95	1.1	1.2	
+	Village 8 Just Deserts	2920	0.95	1.1	1.2	
+	Hub 2 The Desert Gourmand	2680	0.95	1.1	1.2	
+	Hub 5 The Desert Gourmand	4480	0.85	1.3	1.5	
+	Hub 5 Desert Brawlers	3400	0.85	1.3	1.5	
+	*Hub 6 Nibeling on Apples*	6040	0.8	1.3	1.75	
+	*Hub 7 The Foes of the Deep*	4480	0.85	1.3	1.6	
+	Hub G2 Share the Load (and the Reward)	8440	0.8	1.4	1.85	G
+	Hub G2 Trade Dispute	8440	0.8	1.4	1.85	G
+	Hub G3 Searing Sands	6279	0.8	1.5	1.9	G
+	*Hub G3 Eat in Pieces*	14400	0.75	2	2.5	G
+	*Hub 1 DLC Secret Nibelsnarf Hunt*	8800	0.8	1.5	1.9	
+Plesioth	Village 8 Airship Upgrade: Plesioth	3880	0.95	1.1	1.2	
+	Village 9 A Jungle Just for You	3160	0.95	1.3	1.3	
+	Village 10 Misty Peaks Missive	3280	0.95	1.3	1.4	
+	Hub 5 A Plesioth in the Misty Peaks	4480	0.85	1.3	1.5	
+	Hub 5 Awful Guest	4480	0.85	1.3	1.5	
+	Hub 6 Wild Gunman	3760	0.85	1.3	1.6	
+	*Hub 6 The Plesioth Adventure*	6040	0.8	1.3	1.75	
+	Hub 7 The Hunter Games	3760	0.85	1.3	1.6	
+	*Hub 7 The Foes of the Deep*	4480	0.85	1.3	1.6	
+	Hub G2 Shadows in the Desert Lake	8440	0.8	1.4	1.85	G
+	Hub G2 Please Plesioth Me!	8440	0.8	1.4	1.85	G
+	Hub G3 Frontier Fisticuffs	7120	0.8	1.5	1.9	G
+	*Hub G3 Diabolical Deluge*	14400	0.75	2	2.5	G
+	Arena Grudge Match: Plesioth	2440	0.85	1.1	1.3	
+	*Hub 1 DLC Retreat Run-in*	7120	0.8	1.4	1.8	
+Blangonga	Village 4 The New Tenant	2058	1	0.95	0.95	
+	Village 5 Two Roars in the Snow	1554	1	1	1	
+	Village 5 Two Roars in the Snow	1554	1	1	1	
+	Village 6 Bristly Fanged Beasts	1806	1	1	1.05	
+	Village 6 Advanced: State in Flux	2940	0.85	1.3	1.6	
+	Village 8 Whiteout	4074	0.95	1.1	1.2	
+	Village 9 Snowball Skirmish	3318	0.95	1.3	1.3	
+	Hub 2 The New Tenant	2814	0.95	1.1	1.2	
+	Hub 5 The New Tenant	4704	0.85	1.3	1.5	
+	Hub 6 Bl-Bl-Blangongas!	3948	0.85	1.3	1.6	
+	*Hub 6 Hyper for Holes*	6342	0.8	1.3	1.75	
+	Hub 7 A Man's Arena Match is His Castle	3948	0.85	1.3	1.6	
+	*Hub 7 The Fanged Beasts*	5082	0.85	1.3	1.6	
+	Hub G2 Earn Your Strength	8862	0.8	1.4	1.85	G
+	Hub G2 We've Reached Peak Blangonga	7350	0.8	1.4	1.85	G
+	Hub G2 We've Reached Peak Blangonga	6846	0.8	1.4	1.85	G
+	*Hub G3 Shhhhut Up*	15120	0.75	2	2.5	G
+	Snowbaron VIII: Hunt	4956	0.85	1.3	1.6	
+	*Elderfrost G4: Hunt*	9618	0.75	1.5	2.1	G
+	*Hub 1 DLC Star Fox: Battle at Arctic Ridge	9240	0.8	1.5	1.9	
+	Hub 1 DLC No Party Poopers!	4956	0.85	1.3	1.6	
+	Hub DLC "My Love is Like a Chill Wind...?"	8610	0.75	1.5	2.1	G
+Lavasioth	Village 8 Airship Upgrade: Lavasioth	4365	0.95	1.1	1.2	
+	Village 9 You Had One Job	3555	0.95	1.3	1.3	
+	Hub 5 You Caught This? I Caught This	5040	0.85	1.3	1.5	
+	Hub 6 River of Fire	4230	0.85	1.3	1.6	
+	Hub 6 River of Fire	4230	0.85	1.3	1.6	
+	Hub 6 Firefight to the Finish!	4230	0.85	1.3	1.6	
+	*Hub 6 The Magma's Rage*	6795	0.8	1.3	1.75	
+	Hub G2 Afro Soul Is a Way of Life	9495	0.8	1.4	1.85	G
+	Hub G3 Heavenly Fire, Earthly Flame	8280	0.8	1.5	1.9	G
+	*Hub G3 It's a Miner's Life*	16200	0.75	2	2.5	G
+	*Hub 1 DLC Jump: Boiling Magma*	9900	0.8	1.5	1.9	
+	*Hub 1 DLC How It's Done*	8010	0.8	1.4	1.8	
+Shogun Ceanataur	Village 4 Marshlands Mission	1960	1	0.95	0.95	
+	Village 4 Crustacean Infatuation	1960	1	0.95	0.95	
+	Village 6 Under the Gaze of Heaven	1720	1	1	1.05	
+	Village 6 Under the Gaze of Heaven	1720	1	1	1.05	
+	Village 8 Naked Aggression	3880	0.95	1.1	1.2	
+	Village 8 Marshlands Horror Story	2920	0.95	1.1	1.2	
+	Hub 2 Pincer through the Sky	2680	0.95	1.1	1.2	
+	Hub 3 The Shogun's Encampment	2200	0.95	1	1.1	
+	Hub 3 The Shogun's Encampment	2200	0.95	1	1.1	
+	Hub 5 Shogun in the Flames	4480	0.85	1.3	1.5	
+	Hub 5 The Hunter Games	3400	0.85	1.3	1.5	
+	Hub 6 Firefight to the Finish!	3760	0.85	1.3	1.6	
+	*Hub 6 Bring On the Shogun*	6040	0.8	1.3	1.75	
+	*Hub 6 Minion Audition Imposition*	4480	0.85	1.3	1.6	
+	*Hub 7 The Marshlands Nightmare*	4840	0.85	1.3	1.6	
+	Hub G2 Naked Aggression	8440	0.8	1.4	1.85	G
+	Hub G2 Feeling Generally Crabby	8440	0.8	1.4	1.85	G
+	*Hub G3 No Place to Run*	14400	0.75	2	2.5	G
+	*Hub G3 Material Old Girl*	10800	0.75	2	2.5	G
+	*Crystalbeard G3: Hunt*	8680	0.75	1.5	2	G
+	*Hub 1 DLC It Would Be a Shame If...*	8800	0.8	1.5	1.9	
+Rustrazor Ceanataur	Stonefist G5: Hunt	8955	0.75	1.6	2.2	G
+	Rustrazor G1: Capture	10035	0.8	1.5	2	G
+	Rustrazor G2: Hunt	7470	0.8	1.5	2	G
+	Rustrazor G2: Hunt	8685	0.8	1.5	2	G
+	Rustrazor G3: Hunt	8550	0.75	1.5	2.1	G
+	Rustrazor G4: Hunt	11475	0.75	1.6	2.2	G
+	Rustrazor G5: Hunt	13050	0.75	2	2.5	G
+	Rustrazor EX: Hunt	20250	0.7	3.2	4	G
+Najarala	Village 4 Najarala Hunt	2131	1	0.95	0.95	
+	Village 4 Serpentine Samba	2131	1	0.95	0.95	
+	Village 6 The Cankerous Quagmire	1870	1	1	1.05	
+	Village 8 Much Ado about Najarala	4219	0.95	1.1	1.2	
+	Village 8 The Perils of Commerce	4219	0.95	1.1	1.2	
+	Village 10 The Marshlands Morass	3567	0.95	1.3	1.4	
+	Hub 2 Najarala Hunt	2914	0.95	1.1	1.2	
+	Hub 2 Serpentine Samba	2914	0.95	1.1	1.2	
+	Hub 5 Serpentine Samba	4872	0.85	1.3	1.5	
+	Hub 6 Marshlands Rag	4088	0.85	1.3	1.6	
+	*Hub 6 Unnerving Najarala*	6568	0.8	1.3	1.75	
+	*Hub 7 Primal Forest Defense*	5263	0.85	1.3	1.6	
+	Hub G2 A Coil to Arms	9178	0.8	1.4	1.85	G
+	Hub G2 March Melancolico	9178	0.8	1.4	1.85	G
+	*Hub G3 ...Or Just Wait for It to Poop*	15660	0.75	2	2.5	G
+	Hub G4 Verdant Hills Missive	7612	0.8	1.5	2	G
+	*Hub G4 Arena Allegiances*	8917	0.75	2	2.5	G
+	Arena Grudge Match: Najarala	1740	0.95	1	1.15	
+	*Hub 1 DLC Capcom: Brilliant Orchestra*	9570	0.8	1.5	1.9	
+	Hub 1 DLC Overcome with Awe	5133	0.85	1.3	1.6	
+Nargacuga	Village 4 Wyvern of the Wind	2058	1	0.95	0.95	
+	Village 4 Hungry Eyes	2058	1	0.95	0.95	
+	Village 6 Advanced: Might is Right	2940	0.85	1.3	1.6	
+	Village 6 Advanced: Out of the Fry Pan	3192	0.85	1.3	1.6	
+	Village 8 Airship Upgrade: Nargacuga	4074	0.95	1.1	1.2	
+	Village 8 The Way of the Nargacuga	4074	0.95	1.1	1.2	
+	Village 9 Jurassic Frontier Fracas	3066	0.95	1.3	1.3	
+	Village 10 Advanced: Monster Hunter!	5082	0.8	1.3	1.75	
+	Hub 2 Operation: Secure Specimen	2814	0.95	1.1	1.2	
+	Hub 2 Wyvern of the Wind	2814	0.95	1.1	1.2	
+	Hub 5 Nargacuga Throwdown	4704	0.85	1.3	1.5	
+	Hub 6 Wild Gunman	3948	0.85	1.3	1.6	
+	*Hub 6 Born of Darkness*	6342	0.8	1.3	1.75	
+	Hub 7 The Gathering Storm	4200	0.85	1.3	1.6	
+	Hub G2 Face-off in the Jungle	8862	0.8	1.4	1.85	G
+	Hub G2 Jumping at Shadows	8862	0.8	1.4	1.85	G
+	*Hub G3 Nargacuga in the Jurassic Frontier*	15120	0.75	2	2.5	G
+	Hub G4 Quest of Friendship	7350	0.8	1.5	2	G
+	*Hub G4 Jungle Funk*	8610	0.75	2	2.5	G
+	Silverwind IV: Hunt	4200	0.85	1.3	1.6	
+	Deadeye IX: Hunt	5711	0.85	1.4	1.65	
+	*Hub 1 DLC Capcom: White & Black*	7476	0.8	1.4	1.8	
+	Hub 1 DLC The Best of the Best	5334	0.85	1.3	1.6	
+	*Hub DLC Monster Hunter Channel I*	7980	0.75	1.6	2.2	G
+	Arena DLC Event: Hunt-a-thon 1	1302	0.85	1.15	1.5	
+	Arena DLC Event: Slay a Nargacuga	3570	0.85	1.15	1.5	
+	Arena DLC XX Trials: Nargacuga	3570	0.85	1.15	1.5	G
+Silverwind Nargacuga	Silverwind I: Hunt	6096	0.85	1.3	1.6	
+	Silverwind II: Capture	6096	0.85	1.3	1.6	
+	Silverwind III: Hunt	5232	0.85	1.3	1.6	
+	Silverwind IV: Hunt	5232	0.85	1.3	1.6	
+	Silverwind V: Hunt	6960	0.8	1.3	1.75	
+	Silverwind VI: Hunt	5664	0.85	1.3	1.6	
+	Silverwind VII: Capture	7392	0.8	1.4	1.8	
+	Silverwind VIII: Hunt	5952	0.85	1.3	1.6	
+	Silverwind IX: Hunt	6384	0.85	1.4	1.65	
+	Silverwind X: Hunt	5952	0.85	1.3	1.6	
+	Silverwind X: Hunt	6384	0.85	1.4	1.65	
+	Silverwind G1: Capture	10704	0.8	1.5	2	G
+	Silverwind G2: Hunt	7968	0.8	1.5	2	G
+	Silverwind G2: Hunt	9264	0.8	1.5	2	G
+	Silverwind G3: Hunt	9120	0.75	1.5	2.1	G
+	Silverwind G4: Hunt	12240	0.75	1.6	2.2	G
+	Silverwind G5: Hunt	7535	0.75	1.7	2.3	G
+	Silverwind G5: Hunt	13680	0.75	1.8	2.4	G
+	Silverwind EX: Hunt	15600	0.7	2.6	3.25	G
+	Deadeye G5: Hunt	8112	0.75	1.7	2.3	G
+	Soulseer G4: Hunt	9552	0.75	1.6	2.2	G
+	Arena DLC XX Trials: Silverwind	6240	0.85	1.15	1.5	G
+Yian Garuga	Village 5 The Dark Age	2184	1	1	1	
+	Village 5 Garuga of the Hills	2184	1	1	1	
+	Village 6 Advanced: Sly Swooper	3318	0.85	1.3	1.5	
+	Village 6 Advanced: Might is Right	2940	0.85	1.3	1.6	
+	Village 8 Wrong Bird, Idiots...	4074	0.95	1.1	1.2	
+	Village 9 A Jungle Just for You	3318	0.95	1.3	1.3	
+	Village 10 Coalition of Chaos	3444	0.95	1.3	1.4	
+	Village 10 Advanced: Jurassic Pair	5460	0.8	1.3	1.75	
+	Hub 2 In Search of the Yian Garuga	2814	0.95	1.1	1.2	
+	Hub 5 Worst. Trip. Ever!	4704	0.85	1.3	1.5	
+	Hub 5 Status: Effected	3570	0.85	1.3	1.5	
+	Hub 6 A Hollow Defense	3948	0.85	1.3	1.6	
+	*Hub 6 Warning: Hyper Yian Garuga!*	6342	0.8	1.3	1.75	
+	Hub 7 Wyvern's Way	4200	0.85	1.3	1.6	
+	Hub 7 The Flames of War	3948	0.85	1.3	1.6	
+	*Hub 7 The Descending Fog*	5082	0.85	1.3	1.6	
+	*Hub 7 The Birds of Prey*	5082	0.85	1.3	1.6	
+	Hub G3 The Unapproachable Yian Garuga	9366	0.8	1.5	1.9	G
+	Hub G3 Hunt-a-Thon: Yian Garuga	7224	0.8	1.5	1.9	G
+	Hub G3 Hunt-a-Thon: Yian Garuga	7727	0.8	1.5	1.9	G
+	Hub G4 Verdant Hills Missive	7350	0.8	1.5	2	G
+	*Hub G4 Garuga's Comeuppance*	16170	0.75	2	2.5	G
+	Silverwind G3: Hunt	8232	0.75	1.5	2.1	G
+	Deadeye IV: Hunt	4200	0.85	1.3	1.6	
+	Grudge Match: Yian Garuga	4200	0.85	1.1	1.4	
+	Hub 1 DLC Crows: The Black Crows	4200	0.85	1.3	1.6	
+	Hub 1 DLC Crows: The Black Crows	4200	0.85	1.3	1.6	
+	*Hub 1 DLC Metroid: Special Mission*	9240	0.8	1.5	1.9	
+Deadeye Yian Garuga	Deadeye I: Hunt	6350	0.85	1.3	1.6	
+	Deadeye II: Capture	6350	0.85	1.3	1.6	
+	Deadeye III: Hunt	5450	0.85	1.3	1.6	
+	Deadeye IV: Hunt	5450	0.85	1.3	1.6	
+	Deadeye V: Hunt	7250	0.8	1.3	1.75	
+	Deadeye VI: Hunt	5900	0.85	1.3	1.6	
+	Deadeye VII: Capture	7700	0.8	1.4	1.8	
+	Deadeye VIII: Hunt	6200	0.85	1.3	1.6	
+	Deadeye IX: Hunt	6650	0.85	1.4	1.65	
+	Deadeye X: Hunt	6650	0.85	1.4	1.65	
+	Deadeye X: Hunt	6650	0.85	1.4	1.65	
+	Deadeye G1: Capture	11600	0.8	1.5	2	G
+	Deadeye G2: Hunt	12200	0.75	1.5	2.1	G
+	Deadeye G3: Hunt	8600	0.8	1.5	2	G
+	Deadeye G3: Hunt	10250	0.75	1.5	2.1	G
+	Deadeye G4: Hunt	9950	0.75	1.6	2.2	G
+	Deadeye G5: Hunt	8450	0.75	1.7	2.3	G
+	Deadeye G5: Hunt	13250	0.75	2	2.5	G
+	Deadeye EX: Hunt	23750	0.7	3	3.75	G
+	Nightcloak G5: Hunt	8450	0.75	1.8	2.4	G
+	Arena DLC XX Trials: Deadeye	8000	0.85	1.15	1.5	G
+Uragaan	Village 5 Fight or Uragaan!	2236	1	1	1	
+	Village 6 Volcano Triple Play	1849	1	1	1.05	
+	Village 8 A Cure for Laziness	4041	0.95	1.1	1.2	
+	Village 8 It's Not Uragaan's, It's Mine!	4171	0.95	1.1	1.2	
+	Hub 3 Fight or Uragaan!	3268	0.95	1.2	1.25	
+	Hub 5 Fight or Uragaan!	4816	0.85	1.3	1.5	
+	Hub 5 The Hunter Games	3655	0.85	1.3	1.5	
+	*Hub 6 Eruption Embodied*	6493	0.8	1.3	1.75	
+	Hub 7 Hammer vs. Blade	4300	0.85	1.3	1.6	
+	Hub 7 The Flames of War	4041	0.85	1.3	1.6	
+	*Hub 7 The Beasts of Brawn*	4816	0.85	1.3	1.6	
+	Hub G3 Uragaan Grief	9589	0.8	1.5	1.9	G
+	*Hub G4 What's Mine is Mine*	13545	0.75	2	2.5	G
+	Hub 7 Uragaan Shellbreaker	8686	0.85	1.3	1.6	
+	Crystalbeard IV: Hunt	4300	0.85	1.3	1.6	
+	Arena Grudge Match: Uragaan	5074	0.85	1.1	1.8	
+	Hub DLC A Season for Lava	2365	0.95	1	1.1	
+	Hub 1 DLC CoroCoro: Rolling Bowlers	4041	0.85	1.3	1.6	
+	Hub 1 DLC The Hammer and the Pike	5074	0.85	1.3	1.6	
+Crystalbeard Uragaan	Crystalbeard I: Hunt	6985	0.85	1.3	1.6	
+	Crystalbeard II: Capture	6985	0.85	1.3	1.6	
+	Crystalbeard III: Hunt	5995	0.85	1.3	1.6	
+	Crystalbeard IV: Hunt	5995	0.85	1.3	1.6	
+	Crystalbeard V: Hunt	7975	0.8	1.3	1.75	
+	Crystalbeard VI: Hunt	6490	0.85	1.3	1.6	
+	Crystalbeard VII: Capture	8470	0.8	1.4	1.8	
+	Crystalbeard VIII: Hunt	6820	0.85	1.3	1.6	
+	Crystalbeard IX: Hunt	7315	0.85	1.4	1.65	
+	Crystalbeard X: Hunt	6820	0.85	1.3	1.6	
+	Crystalbeard X: Hunt	7315	0.85	1.4	1.65	
+	Crystalbeard G1: Capture	12760	0.8	1.5	2	G
+	Crystalbeard G2: Hunt	9460	0.8	1.5	2	G
+	Crystalbeard G2: Hunt	11274	0.75	1.5	2.1	G
+	Crystalbeard G3: Hunt	10450	0.75	1.5	2.1	G
+	Crystalbeard G4: Hunt	14024	0.75	1.6	2.2	G
+	Crystalbeard G5: Hunt	15125	0.75	2	2.5	G
+	Crystalbeard EX: Hunt	24750	0.7	2.8	3.5	G
+Lagiacrus	Village 5 Lagiacrus Fuss	2340	1	1	1	
+	Village 5 The Fisherman's Fiend	2340	1	1	1	
+	Village 6 Drawing the Waterline	1935	1	1	1.05	
+	Village 6 Advanced: State in Flux	3150	0.85	1.3	1.6	
+	Village 9 Lagiacrus x Width x Height	4770	0.95	1.3	1.3	
+	Village 9 Sky Tribe: Rice to the Occasion	4770	0.95	1.3	1.3	
+	Village 10 Deserted Islands Horror	3690	0.95	1.3	1.4	
+	*Village 10 Advanced: Mark of a Hero*	6255	0.8	1.4	1.8	
+	Hub 3 Lagiacrus Lethargy	3420	0.95	1.2	1.25	
+	Hub 3 Lagiacrushed	3420	0.95	1.2	1.25	
+	Hub 6 The Fisherman's Fiend	5850	0.85	1.3	1.6	
+	Hub 6 Wild Gunman	4230	0.85	1.3	1.6	
+	Hub 7 A Shocking Revelation!	4230	0.85	1.3	1.6	
+	*Hub 7 Into the Maelstrom*	7470	0.8	1.4	1.85	
+	*Hub 7 Show Me Your Shaka-Strength*	5445	0.85	1.3	1.6	
+	*Hub 7 The Foes of the Deep*	5040	0.85	1.3	1.6	
+	Hub G3 Paralyzing Peril	13500	0.8	1.5	2	G
+	Hub G3 The Sun, Also Wyverns	13500	0.8	1.5	2	G
+	Hub G4 Quest of Friendship	8415	0.8	1.5	2	G
+	*Hub G4 Seeking the Sea King*	17325	0.75	2	2.5	G
+	Hub G4 Lagiacrus Headbreaker	15750	0.75	1.7	2.3	G
+	*Hub 1 DLC Dengeki: Turbulent Seas*	10575	0.8	1.5	2	
+	Hub 1 DLC The Greatest Hunter	5715	0.85	1.3	1.6	
+	*Hub 1 DLC Retreat Run-in*	8010	0.8	1.4	1.8	
+	Hub 1 DLC Overcome with Awe	5310	0.85	1.3	1.6	
+	*Hub DLC Fan Club: Climbing The Ranks*	20250	0.75	2	2.5	G
+	*Hub DLC Monster Hunter Channel I*	8955	0.75	1.6	2.2	G
+	Arena DLC Event: Slay a Lagiacrus	3825	0.85	1.15	1.5	
+Zinogre	Village 6 Tuff Turf	3233	1	1	1.05	
+	Village 6 The Bellowing Zinogre	3233	1	1	1.05	
+	Village 6 Advanced: Might is Right	3709	0.85	1.3	1.6	
+	Village 9 Taming of the Zinogre	5618	0.95	1.3	1.3	
+	Village 9 Whatdunnit	5618	0.95	1.3	1.3	
+	Village 10 Deserted Islands Horror	4346	0.95	1.3	1.4	
+	Village 10 Advanced: Moonlight Zinogre	8321	0.8	1.4	1.8	
+	*Village 10 Advanced: The Caravaneer's Challenge*	6572	0.8	1.4	1.8	
+	Hub 3 Topple the Monarch	4028	0.95	1.2	1.25	
+	Hub 3 Tuff Turf	4028	0.95	1.2	1.25	
+	Hub 3 Zinogre Bearly Fazed	2915	0.95	1	1.1	
+	Hub 6 Topple the Monarch	6890	0.85	1.3	1.6	
+	Hub 7 A Roar to the Heavens	5300	0.85	1.3	1.6	
+	Hub 7 The Yukumo Gal Special	5300	0.85	1.3	1.6	
+	Hub 7 The Yukumo Gal Special	5300	0.85	1.3	1.6	
+	Hub 7 A Shocking Revelation!	4982	0.85	1.3	1.6	
+	*Hub 7 The Wolf and the Footbath*	8798	0.8	1.4	1.85	
+	*Hub 7 Searching for Secret Baths*	6413	0.85	1.3	1.6	
+	*Hub 7 Show Me Your Shaka-Strength*	6413	0.85	1.3	1.6	
+	Hub G3 Return from the Pinnacle	11819	0.8	1.5	1.9	G
+	Hub G3 Howl at the Moon	11819	0.8	1.5	1.9	G
+	Hub G4 Jurassic Skulduggery	9275	0.8	1.5	2	G
+	*Hub G4 Zinogre-enthusiasm*	20405	0.75	2	2.5	G
+	*Hub G4 Pinnacle Problems*	10864	0.75	2	2.5	G
+	Hub G4 Arena Allegiances	9275	0.75	1.5	2.1	G
+	Stonefist G3: Hunt	9911	0.8	1.5	2	G
+	Soulseer G5: Hunt	8480	0.75	1.7	2.3	G
+	*Hub 1 DLC Pisturesque Encounter*	12455	0.8	1.5	2	
+	Hub 1 DLC The Best of the Best	6731	0.85	1.3	1.6	
+	Hub 1 DLC The Greatest Hunter	6731	0.85	1.3	1.6	
+	*Hub DLC Into the Maw of Darkness*	12773	0.75	2	2.5	G
+	*Hub DLC Monster Hunter Channel I*	11024	0.75	1.6	2.2	G
+	Arena DLC Event: Hunt-a-thon 1	1643	0.85	1.15	1.5	
+	Arena DLC Event: Slay a Zinogre	4505	0.85	1.15	1.5	
+	Arena DLC XX Trials: Zinogre	4505	0.85	1.15	1.5	G
+Thunderlord Zinogre	Thunderlord I: Hunt	7887	0.85	1.3	1.6	
+	Thunderlord II: Capture	7887	0.85	1.3	1.6	
+	Thunderlord III: Hunt	7887	0.85	1.3	1.6	
+	Thunderlord IV: Hunt	6844	0.85	1.3	1.6	
+	Thunderlord V: Hunt	8410	0.8	1.3	1.75	
+	Thunderlord VI: Hunt	7192	0.85	1.3	1.6	
+	Thunderlord VII: Hunt	7192	0.85	1.3	1.6	
+	Thunderlord VIII: Capture	8932	0.8	1.4	1.8	
+	Thunderlord IX: Hunt	7714	0.85	1.4	1.65	
+	Thunderlord X: Hunt	7714	0.85	1.4	1.65	
+	Thunderlord G1: Capture	13455	0.8	1.5	2	G
+	Thunderlord G2: Hunt	14152	0.75	1.5	2.1	G
+	Thunderlord G3: Hunt	9976	0.8	1.5	2	G
+	Thunderlord G3: Hunt	11889	0.75	1.5	2.1	G
+	Thunderlord G4: Hunt	13107	0.75	1.7	2.3	G
+	Thunderlord G5: Hunt	14500	0.75	2	2.5	G
+	Thunderlord EX: Hunt	24650	0.7	3.4	4.25	G
+	Boltreaver G5: Hunt	9280	0.75	1.7	2.3	G
+	Arena DLC XX Trials: Thunderlord	7540	0.85	1.15	1.5	G
+Barioth	Village 9 Airship Upgrade: Barioth	4664	0.95	1.3	1.3	
+	Village 9 Once upon a Barioth	4664	0.95	1.3	1.3	
+	Village 10 Barioth's Blizzard	4004	0.95	1.3	1.4	
+	Village 10 Barioth's Blizzard	4004	0.95	1.3	1.4	
+	Village 10 Advanced: Quarrel Quelling	5720	0.8	1.3	1.75	
+	Hub 6 Barioth Hunt	5720	0.85	1.3	1.6	
+	Hub G3 The Lost Expedition	9812	0.8	1.5	1.9	G
+	Hub G3 I Hope It's Not Barioth Flavored	9812	0.8	1.5	1.9	G
+	*Hub G4 Setting the Barioth High*	16940	0.75	2	2.5	G
+	*Hub G4 Arctic Ridge Allegiances*	9020	0.75	2	2.5	G
+	Snowbaron G3: Hunt	8228	0.8	1.5	2	G
+	Grimclaw G5: Hunt	9020	0.75	1.7	2.3	G
+	Grudge Match: Barioth	3740	0.85	1.1	1.35	
+	Hub DLC "My Love is Like a Chill Wind...?"	9020	0.75	1.5	2.1	G
+	SP Demo NX Single player: Barioth Hunt	2948	1	0.95	0.95	
+	SP Demo NX Multiplayer: Barioth Hunt	5456	0.8	1.5	1.9	
+Mizutsune	Village 5 The Entrancing Water Dancer	2392	1	1	1	
+	Village 6 The Fated Four	1978	1	1	1.05	
+	Village 6 Advanced: The Field's a Stage	3496	0.85	1.3	1.6	
+	Village 9 Soap Opera	4876	0.95	1.3	1.3	
+	Village 9 Man, Mizutsune Again?	4876	0.95	1.3	1.3	
+	*Village 10 Advanced: Generations Unite!*	5704	0.8	1.4	1.8	
+	Hub 3 Moonlit Bubble Bath	3496	0.95	1.2	1.25	
+	Hub 6 A Bewitching Dance	5980	0.85	1.3	1.6	
+	Hub 6 Surrounded by Bubbles	5980	0.85	1.3	1.6	
+	Hub 6 Bugging Out	4324	0.85	1.3	1.6	
+	Hub 7 A Song of White and Lapis	4600	0.85	1.3	1.6	
+	Hub 7 Bewitching Heat	4600	0.85	1.3	1.6	
+	Hub 7 The Hunter Games	4324	0.85	1.3	1.6	
+	*Hub 7 The Lithe and Unbreaking*	7636	0.8	1.4	1.85	
+	*Hub 7 The Foes of the Deep*	5152	0.85	1.3	1.6	
+	Hub G3 Water Kerfuffle	10258	0.8	1.5	1.9	G
+	Hub G3 Hunter Dojo: Bubble-jitsu	10258	0.8	1.5	1.9	G
+	*Hub G4 It Takes Mizutsune to Tango*	17710	0.75	2	2.5	G
+	*Hub G4 Jungle Funk*	11224	0.75	2	2.5	G
+	*Hub G4 Path of the Hunter*	8740	0.75	2	2.5	G
+	Silverwind VIII: Hunt	5428	0.85	1.3	1.6	
+	Soulseer G5: Hunt	8050	0.75	1.7	2.3	G
+	*Hub 1 DLC Ushio & Tora: White Mizutsune*	10810	0.8	1.5	2	
+	Hub 1 DLC Famitsu: Mizutsune Feature	5428	0.85	1.3	1.6	
+	*Hub 1 DLC Capcom: White & Black*	8188	0.8	1.4	1.8	
+	*Hub 1 DLC The Five Kings of Destruction*	8188	0.8	1.4	1.8	
+	*Hub DLC Paws Off My Fish!*	19780	0.75	2	2.5	G
+	Arena DLC Event: Slay a Mizutsune	3910	0.85	1.15	1.5	
+	*Arena DLC Event: Hunt-a-thon 3*	1840	0.85	1.15	1.5	
+	Arena DLC Event: Hunt-a-thon 4	1840	0.85	1.15	1.5	
+Soulseer Mizutsune	Soulseer G1: Capture	12064	0.8	1.5	2	G
+	Soulseer G2: Hunt	10348	0.75	1.5	2.1	G
+	Soulseer G3: Hunt	12688	0.75	1.5	2.1	G
+	Soulseer G4: Hunt	10348	0.75	1.6	2.2	G
+	Soulseer G5: Hunt	14300	0.75	1.8	2.4	G
+	Soulseer EX: Hunt	23400	0.7	3.2	4	G
+	Arena DLC XX Trials: Hunt-a-thon I	5200	0.85	1.1	1.1	G
+Astalos	Village 5 The Thunderclaw Wyvern	2340	1	1	1	
+	Village 6 The Fated Four	1935	1	1	1.05	
+	Village 6 Advanced: The Field's a Stage	3420	0.85	1.3	1.6	
+	Village 9 Flappy Pest	4770	0.95	1.3	1.3	
+	Village 9 Alas, Astalos Again	4770	0.95	1.3	1.3	
+	*Village 10 Advanced: Generations Unite!*	5580	0.8	1.4	1.8	
+	Hub 3 A Shocking Scoundrel	3420	0.95	1.2	1.25	
+	Hub 3 Fro Shizzle	3420	0.95	1.2	1.25	
+	Hub 6 The Lightning Crown	5850	0.85	1.3	1.6	
+	Hub 6 Astalos Territory	5850	0.85	1.3	1.6	
+	Hub 6 Dances with Wyverns	4230	0.85	1.3	1.6	
+	Hub 7 A Gathering of Wyverns	4500	0.85	1.3	1.6	
+	Hub 7 The Mountain God's Lightning	4500	0.85	1.3	1.6	
+	Hub 7 A Shocking Revelation!	4230	0.85	1.3	1.6	
+	*Hub 7 Wyvernlit Evening*	7470	0.8	1.4	1.85	
+	*Hub 7 The Marshlands Nightmare*	5445	0.85	1.3	1.6	
+	*Hub 7 The Winged Wyverns*	5445	0.85	1.3	1.6	
+	Hub G3 Pinnacle Pioneering	10035	0.8	1.5	1.9	G
+	Hub G3 Hunter Dojo: Lightning Wushu	10035	0.8	1.5	1.9	G
+	Hub G3 Down With This Sort of Thing	8010	0.8	1.5	1.9	G
+	Hub G4 Verdant Hills Missive	8415	0.8	1.5	2	G
+	*Hub G4 If These Rocks Could Talk*	17325	0.75	2	2.5	G
+	*Hub G4 Pinnacle Problems*	10980	0.75	2	2.5	G
+	*Hub G4 Path of the Hunter*	8550	0.75	2	2.5	G
+	Dreadqueen G5: Hunt	7875	0.75	1.7	2.3	G
+	Deadeye VIII: Hunt	5310	0.85	1.3	1.6	
+	Dreadking VI: Hunt	5310	0.85	1.3	1.6	
+	*Thunderlord G5: Hunt*	9225	0.75	1.6	2.2	G
+	Soulseer G2: Hunt	8010	0.8	1.5	2	G
+	*Boltreaver G4: Hunt*	10305	0.75	1.5	2.1	G
+	Hub 1 DLC Uniqlo Shock Fest	5310	0.85	1.3	1.6	
+	Hub 1 DLC Uniqlo Shock Fest	5310	0.85	1.3	1.6	
+	*Hub 1 DLC The Five Kings of Destruction*	8010	0.8	1.4	1.8	
+	*Hub DLC Violence in the Verdure*	19350	0.75	2	2.5	G
+	Arena DLC Event: Slay an Astalos	3825	0.85	1.15	1.5	
+	*Arena DLC Event: Hunt-a-thon 3*	1800	0.85	1.15	1.5	
+	Arena DLC Event: Hunt-a-thon 4	1800	0.85	1.15	1.5	
+Boltreaver Astalos	Dreadking G5: Hunt	11020	0.75	1.7	2.3	G
+	Boltreaver G1: Capture	13455	0.8	1.5	2	G
+	Boltreaver G2: Hunt	14152	0.75	1.5	2.1	G
+	Boltreaver G3: Hunt	9976	0.8	1.5	2	G
+	Boltreaver G3: Hunt	11889	0.75	1.5	2.1	G
+	Boltreaver G4: Hunt	11542	0.75	1.6	2.2	G
+	Boltreaver G5: Hunt	15950	0.75	2	2.5	G
+	Boltreaver EX: Hunt	21750	0.7	3	3.75	G
+	Arena DLC XX Trials: Hunt-a-thon I	5800	0.85	1.1	1.1	G
+Gammoth	Village 5 The Unwavering Colossus	2600	1	1	1	
+	Village 6 The Fated Four	2150	1	1	1.05	
+	Village 6 Advanced: The Field's a Stage	3800	0.85	1.3	1.6	
+	Village 9 Snow Joke	5300	0.95	1.3	1.3	
+	Village 9 Groan, Gammoth Again	5300	0.95	1.3	1.3	
+	*Village 10 Advanced: Generations Unite!*	6200	0.8	1.4	1.8	
+	Hub 3 Fury Run Afoul	3800	0.95	1.2	1.25	
+	Hub 6 The Unshakable Mountain God	6500	0.85	1.3	1.6	
+	Hub 6 Fury Run Afoul	6500	0.85	1.3	1.6	
+	Hub 6 A Three Hour Tour	4700	0.85	1.3	1.6	
+	Hub 7 A Cold Set of Armor	5000	0.85	1.3	1.6	
+	Hub 7 The Mountain God's Lightning	5000	0.85	1.3	1.6	
+	Hub 7 A Man's Arena Match is His Castle	4700	0.85	1.3	1.6	
+	*Hub 7 Wild Gods, Calm Rangers*	8300	0.8	1.4	1.85	
+	*Hub 7 The Fanged Beasts*	6050	0.85	1.3	1.6	
+	Hub G3 Ice Recovery	12200	0.8	1.5	1.9	G
+	Hub G3 Hunter Dojo: Tusk-fu	12200	0.8	1.5	1.9	G
+	*Hub G4 The Big Push*	20750	0.75	2	2.5	G
+	*Hub G4 Arctic Ridge Allegiances*	12200	0.75	2	2.5	G
+	*Hub G4 Path of the Hunter*	10250	0.75	2	2.5	G
+	Snowbaron X: Hunt	6350	0.85	1.3	1.6	
+	Drilltusk VIII: Hunt	5900	0.85	1.3	1.6	
+	*Hub 1 DLC Baki: Biggest vs. Strongest*	8600	0.8	1.3	1.75	
+	Hub 1 DLC The Three Virtues	5900	0.85	1.3	1.6	
+	*Hub 1 DLC The Five Kings of Destruction*	8900	0.8	1.4	1.8	
+	Hub 1 DLC A Mammoth Mistake	7400	0.8	1.3	1.75	
+	Hub 1 DLC The Untamed Mountains	5900	0.85	1.3	1.6	
+	*Hub DLC Big, Bad 'n' Woolly*	22500	0.75	2	2.5	G
+	Arena DLC Event: Slay a Gammoth	4250	0.85	1.15	1.5	
+	*Arena DLC Event: Hunt-a-thon 3*	2000	0.85	1.15	1.5	
+	Arena DLC Event: Hunt-a-thon 4	2000	0.85	1.15	1.5	
+Elderfrost Gammoth	Grimclaw G5: Hunt	8840	0.75	1.7	2.3	G
+	Elderfrost G1: Capture	15775	0.8	1.5	2	G
+	Elderfrost G2: Hunt	16592	0.75	1.5	2.1	G
+	Elderfrost G3: Hunt	13939	0.75	1.5	2.1	G
+	Elderfrost G3: Hunt	11696	0.8	1.5	2	G
+	Elderfrost G4: Hunt	13532	0.75	1.6	2.2	G
+	Elderfrost G5: Hunt	18700	0.75	1.8	2.4	G
+	Elderfrost EX: Hunt	27200	0.7	2.6	3.25	G
+	XX Trials: Elderfrost	8840	0.85	1.15	1.5	G
+Glavenus	Village 3 Tumultuous Sprouts	4687	0.9	1.3	1.5	
+	Village 6 The Scorching Blade	2623	1	1	1.05	
+	Village 6 From Beyond the Sands	2623	1	1	1.05	
+	Village 6 The Fated Four	1849	1	1	1.05	
+	Village 6 Advanced: Jurassic Treasure	3913	0.85	1.3	1.6	
+	Village 6 Advanced: The Goliaths	3010	0.9	1.3	1.5	
+	Village 6 Advanced: The Field's a Stage	3268	0.85	1.3	1.6	
+	Village 9 Desert Death Duel	4558	0.95	1.3	1.3	
+	Village 9 Great, Glavenus Again	4558	0.95	1.3	1.3	
+	Village 10 Advanced: Jurassic Pair	5590	0.8	1.3	1.75	
+	*Village 10 Advanced: Generations Unite!*	5332	0.8	1.4	1.8	
+	Hub 3 Flames of Glavenus Passion	3268	0.95	1.2	1.25	
+	Hub 3 Bladed Glavenus	3268	0.95	1.2	1.25	
+	Hub 3 An Early Jurassic Excursion	2365	0.95	1	1.1	
+	Hub 6 Duel in the Volcanic Hollow	5590	0.85	1.3	1.6	
+	Hub 6 From Beyond the Sands	5590	0.85	1.3	1.6	
+	Hub 6 A Hollow Defense	4041	0.85	1.3	1.6	
+	Hub 7 Hammer vs. Blade	4300	0.85	1.3	1.6	
+	Hub 7 Bewitching Heat	4300	0.85	1.3	1.6	
+	Hub 7 The Flames of War	4041	0.85	1.3	1.6	
+	*Hub 7 Savage Sword of the Desert*	7138	0.8	1.4	1.85	
+	*Hub 7 The Beasts of Brawn*	4816	0.85	1.3	1.6	
+	Hub G3 The Boiling Broiling Desert	9589	0.75	1.7	2.3	G
+	Hub G3 Hunter Dojo: Tail-do	9589	0.75	1.7	2.3	G
+	Hub G3 PR Disaster	7911	0.75	1.7	2.3	G
+	Hub G4 A Very Long Engravement	8299	0.75	1.8	2.4	G
+	Hub G4 Fiery Four-way Fracas	8041	0.75	1.8	2.4	G
+	*Hub G4 All Creatures Cleaved and Small*	16555	0.75	2	2.5	G
+	*Hub G4 A Bed of Sand*	10492	0.75	2	2.5	G
+	*Hub G4 Path of the Hunter*	8815	0.75	2	2.5	G
+	Stonefist VIII: Hunt	5074	0.85	1.3	1.6	
+	Crystalbeard VIII: Hunt	5074	0.85	1.3	1.6	
+	Dreadking G4: Hunt	8815	0.75	1.6	2.2	G
+	Hellblade X: Hunt	5461	0.85	1.3	1.6	
+	*Hellblade G3: Hunt*	9847	0.75	1.5	2.1	G
+	Hellblade G5: Hunt	8170	0.75	1.7	2.3	G
+	Rustrazor G5: Hunt	7911	0.75	1.7	2.3	G
+	Soulseer G2: Hunt	7654	0.8	1.5	2	G
+	*Hub 1 DLC The Five Kings of Destruction*	7654	0.8	1.4	1.8	
+	*Hub DLC Blade Blazing Brightly Black*	18490	0.75	2	2.5	G
+	*Hub DLC Monster Hunter Channel II*	8557	0.75	1.6	2.2	G
+	Hub DLC Baki: Deadly Claws	13760	0.75	1.5	2.1	G
+	Arena DLC Event: Slay a Glavenus	4300	0.85	1.15	1.5	
+	*Arena DLC Event: Hunt-a-thon 3*	1720	0.85	1.15	1.5	
+	Arena DLC Event: Hunt-a-thon 4	1720	0.85	1.15	1.5	
+	Arena DLC XX Trials: Hunt-a-thon IV	3655	0.85	1.15	1.5	G
+Hellblade Glavenus	Hellblade I: Hunt	6935	0.85	1.3	1.6	
+	Hellblade II: Capture	6935	0.85	1.3	1.6	
+	Hellblade III: Hunt	5559	0.85	1.3	1.6	
+	Hellblade IV: Hunt	6018	0.85	1.3	1.6	
+	Hellblade V: Hunt	7395	0.8	1.3	1.75	
+	Hellblade VI: Hunt	6324	0.85	1.3	1.6	
+	Hellblade VII: Hunt	6324	0.85	1.3	1.6	
+	Hellblade VIII: Capture	7854	0.8	1.4	1.8	
+	Hellblade IX: Hunt	6783	0.85	1.4	1.65	
+	Hellblade X: Hunt	6783	0.85	1.4	1.65	
+	Hellblade G1: Capture	12444	0.75	1.5	2.1	G
+	Hellblade G2: Hunt	10914	0.75	1.6	2.2	G
+	Hellblade G2: Hunt	9231	0.75	1.5	2.1	G
+	Hellblade G3: Hunt	10149	0.75	1.6	2.2	G
+	Hellblade G4: Hunt	13515	0.75	1.7	2.3	G
+	Hellblade G5: Hunt	13260	0.75	2	2.5	G
+	Hellblade G5: Hunt	8466	0.75	1.7	2.3	G
+	Hellblade EX: Hunt	17850	0.7	3	3.75	G
+	Arena DLC XX Trials: Hunt-a-thon II	5100	0.85	1.1	1.35	G
+Agnaktor	Village 9 Capture the Agnaktor	4876	0.95	1.3	1.3	
+	Village 9 You Had One Job	3634	0.95	1.3	1.3	
+	Hub 6 Master of the Molten Deep	5980	0.85	1.3	1.6	
+	Hub 6 We Can Dig It	5980	0.85	1.3	1.6	
+	Hub 6 Firefight to the Finish!	4324	0.85	1.3	1.6	
+	Hub 7 The Flames of War	4324	0.85	1.3	1.6	
+	*Hub 7 The Glowing Embers*	7636	0.8	1.4	1.85	
+	Hub G4 Lavaclad Beast	10672	0.8	1.5	2	G
+	Hub G4 A Titanic Clash	8878	0.8	1.5	2	G
+	*Hub G4 Agnaktor's Deep*	20700	0.75	2	2.5	G
+	*Hub 1 DLC How It's Done*	8188	0.8	1.4	1.8	
+	Hub 1 DLC Overcome with Awe	5428	0.85	1.3	1.6	
+	Hub 1 DLC The Hammer and the Pike	5428	0.85	1.3	1.6	
+Gore Magala	Village 6 Dark Wings Dark Work	3050	1	1	1.05	
+	Village 6 Advanced: State in Flux	3500	0.85	1.3	1.6	
+	Village 9 Ruined and Tarnished	5300	0.95	1.3	1.3	
+	Village 9 Primal Panic	5300	0.95	1.3	1.3	
+	Village 9 Disaster on the Steppes	3650	0.95	1.3	1.3	
+	Hub 3 Dark Wings, Dark Work	3800	0.95	1.2	1.25	
+	Hub 6 Watch Your Steppe	6500	0.85	1.3	1.6	
+	Hub 6 Dread Locked	6500	0.85	1.3	1.6	
+	Hub 7 The Gathering Storm	4700	0.85	1.3	1.6	
+	*Hub 7 Putting the Gore in Magala*	7550	0.8	1.3	1.75	
+	Hub G3 Problem at the Pinnacle	11150	0.8	1.5	1.9	G
+	Hub G3 Eclipse at Jurassic Frontier	11150	0.8	1.5	1.9	G
+	*Hub G4 Something Wicked*	18000	0.75	2	2.5	G
+	Grimclaw G2: Hunt	9500	0.75	1.6	2.2	G
+	*Hub 1 DLC Magi: Rescue from the Fall*	10700	0.8	1.5	2	
+	*Hub DLC Monster Hunter Channel II*	9500	0.75	1.6	2.2	G
+	Arena DLC Event: Slay a Gore Magala	4250	0.85	1.15	1.5	
+Chaotic Gore Magala	Hub G4 Heaven and Hell	14152	0.75	1.5	2.1	G
+	Hub G4 Primal Screams	14152	0.75	1.5	2.1	G
+	Hub DLC The Cry of Chaos	20300	0.75	2	2.5	G
+Seregios	Village 6 A Thousand Scales of Dread	2562	1	1	1.05	
+	Village 6 Advanced: State in Flux	2940	0.85	1.3	1.6	
+	Village 10 Thousand-Blade Brouhaha	5082	0.95	1.3	1.4	
+	Village 10 A Cure for Idleness	5082	0.95	1.3	1.4	
+	*Village 10 Advanced: The Master's Test*	5838	0.8	1.4	1.8	
+	Hub 3 A Thousand Scales of Dread	3192	0.95	1.2	1.25	
+	Hub 3 Wyvern Sand Runners	2310	0.95	1	1.1	
+	Hub 7 So Notable: Seregios	5838	0.85	1.3	1.6	
+	Hub 7 Seer of Swords	5838	0.85	1.3	1.6	
+	Hub 7 The Gathering Storm	3948	0.85	1.3	1.6	
+	*Hub 7 A Thousand Blades of Wrath*	6972	0.8	1.4	1.85	
+	*Hub 7 The End of the Trials*	5082	0.85	1.3	1.6	
+	*Hub 7 The Winged Wyverns*	5082	0.85	1.3	1.6	
+	Hub G4 Battle of 1001 Blades	11760	0.8	1.5	2	G
+	Hub G4 Seregios Scuffle	11760	0.8	1.5	2	G
+	*Hub G4 Seregios Exposé*	16170	0.75	2	2.5	G
+	Crystalbeard IX: Hunt	5711	0.85	1.4	1.65	
+	*Bloodbath G4: Hunt*	9996	0.75	1.6	2.2	G
+	Arena Grudge Match: Seregios	5460	0.85	1.15	1.5	
+	*Hub DLC Case Closed: Desert Arrest*	13650	0.75	2	2.5	G
+	*Hub DLC Monster Hunter Channel II*	7980	0.75	1.6	2.2	G
+Duramboros	Village 6 Advanced: Twinkle Toes	5278	0.85	1.3	1.6	
+	Village 9 Mt. Duramboros	6148	0.95	1.3	1.3	
+	Village 9 Earn Your Gear	6148	0.95	1.3	1.3	
+	Village 10 Misty Peaks Missive	4756	0.95	1.3	1.4	
+	Hub 6 The Moving Mountain	7540	0.85	1.3	1.6	
+	Hub 6 For Whom the Gong Tolls	7540	0.85	1.3	1.6	
+	Hub 6 Marshlands Rag	5452	0.85	1.3	1.6	
+	*Hub 7 The Peril of the Land*	7018	0.85	1.3	1.6	
+	*Hub 7 Searching for Secret Baths*	5800	0.85	1.3	1.6	
+	*Hub 7 The Beasts of Brawn*	5800	0.85	1.3	1.6	
+	Hub G4 Misty Opportunity?	13455	0.8	1.5	2	G
+	Hub G4 A Titanic Clash	9802	0.8	1.5	2	G
+	*Hub G4 Appeal from Authority*	22330	0.75	2	2.5	G
+	Village 10 Duramboros Backbreaker!	11716	0.85	1.3	1.3	
+	Silverwind IX: Hunt	7887	0.85	1.4	1.65	
+	Hub 1 DLC The Untamed Mountains	6844	0.85	1.3	1.6	
+Tigrex	Village 6 Tigrex by the Tail	3050	1	1	1.05	
+	Village 6 The Hero's Journey	3050	1	1	1.05	
+	Village 6 Advanced: Seismic Scares	3500	0.9	1.3	1.5	
+	Village 6 Advanced: Seismic Scares	3500	0.9	1.3	1.5	
+	Village 6 Advanced: The Goliaths	3500	0.9	1.3	1.5	
+	Village 6 Advanced: Might is Right	3500	0.85	1.3	1.6	
+	Village 6 Advanced: Out of the Fry Pan	3800	0.85	1.3	1.6	
+	Village 9 Fearful Symmetry	5300	0.95	1.3	1.3	
+	Village 9 Ruler of the Frozen Seaway	5000	0.95	1.3	1.3	
+	Village 9 Desert Double Act	3950	0.95	1.3	1.3	
+	Village 9 Just a Mirage...?	3650	0.95	1.3	1.3	
+	Village 10 Advanced: Roaring in the Ridge	8149	0.8	1.4	1.85	
+	Village 10 Advanced: Monster Hunter!	6050	0.8	1.3	1.75	
+	Hub 3 Tigrex by the Tail	3800	0.95	1.2	1.25	
+	Hub 3 Making it Safe for Swine	2750	0.95	1	1.1	
+	Hub 6 What a Girl Wants	6500	0.85	1.3	1.6	
+	Hub 7 A Roar to the Heavens	5000	0.85	1.3	1.6	
+	Hub 7 Wyvern's Way	5000	0.85	1.3	1.6	
+	Hub 7 The Gathering Storm	4700	0.85	1.3	1.6	
+	*Hub 7 Tigrex, Tigrex, Burning Bright*	7550	0.8	1.3	1.75	
+	*Hub 7 The End of the Trials*	5600	0.85	1.3	1.6	
+	Hub G4 Tracing the Family Tree	13500	0.8	1.5	2	G
+	Hub G4 Price Freeze	13500	0.8	1.5	2	G
+	Hub G4 Jurassic Skulduggery	10250	0.8	1.5	2	G
+	*Hub G4 Tigrex Trap*	21750	0.75	2	2.5	G
+	*Hub G4 A Bed of Sand*	11299	0.75	2	2.5	G
+	Hub G4 Arena Allegiances	9800	0.75	1.5	2.1	G
+	Snowbaron IX: Hunt	5900	0.85	1.3	1.6	
+	Grimclaw X: Hunt	6350	0.85	1.3	1.6	
+	Elderfrost G5: Hunt	8750	0.75	1.7	2.3	G
+	Hub 1 DLC Felyne Village: The Tourney	5000	0.85	1.3	1.6	
+	*Hub 1 DLC Absolute Power*	10700	0.8	1.5	2	
+	Hub 1 DLC The Best of the Best	6350	0.85	1.3	1.6	
+	*Hub DLC Monster Hunter Channel I*	9050	0.75	1.6	2.2	G
+	Arena DLC Event: Hunt-a-thon 1	1550	0.85	1.15	1.5	
+	Arena DLC Event: Slay a Tigrex	4250	0.85	1.15	1.5	
+	Arena DLC XX Trials: Tigrex	4250	0.85	1.15	1.5	G
+Grimclaw Tigrex	Grimclaw I: Hunt	7887	0.85	1.3	1.6	
+	Grimclaw II: Capture	7887	0.85	1.3	1.6	
+	Grimclaw III: Hunt	7887	0.85	1.3	1.6	
+	Grimclaw IV: Hunt	6844	0.85	1.3	1.6	
+	Grimclaw V: Hunt	8410	0.8	1.3	1.75	
+	Grimclaw VI: Hunt	7192	0.85	1.3	1.6	
+	Grimclaw VII: Hunt	7192	0.85	1.3	1.6	
+	Grimclaw VIII: Capture	8932	0.8	1.4	1.8	
+	Grimclaw IX: Hunt	7714	0.85	1.4	1.65	
+	Grimclaw X: Hunt	7714	0.85	1.4	1.65	
+	Grimclaw G1: Capture	14152	0.75	1.5	2.1	G
+	Grimclaw G2: Hunt	12760	0.75	1.7	2.3	G
+	Grimclaw G3: Hunt	10498	0.75	1.5	2.1	G
+	Grimclaw G3: Hunt	12412	0.75	1.7	2.3	G
+	Grimclaw G4: Hunt	20300	0.75	2	2.5	G
+	Grimclaw G5: Hunt	15950	0.75	2	2.5	G
+	Grimclaw EX: Hunt	26100	0.7	3.2	4	G
+	Arena DLC XX Trials: Grimclaw	7540	0.85	1.15	1.5	G
+Gravios	Village 9 Ore d'Oeuvres	4664	0.95	1.3	1.3	
+	Village 9 Wish upon a...Gravios?	4664	0.95	1.3	1.3	
+	Village 9 Trouble Comes in Threes	3212	0.95	1.3	1.3	
+	Village 10 Bring Me My Sword	4004	0.95	1.3	1.4	
+	Village 10 Bring Me My Sword	4004	0.95	1.3	1.4	
+	Hub 6 A Cure for Cowardice	5720	0.85	1.3	1.6	
+	Hub G3 Hunt-a-thon: Gravios	7832	0.8	1.5	1.9	G
+	Hub G3 A Certain Gravitas	9812	0.8	1.5	1.9	G
+	Hub G4 A Very Long Engravement	7964	0.8	1.5	2	G
+	Hub G4 Fiery Four-way Fracas	7700	0.8	1.5	2	G
+	*Hub G4 Marshland Fandango*	16940	0.75	2	2.5	G
+	*Hub G4 Death at My Greaves*	11880	0.75	2	2.5	G
+	Hub G4 Arena Allegiances	8360	0.75	1.5	2.1	G
+	Hub G4 Gravios Backbreaker	15400	0.75	1.5	2	G
+	Drilltusk G3: Hunt	8228	0.8	1.5	2	G
+	Rustrazor G5: Hunt	8095	0.75	1.7	2.3	G
+	Hub DLC A Solid Argument	8624	0.75	1.5	2.1	G
+	Hub DLC Capcom: Prowler's Spirit	14080	0.8	1.5	2	G
+	Arena DLC XX Trials: Gravios	5060	0.85	1.3	1.5	G
+Diablos	Village 10 Duel With the Devil	5445	0.95	1.3	1.4	
+	Village 10 Horned and Dangerous	5445	0.95	1.3	1.4	
+	*Village 10 Advanced: The Master's Test*	6255	0.8	1.4	1.8	
+	Hub 7 Legendary Skills?	7064	0.8	1.4	1.8	
+	Hub G4 Beware Twin Horns on the Sand	10440	0.8	1.5	2	G
+	Hub G4 Diabolical Delight	10440	0.8	1.5	2	G
+	*Hub G4 Backwater Battle*	17325	0.75	2	2.5	G
+	*Hub G4 Path of the Hunter*	10575	0.75	2	2.5	G
+	Bloodbath G3: Hunt	9225	0.75	1.6	2.2	G
+	Hub DLC Forewarned is Four-Horned	9225	0.75	1.6	2.2	G
+	Hub DLC Forewarned is Four-Horned	9225	0.75	1.6	2.2	G
+Bloodbath Diablos	Bloodbath G1: Hunt	12760	0.75	1.5	2.1	G
+	Bloodbath G2: Capture	14789	0.75	1.6	2.2	G
+	Bloodbath G3: Hunt	11542	0.75	1.6	2.2	G
+	Bloodbath G4: Hunt	12064	0.75	1.7	2.3	G
+	Bloodbath G5: Hunt	9802	0.75	1.7	2.3	G
+	Bloodbath G5: Hunt	15950	0.75	1.8	2.4	G
+	Bloodbath EX: Hunt	22040	0.7	3	3.75	G
+	Arena DLC XX Trials: Hunt-a-thon II	5800	0.85	1.1	1.35	G
+Kirin	Village 6 It's Electric	1952	1	1	1.05	
+	Village 6 The White Brute	1952	1	1	1.05	
+	Village 9 Impossible Standards	3392	0.95	1.3	1.3	
+	Village 9 My Kirin for a Horse	3392	0.95	1.3	1.3	
+	Hub 3 It's Electric	2432	0.95	1.2	1.25	
+	Hub 3 The White Brute	2432	0.95	1.2	1.25	
+	Hub 6 It's Electric	4160	0.85	1.3	1.6	
+	Hub 6 The White Brute	4160	0.85	1.3	1.6	
+	Hub 6 A Scenic Locale	4160	0.85	1.3	1.6	
+	Hub G3 A Pinnacle Just for You	7136	0.8	1.5	1.9	G
+	Hub G3 Reality or Fantasy?	7136	0.8	1.5	1.9	G
+	Hub G3 The Phantom Beast!	7136	0.8	1.5	1.9	G
+	Hub 1 DLC A Land Draped in Fantasy	5504	0.8	1.5	1.9	
+	Hub DLC Dengeki: Top of Old Sparky	7136	0.8	1.5	1.9	G
+Brachydios	Village 6 Brachydios Mio!	2745	1	1	1.05	
+	Village 6 Break the Brachydios	2745	1	1	1.05	
+	Village 6 Advanced: State in Flux	3150	0.85	1.3	1.6	
+	Village 10 Bad Hair Day: Brachydios	5445	0.95	1.3	1.4	
+	Village 10 Bag a Brachydios	5445	0.95	1.3	1.4	
+	Village 10 Advanced: Proof of a Hero	5445	0.8	1.3	1.75	
+	Hub 3 Isle About that Bass	3420	0.95	1.2	1.25	
+	Hub 3 Rumble in the Volcano	2475	0.95	1	1.1	
+	Hub 7 Rocked and Rolled	6255	0.85	1.3	1.6	
+	Hub 7 Repaying the Favor	6255	0.85	1.3	1.6	
+	*Hub 7 Steam and Smoke*	7470	0.8	1.4	1.85	
+	*Hub 7 The Beasts of Brawn*	5040	0.85	1.3	1.6	
+	Hub G4 Slam Gunk	12150	0.8	1.5	2	G
+	Hub G4 Brachydios Bypass	12150	0.8	1.5	2	G
+	Hub G4 Fiery Four-way Fracas	7875	0.8	1.5	2	G
+	*Hub G4 Even Brachydios Need A Holiday*	17325	0.75	2	2.5	G
+	Drilltusk IX: Hunt	6119	0.85	1.4	1.65	
+	Arena Grudge Match: Brachydios	2880	0.85	1.1	1.4	
+	Hub 1 DLC The Three Virtues	5310	0.85	1.3	1.6	
+	*Hub 1 DLC Not Stepping One Foot...*	10575	0.8	1.5	2	
+	*Hub 1 DLC How It's Done*	8010	0.8	1.4	0.8	
+	Hub 1 DLC The Greatest Hunter	5715	0.85	1.3	1.6	
+	*Hub DLC Drifters: Isle of Lost Souls*	14625	0.75	2	2.5	G
+	*Hub DLC Monster Hunter Channel II*	7740	0.75	1.6	2.2	G
+	Arena DLC XX Trials: Brachydios	3825	0.85	1.15	1.5	G
+Raging Brachydios	Hub G4 Brachydios Brute Squad	14024	0.75	2	2.5	G
+	Crystalbeard G5: Hunt	8800	0.75	1.7	2.3	G
+	Hub DLC Brutal Brachydios	18150	0.7	2.2	2.8	G
+	Arena DLC XX Trials: Hunt-a-thon III	5500	0.85	1.1	1.1	G
+Shagaru Magala	Village 6 Stop the Wheel	3355	1	1	1.05	
+	Village 6 Advanced: Nothing is Sacred	5335	0.85	1.3	1.6	
+	Village 10 Wheel of Time	6655	0.95	1.3	1.4	
+	Village 10 Advanced: The Caravaneer's Challenge	7975	0.8	1.3	1.75	
+	Hub 3 Stop the Wheel	4180	0.95	1.2	1.25	
+	Hub 7 Stop the Wheel	7645	0.85	1.3	1.6	
+	Hub G4 Ends of the Earth	12760	0.8	1.5	2	G
+	Hub 1 DLC Yu-Gi-Oh: A Beautiful Wyvern	9460	0.8	1.5	1.9	
+	Hub DLC A Terrible Light	21175	0.75	2	2.5	G
+Valstrax	Village 10 Beware the Comet of Disaster	5808	0.95	1.3	1.4	
+	Village 10 Beware the Comet of Disaster	5808	0.95	1.3	1.4	
+	Village 10 The Baleful Comet	5808	0.95	1.3	1.4	
+	Village 10 Turn That Frown Upside Down	5808	0.95	1.3	1.4	
+	Village 10 An Almost-Certainly-Fine Comet	5808	0.95	1.3	1.4	
+	Village 10 Advanced: Generations Unite!	7535	0.8	1.3	1.75	
+	Hub G4 Sky Render	11136	0.8	1.5	2	G
+	Hub G4 Hunter Dojo: Valstrax-ryu	11136	0.8	1.5	2	G
+	Hub G4 Supersonic	11136	0.8	1.5	2	G
+	Hub G4 Scales of Justice	11136	0.8	1.5	2	G
+	Hub DLC Forget Valstrax, Big Sis is Scarier!	20400	0.7	2.2	2.8	G
+	Hub DLC Monster Hunter Channel II	10272	0.75	2	2.5	G
+	Arena DLC XX Trials: Hunt-a-thon II	5520	0.85	1.1	1.35	G
+	SP Demo NX Single player: Slay Valstrax	4224	0.9	1.3	1.3	
+	SP Demo NX Multiplayer: Slay Valstrax	14400	0.8	1.5	2	
+Rajang	Village 6 Advanced: The Golden Pair	3825	0.85	1.3	1.6	
+	Village 6 Advanced: The Golden Pair	3825	0.85	1.3	1.6	
+	Village 10 Roar of the Rajang	5445	0.95	1.3	1.4	
+	Village 10 Primal Panic	5445	0.95	1.3	1.4	
+	Village 10 Advanced: Monster Hunter!	5445	0.8	1.3	1.75	
+	Hub 6 Legend of the Monkey King	5850	0.85	1.3	1.6	
+	Hub 6 The Rajang in the Snow	5850	0.85	1.3	1.6	
+	Hub 6 At the Slayground	4230	0.85	1.3	1.6	
+	Hub 7 The Hapless Bodyguard	4500	0.85	1.3	1.6	
+	Hub 7 You Bet Your Life	4500	0.85	1.3	1.6	
+	Hub 7 A Shocking Revelation!	4230	0.85	1.3	1.6	
+	*Hub 7 Rajang's Black Spirit*	9360	0.8	1.5	2	
+	Hub G4 Paint It Gold	10440	0.8	1.5	2	G
+	Hub G4 Emergency at the Arctic Ridge!	10440	0.8	1.5	2	G
+	Hub G4 The Ol' Razzle Dazzle	8550	0.8	1.5	1.9	G
+	*Hub G4 Rajang Against The Machine*	14625	0.75	2	2.5	G
+	Stonefist X: Hunt	5715	0.85	1.3	1.6	
+	Deadeye G4: Hunt	9225	0.75	1.6	2.2	G
+	Grimclaw G2: Hunt	7200	0.75	1.6	2.2	G
+	*Hub 1 DLC All's Hair in Glove & War*	11475	0.8	1.5	2	
+	Hub 1 DLC No Party Poopers!	5310	0.85	1.3	1.6	
+	Arena DLC Event: Hunt-a-thon 2	3825	0.85	1.15	1.5	
+Furious Rajang	Village 10 Advanced: The Caravaneer's Challenge	4800	0.8	1.3	1.75	
+	Hub 7 Child of Destruction	7104	0.8	1.3	1.75	
+	Hub 7 A Shock in the Dark	5664	0.85	1.3	1.6	
+	Hub 7 A Shock in the Dark	5664	0.85	1.3	1.6	
+	Hub G4 The Jungle VIP	11712	0.75	1.5	2.1	G
+	Redhelm G5: Hunt	7680	0.75	1.6	2.2	G
+	Thunderlord G5: Hunt	8400	0.75	1.7	2.3	G
+	Hub 1 DLC Raging Twins	6096	0.85	1.3	1.6	
+	Hub 1 DLC Raging Twins	6096	0.85	1.3	1.6	
+	Hub 1 DLC Insanity and Destruction	6096	0.85	1.3	1.6	
+	Hub DLC Bequest Quest	12720	0.75	2	2.5	G
+Deviljho	Village 6 Advanced: Out of the Fry Pan	6600	0.85	1.3	1.6	
+	Village 10 Deviljho Dispossession	7392	0.9	1.3	1.5	
+	Village 10 Deviljho Food Cake	7392	0.9	1.3	1.5	
+	*Village 10 Advanced: The Master's Test*	7986	0.9	1.3	1.5	
+	Hub 6 Bedevil a Deviljho	8580	0.85	1.3	1.6	
+	Hub 7 You Bet Your Life	8580	0.85	1.3	1.6	
+	*Hub 7 Steppe in the Right Direction*	13728	0.8	1.5	2	
+	Hub G4 Deviljho Hunt	14124	0.75	1.5	2	G
+	Hub G4 Everything in Moderation	14124	0.75	1.5	2	G
+	Hub G4 The Ol' Razzle Dazzle	12540	0.75	1.5	2	G
+	*Hub G4 Pitched Pinnacle Battle*	21450	0.75	2	2.5	G
+	*Hub 1 DLC The Voracious King*	14915	0.8	1.5	2	
+	*Hub 1 DLC The Five Kings of Destruction*	11748	0.8	1.4	1.8	
+	Arena DLC Event: Hunt-a-thon 2	5610	0.85	1.15	1.5	
+Savage Deviljho	Hub 7 Triumphant Rage	8159	0.85	1.3	1.6	
+	Hub G4 Deranged Desert Deviljho	14640	0.75	1.5	2.1	G
+	Redhelm IX: Hunt	7080	0.85	1.3	1.5	
+	Snowbaron G5: Hunt	7800	0.75	1.6	2.2	G
+	Hub 1 DLC Strider: Frozen Mission	9419	0.8	1.4	1.8	
+	Hub 1 DLC Unbridled Rage	7620	0.85	1.3	1.6	
+	Hub 1 DLC Unbridled Rage	7620	0.85	1.3	1.6	
+	Hub 1 DLC Insanity and Destruction	7620	0.85	1.3	1.6	
+	Hub 1 DLC The Greatest Hunter	7620	0.85	1.3	1.6	
+	Hub DLC Meat is Murder	15900	0.75	2	2.5	
+Kushala Daora	Village 6 Advanced: Snowtal Recall	4074	0.85	1.3	1.6	
+	Village 10 Advanced: Steel Yourself	6846	0.8	1.4	1.85	
+	Hub 3 The Frozen Dictator	3192	0.95	1.2	1.25	
+	Hub 7 The Frozen Dictator	6593	0.8	1.4	1.8	
+	Hub 7 Kushala Daora Strikes	6593	0.8	1.4	1.8	
+	Hub G4 Steel Yourself	12810	0.75	1.6	2.2	G
+	Hub G4 Blizzard Blower	12810	0.75	1.6	2.2	G
+	Hub 1 DLC The Steel Vanguard	7224	0.8	1.5	1.9	
+	Hub DLC The Legend of Zelda: Courage	11550	0.75	1.7	2.3	G
+Chameleos	Village 6 Advanced: Invisible Thief	6208	0.85	1.3	1.6	
+	Village 10 Advanced: Advanced: Karma Chameleos	10432	0.8	1.4	1.85	
+	Hub 3 The Elder Dragon of Mist	4864	0.95	1.2	1.25	
+	Hub 7 The Elder Dragon of Mist	10047	0.8	1.4	1.8	
+	Hub 7 Beyond the Silence	10047	0.8	1.4	1.8	
+	Hub G4 Out of Thin Air	16319	0.75	1.6	2.2	G
+	Hub G4 Into Thin Air	16319	0.75	1.6	2.2	G
+	Hub 1 DLC The Formless One	11008	0.8	1.5	1.9	
+	Hub DLC Legitimate Soaratorium Quest	1600	0.75	2	2.5	G
+Teostra	Village 6 Advanced: Teostra's Return	5141	0.85	1.3	1.6	
+	Village 10 Advanced: Empire of the Sun	8639	0.8	1.4	1.85	
+	Hub 3 Emperor of Flame	4028	0.95	1.2	1.25	
+	Hub 7 Emperor of Flame	8321	0.8	1.4	1.8	
+	Hub 7 The Fires of Devastation	8321	0.8	1.4	1.8	
+	Hub G4 Sandblasting	13514	0.75	1.6	2.2	G
+	Hub G4 Explosion Marks the Spot	13514	0.75	1.6	2.2	G
+	Hub 1 DLC The Exploding Flame King	9116	0.8	1.5	1.9	
+	Hub DLC Lord of the Volcanic Hollow	16695	0.75	2	2.5	G
+Lao-Shan Lung	Hub G3 Giant Dragon Invasion	47500	0.8	1.5	1.9	G
+	Hub DLC Lao-Shan Lung Time No See	68750	0.75	2	2.5	G
+Akantor	Village 10 King of Hellfire	6899	0.9	1.3	1.5	
+	Hub 7 Grim Tidings	9419	0.8	1.4	1.8	
+	Hub G4 Trial by Akantor	18000	0.75	1.6	2.2	G
+	Hub 1 DLC Capcom: The Ruler's Rage	10320	0.8	1.5	1.9	
+	Hub DLC Monster on a Crusade	19500	0.7	2.2	2.8	G
+Ukanlos	Village 10 The Seat of a God	8049	0.9	1.3	1.5	
+	Hub 7 Absolute Zero	10989	0.8	1.4	1.8	
+	Hub G4 Polar Peril	17850	0.75	1.6	2.2	G
+	Hub 1 DLC The White God Returns	12040	0.8	1.5	1.9	
+	Hub DLC Ukanlos-Made Global Cooling	19250	0.7	2.2	2.8	G
+Amatsu	Village 10 Stormlord	9118	0.9	1.3	1.5	
+	Hub 7 The Looming Calamity	14757	0.8	1.4	1.8	
+	Hub G4 Who Will Hunt the Rain?	23970	0.75	1.6	2.2	G
+	Hub 1 DLC Evil Descendeth Upon Us	16168	0.8	1.5	1.9	
+Nakarkos	Village 10 Grave Peril	10560	0.9	1.3	1.5	
+	Hub 3 Two-headed Carcass	6959	0.95	1.2	1.25	
+	Hub 7 Hellfire Star	12000	0.85	1.3	1.6	
+	Hub G4 A Bone to Pick	30599	0.75	1.6	2.2	G
+	Hub 1 DLC Harbinger of Death	20640	0.8	1.5	1.9	
+	Hub DLC Welcome Back To Hell	33000	0.7	3	3.75	G
+Empress's Throne	Hub G4 Castle on the Run	25520	0.8	1.5	2	G
+	Hub DLC The Gloom of 1,001 Nights	29150	0.7	2.8	3.5	G
+Ahtal Ka	Hub G4 Castle on the Run	11368	0.8	1.5	2	G
+	Hub DLC The Gloom of 1,001 Nights	12985	0.75	2	2.5	G
+Alatreon	Village 10 Blazing Black of a Dark God	6899	0.9	1.3	1.5	
+	Hub 7 The Brilliant Darkness	10320	0.8	1.5	1.9	
+	Hub G4 Glory Glory Alatreon	18000	0.75	1.7	2.3	G
+	Hub 1 DLC Where Gods Fear to Tread	10320	0.8	1.5	1.9	
+	Hub DLC Alatreon and Alack	19500	0.75	2	2.5	G
+Fatalis	Hub G4 Fade to Black	23850	0.75	1.7	2.3	G
+	Hub DLC End of a Dark History	32400	0.7	2.2	2.8	G
+Crimson Fatalis	Hub G4 The End Is Nigh	28000	0.75	2	2.5	G
+	Hub DLC To Slay a Legend	34000	0.75	2	2.5	G
+Old Fatalis	Hub G4 Old Fatalis	23850	0.75	1.8	2.4	G
+	Hub DLC Defy the Prophecy	29250	0.75	2	2.5	G

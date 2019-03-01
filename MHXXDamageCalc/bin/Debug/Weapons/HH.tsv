@@ -1,0 +1,802 @@
+ID	name	raw	element	eleValue	affinity	sharpness	sharpOne	sharpTwo
+0	Petrified Horn Lv. 1	60	(No Element)	0	0	Yellow	Yellow	Yellow
+1	Petrified Horn Lv. 2	80	(No Element)	0	0	Yellow	Yellow	Yellow
+2	Petrified Horn Lv. 3	90	(No Element)	0	0	Yellow	Green	Green
+3	Petrified Horn Lv. 4	100	(No Element)	0	0	Green	Green	Green
+4	Petrified Horn Lv. 5	110	(No Element)	0	0	Green	Green	Green
+5	Petrified Horn Lv. 6	130	(No Element)	0	0	Green	Blue	Blue
+6	Petrified Horn Lv. 7	160	(No Element)	0	0	Blue	Blue	White
+7	Scholarly Horn Lv. 8	200	(No Element)	0	0	Blue	Blue	White
+8	Scholarly Horn Lv. 9	230	(No Element)	0	0	Blue	Blue	White
+9	Scholarly Horn Lv. 10	280	(No Element)	0	0	White	White	White
+10	Sophos Horn Lv. 11	320	(No Element)	0	0	White	White	White
+11	Iron Horn Lv. 1	70	(No Element)	0	0	Yellow	Yellow	Green
+12	Iron Horn Lv. 2	80	(No Element)	0	0	Green	Green	Green
+13	Iron Horn Lv. 3	100	(No Element)	0	0	Green	Green	Green
+14	Iron Horn Lv. 4	110	(No Element)	0	0	Green	Green	Green
+15	Iron Horn Lv. 5	120	(No Element)	0	0	Green	Green	Blue
+16	Iron Horn Lv. 6	140	(No Element)	0	0	Green	Green	Blue
+17	Iron Horn Lv. 7	170	(No Element)	0	0	Green	Blue	Blue
+18	Wind Horn Lv. 8	220	(No Element)	0	0	Green	Blue	Blue
+19	Wind Horn Lv. 9	240	(No Element)	0	0	Blue	Blue	White
+20	Wind Horn Lv. 10	270	(No Element)	0	0	Blue	White	White
+21	Grand Horn Lv. 11	330	(No Element)	0	0	Blue	White	White
+22	Bone Horn Lv. 1	80	(No Element)	0	0	Yellow	Yellow	Yellow
+23	Bone Horn Lv. 2	100	(No Element)	0	0	Yellow	Yellow	Yellow
+24	Bone Horn Lv. 3	110	(No Element)	0	0	Yellow	Yellow	Yellow
+25	Bone Horn Lv. 4	120	(No Element)	0	0	Yellow	Yellow	Yellow
+26	Bone Horn Lv. 5	130	(No Element)	0	0	Green	Green	Green
+27	Bone Horn Lv. 6	160	(No Element)	0	0	Green	Green	Green
+28	Bone Horn Lv. 7	200	(No Element)	0	0	Green	Green	Green
+29	Hardened Bone Horn Lv. 8	230	(No Element)	0	0	Green	Green	Blue
+30	Hardened Bone Horn Lv. 9	250	(No Element)	0	0	Blue	Blue	White
+31	Hardened Bone Horn Lv. 10	280	(No Element)	0	0	Blue	Blue	White
+32	Heavy Bone Horn Lv. 11	350	(No Element)	0	0	Blue	White	Purple
+33	Larinoth Ocarina Lv. 1	70	(No Element)	0	0	Yellow	Yellow	Yellow
+34	Larinoth Ocarina Lv. 2	90	(No Element)	0	0	Yellow	Yellow	Yellow
+35	Larinoth Ocarina Lv. 3	130	(No Element)	0	0	Yellow	Green	Green
+36	Larinoth Ocarina Lv. 4	160	(No Element)	0	0	Yellow	Green	Green
+37	Resonant Ocarina Lv. 5	220	(No Element)	0	0	Yellow	Blue	White
+38	Resonant Ocarina Lv. 6	250	(No Element)	0	0	Green	Blue	White
+39	Harmonious Ocarina Lv. 7	340	(No Element)	0	0	Blue	Blue	White
+40	Sonic Glass Lv. 1	70	(No Element)	0	5	Green	Green	Green
+41	Sonic Glass Lv. 2	80	(No Element)	0	5	Green	Blue	Blue
+42	Sonic Glass Lv. 3	110	(No Element)	0	5	Blue	Blue	White
+43	Sonic Glass Lv. 4	130	(No Element)	0	5	Blue	Blue	White
+44	Glass Queen Lv. 5	180	(No Element)	0	5	White	White	White
+45	Glass Queen Lv. 6	220	(No Element)	0	10	White	White	White
+46	Glass Monarch Lv. 7	300	(No Element)	0	20	Purple	Purple	Purple
+47	Vicello Nulo Lv. 1	80	(No Element)	0	0	Green	Green	Green
+48	Vicello Nulo Lv. 2	90	(No Element)	0	0	Green	Green	Green
+49	Vicello Nulo Lv. 3	120	(No Element)	0	0	Green	Blue	Blue
+50	Vicello Nulo Lv. 4	130	(No Element)	0	0	Blue	Blue	White
+51	Vicello Nulo Lv. 5	160	(No Element)	0	0	White	White	White
+52	Vicello Unu Lv. 6	190	(No Element)	0	0	White	White	White
+53	Vicello Unu Lv. 7	220	(No Element)	0	0	White	White	White
+54	Vicello Unu Lv. 8	260	(No Element)	0	0	Purple	Purple	Purple
+55	Vicello Du Lv. 9	310	(No Element)	0	0	Purple	Purple	Purple
+56	Velociprey Balloon Lv. 1	90	(No Element)	0	0	Yellow	Yellow	Yellow
+57	Velociprey Balloon Lv. 2	100	(No Element)	0	0	Green	Green	Green
+58	Velociprey Balloon Lv. 3	110	(No Element)	0	0	Green	Green	Green
+59	Velociprey Balloon Lv. 4	130	(No Element)	0	0	Green	Green	Green
+60	Velociprey Balloon Lv. 5	150	(No Element)	0	0	Green	Green	Blue
+61	Velociprey Horn Lv. 6	220	(No Element)	0	0	Green	Blue	Blue
+62	Velociprey Horn Lv. 7	250	(No Element)	0	0	Green	Blue	Blue
+63	Azure Velociprey Horn Lv. 8	340	(No Element)	0	0	Green	Blue	White
+64	Giaprey Balloon Lv. 1	90	Ice	10	0	Yellow	Yellow	Yellow
+65	Giaprey Balloon Lv. 2	100	Ice	14	0	Yellow	Yellow	Green
+66	Giaprey Balloon Lv. 3	130	Ice	16	0	Green	Green	Blue
+67	Giaprey Balloon Lv. 4	140	Ice	18	0	Green	Blue	Blue
+68	Giaprey Balloon Lv. 5	170	Ice	20	0	Green	Blue	Blue
+69	Giaprey Horn Lv. 6	200	Ice	22	0	Blue	Blue	White
+70	Giaprey Horn Lv. 7	230	Ice	24	0	Blue	Blue	White
+71	Silver Giaprey Horn Lv. 8	330	Ice	27	0	Blue	White	White
+72	Bull Grunt Lv. 1	110	(No Element)	0	-5	Yellow	Yellow	Yellow
+73	Bull Grunt Lv. 2	120	(No Element)	0	-5	Green	Green	Green
+74	Bull Grunt Lv. 3	140	(No Element)	0	-5	Green	Green	Green
+75	Bull Grunt Lv. 4	170	(No Element)	0	-5	Green	Green	Blue
+76	Wild Grunt Lv. 5	230	(No Element)	0	-5	Blue	Blue	White
+77	Wild Grunt Lv. 6	260	(No Element)	0	-5	Blue	Blue	White
+78	Wild Grunt Lv. 7	280	(No Element)	0	-5	Blue	White	White
+79	Barbarian Grunt Lv. 8	330	(No Element)	0	-5	White	White	White
+80	Zurogong Primo Lv. 1	90	(No Element)	0	0	Yellow	Yellow	Yellow
+81	Zurogong Primo Lv. 2	100	(No Element)	0	0	Green	Green	Green
+82	Zurogong Primo Lv. 3	130	(No Element)	0	0	Green	Green	Green
+83	Zurogong Primo Lv. 4	150	(No Element)	0	0	Green	Green	Blue
+84	Zurogong Primo Lv. 5	170	(No Element)	0	0	Blue	Blue	Blue
+85	Zurogong Secundo Lv. 6	220	(No Element)	0	0	Blue	White	White
+86	Zurogong Secundo Lv. 7	240	(No Element)	0	0	Blue	White	White
+87	Zurogong Tertio Lv. 8	330	(No Element)	0	0	White	White	Purple
+88	Yukumo Flute Lv. 1	70	(No Element)	0	0	Green	Green	Green
+89	Yukumo Flute Lv. 2	90	(No Element)	0	0	Green	Green	Green
+90	Yukumo Flute Lv. 3	110	(No Element)	0	0	Green	Green	Green
+91	Yukumo Flute Lv. 4	130	(No Element)	0	0	Green	Blue	Blue
+92	Yukumo Horn Lv. 5	170	(No Element)	0	0	Green	Blue	Blue
+93	Yukumo Horn Lv. 6	220	(No Element)	0	0	Green	Blue	Blue
+94	Yukumo Horn Lv. 7	280	(No Element)	0	0	Green	Blue	Blue
+95	Hot Spring Horn Lv. 8	330	(No Element)	0	0	Green	Blue	White
+96	Metal Bagpipe Lv. 1	100	(No Element)	0	0	Yellow	Green	Green
+97	Metal Bagpipe Lv. 2	110	(No Element)	0	0	Green	Green	Green
+98	Metal Bagpipe Lv. 3	120	(No Element)	0	0	Green	Green	Green
+99	Metal Bagpipe Lv. 4	130	(No Element)	0	0	Green	Green	Blue
+100	Metal Bagpipe Lv. 5	140	(No Element)	0	0	Green	Green	Blue
+101	Metal Bagpipe Lv. 6	170	(No Element)	0	0	Blue	Blue	White
+102	Great Bagpipe Lv. 7	200	(No Element)	0	0	Blue	White	White
+103	Great Bagpipe Lv. 8	230	(No Element)	0	0	Blue	White	White
+104	Energetic Bagpipe Lv. 9	320	(No Element)	0	0	Blue	White	White
+105	Vicello Nulo (G) Lv. 1	90	Para	12	0	Yellow	Green	Green
+106	Vicello Nulo (G) Lv. 2	100	Para	15	0	Green	Green	Green
+107	Vicello Nulo (G) Lv. 3	120	Para	18	0	Blue	Blue	Blue
+108	Vicello Nulo (G) Lv. 4	140	Para	21	0	Blue	Blue	White
+109	Vicello Unu (G) Lv. 5	170	Para	24	0	Blue	White	White
+110	Vicello Unu (G) Lv. 6	200	Para	26	0	Blue	White	White
+111	Vicello Unu (G) Lv. 7	260	Para	28	0	White	White	White
+112	Vicello Du (G) Lv. 8	290	Para	30	0	Purple	Purple	Purple
+113	Vicello Nulo (R) Lv. 1	90	Fire	8	0	Green	Green	Green
+114	Vicello Nulo (R) Lv. 2	100	Fire	9	0	Green	Green	Green
+115	Vicello Nulo (R) Lv. 3	130	Fire	10	0	Blue	Blue	Blue
+116	Vicello Nulo (R) Lv. 4	150	Fire	12	0	Blue	Blue	White
+117	Vicello Unu (R) Lv. 5	170	Fire	14	0	Blue	White	White
+118	Vicello Unu (R) Lv. 6	200	Fire	16	0	Blue	White	White
+119	Vicello Unu (R) Lv. 7	240	Fire	18	0	Blue	White	White
+120	Vicello Du (R) Lv. 8	290	Fire	20	0	Blue	White	Purple
+121	Vicello Nulo (W) Lv. 1	90	Ice	8	0	Green	Green	Green
+122	Vicello Nulo (W) Lv. 2	100	Ice	9	0	Green	Green	Green
+123	Vicello Nulo (W) Lv. 3	130	Ice	10	0	Blue	Blue	Blue
+124	Vicello Nulo (W) Lv. 4	150	Ice	12	0	Blue	Blue	White
+125	Vicello Unu (W) Lv. 5	170	Ice	14	0	Blue	White	White
+126	Vicello Unu (W) Lv. 6	200	Ice	16	0	Blue	White	White
+127	Vicello Unu (W) Lv. 7	240	Ice	18	0	Blue	White	White
+128	Vicello Du (W) Lv. 8	290	Ice	20	0	Blue	White	Purple
+129	Kut-Ku's Song Lv. 1	90	Fire	15	0	Green	Green	Green
+130	Kut-Ku's Song Lv. 2	100	Fire	16	0	Green	Green	Green
+131	Kut-Ku's Song Lv. 3	110	Fire	17	0	Green	Green	Green
+132	Kut-Ku's Song Lv. 4	120	Fire	18	5	Green	Green	Green
+133	Kut-Ku's Song Lv. 5	140	Fire	20	5	Green	Green	Blue
+134	Kut-Ku Cantabile Lv. 6	180	Fire	22	5	Blue	White	White
+135	Kut-Ku Cantabile Lv. 7	230	Fire	25	5	Blue	White	White
+136	Kut-Ku Cantabile Lv. 8	270	Fire	27	5	Blue	White	White
+137	Kut-Ku Tempestoso Lv. 9	300	Fire	30	10	White	Purple	Purple
+138	Poisoned Capri Lv. 1	80	Poison	28	0	Green	Green	Green
+139	Poisoned Capri Lv. 2	90	Poison	30	0	Green	Green	Green
+140	Poisoned Capri Lv. 3	100	Poison	32	0	Green	Green	Blue
+141	Poisoned Capri Lv. 4	110	Poison	34	0	Green	Green	Blue
+142	Poisoned Capri Lv. 5	130	Poison	36	0	Green	Blue	White
+143	Crazed Melody Lv. 6	160	Poison	38	0	Blue	Blue	White
+144	Crazed Melody Lv. 7	200	Poison	40	0	Blue	Blue	White
+145	Crazed Melody Lv. 8	230	Poison	41	0	White	White	White
+146	Lunatic Melody Lv. 9	280	Poison	43	0	White	White	Purple
+147	Demon Block Lv. 1	120	(No Element)	0	-10	Green	Green	Green
+148	Demon Block Lv. 2	130	(No Element)	0	-10	Green	Green	Green
+149	Demon Block Lv. 3	160	(No Element)	0	-10	Green	Green	Green
+150	Demon Block Lv. 4	170	(No Element)	0	-10	Green	Green	Blue
+151	Demon Block Lv. 5	190	(No Element)	0	-10	Blue	Blue	White
+152	Vermillion Frog Lv. 6	230	(No Element)	0	-10	Blue	White	White
+153	Vermillion Frog Lv. 7	260	(No Element)	0	-10	Blue	White	White
+154	Vermillion Frog Lv. 8	290	(No Element)	0	-10	Blue	White	White
+155	Temple Block Lv. 9	350	(No Element)	0	-10	White	White	Purple
+156	Droth Drone Lv. 1	80	Water	32	0	Green	Green	Green
+157	Droth Drone Lv. 2	110	Water	34	0	Green	Green	Blue
+158	Droth Drone Lv. 3	130	Water	36	0	Blue	Blue	Blue
+159	Droth Drone Lv. 4	150	Water	38	0	Blue	Blue	White
+160	Droth Drone Lv. 5	170	Water	40	0	Blue	Blue	White
+161	Droth Roar Lv. 6	200	Water	42	0	Blue	White	White
+162	Droth Roar Lv. 7	230	Water	45	0	Blue	White	White
+163	Droth Roar Lv. 8	270	Water	47	0	White	White	White
+164	Echoing Droth Roar Lv. 9	310	Water	50	0	White	Purple	Purple
+165	Fool's Harp Lv. 1	90	Sleep	15	0	Green	Green	Green
+166	Fool's Harp Lv. 2	110	Sleep	16	0	Green	Green	Green
+167	Fool's Harp Lv. 3	120	Sleep	17	0	Green	Green	Blue
+168	Fool's Harp Lv. 4	140	Sleep	18	0	Blue	Blue	Blue
+169	Fool's Harp Lv. 5	160	Sleep	20	0	Blue	Blue	White
+170	Jester's Harp Lv. 6	180	Sleep	22	0	Blue	Blue	White
+171	Jester's Harp Lv. 7	240	Sleep	25	0	White	White	White
+172	Jester's Harp Lv. 8	270	Sleep	27	0	White	White	White
+173	Trickster's Harp Lv. 9	300	Sleep	30	0	White	Purple	Purple
+174	Khezu Horn Lv. 1	90	Thunder	20	0	Green	Green	Green
+175	Khezu Horn Lv. 2	110	Thunder	26	0	Green	Green	Blue
+176	Khezu Horn Lv. 3	140	Thunder	32	0	Blue	Blue	White
+177	Khezu Horn Lv. 4	160	Thunder	38	0	Blue	Blue	White
+178	Khezu Flute Lv. 5	190	Thunder	42	0	Blue	White	White
+179	Khezu Flute Lv. 6	250	Thunder	45	0	White	White	White
+180	Khezu Keen Lv. 7	300	Thunder	48	0	White	White	Purple
+181	Type 63 Warmonica Lv. 1	90	Water	20	0	Green	Green	Green
+182	Type 63 Warmonica Lv. 2	100	Water	22	0	Green	Green	Green
+183	Type 63 Warmonica Lv. 3	130	Water	24	0	Green	Blue	Blue
+184	Type 63 Warmonica Lv. 4	170	Water	26	0	Blue	Blue	Blue
+185	Type 63 Warmonica Lv. 5	190	Water	28	0	Blue	Blue	White
+186	Snarfonix Lv. 6	210	Water	30	0	Blue	Blue	White
+187	Snarfonix Lv. 7	270	Water	33	0	White	White	White
+188	Soldier's Snarfonica Lv. 8	330	Water	35	0	White	Purple	Purple
+189	Dodotto Horn Lv. 1	80	Ice	25	0	Green	Green	Green
+190	Dodotto Horn Lv. 2	110	Ice	26	0	Green	Green	Green
+191	Dodotto Horn Lv. 3	130	Ice	28	0	Green	Blue	Blue
+192	Dodotto Horn Lv. 4	140	Ice	32	0	Blue	Blue	White
+193	White Dodotto Horn Lv. 5	190	Ice	35	0	Blue	Blue	White
+194	White Dodotto Horn Lv. 6	250	Ice	37	0	White	White	White
+195	Grand Dodotto Horn Lv. 7	300	Ice	39	0	White	Purple	Purple
+196	Shell Castanet Lv. 1	90	Water	12	0	Green	Green	Green
+197	Shell Castanet Lv. 2	110	Water	14	0	Green	Green	Blue
+198	Shell Castanet Lv. 3	120	Water	15	0	Green	Green	Blue
+199	Shell Castanet Lv. 4	140	Water	16	0	Blue	Blue	White
+200	Shell Castanet Lv. 5	160	Water	18	0	Blue	Blue	White
+201	Colored Castanet Lv. 6	170	Water	22	0	White	White	White
+202	Colored Castanet Lv. 7	230	Water	25	0	White	White	White
+203	Twinshell Castanet Lv. 8	290	Water	27	0	White	Purple	Purple
+204	Danger Call Lv. 1	90	Para	10	0	Green	Green	Green
+205	Danger Call Lv. 2	110	Para	12	0	Green	Green	Blue
+206	Danger Call Lv. 3	130	Para	13	0	Green	Green	Blue
+207	Danger Call Lv. 4	150	Para	14	0	Green	Green	Blue
+208	Dangerous Haar Lv. 5	180	Para	16	0	Green	Blue	White
+209	Dangerous Haar Lv. 6	250	Para	19	0	Blue	White	White
+210	Baleful Haar Lv. 7	320	Para	21	0	Blue	White	White
+211	Hidden Harmonic Lv. 1	90	(No Element)	0	40	Green	Blue	Blue
+212	Hidden Harmonic Lv. 2	110	(No Element)	0	40	Blue	Blue	White
+213	Hidden Harmonic Lv. 3	120	(No Element)	0	40	Blue	Blue	White
+214	Hidden Harmonic Lv. 4	140	(No Element)	0	40	White	White	White
+215	Cry in the Night Lv. 5	160	(No Element)	0	40	White	White	White
+216	Cry in the Night Lv. 6	210	(No Element)	0	40	White	White	White
+217	Cry in the Night Lv. 7	240	(No Element)	0	40	Purple	Purple	Purple
+218	Avidya Harmonic Lv. 8	280	(No Element)	0	40	Purple	Purple	Purple
+219	Handmade Frog Lv. 1	70	Water	37	0	Green	Green	Green
+220	Handmade Frog Lv. 2	120	Water	40	0	Green	Blue	Blue
+221	Handmade Frog Lv. 3	150	Water	42	0	Blue	Blue	White
+222	Handcrafted Frog Lv. 4	170	Water	45	0	Blue	White	White
+223	Handcrafted Frog Lv. 5	200	Water	47	0	Blue	White	White
+224	Artisanal Frog Lv. 6	290	Water	50	0	White	White	Purple
+225	Magia Charm Lv. 1	90	Dragon	25	0	Green	Green	Green
+226	Magia Charm Lv. 2	120	Dragon	30	0	Green	Blue	Blue
+227	Magia Charm Lv. 3	160	Dragon	35	0	Blue	Blue	White
+228	Magia Charmbell Lv. 4	180	Dragon	40	0	Blue	Blue	White
+229	Magia Charmbell Lv. 5	240	Dragon	42	0	Blue	White	White
+230	Aria Rhota Lv. 6	300	Dragon	45	0	White	White	Purple
+231	Swell Shell Lv. 1	90	(No Element)	0	20	Green	Green	Green
+232	Swell Shell Lv. 2	120	(No Element)	0	25	Green	Green	Green
+233	Swell Shell Lv. 3	150	(No Element)	0	30	Green	Green	Blue
+234	Vertex Shell Lv. 4	170	(No Element)	0	35	Green	Blue	Blue
+235	Vertex Shell Lv. 5	230	(No Element)	0	35	Green	Blue	Blue
+236	Turban Shell Lv. 6	2920	(No Element)	0	40	Blue	White	White
+237	Poison Fungasax Lv. 1	80	Poison	28	0	Yellow	Yellow	Yellow
+238	Poison Fungasax Lv. 2	120	Poison	36	0	Green	Green	Green
+239	Poison Fungasax Lv. 3	150	Poison	42	0	Green	Green	Blue
+240	Toxic Fungasax Lv. 4	170	Poison	45	0	Green	Blue	Blue
+241	Toxic Fungasax Lv. 5	200	Poison	50	0	Green	Blue	Blue
+242	Toxic Fungasax Lv. 6	230	Poison	55	0	Blue	Blue	White
+243	Mycotoxic Fungasax Lv. 7	290	Poison	60	0	Blue	White	White
+244	Bherna Chime Lv. 1	80	Thunder	8	0	Green	Green	Green
+245	Bherna Chime Lv. 2	120	Thunder	10	0	Green	Green	Blue
+246	Bherna Chime Lv. 3	140	Thunder	12	0	Green	Blue	Blue
+247	Blissful Chime Lv. 4	160	Thunder	15	0	Green	Blue	Blue
+248	Blissful Chime Lv. 5	220	Thunder	17	0	Green	Blue	Blue
+249	Divine Carillon Lv. 6	280	Thunder	20	0	Blue	White	White
+250	Airship Horn Lv. 1	90	Blast	10	0	Green	Green	Green
+251	Airship Horn Lv. 2	110	Blast	12	0	Green	Blue	Blue
+252	Airship Horn Lv. 3	140	Blast	13	0	Green	Blue	Blue
+253	Grand Airship Horn Lv. 4	180	Blast	15	0	Green	Blue	White
+254	Grand Airship Horn Lv. 5	240	Blast	18	0	Blue	White	White
+255	Resonant Airship Horn Lv. 6	300	Blast	20	0	Blue	White	White
+256	Hunter's Horn Lv. 1	110	(No Element)	0	0	Green	Green	Green
+257	Hunter's Horn Lv. 2	130	(No Element)	0	0	Green	Green	Blue
+258	Hunter's Horn Lv. 3	140	(No Element)	0	0	Blue	Blue	Blue
+259	Hunter's Horn Lv. 4	160	(No Element)	0	0	Blue	Blue	White
+260	Native's Horn Lv. 5	190	(No Element)	0	0	Blue	Blue	White
+261	Native's Horn Lv. 6	250	(No Element)	0	0	Blue	Blue	White
+262	Primal Horn Lv. 7	320	(No Element)	0	0	White	Purple	Purple
+263	Raven Shamisen Lv. 1	110	Poison	12	5	Green	Green	Green
+264	Raven Shamisen Lv. 2	120	Poison	14	5	Blue	Blue	Blue
+265	Raven Shamisen Lv. 3	130	Poison	15	5	Blue	Blue	Blue
+266	Raven Shamisen Lv. 4	150	Poison	17	10	Blue	Blue	White
+267	Wolf Shamisen Lv. 5	180	Poison	18	10	Blue	White	White
+268	Wolf Shamisen Lv. 6	270	Poison	21	10	Blue	White	White
+269	Crow Shamisen Lv. 7	320	Poison	23	10	Blue	White	White
+270	Brazengaita Lv. 1	110	(No Element)	0	0	Yellow	Green	Green
+271	Brazengaita Lv. 2	120	(No Element)	0	0	Green	Green	Green
+272	Brazengaita Lv. 3	130	(No Element)	0	0	Green	Green	Green
+273	Brazengaita Lv. 4	160	(No Element)	0	0	Green	Green	Blue
+274	Gigas Gaita Lv. 5	220	(No Element)	0	0	Green	Green	Blue
+275	Gigas Gaita Lv. 6	280	(No Element)	0	0	Green	Blue	Blue
+276	Gigas Gaita Lv. 7	300	(No Element)	0	0	Green	Blue	White
+277	Archgigas Gaita Lv. 8	330	(No Element)	0	0	Green	Blue	White
+278	Valkyrie Chordmaker Lv. 1	100	Fire	25	0	Green	Green	Green
+279	Valkyrie Chordmaker Lv. 2	110	Fire	30	0	Green	Green	Green
+280	Valkyrie Chordmaker Lv. 3	130	Fire	32	0	Green	Green	Blue
+281	Valkyrie Chordmaker Lv. 4	150	Fire	35	0	Blue	Blue	White
+282	Valkyrie Chordmaker Lv. 5	170	Fire	38	0	Blue	Blue	White
+283	Queen's Chordmaker Lv. 6	200	Fire	40	0	Blue	Blue	White
+284	Queen's Chordmaker Lv. 7	260	Fire	42	0	Blue	White	White
+285	Queen's Harmonium Lv. 8	330	Fire	45	0	White	Purple	Purple
+286	Lagia Horn Lv. 1	120	Thunder	12	5	Green	Green	Green
+287	Lagia Horn Lv. 2	140	Thunder	14	5	Green	Green	Green
+288	Lagia Horn Lv. 3	150	Thunder	16	5	Green	Blue	Blue
+289	Lagia Horn Lv. 4	180	Thunder	18	5	Blue	Blue	Blue
+290	Lagia Thunderpeal Lv. 5	210	Thunder	20	5	Blue	White	White
+291	Lagia Thunderpeal Lv. 6	280	Thunder	23	5	Blue	White	White
+292	Lagia Thunderpeal Lv. 7	300	Thunder	25	5	White	White	White
+293	Lagia Cannonade Lv. 8	330	Thunder	28	10	White	Purple	Purple
+294	Usurper's Growl Lv. 1	110	Thunder	28	0	Green	Green	Green
+295	Usurper's Growl Lv. 2	120	Thunder	30	0	Green	Blue	Blue
+296	Usurper's Growl Lv. 3	150	Thunder	32	0	Blue	Blue	Blue
+297	Despot's Thunderclap Lv. 4	180	Thunder	34	0	Blue	White	White
+298	Despot's Thunderclap Lv. 5	250	Thunder	37	0	White	White	White
+299	Despot's Thunderclap Lv. 6	280	Thunder	38	0	White	White	Purple
+300	Oppressor's Boon Lv. 7	300	Thunder	40	0	White	Purple	Purple
+301	Poetic Bell Lv. 1	130	Water	24	0	Green	Green	Green
+302	Poetic Bell Lv. 2	140	Water	26	0	Green	Green	Green
+303	Poetic Bell Lv. 3	150	Water	30	10	Green	Blue	Blue
+304	Poetic Bell Lv. 4	170	Water	32	10	Blue	White	White
+305	Poetic Bell Lv. 5	190	Water	34	10	Blue	White	White
+306	Summoning Bell Lv. 6	200	Water	36	10	Blue	White	White
+307	Summoning Bell Lv. 7	270	Water	38	10	White	White	White
+308	Summoning Bell Lv. 8	290	Water	40	10	White	White	Purple
+309	Sublime Bell Lv. 9	310	Water	42	10	White	Purple	Purple
+310	Emerald Flap Lv. 1	120	Thunder	24	15	Green	Green	Green
+311	Emerald Flap Lv. 2	130	Thunder	26	15	Green	Green	Blue
+312	Emerald Flap Lv. 3	150	Thunder	28	20	Blue	Blue	White
+313	Emerald Flap Lv. 4	160	Thunder	30	20	Blue	White	White
+314	Emerald Flap Lv. 5	170	Thunder	34	20	White	White	White
+315	Lightning Flap Lv. 6	180	Thunder	36	20	White	White	White
+316	Lightning Flap Lv. 7	240	Thunder	38	20	White	White	White
+317	Lightning Flap Lv. 8	270	Thunder	40	20	Purple	Purple	Purple
+318	Grunlicht Flap Lv. 9	300	Thunder	42	20	Purple	Purple	Purple
+319	Giant's Koto Lv. 1	140	Ice	16	-20	Green	Green	Green
+320	Giant's Koto Lv. 2	150	Ice	18	-20	Green	Green	Blue
+321	Giant's Koto Lv. 3	170	Ice	20	-20	Green	Blue	Blue
+322	Giant's Koto Lv. 4	190	Ice	22	-20	Blue	Blue	Blue
+323	Giant's Koto Lv. 5	210	Ice	24	-20	Blue	Blue	Blue
+324	Colossus's Koto Lv. 6	230	Ice	26	-20	Blue	Blue	White
+325	Colossus's Koto Lv. 7	300	Ice	28	-20	White	White	White
+326	Colossus's Koto Lv. 8	320	Ice	30	-20	White	White	Purple
+327	Behemoth's Koto Lv. 9	340	Ice	32	-20	White	White	Purple
+328	Hell Horn Lv. 1	120	Fire	24	0	Green	Green	Green
+329	Hell Horn Lv. 2	130	Fire	26	0	Green	Green	Green
+330	Hell Horn Lv. 3	140	Fire	28	0	Green	Green	Blue
+331	Hell Horn Lv. 4	160	Fire	30	0	Blue	Blue	Blue
+332	Hell Horn Lv. 5	180	Fire	32	0	Blue	Blue	White
+333	Glavenus Horn Lv. 6	190	Fire	34	0	Blue	White	White
+334	Glavenus Horn Lv. 7	270	Fire	36	0	White	White	White
+335	Glavenus Horn Lv. 8	290	Fire	38	0	White	White	White
+336	Glavenus Hornova Lv. 9	310	Fire	40	0	White	Purple	Purple
+337	Kummerklang Lv. 1	110	Dragon	18	20	Green	Green	Blue
+338	Kummerklang Lv. 2	120	Dragon	20	20	Green	Blue	Blue
+339	Kummerklang Lv. 3	160	Dragon	22	25	Blue	Blue	White
+340	Kummerklang Lv. 4	170	Dragon	24	25	Blue	White	White
+341	Gramklang Lv. 5	190	Dragon	25	25	Blue	White	White
+342	Gramklang Lv. 6	290	Dragon	28	30	Blue	White	White
+343	Trauerklang Lv. 7	310	Dragon	30	30	Blue	White	Purple
+344	Vadya Muse Lv. 1	140	(No Element)	0	10	Blue	Blue	Blue
+345	Vadya Muse Lv. 2	150	(No Element)	0	10	Blue	Blue	Blue
+346	Vadya Muse Lv. 3	160	(No Element)	0	10	Blue	White	White
+347	Vadya Muse Lv. 4	180	(No Element)	0	10	White	White	White
+348	Allysyl Muse Lv. 5	190	(No Element)	0	10	White	White	White
+349	Allysyl Muse Lv. 6	250	(No Element)	0	15	White	White	Purple
+350	Allysyl Rebel Lv. 7	320	(No Element)	0	15	White	Purple	Purple
+351	Striped Dragonga Lv. 1	140	(No Element)	0	-20	Blue	Blue	Blue
+352	Striped Dragonga Lv. 2	160	(No Element)	0	-20	Blue	Blue	Blue
+353	Striped Dragonga Lv. 3	180	(No Element)	0	-20	Blue	Blue	White
+354	Tigrex Horn Lv. 4	200	(No Element)	0	-15	White	White	White
+355	Tigrex Horn Lv. 5	280	(No Element)	0	-15	White	White	White
+356	Tigrex Horn Lv. 6	290	(No Element)	0	-15	White	White	White
+357	Tigrex Roar Lv. 7	320	(No Element)	0	-15	Purple	Purple	Purple
+358	Dios Bell Lv. 1	130	Blast	16	0	Green	Green	Blue
+359	Dios Bell Lv. 2	150	Blast	18	0	Green	Blue	Blue
+360	Dios Bell Lv. 3	170	Blast	22	0	Green	Blue	Blue
+361	Dios Bell Lv. 4	200	Blast	24	0	Blue	Blue	White
+362	Napalm Bell Lv. 5	210	Blast	27	0	Blue	White	White
+363	Napalm Bell Lv. 6	290	Blast	28	0	Blue	White	White
+364	Firestorm Bell Lv. 7	330	Blast	29	0	Blue	White	Purple
+365	La Sepulture Lv. 1	110	Dragon	25	30	Blue	Blue	White
+366	La Sepulture Lv. 2	120	Dragon	26	30	Blue	Blue	White
+367	La Sepulture Lv. 3	130	Dragon	28	35	White	White	White
+368	La Sepulture Lv. 4	140	Dragon	30	35	White	White	White
+369	La Joie Lv. 5	160	Dragon	32	35	White	White	White
+370	La Joie Lv. 6	240	Dragon	35	40	White	White	White
+371	La Joie Lv. 7	260	Dragon	37	40	White	White	White
+372	Le Gregorien Lv. 8	270	Dragon	40	40	White	Purple	Purple
+373	Blessed Ocarina Lv. 1	110	Poison	29	0	Green	Green	Green
+374	Blessed Ocarina Lv. 2	120	Poison	33	0	Green	Green	Blue
+375	Blessed Ocarina Lv. 3	160	Poison	37	0	Blue	Blue	White
+376	Cursed Ocarina Lv. 4	170	Poison	41	0	Blue	White	White
+377	Cursed Ocarina Lv. 5	260	Poison	45	0	White	White	White
+378	Genie's Ocarina Lv. 6	290	Poison	49	0	White	White	Purple
+379	Teostra's Tiple Lv. 1	100	Blast	30	0	Green	Green	Blue
+380	Teostra's Tiple Lv. 2	110	Blast	35	0	Green	Blue	Blue
+381	Teostra's Tiple Lv. 3	160	Blast	40	0	Blue	Blue	White
+382	Teostra's Orphee Lv. 4	180	Blast	42	0	Blue	Blue	White
+383	Teostra's Orphee Lv. 5	270	Blast	45	0	White	White	Purple
+384	Teostra's Musica Lv. 6	300	Blast	48	0	White	Purple	Purple
+385	Skeletal Melody Lv. 1	150	Dragon	12	-25	Yellow	Yellow	Yellow
+386	Skeletal Melody Lv. 2	170	Dragon	14	-25	Yellow	Green	Green
+387	Skeletal Melody Lv. 3	220	Dragon	15	-25	Green	Green	Green
+388	Skeletal Melody Lv. 4	240	Dragon	16	-25	Green	Green	Green
+389	Wicked Melody Lv. 5	250	Dragon	18	-25	Green	Blue	Blue
+390	Wicked Melody Lv. 6	340	Dragon	20	-25	Green	Blue	White
+391	Spica Melody Lv. 7	370	Dragon	22	-25	Green	White	White
+392	Azumand Wind Lv. 1	80	Sleep	12	0	Green	Green	Green
+393	Azumand Wind Lv. 2	110	Sleep	14	0	Green	Green	Green
+394	Azumand Wind Lv. 3	150	Sleep	16	0	Green	Green	Blue
+395	Fern Fan Lv. 4	160	Sleep	18	0	Green	Green	Blue
+396	Fern Fan Lv. 5	220	Sleep	20	0	Green	Blue	Blue
+397	Fiddlehead Fan Lv. 6	280	Sleep	22	0	Blue	Blue	White
+398	Cornupion Lv. 1	120	Para	8	0	Green	Green	Blue
+399	Cornupion Lv. 2	140	Para	9	0	Green	Blue	Blue
+400	Cornupion Lv. 3	170	Para	10	0	Blue	Blue	White
+401	Webbed Cornupion Lv. 4	190	Para	12	0	Blue	White	White
+402	Webbed Cornupion Lv. 5	220	Para	14	0	White	White	White
+403	Webbed Cornupion Lv. 6	250	Para	17	0	White	White	White
+404	Gossamer Cornupion Lv. 7	310	Para	20	0	White	White	Purple
+405	Obsidian Horn Lv. 1	120	(No Element)	0	0	Green	Blue	Blue
+406	Obsidian Horn Lv. 2	130	(No Element)	0	0	Blue	Blue	White
+407	Obsidian Horn Lv. 3	140	(No Element)	0	0	Blue	Blue	White
+408	Obsidian Horn Lv. 4	160	(No Element)	0	0	Blue	Blue	White
+409	Obsidian Horn Lv. 5	180	(No Element)	0	0	Blue	White	White
+410	Relic Horn Lv. 6	210	(No Element)	0	0	Blue	White	White
+411	Relic Horn Lv. 7	260	(No Element)	0	0	White	White	White
+412	Ethereal Horn Lv. 8	310	(No Element)	0	0	White	Purple	Purple
+413	Yukumo Pureflute Lv. 1	120	(No Element)	0	0	Green	Green	Green
+414	Yukumo Pureflute Lv. 2	130	(No Element)	0	0	Green	Green	Blue
+415	Yukumo Pureflute Lv. 3	150	(No Element)	0	0	Blue	Blue	White
+416	Yukumo Spirit Flute Lv. 4	200	(No Element)	0	0	Blue	Blue	White
+417	Yukumo Spirit Flute Lv. 5	260	(No Element)	0	0	White	White	White
+418	Yukumo Aura Flute Lv. 6	320	(No Element)	0	0	White	White	Purple
+419	Black Lute Lv. 1	90	Dragon	10	0	Green	Green	Green
+420	Black Lute Lv. 2	110	Dragon	12	0	Green	Green	Green
+421	Black Lute Lv. 3	130	Dragon	16	0	Green	Green	Blue
+422	Black Lute Lv. 4	160	Dragon	20	0	Green	Blue	Blue
+423	Onyx Lute Lv. 5	190	Dragon	22	0	Green	Blue	White
+424	Onyx Lute Lv. 6	280	Dragon	26	0	Blue	Blue	Purple
+425	Fatalis Menace Lv. 7	310	Dragon	29	0	Blue	Purple	Purple
+426	Tama Frypan Lv. 1	100	Sleep	20	0	Green	Blue	White
+427	Tama Frypan Lv. 2	120	Sleep	24	0	Blue	White	White
+428	Hot Tama Frypan Lv. 3	140	Sleep	26	0	Blue	White	White
+429	Hot Tama Frypan Lv. 4	230	Sleep	27	0	Blue	White	White
+430	Fiery Tama Frypan Lv. 5	260	Sleep	28	0	White	White	White
+431	Heavy Bagpipe Lv. 1	120	(No Element)	0	-5	Blue	Blue	Blue
+432	Heavy Bagpipe Lv. 2	150	(No Element)	0	-5	Blue	Blue	White
+433	Heavy Bagpipe Lv. 3	170	(No Element)	0	-5	Blue	White	White
+434	Fortissimo Lv. 4	200	(No Element)	0	-5	Blue	White	White
+435	Fortissimo Lv. 5	250	(No Element)	0	-5	Blue	White	White
+436	Fortissimo Lv. 6	270	(No Element)	0	-5	Blue	White	White
+437	Rinforzato Lv. 7	320	(No Element)	0	-5	White	Purple	Purple
+438	Velocidrome Balloon Lv. 1	110	(No Element)	0	0	Green	Blue	Blue
+439	Velocidrome Balloon Lv. 2	150	(No Element)	0	0	Blue	Blue	Blue
+440	Velocidrome Horn Lv. 3	180	(No Element)	0	0	Blue	Blue	White
+441	Velocidrome Horn Lv. 4	240	(No Element)	0	0	Blue	Blue	White
+442	Velocidrome Horn Lv. 5	270	(No Element)	0	0	Blue	White	White
+443	Blue Velocidrome Horn Lv. 6	300	(No Element)	0	0	White	White	White
+444	Kecha Whappa Lv. 1	150	Water	20	0	Green	Green	Blue
+445	Kecha Whappa Lv. 2	170	Water	24	0	Green	Green	Blue
+446	Kecha Whappa Lv. 3	190	Water	28	0	Green	Blue	Blue
+447	Kechachacha Whappa Lv. 4	210	Water	30	0	Green	Blue	White
+448	Kechachacha Whappa Lv. 5	250	Water	32	0	Blue	White	White
+449	Kechawacky Whappa Lv. 6	330	Water	35	0	White	Purple	Purple
+450	Worn Horn Lv. 1	100	(No Element)	0	-70	Orange	Orange	Orange
+451	Worn Horn Lv. 2	100	(No Element)	0	-70	Yellow	Yellow	Yellow
+452	Worn Horn Lv. 3	100	(No Element)	0	-70	Yellow	Yellow	Yellow
+453	Worn Horn Lv. 4	100	(No Element)	0	-70	Yellow	Yellow	Yellow
+454	Weathered Horn Lv. 5	260	(No Element)	0	-70	Yellow	Blue	Blue
+455	Weathered Horn Lv. 6	290	(No Element)	0	-70	Yellow	Green	Blue
+456	Aged Horn Lv. 7	380	(No Element)	0	-70	Yellow	Blue	White
+457	War Drum Lv. 1	160	(No Element)	0	0	Green	Green	Green
+458	War Drum Lv. 2	170	(No Element)	0	0	Green	Blue	Blue
+459	Rout Drum Lv. 3	190	(No Element)	0	0	Green	Blue	Blue
+460	Rout Drum Lv. 4	220	(No Element)	0	0	Blue	Blue	White
+461	Victory Drum Lv. 5	310	(No Element)	0	0	Blue	Blue	White
+462	Sandpipe Lv. 1	160	(No Element)	0	-30	Green	Green	Blue
+463	Sandpipe Lv. 2	180	(No Element)	0	-30	Green	Green	Blue
+464	Sandcrier Lv. 3	220	(No Element)	0	-30	Blue	Blue	White
+465	Sandcrier Lv. 4	280	(No Element)	0	-25	Blue	White	White
+466	Sandscreecher Lv. 5	340	(No Element)	0	-25	White	White	White
+467	Basarios Rock Lv. 1	170	Fire	15	0	Green	Green	Green
+468	Basarios Rock Lv. 2	180	Fire	17	0	Green	Blue	Blue
+469	Basarios Rock Mk.II Lv. 3	200	Fire	20	0	Blue	Blue	White
+470	Basarios Rock Mk.II Lv. 4	250	Fire	23	5	Blue	Blue	White
+471	Titan's Rock Lv. 5	320	Fire	25	10	White	White	Purple
+472	Kecha Thumpa Lv. 1	140	Water	40	0	Blue	Blue	Blue
+473	Kecha Thumpa Lv. 2	160	Water	43	0	Blue	Blue	White
+474	Kecha Clanga Lv. 3	170	Water	46	0	Blue	Blue	White
+475	Kecha Clanga Lv. 4	240	Water	48	0	White	White	White
+476	Kecha Clanga Lv. 5	260	Water	50	0	White	White	White
+477	Kecha Clanvira Lv. 6	290	Water	52	0	White	White	Purple
+478	Poli'ahu Pipe Lv. 1	150	Ice	20	-10	Green	Green	Blue
+479	Poli'ahu Pipe Lv. 2	160	Ice	22	-10	Blue	Blue	Blue
+480	Poli'ahu Pipe Lv. 3	170	Ice	26	-10	Blue	Blue	White
+481	Phenomenal Phlute Lv. 4	200	Ice	30	-10	Blue	White	White
+482	Phenomenal Phlute Lv. 5	260	Ice	33	-10	Blue	White	White
+483	Phantasmagorical Phlute Lv. 6	330	Ice	35	-10	White	White	Purple
+484	Lava Alphorn Lv. 1	150	Fire	18	-10	Blue	Blue	White
+485	Lava Alphorn Lv. 2	170	Fire	20	-10	Blue	Blue	White
+486	Volcano Alphorn Lv. 3	200	Fire	22	-10	Blue	White	White
+487	Volcano Alphorn Lv. 4	280	Fire	25	-10	Blue	White	White
+488	Magma Alphorn Lv. 5	330	Fire	28	-10	White	White	Purple
+489	Hazardous Call Lv. 1	130	Para	18	0	Blue	Blue	Blue
+490	Hazardous Call Lv. 2	150	Para	19	0	Blue	Blue	Blue
+491	Parahazard Call Lv. 3	160	Para	20	0	Blue	Blue	White
+492	Parahazard Call Lv. 4	230	Para	22	0	Blue	White	White
+493	Parahazard Call Lv. 5	250	Para	23	0	White	White	White
+494	Para Calamity Lv. 6	280	Para	25	0	White	White	Purple
+495	War Bongo Lv. 1	190	(No Element)	0	0	Green	Green	Green
+496	War Bongo Lv. 2	200	(No Element)	0	0	Green	Blue	Blue
+497	War Conga Lv. 3	220	(No Element)	0	0	Blue	Blue	White
+498	War Conga Lv. 4	280	(No Element)	0	0	Blue	White	White
+499	War Conga Lv. 5	300	(No Element)	0	0	Blue	White	White
+500	Conga Conga Lv. 6	340	(No Element)	0	0	White	Purple	Purple
+501	Bariguiro Lv. 1	160	Ice	30	20	Blue	Blue	White
+502	Algiguiro Lv. 2	180	Ice	32	20	Blue	Blue	White
+503	Algiguiro Lv. 3	250	Ice	35	25	White	White	White
+504	Algiguiro Lv. 4	270	Ice	37	25	White	White	White
+505	Frigiguiro Lv. 5	290	Ice	40	25	White	Purple	Purple
+506	Vile Shamisen Lv. 1	130	Poison	20	20	White	White	White
+507	Vile Shamisen Lv. 2	140	Poison	22	20	White	White	White
+508	Garuga Shamisen Lv. 3	160	Poison	24	20	White	White	White
+509	Garuga Shamisen Lv. 4	230	Poison	27	25	White	White	White
+510	Occult Shamisen Lv. 5	290	Poison	30	25	White	Purple	Purple
+511	Agnakdion Lv. 1	130	Fire	40	30	Blue	Blue	Blue
+512	Agnakdion Lv. 2	140	Fire	42	30	Blue	Blue	White
+513	Brandoneon Lv. 3	170	Fire	45	35	Blue	Blue	White
+514	Brandoneon Lv. 4	240	Fire	48	35	Blue	White	White
+515	Brandoneon Lv. 5	260	Fire	49	35	White	White	White
+516	Scaldertina Lv. 6	280	Fire	50	40	White	Purple	Purple
+517	Seditious Warhorn Lv. 1	160	(No Element)	0	20	White	White	White
+518	Seditious Warhorn Lv. 2	170	(No Element)	0	20	White	White	White
+519	Maqam Sedition Lv. 3	180	(No Element)	0	20	White	White	White
+520	Maqam Sedition Lv. 4	220	(No Element)	0	25	White	White	White
+521	Maqam Sedition Lv. 5	260	(No Element)	0	25	Purple	Purple	Purple
+522	Sedition Caller Lv. 6	300	(No Element)	0	25	Purple	Purple	Purple
+523	Mountain Crusher Lv. 1	190	(No Element)	0	0	Blue	Blue	Blue
+524	Mountain Crusher Lv. 2	210	(No Element)	0	0	Blue	Blue	White
+525	Mountain Echo Lv. 3	220	(No Element)	0	0	Blue	White	White
+526	Mountain Echo Lv. 4	300	(No Element)	0	0	White	White	White
+527	Peak Performance Lv. 5	340	(No Element)	0	0	White	White	Purple
+528	Demolition Chime Lv. 1	170	Blast	32	0	Blue	Blue	White
+529	Demolition Chime Lv. 2	180	Blast	35	0	Blue	Blue	BW
+530	Timbral Demolisher Lv. 3	190	Blast	38	0	Blue	Blue	White
+531	Timbral Demolisher Lv. 4	260	Blast	40	0	White	White	White
+532	Timbral Demolisher Lv. 5	280	Blast	42	0	White	White	Purple
+533	Timbral Annihilator Lv. 6	310	Blast	44	0	White	Purple	Purple
+534	Denden Daiko Lv. 1	160	Thunder	22	-10	Green	Green	Green
+535	Denden Daiko Lv. 2	170	Thunder	24	-10	Green	Blue	Blue
+536	Denden Daiko Lv. 3	180	Thunder	26	-10	Blue	White	White
+537	Denden Doomsounder Lv. 4	200	Thunder	28	-10	Blue	White	White
+538	Denden Doomsounder Lv. 5	290	Thunder	30	-10	White	White	White
+539	Denden Delugesong Lv. 6	320	Thunder	32	-10	White	White	Purple
+540	Avenir's Music Box Lv. 1	170	Dragon	30	0	Blue	White	White
+541	Avenir's Music Box Lv. 2	180	Dragon	32	0	Blue	White	White
+542	Eternal Music Box Lv. 3	200	Dragon	35	0	Blue	White	White
+543	Eternal Music Box Lv. 4	290	Dragon	37	0	White	White	White
+544	Perpetual Music Box Lv. 5	310	Dragon	40	0	White	White	White
+545	Research Horn Lv. 1	180	(No Element)	0	15	Blue	Blue	White
+546	Discovery Horn Lv. 2	200	(No Element)	0	15	White	White	White
+547	Discovery Horn Lv. 3	230	(No Element)	0	20	White	White	Purple
+548	Discovery Horn Lv. 4	280	(No Element)	0	20	Purple	Purple	Purple
+549	Authority Trumpeteer Lv. 5	300	(No Element)	0	25	Purple	Purple	Purple
+550	Blitz Works Lv. 1	150	Thunder	35	0	Blue	Blue	White
+551	Blitz Works Lv. 2	160	Thunder	38	0	Blue	White	White
+552	Giga Blitz Works Lv. 3	170	Thunder	40	0	Blue	White	White
+553	Giga Blitz Works Lv. 4	260	Thunder	42	0	White	White	White
+554	Dengeki Horn Lv. 5	290	Thunder	45	0	White	White	White
+555	Megaphone Lv. 1	130	(No Element)	0	5	Blue	Blue	Blue
+556	Megaphone Lv. 2	140	(No Element)	0	10	Blue	Blue	Blue
+557	Gigaphone Lv. 3	150	(No Element)	0	10	Blue	Blue	Blue
+558	Gigaphone Lv. 4	230	(No Element)	0	15	Blue	Blue	Blue
+559	Teraphone Lv. 5	290	(No Element)	0	15	Blue	White	White
+560	Daora's Taus Lv. 1	160	Ice	32	10	Blue	Blue	White
+561	Daora's Taus Lv. 2	170	Ice	35	10	Blue	White	White
+562	Daora's Baphophone Lv. 3	180	Ice	39	10	White	White	White
+563	Daora's Baphophone Lv. 4	250	Ice	42	10	White	White	White
+564	Daora's Diabassoon Lv. 5	300	Ice	45	10	White	Purple	Purple
+565	Gold Chordmaker Lv. 1	180	Dragon	24	0	Blue	Blue	Blue
+566	Gold Chordmaker Lv. 2	190	Dragon	26	0	Blue	Blue	White
+567	Lunar Chordmaker Lv. 3	210	Dragon	28	0	Blue	Blue	White
+568	Lunar Chordmaker Lv. 4	300	Dragon	29	0	White	White	White
+569	Amas Chordmaker Lv. 5	330	Dragon	30	0	White	Purple	Purple
+570	Akantor Horn Lv. 1	250	(No Element)	0	30	Green	Green	Green
+571	Akantor Horn Lv. 2	250	(No Element)	0	35	Green	Green	Green
+572	Akantor Dark Melody Lv. 3	250	(No Element)	0	40	Green	Green	Green
+573	Akantor Dark Melody Lv. 4	320	(No Element)	0	40	Green	Green	Green
+574	Akantor Dirge Lv. 5	370	(No Element)	0	40	Green	Green	Blue
+575	Ukanlos Horned Flute Lv. 1	250	Ice	14	-25	Green	Green	Green
+576	Ukanlos Horned Flute Lv. 2	250	Ice	15	-25	Green	Green	Blue
+577	Ukanlos Skysinger Lv. 3	250	Ice	16	-20	Green	Green	Blue
+578	Ukanlos Skysinger Lv. 4	320	Ice	18	-20	Blue	Blue	Blue
+579	Ukanlos Decaysinger Lv. 5	370	Ice	20	-20	Blue	Blue	White
+580	Autumn Lute Lv. 1	200	Water	12	-20	Blue	Blue	Blue
+581	Autumn Lute Lv. 2	220	Water	14	-20	Blue	Blue	Blue
+582	Harvest Lute Lv. 3	240	Water	16	-20	Blue	Blue	White
+583	Harvest Lute Lv. 4	330	Water	18	-20	White	White	White
+584	Equinox Lute Lv. 5	360	Water	20	-20	White	White	White
+585	Polaris Wraith Lv. 1	170	Dragon	8	0	Blue	Blue	Blue
+586	Polaris Wraith Lv. 2	180	Dragon	10	0	Blue	Blue	White
+587	Cosmic Wraith Lv. 3	190	Dragon	13	0	White	White	White
+588	Cosmic Wraith Lv. 4	290	Dragon	15	0	White	White	White
+589	Lodestar Wraith Lv. 5	310	Dragon	17	0	Purple	Purple	Purple
+590	Silverwing Horn Lv. 1	160	Dragon	43	0	White	White	White
+591	Dragonstar Halm Lv. 2	180	Dragon	45	0	White	White	White
+592	Dragonstar Halm Lv. 3	200	Dragon	48	0	White	White	White
+593	Dragonstar Halm Lv. 4	230	Dragon	50	0	White	White	White
+594	Dragonstar Halm Lv. 5	260	Dragon	52	0	White	White	White
+595	Magnastar Edon Lv. 6	280	Dragon	55	0	White	White	White
+596	Elder Horn Lv. 1	260	(No Element)	0	0	White	White	White
+597	Sage Horn Lv. 2	280	(No Element)	0	0	White	White	White
+598	Philosopher Horn Lv. 3	320	(No Element)	0	0	White	White	White
+599	Glass Royale Lv. 1	230	Para	25	0	Purple	Purple	Purple
+600	Queen's Flute Lv. 2	250	Para	27	0	Purple	Purple	Purple
+601	Queen's Flute II Lv. 3	280	Para	30	0	Purple	Purple	Purple
+602	Sandsinger Lv. 1	260	(No Element)	0	-15	White	White	White
+603	Sandsoother Lv. 2	290	(No Element)	0	-15	White	White	White
+604	Sandrigal Lv. 3	320	(No Element)	0	-15	White	White	Purple
+605	Volcanic Rock Lv. 1	240	Fire	30	0	Blue	White	White
+606	Volcanic Gig Lv. 2	270	Fire	32	0	Blue	White	White
+607	Conglagrig Lv. 3	300	Fire	35	0	White	Purple	Purple
+608	Memento Mosca Lv. 1	210	Sleep	22	0	Blue	Blue	White
+609	Mosca Select Lv. 2	240	Sleep	24	0	Blue	White	White
+610	Premium Suite Lv. 3	270	Sleep	26	0	Blue	White	White
+611	Lache/Sanglot Lv. 1	280	Dragon	20	-35/20	White	White	White
+612	Freude/Tristesse Lv. 2	300	Dragon	22	-35/20	White	White	White
+613	Grimm/Joie Lv. 3	320	Dragon	25	-35/20	White	White	Purple
+614	Lightbreak Timbre Lv. 1	260	Blast	45	0	White	White	White
+615	Lightbreak Seismograph Lv. 2	270	Blast	47	0	White	White	Purple
+616	Lightbreak Claque Lv. 3	290	Blast	49	0	White	Purple	Purple
+617	Goldhorn Lv. 1	310	(No Element)	0	0	Purple	Purple	Purple
+618	Inscribed Bastet Lv. 2	320	(No Element)	0	0	Purple	Purple	Purple
+619	Menat Sekhem Lv. 3	330	(No Element)	0	0	Purple	Purple	Purple
+620	Fatalis Firelied Lv. 1	310	Blast	45	0	Blue	White	White
+621	Fatalis Firelute Lv. 2	320	Blast	50	0	White	White	White
+622	Fatalis Flame Aria Lv. 3	330	Blast	55	0	White	Purple	Purple
+623	Old Fatalis Lied Lv. 1	280	Dragon	55	0	Blue	White	White
+624	Old Fatalis Lute Lv. 2	290	Dragon	57	0	White	White	White
+625	Old Fatalis Aria Lv. 3	310	Dragon	60	0	White	Purple	Purple
+626	Crimson Horn Lv. 1	100	(No Element)	0	5	Green	Green	Green
+627	Crimson Horn Lv. 2	110	(No Element)	0	5	Green	Green	Blue
+628	Crimson Horn Lv. 3	120	(No Element)	0	5	Green	Blue	Blue
+629	Crimson Horn Lv. 4	130	(No Element)	0	10	Green	Blue	Blue
+630	Crimson Horn Lv. 5	140	(No Element)	0	10	Green	Blue	Blue
+631	Crimson Horn Lv. 6	150	(No Element)	0	10	Blue	Blue	Blue
+632	Crimson Horn Lv. 7	160	(No Element)	0	10	Blue	Blue	White
+633	Crimson Horn Lv. 8	170	(No Element)	0	10	Blue	White	White
+634	Crimson Horn Lv. 9	180	(No Element)	0	10	Blue	White	White
+635	Crimson Great Horn Lv. 10	190	(No Element)	0	10	Blue	White	White
+636	Crimson Great Horn Lv. 11	240	(No Element)	0	10	Blue	White	White
+637	Crimson Great Horn Lv. 12	260	(No Element)	0	10	Blue	White	White
+638	Crimson Great Horn Lv. 13	300	(No Element)	0	10	Blue	White	White
+639	Crimson Great Horn Lv. 14	320	(No Element)	0	10	Blue	White	Purple
+640	Crimson Superb Horn Lv. 15	350	(No Element)	0	10	Blue	White	Purple
+641	Royal Horn Lv. 1	80	Poison	25	5	Green	Green	Green
+642	Royal Horn Lv. 2	100	Poison	26	5	Green	Green	Blue
+643	Royal Horn Lv. 3	110	Poison	28	5	Green	Blue	Blue
+644	Royal Horn Lv. 4	120	Poison	30	10	Blue	Blue	Blue
+645	Royal Horn Lv. 5	130	Poison	32	10	Blue	Blue	Blue
+646	Royal Horn Lv. 6	140	Poison	34	10	Blue	Blue	Blue
+647	Royal Horn Lv. 7	150	Poison	35	10	Blue	Blue	White
+648	Royal Horn Lv. 8	160	Poison	36	10	Blue	Blue	White
+649	Royal Horn Lv. 9	180	Poison	38	10	Blue	White	White
+650	Dreadqueen Horn Lv. 10	190	Poison	40	10	Blue	White	White
+651	Dreadqueen Horn Lv. 11	230	Poison	42	10	Blue	White	White
+652	Dreadqueen Horn Lv. 12	240	Poison	43	10	White	White	White
+653	Dreadqueen Horn Lv. 13	250	Poison	44	10	White	White	White
+654	Dreadqueen Horn Lv. 14	270	Poison	45	10	Purple	Purple	Purple
+655	Dreadqueen Thornflute  Lv. 15	290	Poison	46	10	Purple	Purple	Purple
+656	Pierce Horn Lv. 1	130	(No Element)	0	5	Green	Green	Blue
+657	Pierce Horn Lv. 2	140	(No Element)	0	5	Green	Blue	Blue
+658	Pierce Horn Lv. 3	150	(No Element)	0	5	Green	Blue	Blue
+659	Pierce Horn Lv. 4	160	(No Element)	0	5	Green	Blue	Blue
+660	Pierce Horn Lv. 5	170	(No Element)	0	5	Blue	Blue	Blue
+661	Pierce Horn Lv. 6	180	(No Element)	0	5	Blue	Blue	White
+662	Pierce Horn Lv. 7	190	(No Element)	0	5	Blue	Blue	White
+663	Pierce Horn Lv. 8	200	(No Element)	0	5	Blue	Blue	White
+664	Pierce Horn Lv. 9	210	(No Element)	0	5	Blue	Blue	White
+665	Drilltusk Horn Lv. 10	220	(No Element)	0	5	Blue	White	White
+666	Drilltusk Horn Lv. 11	240	(No Element)	0	5	Blue	White	White
+667	Drilltusk Horn Lv. 12	250	(No Element)	0	5	White	White	White
+668	Drilltusk Horn Lv. 13	290	(No Element)	0	5	White	White	White
+669	Drilltusk Horn Lv. 14	310	(No Element)	0	5	White	White	Purple
+670	Tetsucabra Horn Lv. 15	340	(No Element)	0	5	White	Purple	Purple
+671	Nightfall Horn Lv. 1	120	(No Element)	0	10	White	White	White
+672	Nightfall Horn Lv. 2	120	(No Element)	0	10	White	White	White
+673	Nightfall Horn Lv. 3	130	(No Element)	0	10	White	White	White
+674	Nightfall Horn Lv. 4	140	(No Element)	0	10	White	White	White
+675	Nightfall Horn Lv. 5	140	(No Element)	0	10	White	White	White
+676	Nightfall Horn Lv. 6	150	(No Element)	0	10	White	White	White
+677	Nightfall Horn Lv. 7	160	(No Element)	0	10	White	White	White
+678	Nightfall Horn Lv. 8	160	(No Element)	0	10	White	White	White
+679	Nightfall Horn Lv. 9	170	(No Element)	0	10	White	White	White
+680	Silverwind Horn Lv. 10	170	(No Element)	0	15	White	White	White
+681	Silverwind Horn Lv. 11	220	(No Element)	0	15	Purple	Purple	Purple
+682	Silverwind Horn Lv. 12	240	(No Element)	0	15	Purple	Purple	Purple
+683	Silverwind Horn Lv. 13	260	(No Element)	0	20	Purple	Purple	Purple
+684	Silverwind Horn Lv. 14	280	(No Element)	0	20	Purple	Purple	Purple
+685	Daybreak Horn Lv. 15	300	(No Element)	0	20	Purple	Purple	Purple
+686	Geode Horn Lv. 1	130	(No Element)	0	5	Green	Green	Blue
+687	Geode Horn Lv. 2	130	(No Element)	0	5	Green	Green	Blue
+688	Geode Horn Lv. 3	140	(No Element)	0	5	Green	Green	Blue
+689	Geode Horn Lv. 4	150	(No Element)	0	5	Green	Green	Blue
+690	Geode Horn Lv. 5	160	(No Element)	0	5	Green	Green	Blue
+691	Geode Horn Lv. 6	160	(No Element)	0	5	Green	Blue	Blue
+692	Geode Horn Lv. 7	170	(No Element)	0	5	Green	Blue	Blue
+693	Geode Horn Lv. 8	180	(No Element)	0	5	Green	Blue	Blue
+694	Geode Horn Lv. 9	190	(No Element)	0	5	Green	Blue	Blue
+695	Crystalbeard Horn Lv. 10	200	(No Element)	0	5	Green	Blue	Blue
+696	Crystalbeard Horn Lv. 11	300	(No Element)	0	10	Green	Blue	Blue
+697	Crystalbeard Horn Lv. 12	320	(No Element)	0	10	Green	Blue	Blue
+698	Crystalbeard Horn Lv. 13	340	(No Element)	0	10	Green	Blue	Blue
+699	Crystalbeard Horn Lv. 14	350	(No Element)	0	10	Green	Blue	Blue
+700	Diamante Horn Lv. 15	370	(No Element)	0	10	Green	Blue	Blue
+701	Hardened Horn Lv. 1	130	Poison	25	10	Blue	Blue	White
+702	Hardened Horn Lv. 2	130	Poison	26	10	Blue	Blue	White
+703	Hardened Horn Lv. 3	140	Poison	27	10	Blue	Blue	White
+704	Hardened Horn Lv. 4	140	Poison	28	10	Blue	White	White
+705	Hardened Horn Lv. 5	150	Poison	29	10	Blue	White	White
+706	Hardened Horn Lv. 6	150	Poison	30	10	Blue	White	White
+707	Hardened Horn Lv. 7	160	Poison	31	10	Blue	White	White
+708	Hardened Horn Lv. 8	160	Poison	32	10	Blue	White	White
+709	Hardened Horn Lv. 9	160	Poison	33	10	Blue	White	White
+710	Deadeye Horn Lv. 10	170	Poison	34	10	Blue	White	White
+711	Deadeye Horn Lv. 11	230	Poison	36	15	White	White	White
+712	Deadeye Horn Lv. 12	240	Poison	37	15	White	White	White
+713	Deadeye Horn Lv. 13	250	Poison	38	15	White	White	White
+714	Deadeye Horn Lv. 14	260	Poison	39	20	White	White	White
+715	Catastrophone Lv. 15	280	Poison	40	20	White	Purple	Purple
+716	Tomb Horn Lv. 1	170	Fire	27	10	Green	Blue	Blue
+717	Tomb Horn Lv. 2	170	Fire	28	10	Green	Blue	Blue
+718	Tomb Horn Lv. 3	170	Fire	29	10	Green	Blue	Blue
+719	Tomb Horn Lv. 4	180	Fire	30	10	Green	Blue	Blue
+720	Tomb Horn Lv. 5	180	Fire	31	10	Blue	White	White
+721	Tomb Horn Lv. 6	180	Fire	32	10	Blue	White	White
+722	Tomb Horn Lv. 7	190	Fire	33	10	Blue	White	White
+723	Tomb Horn Lv. 8	190	Fire	34	10	Blue	White	White
+724	Tomb Horn Lv. 9	190	Fire	35	10	Blue	White	White
+725	Dreadking Horn Lv. 10	200	Fire	36	10	Blue	White	White
+726	Dreadking Horn Lv. 11	250	Fire	38	10	White	White	White
+727	Dreadking Horn Lv. 12	270	Fire	39	10	White	White	White
+728	Dreadking Horn Lv. 13	280	Fire	40	10	White	White	White
+729	Dreadking Horn Lv. 14	300	Fire	41	10	White	White	White
+730	Firewaltz Horn Lv. 15	310	Fire	42	10	White	Purple	Purple
+731	Raiden Horn Lv. 1	140	Thunder	31	10	Green	Blue	Blue
+732	Raiden Horn Lv. 2	140	Thunder	32	10	Green	Blue	Blue
+733	Raiden Horn Lv. 3	140	Thunder	33	10	Green	Blue	Blue
+734	Raiden Horn Lv. 4	150	Thunder	34	10	Green	Blue	Blue
+735	Raiden Horn Lv. 5	150	Thunder	35	10	Blue	White	White
+736	Raiden Horn Lv. 6	150	Thunder	36	10	Blue	White	White
+737	Raiden Horn Lv. 7	160	Thunder	37	10	Blue	White	White
+738	Raiden Horn Lv. 8	160	Thunder	38	10	Blue	White	White
+739	Raiden Horn Lv. 9	160	Thunder	39	10	Blue	White	White
+740	Thunderlord Horn Lv. 10	170	Thunder	40	10	Blue	White	White
+741	Thunderlord Horn Lv. 11	240	Thunder	42	10	White	White	White
+742	Thunderlord Horn Lv. 12	250	Thunder	43	10	White	White	White
+743	Thunderlord Horn Lv. 13	260	Thunder	44	10	White	White	White
+744	Thunderlord Horn Lv. 14	270	Thunder	45	10	White	White	White
+745	Stormking Horn Lv. 15	280	Thunder	46	10	White	Purple	Purple
+746	Seize Horn Lv. 1	150	(No Element)	0	10	White	White	White
+747	Seize Horn Lv. 2	150	(No Element)	0	10	White	White	White
+748	Seize Horn Lv. 3	150	(No Element)	0	10	White	White	White
+749	Seize Horn Lv. 4	160	(No Element)	0	10	White	White	White
+750	Seize Horn Lv. 5	160	(No Element)	0	10	White	White	White
+751	Seize Horn Lv. 6	160	(No Element)	0	10	White	White	White
+752	Seize Horn Lv. 7	170	(No Element)	0	10	White	White	White
+753	Seize Horn Lv. 8	170	(No Element)	0	10	White	White	White
+754	Seize Horn Lv. 9	170	(No Element)	0	10	White	White	White
+755	Grimclaw Horn Lv. 10	180	(No Element)	0	10	White	White	White
+756	Grimclaw Horn Lv. 11	270	(No Element)	0	10	White	White	White
+757	Grimclaw Horn Lv. 12	280	(No Element)	0	10	White	White	White
+758	Grimclaw Horn Lv. 13	290	(No Element)	0	10	Purple	Purple	Purple
+759	Grimclaw Horn Lv. 14	300	(No Element)	0	10	Purple	Purple	Purple
+760	Grimclaw Gong Lv. 15	310	(No Element)	0	10	Purple	Purple	Purple
+761	Magma Horn Lv. 1	150	Blast	21	5	Blue	Blue	Blue
+762	Magma Horn Lv. 2	150	Blast	22	5	Blue	Blue	Blue
+763	Magma Horn Lv. 3	150	Blast	23	5	Blue	Blue	Blue
+764	Magma Horn Lv. 4	160	Blast	24	5	Blue	Blue	Blue
+765	Magma Horn Lv. 5	160	Blast	25	5	Blue	Blue	Blue
+766	Magma Horn Lv. 6	160	Blast	26	5	Blue	Blue	White
+767	Magma Horn Lv. 7	170	Blast	27	5	White	White	White
+768	Magma Horn Lv. 8	170	Blast	28	5	White	White	White
+769	Magma Horn Lv. 9	170	Blast	29	5	White	White	White
+770	Hellblade Horn Lv. 10	180	Blast	30	5	White	White	White
+771	Hellblade Horn Lv. 11	260	Blast	32	5	Purple	Purple	Purple
+772	Hellblade Horn Lv. 12	270	Blast	33	5	Purple	Purple	Purple
+773	Hellblade Horn Lv. 13	280	Blast	34	5	Purple	Purple	Purple
+774	Hellblade Horn Lv. 14	290	Blast	35	5	Purple	Purple	Purple
+775	Glavepyre Horn Lv. 15	300	Blast	36	5	Purple	Purple	Purple
+776	Cloaked Lyre Lv. 1	240	Sleep	14	5	Blue	Blue	White
+777	Cloaked Lyre Lv. 2	250	Sleep	15	5	Blue	White	White
+778	Cloaked Traum Lv. 3	290	Sleep	16	10	Blue	White	White
+779	Cloaked Traum Lv. 4	300	Sleep	17	10	Blue	White	White
+780	Cloaked Albtraum Lv. 5	310	Sleep	18	10	Blue	White	White
+781	Razor Castanet Lv. 1	230	Water	20	5	White	White	White
+782	Razor Castanet Lv. 2	250	Water	21	5	White	White	White
+783	Lunatic Castanet Lv. 3	270	Water	22	5	White	White	Purple
+784	Lunatic Castanet Lv. 4	290	Water	23	5	White	White	Purple
+785	Rustrazor Castanet Lv. 5	310	Water	25	5	White	Purple	Purple
+786	Vagrant's Itinerary Lv. 1	240	Water	30	15	White	White	White
+787	Vagrant's Itinerary Lv. 2	260	Water	31	15	White	White	White
+788	Madderdance Lv. 3	280	Water	32	15	White	White	White
+789	Madderdance Lv. 4	300	Water	33	20	White	White	Purple
+790	Dans Obscura Lv. 5	320	Water	34	20	White	Purple	Purple
+791	Zephra Glide Lv. 1	230	Thunder	18	30	Purple	Purple	Purple
+792	Zephra Glide Lv. 2	240	Thunder	19	30	Purple	Purple	Purple
+793	Zephra Wingbeat Lv. 3	250	Thunder	20	35	Purple	Purple	Purple
+794	Zephra Wingbeat Lv. 4	270	Thunder	21	35	Purple	Purple	Purple
+795	Zilvolt Glide Lv. 5	280	Thunder	22	40	Purple	Purple	Purple
+796	Elderfrost Lute Lv. 1	330	Ice	23	5	Green	Green	Blue
+797	Elderfrost Lute Lv. 2	340	Ice	24	5	Green	Blue	Blue
+798	Elderfrost Singer Lv. 3	350	Ice	25	5	Green	Blue	Blue
+799	Elderfrost Singer Lv. 4	360	Ice	26	5	Green	Blue	White
+800	Elderfrost Mythmaker Lv. 5	370	Ice	27	5	Green	Blue	White

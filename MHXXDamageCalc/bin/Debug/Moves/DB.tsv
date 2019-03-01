@@ -1,0 +1,145 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Draw Slashes	X	28	4	Cut	1	1	0	0		No	No	
+1	Draw Slashes (Single Hit)	X	7	1	Cut	1	1	0	0		No	No	
+2	Up Slash	B X	18	1	Cut	1	1	0	0		No	No	
+3	Twice Slice I	X	20	2	Cut	1	1	0	0		No	No	
+4	Twice Slice I (Hit 1)	X	8	1	Cut	1	1	0	0		No	No	
+5	Twice Slice I (Hit 2)	X	12	1	Cut	1	1	0	0		No	No	
+6	Twice Slice II	X X	17	2	Cut	1	1	0	0		No	No	
+7	Twice Slice II (Hit 1)	X X	7	1	Cut	1	1	0	0		No	No	
+8	Twice Slice II (Hit 2)	X X	10	1	Cut	1	1	0	0		No	No	
+9	Double Down Slashes	X X X	36	3	Cut	1	1	0	0		No	No	
+10	Double Down Slash (Hit 1)	X X X	10	1	Cut	1	1	0	0		No	No	
+11	Double Down Slash (Hits 2/3)	X X X	13	1	Cut	1	1	0	0		No	No	
+12	Dual Side Slash	A	17	2	Cut	1	1	0	0		No	No	
+13	Dual Side Slash (Hit 1)	A	7	1	Cut	1	1	0	0		No	No	
+14	Dual Side Slash (Hit 2)	A	10	1	Cut	1	1	0	0		No	No	
+15	Spinning Slashes	A A	30	3	Cut	1	1	0	0		No	No	
+16	Spinning Slashes (Hit 1)	A A	16	1	Cut	1	1	0	0		No	No	
+17	Spinning Slashes (Hit 2)	A A	6	1	Cut	1	1	0	0		No	No	
+18	Spinning Slashes (Hit 3)	A A	8	1	Cut	1	1	0	0		No	No	
+19	Left Side Slash	A	21	2	Cut	1	1	0	0		No	No	
+20	Left Side Slash (Hit 1)	A	9	1	Cut	1	1	0	0		No	No	
+21	Left Side Slash (Hit 2)	A	12	1	Cut	1	1	0	0		No	No	
+22	Jump Slash	X	23	2	Cut	1	1	0	0		Yes	Yes	
+23	Jump Slash (Hit 1)	X	10	1	Cut	1	1	0	0		Yes	Yes	
+24	Jump Slash (Hit 2)	X	13	1	Cut	1	1	0	0		Yes	Yes	
+25	Demon Whirling Dervish	Sp. Attack	42	6	Cut	1	1	0	0		Yes	No	54 (8 * 4+11 * 2) -> 42 (5 * 4+11 * 2)
+26	Demon Whirling Dervish (Hits 1-4)	Sp. Attack	5	1	Cut	1	1	0	0		Yes	No	
+27	Demon Whirling Dervish (Hits 5-6)	Sp. Attack	11	1	Cut	1	1	0	0		Yes	No	
+28	Demon Whirling Dervish (Gen)	Sp. Attack	54	6	Cut	1	1	0	0		Yes	No	
+29	Demon Whirling Dervish (1-4 Gen)	Sp. Attack	8	1	Cut	1	1	0	0		Yes	No	
+30	Demon Whirling Dervish (5-6 Gen)	Sp. Attack	11	1	Cut	1	1	0	0		Yes	No	
+31	Demon Six-Way Slash	X X	50	6	Cut	1	1	0	0		Yes	No	
+32	Demon Six-Way Slash (Hits 1/3)	X X	4	1	Cut	1	1	0	0		Yes	No	
+33	Demon Six-Way Slash (Hits 2/4)	X X	9	1	Cut	1	1	0	0		Yes	No	
+34	Demon Six-Way Slash (Finish)	X X	12	1	Cut	1	1	0	0		Yes	No	
+35	Demon Spin Slashes	A A	70	6	Cut	1	1	0	0		No	No	
+36	Demon Spin Slashes (Hit 1)	A A	16	1	Cut	1	1	0	0		No	No	
+37	Demon Spin Slashes (Hit 2/5)	A A	6	1	Cut	1	1	0	0		No	No	
+38	Demon Spin Slashes (Hit 3)	A A	8	1	Cut	1	1	0	0		No	No	
+39	Demon Spin Slashes (Hit 4)	A A	18	1	Cut	1	1	0	0		No	No	
+40	Demon Spin Slashes (Hit 6)	A A	10	1	Cut	1	1	0	0		No	No	
+41	Demon Dance	X+A	78	7	Cut	1	1	0	0		Yes	No	
+42	Demon Dance (Hits 1-4)	X+A	8	1	Cut	1	1	0	0		Yes	No	
+43	Demon Dance (Hit 5)	X+A	6	1	Cut	1	1	0	0		Yes	No	
+44	Demon Dance (Hits 6-7)	X+A	20	1	Cut	1	1	0	0		Yes	No	
+45	Demon Jump Slash	X	25	2	Cut	1	1	0	0		Yes	Yes	
+46	Demon Jump Slash (Hit 1)	X	11	1	Cut	1	1	0	0		Yes	Yes	
+47	Demon Jump Slash (Hit 2)	X	14	1	Cut	1	1	0	0		Yes	Yes	
+48	Demon Jump Rounds	B	60	4	Cut	1	1	0	0		Yes	Yes	
+49	Demon Jump Rounds (Hit 1/4)	B	13	1	Cut	1	1	0	0		Yes	Yes	
+50	Demon Jump Rounds (Hit 2/3)	B	17	1	Cut	1	1	0	0		Yes	Yes	
+51	Demon Jump Finisher	B X	66	6	Cut	1	1	0	0		No	Yes	
+52	Demon Jump Finisher (Hit 1/2)	B X	16	1	Cut	1	1	0	0		No	Yes	
+53	Demon Jump Finisher (Hit 3/4)	B X	10	1	Cut	1	1	0	0		No	Yes	
+54	Demon Jump Finisher (Hit 5/6)	B X	7	1	Cut	1	1	0	0		No	Yes	
+55	Arch Whirling Dervish	Sp. Atk	40	6	Cut	1	1	0	0		Yes	No	
+56	Arch Whirling Dervish (Hits 1-4)	Sp. Atk	5	1	Cut	1	1	0	0		Yes	No	
+57	Arch Whirling Dervish (Hits 5/6)	Sp. Atk	10	1	Cut	1	1	0	0		Yes	No	
+58	Arch Hurricane Dance	X X+A	78	7	Cut	1	1	0	0		Yes	No	
+59	Arch Hurricane Dance (Hits 1-4)	X X+A	8	1	Cut	1	1	0	0		Yes	No	
+60	Arch Hurricane Dance (Hit 5)	X X+A	6	1	Cut	1	1	0	0		Yes	No	
+61	Arch Hurricane Dance (Hits 6/7)	X X+A	20	1	Cut	1	1	0	0		Yes	No	
+62	Arch Spinning Slashes	A A	64	6	Cut	1	1	0	0		No	No	
+63	Arch Spinning Slashes (Hit 1)	A A	16	1	Cut	1	1	0	0		No	No	
+64	Arch Spinning Slashes (Hits 2/5)	A A	6	1	Cut	1	1	0	0		No	No	
+65	Arch Spinning Slashes (Hit 3)	A A	8	1	Cut	1	1	0	0		No	No	
+66	Arch Spinning Slashes (Hit 4)	A A	18	1	Cut	1	1	0	0		No	No	
+67	Arch Spinning Slashes (Hit 6)	A A	10	1	Cut	1	1	0	0		No	No	
+68	Arch Jump Slash	B	54	4	Cut	1	1	0	0		Yes	Yes	
+69	Arch Jump Slash (Hits 1/4)	B	12	1	Cut	1	1	0	0		Yes	Yes	
+70	Arch Jump Slash (Hits 2/3)	B	15	1	Cut	1	1	0	0		Yes	Yes	
+71	Striker Whirling Dervish	A X	54	6	Cut	1	1	0	0		Yes	No	
+72	Striker Whirling Dervish (1-4)	A X	8	1	Cut	1	1	0	0		Yes	No	
+73	Striker Whirling Dervish (5-6)	A X	11	1	Cut	1	1	0	0		Yes	No	
+74	Aerial Demon Upslashes	B	60	4	Cut	1	1	0	0		Yes	Yes	
+75	Aerial Demon Upslashes (1/4)	B	13	1	Cut	1	1	0	0		Yes	Yes	
+76	Aerial Demon Upslashes (2/3)	B	17	1	Cut	1	1	0	0		Yes	Yes	
+77	Aerial Demon Downslashes	B X	64	6	Cut	1	1	0	0		Yes	Yes	74 (18+18+11+11+8+8) -> 64 (15+15+10+10+7+7)
+78	Aerial Demon Downslashes (1/2)	B X	15	1	Cut	1	1	0	0		Yes	Yes	
+79	Aerial Demon Downslashes (3/4)	B X	10	1	Cut	1	1	0	0		Yes	Yes	
+80	Aerial Demon Downslashes (5/6)	B X	7	1	Cut	1	1	0	0		Yes	Yes	
+81	Aerial Demon Downslashes (Gen)	B X	74	6	Cut	1	1	0	0		Yes	Yes	
+82	Aerial Demon Downslashes (1-2 Gen)	B X	18	1	Cut	1	1	0	0		Yes	Yes	
+83	Aerial Demon Downslashes (3-4 Gen)	B X	11	1	Cut	1	1	0	0		Yes	Yes	
+84	Aerial Demon Downslashes (5-6 Gen)	B X	8	1	Cut	1	1	0	0		Yes	Yes	
+85	Aerial Arch Upslashes	B	44	4	Cut	1	1	0	0		Yes	Yes	54 (12+15+15+12) -> 44 (10+12+12+10)
+86	Aerial Arch Upslashes (Hits 1/4)	B	10	1	Cut	1	1	0	0		Yes	Yes	
+87	Aerial Arch Upslashes (Hits 2-3)	B	12	1	Cut	1	1	0	0		Yes	Yes	
+88	Aerial Arch Upslashes (Gen)	B	54	4	Cut	1	1	0	0		Yes	Yes	
+89	Aerial Arch Upslashes (Hits 1/4 Gen)	B	12	1	Cut	1	1	0	0		Yes	Yes	
+90	Aerial Arch Upslashes (Hits 2-3 Gen)	B	15	1	Cut	1	1	0	0		Yes	Yes	
+91	Aerial Arch Downslashes	B X	56	6	Cut	1	1	0	0		Yes	Yes	66 (18+18+11+11+8+8) -> 56 (16+16+9+9+7+7)
+92	Aerial Arch Downslashes (Hits 1-2)	B X	16	1	Cut	1	1	0	0		Yes	Yes	
+93	Aerial Arch Downslashes (Hits 3-4)	B X	9	1	Cut	1	1	0	0		Yes	Yes	
+94	Aerial Arch Downslashes (Hits 5-6)	B X	7	1	Cut	1	1	0	0		Yes	Yes	
+95	Aerial Arch Downslashes (Gen)	B X	66	6	Cut	1	1	0	0		Yes	Yes	
+96	Aerial Arch Downslashes (Hits 1-2)	B X	18	1	Cut	1	1	0	0		Yes	Yes	
+97	Aerial Arch Downslashes (Hits 3-4)	B X	11	1	Cut	1	1	0	0		Yes	Yes	
+98	Aerial Arch Downslashes (Hits 5-6)	B X	8	1	Cut	1	1	0	0		Yes	Yes	
+99	Adept Demon Dodge	B	45	4	Cut	1	1	0	0		Yes	No	55 (23+16+8+8) -> 45 (11+18+8+8)
+100	Adept Demon Dodge (Hit 1)	B	11	1	Cut	1	1	0	0		Yes	No	
+101	Adept Demon Dodge (Hit 2)	B	18	1	Cut	1	1	0	0		Yes	No	
+102	Adept Demon Dodge (Hits 3/4)	B	8	1	Cut	1	1	0	0		Yes	No	
+103	Adept Demon Dodge (Gen)	B	55	4	Cut	1	1	0	0		Yes	No	
+104	Adept Demon Dodge (Hit 1 Gen)	B	23	1	Cut	1	1	0	0		Yes	No	
+105	Adept Demon Dodge (Hit 2 Gen)	B	16	1	Cut	1	1	0	0		Yes	No	
+106	Adept Demon Dodge (Hits 3/4 Gen)	B	8	1	Cut	1	1	0	0		Yes	No	
+107	Adept Arch Dodge	B	40	4	Cut	1	1	0	0		Yes	No	48 (20+14+7+7) -> 40 (10+16+7+7)
+108	Adept Arch Dodge (Hit 1)	B	10	1	Cut	1	1	0	0		Yes	No	
+109	Adept Arch Dodge (Hit 2)	B	16	1	Cut	1	1	0	0		Yes	No	
+110	Adept Arch Dodge (Hits 3-4)	B	7	1	Cut	1	1	0	0		Yes	No	
+111	Adept Arch Dodge (Gen)	B	48	4	Cut	1	1	0	0		Yes	No	
+112	Adept Arch Dodge (Hit 1 Gen)	B	20	1	Cut	1	1	0	0		Yes	No	
+113	Adept Arch Dodge (Hit 2 Gen)	B	14	1	Cut	1	1	0	0		Yes	No	
+114	Adept Arch Dodge (Hits 3-4 Gen)	B	7	1	Cut	1	1	0	0		Yes	No	
+115	Valor Demon Dance	X X+A	108	13	Cut	1	1	0	0		Yes	No	
+116	Valor Demon Dance (Hits 1/2)	X X+A	17	1	Cut	1	1	0	0		Yes	No	
+117	Valor Demon Dance (Hits 3-10)	X X+A	4	1	Cut	1	1	0	0		Yes	No	
+118	Valor Demon Dance (Hit 11)	X X+A	6	1	Cut	1	1	0	0		Yes	No	
+119	Valor Demon Dance (Hits 12/13)	X X+A	18	1	Cut	1	1	0	0		Yes	No	
+120	Valor Guard Point	R	34	4	Cut	1	1	0	0		No	No	Restores some Sharpness
+121	Valor Guard Point (Hits 1/2)	R	10	1	Cut	1	1	0	0		No	No	
+122	Valor Guard Point (Hits 3/4)	R	7	1	Cut	1	1	0	0		No	No	
+123	Blood Wind I		216	14	Cut	1	1	0	0		Yes	No	
+124	Blood Wind II		268	18	Cut	1	1	0	0		Yes	No	
+125	Blood Wind III		320	22	Cut	1	1	0	0		Yes	No	
+126	Blood Wind (Spin)		13	1	Cut	1	1	0	0		Yes	No	
+127	Blood Wind (Finisher)		30	1	Cut	1	1	0	0		Yes	No	
+128	Aerial Slam I		170	7	Cut	1	1	0	0		Yes	No	
+129	Aerial Slam II		200	7	Cut	1	1	0	0		Yes	No	
+130	Aerial Slam III		240	7	Cut	1	1	0	0		Yes	No	
+131	Aerial Slam (Hits 1/4)		12	1	Cut	1	1	0	0		Yes	No	
+132	Aerial Slam (Hits 2/3)		15	1	Cut	1	1	0	0		Yes	No	
+133	Aerial Slam I (Finisher)		80	1	Cut	1	1	0	0		Yes	Yes	
+134	Aerial Slam II (Finisher)		110	1	Cut	1	1	0	0		Yes	Yes	
+135	Aerial Slam III (Finisher)		150	1	Cut	1	1	0	0		Yes	Yes	
+136	Spiral Slice I		64	3	Cut	1	0.8	0	0		Yes	No	
+137	Spiral Slice II		114	7	Cut	1	0.63	0	0		Yes	No	
+138	Spiral Slice III		144	9	Cut	1	0.6	0	0		Yes	No	
+139	Spiral Slice (Opener)		4	1	Cut	1	1	0	0		Yes	No	
+140	Spiral Slice II/III (Rend)		10	1	Cut	1	0.5	0	0		Yes	No	
+141	Spiral Slice I (Finisher)		30	1	Cut	1	0.7	0	0		Yes	No	
+142	Spiral Slice II (Finisher)		35	1	Cut	1	0.7	0	0		Yes	No	
+143	Spiral Slice III (Finisher)		40	1	Cut	1	0.7	0	0		Yes	No	

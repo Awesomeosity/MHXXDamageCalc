@@ -1,0 +1,13 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head (Fire Form)	60	65	55	0	15	5	20	5	100	100
+1	Neck (Fire Form)	40	35	35	0	10	5	15	5	0	100
+2	Body (Fire Form)	35	30	20	0	10	5	15	5	0	100
+3	Wings (Fire Form)	21	21	10	0	5	5	10	5	0	100
+4	Feet (Fire Form)	25	25	20	0	10	5	15	5	0	100
+5	Tail (Fire Form)	30	25	40	0	5	5	10	5	0	100
+6	Head (Thunder/Ice Form)	60	65	55	20	15	0	0	30	100	100
+7	Neck  (Thunder/Ice Form)	40	35	40	15	10	0	0	20	0	100
+8	Body (Thunder/Ice Form)	35	30	20	15	10	0	0	20	0	100
+9	Wings (Thunder/Ice Form)	25	25	15	15	5	0	0	10	0	100
+10	Feet (Thunder/Ice Form)	38	35	35	15	10	0	0	20	0	100
+11	Tail (Thunder/Ice Form)	30	30	40	15	10	0	0	20	0	100

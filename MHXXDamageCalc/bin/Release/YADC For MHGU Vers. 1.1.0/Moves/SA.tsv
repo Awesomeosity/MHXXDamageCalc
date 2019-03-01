@@ -1,0 +1,54 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Side Slice	X	23	1	Cut	1	1	0	0		No	No	
+1	Down Slash	X	50	1	Cut	1	1	0	0		No	No	
+2	Up Swing	B X	32	1	Cut	1	1	0	0		No	No	
+3	Hack n' Slash	A X R	22	1	Cut	1	1	0	0		No	No	
+4	Hack n' Finisher	A X R X	95	1	Cut	1	1	0	0		No	No	
+5	Hack n' Finisher (Hit 1)	A X R X	25	1	Cut	1	1	0	0		No	No	
+6	Hack n' Finisher (Hit 2)	A X R X	30	1	Cut	1	1	0	0		No	No	
+7	Hack n' Finisher (Hit 3)	A X R X	40	1	Cut	1	1	0	0		No	No	
+8	Forward Thrust	Up+X	19	1	Cut	1	1	0	0		No	No	
+9	Jumping Axe Swing	X	40	1	Cut	1	1	0	0		Yes	Yes	
+10	Morph to Sword	X R	32	1	Cut	1	1	0	0		Yes	No	
+11	Jumping Morph to Sword	R	32	1	Cut	1	1	0	0		Yes	No	Applies phial.
+12	Sword Down Slash	X	30	1	Cut	1	1	0	0		Yes	No	Applies phial.
+13	Sword Up Slash	X X	25	1	Cut	1	1	0	0		Yes	No	Applies phial.
+14	Sword Side Slash	A	28	1	Cut	1	1	0	0		Yes	No	Applies phial.
+15	Sword Double Slash	A A	64	2	Cut	1	1	0	0		Yes	No	Applies phial.
+16	Sword Double Slash (Hit 1)	A A	28	1	Cut	1	1	0	0		Yes	No	Applies phial.
+17	Sword Double Slash (Hit 2)	A A	36	1	Cut	1	1	0	0		Yes	No	Applies phial.
+18	Elemental Discharge Thrust	X+A	28	1	Cut	1	1	0	0		Yes	No	Applies phial.
+19	Elemental Jumping Thrust	X+A	40	1	Cut	1	1	0	0		Yes	Yes	Applies phial.
+20	Elemental Discharge	X+A X	13	1	Cut	1	1	0	0		Yes	No	Applies phial.
+21	Elemental Explosion (Cancel)	X+A Back+X	50	1	Cut	1	1	0	0		Yes	No	Applies phial.
+22	Elemental Explosion	X+A X * 7	80	1	Cut	1	1	0	0		Yes	No	Applies phial.
+23	Striker Side Slash	A A	29	1	Cut	1	1	0	0		Yes	No	Applies phial.
+24	Aerial Sword Upslash	B	35	1	Cut	1	1	0	0		Yes	No	Applies phial.
+25	Aerial Sword Downslash	B X	30	1	Cut	1	1	0	0		Yes	No	Applies phial.
+26	Adept Counter Swings	X	50	2	Cut	1	1	0	0		Yes	No	Applies phial.
+27	Adept Counter Swings (Individual)	X	25	1	Cut	1	1	0	0		Yes	No	Applies phial.
+28	Valor Double Discharge	X+A X * 7	100	2	Cut	1	1	0	0		Yes	No	Applies phial.
+29	Valor Double Discharge (Hit 1)	X+A X * 7	40	1	Cut	1	1	0	0		Yes	No	Applies phial.
+30	Valor Double Discharge (Hit 2)	X+A X * 7	60	1	Cut	1	1	0	0		Yes	No	Applies phial.
+31	Valor Morph to Axe	X+A X * 7 R	100	2	Cut	1	1	0	0		No	No	
+32	Valor Morph to Axe (Hit 1)	X+A X * 7 R	40	1	Cut	1	1	0	0		No	No	
+33	Valor Morph to Axe (Hit 2)	X+A X * 7 R	60	1	Cut	1	1	0	0		No	No	
+34	Alchemy Phial Reload	R+X+A	25	1	Cut	1	1	0	0		No	No	Applies phial.
+35	Trance Slash I		263	11	Cut	1	1	0	0		Yes	No	
+36	Trance Slash II		332	11	Cut	1	1	0	0		Yes	No	
+37	Trance Slash III		384	11	Cut	1	1	0	0		Yes	No	
+38	Trance Slash I (+Demon Riot)		273	12	Cut	1	1	0	0		Yes	No	
+39	Trance Slash II (+Demon Riot)		352	12	Cut	1	1	0	0		Yes	No	
+40	Trance Slash III (+Demon Riot)		382	12	Cut	1	1	0	0		Yes	No	
+41	Trance Slash I (+Tempest Axe)		295	13	Cut	1	1	0	0		Yes	No	
+42	Trance Slash II (+Tempest Axe)		358	13	Cut	1	1	0	0		Yes	No	
+43	Trance Slash III (+Tempest Axe)		401	13	Cut	1	1	0	0		Yes	No	
+44	Trance Slash I (+Both)		305	14	Cut	1	1	0	0		Yes	No	
+45	Trance Slash II (+Both)		378	14	Cut	1	1	0	0		Yes	No	
+46	Trance Slash III (+Both)		431	14	Cut	1	1	0	0		Yes	No	
+47	Energy Charge		25	1	Cut	1	1	0	0		Yes	No	
+48	Tempest Axe		44	2	Cut	1	1	0	0		Yes	No	
+49	Tempest Axe (Individual Hits)		22	1	Cut	1	1	0	0		Yes	No	
+49	Tempest Finisher	X+A, X * 5 X	80	2	Cut	1	1	0	0		Yes	No	
+49	Tempest Finisher (Hit 1)	X+A, X * 5 X	25	1	Cut	1	1	0	0		Yes	No	
+49	Tempest Finisher (Hit 2)	X+A, X * 5 X	55	1	Cut	1	1	0	0		Yes	No	

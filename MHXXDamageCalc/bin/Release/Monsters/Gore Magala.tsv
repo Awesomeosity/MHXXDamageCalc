@@ -1,0 +1,11 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head	65	55	55	15	0	15	5	15	100	100
+1	Neck	50	50	50	15	0	10	5	5	0	100
+2	Body	25	25	35	10	0	5	5	5	0	100
+3	Wing Legs	30	30	30	25	0	15	5	10	0	100
+4	Forelegs	45	45	40	10	0	5	5	5	0	100
+5	Hind Legs	42	42	50	10	0	5	5	5	0	100
+6	Wings	26	26	20	15	0	10	0	5	0	100
+7	Tail	45	45	40	10	0	10	5	5	0	100
+8	Head (Virus Mode)	75	70	65	25	0	15	5	30	100	100
+9	Wing Legs (Virus Mode)	30	30	30	30	0	15	5	10	0	100

@@ -1,0 +1,65 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Draw Lunge	Dir. X	28	1	Cut	1	1	0	0		No	No	
+1	Post-Shot Lunge	A Dir. X	27	1	Cut	1	1	0	0		No	No	
+2	Thrust	X	21	1	Cut	1	1	0	0		No	No	
+3	Slam	X X X	36	1	Cut	1	1	0	0		No	No	
+4	Upswing	X+A	25	1	Cut	1	1	0	0		No	No	
+5	Guard Thrust	R X	16	1	Cut	1	1	0	0		No	No	
+6	Jumping Thrust	X	22	1	Cut	1	1	0	0		Yes	Yes	
+7	Jumping Slam	X+A	36	1	Cut	1	1	0	0		Yes	Yes	
+8	Jumping Reload Slam	X+A	40	1	Cut	1	1	0	0		Yes	Yes	
+9	Striker 3rd Thrust	X X X	24	1	Cut	1	1	0	0		No	No	
+10	Aerial Slam	X	36	1	Cut	1	1	0	0		Yes	Yes	
+11	Aerial Reload Slam	X	40	1	Cut	1	1	0	0		Yes	Yes	
+12	Adept Reload Swing (Full)	X	40	1	Cut	1	1	0	0		No	No	
+13	Adept Reload Swing (Loading)	X	37	1	Cut	1	1	0	0		No	No	
+14	Adept Slam	X X	50	1	Cut	1	1	0	0		No	No	
+15	Valor Reload Swing (Full)	Y X	40	1	Cut	1	1	0	0		No	No	
+16	Valor Reload Swing (Loading)	Y X	36	1	Cut	1	1	0	0		No	No	
+17	Normal Lv 1	A	10	1	Fixed	1	1	0	0	Fire 4	Yes	No	All GL shots in XX were buffed to 4U values.
+18	Normal Lv 2	A	14	1	Fixed	1	1	0	0	Fire 5	Yes	No	
+19	Normal Lv 3	A	18	1	Fixed	1	1	0	0	Fire 6	Yes	No	
+20	Normal Lv 4	A	21	1	Fixed	1	1	0	0	Fire 7	Yes	No	
+21	Normal Lv 5	A	24	1	Fixed	1	1	0	0	Fire 8	Yes	No	
+22	Normal Lv 1 (Gen)	A	8	1	Fixed	1	1	0	0	Fire 4	Yes	No	
+23	Normal Lv 2 (Gen)	A	11	1	Fixed	1	1	0	0	Fire 5	Yes	No	
+24	Normal Lv 3 (Gen)	A	14	1	Fixed	1	1	0	0	Fire 6	Yes	No	
+25	Normal Lv 4 (Gen)	A	16	1	Fixed	1	1	0	0	Fire 7	Yes	No	
+26	Long Lv 1	A	15	1	Fixed	1	1	0	0	Fire 9	Yes	No	
+27	Long Lv 2	A	21	1	Fixed	1	1	0	0	Fire 11	Yes	No	
+28	Long Lv 3	A	28	1	Fixed	1	1	0	0	Fire 14	Yes	No	
+29	Long Lv 4	A	32	1	Fixed	1	1	0	0	Fire 16	Yes	No	
+30	Long Lv 5	A	38	1	Fixed	1	1	0	0	Fire 18	Yes	No	
+31	Long Lv 1 (Gen)	A	12	1	Fixed	1	1	0	0	Fire 9	Yes	No	
+32	Long Lv 2 (Gen)	A	16	1	Fixed	1	1	0	0	Fire 11	Yes	No	
+33	Long Lv 3 (Gen)	A	22	1	Fixed	1	1	0	0	Fire 14	Yes	No	
+34	Long Lv 4 (Gen)	A	25	1	Fixed	1	1	0	0	Fire 16	Yes	No	
+35	Wide Lv 1	A	20	1	Fixed	1	1	0	0	Fire 6	Yes	No	
+36	Wide Lv 2	A	30	1	Fixed	1	1	0	0	Fire 8	Yes	No	
+37	Wide Lv 3	A	40	1	Fixed	1	1	0	0	Fire 10	Yes	No	
+38	Wide Lv 4	A	44	1	Fixed	1	1	0	0	Fire 11	Yes	No	
+39	Wide Lv 5	A	48	1	Fixed	1	1	0	0	Fire 12	Yes	No	
+40	Wide Lv 1 (Gen)	A	16	1	Fixed	1	1	0	0	Fire 6	Yes	No	
+41	Wide Lv 2 (Gen)	A	24	1	Fixed	1	1	0	0	Fire 8	Yes	No	
+42	Wide Lv 3 (Gen)	A	32	1	Fixed	1	1	0	0	Fire 10	Yes	No	
+43	Wide Lv 4 (Gen)	A	35	1	Fixed	1	1	0	0	Fire 11	Yes	No	
+44	Wyvernsfire Lv 1	R X+A	120	4	Fixed	1	1	0	0	Fire 40	Yes	No	
+45	Wyvernsfire Lv 1 (Individual Hits)	R X+A	30	1	Fixed	1	1	0	0	Fire 10	Yes	No	
+46	Wyvernsfire Lv 2	R X+A	140	4	Fixed	1	1	0	0	Fire 44	Yes	No	
+47	Wyvernsfire Lv 2 (Individual Hits)	R X+A	35	1	Fixed	1	1	0	0	Fire 11 	Yes	No	
+48	Wyvernsfire Lv 3	R X+A	160	4	Fixed	1	1	0	0	Fire 48	Yes	No	
+49	Wyvernsfire Lv 3 (Individual Hits)	R X+A	40	1	Fixed	1	1	0	0	Fire 12	Yes	No	
+50	Wyvernsfire Lv 4	R X+A	180	4	Fixed	1	1	0	0	Fire 52	Yes	No	
+51	Wyvernsfire Lv 4 (Individual Hits)	R X+A	45	1	Fixed	1	1	0	0	Fire 13	Yes	No	
+52	Wyvernsfire Lv 5	R X+A	200	4	Fixed	1	1	0	0	Fire 56	Yes	No	
+53	Wyvernsfire Lv 5 (Individual Hits)	R X+A	50	1	Fixed	1	1	0	0	Fire 14	Yes	No	
+54	Dragon Blast I		*	1	Fixed	1	1	0	0		Yes	No	Damage Dealt: See Individual Hits.
+55	Dragon Blast II		*	1	Fixed	1	1	0	0		Yes	No	Damage Dealt: See Individual Hits.
+56	Dragon Blast III		*	1	Fixed	1	1	0	0		Yes	No	Damage Dealt: See Individual Hits.
+57	Dragon Blast I (Opener)		*	1	Fixed	1	1	0	0		Yes	No	48 * (1 + weaponRaw * 0.7 / 100)
+58	Dragon Blast II (Opener)		*	1	Fixed	1	1	0	0		Yes	No	49 * (1 + weaponRaw * 0.7 / 100)
+59	Dragon Blast III (Opener)		*	1	Fixed	1	1	0	0		Yes	No	49 * (1 + weaponRaw * 0.7 / 100)
+60	Dragon Blast (Following Hits)		*	1	Fixed	1	1	0	0		Yes	No	10 * (1 + weaponRaw * 0.7 / 100)
+61	Blast Dash		74	2	Cut	1	1	0	0		Yes	No	
+62	Blast Dash (Hit 1)		24	1	Cut	1	1	0	0		Yes	No	
+63	Blast Dash (Hit 2)		50	1	Cut	1	1	0	0		Yes	No	

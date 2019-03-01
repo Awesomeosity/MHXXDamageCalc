@@ -1,0 +1,11 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Back	30	30	10	10	0	5	0	15	0	0
+1	Shell	15	15	10	5	0	0	0	5	0	0
+2	Head	65	65	40	15	0	10	0	20	0	0
+3	Fin	22	22	15	5	0	0	0	10	0	0
+4	Body	15	15	10	0	0	0	0	0	0	0
+5	Blowhole	38	38	20	5	0	0	0	10	0	0
+6	Back Weakness	70	70	70	20	0	10	0	30	0	0
+7	Tentacle	36	36	25	5	0	0	0	10	0	0
+8	Tentacle Tip	63	63	35	15	0	10	0	20	0	0
+9	Head (Mucus)	30	30	15	0	0	0	0	0	0	0

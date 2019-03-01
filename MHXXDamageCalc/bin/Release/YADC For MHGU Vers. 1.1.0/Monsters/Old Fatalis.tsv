@@ -1,0 +1,17 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Face	55	50	40	15	5	5	10	30	0	100
+1	Head	45	45	30	15	5	5	10	25	0	100
+2	Neck	25	20	10	15	5	5	10	10	0	100
+3	Chest	30	25	20	15	5	5	10	15	0	100
+4	Tail	10	15	10	15	5	5	10	10	0	100
+5	Back	30	30	25	15	5	5	10	10	0	100
+6	Stomach / Hind Legs	30	25	20	15	5	5	10	20	0	100
+7	Wings	35	21	15	15	5	5	10	15	0	100
+8	Face (Armor Mode)	85	80	70	10	5	5	10	10	0	100
+9	Head (Armor Mode)	55	55	55	10	5	5	10	10	0	100
+10	Neck (Armor Mode)	55	50	40	10	5	5	10	10	0	100
+11	Chest (Armor Mode)	25	20	15	10	5	5	10	10	0	100
+12	Tail (Armor Mode)	10	10	10	10	5	5	10	10	0	100
+13	Back (Armor Mode)	15	15	15	10	5	5	10	10	0	100
+14	Stomach / Hind Legs (Armor Mode)	10	10	10	10	5	5	10	10	0	100
+15	Wings (Armor Mode)	25	16	10	10	5	5	10	10	0	100

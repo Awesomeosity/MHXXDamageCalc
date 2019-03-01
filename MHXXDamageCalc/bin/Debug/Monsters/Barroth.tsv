@@ -1,0 +1,11 @@
+ID	part	cut	impact	shot	fire	water	thunder	ice	dragon	KO	exhaust
+0	Head (Mud)	22	25	15	40	0	0	20	10	100	100
+1	Body (Mud)	36	45	35	25	0	0	10	5	0	100
+2	Claws (Mud)	50	55	50	20	0	0	10	5	0	100
+3	Feet (Mud)	36	30	25	20	0	0	15	5	0	100
+4	Tail (Mud)	47	47	50	25	0	0	20	10	0	100
+5	Head (No Mud)	22	25	15	0	50	0	20	0	100	100
+6	Body (No Mud)	36	45	35	0	30	0	10	0	0	100
+7	Claws (No Mud)	45	50	45	0	25	0	10	0	0	100
+8	Feet (No Mud)	36	30	25	0	25	0	15	0	0	100
+9	Tail (No Mud)	42	42	45	0	30	0	20	0	0	100

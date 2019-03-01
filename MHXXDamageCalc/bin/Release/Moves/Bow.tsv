@@ -1,0 +1,120 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Rapid Lv 1		12	1	Shot	1	1	0	0		Yes	No	
+1	Rapid Lv 2		16	2	Shot	1	1	0	0		Yes	No	
+2	Rapid Lv 2 (Hit 1)		12	1	Shot	1	1	0	0		Yes	No	
+3	Rapid Lv 2 (Hit 2)		4	1	Shot	1	1	0	0		Yes	No	
+4	Rapid Lv 3		19	3	Shot	1	1	0	0		Yes	No	
+5	Rapid Lv 3 (Hit 1)		12	1	Shot	1	1	0	0		Yes	No	
+6	Rapid Lv 3 (Hit 2)		4	1	Shot	1	1	0	0		Yes	No	
+7	Rapid Lv 3 (Hit 3)		3	1	Shot	1	1	0	0		Yes	No	
+8	Rapid Lv 4		21	4	Shot	1	1	0	0		Yes	No	
+9	Rapid Lv 4 (Hit 1)		12	1	Shot	1	1	0	0		Yes	No	
+10	Rapid Lv 4 (Hit 2)		4	1	Shot	1	1	0	0		Yes	No	
+11	Rapid Lv 4 (Hit 3)		3	1	Shot	1	1	0	0		Yes	No	
+12	Rapid Lv 4 (Hit 4)		2	1	Shot	1	1	0	0		Yes	No	
+13	Rapid Lv 5		22	4	Shot	1	1	0	0		Yes	No	
+14	Rapid Lv 5 (Hit 1)		12	1	Shot	1	1	0	0		Yes	No	
+15	Rapid Lv 5 (Hit 2)		4	1	Shot	1	1	0	0		Yes	No	
+16	Rapid Lv 5 (Hit 3)		3	1	Shot	1	1	0	0		Yes	No	
+17	Rapid Lv 5 (Hit 4)		3	1	Shot	1	1	0	0		Yes	No	
+18	Rapid Lv 1 (Status)		12	1	Shot	1	1	0	0	Poison 13	Yes	No	
+19	Rapid Lv 2 (Status)		16	2	Shot	1	1	0	0	Poison 7	Yes	No	
+20	Rapid Lv 2 (Hit 1 Status)		12	1	Shot	1	1	0	0	Poison 7	Yes	No	
+21	Rapid Lv 2 (Hit 2 Status)		4	1	Shot	1	1	0	0	Poison 7	Yes	No	
+22	Rapid Lv 3 (Status)		19	3	Shot	1	1	0	0	Poison 5	Yes	No	
+23	Rapid Lv 3 (Hit 1 Status)		12	1	Shot	1	1	0	0	Poison 5	Yes	No	
+24	Rapid Lv 3 (Hit 2 Status)		4	1	Shot	1	1	0	0	Poison 5	Yes	No	
+25	Rapid Lv 3 (Hit 3 Status)		3	1	Shot	1	1	0	0	Poison 5	Yes	No	
+26	Rapid Lv 4 (Status)		21	4	Shot	1	1	0	0	Poison 4	Yes	No	
+27	Rapid Lv 4 (Hit 1 Status)		12	1	Shot	1	1	0	0	Poison 4	Yes	No	
+28	Rapid Lv 4 (Hit 2 Status)		4	1	Shot	1	1	0	0	Poison 4	Yes	No	
+29	Rapid Lv 4 (Hit 3 Status)		3	1	Shot	1	1	0	0	Poison 4	Yes	No	
+30	Rapid Lv 4 (Hit 4 Status)		2	1	Shot	1	1	0	0	Poison 4	Yes	No	
+31	Rapid Lv 5 (Status)		22	4	Shot	1	1	0	0	Poison 4	Yes	No	
+32	Rapid Lv 5 (Hit 1 Status)		12	1	Shot	1	1	0	0	Poison 4	Yes	No	
+33	Rapid Lv 5 (Hit 2 Status)		4	1	Shot	1	1	0	0	Poison 4	Yes	No	
+34	Rapid Lv 5 (Hit 3 Status)		3	1	Shot	1	1	0	0	Poison 4	Yes	No	
+35	Rapid Lv 5 (Hit 4 Status)		3	1	Shot	1	1	0	0	Poison 4	Yes	No	
+36	Pierce Lv 1		15	3	Shot	1	1	0	0		Yes	No	
+37	Pierce Lv 1 (1 Hit)		5	1	Shot	1	1	0	0		Yes	No	
+38	Pierce Lv 2		20	4	Shot	1	1	0	0		Yes	No	
+39	Pierce Lv 2 (1 Hit)		5	1	Shot	1	1	0	0		Yes	No	
+40	Pierce Lv 3		25	5	Shot	1	1	0	0		Yes	No	
+41	Pierce Lv 3 (1 Hit)		5	1	Shot	1	1	0	0		Yes	No	
+42	Pierce Lv 4		25	5	Shot	1	1	0	0		Yes	No	
+43	Pierce Lv 4 (1 Hit)		5	1	Shot	1	1	0	0		Yes	No	
+44	Pierce Lv 5		25	5	Shot	1	1	0	0		Yes	No	
+45	Pierce Lv 5 (1 Hit)		5	1	Shot	1	1	0	0		Yes	No	
+46	Pierce Lv 1 (Status)		15	3	Shot	1	1	0	0	Poison 5	Yes	No	
+47	Pierce Lv 1 (1 Hit Status)		5	1	Shot	1	1	0	0	Poison 5	Yes	No	
+48	Pierce Lv 2 (Status)		20	4	Shot	1	1	0	0	Poison 4	Yes	No	
+49	Pierce Lv 2 (1 Hit Status)		5	1	Shot	1	1	0	0	Poison 4	Yes	No	
+50	Pierce Lv 3 (Status)		25	5	Shot	1	1	0	0	Poison 4	Yes	No	
+51	Pierce Lv 3 (1 Hit Status)		5	1	Shot	1	1	0	0	Poison 4	Yes	No	
+52	Pierce Lv 4 (Status)		25	5	Shot	1	1	0	0	Poison 4	Yes	No	
+53	Pierce Lv 4 (1 Hit Status)		5	1	Shot	1	1	0	0	Poison 4	Yes	No	
+54	Pierce Lv 5 (Status)		25	5	Shot	1	1	0	0	Poison 4	Yes	No	
+55	Pierce Lv 5 (1 Hit Status)		5	1	Shot	1	1	0	0	Poison 4	Yes	No	
+56	Spread Lv 1		13	3	Shot	1	1	0	0		Yes	No	
+57	Spread Lv 1 (Center Arrow)		5	1	Shot	1	1	0	0		Yes	No	
+58	Spread Lv 1 (Outer Arrows)		4	1	Shot	1	1	0	0		Yes	No	
+59	Spread Lv 2		16	3	Shot	1	1	0	0		Yes	No	
+60	Spread Lv 2 (Center Arrow)		6	1	Shot	1	1	0	0		Yes	No	
+61	Spread Lv 2 (Outer Arrows)		5	1	Shot	1	1	0	0		Yes	No	
+62	Spread Lv 3		23	5	Shot	1	1	0	0		Yes	No	
+63	Spread Lv 3 (Center 3 Arrows)		5	1	Shot	1	1	0	0		Yes	No	
+64	Spread Lv 3 (Outer Arrows)		4	1	Shot	1	1	0	0		Yes	No	
+65	Spread Lv 4		24	5	Shot	1	1	0	0		Yes	No	
+66	Spread Lv 4 (Center Arrow)		6	1	Shot	1	1	0	0		Yes	No	
+67	Spread Lv 4 (Middle Arrows)		5	1	Shot	1	1	0	0		Yes	No	
+68	Spread Lv 4 (Outer Arrows)		4	1	Shot	1	1	0	0		Yes	No	
+69	Spread Lv 5		26	5	Shot	1	1	0	0		Yes	No	
+70	Spread Lv 5 (Center Arrow)		6	1	Shot	1	1	0	0		Yes	No	
+71	Spread Lv 5 (Outer Arrows)		5	1	Shot	1	1	0	0		Yes	No	
+72	Spread Lv 1 (Status)		13	3	Shot	1	1	0	0	Poison 5	Yes	No	
+73	Spread Lv 1 (Center Status)		5	1	Shot	1	1	0	0	Poison 5	Yes	No	
+74	Spread Lv 1 (Outer Status)		4	1	Shot	1	1	0	0	Poison 5	Yes	No	
+75	Spread Lv 2 (Status)		16	3	Shot	1	1	0	0	Poison 6	Yes	No	
+76	Spread Lv 2 (Center Status)		6	1	Shot	1	1	0	0	Poison 6	Yes	No	
+77	Spread Lv 2 (Outer Status)		5	1	Shot	1	1	0	0	Poison 6	Yes	No	
+78	Spread Lv 3 (Status)		23	5	Shot	1	1	0	0	Poison 4	Yes	No	
+79	Spread Lv 3 (Center 3 Status)		5	1	Shot	1	1	0	0	Poison 4	Yes	No	
+80	Spread Lv 3 (Outer Status)		4	1	Shot	1	1	0	0	Poison 4	Yes	No	
+81	Spread Lv 4 (Status)		24	5	Shot	1	1	0	0	Poison 4	Yes	No	
+82	Spread Lv 4 (Center Status)		6	1	Shot	1	1	0	0	Poison 4	Yes	No	
+83	Spread Lv 4 (Middle Status)		5	1	Shot	1	1	0	0	Poison 4	Yes	No	
+84	Spread Lv 4 (Outer Status)		4	1	Shot	1	1	0	0	Poison 4	Yes	No	
+85	Spread Lv 5 (Status)		26	5	Shot	1	1	0	0	Poison 4	Yes	No	
+86	Spread Lv 5 (Center Status)		6	1	Shot	1	1	0	0	Poison 4	Yes	No	
+87	Spread Lv 5 (Outer Status)		5	1	Shot	1	1	0	0	Poison 4	Yes	No	
+88	Heavy Lv 1		11	1	Shot	1	1	0	0		Yes	No	
+89	Heavy Lv 2		14	1	Shot	1	1	0	0		Yes	No	
+90	Heavy Lv 3		17	1	Shot	1	1	0	0		Yes	No	
+91	Heavy Lv 4		19	1	Shot	1	1	0	0		Yes	No	
+92	Heavy Lv 5		20	1	Shot	1	1	0	0		Yes	No	
+93	Heavy Lv 1 (Status)		11	1	Shot	1	1	0	0	Poison 14	Yes	No	
+94	Heavy Lv 2 (Status)		14	1	Shot	1	1	0	0	Poison 15	Yes	No	
+95	Heavy Lv 3 (Status)		17	1	Shot	1	1	0	0	Poison 16	Yes	No	
+96	Heavy Lv 4 (Status)		19	1	Shot	1	1	0	0	Poison 17	Yes	No	
+97	Heavy Lv 5 (Status)		20	1	Shot	1	1	0	0	Poison 18	Yes	No	
+98	Arc Shot		6	1	Shot	1	1	0	0		Yes	No	
+99	Arc Shot: Focus		41	6	Shot	1	1	15	15		Yes	No	
+100	Arc Shot: Focus (Pellet Rain)		7	1	Shot	1	1	3	3		Yes	No	
+101	Arc Shot: Wide		41	6	Shot	1	1	15	15		Yes	No	
+102	Arc Shot: Wide (Pellet Rain)		7	1	Shot	1	1	3	3		Yes	No	
+103	Arc Shot: Blast		41	2	Shot	1	1	20	20		Yes	No	
+104	Arc Shot: Blast (Explosion)		35	1	Shot	1	1	20	20		Yes	No	
+105	Triple Volley I		127	11	Shot	1	1	0	0		Yes	No	
+106	Triple Volley I (Hits 1-6)		7	1	Shot	1	1	0	0		Yes	No	
+107	Triple Volley I (Hits 7-11)		17	1	Shot	1	1	0	0		Yes	No	
+108	Triple Volley II 		160	11	Shot	1	1	0	0		Yes	No	
+109	Triple Volley II (Hits 1-6)		10	1	Shot	1	1	0	0		Yes	No	
+110	Triple Volley II (Hits 7-11)		20	1	Shot	1	1	0	0		Yes	No	
+111	Triple Volley III		199	11	Shot	1	1	0	0		Yes	No	
+112	Triple Volley III (Hits 1-6)		14	1	Shot	1	1	0	0		Yes	No	
+113	Triple Volley III (Hits 7-11)		23	1	Shot	1	1	0	0		Yes	No	
+114	Blade Wire Charge 1		9	1	Shot	1	1	0	0		Yes	No	
+115	Blade Wire Charge 2		11	1	Shot	1	1	0	0		Yes	No	
+116	Blade Wire Charge 3		13	1	Shot	1	1	0	0		Yes	No	
+117	Blade Wire Charge 4		15	1	Shot	1	1	0	0		Yes	No	
+118	Tactical Retreat (Arrow Swing)		30	1	Shot	1	1	0	0		Yes	No	

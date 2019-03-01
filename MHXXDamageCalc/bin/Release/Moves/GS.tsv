@@ -1,0 +1,61 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Vertical Slash	X	48	1	Cut	1	1	0	0		No	No	
+1	Side Slap	B X	18	1	Impact	1	1	22	22		No	No	
+2	Side Swing	A	32	1	Cut	1	1	0	0		No	No	
+3	Back Swing	X+A	44	1	Cut	1	1	0	0		No	No	
+4	Charge Lv. 1	X	65	1	Cut	1.1	1.2	0	0		No	No	
+5	Charge Lv. 2	X	80	1	Cut	1.2	1.5	0	0		No	No	
+6	Charge Lv. 3	X	100	1	Cut	1.3	2	0	0		No	No	
+7	Overcharge	X	80	1	Cut	1.2	1.5	0	0		No	No	
+8	Strong Charge Lv. 0	A A	52	1	Cut	1	1	0	0		No	No	
+9	Strong Charge Lv. 1	A A	72	1	Cut	1.1	1.8	0	0		No	No	
+10	Strong Charge Lv. 2	A A	90	1	Cut	1.2	2.25	0	0		No	No	
+11	Strong Charge Lv. 3	A A	120	1	Cut	1.3	3	0	0		No	No	
+12	Finisher Side Slash Lv. 0	A A X	48	1	Cut	1	1	0	0		No	No	
+13	Finisher Side Slash Lv. 1	A A X	52	1	Cut	1.1	1	0	0		No	No	
+14	Finisher Side Slash Lv. 2	A A X	60	1	Cut	1.2	1	0	0		No	No	
+15	Finisher Side Slash Lv. 3	A A X	80	1	Cut	1.3	1	0	0		No	No	
+16	Aerial Slash	X	48	1	Cut	1	1	0	0		Yes	Yes	
+17	Aerial Charge 1	X	57	1	Cut	1.1	1	0	0		Yes	Yes	
+18	Aerial Charge 2	X	66	1	Cut	1.2	1	0	0		Yes	Yes	
+19	Aerial Charge 3	X	75	1	Cut	1.3	1	0	0		Yes	Yes	
+20	Aerial Side Slash	X A	60	1	Cut	1.2	1	0	0		No	No	
+21	Adept Upswing Charge 0	X	26	1	Cut	1	1	0	0		No	No	
+22	Adept Upswing Charge 1	X	39	1	Cut	1.1	1.2	0	0		No	No	
+23	Adept Upswing Charge 2	X	52	1	Cut	1.2	1.5	0	0		No	No	
+24	Adept Upswing Charge 3	X	78	1	Cut	1.3	2	0	0		No	No	
+25	Valor Draw Slash Lv. 0	X	52	1	Cut	1	1	0	0		No	No	Auto-Focus
+26	Valor Draw Slash Lv. 1	X	62	1	Cut	1.1	1.8	0	0		No	No	Auto-Focus
+27	Valor Draw Slash Lv. 2	X	85	1	Cut	1.2	2.25	0	0		No	No	Auto-Focus
+28	Valor Draw Slash Lv. 3	X	115	1	Cut	1.3	3	0	0		No	No	Auto-Focus
+29	Valor Charge Lv. 0	X	52	1	Cut	1	1	0	0		No	No	
+30	Valor Charge Lv. 1	X	72	1	Cut	1.1	1.8	0	0		No	No	
+31	Valor Charge Lv. 2	X	90	1	Cut	1.2	2.25	0	0		No	No	
+32	Valor Charge Lv. 3	X	120	1	Cut	1.3	3	0	0		No	No	
+33	Valor Charge Dash Lv. 0	X A	52	1	Cut	1	1	0	0		No	No	
+34	Valor Charge Dash Lv. 1	X A	65	1	Cut	1.1	1.8	0	0		No	No	
+35	Valor Charge Dash Lv. 2	X A	81	1	Cut	1.2	2.25	0	0		No	No	
+36	Valor Charge Dash Lv. 3	X A	112	1	Cut	1.3	3	0	0		No	No	
+37	Alchemy Side Slash 2	A A	48	1	Cut	1	1	0	0		No	No	
+38	Ground Slash I		90	3	Cut	1	1	0	0		Yes	No	
+39	Ground Slash II		113	4	Cut	1	1	0	0		Yes	No	
+40	Ground Slash III		138	5	Cut	1	1	0	0		Yes	No	
+41	Ground Slash (Hit 1)		50	1	Cut	1	1	0	0		Yes	No	
+42	Ground Slash I (Following)		20	1	Cut	1	1	0	0		Yes	No	
+43	Ground Slash II (Following)		21	1	Cut	1	1	0	0		Yes	No	
+44	Ground Slash III (Following)		22	1	Cut	1	1	0	0		Yes	No	
+45	Lion's Maw I		48	1	Cut	1	1	0	0		Yes	No	
+46	Lion's Maw II		52	1	Cut	1	1	0	0		Yes	No	
+47	Lion's Maw III		66	1	Cut	1	1	0	0		Yes	No	
+48	Brimstone Slash Charge 0		130	1	Cut	1	1	0	0		Yes	No	
+49	Brimstone Slash Charge 1		150	1	Cut	1.1	1	0	0		Yes	No	
+50	Brimstone Slash Charge 2		175	1	Cut	1.2	1	0	0		Yes	No	
+51	Brimstone Slash Charge 3		190	1	Cut	1.3	1	0	0		Yes	No	
+52	Moon Breaker I		60	1	Cut	1	1	0	0		Yes	Yes	
+53	Moon Breaker II		82	2	Cut	1	1	0	0		Yes	Yes	
+54	Moon Breaker II (Hit 1)		12	1	Cut	1	1	0	0		Yes	Yes	
+55	Moon Breaker II (Hit 2)		70	1	Cut	1	1	0	0		Yes	Yes	
+56	Moon Breaker III		102	3	Cut	1	1	0	0		Yes	Yes	
+57	Moon Breaker III (Hit 1)		10	1	Cut	1	1	0	0		Yes	Yes	
+58	Moon Breaker III (Hit 2)		12	1	Cut	1	1	0	0		Yes	Yes	
+59	Moon Breaker III (Hit 3)		80	1	Cut	1	1	0	0		Yes	No	

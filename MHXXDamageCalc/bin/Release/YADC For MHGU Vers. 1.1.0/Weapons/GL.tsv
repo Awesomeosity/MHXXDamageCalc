@@ -1,0 +1,810 @@
+ID	name	raw	element	eleValue	affinity	sharpness	sharpOne	sharpTwo
+0	Petrified Gunlance Lv. 1	60	(No Element)	0	0	Yellow	Yellow	Yellow
+1	Petrified Gunlance Lv. 2	80	(No Element)	0	0	Yellow	Yellow	Yellow
+2	Petrified Gunlance Lv. 3	90	(No Element)	0	0	Yellow	Green	Green
+3	Petrified Gunlance Lv. 4	100	(No Element)	0	0	Green	Green	Green
+4	Petrified Gunlance Lv. 5	110	(No Element)	0	0	Green	Green	Green
+5	Petrified Gunlance Lv. 6	140	(No Element)	0	0	Green	Blue	Blue
+6	Petrified Gunlance Lv. 7	170	(No Element)	0	0	Blue	Blue	White
+7	Scholarly Gunlance Lv. 8	210	(No Element)	0	0	Blue	Blue	Blue
+8	Scholarly Gunlance Lv. 9	240	(No Element)	0	0	Blue	Blue	White
+9	Scholarly Gunlance Lv. 10	290	(No Element)	0	0	White	White	White
+10	Sophos Gunlance Lv. 11	320	(No Element)	0	0	White	White	White
+11	Iron Gunlance Lv. 1	70	(No Element)	0	0	Yellow	Yellow	Green
+12	Iron Gunlance Lv. 2	80	(No Element)	0	0	Green	Green	Green
+13	Iron Gunlance Lv. 3	100	(No Element)	0	0	Green	Green	Green
+14	Iron Gunlance Lv. 4	110	(No Element)	0	0	Green	Green	Green
+15	Iron Gunlance Lv. 5	120	(No Element)	0	0	Green	Green	Green
+16	Iron Gunlance Lv. 6	150	(No Element)	0	0	Green	Green	Blue
+17	Iron Gunlance Lv. 7	180	(No Element)	0	0	Green	Blue	Blue
+18	Eizenlitter Lv. 8	230	(No Element)	0	0	Green	Blue	Blue
+19	Eizenlitter Lv. 9	260	(No Element)	0	0	Blue	Blue	White
+20	Eizenlitter Lv. 10	330	(No Element)	0	0	Blue	White	White
+21	Sol Bite Burst Lv. 11	360	(No Element)	0	0	Blue	White	White
+22	Bone Gunlance Lv. 1	80	(No Element)	0	0	Yellow	Yellow	Yellow
+23	Bone Gunlance Lv. 2	100	(No Element)	0	0	Yellow	Yellow	Yellow
+24	Bone Gunlance Lv. 3	110	(No Element)	0	0	Yellow	Green	Green
+25	Bone Gunlance Lv. 4	120	(No Element)	0	0	Green	Green	Green
+26	Bone Gunlance Lv. 5	140	(No Element)	0	0	Green	Green	Green
+27	Bone Gunlance Lv. 6	160	(No Element)	0	0	Green	Green	Blue
+28	Bone Gunlance Lv. 7	210	(No Element)	0	0	Green	Blue	Blue
+29	Wyvern Bone Gunlance Lv. 8	240	(No Element)	0	0	Green	Blue	Blue
+30	Wyvern Bone Gunlance Lv. 9	270	(No Element)	0	0	Blue	Blue	Blue
+31	Wyvern Bone Gunlance Lv. 10	330	(No Element)	0	0	Blue	Blue	Blue
+32	Traditional Gunlance Lv. 11	360	(No Element)	0	0	Blue	White	Purple
+33	Fiore Nulo Lv. 1	80	(No Element)	0	0	Green	Green	Green
+34	Fiore Nulo Lv. 2	90	(No Element)	0	0	Green	Green	Green
+35	Fiore Nulo Lv. 3	120	(No Element)	0	0	Green	Green	Green
+36	Fiore Nulo Lv. 4	130	(No Element)	0	0	Blue	Blue	Blue
+37	Fiore Nulo Lv. 5	160	(No Element)	0	0	White	White	White
+38	Fiore Unu Lv. 6	190	(No Element)	0	0	White	White	White
+39	Fiore Unu Lv. 7	230	(No Element)	0	0	White	White	White
+40	Fiore Unu Lv. 8	300	(No Element)	0	0	Purple	Purple	Purple
+41	Fiore Du Lv. 9	330	(No Element)	0	0	Purple	Purple	Purple
+42	Rogue Gunlance Lv. 1	70	(No Element)	0	0	Green	Green	Green
+43	Rogue Gunlance Lv. 2	80	(No Element)	0	0	Green	Green	Green
+44	Rogue Gunlance Lv. 3	90	(No Element)	0	0	Green	Green	Green
+45	Rogue Gunlance Lv. 4	100	(No Element)	0	0	Green	Green	Blue
+46	Rogue Gunlance Lv. 5	150	(No Element)	0	0	Green	Green	Blue
+47	Rogue Gunlance Lv. 6	170	(No Element)	0	0	Blue	Blue	Blue
+48	Cultured Rogue Lv. 7	220	(No Element)	0	0	Blue	Blue	White
+49	Cultured Rogue Lv. 8	240	(No Element)	0	0	Blue	White	White
+50	Cultured Rogue Lv. 9	300	(No Element)	0	0	White	White	White
+51	Cultured Bandit Lv. 10	340	(No Element)	0	0	White	White	Purple
+52	Genenam Lance Lv. 1	80	Para	18	0	Yellow	Yellow	Yellow
+53	Genenam Lance Lv. 2	90	Para	22	0	Green	Green	Green
+54	Genenam Lance Lv. 3	110	Para	26	0	Green	Green	Green
+55	Genenam Lance Lv. 4	130	Para	28	0	Green	Green	Green
+56	Genenam Lance Lv. 5	150	Para	32	0	Green	Blue	Blue
+57	V Crest Lv. 6	170	Para	35	0	Blue	White	White
+58	V Crest Lv. 7	190	Para	37	0	Blue	White	White
+59	V Crest Lv. 8	220	Para	39	0	Blue	White	White
+60	V Garland Lv. 9	280	Para	42	0	Blue	White	Purple
+61	Yukumo Gunlance Lv. 1	70	(No Element)	0	0	Green	Green	Green
+62	Yukumo Gunlance Lv. 2	90	(No Element)	0	0	Green	Green	Green
+63	Yukumo Gunlance Lv. 3	120	(No Element)	0	0	Green	Green	Green
+64	Yukumo Gunlance Lv. 4	140	(No Element)	0	0	Green	Blue	Blue
+65	Yukumo Burst Lv. 5	180	(No Element)	0	0	Green	Blue	Blue
+66	Yukumo Burst Lv. 6	260	(No Element)	0	0	Green	Blue	Blue
+67	Yukumo Burst Lv. 7	320	(No Element)	0	0	Green	Blue	Blue
+68	Hot Spring Burst Lv. 8	350	(No Element)	0	0	Green	Blue	White
+69	Striker's Gunlance Lv. 1	100	(No Element)	0	0	Green	Green	Green
+70	Striker's Gunlance Lv. 2	130	(No Element)	0	0	Green	Green	Green
+71	Striker's Gunlance Lv. 3	140	(No Element)	0	0	Green	Green	Green
+72	Striker's Gunlance Lv. 4	150	(No Element)	0	0	Green	Green	Blue
+73	Striker's Gunlance Lv. 5	170	(No Element)	0	0	Blue	Blue	Blue
+74	Imperial Guardlance Lv. 6	220	(No Element)	0	0	Blue	Blue	White
+75	Imperial Guardlance Lv. 7	280	(No Element)	0	0	Blue	White	Purple
+76	Praetorian Guardlance Lv. 8	350	(No Element)	0	0	Blue	White	Purple
+77	Golem Gunlance Lv. 1	100	(No Element)	0	0	Green	Green	Green
+78	Golem Gunlance Lv. 2	110	(No Element)	0	0	Green	Green	Green
+79	Golem Gunlance Lv. 3	140	(No Element)	0	0	Green	Blue	Blue
+80	Golem Gunlance Lv. 4	150	(No Element)	0	0	Blue	Blue	White
+81	Behemoth Gunlance Lv. 5	220	(No Element)	0	0	Blue	Blue	White
+82	Behemoth Gunlance Lv. 6	280	(No Element)	0	0	Blue	White	White
+83	Gargantua Gunlance Lv. 7	340	(No Element)	0	0	White	Purple	Purple
+84	Fiore Nulo (G) Lv. 1	90	Para	8	0	Yellow	Green	Green
+85	Fiore Nulo (G) Lv. 2	120	Para	10	0	Green	Green	Green
+86	Fiore Nulo (G) Lv. 3	130	Para	11	0	Blue	Blue	Blue
+87	Fiore Nulo (G) Lv. 4	150	Para	12	0	Blue	Blue	White
+88	Fiore Unu (G) Lv. 5	180	Para	14	0	Blue	White	White
+89	Fiore Unu (G) Lv. 6	210	Para	15	0	Blue	White	White
+90	Fiore Unu (G) Lv. 7	270	Para	17	0	White	White	White
+91	Fiore Du (G) Lv. 8	310	Para	20	0	Purple	Purple	Purple
+92	Fiore Nulo (R) Lv. 1	90	Fire	12	0	Green	Green	Green
+93	Fiore Nulo (R) Lv. 2	100	Fire	14	0	Green	Green	Green
+94	Fiore Nulo (R) Lv. 3	130	Fire	16	0	Blue	Blue	Blue
+95	Fiore Nulo (R) Lv. 4	150	Fire	18	0	Blue	Blue	White
+96	Fiore Unu (R) Lv. 5	170	Fire	22	0	Blue	White	White
+97	Fiore Unu (R) Lv. 6	210	Fire	24	0	Blue	White	White
+98	Fiore Unu (R) Lv. 7	250	Fire	26	0	Blue	White	White
+99	Fiore Du (R) Lv. 8	310	Fire	28	0	Blue	White	Purple
+100	Lagomberator Lv. 1	80	Ice	25	0	Green	Green	Green
+101	Lagomberator Lv. 2	100	Ice	28	0	Green	Green	Green
+102	Lagomberator Lv. 3	120	Ice	30	0	Green	Green	Green
+103	Lagomberator Lv. 4	140	Ice	32	0	Blue	Blue	Blue
+104	Lagomberator Lv. 5	170	Ice	35	0	Blue	Blue	Blue
+105	Lagomberatrix Lv. 6	210	Ice	38	0	Blue	Blue	White
+106	Lagomberatrix Lv. 7	240	Ice	39	0	Blue	White	White
+107	Lagombalanche Lv. 8	330	Ice	40	0	White	White	White
+108	Hard Hitter Lv. 1	90	Poison	18	0	Yellow	Yellow	Green
+109	Hard Hitter Lv. 2	100	Poison	22	0	Green	Green	Green
+110	Hard Hitter Lv. 3	120	Poison	30	0	Green	Green	Green
+111	Hard Hitter Lv. 4	140	Poison	35	0	Green	Green	Blue
+112	Hard Hitter Lv. 5	150	Poison	40	0	Green	Blue	Blue
+113	Big Slugger Lv. 6	180	Poison	50	0	Green	Blue	Blue
+114	Big Slugger Lv. 7	230	Poison	55	0	Green	Blue	White
+115	Big Slugger Lv. 8	240	Poison	60	0	Green	Blue	White
+116	Triple Crown Lv. 9	280	Poison	66	0	Green	Blue	White
+117	Red Devil Gunlance Lv. 1	120	(No Element)	0	-20	Yellow	Yellow	Green
+118	Red Devil Gunlance Lv. 2	130	(No Element)	0	-20	Yellow	Yellow	Green
+119	Red Devil Gunlance Lv. 3	150	(No Element)	0	-20	Green	Green	Green
+120	Red Devil Gunlance Lv. 4	170	(No Element)	0	-20	Green	Green	Green
+121	Red Devil Gunlance Lv. 5	200	(No Element)	0	-20	Green	Blue	Blue
+122	Red Devil Smasher Lv. 6	240	(No Element)	0	-20	Green	Blue	Blue
+123	Red Devil Smasher Lv. 7	270	(No Element)	0	-20	Green	Blue	White
+124	Red Devil Earthquake Lv. 8	370	(No Element)	0	-20	Green	Blue	White
+125	Scissor Gunlance Lv. 1	90	(No Element)	0	0	Green	Green	Green
+126	Scissor Gunlance Lv. 2	100	(No Element)	0	0	Green	Green	Green
+127	Scissor Gunlance Lv. 3	140	(No Element)	0	0	Green	Blue	Blue
+128	Scissor Gunlance Lv. 4	160	(No Element)	0	0	Blue	Blue	Blue
+129	Scissor Cannon Lv. 5	200	(No Element)	0	0	Blue	White	White
+130	Scissor Cannon Lv. 6	230	(No Element)	0	0	Blue	White	White
+131	Scissor Cannon Lv. 7	260	(No Element)	0	0	White	White	White
+132	Claw Cannon Lv. 8	320	(No Element)	0	0	White	Purple	Purple
+133	Shattershot Lv. 1	100	Para	14	-10	Green	Green	Green
+134	Shattershot Lv. 2	120	Para	16	-10	Green	Green	Green
+135	Shattershot Lv. 3	140	Para	18	-10	Green	Blue	Blue
+136	Shattershot Lv. 4	160	Para	20	-10	Green	Blue	Blue
+137	Shatter God Lv. 5	180	Para	22	-10	Blue	Blue	White
+138	Shatter God Lv. 6	240	Para	23	-10	Blue	White	White
+139	Shatter God Lv. 7	270	Para	24	-10	White	White	White
+140	Shattercannon Lv. 8	300	Para	25	-10	White	White	Purple
+141	Full Voltage Lv. 1	90	Thunder	12	0	Green	Green	Green
+142	Full Voltage Lv. 2	110	Thunder	13	0	Green	Green	Green
+143	Full Voltage Lv. 3	160	Thunder	14	0	Blue	Blue	Blue
+144	Full Voltage Lv. 4	180	Thunder	16	0	Blue	White	White
+145	High Volt Gunlance Lv. 5	210	Thunder	18	0	Blue	White	White
+146	High Volt Gunlance Lv. 6	270	Thunder	20	0	White	White	White
+147	Giga Volt Gunlance Lv. 7	330	Thunder	22	0	White	Purple	Purple
+148	Type 62 Stormlance Lv. 1	80	Water	20	0	Green	Green	Green
+149	Type 62 Stormlance Lv. 2	90	Water	22	0	Green	Green	Green
+150	Type 62 Stormlance Lv. 3	110	Water	24	0	Green	Blue	Blue
+151	Type 62 Stormlance Lv. 4	120	Water	26	0	Green	Blue	Blue
+152	Type 62 Stormlance Lv. 5	150	Water	28	0	Blue	Blue	Blue
+153	Assault Stormlance Lv. 6	200	Water	30	0	Blue	White	White
+154	Assault Stormlance Lv. 7	260	Water	32	0	White	White	White
+155	War Marshal Lv. 8	320	Water	34	0	White	Purple	Purple
+156	Hellsting Lv. 1	90	Ice	25	10	Green	Green	Green
+157	Hellsting Lv. 2	110	Ice	28	10	Green	Green	Green
+158	Hellsting Lv. 3	140	Ice	30	15	Green	Blue	Blue
+159	Hellsting Lv. 4	160	Ice	32	15	Blue	Blue	Blue
+160	Hellstinger Lv. 5	190	Ice	35	15	Blue	Blue	White
+161	Hellstinger Lv. 6	270	Ice	36	15	Blue	White	Purple
+162	Demonic Blizzard Lv. 7	330	Ice	38	15	Blue	Purple	Purple
+163	Hidden Gunlance Lv. 1	100	(No Element)	0	40	Green	Blue	Blue
+164	Hidden Gunlance Lv. 2	120	(No Element)	0	40	Blue	Blue	White
+165	Hidden Gunlance Lv. 3	140	(No Element)	0	40	Blue	Blue	White
+166	Hidden Gunlance Lv. 4	160	(No Element)	0	40	White	White	White
+167	Fading Night Lv. 5	180	(No Element)	0	40	White	White	White
+168	Fading Night Lv. 6	230	(No Element)	0	40	White	White	White
+169	Fading Night Lv. 7	270	(No Element)	0	40	Purple	Purple	Purple
+170	Avidya Gunlance Lv. 8	290	(No Element)	0	40	Purple	Purple	Purple
+171	Bamboo Birdsbane Lv. 1	80	(No Element)	0	0	Yellow	Green	Green
+172	Bamboo Birdsbane Lv. 2	110	(No Element)	0	0	Green	Green	Green
+173	Bamboo Birdsbane Lv. 3	130	(No Element)	0	0	Green	Green	Blue
+174	Bamboo Lionsbane Lv. 4	170	(No Element)	0	0	Green	Green	Blue
+175	Bamboo Lionsbane Lv. 5	220	(No Element)	0	0	Blue	White	White
+176	Bamboo Dragonsbane Lv. 6	290	(No Element)	0	0	Blue	White	Purple
+177	Baa Baa Gunlance Lv. 1	90	Sleep	8	0	Green	Green	Green
+178	Baa Baa Gunlance Lv. 2	100	Sleep	10	0	Green	Green	Green
+179	Baa Baa Gunlance Lv. 3	120	Sleep	11	0	Green	Green	Blue
+180	Baa Baa Gunlance Lv. 4	130	Sleep	12	0	Green	Blue	Blue
+181	Sleepyeye Gunlance Lv. 5	140	Sleep	14	0	Green	Blue	Blue
+182	Sleepyeye Gunlance Lv. 6	200	Sleep	17	0	Green	Blue	Blue
+183	Dreamlance Lv. 7	290	Sleep	20	0	Green	Blue	Blue
+184	Kamak Gunlance Lv. 1	70	Ice	35	0	Green	Green	Green
+185	Kamak Gunlance Lv. 2	100	Ice	40	0	Green	Green	Blue
+186	Kamak Gunlance Lv. 3	120	Ice	45	0	Green	Blue	Blue
+187	Snowy Kamak Lv. 4	130	Ice	50	0	Green	Blue	Blue
+188	Snowy Kamak Lv. 5	190	Ice	53	0	Blue	Blue	White
+189	Blizzard Kamak Lv. 6	270	Ice	55	0	Blue	White	White
+190	Teostra Gunlance Lv. 1	140	(No Element)	0	-30	Green	Green	Blue
+191	Teostra Gunlance Lv. 2	180	(No Element)	0	-30	Green	Blue	Blue
+192	Teostra Gunlance Lv. 3	200	(No Element)	0	-30	Green	Green	White
+193	Firelord Roar Lv. 4	220	(No Element)	0	-30	Green	White	White
+194	Firelord Roar Lv. 5	320	(No Element)	0	-30	Green	White	White
+195	Firelord Champion Lv. 6	380	(No Element)	0	-30	Green	White	White
+196	Obsidian Gunlance Lv. 1	140	(No Element)	0	0	Green	Blue	Blue
+197	Obsidian Gunlance Lv. 2	150	(No Element)	0	0	Blue	Blue	White
+198	Obsidian Gunlance Lv. 3	160	(No Element)	0	0	Blue	Blue	White
+199	Obsidian Gunlance Lv. 4	180	(No Element)	0	0	Blue	Blue	White
+200	Obsidian Gunlance Lv. 5	200	(No Element)	0	0	Blue	White	White
+201	Lustrous Oldoba Lv. 6	220	(No Element)	0	0	Blue	White	White
+202	Lustrous Oldoba Lv. 7	280	(No Element)	0	0	White	White	White
+203	Ethereal Oldoba Lv. 8	330	(No Element)	0	0	White	Purple	Purple
+204	Ancient Gyrelance Lv. 1	120	(No Element)	0	0	Green	Green	Green
+205	Ancient Gyrelance Lv. 2	150	(No Element)	0	0	Green	Blue	Blue
+206	Ancient Gyrelance Lv. 3	170	(No Element)	0	0	Blue	Blue	Blue
+207	Ancient Gyrelance Lv. 4	180	(No Element)	0	0	Blue	Blue	White
+208	Ancient Gyresmite Lv. 5	190	(No Element)	0	0	Blue	Blue	White
+209	Ancient Gyresmite Lv. 6	260	(No Element)	0	0	White	White	Purple
+210	Progenesis Lv. 7	320	(No Element)	0	0	White	Purple	Purple
+211	Spine Blaster Lv. 1	130	Fire	10	0	Yellow	Yellow	Yellow
+212	Spine Blaster Lv. 2	140	Fire	12	0	Yellow	Yellow	Green
+213	Spine Blaster Lv. 3	160	Fire	14	0	Yellow	Green	Green
+214	Spine Blaster Lv. 4	170	Fire	18	0	Green	Green	Green
+215	Vertebrae Blaster Lv. 5	220	Fire	20	0	Green	Blue	Blue
+216	Vertebrae Blaster Lv. 6	320	Fire	21	0	Green	Blue	Blue
+217	Vertebrae Blaster Lv. 7	330	Fire	22	0	Green	Blue	Blue
+218	Zenith Blaster Lv. 8	350	Fire	24	0	Green	Blue	White
+219	Princess Panoply Lv. 1	90	Poison	16	0	Green	Green	Green
+220	Princess Panoply Lv. 2	110	Poison	18	0	Green	Green	Green
+221	Princess Panoply Lv. 3	160	Poison	20	0	Green	Green	Blue
+222	Princess Panoply Lv. 4	180	Poison	22	0	Green	Blue	Blue
+223	Ortlinde Lv. 5	200	Poison	24	0	Blue	Blue	White
+224	Ortlinde Lv. 6	250	Poison	25	0	Blue	White	White
+225	Ortlinde Lv. 7	280	Poison	27	0	White	White	White
+226	Great Ortlinde Lv. 8	310	Poison	28	0	White	Purple	Purple
+227	Red Rook Lv. 1	110	Fire	25	0	Green	Green	Blue
+228	Red Rook Lv. 2	140	Fire	26	0	Green	Blue	Blue
+229	Red Rook Lv. 3	170	Fire	27	0	Green	Blue	Blue
+230	Red Rook Lv. 4	180	Fire	28	0	Blue	Blue	Blue
+231	Crimson Rook Lv. 5	210	Fire	30	0	Blue	Blue	White
+232	Crimson Rook Lv. 6	290	Fire	32	0	White	White	White
+233	Crimson Rook Lv. 7	320	Fire	34	0	White	White	White
+234	Burnt Chariot Lv. 8	340	Fire	35	0	White	Purple	Purple
+235	Lagia Burst Lv. 1	130	Thunder	15	0	Green	Green	Green
+236	Lagia Burst Lv. 2	140	Thunder	16	0	Green	Green	Green
+237	Lagia Burst Lv. 3	150	Thunder	18	0	Green	Blue	Blue
+238	Lagia Burst Lv. 4	190	Thunder	20	0	Blue	Blue	Blue
+239	Exlagia Gunlance Lv. 5	220	Thunder	21	0	Blue	White	White
+240	Exlagia Gunlance Lv. 6	290	Thunder	23	0	White	White	White
+241	Exlagia Gunlance Lv. 7	310	Thunder	24	0	White	White	Purple
+242	Electrolagia Gunlance Lv. 8	330	Thunder	25	0	White	Purple	Purple
+243	Usurper's Roar Lv. 1	120	Thunder	28	0	Green	Green	Green
+244	Usurper's Roar Lv. 2	130	Thunder	30	0	Green	Blue	Blue
+245	Usurper's Roar Lv. 3	170	Thunder	32	0	Blue	Blue	White
+246	Despot's Phlogiston Lv. 4	200	Thunder	34	0	Blue	White	White
+247	Despot's Phlogiston Lv. 5	270	Thunder	35	0	White	White	White
+248	Despot's Phlogiston Lv. 6	280	Thunder	36	0	White	White	Purple
+249	Oppressor's Skyfall Lv. 7	320	Thunder	38	0	White	Purple	Purple
+250	Ukiyo no Yamiwo Lv. 1	130	Water	15	0	Green	Green	Green
+251	Ukiyo no Yamiwo Lv. 2	140	Water	18	0	Green	Green	Green
+252	Ukiyo no Yamiwo Lv. 3	150	Water	22	10	Green	Blue	Blue
+253	Ukiyo no Yamiwo Lv. 4	170	Water	24	10	Blue	White	White
+254	Ukiyo no Yamiwo Lv. 5	190	Water	26	10	Blue	White	White
+255	Mizumori Lv. 6	200	Water	28	10	Blue	White	White
+256	Mizumori Lv. 7	270	Water	30	10	White	White	White
+257	Mizumori Lv. 8	290	Water	32	10	White	White	Purple
+258	Harae no Toboshi Lv. 9	310	Water	35	10	White	Purple	Purple
+259	Verdant Rook Lv. 1	120	Thunder	15	15	Green	Green	Green
+260	Verdant Rook Lv. 2	130	Thunder	18	15	Green	Green	Blue
+261	Verdant Rook Lv. 3	150	Thunder	22	20	Blue	Blue	White
+262	Verdant Rook Lv. 4	160	Thunder	24	20	Blue	White	White
+263	Verdant Rook Lv. 5	170	Thunder	26	20	White	White	White
+264	Dark Chariot Lv. 6	180	Thunder	28	20	White	White	White
+265	Dark Chariot Lv. 7	250	Thunder	30	20	White	White	White
+266	Dark Chariot Lv. 8	270	Thunder	32	20	Purple	Purple	Purple
+267	Zaram Chariot Lv. 9	290	Thunder	35	20	Purple	Purple	Purple
+268	Giant's Artillery Lv. 1	140	Ice	15	-20	Green	Green	Green
+269	Giant's Artillery Lv. 2	150	Ice	18	-20	Green	Green	Blue
+270	Giant's Artillery Lv. 3	170	Ice	20	-20	Green	Blue	Blue
+271	Giant's Artillery Lv. 4	190	Ice	22	-20	Blue	Blue	Blue
+272	Giant's Artillery Lv. 5	210	Ice	24	-20	Blue	Blue	Blue
+273	Giant's Clasher Lv. 6	230	Ice	26	-20	Blue	Blue	White
+274	Giant's Clasher Lv. 7	300	Ice	27	-20	White	White	White
+275	Giant's Clasher Lv. 8	320	Ice	28	-20	White	White	Purple
+276	Giant's Gigaclasher Lv. 9	340	Ice	30	-20	White	White	Purple
+277	Burning Kabeira Lv. 1	130	Fire	15	0	Green	Green	Green
+278	Burning Kabeira Lv. 2	140	Fire	18	0	Green	Green	Green
+279	Burning Kabeira Lv. 3	160	Fire	20	0	Green	Green	Blue
+280	Burning Kabeira Lv. 4	180	Fire	22	0	Blue	Blue	Blue
+281	Burning Kabeira Lv. 5	200	Fire	24	0	Blue	Blue	White
+282	Glavenus Brewer Lv. 6	210	Fire	26	0	Blue	White	White
+283	Glavenus Brewer Lv. 7	280	Fire	28	0	White	White	White
+284	Glavenus Brewer Lv. 8	300	Fire	30	0	White	White	White
+285	Glavenus Brewanova Lv. 9	320	Fire	33	0	White	Purple	Purple
+286	Tyrannenarm Lv. 1	120	Dragon	15	20	Green	Green	Green
+287	Tyrannenarm Lv. 2	130	Dragon	16	20	Green	Blue	Blue
+288	Tyrannenarm Lv. 3	150	Dragon	17	25	Blue	Blue	Blue
+289	Tyrannenarm Lv. 4	170	Dragon	18	25	Blue	Blue	White
+290	Verraterarm Lv. 5	190	Dragon	20	30	Blue	White	White
+291	Verraterarm Lv. 6	290	Dragon	22	30	Blue	White	White
+292	Hochmutsarm Lv. 7	320	Dragon	24	30	Blue	White	Purple
+293	Jaya Gunlance Lv. 1	140	(No Element)	0	10	Blue	Blue	Blue
+294	Jaya Gunlance Lv. 2	150	(No Element)	0	10	Blue	Blue	Blue
+295	Jaya Gunlance Lv. 3	160	(No Element)	0	10	Blue	White	White
+296	Jaya Gunlance Lv. 4	180	(No Element)	0	10	White	White	White
+297	Riotous Gunlance Lv. 5	190	(No Element)	0	10	White	White	White
+298	Riotous Gunlance Lv. 6	270	(No Element)	0	10	White	White	Purple
+299	Insubordinate Gunlance Lv. 7	310	(No Element)	0	10	White	Purple	Purple
+300	Tiger Blast Lv. 1	140	(No Element)	0	-20	Blue	Blue	Blue
+301	Tiger Blast Lv. 2	160	(No Element)	0	-20	Blue	Blue	Blue
+302	Tiger Blast Lv. 3	200	(No Element)	0	-20	Blue	Blue	White
+303	Tigrex Gunlance Lv. 4	220	(No Element)	0	-20	White	White	White
+304	Tigrex Gunlance Lv. 5	280	(No Element)	0	-20	White	White	White
+305	Tigrex Gunlance Lv. 6	320	(No Element)	0	-20	White	White	White
+306	GreatTigrexGunlance Lv. 7	340	(No Element)	0	-20	Purple	Purple	Purple
+307	Thunder Yell Lv. 1	120	Thunder	45	0	Green	Green	Blue
+308	Thunder Yell Lv. 2	130	Thunder	47	0	Green	Blue	Blue
+309	Thunder Yell Lv. 3	140	Thunder	50	0	Blue	Blue	Blue
+310	Thunder Yell Lv. 4	150	Thunder	52	0	Blue	White	White
+311	Lightning Roar Lv. 5	170	Thunder	55	0	Blue	White	White
+312	Lightning Roar Lv. 6	220	Thunder	57	0	White	White	White
+313	Lightning Roar Lv. 7	240	Thunder	59	0	White	White	White
+314	Thunderbolt Bellow Lv. 8	280	Thunder	62	0	White	White	Purple
+315	Dios Gunlance Lv. 1	130	Blast	18	0	Green	Green	Green
+316	Dios Gunlance Lv. 2	150	Blast	19	0	Green	Green	Blue
+317	Dios Gunlance Lv. 3	170	Blast	20	0	Green	Blue	Blue
+318	Dios Gunlance Lv. 4	200	Blast	21	0	Blue	Blue	White
+319	Brachy Gunlance Lv. 5	210	Blast	22	0	Blue	White	White
+320	Brachy Gunlance Lv. 6	300	Blast	24	0	Blue	White	White
+321	Explosive Gunlance Lv. 7	340	Blast	25	0	Blue	White	Purple
+322	L'Onde Lv. 1	120	Dragon	30	30	Blue	Blue	White
+323	L'Onde Lv. 2	130	Dragon	32	35	Blue	Blue	White
+324	L'Onde Lv. 3	140	Dragon	33	40	White	White	White
+325	L'Onde Lv. 4	150	Dragon	34	40	White	White	White
+326	Le Mur Lv. 5	160	Dragon	35	40	White	White	White
+327	Le Mur Lv. 6	240	Dragon	36	40	White	White	White
+328	Le Mur Lv. 7	260	Dragon	37	40	White	Purple	Purple
+329	La Forteresse Lv. 8	280	Dragon	38	40	White	Purple	Purple
+330	Venomous Cologne Lv. 1	130	Poison	22	0	Green	Green	Blue
+331	Venomous Cologne Lv. 2	140	Poison	24	0	Green	Blue	Blue
+332	Venomous Cologne Lv. 3	190	Poison	26	0	Blue	Blue	White
+333	Venomous Attar Lv. 4	210	Poison	28	0	Blue	White	White
+334	Venomous Attar Lv. 5	310	Poison	29	0	White	White	White
+335	Venomous Perfume Lv. 6	330	Poison	30	0	White	Purple	Purple
+336	Chasm Gunlance Lv. 1	160	Dragon	12	-25	Yellow	Yellow	Yellow
+337	Chasm Gunlance Lv. 2	180	Dragon	14	-25	Yellow	Green	Green
+338	Chasm Gunlance Lv. 3	230	Dragon	16	-25	Green	Green	Green
+339	Chasm Gunlance Lv. 4	250	Dragon	18	-25	Green	Green	Green
+340	Abyss Gunlance Lv. 5	260	Dragon	20	-25	Green	Blue	Blue
+341	Abyss Gunlance Lv. 6	330	Dragon	22	-25	Green	Blue	White
+342	Rukbat Gunlance Lv. 7	380	Dragon	24	-25	Green	White	White
+343	Cornpopper Lv. 1	100	(No Element)	0	0	Green	Green	Green
+344	Cornpopper Lv. 2	120	(No Element)	0	0	Blue	Blue	Blue
+345	Cornpopper Lv. 3	140	(No Element)	0	0	Blue	Blue	Blue
+346	Mighty Cornpopper Lv. 4	150	(No Element)	0	0	Blue	White	White
+347	Mighty Cornpopper Lv. 5	230	(No Element)	0	0	White	White	White
+348	Crunchy Cornpopper Lv. 6	280	(No Element)	0	0	White	White	White
+349	Wycademy Gunlance Lv. 1	110	Blast	10	0	Green	Green	Green
+350	Wycademy Gunlance Lv. 2	120	Blast	11	0	Green	Green	Blue
+351	Wycademy Gunlance Lv. 3	150	Blast	13	0	Green	Green	Blue
+352	Academic Gunlance Lv. 4	170	Blast	15	0	Green	Blue	White
+353	Academic Gunlance Lv. 5	240	Blast	18	0	Green	Blue	White
+354	Freiheit Gunlance Lv. 6	310	Blast	20	0	Green	Blue	White
+355	Yukumo Puregunlance Lv. 1	130	(No Element)	0	0	Green	Green	Green
+356	Yukumo Puregunlance Lv. 2	150	(No Element)	0	0	Green	Green	Blue
+357	Yukumo Puregunlance Lv. 3	170	(No Element)	0	0	Blue	Blue	White
+358	Mystic Gunlance Lv. 4	220	(No Element)	0	0	Blue	Blue	White
+359	Mystic Gunlance Lv. 5	290	(No Element)	0	0	White	White	White
+360	Ageless Gunlance Lv. 6	340	(No Element)	0	0	White	White	Purple
+361	Black Smoke Gunlance Lv. 1	100	Dragon	29	0	Green	Green	Green
+362	Black Smoke Gunlance Lv. 2	120	Dragon	30	0	Green	Green	Green
+363	Black Smoke Gunlance Lv. 3	130	Dragon	32	0	Green	Green	Blue
+364	Black Smoke Gunlance Lv. 4	170	Dragon	34	0	Green	Blue	White
+365	Chrono Burst Lv. 5	200	Dragon	35	0	Green	Blue	White
+366	Chrono Burst Lv. 6	310	Dragon	36	-20	Blue	Blue	Purple
+367	Fatalis Gunlance Lv. 7	330	Dragon	38	-20	Blue	Purple	Purple
+368	General's Arbalance Lv. 1	140	(No Element)	0	10	Blue	Blue	Blue
+369	General's Arbalance Lv. 2	150	(No Element)	0	10	Blue	Blue	White
+370	General's Arbalance Lv. 3	160	(No Element)	0	10	Blue	Blue	White
+371	Admiral's Arbalance Lv. 4	200	(No Element)	0	10	Blue	White	White
+372	Admiral's Arbalance Lv. 5	230	(No Element)	0	10	Blue	White	White
+373	Admiral's Arbalance Lv. 6	260	(No Element)	0	15	White	Purple	Purple
+374	Imperial Swornlance Lv. 7	320	(No Element)	0	15	White	Purple	Purple
+375	Arya Gadda Lv. 1	150	Water	12	0	Green	Green	Blue
+376	Arya Gadda Lv. 2	170	Water	13	0	Blue	Blue	White
+377	Arya Gadda Lv. 3	190	Water	14	0	Blue	Blue	White
+378	Chali Riyati Lv. 4	210	Water	15	0	Blue	White	White
+379	Chali Riyati Lv. 5	240	Water	17	0	Blue	White	White
+380	Chali Riyati Lv. 6	270	Water	18	0	White	White	Purple
+381	Dal Chali Riyati Lv. 7	330	Water	20	0	White	Purple	Purple
+382	Monsieur Gore Lv. 1	140	Water	14	0	Green	Green	Blue
+383	Monsieur Gore Lv. 2	160	Water	16	0	Green	Green	Blue
+384	Monsieur Gore Lv. 3	170	Water	18	0	Blue	Blue	White
+385	Genteel Gore Lv. 4	190	Water	20	0	Blue	White	White
+386	Genteel Gore Lv. 5	230	Water	22	0	White	White	Purple
+387	Seigneur Gore Lv. 6	300	Water	24	0	White	Purple	Purple
+388	Seadiver Lv. 1	140	Water	40	0	Blue	Blue	Blue
+389	Seadiver Lv. 2	150	Water	42	0	Blue	Blue	Blue
+390	Seadiver Lv. 3	160	Water	44	0	Blue	Blue	White
+391	Abyssdiver Lv. 4	180	Water	48	0	Blue	Blue	White
+392	Abyssdiver Lv. 5	240	Water	50	0	White	White	White
+393	Trenchdiver Lv. 6	300	Water	53	0	White	White	Purple
+394	Worn Gunlance Lv. 1	110	(No Element)	0	-70	Orange	Orange	Yellow
+395	Worn Gunlance Lv. 2	110	(No Element)	0	-70	Orange	Orange	Yellow
+396	Worn Gunlance Lv. 3	110	(No Element)	0	-70	Yellow	Yellow	Green
+397	Worn Gunlance Lv. 4	110	(No Element)	0	-70	Yellow	Green	Green
+398	Weathered Gunlance Lv. 5	270	(No Element)	0	-70	Yellow	Blue	Blue
+399	Weathered Gunlance Lv. 6	280	(No Element)	0	-70	Yellow	Green	Blue
+400	Aged Gunlance Lv. 7	380	(No Element)	0	-70	Yellow	Blue	White
+401	Snow Gunlance Lv. 1	140	Ice	13	0	Green	Green	Green
+402	Snow Gunlance Lv. 2	160	Ice	14	0	Green	Green	Blue
+403	Snow Gunlance Mk. II Lv. 3	220	Ice	15	0	Green	Blue	Blue
+404	Snow Gunlance Mk. II Lv. 4	250	Ice	17	0	Green	Blue	Blue
+405	Snow Gunlance Mk. II Lv. 5	310	Ice	19	0	Green	Blue	Blue
+406	Blizzard Gunlance Lv. 6	340	Ice	22	0	Green	Blue	White
+407	Barroth Loader Lv. 1	170	(No Element)	0	-15	Green	Green	Blue
+408	Barroth Loader Lv. 2	210	(No Element)	0	-15	Green	Green	Blue
+409	Rugged Loader Lv. 3	240	(No Element)	0	-15	Green	Blue	Blue
+410	Rugged Loader Lv. 4	290	(No Element)	0	-10	Green	Blue	White
+411	Barroth Reloader Lv. 5	350	(No Element)	0	-10	Green	Blue	White
+412	Sleeper Blaster Lv. 1	140	Sleep	28	0	Blue	Blue	Blue
+413	Sleeper Duke Lv. 2	180	Sleep	30	0	Blue	Blue	White
+414	Sleeper Duke Lv. 3	210	Sleep	34	0	White	White	White
+415	Sleeper Duke Lv. 4	250	Sleep	38	0	White	White	White
+416	Sleeper Archduke Lv. 5	280	Sleep	42	0	White	Purple	Purple
+417	Shell Gunbird Lv. 1	130	Sleep	15	10	White	White	White
+418	Shell Gunbird Lv. 2	140	Sleep	18	15	White	White	White
+419	Solid Gunbird Lv. 3	160	Sleep	20	20	White	White	White
+420	Solid Gunbird Lv. 4	220	Sleep	22	20	White	White	White
+421	Solid Gunbird Lv. 5	260	Sleep	23	20	White	White	Purple
+422	Shadow Nercusp Lv. 6	280	Sleep	24	20	White	Purple	Purple
+423	Lagomberastrophe Lv. 1	160	Ice	40	0	Blue	White	White
+424	Lagomberastrophe Lv. 2	170	Ice	41	0	Blue	White	White
+425	Lagombergeddon Lv. 3	180	Ice	42	0	Blue	White	White
+426	Lagombergeddon Lv. 4	270	Ice	44	0	White	White	White
+427	Lagombavalanga Lv. 5	300	Ice	46	0	White	White	Purple
+428	Blue Devil Uberlance Lv. 1	180	(No Element)	0	-10	Blue	Blue	White
+429	Blue Devil Uberlance Lv. 2	200	(No Element)	0	-10	Blue	White	White
+430	Blue Devil Opus Lv. 3	220	(No Element)	0	-10	Blue	White	White
+431	Blue Devil Opus Lv. 4	270	(No Element)	0	-10	Blue	White	White
+432	Blue Devil Opus Lv. 5	300	(No Element)	0	-10	Blue	White	White
+433	Blue Devil Draco Lv. 6	330	(No Element)	0	-10	Blue	White	White
+434	Deepbuster Lv. 1	190	Ice	16	0	Blue	Blue	White
+435	Deepbuster Lv. 2	210	Ice	18	0	Blue	White	White
+436	Deep Gunbuster Lv. 3	220	Ice	20	0	Blue	White	White
+437	Deep Gunbuster Lv. 4	310	Ice	22	0	White	White	White
+438	Megalo Mincer Lv. 5	340	Ice	24	0	White	Purple	Purple
+439	Marine Fisher Lv. 1	160	Water	32	0	Blue	Blue	Blue
+440	Marine Fisher Lv. 2	180	Water	34	0	Blue	Blue	White
+441	Abyssal Fisher Lv. 3	200	Water	36	0	Blue	Blue	White
+442	Abyssal Fisher Lv. 4	260	Water	37	0	Blue	White	White
+443	Abyssal Fisher Lv. 5	290	Water	38	0	White	White	White
+444	Oceanic Trencher Lv. 6	320	Water	40	0	White	White	Purple
+445	Gerd Sting Lv. 1	200	Ice	8	-10	Blue	Blue	White
+446	Gerd Sting Lv. 2	210	Ice	10	-10	Blue	White	White
+447	Ice Jailer Lv. 3	230	Ice	12	-10	Blue	White	White
+448	Ice Jailer Lv. 4	320	Ice	13	-10	White	White	White
+449	Ice Warden Lv. 5	350	Ice	14	-10	White	Purple	Purple
+450	Volcano Gunlance Lv. 1	160	Fire	15	0	Blue	Blue	Blue
+451	Volcano Gunlance Lv. 2	170	Fire	18	0	Blue	Blue	Blue
+452	Lavasioth Gunlance Lv. 3	220	Fire	20	0	Blue	Blue	White
+453	Lavasioth Gunlance Lv. 4	260	Fire	22	0	White	White	White
+454	Lava Blaster Lv. 5	320	Fire	24	0	White	White	Purple
+455	Felyoshka Lv. 1	110	Para	24	0	Green	Green	White
+456	Felyoshka Lv. 2	120	Para	26	0	Blue	Blue	White
+457	Felicitous Felyoshka Lv. 3	130	Para	28	0	Blue	White	White
+458	Felicitous Felyoshka Lv. 4	180	Para	32	0	White	White	White
+459	Fortuitous Felyoshka Lv. 5	260	Para	35	0	White	Purple	Purple
+460	White Gunlance Lv. 1	200	(No Element)	0	-10	Green	Green	Blue
+461	White Cannon Lv. 2	230	(No Element)	0	-5	Green	Blue	Blue
+462	White Cannon Lv. 3	300	(No Element)	0	-5	Blue	White	White
+463	White Cannon Lv. 4	320	(No Element)	0	-5	White	White	White
+464	Gravios Cannon Lv. 5	340	(No Element)	0	-5	White	White	White
+465	Madame Butcher Lv. 1	160	Water	23	0	Blue	Blue	White
+466	Madame Butcher Lv. 2	170	Water	25	0	Blue	Blue	White
+467	Seltas Fortitude Lv. 3	180	Water	27	0	Blue	White	White
+468	Seltas Fortitude Lv. 4	250	Water	30	0	White	White	White
+469	Seltas Fortitude Lv. 5	270	Water	34	0	White	White	Purple
+470	Seltas Butchery Lv. 6	290	Water	38	0	White	White	Purple
+471	Flamethrower Lv. 1	160	Fire	34	15	Blue	Blue	Blue
+472	Flamethrower Lv. 2	170	Fire	36	15	Blue	Blue	White
+473	Agna Magma Lv. 3	190	Fire	38	15	Blue	White	White
+474	Agna Magma Lv. 4	310	Fire	39	20	Blue	White	White
+475	Agna Lavaflow Lv. 5	330	Fire	40	25	Blue	White	White
+476	Seditious Gunlance Lv. 1	160	(No Element)	0	15	White	White	White
+477	Seditious Gunlance Lv. 2	170	(No Element)	0	15	White	White	White
+478	Tamarod Sedition Lv. 3	180	(No Element)	0	15	White	White	White
+479	Tamarod Sedition Lv. 4	240	(No Element)	0	15	White	White	White
+480	Tamarod Sedition Lv. 5	260	(No Element)	0	15	Purple	Purple	Purple
+481	Sedition Buster Lv. 6	280	(No Element)	0	15	Purple	Purple	Purple
+482	Demolition Gunlance Lv. 1	170	Blast	28	0	Blue	Blue	Blue
+483	Demolition Gunlance Lv. 2	180	Blast	30	0	Blue	Blue	White
+484	Zvolta Demolisher Lv. 3	190	Blast	32	0	Blue	Blue	White
+485	Zvolta Demolisher Lv. 4	270	Blast	33	0	White	White	White
+486	Zvolta Demolisher Lv. 5	290	Blast	34	0	White	White	Purple
+487	Zvolta Annihilator Lv. 6	320	Blast	35	0	White	Purple	Purple
+488	Demon Gunlance Lv. 1	180	Thunder	22	-10	Green	Green	Green
+489	Demon Gunlance Lv. 2	190	Thunder	28	-10	Green	Green	Blue
+490	Demon Gunlance Lv. 3	200	Thunder	32	-10	Green	Blue	Blue
+491	Great Demon Gunlance Lv. 4	210	Thunder	36	-10	Blue	White	White
+492	Great Demon Gunlance Lv. 5	310	Thunder	38	-15	White	White	White
+493	Dragon Gunlance Lv. 6	340	Thunder	40	-15	White	Purple	Purple
+494	Ravenous Gunlance Lv. 1	180	Dragon	12	0	Blue	Blue	Blue
+495	Ravenous Gunlance Lv. 2	190	Dragon	14	0	Blue	White	White
+496	Insatiable Gunlance Lv. 3	200	Dragon	20	0	Blue	White	White
+497	Insatiable Gunlance Lv. 4	320	Dragon	22	0	White	White	Purple
+498	Nero's Greed Lv. 5	340	Dragon	24	0	White	Purple	Purple
+499	Hero Gunlance Lv. 1	140	(No Element)	0	40	Blue	White	White
+500	Hero Gunlance Lv. 2	160	(No Element)	0	40	Blue	White	White
+501	Master Gunlance Lv. 3	180	(No Element)	0	40	White	White	White
+502	Master Gunlance Lv. 4	220	(No Element)	0	40	White	White	White
+503	Master Gunlance Lv. 5	260	(No Element)	0	40	White	White	Purple
+504	Legend Gunlance Lv. 6	290	(No Element)	0	50	Purple	Purple	Purple
+505	Obelisk Lv. 1	130	Dragon	50	0	Blue	White	White
+506	Obelisk Lv. 2	140	Dragon	55	0	Blue	White	White
+507	Deus Obelisk Lv. 3	150	Dragon	60	0	Blue	White	White
+508	Deus Obelisk Lv. 4	220	Dragon	68	0	White	White	White
+509	Atum-Ra Obelisk Lv. 5	280	Dragon	76	0	White	White	White
+510	Diablos Gunlance Lv. 1	210	(No Element)	0	-10	Blue	Blue	White
+511	Diablos Cannon Lv. 2	220	(No Element)	0	-10	Blue	White	White
+512	Diablos Cannon Lv. 3	300	(No Element)	0	-10	White	White	White
+513	Diablos Cannon Lv. 4	320	(No Element)	0	-10	White	White	White
+514	Diablos Horncannon Lv. 5	340	(No Element)	0	-10	White	Purple	Purple
+515	Research Gunlance Lv. 1	170	Fire	12	15	Blue	Blue	White
+516	Discovery Gunlance Lv. 2	190	Fire	14	15	White	White	White
+517	Discovery Gunlance Lv. 3	220	Fire	15	20	White	White	Purple
+518	Discovery Gunlance Lv. 4	270	Fire	18	20	Purple	Purple	Purple
+519	Authority Gunsen Lv. 5	290	Fire	20	25	Purple	Purple	Purple
+520	Platinum Trophy Lv. 1	140	(No Element)	0	20	White	White	White
+521	Platinum Trophy Lv. 2	150	(No Element)	0	25	White	White	White
+522	Platinum Crown Lv. 3	160	(No Element)	0	30	White	White	White
+523	Platinum Crown Lv. 4	250	(No Element)	0	30	White	White	White
+524	Platinum Crown X Lv. 5	280	(No Element)	0	35	White	White	White
+525	Volt Works Lv. 1	150	Thunder	25	0	Blue	White	White
+526	Volt Works Lv. 2	160	Thunder	26	0	Blue	White	White
+527	Voltaic Works Lv. 3	170	Thunder	28	0	Blue	White	White
+528	Voltaic Works Lv. 4	260	Thunder	30	0	White	White	White
+529	Dengeki Gunlance Lv. 5	280	Thunder	32	0	White	White	White
+530	Pirate Gunlance J Lv. 1	170	(No Element)	0	0	Blue	White	White
+531	Pirate Gunlance J Lv. 2	180	(No Element)	0	0	Blue	White	White
+532	Buccaneer Gunlance J Lv. 3	200	(No Element)	0	0	White	White	White
+533	Buccaneer Gunlance J Lv. 4	290	(No Element)	0	0	White	White	White
+534	Pirate King Gunlance J Lv. 5	310	(No Element)	0	0	White	White	White
+535	Icesteel Gunlance Lv. 1	150	Ice	40	0	White	White	White
+536	Icesteel Gunlance Lv. 2	160	Ice	42	0	White	White	White
+537	Daora's Brigia Lv. 3	170	Ice	44	0	White	White	White
+538	Daora's Brigia Lv. 4	270	Ice	48	0	White	White	White
+539	Daora's Tempest Lv. 5	290	Ice	52	0	White	Purple	Purple
+540	Silver Rook Lv. 1	180	Dragon	35	0	Blue	Blue	Blue
+541	Silver Rook Lv. 2	190	Dragon	38	0	Blue	Blue	Blue
+542	Chariot Gun Lv. 3	200	Dragon	40	0	Blue	Blue	White
+543	Chariot Gun Lv. 4	290	Dragon	41	0	White	White	White
+544	World's Demise Lv. 5	320	Dragon	42	0	White	Purple	Purple
+545	Queen's Panoply Lv. 1	170	Poison	28	0	Blue	Blue	White
+546	Queen's Panoply Lv. 2	180	Poison	30	0	Blue	White	White
+547	Shining Ishtar Lv. 3	190	Poison	32	0	Blue	White	White
+548	Shining Ishtar Lv. 4	280	Poison	36	0	White	White	White
+549	Shining Anaitis Lv. 5	300	Poison	39	0	White	Purple	Purple
+550	Demonlord Artillery Lv. 1	170	Thunder	26	-10	Blue	Blue	Blue
+551	Demonlord Artillery Lv. 2	180	Thunder	28	-10	Blue	Blue	White
+552	Demonlord Gunlance Lv. 3	190	Thunder	30	-10	Blue	White	White
+553	Demonlord Gunlance Lv. 4	270	Thunder	32	-5	White	White	White
+554	Demonlord Bombardier Lv. 5	310	Thunder	34	-5	White	Purple	Purple
+555	Consummate Gunlance Lv. 1	160	Dragon	40	5	Blue	Blue	White
+556	Consummate Gunlance Lv. 2	170	Dragon	42	5	Blue	White	White
+557	Doomlance 'Greed' Lv. 3	180	Dragon	45	5	Blue	White	White
+558	Doomlance 'Greed' Lv. 4	310	Dragon	48	5	Blue	White	White
+559	Guiltlance 'Avarice' Lv. 5	330	Dragon	52	5	Blue	White	Purple
+560	Akantor Gunlance Lv. 1	250	(No Element)	0	30	Green	Green	Green
+561	Akantor Gunlance Lv. 2	250	(No Element)	0	35	Green	Green	Green
+562	Akantor Cannonlance Lv. 3	250	(No Element)	0	35	Green	Green	Green
+563	Akantor Cannonlance Lv. 4	340	(No Element)	0	35	Green	Green	Green
+564	Akantor Soullance Lv. 5	370	(No Element)	0	35	Green	Blue	Blue
+565	Ukanlos Gunlance Lv. 1	250	Ice	14	-25	Green	Green	Green
+566	Ukanlos Gunlance Lv. 2	250	Ice	16	-25	Green	Green	Blue
+567	Ukanlos Cannonlance Lv. 3	250	Ice	18	-20	Green	Green	Blue
+568	Ukanlos Cannonlance Lv. 4	330	Ice	19	-20	Blue	Blue	Blue
+569	Ukanlos Apocalance Lv. 5	360	Ice	20	-20	Blue	Blue	White
+570	Ominous Monsoon Lv. 1	200	Water	12	-20	Blue	Blue	Blue
+571	Ominous Monsoon Lv. 2	220	Water	14	-20	Blue	Blue	Blue
+572	Heavenly Dusk Lv. 3	240	Water	16	-20	Blue	Blue	White
+573	Heavenly Dusk Lv. 4	320	Water	18	-20	White	White	White
+574	Celestial Gunlance Lv. 5	350	Water	20	-20	White	White	White
+575	Astral Centaurus Lv. 1	170	Dragon	8	0	Blue	Blue	Blue
+576	Astral Centaurus Lv. 2	180	Dragon	10	0	Blue	Blue	White
+577	Anguished Centaurus Lv. 3	190	Dragon	13	0	White	White	White
+578	Anguished Centaurus Lv. 4	280	Dragon	14	0	White	White	White
+579	Star-Crossed Centaurus Lv. 5	310	Dragon	15	0	Purple	Purple	Purple
+580	Silverwing Gunlance Lv. 1	160	Dragon	35	0	White	White	White
+581	Dragonstar Benet Lv. 2	180	Dragon	36	0	White	White	White
+582	Dragonstar Benet Lv. 3	240	Dragon	37	0	White	White	White
+583	Dragonstar Benet Lv. 4	270	Dragon	38	0	White	White	White
+584	Dragonstar Benet Lv. 5	280	Dragon	39	0	White	White	White
+585	Magnastar Caist Lv. 6	300	Dragon	40	0	White	White	White
+586	Elder Gunlance Lv. 1	260	(No Element)	0	0	White	White	White
+587	Sage Gunlance Lv. 2	280	(No Element)	0	0	White	White	White
+588	Philosopher Gunlance Lv. 3	320	(No Element)	0	0	White	White	White
+589	Roscasludge Lv. 1	320	(No Element)	0	-25	Blue	White	White
+590	Roscascarp Lv. 2	340	(No Element)	0	-25	Blue	White	White
+591	Roscazatan Lv. 3	360	(No Element)	0	-25	Blue	White	White
+592	Noble Gunbird Lv. 1	250	Poison	30	30	Purple	Purple	Purple
+593	Highborn Gunbird Lv. 2	270	Poison	32	35	Purple	Purple	Purple
+594	Royal Gunbird Lv. 3	290	Poison	34	40	Purple	Purple	Purple
+595	Agna Vulcan Lv. 1	280	Fire	43	15	White	White	White
+596	Causta Agnavulcan Lv. 2	300	Fire	44	15	White	White	White
+597	Causta Agnakhnua Lv. 3	310	Fire	45	15	White	Purple	Purple
+598	Barbecue Gunlance Lv. 1	270	Fire	15	-10	White	White	Purple
+599	Sirloin Gunlance Lv. 2	290	Fire	18	-10	White	White	Purple
+600	Tenderloin Gunlance Lv. 3	310	Fire	25	-10	White	White	Purple
+601	Ruhe/Tyrannie Lv. 1	300	Dragon	12	-40/15	White	White	White
+602	Demut/Orgueil Lv. 2	310	Dragon	13	-40/15	White	White	Purple
+603	Mauer/Guerre Lv. 3	320	Dragon	14	-40/15	White	White	Purple
+604	Eine Wahrheit Lv. 1	280	Fire	42	0	White	White	White
+605	Letzte Wahrheit Lv. 2	300	Fire	43	0	White	White	Purple
+606	Endgultige Wahrheit Lv. 3	320	Fire	44	0	White	White	Purple
+607	Lightbreak Gunlance Lv. 1	250	Blast	44	0	White	White	White
+608	Lightbreak Volta Lv. 2	270	Blast	45	0	White	White	Purple
+609	Lightbreak Vowbreaker Lv. 3	290	Blast	46	0	White	Purple	Purple
+610	Gold Gunlance Lv. 1	310	(No Element)	0	0	Purple	Purple	Purple
+611	Inscribed Setekh Lv. 2	320	(No Element)	0	0	Purple	Purple	Purple
+612	Was-Ankh Lv. 3	330	(No Element)	0	0	Purple	Purple	Purple
+613	Ruiner Gunlance Lv. 1	240	Blast	47	20	Blue	White	White
+614	True Ruiner Gunlance Lv. 2	250	Blast	48	25	White	White	White
+615	Faithful Ruiner Gunlance Lv. 3	270	Blast	50	30	White	Purple	Purple
+616	O. Fatalis Gunlance Lv. 1	260	Dragon	60	0	Blue	White	White
+617	True O. Fatalis Gunlance Lv. 2	270	Dragon	62	0	White	White	White
+618	Epic O. Fatalis Gunlance Lv. 3	280	Dragon	64	0	White	Purple	Purple
+619	Blackhare Gunlance Lv. 1	100	Ice	10	5	Green	Green	Green
+620	Blackhare Gunlance Lv. 2	110	Ice	11	5	Green	Green	Green
+621	Blackhare Gunlance Lv. 3	130	Ice	12	5	Green	Green	Green
+622	Blackhare Gunlance Lv. 4	140	Ice	13	10	Green	Green	Blue
+623	Blackhare Gunlance Lv. 5	150	Ice	14	10	Green	Blue	Blue
+624	Blackhare Gunlance Lv. 6	160	Ice	15	10	Blue	Blue	White
+625	Blackhare Gunlance Lv. 7	170	Ice	16	10	Blue	White	White
+626	Blackhare Gunlance Lv. 8	180	Ice	17	10	Blue	White	White
+627	Blackhare Gunlance Lv. 9	190	Ice	18	10	Blue	White	White
+628	Snowbaron Gunlance Lv. 10	200	Ice	20	10	Blue	White	White
+629	Snowbaron Gunlance Lv. 11	220	Ice	22	15	Blue	White	White
+630	Snowbaron Gunlance Lv. 12	240	Ice	24	15	Blue	White	White
+631	Snowbaron Gunlance Lv. 13	270	Ice	26	15	White	White	White
+632	Snowbaron Gunlance Lv. 14	290	Ice	28	15	White	White	White
+633	Blackhare Cannon Lv. 15	310	Ice	30	15	White	Purple	Purple
+634	Pincher Cannon Lv. 1	100	Water	8	5	Green	Green	Green
+635	Pincher Cannon Lv. 2	110	Water	9	5	Green	Green	Blue
+636	Pincher Cannon Lv. 3	120	Water	10	5	Green	Green	Blue
+637	Pincher Cannon Lv. 4	130	Water	11	10	Green	Blue	Blue
+638	Pincher Cannon Lv. 5	140	Water	12	10	Green	Blue	Blue
+639	Pincher Cannon Lv. 6	150	Water	13	10	Blue	Blue	Blue
+640	Pincher Cannon Lv. 7	160	Water	14	10	Blue	Blue	White
+641	Pincher Cannon Lv. 8	170	Water	15	10	Blue	Blue	White
+642	Pincher Cannon Lv. 9	180	Water	17	10	Blue	White	White
+643	Stonefist Cannon Lv. 10	190	Water	18	10	Blue	White	White
+644	Stonefist Cannon Lv. 11	210	Water	19	10	Blue	White	White
+645	Stonefist Cannon Lv. 12	230	Water	20	10	Blue	White	White
+646	Stonefist Cannon Lv. 13	300	Water	21	10	Blue	White	White
+647	Stonefist Cannon Lv. 14	320	Water	22	10	Blue	White	Purple
+648	Stonefist Gigacannon Lv. 15	340	Water	23	10	Blue	White	Purple
+649	Royal Burst Lv. 1	80	Poison	25	5	Green	Green	Green
+650	Royal Burst Lv. 2	100	Poison	26	5	Green	Green	Blue
+651	Royal Burst Lv. 3	110	Poison	28	5	Green	Blue	Blue
+652	Royal Burst Lv. 4	120	Poison	30	10	Blue	Blue	Blue
+653	Royal Burst Lv. 5	130	Poison	32	10	Blue	Blue	Blue
+654	Royal Burst Lv. 6	140	Poison	33	10	Blue	Blue	White
+655	Royal Burst Lv. 7	150	Poison	34	10	Blue	Blue	White
+656	Royal Burst Lv. 8	160	Poison	35	10	Blue	White	White
+657	Royal Burst Lv. 9	180	Poison	36	10	Blue	White	White
+658	Dreadqueen Burst Lv. 10	190	Poison	38	10	Blue	White	White
+659	Dreadqueen Burst Lv. 11	230	Poison	39	10	Blue	White	White
+660	Dreadqueen Burst Lv. 12	250	Poison	40	10	White	White	White
+661	Dreadqueen Burst Lv. 13	270	Poison	42	10	White	White	White
+662	Dreadqueen Burst Lv. 14	280	Poison	43	10	Purple	Purple	Purple
+663	Rathian Burst Lv. 15	300	Poison	44	10	Purple	Purple	Purple
+664	Pierce Cannon Lv. 1	130	(No Element)	0	5	Green	Green	Blue
+665	Pierce Cannon Lv. 2	140	(No Element)	0	5	Green	Blue	Blue
+666	Pierce Cannon Lv. 3	150	(No Element)	0	5	Green	Blue	Blue
+667	Pierce Cannon Lv. 4	160	(No Element)	0	5	Green	Blue	Blue
+668	Pierce Cannon Lv. 5	170	(No Element)	0	5	Blue	Blue	Blue
+669	Pierce Cannon Lv. 6	180	(No Element)	0	5	Blue	Blue	White
+670	Pierce Cannon Lv. 7	190	(No Element)	0	5	Blue	Blue	White
+671	Pierce Cannon Lv. 8	200	(No Element)	0	5	Blue	Blue	White
+672	Pierce Cannon Lv. 9	210	(No Element)	0	5	Blue	Blue	White
+673	Drilltusk Cannon Lv. 10	220	(No Element)	0	5	Blue	White	White
+674	Drilltusk Cannon Lv. 11	240	(No Element)	0	5	Blue	White	White
+675	Drilltusk Cannon Lv. 12	250	(No Element)	0	5	White	White	White
+676	Drilltusk Cannon Lv. 13	290	(No Element)	0	5	White	White	White
+677	Drilltusk Cannon Lv. 14	310	(No Element)	0	5	White	White	Purple
+678	Tetsucabra Cannon Lv. 15	340	(No Element)	0	5	White	Purple	Purple
+679	Nightfall Burst Lv. 1	140	(No Element)	0	10	White	White	White
+680	Nightfall Burst Lv. 2	140	(No Element)	0	10	White	White	White
+681	Nightfall Burst Lv. 3	150	(No Element)	0	10	White	White	White
+682	Nightfall Burst Lv. 4	160	(No Element)	0	10	White	White	White
+683	Nightfall Burst Lv. 5	160	(No Element)	0	10	White	White	White
+684	Nightfall Burst Lv. 6	170	(No Element)	0	10	White	White	White
+685	Nightfall Burst Lv. 7	180	(No Element)	0	10	White	White	White
+686	Nightfall Burst Lv. 8	180	(No Element)	0	10	White	White	White
+687	Nightfall Burst Lv. 9	190	(No Element)	0	10	White	White	White
+688	Silverwind Burst Lv. 10	190	(No Element)	0	15	White	White	White
+689	Silverwind Burst Lv. 11	220	(No Element)	0	15	Purple	Purple	Purple
+690	Silverwind Burst Lv. 12	240	(No Element)	0	15	Purple	Purple	Purple
+691	Silverwind Burst Lv. 13	260	(No Element)	0	20	Purple	Purple	Purple
+692	Silverwind Burst Lv. 14	280	(No Element)	0	20	Purple	Purple	Purple
+693	Daybreak Burst Lv. 15	300	(No Element)	0	20	Purple	Purple	Purple
+694	Geode Burst Lv. 1	150	(No Element)	0	5	Green	Green	Blue
+695	Geode Burst Lv. 2	150	(No Element)	0	5	Green	Green	Blue
+696	Geode Burst Lv. 3	160	(No Element)	0	5	Green	Green	Blue
+697	Geode Burst Lv. 4	170	(No Element)	0	5	Green	Green	Blue
+698	Geode Burst Lv. 5	180	(No Element)	0	5	Green	Green	Blue
+699	Geode Burst Lv. 6	180	(No Element)	0	5	Green	Blue	Blue
+700	Geode Burst Lv. 7	190	(No Element)	0	5	Green	Blue	Blue
+701	Geode Burst Lv. 8	200	(No Element)	0	5	Green	Blue	Blue
+702	Geode Burst Lv. 9	210	(No Element)	0	5	Green	Blue	Blue
+703	Crystalbeard Burst Lv. 10	220	(No Element)	0	5	Green	Blue	Blue
+704	Crystalbeard Burst Lv. 11	300	(No Element)	0	10	Green	Blue	Blue
+705	Crystalbeard Burst Lv. 12	330	(No Element)	0	10	Green	Blue	Blue
+706	Crystalbeard Burst Lv. 13	350	(No Element)	0	10	Green	Blue	Blue
+707	Crystalbeard Burst Lv. 14	370	(No Element)	0	10	Green	Blue	Blue
+708	Diamante Burst Lv. 15	380	(No Element)	0	10	Green	Blue	Blue
+709	Hardened Gunlance Lv. 1	150	Poison	25	10	Blue	Blue	White
+710	Hardened Gunlance Lv. 2	150	Poison	26	10	Blue	Blue	White
+711	Hardened Gunlance Lv. 3	160	Poison	27	10	Blue	Blue	White
+712	Hardened Gunlance Lv. 4	160	Poison	28	10	Blue	White	White
+713	Hardened Gunlance Lv. 5	170	Poison	29	10	Blue	White	White
+714	Hardened Gunlance Lv. 6	170	Poison	30	10	Blue	White	White
+715	Hardened Gunlance Lv. 7	180	Poison	31	10	Blue	White	White
+716	Hardened Gunlance Lv. 8	180	Poison	32	10	Blue	White	White
+717	Hardened Gunlance Lv. 9	180	Poison	33	10	Blue	White	White
+718	Imperial Deadeye Lv. 10	190	Poison	34	10	Blue	White	White
+719	Imperial Deadeye Lv. 11	240	Poison	35	15	White	White	White
+720	Imperial Deadeye Lv. 12	250	Poison	36	15	White	White	White
+721	Imperial Deadeye Lv. 13	260	Poison	38	15	White	White	White
+722	Imperial Deadeye Lv. 14	280	Poison	39	20	White	White	White
+723	Imperial Cataclysm Lv. 15	290	Poison	40	20	White	Purple	Purple
+724	Tomb Gunlance Lv. 1	170	Fire	19	5	Green	Blue	Blue
+725	Tomb Gunlance Lv. 2	170	Fire	20	5	Green	Blue	Blue
+726	Tomb Gunlance Lv. 3	170	Fire	21	5	Green	Blue	Blue
+727	Tomb Gunlance Lv. 4	180	Fire	22	5	Green	Blue	Blue
+728	Tomb Gunlance Lv. 5	180	Fire	23	5	Blue	White	White
+729	Tomb Gunlance Lv. 6	180	Fire	24	5	Blue	White	White
+730	Tomb Gunlance Lv. 7	190	Fire	25	5	Blue	White	White
+731	Tomb Gunlance Lv. 8	190	Fire	26	5	Blue	White	White
+732	Tomb Gunlance Lv. 9	190	Fire	27	5	Blue	White	White
+733	Regaling Chariot Lv. 10	200	Fire	28	5	Blue	White	White
+734	Regaling Chariot Lv. 11	250	Fire	29	5	White	White	White
+735	Regaling Chariot Lv. 12	270	Fire	30	5	White	White	White
+736	Regaling Chariot Lv. 13	280	Fire	31	5	White	White	White
+737	Regaling Chariot Lv. 14	300	Fire	32	5	White	White	White
+738	Rathalos Verde Lv. 15	310	Fire	34	5	White	Purple	Purple
+739	Raiden Cannon Lv. 1	150	Thunder	31	10	Green	Blue	Blue
+740	Raiden Cannon Lv. 2	150	Thunder	32	10	Green	Blue	Blue
+741	Raiden Cannon Lv. 3	150	Thunder	33	10	Green	Blue	Blue
+742	Raiden Cannon Lv. 4	160	Thunder	34	10	Green	Blue	Blue
+743	Raiden Cannon Lv. 5	160	Thunder	35	10	Blue	White	White
+744	Raiden Cannon Lv. 6	160	Thunder	36	10	Blue	White	White
+745	Raiden Cannon Lv. 7	170	Thunder	37	10	Blue	White	White
+746	Raiden Cannon Lv. 8	170	Thunder	38	10	Blue	White	White
+747	Raiden Cannon Lv. 9	170	Thunder	39	10	Blue	White	White
+748	Thunderlord Cannon Lv. 10	180	Thunder	40	10	Blue	White	White
+749	Thunderlord Cannon Lv. 11	250	Thunder	41	10	White	White	White
+750	Thunderlord Cannon Lv. 12	260	Thunder	42	10	White	White	White
+751	Thunderlord Cannon Lv. 13	270	Thunder	43	10	White	White	White
+752	Thunderlord Cannon Lv. 14	290	Thunder	44	10	White	White	White
+753	Raiden Rumbler Lv. 15	300	Thunder	45	10	White	Purple	Purple
+754	Seize Burst Lv. 1	170	(No Element)	0	10	White	White	White
+755	Seize Burst Lv. 2	170	(No Element)	0	10	White	White	White
+756	Seize Burst Lv. 3	170	(No Element)	0	10	White	White	White
+757	Seize Burst Lv. 4	180	(No Element)	0	10	White	White	White
+758	Seize Burst Lv. 5	180	(No Element)	0	10	White	White	White
+759	Seize Burst Lv. 6	180	(No Element)	0	10	White	White	White
+760	Seize Burst Lv. 7	190	(No Element)	0	10	White	White	White
+761	Seize Burst Lv. 8	190	(No Element)	0	10	White	White	White
+762	Seize Burst Lv. 9	190	(No Element)	0	10	White	White	White
+763	Grimclaw Burst Lv. 10	200	(No Element)	0	10	White	White	White
+764	Grimclaw Burst Lv. 11	270	(No Element)	0	10	White	White	White
+765	Grimclaw Burst Lv. 12	280	(No Element)	0	10	White	White	White
+766	Grimclaw Burst Lv. 13	290	(No Element)	0	10	Purple	Purple	Purple
+767	Grimclaw Burst Lv. 14	300	(No Element)	0	10	Purple	Purple	Purple
+768	Grimclaw Gunlance Lv. 15	310	(No Element)	0	10	Purple	Purple	Purple
+769	Explosive Kabeira Lv. 1	170	Blast	16	5	Blue	Blue	Blue
+770	Explosive Kabeira Lv. 2	170	Blast	17	5	Blue	Blue	Blue
+771	Explosive Kabeira Lv. 3	170	Blast	18	5	Blue	Blue	Blue
+772	Explosive Kabeira Lv. 4	180	Blast	19	5	Blue	Blue	Blue
+773	Explosive Kabeira Lv. 5	180	Blast	20	5	Blue	Blue	Blue
+774	Explosive Kabeira Lv. 6	180	Blast	21	5	Blue	Blue	White
+775	Explosive Kabeira Lv. 7	190	Blast	22	5	White	White	White
+776	Explosive Kabeira Lv. 8	190	Blast	23	5	White	White	White
+777	Explosive Kabeira Lv. 9	190	Blast	24	5	White	White	White
+778	Powderkeg Brewer Lv. 10	200	Blast	25	5	White	White	White
+779	Powderkeg Brewer Lv. 11	260	Blast	26	5	Purple	Purple	Purple
+780	Powderkeg Brewer Lv. 12	270	Blast	27	5	Purple	Purple	Purple
+781	Powderkeg Brewer Lv. 13	280	Blast	28	5	Purple	Purple	Purple
+782	Powderkeg Brewer Lv. 14	290	Blast	29	5	Purple	Purple	Purple
+783	Powderkeg Nova Lv. 15	300	Blast	30	5	Purple	Purple	Purple
+784	Cloaked Blaster Lv. 1	260	Sleep	14	5	Blue	Blue	White
+785	Cloaked Blaster Lv. 2	270	Sleep	15	5	Blue	White	White
+786	Cloaked Cannon Lv. 3	310	Sleep	16	10	Blue	White	White
+787	Cloaked Cannon Lv. 4	320	Sleep	17	10	Blue	White	White
+788	Cloaked Gloaming Lv. 5	330	Sleep	18	10	Blue	White	White
+789	Mumyo Joya Lv. 1	240	Water	26	15	White	White	White
+790	Mumyo Joya Lv. 2	260	Water	27	15	White	White	White
+791	Ajimura Sekimori Lv. 3	280	Water	28	15	White	White	White
+792	Ajimura Sekimori Lv. 4	300	Water	29	20	White	White	Purple
+793	Ajimura Chinju Lv. 5	320	Water	30	20	White	Purple	Purple
+794	Zephra Rook Lv. 1	230	Thunder	14	30	Purple	Purple	Purple
+795	Zephra Rook Lv. 2	240	Thunder	15	30	Purple	Purple	Purple
+796	Revolt Chariot Lv. 3	250	Thunder	16	35	Purple	Purple	Purple
+797	Revolt Chariot Lv. 4	270	Thunder	17	35	Purple	Purple	Purple
+798	Zilvolt Rook Lv. 5	280	Thunder	18	40	Purple	Purple	Purple
+799	Elderfrost Gunlance Lv. 1	340	Ice	12	5	Green	Green	Blue
+800	Elderfrost Gunlance Lv. 2	350	Ice	13	5	Green	Blue	Blue
+801	Elderfrost Bombadier Lv. 3	360	Ice	14	5	Green	Blue	Blue
+802	Elderfrost Bombadier Lv. 4	370	Ice	15	5	Green	Blue	White
+803	Elderfrost Broadside Lv. 5	380	Ice	16	5	Green	Blue	White
+804	Massacre Gunlance Lv. 1	330	(No Element)	0	-30	White	White	White
+805	Massacre Gunlance Lv. 2	340	(No Element)	0	-30	White	White	White
+806	Massacre Ordnance Lv. 3	350	(No Element)	0	-30	White	White	White
+807	Massacre Ordnance Lv. 4	360	(No Element)	0	-30	White	White	White
+808	Krommell Lv. 5	370	(No Element)	0	-30	White	Purple	Purple

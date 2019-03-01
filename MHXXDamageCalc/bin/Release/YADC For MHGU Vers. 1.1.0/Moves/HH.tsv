@@ -1,0 +1,56 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Draw Slam	X	30	1	Impact	1	1	15	20		No	No	
+1	Right Swing	X	30	1	Impact	1	1	20	15		No	No	
+2	Right Swing (After any attack)	X	27	1	Impact	1	1	15	15		No	No	
+3	Forward Slam	Dir. X	30	1	Impact	1	1	20	15		No	No	
+4	Forward Slam (After any attack)	X X	27	1	Impact	1	1	15	15		No	No	
+5	Left Swing	A	30	1	Impact	1	1	20	15		No	No	
+6	Double Swing	Dir. A	27	2	Impact	1	1	14	14		No	No	
+7	Double Swing (Hit 1)	Dir. A	12	1	Impact	1	1	6	6		No	No	
+8	Double Swing (Hit 2)	Dir. A	15	1	Impact	1	1	8	8		No	No	
+9	Back Swing	X+A	45	1	Impact	1	1	25	20		No	No	
+10	Swing 'n Slam	Dir. X+A	60	2	Impact	1	1	20	50		No	No	
+11	Swing 'n Slam (Swing)	Dir. X+A	15	1	Impact	1	1	5	5		No	No	
+12	Swing 'n Slam (Slam)	Dir. X+A	45	1	Impact	1	1	15	45		No	No	
+13	Hilt Jab	Sp. Atk	10	1	Cut	1	1	0	0		No	No	
+14	Recital Right Sweep	R	35	1	Impact	1	1	22	22		No	No	20 -> 35
+15	Recital Right Sweep	R	20	1	Impact	1	1	22	22		No	No	
+16	Recital Kick	Dir. X R	20	1	Impact	1	1	15	22		No	No	25 -> 20
+17	Recital Kick	Dir. X R	25	1	Impact	1	1	15	22		No	No	
+18	Recital Back Swing	X+A R	30	1	Impact	1	1	25	22		No	No	
+19	Encore Back Swings V. 1	R R	70	2	Impact	1	1	50	44		No	No	
+20	Encore Back Swings V. 2	R R	103	3	Impact	1	1	69	71		No	No	
+21	Encore Back Swings (Hit 1)	R R	33	1	Impact	1	1	22	27		No	No	
+22	Encore Back Swings (Hit 2)	R R	30	1	Impact	1	1	22	22		No	No	
+23	Encore Back Swings (Hit 3)	R R	40	1	Impact	1	1	25	22		No	No	
+24	Encore Left/Right Swings V. 1	R Dir.+R	35	1	Impact	1	1	22	22		No	No	
+25	Encore Left/Right Swings V. 2	R Dir.+R	68	2	Impact	1	1	44	49		No	No	
+26	Encore Left/Right Swings (Hit 1)	R Dir.+R	33	1	Impact	1	1	22	27		No	No	
+27	Encore Left/Right Swings (Hit 2)	R Dir.+R	35	1	Impact	1	1	22	22		No	No	
+28	Jump Swing	X	36	1	Impact	1	1	20	20		Yes	Yes	
+29	Aerial Double Swings	X	34	2	Impact	1	1	20	20		Yes	Yes	
+30	Aerial Double Swings (Hit 1)	X	12	1	Impact	1	1	10	10		Yes	Yes	
+31	Aerial Double Swings (Hit 2)	X	22	1	Impact	1	1	10	10		Yes	Yes	
+32	Adept Triple Swings	X	65	3	Impact	1	1	15	50		No	No	
+33	Adept Triple Swings (Hit 1)	X	15	1	Impact	1	1	5	15		No	No	
+34	Adept Triple Swings (Hit 2)	X	20	1	Impact	1	1	5	15		No	No	
+35	Adept Triple Swings (Hit 3)	X	30	1	Impact	1	1	5	20		No	No	
+36	Valor Recital	B R	40	2	Impact	1	1	30	30		No	No	
+37	Valor Recital (Hit 1)	B R	30	1	Impact	1	1	15	15		No	No	
+38	Valor Recital (Hit 2)	B R	10	1	Impact	1	1	15	15		No	No	
+39	Valor Encore	B R R	60	2	Impact	1	1	40	40		No	No	
+40	Valor Encore (Hit 1)	B R R	45	1	Impact	1	1	15	15		No	No	
+41	Valor Encore (Hit 2)	B R R	15	1	Impact	1	1	25	25		No	No	
+42	Sonic Smash I (Initial Hits)		5	1	Impact	1	1	5	5		Yes	No	
+43	Sonic Smash I (Setup Hit)		5	1	Impact	1	1	20	5		Yes	No	
+44	Sonic Smash II (Initial Hits)		5	1	Impact	1	1	10	10		Yes	No	
+45	Sonic Smash II (Setup Hit)		5	1	Impact	1	1	20	10		Yes	No	
+46	Sonic Smash III (Initial Hits)		5	1	Impact	1	1	15	15		Yes	No	
+47	Sonic Smash III (Setup Hit)		5	1	Impact	1	1	20	15		Yes	No	
+48	Sonic Smash I (Finisher)		*	1	Fixed	1	1	10	10		Yes	No	Damage = 30 * (1 + weaponRaw * 1.6 /100)
+49	Sonic Smash II (Finisher)		*	1	Fixed	1	1	10	10		Yes	No	Damage = 35 * (1 + weaponRaw * 1.6 /100)
+50	Sonic Smash III (Finisher)		*	1	Fixed	1	1	10	10		Yes	No	Damage = 38 * (1 + weaponRaw * 1.6 /100)
+51	Sonic Smash I (Finisher Gen)		80	1	Fixed	1	1	10	10		Yes	No	
+52	Sonic Smash II (Finisher Gen)		100	1	Fixed	1	1	10	10		Yes	No	
+53	Sonic Smash III (Finisher Gen)		150	1	Fixed	1	1	10	10		Yes	No	
+54	Invigoration (All Recitals)	R	38	1	Impact	1	1	25	22		No	No	Affects all Recitals.

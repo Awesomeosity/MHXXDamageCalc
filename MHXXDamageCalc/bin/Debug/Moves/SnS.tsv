@@ -1,0 +1,60 @@
+ID	name	combo	MV	hitCount	damageType	sharpnessMod	elementMod	KO	exhaust	moveElement	mindsEye	aerial	miscNotes
+0	Down Slash	X	14	1	Cut	1.06	1	0	0		No	No	
+1	Rush Slash	X+A	18	1	Cut	1.06	1	0	0		No	No	
+2	Up Slash	X+A X	14	1	Cut	1.06	1	0	0		No	No	
+3	Side Slash	X X	13	1	Cut	1.06	1	0	0		No	No	
+4	Shield Combo (Hit 1)	X X X	10	1	Impact	1	1	15	15		No	No	
+5	Shield Combo (Hit 2)	X X X	20	1	Cut	1.06	1	0	0		No	No	
+6	Strong Side Slash	A	21	1	Cut	1.06	1	0	0		No	No	
+7	Strong Up Slash	A A	19	1	Cut	1.06	1	0	0		No	No	
+8	Strong Round Slash	A A A	24	1	Cut	1.06	1	0	0		No	No	
+9	Shield Bash	Dir. A	8	1	Impact	1	1	10	15		No	No	
+10	Shield Thrust	Dir. A A	16	1	Impact	1	1	15	25		No	No	
+11	Charged Slash (Hit 1)	X Back A	20	1	Impact	1	1	15	25		No	No	
+12	Charged Slash (Hit 2)	X Back A	34	1	Cut	1.06	1	0	0		No	No	
+13	Uncharged Slash	X Back A	17	1	Cut	1.06	1	0	0		No	No	
+14	Jump Slash	X	20	1	Cut	1.06	1	0	0		Yes	Yes	
+15	Climbing Jump Slash	X+A	20	1	Cut	1.06	1	0	0		Yes	Yes	X+A Up Ledge.
+16	Rising Jump Slash	X+A	18	1	Cut	1.06	1	0	0		Yes	Yes	
+17	Aerial Rising Slash	B	25	1	Cut	1.06	1	0	0		Yes	Yes	Automatically performed.
+18	Aerial Downward Slash	X	20	1	Cut	1.06	1	0	0		Yes	Yes	
+19	Adept Jumping Slashes	X	40	2	Cut	1.06	1	0	0		Yes	Yes	
+20	Adept Jumping Slashes (Hit 1)	X	21	1	Cut	1.06	1	0	0		Yes	Yes	
+21	Adept Jumping Slashes (Hit 2)	X	19	1	Cut	1.06	1	0	0		Yes	Yes	
+22	Adept Lunging Counter	X+A	38	2	Cut	1.06	1	0	0		Yes	Yes	
+23	Adept Lunging Counter (Hit 1)	X+A	18	1	Cut	1.06	1	0	0		Yes	Yes	
+24	Adept Lunging Counter (Hit 2)	X+A	20	1	Cut	1.06	1	0	0		Yes	Yes	
+25	Adept Backstep Counter	X	42	1	Cut	1.06	1	0	0		Yes	Yes	
+26	Valor Stance Rush (Hit 1)	Y+X	10	1	Impact	1	1	15	25		No	No	
+27	Valor Stance Rush (Hits 2/3)	Y+X	9	1	Cut	1.06	1	0	0		No	No	
+28	Valor Rush Slash (Hit 1)	X X+A X+A	20	1	Impact	1	1	15	25		No	No	
+29	Valor Rush Slash (Hits 2/3)	X X+A X+A	10	1	Cut	1.06	1	0	0		No	No	
+30	Valor Backflip	X X+A	14	1	Cut	1.06	1	0	0		No	No	
+31	Valor Backflip Followup	X X+A	16	1	Cut	1.06	1	0	0		No	No	
+32	Valor Roundslashes	X X+A A	32	2	Cut	1.06	1	0	0		No	No	
+33	Valor Roundslashes (Hit 1)	X X+A A	14	1	Cut	1.06	1	0	0		No	No	
+34	Valor Roundslashes (Hit 2)	X X+A A	18	1	Cut	1.06	1	0	0		No	No	
+35	Sword Dance I		109	5	Cut	1.06	1	0	0		Yes	No	
+36	Sword Dance II		138	7	Cut	1.06	1	0	0		Yes	No	
+37	Sword Dance III		170	9	Cut	1.06	1	0	0		Yes	No	
+38	Sword Dance (Hit 1)		25	1	Cut	1.06	1	0	0		Yes	No	
+39	Sword Dance (Hit 2)		14	1	Cut	1.06	1	0	0		Yes	No	
+40	Sword Dance (Hits 3/4)		15	1	Cut	1.06	1	0	0		Yes	No	
+41	Sword Dance I (Hit 5)		40	1	Cut	1.06	1	0	0		Yes	No	
+42	Sword Dance II/III (Hit 5)		14	1	Cut	1.06	1	0	0		Yes	No	
+43	Sword Dance II/III (Hit 6)		15	1	Cut	1.06	1	0	0		Yes	No	
+44	Sword Dance II (Hit 7)		40	1	Cut	1.06	1	0	0		Yes	No	
+45	Sword Dance III (Hit 7)		20	1	Cut	1.06	1	0	0		Yes	No	
+46	Sword Dance III (Hit 8)		7	1	Cut	1.06	1	0	0		Yes	No	
+47	Sword Dance III (Hit 9)		45	1	Cut	1.06	1	0	0		Yes	No	
+48	Round Force I		30	1	Cut	1.06	1	0	0		Yes	No	
+49	Round Force II		50	2	Cut	1.06	1	0	0		Yes	No	
+50	Round Force III		70	3	Cut	1.06	1	0	0		Yes	No	
+51	Round Force II/III (First Hits)		20	1	Cut	1.06	1	0	0		Yes	No	
+52	Round Force (Finishing Hit)		30	1	Cut	1.06	1	0	0		Yes	No	
+53	Shoryugeki (Rush-In)		10	1	Cut	1.06	1	0	0		Yes	No	
+54	Shoryugeki I (Hit 2)		60	1	Impact	1	1	75	70		Yes	No	
+55	Shoryugeki II/III (Hit 2)		35	1	Impact	1	1	100	50		Yes	No	
+56	Shoryugeki II/III (Hit 3)		60	1	Impact	1	1	50	40		Yes	No	
+57	Shoryugeki III (Hit 4)		30	1	Impact	1	1	50	40		Yes	Yes	
+58	Chaos Oil Opener		30	1	Cut	1	1	0	0		Yes	No	
