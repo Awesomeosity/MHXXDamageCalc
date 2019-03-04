@@ -1,47 +1,73 @@
 ID	name	health	defense	KO	exhaust	GRank
-0	Village 3 Tumultuous Sprouts	4687	0.9	1.3	1.5	
-1	Village 6 The Scorching Blade	2623	1	1	1.05	
-2	Village 6 From Beyond the Sands	2623	1	1	1.05	
-3	Village 6 The Fated Four	1849	1	1	1.05	
-4	Village 6 Advanced: Jurassic Treasure	3913	0.85	1.3	1.6	
-5	Village 6 Advanced: The Goliaths	3010	0.9	1.3	1.5	
-6	Village 6 Advanced: The Field's a Stage	3268	0.85	1.3	1.6	
-7	Village 9 Desert Death Duel	4558	0.95	1.3	1.3	
-8	Village 9 Great, Glavenus Again	4558	0.95	1.3	1.3	
-9	Village 10 Advanced: Jurassic Pair	5590	0.8	1.3	1.75	
-10	*Village 10 Advanced: Generations Unite!*	5332	0.8	1.4	1.8	
-11	Hub 3 Flames of Glavenus Passion	3268	0.95	1.2	1.25	
-12	Hub 3 Bladed Glavenus	3268	0.95	1.2	1.25	
-13	Hub 3 An Early Jurassic Excursion	2365	0.95	1	1.1	
-14	Hub 6 Duel in the Volcanic Hollow	5590	0.85	1.3	1.6	
-15	Hub 6 From Beyond the Sands	5590	0.85	1.3	1.6	
-16	Hub 6 A Hollow Defense	4041	0.85	1.3	1.6	
-17	Hub 7 Hammer vs. Blade	4300	0.85	1.3	1.6	
-18	Hub 7 Bewitching Heat	4300	0.85	1.3	1.6	
-19	Hub 7 The Flames of War	4041	0.85	1.3	1.6	
-20	*Hub 7 Savage Sword of the Desert*	7138	0.8	1.4	1.85	
-21	*Hub 7 The Beasts of Brawn*	4816	0.85	1.3	1.6	
-22	Hub G3 The Boiling Broiling Desert	9589	0.75	1.7	2.3	G
-23	Hub G3 Hunter Dojo: Tail-do	9589	0.75	1.7	2.3	G
-24	Hub G3 PR Disaster	7911	0.75	1.7	2.3	G
-25	Hub G4 A Very Long Engravement	8299	0.75	1.8	2.4	G
-26	Hub G4 Fiery Four-way Fracas	8041	0.75	1.8	2.4	G
-27	*Hub G4 All Creatures Cleaved and Small*	16555	0.75	2	2.5	G
-28	*Hub G4 A Bed of Sand*	10492	0.75	2	2.5	G
-29	*Hub G4 Path of the Hunter*	8815	0.75	2	2.5	G
-30	Stonefist VIII: Hunt	5074	0.85	1.3	1.6	
-31	Crystalbeard VIII: Hunt	5074	0.85	1.3	1.6	
-32	Dreadking G4: Hunt	8815	0.75	1.6	2.2	G
-33	Hellblade X: Hunt	5461	0.85	1.3	1.6	
-34	*Hellblade G3: Hunt*	9847	0.75	1.5	2.1	G
-35	Hellblade G5: Hunt	8170	0.75	1.7	2.3	G
-36	Rustrazor G5: Hunt	7911	0.75	1.7	2.3	G
-37	Soulseer G2: Hunt	7654	0.8	1.5	2	G
-38	*Hub 1 DLC The Five Kings of Destruction*	7654	0.8	1.4	1.8	
-39	*Hub DLC Blade Blazing Brightly Black*	18490	0.75	2	2.5	G
-40	*Hub DLC Monster Hunter Channel II*	8557	0.75	1.6	2.2	G
-41	Hub DLC Baki: Deadly Claws	13760	0.75	1.5	2.1	G
-42	Arena DLC Event: Slay a Glavenus	4300	0.85	1.15	1.5	
-43	*Arena DLC Event: Hunt-a-thon 3*	1720	0.85	1.15	1.5	
-44	Arena DLC Event: Hunt-a-thon 4	1720	0.85	1.15	1.5	
-45	Arena DLC XX Trials: Hunt-a-thon IV	3655	0.85	1.15	1.5	G
+0	Village 6 The Scorching Blade	2623	1	1	1.05	
+1	Village 6 From Beyond the Sands	2623	1	1	1.05	
+2	Village 6 The Fated Four	1849	1	1	1.05	
+3	Village 6 Advanced: Jurassic Treasure	3913	0.85	1.3	1.6	
+4	Village 6 Advanced: The Goliaths	3010	0.9	1.3	1.5	
+5	Village 6 Advanced: The Field's a Stage	3268	0.85	1.3	1.6	
+6	Village 9 Desert Death Duel	4558	0.95	1.3	1.3	
+7	Village 9 Great, Glavenus Again	4558	0.95	1.3	1.3	
+8	Village 10 Advanced: Jurassic Pair	5590	0.8	1.3	1.75	
+9	*Village 10 Advanced: Generations Unite!*	5332	0.8	1.4	1.8	
+10	Hub 3 Flames of Glavenus Passion	3268	0.95	1.2	1.25	
+11	Hub 3 Bladed Glavenus	3268	0.95	1.2	1.25	
+12	Hub 3 An Early Jurassic Excursion	2365	0.95	1	1.1	
+13	Hub 6 Duel in the Volcanic Hollow	5590	0.85	1.3	1.6	
+14	Hub 6 From Beyond the Sands	5590	0.85	1.3	1.6	
+15	Hub 6 A Hollow Defense	4041	0.85	1.3	1.6	
+16	Hub 7 Hammer vs. Blade	4300	0.85	1.3	1.6	
+17	Hub 7 Bewitching Heat	4300	0.85	1.3	1.6	
+18	Hub 7 The Flames of War	4041	0.85	1.3	1.6	
+19	*Hub 7 Savage Sword of the Desert*	7138	0.8	1.4	1.85	
+20	*Hub 7 The Beasts of Brawn*	4816	0.85	1.3	1.6	
+21	Hub G3 The Boiling Broiling Desert	9589	0.75	1.7	2.3	G
+22	Hub G3 Hunter Dojo: Tail-do	9589	0.75	1.7	2.3	G
+23	Hub G3 PR Disaster	7911	0.75	1.7	2.3	G
+24	Hub G4 A Very Long Engravement	8299	0.75	1.8	2.4	G
+25	Hub G4 Fiery Four-way Fracas	8041	0.75	1.8	2.4	G
+26	*Hub G4 All Creatures Cleaved and Small*	16555	0.75	2	2.5	G
+27	*Hub G4 A Bed of Sand*	10492	0.75	2	2.5	G
+28	*Hub G4 Path of the Hunter*	8815	0.75	2	2.5	G
+29	Stonefist VIII: Hunt	5074	0.85	1.3	1.6	
+30	Crystalbeard VIII: Hunt	5074	0.85	1.3	1.6	
+31	Dreadking G4: Hunt	8815	0.75	1.6	2.2	G
+32	Hellblade X: Hunt	5461	0.85	1.3	1.6	
+33	*Hellblade G3: Hunt*	9847	0.75	1.5	2.1	G
+34	Hellblade G5: Hunt	8170	0.75	1.7	2.3	G
+35	Rustrazor G5: Hunt	7911	0.75	1.7	2.3	G
+36	Soulseer G2: Hunt	7654	0.8	1.5	2	G
+37	*Hub 1 DLC The Five Kings of Destruction*	7654	0.8	1.4	1.8	
+38	*Hub DLC Blade Blazing Brightly Black*	18490	0.75	2	2.5	G
+39	*Hub DLC Monster Hunter Channel II*	8557	0.75	1.6	2.2	G
+40	Hub DLC Baki: Deadly Claws	13760	0.75	1.5	2.1	G
+41	Arena DLC Event: Slay a Glavenus	4300	0.85	1.15	1.5	
+42	*Arena DLC Event: Hunt-a-thon 3*	1720	0.85	1.15	1.5	
+43	Arena DLC Event: Hunt-a-thon 4	1720	0.85	1.15	1.5	
+44	Arena DLC XX Trials: Hunt-a-thon IV	3655	0.85	1.15	1.5	G
+45	Village 6 The Scorching Blade (Gen)	2684	1	1	1.05	
+46	Village 6 From Beyond the Sands (Gen)	2684	1	1	1.05	
+47	Village 6 The Fated Four (Gen)	1892	1	1	1.05	
+48	Village 6 Advanced: Jurassic Treasure (Gen)	4004	0.85	1.25	1.6	
+49	Village 6 Advanced: The Goliaths (Gen)	3080	0.9	1.1	1.5	
+50	Village 6 Advanced: The Field's a Stage (Gen)	3344	0.85	1.3	1.6	
+51	Hub 3 Flames of Glavenus Passion (Gen)	3344	0.95	1	1.25	
+52	Hub 3 Bladed Glavenus (Gen)	3344	0.95	1	1.25	
+53	Hub 3 An Early Jurassic Excursion (Gen)	2420	0.95	1	1.1	
+54	Hub 6 Duel in the Volcanic Hollow (Gen)	5720	0.85	1.3	1.6	
+55	Hub 6 From Beyond the Sands (Gen)	5720	0.85	1.3	1.6	
+56	Hub 6 A Hollow Defense (Gen)	4136	0.85	1.25	1.6	
+57	Hub 7 Hammer vs. Blade (Gen)	4400	0.85	1.3	1.6	
+58	Hub 7 Bewitching Heat (Gen)	4400	0.85	1.3	1.6	
+59	Hub 7 The Flames of War (Gen)	4136	0.85	1.25	1.6	
+60	*Hub 7 Savage Sword of the Desert (Gen)*	8360	0.8	2	1.85	
+61	*Hub 7 The Beasts of Brawn (Gen)*	5456	0.85	1.3	1.6	
+62	Stonefist VIII: Hunt (Gen)	5192	0.85	1.3	1.6	
+63	Crystalbeard VIII: Hunt (Gen)	5192	0.85	1.3	1.6	
+64	Hellblade X: Hunt (Gen)	5588	0.85	1.5	1.6	
+65	Hub 1 DLC Flames of Savagery at USJ (Gen)	4928	0.85	1.2	1.5	
+66	*Hub 1 DLC Blazing Thunder at USJ (Gen)*	7832	0.8	1.9	1.8	
+67	Hub 1 DLC Frost and Fire at USJ (Gen)	5192	0.85	1.3	1.6	
+68	*Hub 1 DLC The Five Kings of Destruction (Gen)*	7832	0.8	1.9	1.8	
+69	Arena DLC Event: Slay a Glavenus	4400	0.85	1.15	1.5	
+70	*Arena DLC Event: Hunt-a-thon 3*	1760	0.85	1.15	1.5	
+71	Arena DLC Event: Hunt-a-thon 4	1760	0.85	1.15	1.5	

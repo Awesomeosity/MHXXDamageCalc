@@ -1,5 +1,5 @@
 ID	name	health	defense	KO	exhaust	GRank
-0	Village 6 Dark Wings Dark Work	3050	1	1	1.05	
+0	Village 6 Dark Wings, Dark Work	3050	1	1	1.05	
 1	Village 6 Advanced: State in Flux	3500	0.85	1.3	1.6	
 2	Village 9 Ruined and Tarnished	5300	0.95	1.3	1.3	
 3	Village 9 Primal Panic	5300	0.95	1.3	1.3	
@@ -16,3 +16,12 @@ ID	name	health	defense	KO	exhaust	GRank
 14	*Hub 1 DLC Magi: Rescue from the Fall*	10700	0.8	1.5	2	
 15	*Hub DLC Monster Hunter Channel II*	9500	0.75	1.6	2.2	G
 16	Arena DLC Event: Slay a Gore Magala	4250	0.85	1.15	1.5	
+17	Village 6 Dark Wings, Dark Work (Gen)	2928	1	1	1.05	
+18	Village 6 Advanced: State in Flux (Gen)	3360	0.85	1.3	1.6	
+19	Hub 3 Dark Wings, Dark Work (Gen)	3648	0.95	1	1.25	
+20	Hub 6 Watch Your Steppe (Gen)	6240	0.85	1.3	1.6	
+21	Hub 6 Dread Locked (Gen)	6240	0.85	1.3	1.6	
+22	Hub 7 The Gathering Storm (Gen)	4512	0.85	1.25	1.6	
+23	*Hub 7 Putting the Gore in Magala (Gen)*	8256	0.8	2	1.85	
+24	*Hub 1 DLC Magi: Rescue from the Fall (Gen)*	10272	0.8	2.2	2	
+25	Arena DLC Event: Slay a Gore Magala (Gen)	4080	0.85	1.15	1.5	

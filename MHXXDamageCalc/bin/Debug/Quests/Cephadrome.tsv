@@ -5,9 +5,11 @@ ID	name	health	defense	KO	exhaust	GRank
 3	Hub 1 In Pursuit of the Sand Wyvern	1830	0.95	1.1	1.15	
 4	Hub 4 The Land Sharq	3270	0.9	1.3	1.5	
 5	Hub 5 Line in the Sand	2550	0.85	1.3	1.5	
-6	Hub 5 Line in the Sand	2550	0.85	1.3	1.5	
-7	Hub 5 Hunt Sweat and Tears	2280	0.9	1.3	1.5	
+7	Hub 5 Hunt, Sweat, and Tears	2280	0.9	1.3	1.5	
 8	Hub G1 A Berry Dubious Idea	4890	0.8	1.4	1.8	G
 9	Hub G1 A Berry Dubious Idea	4890	0.8	1.4	1.8	G
 10	Hub G1 Surprise!	4350	0.8	1.4	1.8	G
 11	Hub G3 Frontier Fisticuffs	4709	0.8	1.5	1.9	G
+12	Hub 4 The Land Sharq (Gen)	3270	0.9	1.1	1.5	
+13	Hub 5 Line in the Sand (Gen)	2550	0.85	1.2	1.5	
+14	Hub 5 Hunt, Sweat, and Tears (Gen)	2280	0.9	1.1	1.5	
