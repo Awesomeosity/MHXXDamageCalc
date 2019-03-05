@@ -2,32 +2,43 @@ ID	name	health	defense	KO	exhaust	GRank
 0	Village 4 The Nocturnal Enchanter	1960	1	0.95	0.95	
 1	Village 4 Island Menace	1960	1	0.95	0.95	
 2	Village 5 Double Vision	1480	1	1	1	
-3	Village 5 Double Vision	1480	1	1	1	
-4	Village 5 A Late Jurassic Excursion	1480	1	1	1	
-5	Village 6 Advanced: Barrage of Blue	2800	0.9	1.3	1.5	
-6	Village 8 Dazed and Confused	3880	0.95	1.1	1.2	
-7	Village 8 Deserted Island Missive	2920	0.95	1.1	1.2	
-8	Village 10 Deserted Islands Horror	3280	0.95	1.3	1.4	
-9	Hub 2 Insomnia? Meet Hypnotism	2680	0.95	1.1	1.2	
-10	Hub 2 Malfestio Festival	2680	0.95	1.1	1.2	
-11	Hub 5 The Intelligent Malfestio	4480	0.85	1.3	1.5	
-12	Hub 5 Insomnia? Meet Hypnotism x 2	3400	0.85	1.3	1.5	
-13	Hub 5 Insomnia? Meet Hypnotism x 2	3400	0.85	1.3	1.5	
-14	Hub 5 Status: Effected	3400	0.85	1.3	1.5	
-15	Hub 6 Bugging Out	3760	0.85	1.3	1.6	
-16	*Hub 6 Woe Malfestio*	6040	0.8	1.3	1.75	
-17	Hub 7 A Song of White and Lapis	4000	0.85	1.3	1.6	
-18	*Hub 7 The Birds of Prey*	4840	0.85	1.3	1.6	
-19	Hub G2 Treasure Pinnacle: Rice	8440	0.8	1.4	1.85	G
-20	Hub G2 The Owled Man and the Sea	8440	0.8	1.4	1.85	G
-21	Hub G3 Primal Forest Fears	6880	0.8	1.5	1.9	G
-22	*Hub G3 Sweets for My Sweets*	14400	0.75	2	2.5	G
-23	Hub G4 Jurassic Skulduggery	7000	0.8	1.5	2	G
-24	Hub 6 Malfestio Headbreaker	7359	0.85	1.3	1.6	
-25	Redhelm V: Hunt	3760	0.85	1.3	1.6	
-26	*Rustrazor G3: Hunt*	8680	0.75	1.5	2	G
-27	Arena Grudge Match: Malfestio	1360	0.95	1	1.15	
-28	*Hub 1 DLC Okami: Most Wanted*	7359	0.8	1.5	1.9	
-29	Hub 1 DLC The Three Virtues	4720	0.85	1.3	1.6	
-30	*Hub DLC Shonen: Winged Nocturne*	14400	0.75	2	2.5	G
-31	Arena DLC XX Trials: Hunt-a-thon IV	3400	0.85	1.15	1.5	G
+3	Village 5 A Late Jurassic Excursion	1480	1	1	1	
+4	Village 6 Advanced: Barrage of Blue	2800	0.9	1.3	1.5	
+5	Village 8 Dazed and Confused	3880	0.95	1.1	1.2	
+6	Village 8 Deserted Island Missive	2920	0.95	1.1	1.2	
+7	Village 10 Deserted Islands Horror	3280	0.95	1.3	1.4	
+8	Hub 2 Insomnia? Meet Hypnotism	2680	0.95	1.1	1.2	
+9	Hub 2 Malfestio Festival	2680	0.95	1.1	1.2	
+10	Hub 5 The Intelligent Malfestio	4480	0.85	1.3	1.5	
+11	Hub 5 Insomnia? Meet Hypnotism x 2	3400	0.85	1.3	1.5	
+12	Hub 5 Status: Effected	3400	0.85	1.3	1.5	
+13	Hub 6 Bugging Out	3760	0.85	1.3	1.6	
+14	*Hub 6 Woe Malfestio*	6040	0.8	1.3	1.75	
+15	Hub 7 A Song of White and Lapis	4000	0.85	1.3	1.6	
+16	*Hub 7 The Birds of Prey*	4840	0.85	1.3	1.6	
+17	Hub G2 Treasure Pinnacle: Rice	8440	0.8	1.4	1.85	G
+18	Hub G2 The Owled Man and the Sea	8440	0.8	1.4	1.85	G
+19	Hub G3 Primal Forest Fears	6880	0.8	1.5	1.9	G
+20	*Hub G3 Sweets for My Sweets*	14400	0.75	2	2.5	G
+21	Hub G4 Jurassic Skulduggery	7000	0.8	1.5	2	G
+22	Hub 6 Malfestio Headbreaker	7359	0.85	1.3	1.6	
+23	Redhelm V: Hunt	3760	0.85	1.3	1.6	
+24	*Rustrazor G3: Hunt*	8680	0.75	1.5	2	G
+25	Arena Grudge Match: Malfestio	1360	0.95	1	1.15	
+26	*Hub 1 DLC Okami: Most Wanted*	7359	0.8	1.5	1.9	
+27	Hub 1 DLC The Three Virtues	4720	0.85	1.3	1.6	
+28	*Hub DLC Shonen: Winged Nocturne*	14400	0.75	2	2.5	G
+29	Arena DLC XX Trials: Hunt-a-thon IV	3400	0.85	1.15	1.5	G
+30	Village 6 Advanced: Barrage of Blue (Gen)	2800	0.9	1.1	1.5	
+31	Hub 2 Insomnia? Meet Hypnotism (Gen)	2680	0.95	1	1.2	
+32	Hub 2 Malfestio Festival (Gen)	2680	0.95	1	1.2	
+33	Hub 5 The Intelligent Malfestio (Gen)	4480	0.85	1.2	1.5	
+34	Hub 5 Insomnia? Meet Hypnotism (Gen) x 2	3400	0.85	1.2	1.5	
+35	Hub 5 Status: Effected (Gen)	3400	0.85	1.2	1.5	
+36	Hub 6 Bugging Out (Gen)	3760	0.85	1.25	1.6	
+37	*Hub 6 Woe Malfestio (Gen)*	6760	0.8	1.7	1.7	
+38	*Hub 7 The Birds of Prey (Gen)*	5680	0.85	1.6	1.65	
+39	Hub 6 Malfestio Headbreaker (Gen)	5680	0.85	1.25	1.6	
+40	Redhelm V: Hunt (Gen)	3760	0.85	1.25	1.6	
+41	Hub 1 DLC Dance of Dreams at USJ (Gen)	4720	0.85	1.3	1.6	
+42	*Hub 1 DLC Okami: Most Wanted (Gen)*	8800	0.8	2.1	1.9	

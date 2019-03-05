@@ -8,7 +8,7 @@ ID	name	health	defense	KO	exhaust	GRank
 6	Hub 3 Making it Safe for Swine	2135	0.95	1	1.1	
 7	Hub 5 The Ioprey Leader	4130	0.85	1.3	1.5	
 8	Hub 5 Poisonous Pair	3185	0.85	1.3	1.5	
-9	Hub 5 Hunt Sweat and Tears	2870	0.9	1.3	1.5	
+9	Hub 5 Hunt, Sweat, and Tears	2870	0.9	1.3	1.5	
 10	Hub G2 Minion's Devotion	6755	0.8	1.4	1.85	G
 11	Village 6 Poison and Fangs	2029	1	1	1	
 12	Village 9 Pitty and Poison	3500	0.95	1.3	1.3	
@@ -20,5 +20,9 @@ ID	name	health	defense	KO	exhaust	GRank
 18	Arena Grudge Match: Bird Wyverns	1085	0.95	1	1.15	
 19	Hub DLC Jump: Crimson Strongmen	1610	0.95	1	1.05	
 20	Hub 1 DLC Fan Club: Great All Stars	3710	0.85	1.3	1.6	
-21	Hub 2 Poisonous Pest	2555	0.95	1.1	1.2	
-22	Hub 5 The Ioprey Leader	4130	0.85	1.2	1.5	
+21	Hub 2 Poisonous Pest (Gen)	2555	0.95	1	1.2	
+22	Hub 5 The Ioprey Leader (Gen)	4130	0.85	1.2	1.5	
+23	Hub 5 Poisonous Pair (Gen)	3185	0.85	1.2	1.5	
+24	Hub 5 Hunt, Sweat, and Tears (Gen)	2870	0.9	1.1	1.5	
+25	Hub 6 Everywhere You Look (Gen)	2240	0.85	1.25	1.6	
+26	Hub 6 Everywhere You Look (Gen)	2450	0.85	1.25	1.6	
