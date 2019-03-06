@@ -49,8 +49,8 @@ namespace MHXXDamageCalc
         "Now finally out of Beta!'", "Are *you* the monster in 'Monster Hunter'?'", "I'M GONNA PUNCH THIS HUNTER SO HARD HE EXPLODES'", "Definitely *not* dedicated to Kayamba.'",
         "4U Best Game! ...Wait'", "Is that Soulseer as the icon or just a Mizutsune?'", "Jaggia? Never even met her!'", "Teostra needs to get his paws out of the Doritos.'",
         "Na Na na na Na Na na na Nargacuga!'", "Honts?'", "MH3U: 7.8/10 Too Much Water.'", "Chameleos is just the cutest Elder Dragon.'", "Mizumi desu~'", "Yukari here. >_<'", "Yes? It's Ashlynn here.'", "Made by Awesomeosity!'", "Mmm? What business do you have with me, Fiore?'",
-        "4 Slots.", "EX-tremely Special Hunting", "Guild/No Arts wen", "Who would win, Stonefist or Rustrazor?", "Thank goodness Hypers don't invade.", "So how about Hunter in Smash?",
-        "Blep", "Boop on snoot wen?", "Jhome Alone 2", "Insert Witty Comment Here"};
+        "4 Slots.'", "EX-tremely Special Hunting'", "Guild/No Arts wen'", "Who would win, Stonefist or Rustrazor?'", "Thank goodness Hypers don't invade.'", "So how about Hunter in Smash?'",
+        "Blep'", "Boop on snoot wen?'", "Jhome Alone 2'", "Insert Witty Comment Here'"};
 
         
 
