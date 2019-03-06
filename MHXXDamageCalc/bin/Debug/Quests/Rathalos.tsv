@@ -1,6 +1,6 @@
 ID	name	health	defense	KO	exhaust	GRank
 0	Village 5 Island Heat	2184	1	1	1	
-1	Village 5 A King Robed in Smoke	2184	1	1	1	
+1	Village 5 A King, Robed in Smoke	2184	1	1	1	
 2	Village 6 The Perilous Pair	1806	1	1	1.05	
 3	Village 6 Advanced: Invoking Rath	2940	0.9	1.3	1.5	
 4	Village 6 Advanced: The Goliaths	2940	0.9	1.3	1.5	
@@ -39,3 +39,18 @@ ID	name	health	defense	KO	exhaust	GRank
 37	*Hub DLC Monster Hunter Channel I*	7224	0.75	1.6	2.2	G
 38	Arena DLC Event: Slay a Rathalos	3570	0.85	1.15	1.5	
 39	Arena DLC XX Trials: Rathalos	3570	0.85	1.15	1.5	
+40	Village 6 Advanced: Invoking Rath (Gen)	2940	0.9	1.1	1.5	
+41	Village 6 Advanced: The Goliaths (Gen)	2940	0.9	1.1	1.5	
+42	Village 6 Advanced: Seeing Red (Gen)	2940	0.9	1.1	1.5	
+43	Hub 3 The King's Domain (Gen)	3192	0.95	1	1.25	
+44	Hub 3 Heaven and Earth (Gen)	2310	0.95	1	1.1	
+45	Hub 6 Heaven and Earth (Gen)	3948	0.85	1.25	1.6	
+46	Hub 6 At the Slayground (Gen)	3948	0.85	1.25	1.6	
+47	Hub 7 The Flames of War (Gen)	3948	0.85	1.25	1.6	
+48	*Hub 7 A Fiery Temper (Gen)*	7224	0.8	2	1.85	
+49	*Hub 7 Wyverns All Around Us (Gen)*	5460	0.85	1.6	1.65	
+50	*Hub 7 Show Me Your Shaka-Strength (Gen)*	5460	0.85	1.6	1.65	
+51	*Hub 7 The Winged Wyverns (Gen)*	5460	0.85	1.6	1.65	
+52	Hub 1 DLC Ghosts 'n Goblins: Seeing Red (Gen)	8988	0.8	2.2	2	
+53	Hub 1 DLC The Greatest Hunter (Gen)	5334	0.85	1.5	1.6	
+54	Hub 1 DLC Catch a Rathalos by the Tail (Gen)	6720	0.85	1.5	1.6	
